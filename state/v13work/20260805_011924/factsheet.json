@@ -1,0 +1,56 @@
+{
+  "person": {
+    "name": "김희애",
+    "gender": "여",
+    "job": "여배우",
+    "birth_year": null,
+    "age": 58,
+    "age_range": "50대",
+    "career": "",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "김희애", "text": "이거 싼 거야", "context": "MBC 놀면 뭐하니에서 고급미 넘치는 패션에 극찬이 쏟아지자 솔직 고백"}
+  ],
+  "events": [
+    {"summary": "유아인과 파격 포즈로 패션잡지 엘르 표지 공개", "year": null, "confirmed": true},
+    {"summary": "긴 머리를 자르고 숏컷(보브)으로 변신", "year": null, "confirmed": true},
+    {"summary": "쁘렝땅과 협업한 화이트 액세서리가 애정템으로 화제", "year": null, "confirmed": true},
+    {"summary": "놀면 뭐하니 출근길에 구루프를 주렁주렁 단 모습 공개", "year": null, "confirmed": true},
+    {"summary": "채정안과 함께 테일러드 수트 베스트룩 선보임", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "58세", "meaning": "현재 나이"},
+    {"value": "5km", "meaning": "거뜬히 소화한다는 러닝 거리"}
+  ],
+  "related_people": [
+    {"name": "유아인", "relation": "엘르 표지 함께 촬영", "mentioned_as": "김희애 유아인의 파격 포즈"},
+    {"name": "채정안", "relation": "테일러드 수트 베스트룩 함께 화보", "mentioned_as": "김희애-채정안"},
+    {"name": "전지현", "relation": "봄버 재킷 셀럽스타일 기사에 함께 언급", "mentioned_as": "제니·전지현·손예진·김희선·송혜교·아이유"}
+  ],
+  "beauty_evidence": [
+    "58세인데 힙한데 우아하다는 평 (뉴스엔)",
+    "MZ도 자극받을 시크 사복 패션, 자기관리 끝판왕 (뉴스엔)",
+    "세월을 거스르는 자라는 표현 (v.daum.net)",
+    "이유있는 58세 완벽 바디라인 (fashionn.com)",
+    "나이를 잊은 고품격 플레어 코트룩 (v.daum.net)"
+  ],
+  "care_habits": [
+    "5km 러닝도 거뜬한 트레일 러닝",
+    "기본 셔츠·캐시미어 등 기본에 충실한 클래식 미니멀 스타일 선호",
+    "출근길에도 구루프로 볼륨을 절대 사수하는 헤어 관리"
+  ],
+  "hot_materials": [
+    {"material": "고급미 넘치는 패션에 극찬 쏟아지자 '이거 싼 거야' 솔직 고백 (놀면 뭐하니)", "why_hot": "발언"},
+    {"material": "58세인데 MZ도 자극받는 시크 사복, 자기관리 끝판왕", "why_hot": "낙차"},
+    {"material": "유아인과 파격 포즈로 엘르 표지 촬영", "why_hot": "실명"},
+    {"material": "출근길에 구루프 주렁주렁 달고 볼륨 절대 사수", "why_hot": "장면"},
+    {"material": "긴 머리 자르고 숏컷 변신, 올블랙 정제된 우아함", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "놀면 뭐하니 출근길, 머리에 구루프를 주렁주렁 단 채 나타난 모습",
+    "압구정동에 파워슈트를 안쪽 어깨에 툭 걸치고 나타난 순간",
+    "숏컷으로 자르고 올블랙 셋업 슈트로 까페에 나타난 날",
+    "청담동 거리를 플레어 코트 차림으로 걷는 외출길"
+  ]
+}
