@@ -267,11 +267,12 @@ def stage_body():
     ranked = sorted(titles, key=lambda t: -t.get("heat", 0))
     top = ranked[0]
 
-    # 예비 후보 저장 (2~10위)
-    lines = [f"[확정] 🔥{top['heat']}|{top.get('hook','')}  {top['title']}",
-             "─── 예비 ───"]
-    for i, t in enumerate(ranked[1:], 2):
-        lines.append(f"{i:>2}. 🔥{t['heat']}|{t.get('hook','')}  {t['title']}")
+    # 예비 후보 저장 (2~10위).
+    # 라벨·번호 없이 제목만, 빈 줄 간격 — 복사 붙여넣기 최우선 (사용자 확정 2026-08-05).
+    # 화력·후킹 라벨이 필요하면 state/v13work/<세션>/ranked.json 에 그대로 있다.
+    lines = ["[확정]", "", top["title"], "", "─── 예비 ───"]
+    for t in ranked[1:]:
+        lines += ["", t["title"]]
     out_dir = os.path.join(OUT_ROOT, _person_tag(fs))
     _write(os.path.join(out_dir, "예비제목.txt"), "\n".join(lines) + "\n")
     _jdump(os.path.join(d, "ranked.json"), ranked)
