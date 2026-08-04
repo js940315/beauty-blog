@@ -105,8 +105,16 @@ def validate_titles(titles: list, factsheet: dict) -> list:
 
 # ── 검증 3: 본문 ───────────────────────────────────────────────────────
 
+def _is_quote_only(stripped: str) -> bool:
+    """큰따옴표로 시작하고 끝나는 줄 — 도입 인용구(1개) 또는 소제목(4개)."""
+    return (len(stripped) >= 3
+            and stripped[0] in '"“' and stripped[-1] in '"”')
+
+
 def _is_subhead(stripped: str) -> bool:
-    return stripped.startswith("**")
+    # 소제목은 별표 없이 큰따옴표만 쓴다 (네이버가 마크다운을 해석 못 해
+    # 별표가 그대로 노출된다 — 실측). 별표 형식은 아래에서 따로 잡는다.
+    return _is_quote_only(stripped) or stripped.startswith("**")
 
 
 def _is_tag(stripped: str) -> bool:
@@ -165,11 +173,15 @@ def validate_body(body: str, factsheet: dict, state: dict) -> list:
 
     if ".jpg" in body:
         errs.append("본문에 .jpg 노출")
+    if "**" in body:
+        errs.append("소제목에 별표(**) 사용 — 네이버에 그대로 노출된다. 큰따옴표만 쓸 것")
 
-    # 소제목 4개 확인
-    subheads = [l for l in lines if _is_subhead(l.replace(U2800, "").strip())]
-    if len(subheads) != 4:
-        errs.append(f"소제목 {len(subheads)}개 — 4챕터 필요")
+    # 큰따옴표 단독 줄 = 도입 인용구 1 + 소제목 4, 딱 다섯이어야 한다
+    quote_lines = [l for l in lines
+                   if _is_quote_only(l.replace(U2800, "").strip())]
+    if len(quote_lines) != 5:
+        errs.append(f"큰따옴표 단독 줄 {len(quote_lines)}개 — "
+                    "도입 인용구 1 + 소제목 4 = 5개여야 함")
 
     # 해시태그
     tags = [l.replace(U2800, "").strip() for l in lines
@@ -237,7 +249,7 @@ def _selftest():
     B = U2800
     good_lines = ['"그 말 한마디였습니다"' + B, B * 3]
     for ch in range(4):
-        good_lines.append('**"소제목 어쩌고"**' + B)
+        good_lines.append(f'"소제목 어쩌고 {ch + 1}번"' + B)
         good_lines.append(B * 3)
         for p in range(4):
             good_lines += ["여기 열다섯 자짜리 문장이" + B,
@@ -254,6 +266,11 @@ def _selftest():
     errs = validate_body(broken, fs, {})
     assert any("큰따옴표" in e for e in errs)
     assert any("해시태그가 아님" in e for e in errs)
+
+    # 별표 소제목은 즉시 잡혀야 한다 (네이버 노출 사고 방지)
+    starred = body.replace('"소제목 어쩌고 1번"' + B, '**"소제목 어쩌고 1번"**' + B, 1)
+    errs = validate_body(starred, fs, {})
+    assert any("별표" in e for e in errs), errs
 
     # 직업 불일치 태그
     errs = validate_body(body.replace("#무용가미모", "#여배우미모"), fs, {})
