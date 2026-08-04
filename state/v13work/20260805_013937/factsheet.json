@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "전지현",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": 44,
+    "age_range": "40대",
+    "career": "",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "전지현", "text": "매일 운동과 건강한 식습관", "context": "iMBC 영상 인터뷰에서 밝힌 관리 비결"},
+    {"speaker": "전지현", "text": "하루 두끼 식사, 매일 아침 운동", "context": "스포츠경향이 전한 몸매 관리 비법"},
+    {"speaker": "전지현", "text": "PT랑 킥복싱을 병행해요. 숨 넘어갈 정도로 운동해요", "context": "tvN 십오야에서 공개한 관리 비법"},
+    {"speaker": "전지현", "text": "오후 2시에 첫 끼", "context": "네이트·한국경제가 전한 식사 루틴"},
+    {"speaker": "전지현", "text": "러닝이랑 복싱 하고 있어요", "context": "조선닷컴이 전한 9년 만의 공식석상 루틴 공개"}
+  ],
+  "events": [
+    {"summary": "44세에 무대인사에서 크롭톱으로 11자 복근 공개, 9년 만의 공식석상", "year": null, "confirmed": true},
+    {"summary": "루이 비통 새 하우스 앰버서더로 발탁", "year": null, "confirmed": true},
+    {"summary": "탑텐 새 브랜드 앰버서더로 선정", "year": null, "confirmed": true},
+    {"summary": "안다르와 런부스트 컬렉션 화보 공개", "year": null, "confirmed": true},
+    {"summary": "트레이드마크였던 긴 머리를 자르고 파격 단발 변신", "year": null, "confirmed": true},
+    {"summary": "홍콩에서 구릿빛 태닝 근황 공개, 하얀 피부에서 파격 변화", "year": null, "confirmed": true},
+    {"summary": "결혼 12주년을 맞은 두 아이 엄마", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "44세", "meaning": "현재 나이"},
+    {"value": "11자", "meaning": "무대인사에서 공개된 복근 모양"},
+    {"value": "9년", "meaning": "복근을 공식석상에서 드러낸 간격"},
+    {"value": "오후 2시", "meaning": "본인이 밝힌 첫 끼 시간"},
+    {"value": "새벽 6시", "meaning": "매일 운동한다고 알려진 시간"},
+    {"value": "12주년", "meaning": "결혼 연차"},
+    {"value": "두 끼", "meaning": "하루 식사 횟수"}
+  ],
+  "related_people": [
+    {"name": "신민아", "relation": "여신들의 미모 대치 기사에 함께 언급", "mentioned_as": "관리의 정답 전지현"},
+    {"name": "변우석", "relation": "FW 스타일 제안 기사에 함께 언급", "mentioned_as": "전지현·변우석"},
+    {"name": "신혜선", "relation": "고등학교 때 별명이 전지현이었다고 밝힘", "mentioned_as": "별명 전지현"}
+  ],
+  "beauty_evidence": [
+    "무대인사에서 드러난 11자 복근에 자기관리 끝판왕 평 (마이데일리)",
+    "정말 아이 둘 엄마 맞냐는 반응의 역대급 크롭톱 실물 (animalplanet)",
+    "40대 믿기지 않는 동안 미모 (헬스조선)",
+    "관리의 정답이라는 수식어 (매경스포츠)"
+  ],
+  "care_habits": [
+    "하루 두 끼, 첫 끼는 오후 2시",
+    "매일 아침 운동, 새벽 6시 운동 루틴",
+    "PT와 킥복싱 병행, 러닝과 복싱",
+    "깨끗한 물을 챙겨 마시는 습관"
+  ],
+  "hot_materials": [
+    {"material": "44세 무대인사에서 크롭톱으로 11자 복근 공개, 9년 만의 공식석상", "why_hot": "장면"},
+    {"material": "아이 둘 엄마인데 역대급 크롭톱 실물", "why_hot": "낙차"},
+    {"material": "오후 2시 첫 끼 + 숨 넘어갈 정도의 PT·킥복싱 루틴 본인 고백", "why_hot": "발언"},
+    {"material": "루이 비통 하우스 앰버서더 발탁", "why_hot": "실명"},
+    {"material": "트레이드마크 긴 머리 싹둑, 하얀 피부 버리고 구릿빛 태닝", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "무대인사장에서 크롭톱 아래로 11자 복근이 드러난 순간",
+    "홍콩 행사장에 구릿빛 피부로 나타나 현장이 술렁인 날",
+    "긴 머리를 싹둑 자르고 단발로 나타난 공식석상"
+  ]
+}

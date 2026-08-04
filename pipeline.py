@@ -50,9 +50,27 @@ def _read(path):
 
 
 def _write(path, text):
+    """숨김 속성 파일도 안전하게 덮어쓴다.
+
+    윈도우는 숨김 파일을 open("w") 로 열면 PermissionError 를 낸다.
+    로컬 편의로 루트 파일을 숨겨두는 운영 방식과 충돌하므로,
+    쓰기 전에 잠깐 풀었다가 끝나면 되살린다.
+    """
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    hidden = False
+    if os.name == "nt" and os.path.exists(path):
+        import ctypes
+        HIDDEN = 2
+        attrs = ctypes.windll.kernel32.GetFileAttributesW(path)
+        if attrs not in (-1, 0xFFFFFFFF) and attrs & HIDDEN:
+            hidden = True
+            ctypes.windll.kernel32.SetFileAttributesW(path, attrs & ~HIDDEN)
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         f.write(text)
+    if hidden:
+        import ctypes
+        attrs = ctypes.windll.kernel32.GetFileAttributesW(path)
+        ctypes.windll.kernel32.SetFileAttributesW(path, attrs | 2)
 
 
 def _jload(path, default=None):
