@@ -1,0 +1,48 @@
+{
+  "date": "2026-08-05",
+  "celeb": "김희애",
+  "richness": "thin",
+  "sources": 141,
+  "title": {
+    "title": "명품 같은데 싼 옷이라는 58세 여배우의 반전 쇼핑법",
+    "score": 80,
+    "reasons": [
+      "앞20자 숫자 +30",
+      "앞20자 다이어트 신호어 +22",
+      "앞20자 인물 특정 +14",
+      "단정형 종결 +8",
+      "숫자 1개 +6"
+    ]
+  },
+  "cta": "오늘 립 하나만 바꿔보는 것도 시작이 됩니다.",
+  "content_lines": 59,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": [
+    {
+      "slot": 1,
+      "category": "가방",
+      "photo": "가방_0s_pexels_2.jpg",
+      "file": "1번 사진.jpg"
+    },
+    {
+      "slot": 2,
+      "category": "드레스",
+      "photo": "드레스_0s_pexels_2.jpg",
+      "file": "2번 사진.jpg"
+    },
+    {
+      "slot": 3,
+      "category": "구두",
+      "photo": "구두_1s_pexels_1.jpg",
+      "file": "3번 사진.jpg"
+    },
+    {
+      "slot": 4,
+      "category": "주얼리",
+      "photo": "주얼리_0s_unsplash_1.jpg",
+      "file": "4번 사진.jpg"
+    }
+  ]
+}
