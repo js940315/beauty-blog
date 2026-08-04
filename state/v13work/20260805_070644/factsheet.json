@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "아이유",
+    "gender": "여",
+    "job": "아티스트",
+    "birth_year": null,
+    "age": 33,
+    "age_range": "30대",
+    "career": "",
+    "major_work": "21세기 대군부인"
+  },
+  "quotes": [
+    {"speaker": "아이유", "text": "일이 제 유일한 취미예요", "context": "보그 인터뷰"},
+    {"speaker": "아이유", "text": "몸매 비결은 연두부 치즈전. 라면 좋아하지만 참는다", "context": "뉴시스가 전한 발언"},
+    {"speaker": "아이유", "text": "야식은 연두부. 칼로리가 낮아서", "context": "셰프 안성재 방송에서"},
+    {"speaker": "아이유", "text": "최애 음식은 라면, 관리 때문에 진짜 못 참을 때만 먹어", "context": "RE:뷰 인터뷰"},
+    {"speaker": "아이유", "text": "팬이라 몰입이 쉬웠다", "context": "21세기 대군부인 이연과의 팀워크를 두고 (네이트)"}
+  ],
+  "events": [
+    {"summary": "예거 르쿨트르 앰버서더 선정, 시간을 초월하는 완벽함이라는 소개", "year": null, "confirmed": true},
+    {"summary": "제이에스티나 에테르 컬렉션 화보 공개", "year": null, "confirmed": true},
+    {"summary": "서울월드컵경기장 10만석을 단숨에 매진시키고 잔디 관리에 총력이라고 밝힘", "year": null, "confirmed": true},
+    {"summary": "21세기 대군부인에서 재벌가 포스의 명품 백 스타일링 화제", "year": null, "confirmed": true},
+    {"summary": "근접샷에도 모공이 안 보이는 굴욕 없는 비주얼 화제", "year": null, "confirmed": true},
+    {"summary": "해외 일정에 전기장판을 챙기고 민낯도 거리낌 없는 현실 루틴 공개", "year": null, "confirmed": true},
+    {"summary": "김밥 한 알을 30분 동안 씹는 식습관이 화제", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "33살", "meaning": "현재 나이"},
+    {"value": "18살", "meaning": "유지한다는 외모 평가 기준"},
+    {"value": "44kg", "meaning": "알려진 몸무게"},
+    {"value": "30분", "meaning": "김밥 한 알을 씹는 시간"},
+    {"value": "10만석", "meaning": "단숨에 매진시킨 서울월드컵경기장 규모"}
+  ],
+  "related_people": [
+    {"name": "이연", "relation": "21세기 대군부인에서 팀 캐슬뷰티 팀워크", "mentioned_as": "아이유X이연"},
+    {"name": "카리나", "relation": "여성 등산복 스커트 열풍 기사에 함께 언급", "mentioned_as": "아이유도, 카리나도 입었다"}
+  ],
+  "beauty_evidence": [
+    "근접샷에도 굴욕 0%인 현실 비주얼 (매일경제)",
+    "모공이 어디 있냐는 반응 (매일경제)",
+    "33살인데 18살 외모를 유지한다는 평 (헤럴드경제)"
+  ],
+  "care_habits": [
+    "김밥 한 알을 30분 동안 씹는 천천히 먹기",
+    "야식은 라면 대신 칼로리 낮은 연두부",
+    "아침 공복 식단이 연달아 기사화될 만큼 루틴이 화제 (구체 품목은 기사마다 가림)",
+    "일을 유일한 취미라 부를 만큼의 자기관리"
+  ],
+  "hot_materials": [
+    {"material": "김밥 한 알을 30분 동안 씹는 식습관", "why_hot": "장면"},
+    {"material": "33살인데 18살 외모를 유지한다는 낙차", "why_hot": "낙차"},
+    {"material": "최애가 라면인데 야식은 연두부라는 본인 고백", "why_hot": "발언"},
+    {"material": "서울월드컵경기장 10만석 단숨 매진", "why_hot": "반전"},
+    {"material": "예거 르쿨트르 앰버서더 발탁", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "김밥 한 알을 30분에 걸쳐 씹는 식탁",
+    "근접 카메라 앞에서도 모공이 안 보인 현장",
+    "해외 숙소에 전기장판을 깔아둔 꾸밈없는 일상",
+    "10만석이 순식간에 매진된 예매창"
+  ]
+}

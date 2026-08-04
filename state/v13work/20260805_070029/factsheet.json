@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "송혜교",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": 44,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "더 글로리"
+  },
+  "quotes": [
+    {"speaker": "송혜교", "text": "노화 더디게 관리하고 있다. 내가 봐도 예뻐", "context": "조선비즈가 전한 뱀파이어설 관련 발언"},
+    {"speaker": "송혜교", "text": "나이듦? 엄청난 관리로 더디게. 요즘 수지와 찐친", "context": "스포츠조선 인터뷰"},
+    {"speaker": "송혜교", "text": "특별한 것 없다. 화장 깨끗이 지우는 게 중요", "context": "동안 피부 비결 질문에 (RE:뷰)"},
+    {"speaker": "송혜교", "text": "클렌징과 나이트크림으로 관리", "context": "모바일한경이 전한 동안 비결"},
+    {"speaker": "송혜교", "text": "좋은 일도 곧 오겠지", "context": "뷰티·멘탈 관리 공개 중 (다음)"},
+    {"speaker": "송혜교", "text": "40대 되니 외모도 예전과 달라져", "context": "헬스조선·코메디닷컴이 전한 발언"}
+  ],
+  "events": [
+    {"summary": "펜디와 피카부 캠페인 협업 공개", "year": null, "confirmed": true},
+    {"summary": "겔랑 키스키스 화보 공개", "year": null, "confirmed": true},
+    {"summary": "미샤 윈터 컬렉션 제안 화보", "year": null, "confirmed": true},
+    {"summary": "29년째 동안을 유지해 뱀파이어설까지 돌았다", "year": null, "confirmed": true},
+    {"summary": "20년 인연의 스타일리스트 측 신생 기획사와 동행 가닥을 공식화 (오랜 신뢰·활동 방향 공감대 언급)", "year": null, "confirmed": true},
+    {"summary": "울프컷에 Y2K 스파이백을 매치한 연진룩 스타일 화제", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "44세", "meaning": "현재 나이 (일부 기사는 43세 표기)"},
+    {"value": "29년", "meaning": "동안을 유지 중인 연차"},
+    {"value": "20년", "meaning": "스타일리스트와의 인연"},
+    {"value": "6회", "meaning": "일주일에 한다고 밝힌 관리 횟수 (종목은 기사에 미공개)"}
+  ],
+  "related_people": [
+    {"name": "수지", "relation": "요즘 찐친이라고 본인이 밝힘", "mentioned_as": "요즘 수지와 찐친"},
+    {"name": "이영애", "relation": "보습 원칙 기사에 함께 언급", "mentioned_as": "이영애·송혜교가 꼭 지킨다는 보습 원칙"}
+  ],
+  "beauty_evidence": [
+    "44세 얼굴 맞냐는 반응의 도자기 피부 (코메디닷컴)",
+    "현미경으로 봐도 잡티 없는 피부라는 평 (매경스포츠)",
+    "B컷도 독보적 비주얼이라는 반응 (매일경제)",
+    "휴양지 여신이라는 여름 패션 반응 (다음)"
+  ],
+  "care_habits": [
+    "화장을 깨끗이 지우는 클렌징 원칙",
+    "자기 전 나이트크림을 듬뿍 바르는 습관",
+    "기본 보습 원칙 고수 (이영애와 함께 언급)",
+    "종아리와 피부를 위한 꾸준한 운동"
+  ],
+  "hot_materials": [
+    {"material": "뱀파이어설에 '내가 봐도 예뻐'라고 답한 자신감", "why_hot": "발언"},
+    {"material": "29년째 얼굴이 그대로라 뱀파이어설까지 돈 동안", "why_hot": "낙차"},
+    {"material": "요즘 수지와 찐친이라는 본인 발언", "why_hot": "실명"},
+    {"material": "시술이 아니라 클렌징·나이트크림이 비결이라는 반전", "why_hot": "반전"},
+    {"material": "펜디·겔랑·미샤가 연달아 잡은 얼굴", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "겔랑 화보에서 립 하나로 룩을 완성한 컷",
+    "울프컷에 스파이백을 든 연진룩 공항 스타일",
+    "휴양지에서 여신 소리를 들은 여름 패션"
+  ]
+}

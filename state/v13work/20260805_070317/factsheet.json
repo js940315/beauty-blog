@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "수지",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": 30,
+    "age_range": "30대",
+    "career": "",
+    "major_work": "이두나!"
+  },
+  "quotes": [
+    {"speaker": "수지", "text": "세안 후 수건으로 안 닦아", "context": "꿀피부 비결로 밝힘 (마데핫리뷰·스타이슈)"},
+    {"speaker": "수지", "text": "물기 안 닦고 스킨 그대로", "context": "피부 관리 비법 (모바일한경)"},
+    {"speaker": "수지", "text": "조금 먹고 운동 많이", "context": "혤's클럽에서 몸매 관리 비결로 말하다 웃음이 터진 장면"},
+    {"speaker": "수지", "text": "이두나! 속 걸그룹 무대는 실제 KCON에 올랐다. 실수 연기에 관객들이 진짜 걱정해줬다", "context": "이두나! 관련 인터뷰"},
+    {"speaker": "혜리", "text": "얼굴은 왜 많이 긁어?", "context": "수건 안 쓴다는 말에 되물어 폭소가 터진 장면 (순간포착)"},
+    {"speaker": "양세종", "text": "이두나! 스태프에 고가의 목도리를 선물했다", "context": "살롱드립에서 공개한 수지 미담"}
+  ],
+  "events": [
+    {"summary": "K뷰티 아누아의 전속 모델로 발탁", "year": null, "confirmed": true},
+    {"summary": "게스와 2026 썸머 화보 공개, 청순과 매혹 사이라는 평", "year": null, "confirmed": true},
+    {"summary": "온라인발 뷰티 기업 대표와의 결혼설에 소속사가 선처 없는 법적조치 예고", "year": null, "confirmed": true},
+    {"summary": "뷰티 기업 대표와 결혼한다는 온라인 소문", "year": null, "confirmed": false},
+    {"summary": "샤워를 10분 안에 끝내는 루틴에 피부과에서 오히려 정답이라는 반응", "year": null, "confirmed": true},
+    {"summary": "수지처럼 편한 스타일이 예쁘다며 2030에 근본템 유행 확산", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "30세", "meaning": "현재 나이"},
+    {"value": "10분", "meaning": "샤워를 끝내는 시간"},
+    {"value": "2026", "meaning": "게스 썸머 화보 시즌"}
+  ],
+  "related_people": [
+    {"name": "혜리", "relation": "수건 안 쓴다는 말에 되물어 폭소 유발", "mentioned_as": "얼굴은 왜 많이 긁어?"},
+    {"name": "양세종", "relation": "이두나! 함께 출연, 미담 공개", "mentioned_as": "수지 미담 공개"},
+    {"name": "송혜교", "relation": "요즘 찐친이라고 송혜교가 밝힘", "mentioned_as": "요즘 수지와 찐친"}
+  ],
+  "beauty_evidence": [
+    "잡티 하나 없는 무결점 민낯 (코메디닷컴)",
+    "뭘 입어도 예쁘다는 오버롤 화보 반응 (컨슈머타임스)",
+    "자체 발광이라는 수식어 (스포탈코리아)"
+  ],
+  "care_habits": [
+    "세안 후 수건을 쓰지 않고 물기를 그대로 두고 스킨 흡수",
+    "샤워는 10분 안에 끝내는 짧은 루틴",
+    "조금 먹고 운동을 많이 하는 몸매 관리"
+  ],
+  "hot_materials": [
+    {"material": "세안 후 수건을 안 쓴다는 꿀피부 비결", "why_hot": "반전"},
+    {"material": "샤워 10분 루틴에 피부과가 오히려 정답이라 한 반응", "why_hot": "낙차"},
+    {"material": "결혼설에 소속사가 선처 없는 법적조치를 예고한 초강경 대응", "why_hot": "장면"},
+    {"material": "양세종이 공개한 고가 목도리 선물 미담", "why_hot": "실명"},
+    {"material": "혜리의 '얼굴은 왜 많이 긁어' 되치기에 터진 폭소", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "수건 안 쓴다는 고백에 혜리가 되물어 스튜디오에 폭소가 터진 순간",
+    "게스 썸머 화보 속 라이트 데님 차림",
+    "이두나! 걸그룹 무대로 실제 KCON 무대에 오른 장면"
+  ]
+}

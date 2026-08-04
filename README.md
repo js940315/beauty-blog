@@ -208,19 +208,32 @@ python images.py            # 팩트시트 → 사진 버킷 선택 로직
 반자동 시스템. 일일 자동 파이프라인(main.py)과 규격이 다르다:
 제목은 `.jpg` 마감, 분량은 **공백·점자 제외 850~1000자**, 소제목은 `**"소제목"**`.
 
+**하루 10편 스탠바이가 기본값이다** (일일 자동 1편 + v13 9편, 사용자 확정 2026-08-05).
+
 ```bash
-python pipeline.py --source 소스.txt   # 세션 시작 → A_지시서
+python pipeline.py --plan 9            # 오늘 쓸 인물 추천 (최근 45일 미사용)
+python pipeline.py --auto 전지현       # crawler로 소스 자동 구성 + 세션 시작
+python pipeline.py --source 소스.txt   # (수동 소스로 시작할 때)
 python pipeline.py --stage titles      # 검증1 → B_지시서
 python pipeline.py --stage body        # 검증2 → 1위 자동 확정 → C_지시서
+python pipeline.py --wrap              # draft_plain.txt → body.txt 점자 변환
 python pipeline.py --stage finish      # 검증3 → output/날짜_인물명/완성본.txt
 python pipeline.py --retitle 3         # 예비 3번 제목으로 본문 재생성
 python validate.py                     # 자체 테스트
 ```
 
 - 지시서(state/v13work/…)는 에이전트가 처리한다 — API 키 불필요.
+- **본문은 draft_plain.txt 에 평문으로 쓰고 --wrap 으로 변환한다.**
+  점자 빈칸을 손으로 붙이면 반드시 빠진다 (실측).
+- ⚠️ --auto/--source 는 세션 포인터(CURRENT)를 옮긴다.
+  **한 인물을 finish 까지 끝낸 뒤에** 다음 인물을 시작할 것.
+- 분량 감각: 본문 내용 줄 72~78줄로 써야 850자를 한 번에 넘긴다.
+  (68줄이면 700자 초반에서 미달이 난다 — 9편 실측)
 - 마감틀·CTA·연결 문장은 data/ 풀에서 **코드가 랜덤 1개만 주입** (모델에게 풀을 안 준다).
-- state.json 이 최근 5개 글의 마감·CTA·후킹을 기억해 도배를 코드로 차단한다.
+- state.json 이 최근 글들의 마감·CTA·후킹·인물을 기억해 도배를 코드로 차단한다.
 - 유일한 금지선: 팩트시트에 없는 사실·발언·직업·숫자 창작 금지. 화력은 표현에서.
+- 소재 필터 (실측 판단례): 실명 없는 기사(동명이인 위험)·발언 주체가 모호한 기사·
+  정치 논란·질병 기사는 버린다. 당사자가 부인한 설은 confirmed:false 로만.
 
 ## 다음에 손볼 것
 

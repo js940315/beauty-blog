@@ -124,6 +124,58 @@ def stage_source(source_path):
     print("   그 다음: python pipeline.py --stage titles")
 
 
+def recent_persons(days=45):
+    """최근 N일 안에 v13이 쓴 인물 목록 (재등장 방지)."""
+    cutoff = (datetime.date.today()
+              - datetime.timedelta(days=days)).isoformat()
+    return {p["person"] for p in _state()["recent_posts"]
+            if p.get("date", "") >= cutoff}
+
+
+def stage_auto(celeb):
+    """crawler 로 소스를 자동 구성해 세션을 연다 (하루 10편 운영의 기본 진입점).
+
+    발언(따옴표)·직업 표기 기사를 앞세워 32건을 뽑는다 — 직업 확정과
+    quotes 확보가 팩트시트 검증 1의 관문이기 때문이다.
+    """
+    if celeb in recent_persons():
+        print(f"⚠ {celeb} 은 최근 45일 안에 이미 썼습니다. 계속 진행은 하지만 확인할 것.")
+    import crawler
+    import store
+    store.init()
+    items = crawler.collect(celeb, mode="google")
+    if len(items) < 6:
+        raise SystemExit(f"{celeb}: 수집 {len(items)}건 — 소스가 얇아 진행 불가. 다른 인물로.")
+    keyed = [it for it in items
+             if '"' in it["title"] or "“" in it["title"]
+             or "배우" in it["title"] or "가수" in it["title"]]
+    seen, picked = set(), []
+    for it in keyed + items:
+        t = it["title"].strip()
+        if t in seen:
+            continue
+        seen.add(t)
+        picked.append(it)
+        if len(picked) >= 32:
+            break
+    lines = [f"[{i}] ({it.get('media') or it.get('source', '')}) {it['title']}"
+             for i, it in enumerate(picked, 1)]
+    tmp = os.path.join(WORK_ROOT, f"_auto_source_{celeb}.txt")
+    _write(tmp, "\n".join(lines))
+    print(f"■ {celeb}: {len(items)}건 수집 → 소스 {len(picked)}건 구성")
+    stage_source(tmp)
+
+
+def stage_plan(n):
+    """오늘 쓸 인물 N명 추천 — 최근 45일 미사용 인물을 config 풀에서 뽑는다."""
+    import config as CFG
+    used = recent_persons()
+    avail = [c for c in CFG.CELEB_POOL if c not in used]
+    print(f"■ 후보 {len(avail)}명 (풀 {len(CFG.CELEB_POOL)} - 최근 사용 {len(used)})")
+    print("   오늘의 추천:", ", ".join(avail[:n]))
+    print("   시작: python pipeline.py --auto <인물명>")
+
+
 # ── 단계 1: 검증1 → B 지시서 ────────────────────────────────────────────
 
 def stage_titles():
@@ -228,6 +280,36 @@ def stage_body():
     _make_c_brief(d, fs, top["title"], marker="auto#1")
 
 
+# ── --wrap: 평문 초안 → 점자 최종형 ─────────────────────────────────────
+
+def stage_wrap():
+    """세션 폴더의 draft_plain.txt 를 body.txt(점자 부착)로 변환한다.
+
+    점자 빈칸을 손으로 붙이면 반드시 빠진다(실측) — 본문은 평문으로 쓰고
+    이 명령으로 변환하는 게 정석이다. 해시태그 줄은 점자를 붙이지 않는다.
+    """
+    d = _workdir()
+    src = os.path.join(d, "draft_plain.txt")
+    if not os.path.exists(src):
+        raise SystemExit("draft_plain.txt 가 없습니다. 본문을 평문으로 먼저 써라.")
+    B = V.U2800
+    out = []
+    for ln in _read(src).split("\n"):
+        s = ln.rstrip()
+        if not s:
+            out.append(B * 3)
+        elif s.startswith("#"):
+            out.append(s)
+        else:
+            out.append(s + B)
+    while out and out[-1] == B * 3:
+        out.pop()
+    _write(os.path.join(d, "body.txt"), "\n".join(out))
+    n = len(re.sub(r"[\s⠀]", "", "\n".join(out)))
+    print(f"■ body.txt 변환 완료 — {len(out)}줄 / 공백·점자 제외 {n}자 (목표 850~1000)")
+    print("   그 다음: python pipeline.py --stage finish")
+
+
 # ── --retitle: 본문만 재생성 ────────────────────────────────────────────
 
 def stage_retitle(arg):
@@ -310,7 +392,9 @@ def stage_finish():
         "hooks_used": [h for h in re.split(r"[+|,\s]+", top.get("hook", "")) if h],
         "angle": top.get("angle", ""),
     })
-    st["recent_posts"] = st["recent_posts"][-5:]
+    # 하루 10편 운영: 인물 45일 재등장 방지에 쓰이므로 넉넉히 보관한다.
+    # (마감·CTA 로테이션은 여전히 최근 3개만 본다)
+    st["recent_posts"] = st["recent_posts"][-500:]
     _jdump(STATE, st)
 
     n = len(re.sub(r"[\s⠀]", "", body))
@@ -323,11 +407,23 @@ def main():
     _utf8()
     ap = argparse.ArgumentParser(description="v13 미모·이슈 생성 파이프라인")
     ap.add_argument("--source", help="소스 텍스트 파일 경로 (새 세션 시작)")
+    ap.add_argument("--auto", metavar="인물명",
+                    help="crawler 로 소스 자동 구성 후 세션 시작 (일일 운영 기본)")
+    ap.add_argument("--plan", type=int, metavar="N",
+                    help="오늘 쓸 인물 N명 추천 (최근 45일 미사용)")
     ap.add_argument("--stage", choices=("titles", "body", "finish"))
+    ap.add_argument("--wrap", action="store_true",
+                    help="draft_plain.txt → body.txt 점자 변환")
     ap.add_argument("--retitle", help="예비 번호(2~10) 또는 직접 쓴 제목")
     a = ap.parse_args()
 
-    if a.source:
+    if a.plan:
+        stage_plan(a.plan)
+    elif a.wrap:
+        stage_wrap()
+    elif a.auto:
+        stage_auto(a.auto)
+    elif a.source:
         stage_source(a.source)
     elif a.retitle:
         stage_retitle(a.retitle)
