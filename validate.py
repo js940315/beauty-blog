@@ -127,12 +127,13 @@ def validate_body(body: str, factsheet: dict, state: dict) -> list:
     job = person.get("job", "")
     allow = alpha_allow_from(factsheet)
 
-    # 글자수 (공백·점자빈칸 제외)
+    # 글자수 (공백·점자빈칸 제외). 2026-08-05 사용자 조정: 850~1000 → 780~900.
+    # 목표는 820자 안팎 — 끝부분이 길어지는 것보다 짧고 밀도 있게.
     n = len(re.sub(r"[\s⠀]", "", body))
-    if not (850 <= n <= 1000):
-        hint = ("부족: 12줄 미만 챕터에 3줄 문단 추가" if n < 850
-                else "초과: 감탄 반복·군더더기 수식 삭제")
-        errs.append(f"글자수 {n}자 (허용 850~1000) — {hint}")
+    if not (780 <= n <= 900):
+        hint = ("부족: 12줄 미만 챕터에 3줄 문단 추가" if n < 780
+                else "초과: 마지막 챕터·마무리에서 곁가지 문단 삭제")
+        errs.append(f"글자수 {n}자 (허용 780~900) — {hint}")
 
     lines = body.split("\n")
 
