@@ -23,25 +23,25 @@
     {
       "slot": 1,
       "category": "가방",
-      "photo": "가방_0s_pexels_2.jpg",
+      "photo": "가방_0s_pexels_0.jpg",
       "file": "1번 사진.jpg"
     },
     {
       "slot": 2,
       "category": "드레스",
-      "photo": "드레스_0s_pexels_2.jpg",
+      "photo": "드레스_0s_pexels_0.jpg",
       "file": "2번 사진.jpg"
     },
     {
       "slot": 3,
       "category": "구두",
-      "photo": "구두_1s_pexels_1.jpg",
+      "photo": "구두_0s_unsplash_1.jpg",
       "file": "3번 사진.jpg"
     },
     {
       "slot": 4,
       "category": "주얼리",
-      "photo": "주얼리_0s_unsplash_1.jpg",
+      "photo": "주얼리_0w_2.jpg",
       "file": "4번 사진.jpg"
     }
   ]
