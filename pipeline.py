@@ -88,8 +88,18 @@ def _state():
     return _jload(STATE, {"recent_posts": []})
 
 
-def _workdir(create=False):
+def _workdir(create=False, force=False):
     if create:
+        # 미완성 세션 덮어쓰기 방지: 직전 세션이 finish 를 못 끝냈으면 막는다.
+        # (--auto 를 연달아 치면 CURRENT 가 넘어가 앞 글을 잃는 사고 — 실측 2회)
+        if not force and os.path.exists(CURRENT):
+            prev = _read(CURRENT).strip()
+            if (os.path.isdir(prev)
+                    and os.path.exists(os.path.join(prev, "A_지시서.md"))
+                    and not os.path.exists(os.path.join(prev, "DONE"))):
+                raise SystemExit(
+                    f"직전 세션이 아직 finish 되지 않았습니다: {prev}\n"
+                    "먼저 그 인물을 끝내거나, 버리려면 --force 를 붙이세요.")
         d = os.path.join(WORK_ROOT,
                          datetime.datetime.now().strftime("%Y%m%d_%H%M%S"))
         os.makedirs(d, exist_ok=True)
@@ -110,11 +120,11 @@ def _fail(errs, what):
 
 # ── 단계 0: 소스 → A 지시서 ─────────────────────────────────────────────
 
-def stage_source(source_path):
+def stage_source(source_path, force=False):
     src = _read(source_path).strip()
     if not src:
         raise SystemExit("소스가 비어 있습니다.")
-    d = _workdir(create=True)
+    d = _workdir(create=True, force=force)
     _write(os.path.join(d, "source.txt"), src)
     prompt = _read(os.path.join(PROMPTS, "A_factsheet.md"))
     _write(os.path.join(d, "A_지시서.md"),
@@ -132,7 +142,7 @@ def recent_persons(days=45):
             if p.get("date", "") >= cutoff}
 
 
-def stage_auto(celeb):
+def stage_auto(celeb, force=False):
     """crawler 로 소스를 자동 구성해 세션을 연다 (하루 10편 운영의 기본 진입점).
 
     발언(따옴표)·직업 표기 기사를 앞세워 32건을 뽑는다 — 직업 확정과
@@ -163,7 +173,7 @@ def stage_auto(celeb):
     tmp = os.path.join(WORK_ROOT, f"_auto_source_{celeb}.txt")
     _write(tmp, "\n".join(lines))
     print(f"■ {celeb}: {len(items)}건 수집 → 소스 {len(picked)}건 구성")
-    stage_source(tmp)
+    stage_source(tmp, force=force)
 
 
 def stage_plan(n):
@@ -348,6 +358,17 @@ def stage_finish():
         "recent_endings": [p.get("ending_used") for p in
                            st["recent_posts"][-3:] if p.get("ending_used")]})
 
+    # 제목 훅 회수 검증 — 어그로만 걸고 본문이 딴소리하면 낚시로 읽힌다.
+    # 제목의 숫자와 인용구가 본문에 실제로 있는지 대조한다 (일일 시스템과 동일 원칙).
+    title_now = meta["title"]
+    flat = re.sub(r"[\s⠀]", "", body)
+    for num in set(re.findall(r"\d+", title_now)):
+        if num not in flat:
+            errs.append(f"제목의 숫자 {num} 이 본문에 없음 — 훅은 본문에서 회수해야 한다")
+    for q in re.findall(r'"([^"]{2,20})"', title_now):
+        if re.sub(r"\s", "", q) not in flat:
+            errs.append(f'제목의 인용구 "{q}" 가 본문에 없음 — 도입부에서 회수해야 한다')
+
     attempts = _jload(os.path.join(d, "attempts.json"), {"n": 0})
     attempts["n"] += 1
     _jdump(os.path.join(d, "attempts.json"), attempts)
@@ -381,8 +402,13 @@ def stage_finish():
         if m:
             used_ending = m.group(0).strip()
 
+    _write(os.path.join(d, "DONE"), title)
+
     ranked = _jload(os.path.join(d, "ranked.json"), [])
     top = next((t for t in ranked if t["title"] == title), ranked[0] if ranked else {})
+    # finish 재실행으로 같은 글이 두 번 기록되는 것 방지 (로테이션 오염 방지)
+    st["recent_posts"] = [p for p in st["recent_posts"]
+                          if p.get("title") != title]
     st["recent_posts"].append({
         "date": datetime.date.today().isoformat(),
         "person": fs["person"]["name"],
@@ -416,6 +442,8 @@ def main():
     ap.add_argument("--wrap", action="store_true",
                     help="draft_plain.txt → body.txt 점자 변환")
     ap.add_argument("--retitle", help="예비 번호(2~10) 또는 직접 쓴 제목")
+    ap.add_argument("--force", action="store_true",
+                    help="미완성 직전 세션을 버리고 새 세션 시작")
     a = ap.parse_args()
 
     if a.plan:
@@ -423,9 +451,9 @@ def main():
     elif a.wrap:
         stage_wrap()
     elif a.auto:
-        stage_auto(a.auto)
+        stage_auto(a.auto, force=a.force)
     elif a.source:
-        stage_source(a.source)
+        stage_source(a.source, force=a.force)
     elif a.retitle:
         stage_retitle(a.retitle)
     elif a.stage == "titles":
