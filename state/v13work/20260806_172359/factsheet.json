@@ -1,0 +1,155 @@
+{
+  "person": {
+    "name": "김희선",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": 49,
+    "age_range": "40대 후반",
+    "career": "",
+    "major_work": "토마토"
+  },
+  "quotes": [
+    {
+      "speaker": "김희선",
+      "text": "20대 안 부럽다",
+      "context": "곧 50살을 앞두고 외모 리즈 경신 (뉴시스)"
+    },
+    {
+      "speaker": "김희선",
+      "text": "제니가 토마토 스타일을 재현했다니 영광이다",
+      "context": "밥이나 한잔해"
+    },
+    {
+      "speaker": "김희선",
+      "text": "딱 5cm씩 손목·발목만 가늘다. 스타일리스트가 고생이 많다",
+      "context": "매일경제가 전한 발언"
+    },
+    {
+      "speaker": "김희선",
+      "text": "330만원 원피스인데 아버지 남방 같다",
+      "context": "생일파티 드레스코드를 맞추며 (모바일한경)"
+    },
+    {
+      "speaker": "김희선",
+      "text": "딸이 하지 말라는데 몰래 한다",
+      "context": "중3 영재 딸 이야기 (밥이나 한잔해)"
+    },
+    {
+      "speaker": "한선화",
+      "text": "화끈한 김희선, 딱 내 스타일",
+      "context": "인터뷰 (스포츠경향)"
+    }
+  ],
+  "events": [
+    {
+      "summary": "제니가 드라마 토마토 시절 스타일을 완벽 재현해 화제",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "90년대 유행시킨 패션 아이템들이 지금 보니 힙하다며 재조명",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "파격 뽀글머리 헤어 공개, 귀여움에 녹겠다는 반응",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "김희선 미용기기가 대박 나며 해당 기업 IPO 기사까지 등장",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "49세 생일 자축, 옐로 블라우스의 동안 비주얼",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "17세 딸 연아와 LA에서 패션 케미, 우월한 유전자 인증이라는 반응",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "화이트 티셔츠 하나로 끝낸 상해 여행룩, 50대 스타일은 20대라는 기사",
+      "year": null,
+      "confirmed": true
+    }
+  ],
+  "numbers": [
+    {
+      "value": "49세",
+      "meaning": "현재 나이 (곧 50)"
+    },
+    {
+      "value": "330만원",
+      "meaning": "아버지 남방 같다던 원피스 가격"
+    },
+    {
+      "value": "5cm",
+      "meaning": "본인 표현으로 가는 손목·발목 굵기 차이"
+    },
+    {
+      "value": "90년대",
+      "meaning": "패션 아이템을 유행시킨 시절"
+    },
+    {
+      "value": "17세",
+      "meaning": "딸 연아의 나이 (기사별 16~17세)"
+    }
+  ],
+  "related_people": [
+    {
+      "name": "제니",
+      "relation": "토마토 스타일 재현",
+      "mentioned_as": "제니, 토마토 스타일 재현"
+    },
+    {
+      "name": "한선화",
+      "relation": "딱 내 스타일이라며 호감 표현",
+      "mentioned_as": "화끈한 김희선"
+    },
+    {
+      "name": "유해진",
+      "relation": "한끼합쇼에서 만남",
+      "mentioned_as": "파격 단발 변신에 깜짝"
+    }
+  ],
+  "beauty_evidence": [
+    "국가대표 미모라는 수식어 (패션서울)",
+    "나이를 잊은 원조 여신 (패션엔)",
+    "변치 않는 동안미의 원숄더 드레스룩 (패션엔)"
+  ],
+  "care_habits": [
+    "홈 뷰티 디바이스를 꾸준히 쓰는 관리 (광고 모델이자 애용)"
+  ],
+  "hot_materials": [
+    {
+      "material": "제니가 토마토 스타일을 재현하고 원조가 영광이라 답한 세대 연결",
+      "why_hot": "실명"
+    },
+    {
+      "material": "곧 50인데 20대 안 부럽다는 리즈 경신 발언",
+      "why_hot": "발언"
+    },
+    {
+      "material": "330만원 원피스를 아버지 남방 같다고 하는 여유",
+      "why_hot": "반전"
+    },
+    {
+      "material": "90년대 유행 아이템이 다시 힙해진 재평가",
+      "why_hot": "낙차"
+    },
+    {
+      "material": "뽀글머리 파격 헤어 공개",
+      "why_hot": "장면"
+    }
+  ],
+  "scene_materials": [
+    "제니가 토마토 시절 옷차림을 재현한 화면",
+    "뽀글머리로 나타나 웃는 근황 사진",
+    "딸과 LA 거리에서 나란히 찍힌 패션 케미"
+  ]
+}
