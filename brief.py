@@ -22,8 +22,14 @@ import prompts
 
 
 def workdir(outdir):
-    """그 날짜의 중간 산출물 폴더. output 밖에 있다."""
-    w = os.path.join(C.WORK_DIR, os.path.basename(outdir.rstrip("/\\")))
+    """그 날짜의 중간 산출물 폴더. output 밖에 있다.
+
+    output 이 MMDD/번호 2단 구조가 되면서(2026-08-06) basename 이 방 번호가
+    돼버리므로, OUTPUT_DIR 기준 상대 경로의 첫 조각(날짜 MMDD)을 키로 쓴다.
+    """
+    rel = os.path.relpath(os.path.abspath(outdir), C.OUTPUT_DIR)
+    key = rel.split(os.sep)[0]
+    w = os.path.join(C.WORK_DIR, key)
     os.makedirs(w, exist_ok=True)
     return w
 
