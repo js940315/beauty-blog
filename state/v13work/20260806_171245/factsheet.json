@@ -1,0 +1,160 @@
+{
+  "person": {
+    "name": "고윤정",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대 후반",
+    "career": "",
+    "major_work": "무빙"
+  },
+  "quotes": [
+    {
+      "speaker": "고윤정",
+      "text": "추운데…",
+      "context": "샤넬쇼 퇴근길에 담요를 두르고 나왔다가 스태프 제지를 받으며 (스포츠조선)"
+    },
+    {
+      "speaker": "고윤정",
+      "text": "비판 아닌 비난이면 흘려 들어",
+      "context": "대문자T 멘탈 관리 비결 (인사이트)"
+    },
+    {
+      "speaker": "고윤정",
+      "text": "지금이 삶에서 가장 재밌는 시절",
+      "context": "네이트 인터뷰"
+    },
+    {
+      "speaker": "고윤정",
+      "text": "질리지 않는 배우가 되고 싶다",
+      "context": "무빙2 촬영 중 30대 다짐 (톱스타뉴스)"
+    },
+    {
+      "speaker": "고윤정",
+      "text": "류승룡·한효주·조인성, 오랜만에 가족을 다시 만난 기분",
+      "context": "무빙2 촬영 소감 (뉴스엔)"
+    },
+    {
+      "speaker": "고윤정",
+      "text": "구교환은 자유로움 안에 분명한 중심이 있는 배우. 자극을 많이 받았다",
+      "context": "싱글리스트 인터뷰"
+    }
+  ],
+  "events": [
+    {
+      "summary": "샤넬 앰버서더로서 마리끌레르 디지털 커버와 엘르 화보 장식",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "샤넬쇼 퇴근길에 담요를 두르고 나왔다가 스태프 요청에 벗은 해프닝",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "젝시믹스 공식 모델 발탁, 고윤정 효과로 제품 판매량 2000% 증가 발표",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "클리오 구달 새 모델 발탁",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "흰 티에 청바지만 입었는데 명품 인간이라는 반응",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "청룡 레드카펫에 오프숄더 블랙 드레스로 청용의 여신이라는 반응",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "무빙2 촬영 돌입",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "발가락 양말을 신고 하는 운동이 화제 (여배우들이 빠진 운동)",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "깐머리 헤어로 바꾸자 미모가 살아났다는 반응",
+      "year": null,
+      "confirmed": true
+    }
+  ],
+  "numbers": [
+    {
+      "value": "2000%",
+      "meaning": "젝시믹스가 밝힌 고윤정 효과 판매량 증가율"
+    }
+  ],
+  "related_people": [
+    {
+      "name": "류승룡",
+      "relation": "무빙2 재회",
+      "mentioned_as": "가족 만난 기분"
+    },
+    {
+      "name": "조인성",
+      "relation": "무빙2 재회",
+      "mentioned_as": "가족 만난 기분"
+    },
+    {
+      "name": "한효주",
+      "relation": "무빙2 재회",
+      "mentioned_as": "가족 만난 기분"
+    },
+    {
+      "name": "구교환",
+      "relation": "모자무싸에서 자극 받았다고 언급",
+      "mentioned_as": "구교환 보고 자극"
+    },
+    {
+      "name": "김선호",
+      "relation": "드라마 로맨스 호흡을 마침",
+      "mentioned_as": "김선호와 로맨스 마쳤다"
+    }
+  ],
+  "beauty_evidence": [
+    "숨 막히는 비주얼이라는 샤넬 화보 반응 (세계뉴스통신)",
+    "섬세하게 빛난 피부라는 엘르 화보 평 (톱스타뉴스)",
+    "흰 티에 청바지만으로 명품 인간이라는 반응 (애니멀플래닛)"
+  ],
+  "care_habits": [
+    "발가락 양말을 신고 하는 운동 루틴",
+    "비난은 흘려 듣는 멘탈 관리"
+  ],
+  "hot_materials": [
+    {
+      "material": "샤넬쇼 퇴근길 담요 해프닝과 추운데 한마디",
+      "why_hot": "장면"
+    },
+    {
+      "material": "젝시믹스 판매량 2000% 증가라는 고윤정 효과",
+      "why_hot": "낙차"
+    },
+    {
+      "material": "흰 티에 청바지만 입어도 명품 인간이라는 반전",
+      "why_hot": "반전"
+    },
+    {
+      "material": "샤넬 앰버서더·마리끌레르 커버·클리오 모델 러브콜 행진",
+      "why_hot": "실명"
+    },
+    {
+      "material": "비판 아닌 비난이면 흘려 듣는다는 대문자T 멘탈 발언",
+      "why_hot": "발언"
+    }
+  ],
+  "scene_materials": [
+    "샤넬쇼가 끝난 밤 담요를 두르고 나왔다가 스태프 요청에 벗는 순간",
+    "청룡 레드카펫을 오프숄더 블랙 드레스로 걷는 장면",
+    "노르망디 해변에서 흰 티 차림으로 찍힌 일상 컷"
+  ]
+}
