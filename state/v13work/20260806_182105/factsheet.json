@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "김지원",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우, 더후·불가리·듀베티카·스톤헨지 등 다수 브랜드 앰버서더로 활동",
+    "major_work": "눈물의 여왕"
+  },
+  "quotes": [
+    {"speaker": "김지원", "text": "뜨개질 잘하는 용감한 할머니가 되고 싶다", "context": "화보 인터뷰"},
+    {"speaker": "김지원", "text": "한국의 아름다움을 전할래요", "context": "코리아한복미인선발대전 2025 뷰티상 수상 소감"},
+    {"speaker": "김지원", "text": "드디어 짜장라면 먹었다", "context": "1년간 중식을 끊은 후 조선일보 인터뷰"},
+    {"speaker": "김지원", "text": "맛있지만 아껴두겠다", "context": "헬스조선 몸매 관리 인터뷰, 특정 음식을 피하며"},
+    {"speaker": "김지원", "text": "1년간 중국음식 끊었다", "context": "눈물의 여왕 관련 인터뷰"},
+    {"speaker": "김지원", "text": "이름 뜻은 지혜롭고 아름답게, 요즘 숙제는 체력 관리", "context": "조선일보 인터뷰"},
+    {"speaker": "김지원", "text": "작품 위해 1년간 중식을 안 먹었다", "context": "YTN 인터뷰"}
+  ],
+  "events": [
+    {"summary": "불가리 앰버서더로 발탁, '에클레티카' 화보 공개", "year": null, "confirmed": true},
+    {"summary": "LG생활건강 더후 글로벌 앰버서더로 선정, 안티에이징 컨셉 화보 다수 공개", "year": null, "confirmed": true},
+    {"summary": "F&F 듀베티카 공식 앰버서더로 발탁", "year": null, "confirmed": true},
+    {"summary": "스톤헨지 전속 모델로 발탁", "year": null, "confirmed": true},
+    {"summary": "코리아한복미인선발대전 2025에서 뷰티상 수상", "year": 2025, "confirmed": true},
+    {"summary": "작품 준비를 위해 1년간 중식을 끊었다가 이후 짜장라면을 먹으며 기뻐함", "year": null, "confirmed": true},
+    {"summary": "드라마 '눈물의 여왕' 출연", "year": null, "confirmed": true},
+    {"summary": "단발로 헤어스타일을 바꾼 뒤 야윈 근황이 화제", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "1년간", "meaning": "작품을 위해 중식(중국음식)을 끊은 기간"}
+  ],
+  "related_people": [
+    {"name": "송중기", "relation": "동료 배우", "mentioned_as": "괄사를 몰랐는데 김지원이 추천해줬다고 언급"},
+    {"name": "이희준", "relation": "동료 배우", "mentioned_as": "모공이 없다고 감탄"},
+    {"name": "하지나", "relation": "후배 배우", "mentioned_as": "롤모델로 김지원을 꼽음"}
+  ],
+  "beauty_evidence": [
+    "더후 글로벌 앰버서더로 안티에이징 컨셉 화보를 다수 촬영",
+    "불가리 앰버서더로 에클레티카 화보 촬영",
+    "F&F 듀베티카 공식 앰버서더로 발탁",
+    "스톤헨지 전속 모델로 발탁",
+    "송중기가 괄사 관리법을 김지원에게 추천받았다고 언급",
+    "1년간 중식을 끊는 방식으로 몸매를 관리했다고 밝힘",
+    "코리아한복미인선발대전 2025 뷰티상 수상"
+  ],
+  "care_habits": [
+    "1년간 중식(중국음식) 끊기",
+    "체력 관리를 요즘의 숙제로 꼽음",
+    "피곤해도 부기 빼는 루틴을 챙긴다고 밝혔으나 구체적 방법은 확인되지 않음"
+  ],
+  "hot_materials": [
+    {"material": "재벌가 딸 역(눈물의 여왕) 이후 미모가 레전드 경신이라는 반응", "why_hot": "낙차"},
+    {"material": "1년간 중식을 끊었다가 짜장라면을 먹고 행복해한 순간", "why_hot": "반전"},
+    {"material": "노출 드레스 화제 뒤에 1년간 식단 관리가 있었다는 사실", "why_hot": "낙차"},
+    {"material": "더후 글로벌 앰버서더로 선정되며 안티에이징 뮤즈로 발탁", "why_hot": "실명"},
+    {"material": "단발로 변신한 뒤 몰라보게 야윈 근황", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "1년 만에 짜장라면을 앞에 두고 행복해하는 순간",
+    "재벌가 딸 역할로 화제의 중심에 선 장면",
+    "노출 드레스를 입고 등장해 시선을 모은 순간"
+  ]
+}

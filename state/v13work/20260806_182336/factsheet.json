@@ -1,0 +1,47 @@
+{
+  "person": {
+    "name": "신세경",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우, 시에·시슬리 등 화보 및 뷰티 디바이스 모델로 활동",
+    "major_work": "휴민트"
+  },
+  "quotes": [
+    {"speaker": "신세경", "text": "가열 차게, 그러나 나답게 살아가고 싶다", "context": "휴민트 채선화 역 화보 인터뷰"}
+  ],
+  "events": [
+    {"summary": "드라마 '휴민트'에서 채선화 역으로 화보 공개", "year": null, "confirmed": true},
+    {"summary": "이가닉스 AI 맞춤형 뷰티 디바이스 '타잇헤라' 모델로 선정", "year": null, "confirmed": true},
+    {"summary": "트루알엑스 브랜드 뮤즈로 발탁, 글루타치온 영상 캠페인 진행", "year": null, "confirmed": true},
+    {"summary": "시에와 겨울 아우터 캠페인 및 2026 S/S 컬렉션 화보 진행", "year": null, "confirmed": true},
+    {"summary": "시슬리와 '노블레스' 화보 진행", "year": null, "confirmed": true},
+    {"summary": "시상식에서 베스트 드레서로 꼽힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [],
+  "beauty_evidence": [
+    "이가닉스 AI 맞춤형 뷰티 디바이스 '타잇헤라' 모델로 선정됨",
+    "트루알엑스 브랜드 뮤즈로 글루타치온 영상 캠페인에 출연",
+    "시슬리와 '노블레스' 화보를 진행하며 투명하고 청초한 무드를 보여줌",
+    "특정 시점에 크림을 듬뿍 바르는 것이 피부 비결로 소개됨(구체적 시점은 기사에서 확인되지 않음)",
+    "시에와 여러 시즌 연속으로 협업 화보를 진행"
+  ],
+  "care_habits": [
+    "크림을 듬뿍 바르는 습관이 있다고 소개됨(구체적 시점 미확인)"
+  ],
+  "hot_materials": [
+    {"material": "가열 차게, 그러나 나답게 살아가고 싶다는 발언", "why_hot": "발언"},
+    {"material": "깐달걀 피부라는 반응과 함께 크림을 듬뿍 바르는 루틴이 소개됨", "why_hot": "낙차"},
+    {"material": "AI 맞춤형 뷰티 디바이스 모델로 선정되며 최첨단 홈케어 얼굴이 됨", "why_hot": "실명"},
+    {"material": "시슬리 노블레스 화보에서 투명하고 청초한 자연미를 보여줌", "why_hot": "낙차"},
+    {"material": "시상식에서 베스트 드레서로 꼽힘", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "화보 촬영장에서 가열 차게, 그러나 나답게 살고 싶다고 말하는 순간",
+    "무대인사에서 레더 재킷을 입고 등장해 환호성이 터진 장면",
+    "한복을 입고 수채화 같은 자태를 보여준 순간"
+  ]
+}

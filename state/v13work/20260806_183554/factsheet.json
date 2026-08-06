@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "리사",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "블랙핑크 멤버, 메디큐브·에이피알 등 뷰티 브랜드와 협업",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "리사", "text": "목 건강을 위해 이 차를 마신다", "context": "헬스조선 인터뷰(구체적 차 종류는 확인되지 않음)"}
+  ],
+  "events": [
+    {"summary": "에이피알 코첼라 부스를 방문, 글로벌 인지도 확대에 힘을 보탬", "year": null, "confirmed": true},
+    {"summary": "메디큐브 코첼라 핑크 부스를 방문해 페스티벌 컨셉의 뷰티 케어 캠페인에 참여", "year": null, "confirmed": true},
+    {"summary": "큐피드 시즌 컨셉의 페더 스타일 화보 공개", "year": null, "confirmed": true},
+    {"summary": "설원 위에서 비키니와 카모 푸퍼를 매치한 화보 촬영", "year": null, "confirmed": true},
+    {"summary": "백리스 패션을 여러 차례 착용하며 트렌드를 이끔", "year": null, "confirmed": true},
+    {"summary": "2026 북중미 월드컵 개막식에서 화이트 커스텀 룩으로 무대를 장악, 'GOALS' 무대에 오름", "year": 2026, "confirmed": true},
+    {"summary": "젤리슈즈 트렌드를 착용, 송해나·레이와 함께 언급됨", "year": null, "confirmed": true},
+    {"summary": "네일아티스트 오소진과 협업한 네일아트가 포트폴리오에 소개됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "송해나", "relation": "젤리슈즈 트렌드 동참 인물", "mentioned_as": "함께 젤리슈즈에 빠졌다고 언급"},
+    {"name": "레이", "relation": "젤리슈즈 트렌드 동참 인물", "mentioned_as": "함께 젤리슈즈를 착용한 것으로 언급"},
+    {"name": "오소진", "relation": "네일아티스트", "mentioned_as": "리사의 네일아트를 담당"},
+    {"name": "소유", "relation": "백리스 패션 트렌드 비교 대상", "mentioned_as": "백리스 패션을 함께 소화한 것으로 비교됨"},
+    {"name": "최유빈", "relation": "백리스 패션 트렌드 비교 대상", "mentioned_as": "백리스 패션을 함께 소화한 것으로 비교됨"}
+  ],
+  "beauty_evidence": [
+    "메디큐브 코첼라 부스를 방문해 뷰티 케어 캠페인에 참여",
+    "에이피알 코첼라 부스를 방문",
+    "목 건강을 위해 특정 차를 마신다고 직접 밝힘(구체적 종류는 확인되지 않음)",
+    "오소진 네일아티스트와 협업한 네일아트가 소개됨"
+  ],
+  "care_habits": [
+    "목 건강을 위한 차 마시기(구체적 종류 미확인)"
+  ],
+  "hot_materials": [
+    {"material": "2026 북중미 월드컵 개막식을 화이트 커스텀 룩으로 장악", "why_hot": "장면"},
+    {"material": "목 건강을 위해 특정 차를 마신다고 직접 언급", "why_hot": "발언"},
+    {"material": "메디큐브·에이피알 등 뷰티 브랜드가 코첼라에서 함께함", "why_hot": "실명"},
+    {"material": "백리스 패션으로 트렌드를 이끔", "why_hot": "낙차"},
+    {"material": "설원 위 비키니X카모 푸퍼 화보로 영하의 추위도 녹였다는 반응", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "코첼라 메디큐브 핑크 부스에서 뷰티 케어를 받는 순간",
+    "설원 위에서 비키니와 카모 푸퍼를 매치하고 선 장면",
+    "월드컵 개막식 무대에서 화이트 커스텀 룩으로 시선을 압도한 순간"
+  ]
+}

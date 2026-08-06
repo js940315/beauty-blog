@@ -1,0 +1,57 @@
+{
+  "person": {
+    "name": "태연",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "소녀시대 멤버, 베네피트·아르마니 뷰티 모델 및 마데카솔 광고 모델로 활동",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "태연", "text": "젤리나 먹고 커피나 마셔", "context": "몸매 관리 비결 공개 인터뷰"}
+  ],
+  "events": [
+    {"summary": "케이스티파이와 컬래버레이션, 태연 에디션 케이스 출시", "year": null, "confirmed": true},
+    {"summary": "베네피트 브랜드 모델로 발탁, 무테안경으로 눈매를 연출한 뷰티 화보 공개", "year": null, "confirmed": true},
+    {"summary": "동국제약 마데카솔 신규 TV-CF 촬영, '상처 유형별 마데카솔' 컨셉", "year": null, "confirmed": true},
+    {"summary": "아르마니 뷰티 '파워 쿠션' 화보 공개", "year": null, "confirmed": true},
+    {"summary": "구찌 뷰티 하우스 포토월에서 셀프 메이크업 공항패션으로 화제, 팔로워 1854만 명 보유", "year": null, "confirmed": true},
+    {"summary": "스모키 메이크업과 시스루 패션으로 분위기가 확 달라져 화제", "year": null, "confirmed": true},
+    {"summary": "윤보미가 방송 '놀토'에서 태연과 정은지의 캐릭터가 겹친다고 언급", "year": null, "confirmed": true},
+    {"summary": "이영애도 입은 단추 원피스를 햅번풍 복고 미니 원피스룩으로 소화", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "1854만", "meaning": "인스타그램 팔로워 수"}
+  ],
+  "related_people": [
+    {"name": "윤보미", "relation": "방송 '놀토'에서 언급한 동료 가수", "mentioned_as": "태연과 정은지 캐릭터가 겹친다고 언급"},
+    {"name": "정은지", "relation": "캐릭터 비교 대상", "mentioned_as": "윤보미가 태연과 캐릭터가 겹친다고 언급"},
+    {"name": "이영애", "relation": "같은 원피스 착용 비교 대상", "mentioned_as": "같은 단추 원피스를 입은 것으로 언급"}
+  ],
+  "beauty_evidence": [
+    "베네피트 브랜드 모델로 무테안경 눈매 연출 화보 촬영",
+    "아르마니 뷰티 파워 쿠션 모델로 화보 공개",
+    "마데카솔 CF 모델로 활동",
+    "케이스티파이와 협업 굿즈 출시",
+    "젤리를 먹고 커피를 마신다고 몸매 관리 비결을 직접 공개",
+    "구찌 뷰티 하우스에서 셀프 메이크업으로 공항패션 완성"
+  ],
+  "care_habits": [
+    "젤리와 커피로 식사를 대체하는 방식의 몸매 관리",
+    "셀프 메이크업"
+  ],
+  "hot_materials": [
+    {"material": "젤리나 먹고 커피나 마신다는 몸매 관리 비결을 직접 공개", "why_hot": "발언"},
+    {"material": "스모키 메이크업과 시스루 패션으로 분위기가 확 달라져 태연 맞냐는 반응", "why_hot": "반전"},
+    {"material": "팔로워 1854만 명 앞에서 셀프 메이크업 공항패션을 완성", "why_hot": "낙차"},
+    {"material": "이영애도 입은 원피스를 햅번풍 복고룩으로 소화", "why_hot": "실명"},
+    {"material": "윤보미가 방송에서 태연과 정은지의 캐릭터가 겹친다고 언급", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "풋살장에서 퍼플 마블 유니폼을 입고 힙하게 등장한 장면",
+    "스모키 메이크업과 시스루 패션으로 완전히 달라진 분위기를 드러낸 순간",
+    "구찌 뷰티 하우스 포토월에서 셀프 메이크업으로 카메라 앞에 선 장면"
+  ]
+}

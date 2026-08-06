@@ -1,0 +1,55 @@
+{
+  "person": {
+    "name": "윤아",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "소녀시대 멤버, 20년차. 버버리·설화수 앰버서더로 활동",
+    "major_work": ""
+  },
+  "quotes": [],
+  "events": [
+    {"summary": "백상예술대상에서 수지와 드레스가 겹쳐 '같은 옷 다른 매력'으로 화제", "year": null, "confirmed": true},
+    {"summary": "생애 첫 칼단발 스타일링, 베레모와 매치해 화제", "year": null, "confirmed": true},
+    {"summary": "청룡영화제 레드카펫에서 전현무와 5년 연속 MC로 활동", "year": null, "confirmed": true},
+    {"summary": "칸 영화제에서 화이트 드레스를 입어 한소희와 극과 극 패션으로 비교됨", "year": null, "confirmed": true},
+    {"summary": "버버리 신상을 입고 파리에 이어 런던까지 소화, 20년차 활동을 이어감", "year": null, "confirmed": true},
+    {"summary": "런던 패션위크 참석, 오버핏 레더 재킷과 팬츠+스커트 레이어드룩 착용", "year": null, "confirmed": true},
+    {"summary": "설화수와 '윤빛클래스'를 열어 웰에이징 가치를 전달", "year": null, "confirmed": true},
+    {"summary": "이상형에 대한 질문에 답했으나 구체적으로 난감해하는 반응을 보임", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "20년차", "meaning": "데뷔 후 활동 기간"},
+    {"value": "5년 연속", "meaning": "청룡영화제 MC 연속 진행 횟수"}
+  ],
+  "related_people": [
+    {"name": "수지", "relation": "백상예술대상 드레스 겹침 상대", "mentioned_as": "같은 드레스, 다른 매력으로 비교됨"},
+    {"name": "전현무", "relation": "청룡영화제 MC 파트너", "mentioned_as": "5년 연속 함께 MC 진행"},
+    {"name": "한소희", "relation": "칸 영화제 패션 비교 대상", "mentioned_as": "극과 극 패션으로 비교됨"},
+    {"name": "고윤정", "relation": "블랙백 트렌드 비교 대상", "mentioned_as": "봄 블랙백 트렌드에 함께 언급"},
+    {"name": "승민", "relation": "런던에서 함께 포착된 스트레이키즈 멤버", "mentioned_as": "런던 브리티시룩으로 함께 포착"}
+  ],
+  "beauty_evidence": [
+    "설화수 빅모델로 발탁, '윤빛클래스'를 통해 웰에이징 가치를 전달",
+    "화보 촬영 전날 부기를 빼는 루틴이 있다고 소개됐으나 구체적 방법은 기사에서 확인되지 않음",
+    "버버리 앰버서더로 20년차 활동에도 파리·런던을 오가며 신상을 소화",
+    "칼단발로 헤어스타일을 바꿔 새로운 분위기를 보여줌"
+  ],
+  "care_habits": [
+    "화보 촬영 전날 부기 빼는 루틴(구체적 방법 미확인)"
+  ],
+  "hot_materials": [
+    {"material": "백상예술대상에서 수지와 드레스가 겹쳐 같은 옷 다른 매력으로 화제", "why_hot": "실명"},
+    {"material": "생애 첫 칼단발로 변신해 '윤아 맞아' 반응을 얻음", "why_hot": "반전"},
+    {"material": "칸 영화제에서 한소희와 극과 극 패션으로 비교됨", "why_hot": "실명"},
+    {"material": "20년차인데 파리에 이어 런던까지 월드 투어급으로 활동", "why_hot": "낙차"},
+    {"material": "런던에서 팬츠 위에 스커트를 겹친 파격 레이어드룩으로 화제", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "백상예술대상에서 수지와 같은 드레스를 입고 마주친 순간",
+    "첫 칼단발에 베레모까지 매치하고 등장한 순간",
+    "칸 영화제에서 순백의 드레스를 입고 백조처럼 등장한 장면"
+  ]
+}
