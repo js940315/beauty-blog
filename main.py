@@ -58,8 +58,13 @@ def pick_celeb(explicit=None):
 
 
 def outdir(date_str):
-    """복붙할 것만 놓는 폴더. 본문 1개 + 사진 몇 장."""
-    d = os.path.join(C.OUTPUT_DIR, date_str)
+    """복붙할 것만 놓는 폴더. 본문 1개 + 사진 몇 장.
+
+    2026-08-06 사용자 확정: 모든 블로그 공통 output/MMDD/번호/ 구조.
+    일일 자동 포스팅은 항상 1번 방이다 (v13은 2번부터 — pipeline.py 참조).
+    """
+    mmdd = date_str.replace("-", "")[4:]
+    d = os.path.join(C.OUTPUT_DIR, mmdd, "1")
     os.makedirs(d, exist_ok=True)
     return d
 

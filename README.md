@@ -217,7 +217,7 @@ python pipeline.py --source 소스.txt   # (수동 소스로 시작할 때)
 python pipeline.py --stage titles      # 검증1 → B_지시서
 python pipeline.py --stage body        # 검증2 → 1위 자동 확정 → C_지시서
 python pipeline.py --wrap              # draft_plain.txt → body.txt 점자 변환
-python pipeline.py --stage finish      # 검증3 → output/날짜_인물명/완성본.txt
+python pipeline.py --stage finish      # 검증3 → output/MMDD/번호/완성본.txt
 python pipeline.py --retitle 3         # 예비 3번 제목으로 본문 재생성
 python validate.py                     # 자체 테스트
 ```

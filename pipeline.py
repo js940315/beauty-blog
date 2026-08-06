@@ -218,9 +218,24 @@ def stage_titles():
 
 # ── 단계 2: 검증2 → 1위 자동 확정 → C 지시서 ────────────────────────────
 
-def _person_tag(fs):
-    name = fs["person"]["name"]
-    return datetime.datetime.now().strftime("%Y%m%d") + "_" + name
+def _kst_now():
+    """클라우드(UTC)에서도 폴더 날짜가 한국 기준이 되도록 KST 고정."""
+    return datetime.datetime.utcnow() + datetime.timedelta(hours=9)
+
+
+def _alloc_outdir(person):
+    """output/MMDD/번호/ 방 배정. 1번은 일일 자동 포스팅 몫이라 2번부터 쓴다.
+
+    (2026-08-06 사용자 확정: 경제비버와 같은 MMDD/번호 구조로 전 블로그 통일)
+    """
+    day_dir = os.path.join(OUT_ROOT, _kst_now().strftime("%m%d"))
+    os.makedirs(day_dir, exist_ok=True)
+    n = 2
+    while os.path.exists(os.path.join(day_dir, str(n))):
+        n += 1
+    out = os.path.join(day_dir, str(n))
+    os.makedirs(out)
+    return out
 
 
 def _pool_pick(pool, used_recent):
@@ -283,7 +298,7 @@ def stage_body():
     lines = ["[확정]", "", top["title"], "", "─── 예비 ───"]
     for t in ranked[1:]:
         lines += ["", t["title"]]
-    out_dir = os.path.join(OUT_ROOT, _person_tag(fs))
+    out_dir = _alloc_outdir(fs["person"]["name"])
     _write(os.path.join(out_dir, "예비제목.txt"), "\n".join(lines) + "\n")
     _jdump(os.path.join(d, "ranked.json"), ranked)
     _write(os.path.join(d, "OUTDIR"), out_dir)
@@ -380,11 +395,21 @@ def stage_finish():
             print(f"⚠ {attempts['n']}회째 실패 — 반자동 설계상 여기서 사람에게 넘깁니다.")
         _fail(errs, f"본문 ({attempts['n']}회차)")
 
-    out_dir = _read(os.path.join(d, "OUTDIR")).strip() \
-        if os.path.exists(os.path.join(d, "OUTDIR")) \
-        else os.path.join(OUT_ROOT, _person_tag(fs))
+    if not os.path.exists(os.path.join(d, "OUTDIR")):
+        raise SystemExit("OUTDIR 기록이 없습니다. --stage body 를 먼저 실행하세요.")
+    out_dir = _read(os.path.join(d, "OUTDIR")).strip()
     title = meta["title"]
     _write(os.path.join(out_dir, "완성본.txt"), title + "\n\n" + body + "\n")
+
+    # 날짜 폴더 목차 갱신: 몇 번 방이 누구·무슨 제목인지 한눈에
+    day_dir = os.path.dirname(out_dir)
+    slot = os.path.basename(out_dir)
+    toc_path = os.path.join(day_dir, "목차.txt")
+    toc = [ln for ln in (_read(toc_path).split("\n") if os.path.exists(toc_path) else [])
+           if ln.strip() and not ln.startswith(f"{slot}. ")]
+    toc.append(f"{slot}. {fs['person']['name']} — {title}")
+    toc.sort(key=lambda x: int(x.split(".")[0]) if x.split(".")[0].isdigit() else 0)
+    _write(toc_path, "\n".join(toc) + "\n")
 
     # 마감 문장 실사용분 추출 (state 중복 대조용).
     # 문장이 여러 줄에 걸치므로 본문을 평문으로 합친 뒤 틀의 고정부로 찾는다.
@@ -410,7 +435,7 @@ def stage_finish():
     st["recent_posts"] = [p for p in st["recent_posts"]
                           if p.get("title") != title]
     st["recent_posts"].append({
-        "date": datetime.date.today().isoformat(),
+        "date": _kst_now().date().isoformat(),
         "person": fs["person"]["name"],
         "title": title,
         "ending_template": meta.get("ending_template", ""),
