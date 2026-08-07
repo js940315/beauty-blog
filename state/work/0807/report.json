@@ -1,47 +1,45 @@
 {
   "date": "2026-08-07",
-  "celeb": "전지현",
+  "celeb": "김태리",
   "richness": "thin",
-  "sources": 148,
+  "sources": 127,
   "title": {
-    "title": "\"돈 있어도 못 산다는\" 44세 톱배우의 복근룩, 정체가 뭐길래",
-    "score": 80,
+    "title": "보그 7월호가 담은 여름, 청량함의 기준이 된 배우",
+    "score": 44,
     "reasons": [
       "앞20자 숫자 +30",
-      "앞20자 인물 특정 +14",
-      "이슈 선행형(짧은 인용 선두) +22",
       "단정형 종결 +8",
       "숫자 1개 +6"
     ]
   },
-  "cta": "비싼 옷보다 잘 맞는 옷이 사람을 살립니다.",
-  "content_lines": 76,
+  "cta": "화장대 정리부터가 피부 관리의 시작입니다.",
+  "content_lines": 61,
   "polished": false,
   "route": "agent",
   "final_problems": [],
   "images": [
     {
       "slot": 1,
-      "category": "주얼리",
-      "photo": "주얼리_0s_unsplash_1.jpg",
+      "category": "드레스",
+      "photo": "드레스_0s_pexels_2.jpg",
       "file": "1번 사진.jpg"
     },
     {
       "slot": 2,
-      "category": "옷장",
-      "photo": "옷장_1s_unsplash_1.jpg",
+      "category": "주얼리",
+      "photo": "주얼리_1s_pexels_0.jpg",
       "file": "2번 사진.jpg"
     },
     {
       "slot": 3,
-      "category": "드레스",
-      "photo": "드레스_1s_pexels_0.jpg",
+      "category": "옷장",
+      "photo": "옷장_0s_pexels_2.jpg",
       "file": "3번 사진.jpg"
     },
     {
       "slot": 4,
       "category": "화장품",
-      "photo": "화장품_1s_pexels_0.jpg",
+      "photo": "화장품_0s_pexels_2.jpg",
       "file": "4번 사진.jpg"
     }
   ]

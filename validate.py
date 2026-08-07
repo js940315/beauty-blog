@@ -177,12 +177,13 @@ def validate_body(body: str, factsheet: dict, state: dict) -> list:
     if "**" in body:
         errs.append("소제목에 별표(**) 사용 — 네이버에 그대로 노출된다. 큰따옴표만 쓸 것")
 
-    # 큰따옴표 단독 줄 = 도입 인용구 1 + 소제목 4, 딱 다섯이어야 한다
+    # 큰따옴표 단독 줄 = 도입 인용구 1 + 소제목 5, 딱 여섯이어야 한다.
+    # (2026-08-07 사용자 확정: 마무리가 무거워 챕터를 5개로 늘림)
     quote_lines = [l for l in lines
                    if _is_quote_only(l.replace(U2800, "").strip())]
-    if len(quote_lines) != 5:
+    if len(quote_lines) != 6:
         errs.append(f"큰따옴표 단독 줄 {len(quote_lines)}개 — "
-                    "도입 인용구 1 + 소제목 4 = 5개여야 함")
+                    "도입 인용구 1 + 소제목 5 = 6개여야 함")
 
     # 해시태그
     tags = [l.replace(U2800, "").strip() for l in lines
@@ -249,7 +250,7 @@ def _selftest():
     # 검증 3: 형식 위반 검출
     B = U2800
     good_lines = ['"그 말 한마디였습니다"' + B, B * 3]
-    for ch in range(4):
+    for ch in range(5):
         good_lines.append(f'"소제목 어쩌고 {ch + 1}번"' + B)
         good_lines.append(B * 3)
         for p in range(4):

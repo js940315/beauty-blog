@@ -177,10 +177,17 @@ def stage_auto(celeb, force=False):
 
 
 def stage_plan(n):
-    """오늘 쓸 인물 N명 추천 — 최근 45일 미사용 인물을 config 풀에서 뽑는다."""
+    """오늘 쓸 인물 N명 추천 — 최근 45일 미사용 인물을 config 풀에서 뽑는다.
+
+    v13 사용 이력(state.json)과 일일 시스템 쿨다운(store.db)을 둘 다 거른다.
+    (2026-08-07: 일일이 쓴 김유정을 v13이 다음날 또 쓴 교차 중복 실측 → 보강)
+    """
     import config as CFG
+    import store
+    store.init()
     used = recent_persons()
-    avail = [c for c in CFG.CELEB_POOL if c not in used]
+    avail = [c for c in CFG.CELEB_POOL
+             if c not in used and not store.celeb_on_cooldown(c)]
     print(f"■ 후보 {len(avail)}명 (풀 {len(CFG.CELEB_POOL)} - 최근 사용 {len(used)})")
     print("   오늘의 추천:", ", ".join(avail[:n]))
     print("   시작: python pipeline.py --auto <인물명>")
