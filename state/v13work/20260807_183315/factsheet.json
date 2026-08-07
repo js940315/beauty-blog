@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "신민아",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": "41",
+    "age_range": "",
+    "career": "오메가·루이비통·랑콤 앰버서더",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "신민아", "text": "심하게 벌크업 돼", "context": "몸매관리 안 하는 이유(네이트 보도)"},
+    {"speaker": "신민아", "text": "'두쫀쿠'에 빠졌는데 살 엄청 찐다", "context": "결혼 후 근황 인터뷰(W KOREA 등 보도)"},
+    {"speaker": "신민아", "text": "엉망이군요", "context": "루이비통 가방 MZ 스타일 꾸미기에 도전한 뒤 남긴 반응"},
+    {"speaker": "신민아", "text": "화장 시간 40분, 잠 많이 자려 해", "context": "내추럴 추구미 관련 인터뷰(스포츠경향 보도)"},
+    {"speaker": "공효진", "text": "운동·관리 안 해, 타고 났다", "context": "절친 신민아의 몸매에 대한 발언(tvreport 보도)"}
+  ],
+  "events": [
+    {"summary": "조지 클루니·현빈과 나란히 오메가 글로벌 앰버서더로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "루이비통 새 하우스 앰버서더로 발탁되며 하이 주얼리 컬렉션 론칭 행사에 참석함", "year": null, "confirmed": true},
+    {"summary": "랑콤 로컬 앰배서더로 발탁되며 '기프팅 캠페인'을 공개함", "year": null, "confirmed": true},
+    {"summary": "헤어스타일링 브랜드 글램팜의 신규 캠페인 모델로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "손톱도 민낯이 예쁜 '신민아 네일'이 트렌드로 언급됨", "year": null, "confirmed": true},
+    {"summary": "시사회에서 화제가 된 미모를 두고 직접 뷰티 비결을 밝힘", "year": null, "confirmed": true},
+    {"summary": "결혼 후 '두쫀쿠'라는 간식에 빠져 살이 찐다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "루이비통 가방을 MZ 스타일로 직접 꾸미는 데 도전했다가 '엉망이군요'라고 반응함", "year": null, "confirmed": true},
+    {"summary": "승마를 즐기는 등 의외의 취미가 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "등 근육을 풀 때 도움이 되는 도구를 꼭 챙겨 다닌다고 알려짐", "year": null, "confirmed": true},
+    {"summary": "김우빈과 결혼식 청첩장과 메뉴카드를 직접 그리고 써서 화제가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "41세", "meaning": "신민아의 나이"},
+    {"value": "40분", "meaning": "화장에 들이는 시간"}
+  ],
+  "related_people": [
+    {"name": "공효진", "relation": "절친", "mentioned_as": "몸매관리 안 해도 타고났다고 폭로함"},
+    {"name": "김우빈", "relation": "남편", "mentioned_as": "결혼 후 근황과 청첩장 제작 일화에 등장"},
+    {"name": "조지 클루니", "relation": "오메가 공동 앰버서더", "mentioned_as": "함께 어깨를 나란히 한 앰버서더로 언급됨"},
+    {"name": "현빈", "relation": "오메가 공동 앰버서더", "mentioned_as": "함께 어깨를 나란히 한 앰버서더로 언급됨"}
+  ],
+  "beauty_evidence": [
+    "손톱도 민낯이 예쁜 '신민아 네일' 트렌드",
+    "오메가·루이비통·랑콤·글램팜 등 다수 브랜드 앰버서더",
+    "화장 시간 40분, 충분한 수면을 추구하는 내추럴 뷰티"
+  ],
+  "care_habits": [
+    "심하게 벌크업 돼서 별도 몸매관리(웨이트 운동)를 하지 않음",
+    "화장 시간 40분, 잠을 많이 자려고 함",
+    "승마를 즐김",
+    "등 근육을 풀 때 도움이 되는 도구를 챙겨 다님"
+  ],
+  "hot_materials": [
+    {"material": "심하게 벌크업 돼서 몸매관리 안 한다는 직접 발언", "why_hot": "발언"},
+    {"material": "절친 공효진이 근수저(타고난 몸매)라고 폭로함", "why_hot": "발언"},
+    {"material": "화장 시간 40분, 잠을 많이 자는 게 비결이라는 발언", "why_hot": "발언"},
+    {"material": "조지 클루니·현빈과 나란히 오메가 글로벌 앰버서더 발탁", "why_hot": "실명"},
+    {"material": "루이비통 하우스 앰버서더로 하이주얼리 컬렉션 참석", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "루이비통 가방을 직접 꾸미다 '엉망이군요'라며 좌절한 장면",
+    "시사회에서 레전드 미모로 직접 뷰티 비결을 밝힌 장면",
+    "결혼식 청첩장과 메뉴카드를 손수 그리고 쓴 장면"
+  ],
+  "notes": "'결혼 4개월 만에 기쁜 소식' 기사는 내용이 임신인지 다른 소식인지 불명확하고 배우자 위주 보도라 제외함. '이 음식'(헬스조선), '이것'(등 근육 도구, 승마 관련 바다에서의 활동)은 구체 명칭이 블라인드돼 있어 이름 없이 사실만 반영함."
+}

@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "윈터",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "그룹 에스파 멤버, 데뷔 6년차",
+    "major_work": ""
+  },
+  "quotes": [],
+  "events": [
+    {"summary": "에스파 닝닝과 브라톱 스타일링으로 대담한 패션을 선보임", "year": null, "confirmed": true},
+    {"summary": "대학 축제에서 저지·나시 등 반전 패션을 선보임", "year": null, "confirmed": true},
+    {"summary": "토스트처럼 구운 듯한 톤의 메이크업 트렌드를 좋아한다고 알려짐", "year": null, "confirmed": true},
+    {"summary": "반얀트리 서울이 히디프와 손잡고 이름을 딴 '윈터 글로우' 비건 뷰티 객실 패키지를 출시함", "year": null, "confirmed": true},
+    {"summary": "뱅글 팔찌 스타일링으로 감각적인 룩을 완성함", "year": null, "confirmed": true},
+    {"summary": "버건디 스카프와 브라운 미니 원피스로 클래식한 출국룩을 선보임", "year": null, "confirmed": true},
+    {"summary": "크롭톱과 핫팬츠로 Y2K 라이딩룩을 소화하며 자전거를 탐", "year": null, "confirmed": true},
+    {"summary": "금발에 라벤더 레이스를 매치한 스타일링으로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "윔블던에서 클래식 패션의 정수를 보여줌", "year": null, "confirmed": true},
+    {"summary": "모던한 컬러의 공항패션을 선보임", "year": null, "confirmed": true},
+    {"summary": "런던으로 향하며 절제된 세련미의 니트룩을 선보임", "year": null, "confirmed": true},
+    {"summary": "뉴발란스 글로벌 앰버서더로 발탁되며 엘르 디지털 커버를 공개함", "year": null, "confirmed": true},
+    {"summary": "크롭 스웻셔츠와 쇼츠로 애슬레저룩을 완성함", "year": null, "confirmed": true},
+    {"summary": "금발에 핑크 패션으로 화보를 촬영하며 차도녀 아우라를 보여줌", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "닝닝", "relation": "에스파 동료 멤버", "mentioned_as": "함께 브라톱 스타일링을 선보임"},
+    {"name": "카리나", "relation": "에스파 동료 멤버", "mentioned_as": "붉은악마 응원 스타일링을 함께 선보임"}
+  ],
+  "beauty_evidence": [
+    "반얀트리 서울 x 히디프 '윈터 글로우' 비건 뷰티 객실 패키지 출시",
+    "뉴발란스 글로벌 앰버서더 발탁, 엘르 디지털 커버 공개",
+    "토스트처럼 구운 톤의 메이크업 트렌드를 애용한다고 알려짐"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "걸그룹 파격 브라톱 스타일링으로 시선을 강탈함", "why_hot": "장면"},
+    {"material": "뉴발란스 글로벌 앰버서더로 발탁, 엘르 디지털 커버 공개", "why_hot": "실명"},
+    {"material": "이름을 딴 '윈터 글로우' 비건 뷰티 객실 패키지가 출시됨", "why_hot": "실명"},
+    {"material": "대학 축제에서 저지·나시로 반전 패션을 보여줌", "why_hot": "반전"},
+    {"material": "금발에 라벤더 레이스로 자전거 타는 요정 실존이라는 반응", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "크롭톱과 핫팬츠 차림으로 자전거를 타는 장면",
+    "보닛 위에 무릎을 꿇고 금발과 핑크 패션으로 포즈를 취한 장면",
+    "윔블던 관중석에서 클래식한 패션으로 시선을 사로잡은 장면"
+  ],
+  "notes": "재테크(재산관리를 아버지가 맡아준다)는 뷰티·패션과 무관한 가족 재정 정보라 제외함. '강안교육 윈터스쿨'은 동명이인·무관 기관 기사라 제외함. '김민하' 기사는 다른 인물에 대한 오검색 결과라 제외함. '사나 vs 윈터' 여름 패션 대격돌 기사는 비교 구도가 광고성 캠페인 소개에 가깝고 구체적 정보가 부족해 제외함. '원희'와의 팔찌 스타일링 비교는 인물 특정이 불명확해 제외함. 윔블던 동반자 '우즈'는 인물 특정이 불명확해 이름 없이 반영함."
+}

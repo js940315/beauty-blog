@@ -1,0 +1,51 @@
+{
+  "person": {
+    "name": "안유진",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "그룹 아이브 멤버",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "안유진", "text": "이렇게 먹으면 편안하게 살 빠져", "context": "늘씬한 몸매 비결 관련 발언(kormedi 보도)"}
+  ],
+  "events": [
+    {"summary": "마리끌레르 3월호 톰 포드 뷰티 화보에서 '현대적 글로우 룩'을 선보임", "year": null, "confirmed": true},
+    {"summary": "공항에서 라코스테 스타일링으로 패션퀸이라는 반응을 얻음", "year": null, "confirmed": true},
+    {"summary": "라코스테 브랜드 앰버서더로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "아모레퍼시픽 헤어케어 브랜드 라보에이치 앰버서더로 선정됨", "year": null, "confirmed": true},
+    {"summary": "한 줌 허리를 드러낸 바디수트 스타일링으로 파격 스타일을 선보임", "year": null, "confirmed": true},
+    {"summary": "바다 앞에서 수영복 자태로 화보 같다는 반응을 얻음", "year": null, "confirmed": true},
+    {"summary": "핑크 퍼 톱 스타일로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "지브리 스타일 감성룩이 반응 폭발이라는 보도가 나옴", "year": null, "confirmed": true},
+    {"summary": "군복(밀리터리) 스타일을 시크하면서도 러블리하게 소화함", "year": null, "confirmed": true},
+    {"summary": "LA에서 오픈숄더 패션을 찰떡 소화함", "year": null, "confirmed": true},
+    {"summary": "슬림한 어깨라인과 직각 어깨로 한여름 시선을 사로잡음", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [],
+  "beauty_evidence": [
+    "마리끌레르 3월호 톰 포드 뷰티 화보 촬영",
+    "라코스테 브랜드 앰버서더 발탁",
+    "아모레퍼시픽 라보에이치 헤어케어 앰버서더 선정"
+  ],
+  "care_habits": [
+    "이렇게 먹으면 편안하게 살이 빠진다는 식습관을 직접 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "톰 포드 뷰티 화보에서 '현대적 글로우 룩'을 선보임", "why_hot": "장면"},
+    {"material": "라코스테 앰버서더로 발탁되며 공항패션도 화제가 됨", "why_hot": "실명"},
+    {"material": "이렇게 먹으면 편하게 살 빠진다는 다이어트 발언", "why_hot": "발언"},
+    {"material": "한 줌 허리 드러낸 바디수트 스타일링", "why_hot": "장면"},
+    {"material": "아모레퍼시픽 라보에이치 헤어케어 앰버서더 선정", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "바다 앞에서 수영복 자태로 화보 같은 순간을 연출한 장면",
+    "군복 스타일에 시크함과 러블리함을 동시에 담아낸 장면",
+    "LA 거리에서 오픈숄더 패션으로 시선을 사로잡은 장면"
+  ],
+  "notes": "구글 뉴스 헤드라인 32건 중 딥페이크 피해·소속사 사과 관련 보도(9건)는 본인이 피해를 입은 민감한 범죄 이슈라 뷰티·패션 소재로 다루기에 부적절해 제외함. '냉장고를 부탁해' 등에서 나온 모친 나이·요리사 최현석 관련 에피소드, 장원영과의 결혼 토크도 뷰티·패션과 무관하고 가족 정보가 섞여 있어 제외함. 필러 관련 표현은 두피·헤어케어 브랜드 앰버서더 선정 기사 제목의 일부이며 시술을 의미하지 않아 앰버서더 사실만 취함."
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-08",
+  "celeb": "손예진",
+  "richness": "thin",
+  "sources": 124,
+  "title": {
+    "title": "44세 안 믿기는 드레스 자태, 시대를 초월했다는 반응",
+    "score": 80,
+    "reasons": [
+      "앞20자 숫자 +30",
+      "앞20자 다이어트 신호어 +22",
+      "앞20자 인물 특정 +14",
+      "단정형 종결 +8",
+      "숫자 1개 +6"
+    ]
+  },
+  "cta": "비싼 옷보다 잘 맞는 옷이 사람을 살립니다.",
+  "content_lines": 80,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": []
+}

@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "카리나",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "그룹 에스파 멤버",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "카리나", "text": "에스파, 생각보다 식단 관리 안 해", "context": "'십오야' 방송 중 발언(조선비즈 보도)"},
+    {"speaker": "카리나", "text": "베개에 수건 깔고 자면 피부 깨끗해진다", "context": "무신사TV서 공개한 피부 관리 팁(톱스타뉴스 등 보도)"},
+    {"speaker": "카리나", "text": "진짜 내 스타일", "context": "젖은 머리 스타일링에 대한 발언(네이트 보도)"},
+    {"speaker": "카리나", "text": "'WDA' 피처링, 지드래곤 스타일로 잘 살려줘 감사해", "context": "JTBC 인터뷰"}
+  ],
+  "events": [
+    {"summary": "비 오는 날 백리스 스타일링으로 반전 매력을 보여줌", "year": null, "confirmed": true},
+    {"summary": "한뼘 허리라인과 Y2K 감성 스타일을 선보임", "year": null, "confirmed": true},
+    {"summary": "10만원대 드레스를 입고 품절 대란을 일으킴", "year": null, "confirmed": true},
+    {"summary": "샤넬과 대담한 화보를 촬영함", "year": null, "confirmed": true},
+    {"summary": "마크앤로나 앰버서더로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "컨버스 '런스타 크러쉬' 캠페인의 새 아이콘으로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "MLB 제품에서도 품절 대란을 일으킴", "year": null, "confirmed": true},
+    {"summary": "패션 워너비 투표에서 지드래곤·장원영을 제치고 1위에 오름", "year": null, "confirmed": true},
+    {"summary": "시카고 롤라팔루자 페스티벌에서 오버핏 프린트룩을 소화함", "year": null, "confirmed": true},
+    {"summary": "붉은악마 응원 스타일링을 윈터와 함께 선보임", "year": null, "confirmed": true},
+    {"summary": "에스파 지젤과 보이시한 뷔스티에 시밀러룩을 선보임", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10만원대", "meaning": "입고 품절 대란을 일으킨 드레스 가격"}
+  ],
+  "related_people": [
+    {"name": "지드래곤", "relation": "'WDA' 피처링 협업 대상", "mentioned_as": "피처링 스타일을 잘 살려줘 감사하다고 언급함"},
+    {"name": "장원영", "relation": "패션 워너비 투표 비교 대상·헤어스타일링 비교", "mentioned_as": "함께 제치고 1위, 여 아이돌 외모 쌍벽으로도 언급됨"},
+    {"name": "제니", "relation": "헤어스타일링 비교 대상", "mentioned_as": "풀뱅 vs 올백 스타일링으로 함께 소개됨"},
+    {"name": "강소라", "relation": "스타일을 따라한 인물", "mentioned_as": "카리나 메이크업을 받고 핫걸로 변신했다는 보도"},
+    {"name": "윈터", "relation": "붉은악마 응원 스타일링 동료", "mentioned_as": "함께 붉은악마 화보를 촬영함"},
+    {"name": "지젤", "relation": "에스파 동료 멤버", "mentioned_as": "함께 시밀러룩을 선보임"}
+  ],
+  "beauty_evidence": [
+    "베개에 수건 깔고 자는 피부 관리 팁을 직접 공개",
+    "1일 1팩을 한다는 사실이 알려짐",
+    "샤넬 화보 촬영, 마크앤로나·컨버스 앰버서더 동시 발탁"
+  ],
+  "care_habits": [
+    "베개에 수건을 깔고 자는 피부 관리법",
+    "1일 1팩"
+  ],
+  "hot_materials": [
+    {"material": "에스파, 생각보다 식단 관리 안 해라는 본인 발언", "why_hot": "발언"},
+    {"material": "베개에 수건 깔고 자면 피부 깨끗해진다는 셀프 꿀팁 공개", "why_hot": "발언"},
+    {"material": "10만원대 드레스 입고 품절 대란을 일으킴", "why_hot": "반전"},
+    {"material": "패션 워너비 투표에서 지드래곤·장원영을 제치고 1위", "why_hot": "실명"},
+    {"material": "샤넬 화보와 마크앤로나·컨버스 앰버서더 동시 발탁", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "비 오는 날 백리스 스타일링으로 반전 매력을 보여준 장면",
+    "젖은 머리로 섹시美를 폭발시킨 장면",
+    "시카고 롤라팔루자에서 오버핏 프린트룩으로 페스티벌을 즐긴 장면"
+  ],
+  "notes": "뇌 건강에 좋다는 음식 소개 기사는 구체적 음식명이 헤드라인에서 '이 음식'으로 가려져 있어 무엇인지 확인이 안 돼 제외함. 1일 1팩 언급 기사는 카리나 본인 발언인지 매체 서술인지 불명확해 quotes가 아닌 care_habits(사실 정보)로만 반영함."
+}

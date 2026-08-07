@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "박보영",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "빈폴·락토핏·메노킨 앰버서더",
+    "major_work": "미지의 서울"
+  },
+  "quotes": [],
+  "events": [
+    {"summary": "사진전 'Somewhere in between'을 개최함", "year": null, "confirmed": true},
+    {"summary": "빠더너스 콘텐츠에서 테츠오 아이웨어 안경을 착용해 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "블랙 트위드로 클래식한 시크룩을 선보임", "year": null, "confirmed": true},
+    {"summary": "삼성물산패션 빈폴의 새 홍보대사로 발탁되며 서울 클래식 감성을 강화한다는 브랜드 메시지가 나옴", "year": null, "confirmed": true},
+    {"summary": "종근당건강 락토핏의 새 얼굴로 낙점되며 브랜드 10주년 메시지를 함께함", "year": null, "confirmed": true},
+    {"summary": "메노킨 모델로 발탁되며 버블팩 홍보를 진행함", "year": null, "confirmed": true},
+    {"summary": "실물이 안 믿기는 드레스 패션으로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "모공 하나 없는 피부 관리 비결로 특정 과일을 갈아마시는 습관이 소개됨", "year": null, "confirmed": true},
+    {"summary": "극단적 다이어트 대신 꾸준한 일상 습관을 강조하는 몸매 비결이 소개됨(신장 158cm)", "year": null, "confirmed": true},
+    {"summary": "운동 후 챙기는 루틴이 있다고 밝혀짐", "year": null, "confirmed": true},
+    {"summary": "나이를 안 먹는다는 반응을 얻을 만큼 동안 미모로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "레드카펫에서 공주님 같다는 반응을 얻은 비주얼을 선보임", "year": null, "confirmed": true},
+    {"summary": "탈색머리로 파격적인 헤어 변신을 선보임", "year": null, "confirmed": true},
+    {"summary": "MZ스타일의 논란 없는 클린 인증샷으로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "미니미가 공개되며 인형 같다는 반응을 얻음", "year": null, "confirmed": true},
+    {"summary": "스타일리스트와 함께 찍은 인생 사진에서 동안 유지 비결이 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "패션쇼에서 키가 커 보이는 스타일링 마법으로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "청룡영화상에서 X크로스 디자인의 꽃 같은 드레스룩으로 올킬함", "year": null, "confirmed": true},
+    {"summary": "드라마 '미지의 서울'에서 1인2역을 연기하며 헤어스타일 디테일로 캐릭터를 구분함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "158cm", "meaning": "박보영의 신장"}
+  ],
+  "related_people": [],
+  "beauty_evidence": [
+    "빈폴·락토핏·메노킨 등 다수 브랜드 앰버서더",
+    "과일을 갈아마시는 피부 관리 습관",
+    "극단적 다이어트 대신 꾸준한 일상 습관 강조"
+  ],
+  "care_habits": [
+    "극단적 다이어트 대신 꾸준한 일상 습관을 강조함",
+    "특정 과일을 갈아마시는 습관",
+    "운동 후 챙기는 루틴이 있음"
+  ],
+  "hot_materials": [
+    {"material": "모공 하나 없는 피부, 과일 갈아마시는 습관이 비결로 소개됨", "why_hot": "반전"},
+    {"material": "극단적 다이어트 대신 꾸준한 일상 습관이라는 몸매 비결", "why_hot": "반전"},
+    {"material": "탈색머리로 파격 변신하며 나이가 안 믿긴다는 반응", "why_hot": "낙차"},
+    {"material": "빈폴 새 홍보대사로 발탁, 서울 클래식 감성 강화", "why_hot": "실명"},
+    {"material": "청룡영화상에서 꽃 같은 드레스룩으로 올킬", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "청룡영화상 레드카펫에서 X크로스 드레스로 러블리 요정처럼 등장한 장면",
+    "패션쇼 무대 뒤에서 훌쩍 커 보이는 스타일링 마법을 선보인 장면",
+    "탈색머리로 파격 변신해 나이를 잊은 듯한 모습을 보인 장면"
+  ],
+  "notes": "나이가 기사마다 34·35·36세로 엇갈려 age_range(30대)로만 반영함. 협찬 스타킹 거부로 레드카펫 출입이 제지됐다는 기사는 협찬 논란 소재라 제외함. 모친의 자금 관리 발언은 가족 재정 정보라 제외함. 대성의 이상형 발언, 남자친구·연애 스타일 인터뷰, 박형식·박신혜와의 '멜로 눈빛' 목격담은 열애·로맨스 소재라 전부 제외함. 158cm 41kg 기사 중 41kg(저체중 스펙)은 제외하고 신장·습관 중심 정보만 반영함. '이 과일', '운동 후 XXX' 등 구체 명칭이 블라인드된 항목은 이름 없이 사실만 담음."
+}

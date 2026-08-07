@@ -1,0 +1,59 @@
+{
+  "person": {
+    "name": "박은빈",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": "34",
+    "age_range": "",
+    "career": "'오싹한 연애', '원더풀스' 등 출연",
+    "major_work": "우영우"
+  },
+  "quotes": [
+    {"speaker": "박은빈", "text": "반전 매력 신경썼다", "context": "'오싹한 연애' 재벌 상속녀 변신 소감(SPOTV NEWS 보도)"},
+    {"speaker": "박은빈", "text": "내 안의 용량 넓히는 과정", "context": "'원더풀스' 개차반 변신 이유 인터뷰(네이트 보도)"}
+  ],
+  "events": [
+    {"summary": "'오싹한 연애'에서 재벌 상속녀로 변신하며 반전 매력에 신경썼다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "스케쳐스와 썸머 어패럴, 겨울부츠, 맥스쿠셔닝, 컴포트윈터, FW 등 다수 캠페인을 함께함", "year": null, "confirmed": true},
+    {"summary": "토리버치 매장에서 크리스마스 쇼핑을 하며 눈부신 룩을 선보임", "year": null, "confirmed": true},
+    {"summary": "'원더풀스' 감독이 박은빈의 자기관리가 철저하다고 언급함", "year": null, "confirmed": true},
+    {"summary": "'원더풀스' 개차반 캐릭터 변신 이유를 내 안의 용량을 넓히는 과정이라고 밝힘", "year": null, "confirmed": true},
+    {"summary": "'오싹한 연애' 천여리 캐릭터 패션의 핵심으로 장갑이 꼽힘", "year": null, "confirmed": true},
+    {"summary": "'오싹한 연애'에서 화려한 보석 패션을 선보임", "year": null, "confirmed": true},
+    {"summary": "걸크러시 섬머 데일리룩을 선보임", "year": null, "confirmed": true},
+    {"summary": "체크 원피스와 가죽 베스트를 매치한 프렌치룩을 선보임", "year": null, "confirmed": true},
+    {"summary": "미니 원피스와 롱부츠로 시선을 사로잡는 패션을 선보임", "year": null, "confirmed": true},
+    {"summary": "옐로 컬러 슈트로 '희망의 슈트' 화보를 촬영함", "year": null, "confirmed": true},
+    {"summary": "34세에 달라진 스타일로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "주현영, 이세영과의 워맨스(케미)로 화제가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "34세", "meaning": "박은빈의 나이"}
+  ],
+  "related_people": [
+    {"name": "주현영", "relation": "화보 동반 출연 배우", "mentioned_as": "함께한 워맨스가 화제가 됨"},
+    {"name": "이세영", "relation": "화보 동반 출연 배우", "mentioned_as": "함께한 워맨스가 화제가 됨"}
+  ],
+  "beauty_evidence": [
+    "스케쳐스 브랜드 앰버서더로 다수 캠페인 진행",
+    "토리버치 매장 방문",
+    "옐로 컬러 슈트 화보 촬영"
+  ],
+  "care_habits": [
+    "'원더풀스' 감독으로부터 자기관리가 철저하다는 평가를 받음"
+  ],
+  "hot_materials": [
+    {"material": "재벌 상속녀로 변신하며 반전 매력에 신경썼다는 발언", "why_hot": "발언"},
+    {"material": "스케쳐스와 다수의 캠페인을 이어가며 브랜드 앰버서더로 활약", "why_hot": "실명"},
+    {"material": "한여름 장갑 패션으로 철벽 재벌녀를 완성함", "why_hot": "장면"},
+    {"material": "34세에 달라진 스타일로 화제가 됨", "why_hot": "낙차"},
+    {"material": "개차반 캐릭터 변신 이유를 내 안의 용량 넓히는 과정이라 밝힘", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "한여름 무더위에도 장갑을 착용한 철벽 재벌녀 패션 장면",
+    "화려한 보석 패션으로 귀신 보는 재벌 캐릭터를 완성한 장면",
+    "토리버치 매장에서 반짝이는 트리처럼 눈부신 룩으로 쇼핑하는 장면"
+  ],
+  "notes": "'유방암 파티' 관련 기사는 질병 소재라 제외함. 양세종의 캐릭터 대사('내 스타일 아냐')는 박은빈 뷰티·패션과 무관한 드라마 로맨스 소재라 제외함. KB국민은행 자산관리 브랜드 광고는 뷰티·패션과 무관한 금융 소재라 제외함. '심경 변화' 표현은 추측성이라 배제하고 스타일 변화 사실만 반영함."
+}

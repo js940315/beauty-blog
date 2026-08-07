@@ -1,0 +1,56 @@
+{
+  "person": {
+    "name": "장원영",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "그룹 아이브 멤버",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "장원영", "text": "무작정 안 굶어요", "context": "고단백 식단 관련 발언(뉴시스 보도)"}
+  ],
+  "events": [
+    {"summary": "MLB 뉴욕 메츠 경기에서 시구 패션을 선보임", "year": null, "confirmed": true},
+    {"summary": "스팽글 투피스를 완벽 소화하며 고단백 식단을 언급함", "year": null, "confirmed": true},
+    {"summary": "주 5회 운동으로 건강한 몸매를 관리한다는 근황이 전해짐", "year": null, "confirmed": true},
+    {"summary": "명품이 아닌 5만원대 청바지를 착용한 사실이 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "신세계면세점 명동점에 이름을 딴 '헤어브러시' 콘텐츠와 메디큐브 '포에버 체리' 팝업스토어가 운영됨", "year": null, "confirmed": true},
+    {"summary": "닥터엘시아가 뮤즈로 내세우며 글로벌 시장 확대를 예고함", "year": null, "confirmed": true},
+    {"summary": "패션 워너비 투표에서 카리나·지드래곤을 제치고 정상에 오름", "year": null, "confirmed": true},
+    {"summary": "골드와 실버 주얼리 중 여름 스타일 취향이 소개됨", "year": null, "confirmed": true},
+    {"summary": "체크 원피스, 화이트 플로럴 미니 원피스 등 여름 원피스룩이 다수 소개됨", "year": null, "confirmed": true},
+    {"summary": "외국인 관광객이 'K뷰티 투어'로 한국을 찾을 만큼 영향력이 크다는 보도가 나옴", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "5만원대", "meaning": "착용한 청바지 가격"},
+    {"value": "주 5회", "meaning": "운동 빈도"}
+  ],
+  "related_people": [
+    {"name": "카리나", "relation": "패션 워너비 투표 비교 대상", "mentioned_as": "지드래곤과 함께 제치고 1위에 오름"},
+    {"name": "지드래곤", "relation": "패션 워너비 투표 비교 대상", "mentioned_as": "카리나와 함께 제치고 1위에 오름"}
+  ],
+  "beauty_evidence": [
+    "메디큐브 '포에버 체리' 팝업스토어에 이름이 연결됨",
+    "닥터엘시아 뮤즈로 발탁됨",
+    "외국인 관광객이 K뷰티 투어로 한국을 찾을 만큼 영향력이 크다는 보도"
+  ],
+  "care_habits": [
+    "무작정 굶지 않는 고단백 식단을 언급함",
+    "주 5회 운동으로 건강한 몸매를 관리함"
+  ],
+  "hot_materials": [
+    {"material": "명품인 줄 알았던 청바지가 사실은 5만원대 제품이었다는 반전", "why_hot": "반전"},
+    {"material": "K뷰티 열풍 속 외국인이 관련주를 1조 넘게 매수했다는 보도", "why_hot": "낙차"},
+    {"material": "무작정 안 굶는다는 고단백 식단 발언", "why_hot": "발언"},
+    {"material": "MLB 뉴욕 메츠 시구 무대에서 보여준 패션", "why_hot": "장면"},
+    {"material": "카리나·지드래곤을 제치고 패션 워너비 투표 1위에 오름", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "MLB 뉴욕 메츠 시구 무대에서 블루진 패션으로 등장한 장면",
+    "한남동 거리에 화이트 플로럴 원피스 차림으로 나타나 시선이 쏠린 장면",
+    "면세점 명동점에 이름을 건 헤어브러시 콘텐츠와 팝업스토어가 차려진 장면"
+  ]
+}
