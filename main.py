@@ -116,7 +116,8 @@ def _finalize(d, body, richness, meta, chosen, polish_ok):
     _dump(os.path.join(d, C.POST_FILENAME), post)
 
     made = []
-    if not meta.get("no_images"):
+    # IMAGE_COUNT=0 이면 사진 단계 자체를 건너뛴다 (2026-08-07 사용자 확정: 스탠바이 무이미지)
+    if not meta.get("no_images") and C.IMAGE_COUNT > 0:
         print("■ 사진 준비...")
         try:
             import images
