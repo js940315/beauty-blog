@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-09",
+  "celeb": "김태희",
+  "richness": "thin",
+  "sources": 82,
+  "title": {
+    "title": "\"40대 맞아?\" 소리 듣는 45세 여배우의 데님 매치법",
+    "score": 86,
+    "reasons": [
+      "앞20자 숫자 +30",
+      "앞20자 인물 특정 +14",
+      "이슈 선행형(짧은 인용 선두) +22",
+      "단정형 종결 +8",
+      "숫자 2개 +12"
+    ]
+  },
+  "cta": "스타일은 따라 하는 게 아니라 골라 담는 겁니다.",
+  "content_lines": 58,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": []
+}

@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "이성경",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "찬란한 너의 계절에"
+  },
+  "quotes": [
+    {"speaker": "이성경", "text": "노출이 있다 보니까", "context": "옹스타일에서 알라딘 자스민 복근 비결을 밝히며 한 말"},
+    {"speaker": "이성경", "text": "복근이 더 진해져서 자기 전 10분 더 운동한다", "context": "옹스타일에서 자스민 몸매 비결로 밝힌 루틴"},
+    {"speaker": "이성경", "text": "과거 10kg 증량으로 튼살이 생겼다", "context": "health.chosun.com 인터뷰에서 본인이 밝힌 경험"},
+    {"speaker": "이성경", "text": "의상 하나하나 이유가 담겼다", "context": "찬란한 너의 계절에 송하란 캐릭터 의상에 대해 한 말"}
+  ],
+  "events": [
+    {"summary": "쟈딕앤볼테르 2026 F/W 컬렉션 베이징 행사 참석", "year": null, "confirmed": true},
+    {"summary": "시세이도 앰버서더로 여름 뷰티템 제안", "year": null, "confirmed": true},
+    {"summary": "다미아니 주얼리로 공항패션 완성", "year": null, "confirmed": true},
+    {"summary": "ASEA 2026에서 최강창민과 함께 진행", "year": null, "confirmed": true},
+    {"summary": "알라딘 자스민 역으로 옹스타일 방송분 촬영", "year": null, "confirmed": true},
+    {"summary": "찬란한 너의 계절에서 송하란 역으로 출연", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10kg", "meaning": "본인이 밝힌 과거 체중 증량폭"},
+    {"value": "15년", "meaning": "코스모폴리탄 인터뷰에서 밝힌 헬스 경력"},
+    {"value": "10분", "meaning": "자기 전 추가로 하는 운동 시간(본인 언급)"}
+  ],
+  "related_people": [
+    {"name": "최강창민", "relation": "ASEA 2026 공동 진행", "mentioned_as": "함께 진행한 인물"}
+  ],
+  "beauty_evidence": [
+    "쟈딕앤볼테르 베이징 컬렉션 참석룩",
+    "시세이도 앰버서더 여름 뷰티템 화보",
+    "다미아니 주얼리를 매치한 공항패션",
+    "청두 팬미팅 로맨틱 프릴 핑크 드레스룩",
+    "오렌지 바록 섬머 드레스룩",
+    "글리터 블랙 시스루 드레스룩",
+    "찢청과 레오파드 슈즈의 여름 스트릿룩",
+    "코듀로이 재킷과 데님을 매치한 베이징 출국룩",
+    "헤어스타일 변화로 강렬한 이미지 변신"
+  ],
+  "care_habits": [
+    "아침 루틴으로 잡곡빵을 챙겨 먹는 습관(구체 내용은 소스에 없어 확인 안 됨)",
+    "헬스 경력 15년, 자기 전 10분씩 추가 운동으로 복근 관리"
+  ],
+  "hot_materials": [
+    {"material": "노출 있는 자스민 의상 때문에 드러난 왕자 복근", "why_hot": "장면"},
+    {"material": "\"과거 10kg 증량으로 튼살이 생겼다\"는 본인 고백", "why_hot": "발언"},
+    {"material": "\"복근이 더 진해져서 자기 전 10분 더 운동한다\"는 구체 루틴 공개", "why_hot": "발언"},
+    {"material": "시세이도·쟈딕앤볼테르·다미아니 등 글로벌 브랜드가 잇달아 러브콜", "why_hot": "반전"},
+    {"material": "헤어스타일 변화 하나로 강렬한 이미지로 변신", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "알라딘 자스민 의상으로 복근이 드러난 장면",
+    "공항에서 볼하트를 하며 등장해 '공항패션 레전드'라는 반응이 나온 장면",
+    "베이징 컬렉션 무대에서 스포트라이트를 받은 장면"
+  ]
+}

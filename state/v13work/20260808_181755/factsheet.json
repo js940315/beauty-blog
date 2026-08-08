@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "이다희",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "모델 출신 배우",
+    "major_work": "구기동 프렌즈"
+  },
+  "quotes": [
+    {"speaker": "이다희", "text": "내복 아니고 패션", "context": "구기동 프렌즈에서 최다니엘의 패션 지적에 발끈하며 한 말"}
+  ],
+  "events": [
+    {"summary": "구기동 프렌즈 출연 중 최다니엘과 패션을 두고 설전", "year": null, "confirmed": true},
+    {"summary": "솔로지옥5 관련 방송 출연", "year": null, "confirmed": true},
+    {"summary": "데이즈드 코리아 화보 촬영", "year": null, "confirmed": true},
+    {"summary": "LF 핏플랍과 여름 스타일링 슈즈 제안 협업", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "175cm", "meaning": "기럭지(신장)로 언급된 수치"},
+    {"value": "585만원", "meaning": "완벽 소화했다는 런웨이 시스루 룩 가격"},
+    {"value": "1000만원대", "meaning": "칼단발 변신 후 착용한 초미니 패션 가격대"}
+  ],
+  "related_people": [
+    {"name": "최다니엘", "relation": "구기동 프렌즈 출연진", "mentioned_as": "패션을 지적한 인물"}
+  ],
+  "beauty_evidence": [
+    "175cm 기럭지 뽐낸 홀터넥 글램 드레스룩",
+    "585만원 런웨이 시스루 룩 완벽 소화",
+    "시스루 뷔스티에 원피스룩",
+    "데이즈드 코리아 록시크 화보",
+    "포니테일과 오버핏 레더 재킷의 쿨걸룩",
+    "극세사 각선미가 드러난 레깅스 패션",
+    "175cm 비율이 돋보인 롱패딩 애슬레저룩",
+    "앞트임 미니 원피스룩",
+    "칼단발 변신 후 1000만원대 초미니 패션"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "\"내복 아니고 패션\"이라며 최다니엘 지적에 발끈한 발언", "why_hot": "발언"},
+    {"material": "585만원 런웨이 시스루 룩을 완벽 소화", "why_hot": "낙차"},
+    {"material": "극세사 각선미가 드러난 레깅스 패션", "why_hot": "장면"},
+    {"material": "칼단발 변신 후 1000만원대 초미니 패션", "why_hot": "반전"},
+    {"material": "175cm 기럭지 뽐낸 홀터넥 드레스룩", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "구기동 프렌즈 촬영장에서 최다니엘의 패션 지적에 발끈하며 받아친 장면",
+    "압구정동 백화점에서 다리 길이가 화제가 된 미니 원피스룩으로 등장한 장면",
+    "585만원 시스루 런웨이 룩을 완벽하게 소화한 장면"
+  ]
+}
