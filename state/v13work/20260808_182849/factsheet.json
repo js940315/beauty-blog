@@ -1,0 +1,51 @@
+{
+  "person": {
+    "name": "현아",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "가수",
+    "major_work": "용타로"
+  },
+  "quotes": [
+    {"speaker": "현아", "text": "남편 용준형, 관식이 스타일이라 섬세해", "context": "용타로에서 남편을 두고 한 말"},
+    {"speaker": "현아", "text": "결혼 후 안정감이 생겼다", "context": "용타로에서 결혼 생활에 대해 한 말"}
+  ],
+  "events": [
+    {"summary": "용준형과 결혼, 웨딩화보 촬영", "year": null, "confirmed": true},
+    {"summary": "벤셔먼 24 SS 컬렉션 새 앰버서더로 선정", "year": null, "confirmed": true},
+    {"summary": "빔바이롤라와 롯데월드몰 팝업스토어 오픈", "year": null, "confirmed": true},
+    {"summary": "결혼 D-31 시점 부부 공항패션 포착", "year": null, "confirmed": true},
+    {"summary": "부부가 함께 헤어컬러를 바꿈(주황 단발→민트 머리)", "year": null, "confirmed": true},
+    {"summary": "새 타투를 공개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "D-31", "meaning": "결혼식까지 남은 날짜로 보도된 시점"}
+  ],
+  "related_people": [
+    {"name": "용준형", "relation": "남편", "mentioned_as": "남편"}
+  ],
+  "beauty_evidence": [
+    "파격 패션에서 편안한 스타일로 바뀐 패션 변화",
+    "오버핏 재킷을 활용한 봄룩",
+    "한쪽만 흘러내린 오프숄더 티셔츠 스타일링",
+    "호피 신발을 매치한 힙한 패션",
+    "웨딩화보 속 망사 스타킹과 플랫슈즈 조합",
+    "부부 커플 네일과 부츠로 완성한 공항패션"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "\"남편 용준형, 관식이 스타일이라 섬세해\"라는 애정 표현", "why_hot": "발언"},
+    {"material": "파격 패션에서 편안한 스타일로 바뀐 패션 변화", "why_hot": "낙차"},
+    {"material": "부부가 함께 감행한 헤어컬러 변신(주황→민트)", "why_hot": "장면"},
+    {"material": "벤셔먼 새 앰버서더로 선정된 소식", "why_hot": "실명"},
+    {"material": "망사 스타킹과 플랫슈즈로 완성한 웨딩화보", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "용타로 방송에서 남편을 관식이 스타일이라 부르며 웃는 장면",
+    "부부가 함께 머리색을 바꾸고 등장한 장면",
+    "웨딩화보 촬영에서 망사 스타킹과 플랫슈즈를 매치한 장면"
+  ]
+}

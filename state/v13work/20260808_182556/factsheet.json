@@ -1,0 +1,59 @@
+{
+  "person": {
+    "name": "선미",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 32,
+    "age_range": "",
+    "career": "원더걸스 출신 가수",
+    "major_work": "Forever July"
+  },
+  "quotes": [
+    {"speaker": "선미", "text": "나잇값 하세요", "context": "아근진에서 무례한 취객에게 일침을 가하며 한 말"},
+    {"speaker": "선미", "text": "썸 탈 생각하지 마, 불도저형 연애", "context": "뉴스와 인터뷰에서 연애관에 대해 한 말"},
+    {"speaker": "선미", "text": "살 안 찌는 체질 아니다", "context": "코메디닷컴 인터뷰에서 본인 체질을 밝히며 한 말"},
+    {"speaker": "선미", "text": "그래, 흔들려보자", "context": "Vogue Korea 화보에서 남긴 코멘트"}
+  ],
+  "events": [
+    {"summary": "아근진에서 무례한 취객에게 일침을 가함", "year": null, "confirmed": true},
+    {"summary": "쉬인 데이지(DAZY) 브랜드 앰버서더 발탁", "year": null, "confirmed": true},
+    {"summary": "Forever July 컴백, 블루 뷰티 화보 공개", "year": null, "confirmed": true},
+    {"summary": "메종 키츠네 24 가을·겨울 컬렉션 프레젠테이션 참석", "year": null, "confirmed": true},
+    {"summary": "잇츠 라이브에서 금발 단발로 변신", "year": null, "confirmed": true},
+    {"summary": "43kg에서 52kg으로 체중을 늘리려 노력함(본인 언급)", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "32세", "meaning": "현재 나이"},
+    {"value": "18년", "meaning": "열애설 없이 지낸 기간(본인 언급)"},
+    {"value": "43kg→52kg", "meaning": "본인이 밝힌 체중 변화 노력"},
+    {"value": "4000만원대", "meaning": "착용한 아이템 가격대"}
+  ],
+  "related_people": [],
+  "beauty_evidence": [
+    "언더버스트 코르셋으로 완성한 황금 비율 무대 의상",
+    "블랙 앤 핑크 톤의 립 메이크업",
+    "골든구스와의 믹스매치 룩",
+    "금발 단발로 연출한 몽환적 헤어 변신",
+    "노출 이미지를 지운 수수한 공항패션과 청순한 민낯",
+    "레인부츠를 활용한 비 오는 날 스타일링",
+    "4000만원대 아이템을 매치한 초미니 패션",
+    "Forever July 컴백 블루 뷰티 화보"
+  ],
+  "care_habits": [
+    "살 안 찌는 체질이 아니며 특정 부위에만 살이 붙는다고 밝힘",
+    "43kg에서 52kg으로 체중을 늘리기 위해 노력했고 아침 식사를 꼭 챙긴다고 밝힘(구체 메뉴는 소스에 없어 확인 안 됨)"
+  ],
+  "hot_materials": [
+    {"material": "\"나잇값 하세요\"라며 무례한 취객에게 일침을 가한 사건", "why_hot": "발언"},
+    {"material": "\"썸 탈 생각하지 마, 불도저형 연애\"라는 솔직한 연애관", "why_hot": "발언"},
+    {"material": "\"살 안 찌는 체질 아니다\"라며 43kg에서 52kg으로 늘린 노력", "why_hot": "낙차"},
+    {"material": "언더버스트 코르셋으로 완성한 황금 비율 무대 의상", "why_hot": "장면"},
+    {"material": "32세에 노출 이미지를 지운 수수한 공항패션", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "아근진 촬영장에서 무례한 취객에게 살기 어린 미소로 일침을 가한 장면",
+    "잇츠 라이브 무대에서 금발 단발로 몽환적인 분위기를 연출한 장면",
+    "메종 키츠네 프레젠테이션에서 섹시한 눈빛을 보인 장면"
+  ]
+}
