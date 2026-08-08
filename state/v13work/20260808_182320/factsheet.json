@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "김세정",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "걸그룹 출신 배우",
+    "major_work": "사내맞선"
+  },
+  "quotes": [
+    {"speaker": "김세정", "text": "배우보다 예뻐 보이고 싶은 마음", "context": "이강달 관련 인터뷰에서 외모 관리에 대해 한 말"},
+    {"speaker": "김세정", "text": "올해 목표는 책 최소 2권 읽기, 비밀리에 차기작 준비 중", "context": "W KOREA 인터뷰에서 한 말"},
+    {"speaker": "김세정", "text": "술 부어라 마셔라 스타일", "context": "짠한형에서 본인 음주 스타일을 표현한 말"},
+    {"speaker": "김세정", "text": "금사빠, 남는 게 없어", "context": "짠한형에서 이종원과 나눈 연애관 대화 중 한 말"}
+  ],
+  "events": [
+    {"summary": "롱샴 글로벌 파리지엥 캠페인 및 팝업 참여", "year": null, "confirmed": true},
+    {"summary": "리쥬란코스메틱 모델 발탁", "year": null, "confirmed": true},
+    {"summary": "BH엔터테인먼트와 전속계약", "year": null, "confirmed": true},
+    {"summary": "사내맞선 출연, 공동 출연자 이종원이 흥행을 언급", "year": null, "confirmed": true},
+    {"summary": "짠한형에 이종원과 함께 출연", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "이종원", "relation": "사내맞선 공동 출연자·짠한형 동반 출연", "mentioned_as": "동료 배우"},
+    {"name": "류원우", "relation": "연기 파트너", "mentioned_as": "김세정과 5시간씩 연기 연습한 동료"}
+  ],
+  "beauty_evidence": [
+    "롱샴 파리지엥 감성 캠페인 화보",
+    "롱샴 누드톤 드레스 화보 '신비 무드'",
+    "한파를 뚫은 크롭 패션 공항룩",
+    "백화점 나들이 체크 리본 셔츠룩",
+    "핫팬츠로 완성한 서머 패션",
+    "시크한 여름 패션으로 화제가 된 비율"
+  ],
+  "care_habits": [
+    "외모 관리에 진심이라는 인터뷰 발언",
+    "미역국수 등 식단 관리가 재조명됨"
+  ],
+  "hot_materials": [
+    {"material": "\"배우보다 예뻐 보이고 싶은 마음\"이라는 외모 관리 진심 발언", "why_hot": "발언"},
+    {"material": "롱샴 글로벌 앰버서더로 파리지엥 캠페인 다수 참여", "why_hot": "반전"},
+    {"material": "한파 속에서도 크롭 패션을 소화한 공항룩", "why_hot": "장면"},
+    {"material": "\"금사빠, 남는 게 없어\"라는 솔직한 연애관 발언", "why_hot": "발언"},
+    {"material": "2016년 아이오아이 시절 교복 스타일을 회상한 근황", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "한파 속 공항에서 크롭 패션을 소화한 장면",
+    "백화점 나들이에서 소풍 같은 체크 리본 셔츠룩으로 등장한 장면",
+    "롱샴 팝업 오프닝에서 스포트라이트를 받은 장면"
+  ]
+}
