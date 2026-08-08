@@ -1,0 +1,46 @@
+{
+  "person": {
+    "name": "청하",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "아이오아이 출신 가수",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "청하", "text": "총 120곡 채웠다", "context": "스포츠경향 화보 인터뷰에서 공백기 동안의 작업량을 밝히며 한 말"}
+  ],
+  "events": [
+    {"summary": "토니모리 브랜드 뮤즈로 발탁, 리브랜딩 작업 참여", "year": null, "confirmed": true},
+    {"summary": "언더웨어 브랜드 베리시의 첫 캠페인 참여", "year": null, "confirmed": true},
+    {"summary": "공백기 동안 총 120곡을 만들며 활동 준비", "year": null, "confirmed": true},
+    {"summary": "박재범과 함께 방송 출연, 반전 매력 공개", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "120곡", "meaning": "공백기 동안 만들었다고 밝힌 곡 수"}
+  ],
+  "related_people": [
+    {"name": "박재범", "relation": "방송 동료", "mentioned_as": "함께 출연한 동료"}
+  ],
+  "beauty_evidence": [
+    "스트리트 캐주얼룩으로 화제",
+    "백스테이지에서 화이트 크롭톱과 글리터 데님을 매치한 완성형 비주얼",
+    "편안한 공항패션",
+    "긱시크 스타일링 노하우로 소개됨"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "\"총 120곡 채웠다\"는 공백기 작업량 공개", "why_hot": "발언"},
+    {"material": "토니모리 브랜드 뮤즈로 리브랜딩 작업에 참여", "why_hot": "실명"},
+    {"material": "박재범과 방송에서 드러난 반전 매력", "why_hot": "실명"},
+    {"material": "백스테이지에서 완성한 화이트 크롭톱과 글리터 데님 비주얼", "why_hot": "장면"},
+    {"material": "편안한 공항패션으로 포착된 근황", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "백스테이지에서 화이트 크롭톱과 글리터 데님을 매치해 완성형 비주얼을 보여준 장면",
+    "박재범과 방송에서 진땀을 흘리며 반응한 장면",
+    "공항에서 편안한 옷차림으로 포착된 장면"
+  ]
+}

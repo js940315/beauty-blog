@@ -1,0 +1,56 @@
+{
+  "person": {
+    "name": "화사",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "마마무 멤버",
+    "major_work": "핑계고"
+  },
+  "quotes": [
+    {"speaker": "화사", "text": "돈 넘쳐서 한 것 아니다", "context": "스타일리스트에게 차를 선물한 것을 두고 재벌 의혹을 해명하며 한 말"},
+    {"speaker": "화사", "text": "긴 머리 답답해, 다 잘라내고 싶었다", "context": "핑계고에서 4년 만의 단발 변신 이유로 한 말"},
+    {"speaker": "화사", "text": "너무 잘생겼다", "context": "핑계고에서 유재석의 새 안경 스타일을 칭찬하며 한 말"},
+    {"speaker": "화사", "text": "모범생 스타일에 서툰 매력 있는 남자가 좋다", "context": "카더정원에서 이상형에 대해 한 말"},
+    {"speaker": "화사", "text": "오늘 밖에 못 입는 옷", "context": "내편하자4에서 파격룩에 대해 한 말"}
+  ],
+  "events": [
+    {"summary": "닥터지 브랜드 모델로 발탁", "year": null, "confirmed": true},
+    {"summary": "스타일리스트 생일에 자동차를 선물, 재벌 의혹 해명", "year": null, "confirmed": true},
+    {"summary": "4년 만에 단발로 헤어 변신", "year": null, "confirmed": true},
+    {"summary": "핑계고 출연, 유재석의 새 안경 스타일 칭찬", "year": null, "confirmed": true},
+    {"summary": "GENfest 2024 베트남 음악 축제에서 싸이와 함께 공연", "year": null, "confirmed": true},
+    {"summary": "마카오에서 화이트 튜브톱 룩으로 화제", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4년", "meaning": "단발로 변신하기까지 유지한 헤어스타일 기간"},
+    {"value": "10년", "meaning": "차를 선물한 스타일리스트와 함께한 기간"}
+  ],
+  "related_people": [
+    {"name": "유재석", "relation": "핑계고 동료", "mentioned_as": "새 안경 스타일을 칭찬받은 인물"},
+    {"name": "싸이", "relation": "GENfest 2024 공연 동반", "mentioned_as": "함께 공연한 가수"}
+  ],
+  "beauty_evidence": [
+    "마카오에서 쇄골 드러낸 화이트 튜브톱 핏",
+    "공항부터 디너까지 극과 극을 오간 반전 룩",
+    "트레이드마크로 불리는 상식 깨는 과감한 패션",
+    "4년 만의 단발 헤어 변신"
+  ],
+  "care_habits": [
+    "붓기를 유발하는 특정 음식을 절제한다고 밝힘(구체 메뉴는 소스에 없어 확인 안 됨)"
+  ],
+  "hot_materials": [
+    {"material": "\"돈 넘쳐서 한 것 아니다\"는 재벌 의혹 해명과 스타일리스트 차 선물 미담", "why_hot": "발언"},
+    {"material": "\"긴 머리 답답해서 다 잘라냈다\"는 4년 만의 단발 변신 고백", "why_hot": "발언"},
+    {"material": "상식 깨는 과감한 패션이 트레이드마크로 불림", "why_hot": "반전"},
+    {"material": "유재석의 새 안경을 \"너무 잘생겼다\"고 칭찬한 장면", "why_hot": "실명"},
+    {"material": "공항부터 디너까지 극과 극을 오간 반전 룩", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "핑계고에서 유재석의 새 안경을 보고 특급 칭찬을 건넨 장면",
+    "마카오 밤거리에서 화이트 튜브톱 룩으로 시선을 모은 장면",
+    "스타일리스트 생일에 자동차 키를 건넨 장면"
+  ]
+}
