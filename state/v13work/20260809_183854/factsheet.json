@@ -1,0 +1,55 @@
+{
+  "person": {
+    "name": "김다미",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "백번의 추억, 나인 퍼즐"
+  },
+  "quotes": [
+    {"speaker": "김다미", "text": "만화캐릭터 같은 이나, 얼굴에 철판 깔았죠", "context": "인터뷰 (mhnse, 나인 퍼즐)"},
+    {"speaker": "김다미", "text": "공개될 작품들 캐릭터 다 달라", "context": "인터뷰 (싱글리스트)"},
+    {"speaker": "김다미", "text": "진짜 멋있어", "context": "드라마 백번의 추억 관련 소감 (v.daum.net)"}
+  ],
+  "events": [
+    {"summary": "드라마 백번의 추억으로 5년 만에 복귀, 시청률 16% 돌파", "year": null, "confirmed": true},
+    {"summary": "허남준과 첫 시대극 함께 촬영", "year": null, "confirmed": true},
+    {"summary": "보테가 베네타 24 여름 컬렉션 패션쇼 참석", "year": null, "confirmed": true},
+    {"summary": "티파니 아이코닉 컬렉션 모델로 나섬", "year": null, "confirmed": true},
+    {"summary": "토템과 함께한 가을 패션 화보 공개", "year": null, "confirmed": true},
+    {"summary": "동안 스타 5인 중 한 명으로 꼽힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "16%", "meaning": "드라마 백번의 추억 시청률"}
+  ],
+  "related_people": [
+    {"name": "허남준", "relation": "배우", "mentioned_as": "드라마 공동 출연"},
+    {"name": "고민시", "relation": "배우", "mentioned_as": "일본 여행 공동 언급"},
+    {"name": "노윤서", "relation": "배우", "mentioned_as": "일본 여행 공동 언급"}
+  ],
+  "beauty_evidence": [
+    "베이지 투피스 드뮤어룩으로 조용한 럭셔리를 완성함",
+    "블랙 도회미 프렌치 시크룩으로 소개됨",
+    "청바지와 트렌치코트로 가을 패션의 정석을 보여줌",
+    "거미줄 레이스 패션을 제작발표회에서 선보임",
+    "진주 장식과 레이스 패션으로 매혹적인 실루엣을 완성함",
+    "냉철한 캐릭터와 대비되는 큐티하고 세련된 일상 스타일링으로 소개됨",
+    "동안 스타 5인 중 한 명으로 꼽힘"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "\"얼굴에 철판 깔았죠\"라는 솔직한 캐릭터 소화 발언", "why_hot": "발언"},
+    {"material": "5년 만에 복귀해 시청률 16% 돌파", "why_hot": "실명"},
+    {"material": "냉철 프로파일러와 대비되는 큐티한 일상 스타일링", "why_hot": "낙차"},
+    {"material": "보테가 베네타·티파니 앰버서더 활동", "why_hot": "실명"},
+    {"material": "동안 스타 5인 중 한 명으로 꼽힘", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "여의도에서 베이지 투피스 드뮤어룩으로 조용한 럭셔리를 완성했다",
+    "제작발표회에서 거미줄 레이스 패션으로 시선을 모았다",
+    "밀라노에서 셔츠와 데님으로 공항패션을 완성했다"
+  ]
+}

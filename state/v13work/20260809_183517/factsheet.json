@@ -1,0 +1,49 @@
+{
+  "person": {
+    "name": "문가영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "문가영", "text": "사랑은 결국 이별까지 품고 있는 감정", "context": "기록하는 습관에 대한 인터뷰 (뉴스버즈)"},
+    {"speaker": "문가영", "text": "기다림은 나의 힘", "context": "인터뷰 (네이트)"},
+    {"speaker": "문가영", "text": "사야 할 것만 사는 스타일, 스트레스 받으면 쇼핑 욕구가 올라간다", "context": "인터뷰 (TV리포트 RE:뷰)"}
+  ],
+  "events": [
+    {"summary": "나스(NARS) 브랜드 모델로 발탁되어 블러쉬 화보를 공개함", "year": null, "confirmed": true},
+    {"summary": "SK-II 글로벌 앰버서더로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "돌체앤가바나 뷰티 모델로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "아역 시절 K브랜드 키즈광고모델콘테스트에서 대상을 받은 이력이 있음", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [],
+  "beauty_evidence": [
+    "나스 리퀴드 블러쉬 화보를 공개함",
+    "SK-II 피테라 에센스 캠페인에 참여함",
+    "'인간 돌체앤가바나 뷰티'라는 극찬을 받음",
+    "타투 슬리브 홈웨어룩으로 힙스터 변신을 선보임",
+    "퍼 샌들로 포인트를 준 스타일링을 선보임",
+    "앞머리를 내리며 분위기 변화를 줌"
+  ],
+  "care_habits": [
+    "기록하는 습관이 있음",
+    "사야 할 것만 사는 소비 스타일을 가짐"
+  ],
+  "hot_materials": [
+    {"material": "\"사랑은 결국 이별까지 품고 있는 감정\"이라는 내면 고백", "why_hot": "발언"},
+    {"material": "SK-II 글로벌 앰버서더로 발탁됨", "why_hot": "반전"},
+    {"material": "'인간 돌체앤가바나 뷰티'라는 극찬", "why_hot": "실명"},
+    {"material": "\"기다림은 나의 힘\"이라는 성장 비법 발언", "why_hot": "발언"},
+    {"material": "아역 시절 키즈광고모델콘테스트 대상 이력", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "소파 위에서 타투 슬리브를 낀 힙스터 룩으로 홈웨어를 소화했다",
+    "바닥에 앉아 눈오리 집게를 만지작거리는 모습이 포착됐다",
+    "앞머리를 내리며 분위기를 확 바꿨다"
+  ]
+}

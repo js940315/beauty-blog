@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "아이린",
+    "gender": "여성",
+    "job": "가수(레드벨벳 멤버), 모델",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "레드벨벳 멤버, 스킨케어 브랜드 '스킷' 론칭",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "아이린", "text": "패션→뷰티 아이콘으로", "context": "인터뷰 (패션비즈)"}
+  ],
+  "events": [
+    {"summary": "스킨케어 브랜드 '스킷' 론칭, 올리브영 공식 입점", "year": null, "confirmed": true},
+    {"summary": "결혼 1주년을 맞아 남편과 다정한 모습을 공개함(남편 얼굴은 비공개)", "year": null, "confirmed": true},
+    {"summary": "48시간 방콕 여행에서 다양한 착장을 소화함", "year": null, "confirmed": true},
+    {"summary": "정규 1집 'Biggest Fan'을 앞두고 패션 디렉터로 변신함", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "제니", "relation": "타 그룹 아이돌", "mentioned_as": "수트 스타일링 공동 언급"},
+    {"name": "카리나", "relation": "같은 그룹 멤버", "mentioned_as": "장갑 스타일링 공동 언급"},
+    {"name": "신민아", "relation": "배우", "mentioned_as": "파티룩 공동 언급"},
+    {"name": "문가영", "relation": "배우", "mentioned_as": "파티룩 공동 언급"},
+    {"name": "애니", "relation": "가수", "mentioned_as": "맥시 롱코트 공동 언급"},
+    {"name": "강민경", "relation": "가수", "mentioned_as": "맥시 롱코트 공동 언급"}
+  ],
+  "beauty_evidence": [
+    "빈티지 스웨트셔츠로 완성한 꾸안꾸 공항패션",
+    "블랙 시크 공항패션으로 소개됨",
+    "크림 톤온톤 룩으로 우아美를 완성함(롱샴 팝업)",
+    "섬머 스윔웨어룩으로 수영복 스타일링을 대방출함",
+    "제니와 수트 스타일링으로 소개됨",
+    "카리나와 장갑 스타일링으로 소개됨",
+    "신민아·문가영과 파티룩 공식으로 소개됨",
+    "애니·강민경과 맥시 롱코트 스타일링으로 소개됨",
+    "퍼 코트 데일리룩으로 소개됨"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "스킨케어 브랜드 '스킷' 론칭, 패션에서 뷰티 아이콘으로 확장", "why_hot": "반전"},
+    {"material": "결혼 1주년, 남편 얼굴은 가렸지만 느껴지는 훈훈함", "why_hot": "장면"},
+    {"material": "제니와 함께 소개된 2026 수트 스타일링", "why_hot": "실명"},
+    {"material": "신민아·문가영과 나란히 꼽힌 파티룩 공식", "why_hot": "실명"},
+    {"material": "48시간 방콕 여행 동안 소화한 다양한 착장", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "48시간의 방콕 여행 동안 매번 다른 착장을 완성했다",
+    "롱샴 팝업 행사에 크림 톤온톤 룩으로 등장했다",
+    "결혼 1주년을 맞아 남편과 다정한 모습을 공개했다"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "person": {
+    "name": "정은지",
+    "gender": "여성",
+    "job": "가수(에이핑크 멤버)",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "에이핑크 멤버",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "정은지", "text": "2번의 미스코리아 도전, 아쉬움 남지만 후회 없어", "context": "화보 인터뷰 (네이트)"},
+    {"speaker": "정은지", "text": "최진혁과 열애 가능성? 1도 없다, 남동생 대하듯 해", "context": "인터뷰 (앳스타일)"}
+  ],
+  "events": [
+    {"summary": "최진혁과의 열애설이 돌았으나 본인이 직접 부인함", "year": null, "confirmed": false},
+    {"summary": "미스코리아에 두 차례 도전한 경험이 있음", "year": null, "confirmed": true},
+    {"summary": "백상예술대상에 블랙 드레스룩으로 참석함", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "윤보미", "relation": "같은 그룹 멤버", "mentioned_as": "캐릭터가 겹친다는 발언 공동 언급"},
+    {"name": "오하영", "relation": "같은 그룹 멤버", "mentioned_as": "공항패션 공동 언급"},
+    {"name": "최진혁", "relation": "배우", "mentioned_as": "열애설(부인됨) 관련 언급"}
+  ],
+  "beauty_evidence": [
+    "나시티 패션으로 시원한 여름룩을 소화함",
+    "블레이저와 컨버스로 꾸안꾸 스타일을 완성함",
+    "레드 스트라이프 니트룩으로 소개됨",
+    "백상예술대상에서 블랙 드레스룩을 선보임",
+    "오버핏 셔츠로 라디오 출근룩을 완성함",
+    "고려대 과잠 스타일의 아우터로 깜짝 변신함"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "\"최진혁과 열애 가능성 1도 없다\"는 직접 해명", "why_hot": "발언"},
+    {"material": "윤보미가 밝힌 \"정은지와 태연 캐릭터 겹친다\"는 발언", "why_hot": "실명"},
+    {"material": "미스코리아 두 차례 도전 경험을 직접 밝힘", "why_hot": "반전"},
+    {"material": "고려대 과잠 스타일로 깜짝 변신한 패션", "why_hot": "장면"},
+    {"material": "백상예술대상에서 선보인 블랙 드레스룩", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "백상예술대상 레드카펫에서 블랙 드레스로 시선을 모았다",
+    "고려대 과잠 스타일 아우터로 깜짝 변신했다",
+    "라디오 출근길 오버핏 셔츠 차림으로 포착됐다"
+  ]
+}
