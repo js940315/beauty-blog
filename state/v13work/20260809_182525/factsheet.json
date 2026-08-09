@@ -1,0 +1,50 @@
+{
+  "person": {
+    "name": "손나은",
+    "gender": "여성",
+    "job": "배우(에이핑크 출신)",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "에이핑크 출신, 배우로 활동 중",
+    "major_work": "김부장"
+  },
+  "quotes": [
+    {"speaker": "손나은", "text": "나긋하고 잔잔한 사람이고파", "context": "화보 인터뷰 (싱글리스트)"},
+    {"speaker": "손나은", "text": "에이핑크 늘 응원", "context": "인터뷰 (이투데이)"},
+    {"speaker": "손나은", "text": "잔잔한 사람으로 기억되고 싶어", "context": "인터뷰 (스포츠경향)"},
+    {"speaker": "손나은", "text": "너무 튀지 않는 사람이고파", "context": "근황 인터뷰 (스타뉴스코리아)"}
+  ],
+  "events": [
+    {"summary": "드라마 김부장으로 안방 복귀", "year": null, "confirmed": true},
+    {"summary": "소지섭과 드라마 촬영 중", "year": null, "confirmed": true},
+    {"summary": "데상트 새 앰버서더로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "LA에서 스니커즈룩 화보 공개", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "김고은", "relation": "배우", "mentioned_as": "포엣코어 스타일 공동 언급"},
+    {"name": "소지섭", "relation": "배우", "mentioned_as": "드라마 공동 출연"}
+  ],
+  "beauty_evidence": [
+    "포엣코어 스타일로 김고은과 함께 소개됨",
+    "퍼 아우터로 시크한 스타일링을 제안함",
+    "청청패션을 완벽하게 소화함",
+    "LA 스니커즈룩 화보를 공개함",
+    "데상트 앰버서더로 스포티룩을 소화함",
+    "후드 스타일링으로 워너비룩이라는 반응을 받음"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "소지섭과 드라마 촬영 중이라는 근황", "why_hot": "실명"},
+    {"material": "데상트 새 앰버서더로 발탁됨", "why_hot": "반전"},
+    {"material": "\"에이핑크 늘 응원\"이라는 애정 발언", "why_hot": "발언"},
+    {"material": "김고은과 함께 꼽힌 포엣코어 스타일", "why_hot": "실명"},
+    {"material": "LA에서 공개된 스니커즈룩 화보", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "LA 거리에서 스니커즈룩 화보를 촬영했다",
+    "드라마 김부장으로 안방에 복귀했다",
+    "후드 하나로 워너비 스타일링을 완성해 시선을 모았다"
+  ]
+}

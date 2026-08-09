@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "강민경",
+    "gender": "여성",
+    "job": "가수(다비치 멤버), 패션뷰티 브랜드 대표",
+    "birth_year": null,
+    "age": 35,
+    "age_range": "",
+    "career": "다비치 멤버, 패션뷰티 브랜드 대표",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "강민경", "text": "따뜻하게 나를 안아줘서 고마워", "context": "생일을 함께 보낸 소감 (SPOTV NEWS)"},
+    {"speaker": "강민경", "text": "두쫀쿠 없인 못 시작해", "context": "새해 각오 인터뷰 (EPN엔피나우)"},
+    {"speaker": "강민경", "text": "저 결혼해요", "context": "결혼 발표 (twig24.com)"},
+    {"speaker": "강민경", "text": "생기면 말할게요", "context": "이전 결혼설에 대한 반응 (네이트, 엑's 이슈)"}
+  ],
+  "events": [
+    {"summary": "이전에 결혼설이 돌았을 때는 선을 그었음", "year": null, "confirmed": true},
+    {"summary": "결혼을 공식 발표하며 순백의 드레스를 공개함", "year": null, "confirmed": true},
+    {"summary": "송혜교로부터 선물을 받은 친분이 알려짐", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "65억", "meaning": "건물주로 알려진 부동산 규모"},
+    {"value": "35세", "meaning": "강민경의 나이"}
+  ],
+  "related_people": [
+    {"name": "장윤주", "relation": "모델", "mentioned_as": "청바지 핏 제안 공동 언급"},
+    {"name": "신혜선", "relation": "배우", "mentioned_as": "청바지 핏 제안 공동 언급"},
+    {"name": "장원영", "relation": "타 그룹 아이돌", "mentioned_as": "오버핏 맨투맨 코디에 반했다는 언급"},
+    {"name": "송혜교", "relation": "배우", "mentioned_as": "선물을 주고받은 친분"}
+  ],
+  "beauty_evidence": [
+    "티셔츠 레이어드 스타일링으로 '금손 스타일링'이라는 평가를 받음",
+    "오버핏 맨투맨 코디로 소개됨",
+    "숏팬츠 여름룩으로 화제됨",
+    "벚꽃 아래 청순美 스타일링으로 소개됨",
+    "청바지 핏 제안에 참여함(장윤주·신혜선과 함께)"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "결혼을 공식 발표하며 순백의 드레스를 공개함", "why_hot": "반전"},
+    {"material": "65억 건물주로 알려진 재력", "why_hot": "실명"},
+    {"material": "\"따뜻하게 나를 안아줘서 고마워\"라는 애정 발언", "why_hot": "발언"},
+    {"material": "장원영이 반했다는 오버핏 코디", "why_hot": "실명"},
+    {"material": "송혜교에게 선물을 받은 의외의 친분", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "럭셔리한 시무식 자리에서 새해 각오를 전했다",
+    "벚꽃 아래에서 청순한 분위기를 완성했다",
+    "순백의 드레스를 입고 결혼 소식을 공개했다"
+  ]
+}

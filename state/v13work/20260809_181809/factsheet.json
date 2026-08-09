@@ -1,0 +1,48 @@
+{
+  "person": {
+    "name": "쯔위",
+    "gender": "여성",
+    "job": "가수(트와이스 멤버)",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "트와이스 멤버, JYP 최초이자 유일한 대만인 멤버",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "쯔위", "text": "멤버들 배려심이 많아", "context": "인터뷰 중 (뉴스프리존)"},
+    {"speaker": "쯔위", "text": "내게도 의외의 면 있어", "context": "화보 인터뷰 중 (뉴스en)"}
+  ],
+  "events": [
+    {"summary": "하퍼스바자 홍콩 화보 공개", "year": null, "confirmed": true},
+    {"summary": "미국 공연에서 체크·백리스 룩 선보임", "year": null, "confirmed": true},
+    {"summary": "월드투어 중 레이스·진주 장식 룩으로 포착됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "170cm", "meaning": "쯔위의 키"}
+  ],
+  "related_people": [
+    {"name": "사나", "relation": "같은 그룹 멤버", "mentioned_as": "패션 공동 언급"},
+    {"name": "지효", "relation": "같은 그룹 멤버", "mentioned_as": "여름 패션 공동 언급"}
+  ],
+  "beauty_evidence": [
+    "오프숄더 패션으로 청순한 비주얼을 선보임",
+    "데님 셋업으로 타이베이 거리를 접수함",
+    "체크와 백리스 조합의 룩을 미국 공연에서 선보임",
+    "레이스와 진주 장식으로 월드투어 중 포착됨",
+    "이지 캐주얼 공항패션으로 소개됨"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "JYP 최초이자 유일한 대만인 멤버라는 정체성", "why_hot": "반전"},
+    {"material": "170cm 큰 키로 화제가 된 사실", "why_hot": "실명"},
+    {"material": "\"멤버들 배려심이 많아\"라는 본인 발언", "why_hot": "발언"},
+    {"material": "아빠가 직접 찍어준 사진을 공개한 근황", "why_hot": "장면"},
+    {"material": "미국 공연에서 선보인 체크·백리스 룩", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "대기실에서 근황을 전하며 여유로운 모습을 보였다",
+    "타이베이 거리를 데님 셋업 차림으로 접수했다",
+    "월드투어 중 레이스와 진주 장식으로 포착됐다"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-10",
+  "celeb": "송혜교",
+  "richness": "thin",
+  "sources": 164,
+  "title": {
+    "title": "\"선배 배우도 놀랐다는\" 45세 배우, 흰 티 하나로 여신 인증",
+    "score": 80,
+    "reasons": [
+      "앞20자 숫자 +30",
+      "앞20자 인물 특정 +14",
+      "이슈 선행형(짧은 인용 선두) +22",
+      "단정형 종결 +8",
+      "숫자 1개 +6"
+    ]
+  },
+  "cta": "오늘 거울 앞에서 1분만 더 서 보세요.",
+  "content_lines": 65,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": []
+}
