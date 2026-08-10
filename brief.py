@@ -8,7 +8,7 @@ ANTHROPIC_API_KEY가 없어도 파이프라인이 돌게 하는 경로다.
   2단계  에이전트가 factsheet.json + title_candidates.json 을 쓴다
   3단계  main.py --stage title   → titles.json + 2_본문_지시서.md  (제목은 파이썬이 확정)
   4단계  에이전트가 body.txt 를 쓴다
-  5단계  main.py --stage finish  → 검증 → 0번 본문.txt + 사진
+  5단계  main.py --stage finish  → 검증 → 완성본.txt + 사진
 
 지시서와 중간 산출물은 전부 output/날짜/_작업/ 에 둔다.
 아침에 폴더를 열면 본문과 사진만 보여야 한다.

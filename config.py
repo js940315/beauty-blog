@@ -236,7 +236,7 @@ CTA_POOL = (
 # ── 경로 ────────────────────────────────────────────────────────────────
 # 아침에 폴더를 열면 복붙할 것만 보여야 한다.
 # 본문 1개 + 사진 몇 장. 나머지 중간 산출물은 한 겹 아래로 내린다.
-POST_FILENAME = "0번 본문.txt"
+POST_FILENAME = "완성본.txt"   # 2026-08-10 사용자 확정: v13 방들과 파일명 통일
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(ROOT, "output")

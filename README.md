@@ -1,7 +1,7 @@
 # 네이버 뷰티·패션 블로그 자동화
 
 매일 여자 연예인 뷰티·패션 소스를 크롤링 → **제목 1개 자동 확정** → 본문 완성 →
-`output/날짜/0번 본문.txt` 에 대기. 아침에 열어서 네이버에 복붙만 하면 끝.
+`output/날짜/완성본.txt` 에 대기. 아침에 열어서 네이버에 복붙만 하면 끝.
 
 diet-blog 를 통째로 복제한 뒤 주제만 갈아끼운 저장소다.
 파이프라인·검증기·제목 점수·루틴 구조는 동일하고, config 의 어휘 사전,
@@ -151,7 +151,7 @@ python build_photo_library.py --register
 .\run.ps1 --stage title       # 제목 확정 → 2_본문_지시서.md
    # 에이전트가 draft.txt 작성
 python draft_to_body.py state\work\<날짜>\draft.txt state\work\<날짜>\body.txt
-.\run.ps1 --stage finish      # 검증 → 0번 본문.txt + 사진
+.\run.ps1 --stage finish      # 검증 → 완성본.txt + 사진
 ```
 
 `--stage finish` 는 위반이 남으면 **종료 코드 4**로 끝나고 `위반목록.md` 를 남긴다.
@@ -165,7 +165,7 @@ python draft_to_body.py state\work\<날짜>\draft.txt state\work\<날짜>\body.t
 산출물 — 아침에 폴더를 열면 복붙할 것만 보인다:
 
 ```
-output/날짜/0번 본문.txt     ← 이것만 복사하면 끝
+output/날짜/완성본.txt     ← 이것만 복사하면 끝
 output/날짜/1번 사진.jpg …   ← 소재 컷 (최대 4장)
 state/work/날짜/             ← 팩트시트·제목점수·소스 등 (output 밖)
 ```

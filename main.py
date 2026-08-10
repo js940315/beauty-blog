@@ -1,7 +1,7 @@
 """매일 한 편. 크롤링 → 팩트시트 → 제목 확정 → 본문 → output/날짜/
 
 산출물 폴더는 아침에 열었을 때 복붙할 것만 보이게 둔다.
-  output/날짜/0번 본문.txt   ← 이것만 복사하면 된다
+  output/날짜/완성본.txt   ← 이것만 복사하면 된다
   output/날짜/1번 사진.jpg …
   output/날짜/_작업/          ← 팩트시트·제목점수·소스 등 중간 산출물
 
@@ -18,7 +18,7 @@ B) 에이전트 경로 — 키가 없을 때. 클로드 코드가 LLM 단계를 
        (에이전트가 factsheet.json + title_candidates.json 을 쓴다)
      python main.py --stage title    제목 확정 → 2_본문_지시서.md
        (에이전트가 body.txt 를 쓴다)
-     python main.py --stage finish   검증 → 0번 본문.txt + 사진
+     python main.py --stage finish   검증 → 완성본.txt + 사진
 
 어느 쪽이든 수집·제목 점수·형식 검증은 파이썬이 한다. LLM은 글만 쓴다.
 """
@@ -99,7 +99,7 @@ def _load_text(path, what):
 
 
 def _finalize(d, body, richness, meta, chosen, polish_ok):
-    """검증 → 0번 본문.txt → 사진 → report.json. 두 경로가 공유한다."""
+    """검증 → 완성본.txt → 사진 → report.json. 두 경로가 공유한다."""
     cta = meta.get("cta")
     celeb = meta.get("celeb")
     problems = validator.validate(body, richness, cta, celeb, chosen["title"])
@@ -138,11 +138,8 @@ def _finalize(d, body, richness, meta, chosen, polish_ok):
             if t["title"] != chosen["title"] and t.get("score", 0) > -900:
                 lines += ["", t["title"]]
         with open(os.path.join(d, "예비제목.txt"), "w",
-                  encoding="utf-8", newline="
-") as f:
-            f.write("
-".join(lines) + "
-")
+                  encoding="utf-8", newline="\n") as f:
+            f.write("\n".join(lines) + "\n")
 
     cl = len(validator.content_lines(validator.split_sections(body)[0]))
     return post, problems, polished, made, cl
