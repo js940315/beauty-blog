@@ -408,6 +408,23 @@ def stage_finish():
     title = meta["title"]
     _write(os.path.join(out_dir, "완성본.txt"), title + "\n\n" + body + "\n")
 
+    # 이미지메모.txt — 발행할 때 사진을 어디서 구할지 알려준다.
+    # (2026-08-10 사용자 확정: 이미지 조달 시간이 시스템 최대 병목)
+    import config as C
+    name = fs["person"]["name"]
+    sns = [s for s in (fs.get("sns_materials") or []) if s]
+    memo = [f"■ {name} — 이미지 어디서 구하나", ""]
+    if sns:
+        memo.append("본인이 SNS에 직접 올린 소재라 계정에서 바로 찾을 수 있습니다:")
+        for s in sns[:5]:
+            memo.append(f"  · {s}")
+        memo.append("")
+    memo.append(C.INSTAGRAM_SEARCH.format(name=name))
+    memo.append("")
+    memo.append("※ 못 찾으면 얼굴 사진 없이 발행해도 되는 글입니다.")
+    memo.append("   (본문이 착장을 특정하지 않으므로 어떤 근황 사진이든 어울립니다)")
+    _write(os.path.join(out_dir, "이미지메모.txt"), "\n".join(memo) + "\n")
+
     # 날짜 폴더 목차 갱신: 몇 번 방이 누구·무슨 제목인지 한눈에
     day_dir = os.path.dirname(out_dir)
     slot = os.path.basename(out_dir)

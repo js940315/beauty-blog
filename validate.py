@@ -17,6 +17,17 @@ U2800 = "⠀"
 ALPHA_ALLOW = {"jpg", "kg", "cm", "SM", "SK", "JYP", "YG", "CJ", "LG", "MBC",
                "KBS", "SBS", "tvN", "JTBC", "MZ"}
 
+# 착장 명칭 — 이 단어가 많을수록 "그 사진"이 있어야만 읽히는 글이 된다.
+# 발행자가 이미지를 찾느라 시간을 쓰는 게 시스템의 최대 병목이라 코드로 막는다.
+# (2026-08-10 사용자 확정: 이미지 독립 원칙)
+WEAR_WORDS = (
+    "시스루", "홀터넥", "크롭", "미니드레스", "백리스", "오프숄더", "원피스",
+    "드레스", "슈트", "수트", "재킷", "자켓", "코트", "니트", "청바지", "데님",
+    "스커트", "블라우스", "슬랙스", "팬츠", "부츠", "하이힐", "스니커즈",
+    "가디건", "트렌치", "점프수트", "베스트", "턱시도", "크롭톱", "레깅스",
+)
+WEAR_MAX = 3
+
 REQUIRED_PERSON_FIELDS = ("name", "gender", "job")
 VALID_HOT_TAGS = {"낙차", "장면", "실명", "발언", "반전"}
 
@@ -174,6 +185,16 @@ def validate_body(body: str, factsheet: dict, state: dict) -> list:
 
     if ".jpg" in body:
         errs.append("본문에 .jpg 노출")
+
+    # 착장 나열 검사 — 옷 이름이 쌓이면 사진 없이는 못 읽는 글이 된다
+    visible_text = " ".join(l.replace(U2800, "").strip() for l in lines
+                            if not _is_tag(l.replace(U2800, "").strip()))
+    wear_hits = [w for w in WEAR_WORDS if w in visible_text]
+    wear_n = sum(visible_text.count(w) for w in wear_hits)
+    if wear_n > WEAR_MAX:
+        errs.append(
+            f"착장 명칭 {wear_n}회 (허용 {WEAR_MAX}회) — {', '.join(wear_hits[:5])}. "
+            "옷 이름 대신 반응·발언·관리법으로 바꿔라 (사진 없이 읽혀야 한다)")
     if "**" in body:
         errs.append("소제목에 별표(**) 사용 — 네이버에 그대로 노출된다. 큰따옴표만 쓸 것")
 
@@ -268,6 +289,14 @@ def _selftest():
     errs = validate_body(broken, fs, {})
     assert any("큰따옴표" in e for e in errs)
     assert any("해시태그가 아님" in e for e in errs)
+
+    # 착장 나열은 잡혀야 한다 (이미지 독립 원칙)
+    wearful = body.replace("여기 열다섯 자짜리 문장이" + B,
+                           "드레스에 시스루 재킷 코트" + B, 1)
+    wearful = wearful.replace("이어지는 열네 자 문장과" + B,
+                              "니트와 청바지 부츠까지" + B, 1)
+    errs = validate_body(wearful, fs, {})
+    assert any("착장 명칭" in e for e in errs), errs
 
     # 별표 소제목은 즉시 잡혀야 한다 (네이버 노출 사고 방지)
     starred = body.replace('"소제목 어쩌고 1번"' + B, '**"소제목 어쩌고 1번"**' + B, 1)
