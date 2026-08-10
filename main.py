@@ -127,6 +127,23 @@ def _finalize(d, body, richness, meta, chosen, polish_ok):
         except Exception as e:
             print(f"   [경고] 사진 준비 실패 — 본문은 정상입니다: {str(e)[:80]}")
 
+    # 예비제목.txt — v13과 동일하게 일일 편에도 제목 후보를 남긴다
+    # (2026-08-10 사용자 지적: 1번 방만 예비제목이 없었음. 형식은 제목만, 빈 줄 간격)
+    ranked_path = wpath(d, "titles.json")
+    if os.path.exists(ranked_path):
+        with open(ranked_path, encoding="utf-8") as f:
+            _ranked = json.load(f)
+        lines = ["[확정]", "", chosen["title"], "", "─── 예비 ───"]
+        for t in _ranked:
+            if t["title"] != chosen["title"] and t.get("score", 0) > -900:
+                lines += ["", t["title"]]
+        with open(os.path.join(d, "예비제목.txt"), "w",
+                  encoding="utf-8", newline="
+") as f:
+            f.write("
+".join(lines) + "
+")
+
     cl = len(validator.content_lines(validator.split_sections(body)[0]))
     return post, problems, polished, made, cl
 
