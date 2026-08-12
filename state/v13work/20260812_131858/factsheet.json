@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "티파니",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "소녀시대 멤버로 데뷔 19주년을 맞았고 뮤지컬 무대에도 오름",
+    "major_work": "유미의 세포들"
+  },
+  "quotes": [
+    {"speaker": "티파니", "text": "밤마다 떡볶이를 먹는다", "context": "매일경제 보도, 신혼 일상을 전하며"},
+    {"speaker": "티파니", "text": "좋은 파트너와 함께해 행복하다", "context": "매일경제 보도, 신혼 근황을 전하며"},
+    {"speaker": "티파니", "text": "변요한이 먼저 적극적으로 다가왔고 드라마가 맺어준 인연이다", "context": "전지적 참견 시점 출연 당시"},
+    {"speaker": "티파니", "text": "소녀시대 20주년 프로젝트를 준비하고 있다", "context": "전지적 참견 시점 출연 당시"},
+    {"speaker": "변요한", "text": "우리 티파니 영 잘 부탁드립니다", "context": "아내의 공연 첫날 커피차와 함께 남긴 응원 문구"}
+  ],
+  "events": [
+    {"summary": "배우 변요한과 결혼", "year": null, "confirmed": true},
+    {"summary": "데뷔 19주년을 맞아 소감을 남김", "year": null, "confirmed": true},
+    {"summary": "소녀시대 20주년 프로젝트를 준비 중이라고 밝힘", "year": null, "confirmed": true},
+    {"summary": "뮤지컬 유미의 세포들 무대에 오름", "year": null, "confirmed": true},
+    {"summary": "남편 변요한이 공연 첫날 커피차를 보내며 외조", "year": null, "confirmed": true},
+    {"summary": "소녀시대 멤버 최수영, 써니, 윤아가 공연장을 찾아 응원", "year": null, "confirmed": true},
+    {"summary": "7시간 만에 단발로 분위기를 바꾼 비주얼이 화제", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "19주년", "meaning": "데뷔 후 경과 연수"},
+    {"value": "20주년", "meaning": "준비 중이라고 밝힌 소녀시대 프로젝트 시점"},
+    {"value": "7시간", "meaning": "헤어 변신에 걸린 시간"}
+  ],
+  "related_people": [
+    {"name": "변요한", "relation": "남편", "mentioned_as": "커피차를 보내며 외조에 나선 배우"},
+    {"name": "최수영", "relation": "소녀시대 멤버", "mentioned_as": "공연장을 찾아 응원한 동료"},
+    {"name": "윤아", "relation": "소녀시대 멤버", "mentioned_as": "공연장을 찾아 응원한 동료"},
+    {"name": "써니", "relation": "소녀시대 멤버", "mentioned_as": "공연장을 찾아 응원한 동료"}
+  ],
+  "beauty_evidence": [
+    "깐달걀 같은 피부라는 평가가 근황 기사에 등장",
+    "신부 관리급 미모라는 표현이 따라붙음",
+    "단발 변신 뒤 분위기가 180도 달라졌다는 반응"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "밤마다 떡볶이를 먹는다는 신혼 일상 고백", "why_hot": "반전"},
+    {"material": "떡볶이를 먹는데도 깐달걀 피부라는 평가", "why_hot": "낙차"},
+    {"material": "남편 변요한이 공연 첫날 커피차를 보낸 외조", "why_hot": "실명"},
+    {"material": "소녀시대 멤버들이 공연장을 찾아 응원한 장면", "why_hot": "장면"},
+    {"material": "7시간 만에 단발로 바뀐 비주얼", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "공연 첫날 커피차가 도착하고 잘 부탁드린다는 문구가 걸렸다",
+    "공연장에 동료들이 찾아와 친구들 왔다고 인사를 건넸다"
+  ],
+  "sns_materials": [
+    "데뷔 19주년 소감을 남긴 근황 사진",
+    "커피차 선물에 화답하며 올린 사진",
+    "신혼 일상을 전한 근황 사진"
+  ],
+  "press_only_materials": [
+    "뮤지컬 공연 관련 행사 사진",
+    "포토월 참석 사진"
+  ]
+}

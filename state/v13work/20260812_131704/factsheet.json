@@ -1,0 +1,59 @@
+{
+  "person": {
+    "name": "크리스탈",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "그룹 에프엑스 출신으로 배우와 뮤지션 활동을 병행",
+    "major_work": "상속자들"
+  },
+  "quotes": [
+    {"speaker": "크리스탈", "text": "내 레전드룩은 칸에서 입은 핑크 드레스다", "context": "하퍼스바자 인터뷰"},
+    {"speaker": "크리스탈", "text": "모든 스포츠는 옷이 예뻐야 한다", "context": "하퍼스바자 인터뷰에서 밝힌 운동 철학"},
+    {"speaker": "크리스탈", "text": "상속자들 때 언니에게 빌린 명품백을 바닥에 던지는 신을 찍었다", "context": "하퍼스바자 인터뷰에서 촬영 일화를 밝히며"},
+    {"speaker": "크리스탈", "text": "뮤지션으로 돌아왔다", "context": "랄프 로렌 화보 공개 인터뷰"}
+  ],
+  "events": [
+    {"summary": "상속자들에서 부잣집 딸 역을 위해 언니 제시카의 명품백을 빌려 촬영했고 그 가방을 던지는 장면을 찍어 언니가 분노했다는 일화를 공개", "year": null, "confirmed": true},
+    {"summary": "랄프 로렌 화보를 공개하며 뮤지션 복귀를 알림", "year": null, "confirmed": true},
+    {"summary": "가을 하이킹 근황을 공개", "year": null, "confirmed": true},
+    {"summary": "샌프란시스코와 런던에서의 일상 차림이 화제", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "제시카", "relation": "친언니", "mentioned_as": "명품백 일화로 분노했다고 언급된 언니"},
+    {"name": "이진욱", "relation": "동료 배우", "mentioned_as": "같은 브랜드 출국 차림으로 함께 언급"}
+  ],
+  "beauty_evidence": [
+    "사복 차림만으로 존재 자체가 눈에 띈다는 평가",
+    "런던 거리에서 햇살보다 눈부시다는 반응",
+    "하이킹 근황에서 탄탄한 다리 라인이 화제"
+  ],
+  "care_habits": [
+    "등산과 하이킹 등 야외 운동을 즐김",
+    "운동할 때 입는 옷차림을 중요하게 여긴다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "언니에게 빌린 명품백을 촬영에서 바닥에 던져 언니가 분노했다는 일화", "why_hot": "실명"},
+    {"material": "모든 스포츠는 옷이 예뻐야 한다는 독특한 운동 철학", "why_hot": "발언"},
+    {"material": "레전드룩으로 칸에서 입은 핑크 드레스를 직접 꼽은 것", "why_hot": "발언"},
+    {"material": "가을 하이킹 근황과 탄탄한 라인", "why_hot": "낙차"},
+    {"material": "뮤지션으로 돌아왔다는 복귀 선언", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "촬영장에서 언니에게 빌린 가방을 바닥에 내동댕이치는 장면을 찍었다",
+    "가을 산을 오르며 하이킹 근황을 남겼다"
+  ],
+  "sns_materials": [
+    "가을 하이킹 근황 사진",
+    "샌프란시스코에서 남긴 일상 차림 사진",
+    "런던 거리에서 찍은 일상 사진"
+  ],
+  "press_only_materials": [
+    "랄프 로렌 화보 촬영 사진",
+    "칸 영화제 참석 사진",
+    "공항 출국 사진"
+  ]
+}
