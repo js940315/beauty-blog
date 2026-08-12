@@ -1,0 +1,48 @@
+{
+  "person": {
+    "name": "고민시",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우, 드라마·예능 다수 출연",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "고민시", "text": "58→43kg 고무줄 몸무게, 하루 3kg까지 쪄", "context": "마이데일리 냉터뷰"},
+    {"speaker": "고민시", "text": "커피·김·계란 2알", "context": "43kg 척추뼈 캐릭터 연기 당시 식단, v.daum.net 인터뷰"},
+    {"speaker": "고민시", "text": "미용고 졸업 후 오디션 1000번 탈락", "context": "데일리안 인터뷰"}
+  ],
+  "events": [
+    {"summary": "미용고 졸업 후 오디션에서 약 1000번 탈락했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "드라마 속 43kg 척추뼈 캐릭터 연기를 위해 식단을 조절함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "58kg", "meaning": "체중 변동 상한"},
+    {"value": "43kg", "meaning": "체중 변동 하한, 캐릭터 연기 당시 체중"},
+    {"value": "3kg", "meaning": "하루 만에 찌는 최대 폭"},
+    {"value": "1000번", "meaning": "오디션 탈락 횟수"}
+  ],
+  "related_people": [],
+  "beauty_evidence": [],
+  "care_habits": [
+    "체중이 58kg에서 43kg까지 크게 오르내린다고 밝힘",
+    "하루 만에 3kg까지 찌기도 한다고 언급",
+    "캐릭터 연기를 위해 커피·김·계란 2알로 식사를 조절한 적이 있음",
+    "화보 촬영 전 특정 운동을 자주 한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "58kg에서 43kg까지 오르내리는 고무줄 몸무게", "why_hot": "낙차"},
+    {"material": "하루 만에 3kg까지 찐다는 발언", "why_hot": "반전"},
+    {"material": "43kg 척추뼈 캐릭터를 위해 커피·김·계란 2알만 먹은 식단", "why_hot": "장면"},
+    {"material": "미용고 졸업 후 오디션 1000번 탈락 경험", "why_hot": "낙차"},
+    {"material": "화보 촬영 전 챙기는 운동 루틴", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "커피와 김, 계란 2알로 하루를 버티며 43kg 캐릭터를 연기하는 장면",
+    "오디션장에서 천 번 가까이 떨어지고도 다시 도전하는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": ["화보 촬영", "신혼여행지 화보", "슈링크 브랜드 광고 촬영"]
+}
