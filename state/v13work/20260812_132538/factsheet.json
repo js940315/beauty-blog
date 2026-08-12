@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "김소현",
+    "gender": "여성",
+    "job": "뮤지컬 배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "명성황후와 에비타 등 무대에 오른 뮤지컬 배우. 남편 손준호와 같은 무대에 서기도 함",
+    "major_work": "명성황후"
+  },
+  "quotes": [
+    {"speaker": "김소현", "text": "아버지가 텔레비전 선을 잘라 10년 동안 못 봤다", "context": "라디오스타에서 온가족이 서울대에 간 비결을 밝히며"},
+    {"speaker": "김소현", "text": "주말마다 함께 시간을 보냈다", "context": "머니투데이 보도, 집안 분위기를 설명하며"},
+    {"speaker": "김소현", "text": "부부가 같은 무대에 서는 건 한 가지만 빼면 다 좋다", "context": "명성황후 공연 관련 인터뷰"},
+    {"speaker": "김소현", "text": "언제나 같은 자리에 있어 주셔서 고맙다", "context": "본인이 팬들에게 남긴 인사"},
+    {"speaker": "김소현", "text": "좋은 말씀들 마음에 간직하겠다", "context": "에비타 공연을 마친 뒤 남긴 소감"},
+    {"speaker": "김소현", "text": "6년 만에 다시 만나 큰 힘이 됐다", "context": "일본 팬들과 재회한 뒤"}
+  ],
+  "events": [
+    {"summary": "라디오스타에서 아버지가 텔레비전 선을 잘라 10년간 못 봤다는 일화를 공개", "year": null, "confirmed": true},
+    {"summary": "온가족이 서울대에 진학한 집안 이야기가 화제", "year": null, "confirmed": true},
+    {"summary": "남편 손준호와 명성황후 무대에 함께 오름", "year": null, "confirmed": true},
+    {"summary": "뮤지컬 에비타 공연을 마치고 소감을 남김", "year": null, "confirmed": true},
+    {"summary": "6년 만에 일본 팬들과 재회", "year": null, "confirmed": true},
+    {"summary": "아들의 중학교 졸업을 축하하는 근황을 전함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10년", "meaning": "텔레비전을 보지 못했다고 밝힌 기간"},
+    {"value": "6년", "meaning": "일본 팬들과 재회하기까지 걸린 기간"}
+  ],
+  "related_people": [
+    {"name": "손준호", "relation": "남편", "mentioned_as": "같은 무대에 오른 뮤지컬 배우"}
+  ],
+  "beauty_evidence": [
+    "커튼콜에서 벅찬 표정이 인상적이었다는 반응",
+    "무대 위 자태가 시선을 압도한다는 평가",
+    "눈부신 미소가 돋보인다는 평가"
+  ],
+  "care_habits": [
+    "아침 식사를 밥 대신 정해둔 메뉴로 챙김"
+  ],
+  "hot_materials": [
+    {"material": "아버지가 텔레비전 선을 잘라 10년 동안 못 봤다는 일화", "why_hot": "반전"},
+    {"material": "온가족이 서울대에 진학한 집안 배경", "why_hot": "낙차"},
+    {"material": "남편과 같은 무대에 서는 것에 대한 솔직한 평가", "why_hot": "발언"},
+    {"material": "6년 만에 일본 팬들과 재회한 순간", "why_hot": "장면"},
+    {"material": "커튼콜에서 벅찬 마음을 그대로 전한 소감", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "아버지가 텔레비전 선을 직접 잘라버린 집안 풍경",
+    "커튼콜에서 무대 위에 서서 벅찬 마음을 그대로 드러낸 순간"
+  ],
+  "sns_materials": [
+    "팬들에게 고마움을 전하며 올린 근황 사진",
+    "에비타 공연을 마치고 남긴 소감 사진",
+    "가을밤 초대받은 자리에서 남긴 사진",
+    "아들의 졸업을 축하하며 올린 가족 근황"
+  ],
+  "press_only_materials": [
+    "공연 공식 무대 사진",
+    "일본 팬미팅 현장 사진"
+  ]
+}
