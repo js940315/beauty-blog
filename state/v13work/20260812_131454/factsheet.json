@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "임지연",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "한국예술종합학교 출신 배우",
+    "major_work": "멋진 신세계"
+  },
+  "quotes": [
+    {"speaker": "임지연", "text": "한예종 시절 패션 테러리스트였다", "context": "유 퀴즈에 출연해 학창 시절을 돌아보며"},
+    {"speaker": "임지연", "text": "박정민도 진짜 못 입는다", "context": "유 퀴즈, 동기 박정민의 지적에 응수하며"},
+    {"speaker": "임지연", "text": "아이라인 문신을 지웠고 후회한다", "context": "유 퀴즈와 인터뷰에서 반영구 시술 경험을 직접 밝히며"},
+    {"speaker": "임지연", "text": "피부 관리 비법은 관리샵이다", "context": "섹션 출연 당시 관리법을 묻는 질문에"},
+    {"speaker": "임지연", "text": "발과 눈가 관리에 진심이다", "context": "일간스포츠 보도, 관리 습관을 밝히며"},
+    {"speaker": "임지연", "text": "허남준은 기적 같은 파트너였다", "context": "멋진 신세계 종영 소감을 전하며"}
+  ],
+  "events": [
+    {"summary": "유 퀴즈에 출연해 한예종 시절 패션 테러리스트였다고 고백", "year": null, "confirmed": true},
+    {"summary": "동기 박정민이 버건디 차림을 두고 고구마냐고 놀렸다는 일화 공개", "year": null, "confirmed": true},
+    {"summary": "반영구 아이라인 문신을 지웠다고 직접 밝힘", "year": null, "confirmed": true},
+    {"summary": "CJ올리브영 뷰티 브랜드 바이오힐 보 전속 모델로 발탁", "year": null, "confirmed": true},
+    {"summary": "드라마 멋진 신세계가 종영하며 흥행 소감을 전함", "year": null, "confirmed": true},
+    {"summary": "촬영 중 상대 배우의 얼굴을 위해 조명을 양보했다는 일화 공개", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48kg", "meaning": "본인 관련 보도에 언급된 체중"},
+    {"value": "다섯 봉지", "meaning": "방송에서 언급된 라면 섭취량"}
+  ],
+  "related_people": [
+    {"name": "박정민", "relation": "한예종 동기", "mentioned_as": "패션 테러리스트 대결 상대이자 고구마냐고 놀린 동기"},
+    {"name": "허남준", "relation": "멋진 신세계 상대 배우", "mentioned_as": "기적 같은 파트너라고 표현한 상대역"},
+    {"name": "염정아", "relation": "예능 동반 출연자", "mentioned_as": "언니네 산지직송에 함께 출연"}
+  ],
+  "beauty_evidence": [
+    "잘 먹는데도 날씬한 체형을 유지한다는 평가",
+    "피부 관리에 꾸준히 신경 쓴다는 방송 언급"
+  ],
+  "care_habits": [
+    "관리샵을 꾸준히 다니며 피부를 관리",
+    "발과 눈가 관리에 특히 신경 씀",
+    "아침마다 챙겨 먹는 것을 정해두고 유지"
+  ],
+  "hot_materials": [
+    {"material": "한예종 시절 패션 테러리스트였다는 본인 고백", "why_hot": "반전"},
+    {"material": "동기 박정민이 고구마냐고 놀렸다는 일화", "why_hot": "실명"},
+    {"material": "아이라인 문신을 지웠고 후회한다는 솔직한 발언", "why_hot": "발언"},
+    {"material": "상대 배우 얼굴을 위해 조명을 양보했다는 현장 일화", "why_hot": "장면"},
+    {"material": "잘 먹는데도 체형이 유지된다는 관리 이야기", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "동기가 차림을 보고 고구마냐고 놀렸다는 학창 시절 장면",
+    "촬영장에서 상대 배우 얼굴을 위해 조명을 양보한 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "브랜드 모델 화보 촬영 사진",
+    "드라마 멋진 신세계 관련 스틸과 행사 사진"
+  ]
+}

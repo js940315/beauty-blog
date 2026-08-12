@@ -1,0 +1,56 @@
+{
+  "person": {
+    "name": "이세영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "아역 시절부터 활동해 온 배우",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "배인혁", "text": "이세영과 5시간 동안 누워서 키스신을 찍어 꼬리뼈가 아팠다", "context": "뉴스1 보도, 함께 작품을 한 배우가 촬영 뒷이야기를 전하며"}
+  ],
+  "events": [
+    {"summary": "홍콩 마라톤을 완주하고 메달을 인증", "year": null, "confirmed": true},
+    {"summary": "긴 머리를 정리하고 숏컷·숏단발로 헤어 변신", "year": null, "confirmed": true},
+    {"summary": "프랑스 헤어케어 브랜드 르네휘테르 앰배서더로 발탁", "year": null, "confirmed": true},
+    {"summary": "패션 브랜드 메르시앤에스의 시즌 뮤즈로 발탁", "year": null, "confirmed": true},
+    {"summary": "패션 브랜드 숲의 브랜드 뮤즈로 발탁", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "42km", "meaning": "완주한 마라톤 거리"}
+  ],
+  "related_people": [
+    {"name": "배인혁", "relation": "함께 작품을 한 배우", "mentioned_as": "촬영 뒷이야기를 전한 상대 배우"}
+  ],
+  "beauty_evidence": [
+    "폭염에도 뽀얀 백옥피부라는 평가",
+    "42km를 달리고도 미모는 그대로였다는 반응",
+    "숏단발 변신 뒤 성숙한 분위기가 폭발했다는 평가",
+    "겨울 카페에서 찍은 안경 셀카에서 지적인 매력이 돋보였다는 반응"
+  ],
+  "care_habits": [
+    "마라톤 완주에 도전할 만큼 달리기를 이어감"
+  ],
+  "hot_materials": [
+    {"material": "42km 마라톤을 완주하고 메달을 인증한 근황", "why_hot": "낙차"},
+    {"material": "42km를 달리고도 미모는 그대로였다는 반응", "why_hot": "낙차"},
+    {"material": "아역 이미지를 지운 숏컷 변신", "why_hot": "반전"},
+    {"material": "배인혁이 전한 5시간 촬영 뒷이야기", "why_hot": "실명"},
+    {"material": "헤어케어 브랜드 앰배서더 발탁", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "마라톤 완주 메달을 손에 들고 찍은 사진이 그대로 공개됐다",
+    "겨울 카페에서 안경을 쓴 채 찍은 셀카가 일상으로 올라왔다"
+  ],
+  "sns_materials": [
+    "홍콩 마라톤 완주 메달 인증 사진",
+    "겨울 카페에서 찍은 안경 셀카 일상 사진"
+  ],
+  "press_only_materials": [
+    "홍콩에서 진행된 행사 참석 사진",
+    "브랜드 화보 및 컬렉션 촬영 사진"
+  ]
+}
