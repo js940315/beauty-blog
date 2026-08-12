@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-13",
+  "celeb": "김고은",
+  "richness": "thin",
+  "sources": 115,
+  "title": {
+    "title": "\"엄격한 식단 안 한다는\" 34세 배우, 그런데 피부는 도자기라는데",
+    "score": 80,
+    "reasons": [
+      "앞20자 숫자 +30",
+      "앞20자 인물 특정 +14",
+      "이슈 선행형(짧은 인용 선두) +22",
+      "단정형 종결 +8",
+      "숫자 1개 +6"
+    ]
+  },
+  "cta": "유행보다 나한테 어울리는 게 먼저예요.",
+  "content_lines": 60,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": []
+}
