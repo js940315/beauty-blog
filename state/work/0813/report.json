@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-13",
+  "celeb": "김고은",
+  "richness": "thin",
+  "sources": 125,
+  "title": {
+    "title": "\"절제하면 왜 사나 싶다는\" 34세 배우의 식단 철학",
+    "score": 80,
+    "reasons": [
+      "앞20자 숫자 +30",
+      "앞20자 인물 특정 +14",
+      "이슈 선행형(짧은 인용 선두) +22",
+      "단정형 종결 +8",
+      "숫자 1개 +6"
+    ]
+  },
+  "cta": "유행보다 나한테 어울리는 게 먼저예요.",
+  "content_lines": 76,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": []
+}

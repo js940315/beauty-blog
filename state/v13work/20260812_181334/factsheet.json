@@ -1,0 +1,50 @@
+{
+  "person": {
+    "name": "고민시",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "미용고등학교 졸업 후 오디션 약 1000회 도전 끝에 데뷔한 배우",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "고민시", "text": "58→43kg 고무줄 몸무게, 하루 3kg까지 쪄", "context": "냉터뷰 인터뷰"},
+    {"speaker": "고민시", "text": "미용고 졸업 후 오디션 1000번 탈락", "context": "데일리안 인터뷰"}
+  ],
+  "events": [
+    {"summary": "미용고등학교 졸업 후 오디션 약 1000회 도전 끝에 데뷔", "year": null, "confirmed": true},
+    {"summary": "에스테틱 브랜드 슈링크 광고에 출연", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "58~43kg", "meaning": "배역에 따라 크게 변한다는 체중 폭"},
+    {"value": "3kg", "meaning": "하루 안에도 오르내린다는 체중 변동폭"},
+    {"value": "1000회", "meaning": "데뷔 전 도전했다는 오디션 횟수"}
+  ],
+  "related_people": [],
+  "beauty_evidence": [
+    "화보 촬영 전 꼭 챙기는 운동이 있다고 밝힘",
+    "에스테틱 브랜드 슈링크의 앰버서더로 활동",
+    "체력 관리를 위해 공복에 특정 음식을 챙겨 먹는다고 밝힘"
+  ],
+  "care_habits": [
+    "화보 촬영 전 꼭 하는 운동이 있다고 밝힘",
+    "체력 관리를 위해 공복에 특정 음식을 챙겨 먹는다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "체중이 58kg에서 43kg까지 배역마다 크게 변한다는 고백", "why_hot": "낙차"},
+    {"material": "하루 안에도 체중이 3kg씩 오르내린다는 발언", "why_hot": "반전"},
+    {"material": "미용고 졸업 후 오디션 1000번 떨어졌다는 과거", "why_hot": "낙차"},
+    {"material": "에스테틱 브랜드 앰버서더로 '뷰티 아이콘' 수식어를 얻은 반전", "why_hot": "반전"},
+    {"material": "화보 촬영 전마다 챙기는 운동 루틴이 있다는 발언", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "화보 촬영 직전 카메라 앞에 서기 전 몸을 푸는 장면",
+    "체중계 숫자가 배역이 바뀔 때마다 크게 오르내리는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "신혼여행지에서 촬영한 화보"
+  ]
+}
