@@ -1,0 +1,67 @@
+{
+  "person": {
+    "name": "이민정",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우이자 유튜브 채널을 운영 중",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "이민정", "text": "중학생 때부터 향수를 모았고 발랑 까졌다는 소리를 들었다", "context": "뉴스1 보도, 향수 200개를 모은 취향을 밝히며"},
+    {"speaker": "이민정", "text": "얼굴이 짧은 게 콤플렉스였다", "context": "본인 유튜브 채널에서 13년 전 사진을 공개하며"},
+    {"speaker": "이민정", "text": "피부과 시술은 1년에 한 번만 받는다, 예민한 피부엔 독이다", "context": "본인 유튜브 채널에서 피부 관리법을 밝히며"},
+    {"speaker": "이민정", "text": "꾸준히 사용해온 브랜드와 함께하게 되어 기쁘다", "context": "뷰티 브랜드 앰배서더 발탁 소감"},
+    {"speaker": "이민정", "text": "와인과 고기를 좋아하는데 다음날 피부가 좋아진다", "context": "본인이 밝힌 식습관"}
+  ],
+  "events": [
+    {"summary": "향수를 200개 모았다고 밝혀 화제", "year": null, "confirmed": true},
+    {"summary": "본인 유튜브 채널에 13년 전 사진을 공개하며 과거 콤플렉스를 고백", "year": null, "confirmed": true},
+    {"summary": "뷰티 브랜드 에이에이치씨 브랜드 앰배서더로 발탁", "year": null, "confirmed": true},
+    {"summary": "헤어케어 브랜드 려의 브랜드 모델로 발탁", "year": null, "confirmed": true},
+    {"summary": "1만 원대 와인만 20병을 구매하는 가성비 입맛을 공개", "year": null, "confirmed": true},
+    {"summary": "두피 관리까지 챙긴다는 근황이 알려짐", "year": null, "confirmed": true},
+    {"summary": "신비주의를 내려놓고 유튜브 채널을 시작", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "200개", "meaning": "모았다고 밝힌 향수 개수"},
+    {"value": "13년", "meaning": "공개한 과거 사진의 시점"},
+    {"value": "1년에 한 번", "meaning": "본인이 밝힌 피부과 시술 주기"},
+    {"value": "20병", "meaning": "한 번에 구매한 1만 원대 와인 수량"}
+  ],
+  "related_people": [
+    {"name": "이병헌", "relation": "남편", "mentioned_as": "배우"}
+  ],
+  "beauty_evidence": [
+    "도자기 피부라는 평가가 반복해서 등장",
+    "출산 후에도 크게 달라지지 않았다는 반응",
+    "두피까지 관리한다는 근황"
+  ],
+  "care_habits": [
+    "피부과 시술은 1년에 한 번으로 제한",
+    "두피 관리까지 챙김",
+    "현실적인 데일리 뷰티템을 꾸준히 사용"
+  ],
+  "hot_materials": [
+    {"material": "향수를 200개 모았고 중학생 때 발랑 까졌다는 소리를 들었다는 고백", "why_hot": "발언"},
+    {"material": "피부과 시술은 1년에 한 번뿐이고 예민한 피부엔 독이라는 발언", "why_hot": "반전"},
+    {"material": "얼굴이 짧은 게 콤플렉스였다는 13년 전 사진 공개", "why_hot": "낙차"},
+    {"material": "1만 원대 와인만 20병 사는 가성비 입맛", "why_hot": "반전"},
+    {"material": "신비주의를 내려놓고 유튜브를 시작한 근황", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "13년 전 사진을 직접 꺼내 놓고 콤플렉스를 이야기했다",
+    "1만 원대 와인만 20병을 담아 오는 장면이 공개됐다"
+  ],
+  "sns_materials": [
+    "본인 유튜브 채널에 올린 13년 전 사진",
+    "본가 데이트 근황 사진",
+    "데일리 뷰티템을 소개한 영상"
+  ],
+  "press_only_materials": [
+    "브랜드 앰배서더 화보 사진",
+    "홈쇼핑 방송 사진"
+  ]
+}

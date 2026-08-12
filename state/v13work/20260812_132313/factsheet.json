@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "한가인",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 44,
+    "age_range": "40대",
+    "career": "배우이자 예능 자유부인에 출연 중",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "한가인", "text": "내 최악의 시상식 스타일링은 푸들머리로 갔던 그때다", "context": "예능 자유부인에서 과거 스타일링을 직접 꼽으며"},
+    {"speaker": "한가인", "text": "섹시 콘셉트는 잘 안 맞는다, 다 벗어도 야해 보이지가 않는다", "context": "예능 자유부인에서 콘셉트 소화에 대해 말하며"},
+    {"speaker": "한가인", "text": "아침에는 물세안을 하고 올리브오일을 생으로 먹는다", "context": "예능 자유부인에서 피부 관리법을 공개하며"},
+    {"speaker": "한가인", "text": "기본만 지킨다", "context": "피부 비결을 묻는 질문에"},
+    {"speaker": "한가인", "text": "이런 모습까지 보여드려도 되나 싶다", "context": "예능에서 관리법을 공개하며"},
+    {"speaker": "한가인", "text": "탈모 고민이 있어 두피 에센스까지 쓴다", "context": "정수리 볼륨을 살리는 방법을 공개하며"}
+  ],
+  "events": [
+    {"summary": "예능 자유부인에서 본인이 꼽은 최악의 시상식 스타일링을 공개", "year": null, "confirmed": true},
+    {"summary": "아침 물세안과 올리브오일 생식 등 관리 루틴을 공개", "year": null, "confirmed": true},
+    {"summary": "정수리 볼륨을 살리는 방법과 두피 관리법을 공개", "year": null, "confirmed": true},
+    {"summary": "제약사 더마 브랜드 광고 모델로 출연", "year": null, "confirmed": true},
+    {"summary": "남편 연정훈이 방송에서 자녀의 연예계 데뷔를 아내가 반대한다고 언급", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "44세", "meaning": "현재 나이"}
+  ],
+  "related_people": [
+    {"name": "연정훈", "relation": "남편", "mentioned_as": "방송에서 아내의 뜻을 전한 배우"}
+  ],
+  "beauty_evidence": [
+    "실물 미모가 화제로 언급됨",
+    "나이대에 비해 동안이라는 평가가 반복",
+    "출산 뒤 잡티가 생겼다고 본인이 언급"
+  ],
+  "care_habits": [
+    "아침에는 물로만 세안",
+    "올리브오일을 생으로 챙겨 먹음",
+    "두피 에센스로 정수리 볼륨 관리",
+    "기본만 지키는 방식을 고수"
+  ],
+  "hot_materials": [
+    {"material": "본인이 직접 꼽은 최악의 시상식 스타일링 고백", "why_hot": "발언"},
+    {"material": "다 벗어도 야해 보이지 않아 섹시 콘셉트가 안 맞는다는 자기 평가", "why_hot": "반전"},
+    {"material": "아침 물세안과 올리브오일 생식이라는 단순한 관리법", "why_hot": "낙차"},
+    {"material": "탈모 고민으로 두피 에센스까지 쓴다는 솔직한 공개", "why_hot": "발언"},
+    {"material": "남편 연정훈이 전한 자녀 데뷔 반대 이야기", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "시상식장에 푸들처럼 부풀린 머리로 등장했던 그날을 본인이 직접 소환했다",
+    "아침에 물로만 얼굴을 씻는 장면이 방송에 그대로 공개됐다"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "과거 시상식 참석 사진",
+    "브랜드 광고 촬영 사진"
+  ]
+}
