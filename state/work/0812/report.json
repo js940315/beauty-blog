@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-12",
+  "celeb": "한소희",
+  "richness": "thin",
+  "sources": 190,
+  "title": {
+    "title": "톱배우인데 화장기 없이 젖은 머리로 등장했다는 근황",
+    "score": 58,
+    "reasons": [
+      "앞20자 다이어트 신호어 +22",
+      "앞20자 인물 특정 +14",
+      "모순 구조(~인데 ~했다) +14",
+      "단정형 종결 +8"
+    ]
+  },
+  "cta": "오늘 립 하나만 바꿔보는 것도 시작이 됩니다.",
+  "content_lines": 73,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": []
+}

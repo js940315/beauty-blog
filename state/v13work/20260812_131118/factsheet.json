@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "천우희",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "데뷔 20주년을 맞은 배우. 영화 써니 이후 슬럼프를 겪었다고 밝힘",
+    "major_work": "더 에이트 쇼"
+  },
+  "quotes": [
+    {"speaker": "천우희", "text": "7시간 동안 계속 먹었다", "context": "주말연석극에서 대식가라는 사실을 밝히며"},
+    {"speaker": "천우희", "text": "써니 이후 오디션에 많이 떨어졌다", "context": "스포츠경향 보도, 슬럼프를 고백하며"},
+    {"speaker": "천우희", "text": "단단함과 유약함이 공존하는 이미지가 배우로서 좋다", "context": "YTN 보도, 패션 화보 공개 인터뷰"},
+    {"speaker": "천우희", "text": "우리 20년 더 함께하는 거다", "context": "데뷔 20주년 기념 팬 역조공 자리에서"}
+  ],
+  "events": [
+    {"summary": "유 퀴즈에 출연해 어머니가 이천에서 원조 쌀밥집을 운영하고 아버지가 도예가라고 밝혀 쌀수저로 화제", "year": null, "confirmed": true},
+    {"summary": "데뷔 20주년을 맞아 팬들을 위한 역조공을 진행", "year": null, "confirmed": true},
+    {"summary": "4천만원을 기부하며 화재 현장 소방관들을 챙긴 사연이 알려짐", "year": null, "confirmed": true},
+    {"summary": "서울관광재단 서울 유니버설 관광 홍보대사로 임명", "year": null, "confirmed": true},
+    {"summary": "출연 영상이 1000만뷰를 돌파하며 화제", "year": null, "confirmed": true},
+    {"summary": "엄정화와 18살 차이를 뛰어넘은 우정으로 화제", "year": null, "confirmed": true},
+    {"summary": "전도연의 연극 벚꽃동산을 응원차 관람", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "20주년", "meaning": "데뷔 후 경과 연수"},
+    {"value": "4천만원", "meaning": "기부 금액"},
+    {"value": "1000만뷰", "meaning": "출연 영상 조회수"},
+    {"value": "7시간", "meaning": "본인이 밝힌 연속 식사 시간"},
+    {"value": "18살", "meaning": "엄정화와의 나이 차이"}
+  ],
+  "related_people": [
+    {"name": "엄정화", "relation": "절친", "mentioned_as": "18살 차이를 뛰어넘은 우정, 나의 사랑이라 표현"},
+    {"name": "전도연", "relation": "선배 배우", "mentioned_as": "연극 벚꽃동산 응원 관람"}
+  ],
+  "beauty_evidence": [
+    "청초한 시선과 지적인 분위기라는 평가가 화보 기사마다 반복",
+    "맑은 눈동자와 고요한 아우라라는 표현이 자주 등장",
+    "잔잔한 눈빛의 섬세함이 돋보인다는 평가"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "7시간 동안 계속 먹었다는 대식가 고백", "why_hot": "반전"},
+    {"material": "어머니가 이천 원조 쌀밥집을 운영하고 아버지가 도예가라는 쌀수저 배경", "why_hot": "반전"},
+    {"material": "써니 이후 오디션에 많이 떨어졌다는 슬럼프 고백", "why_hot": "발언"},
+    {"material": "4천만원 기부와 소방관을 챙긴 선행", "why_hot": "낙차"},
+    {"material": "엄정화와 18살 차이를 뛰어넘은 우정", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "7시간 동안 자리를 뜨지 않고 계속 먹었다는 장면이 방송에서 공개됐다",
+    "출연 영상이 1000만뷰를 넘기며 조회수가 계속 올라갔다"
+  ],
+  "sns_materials": [
+    "전도연의 연극을 응원하러 가서 남긴 투샷 사진",
+    "엄정화와 얼굴을 맞댄 절친 투샷"
+  ],
+  "press_only_materials": [
+    "패션 화보 촬영 사진",
+    "넷플릭스 더 에이트 쇼 행사 참석 사진",
+    "백상예술대상 참석 사진"
+  ]
+}

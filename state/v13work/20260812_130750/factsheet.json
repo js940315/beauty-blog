@@ -1,0 +1,50 @@
+{
+  "person": {
+    "name": "수애",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 47,
+    "age_range": "40대 후반",
+    "career": "약 4년간(일부 매체는 3년으로 표기) 활동 공백 후 근황 공개",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "수애", "text": "편성이 계속 불발됐다. 기다리는 작품이 있다", "context": "4년 공백 후 근황을 전한 인터뷰"}
+  ],
+  "events": [
+    {"summary": "약 4년 만에 SNS를 재개하고 근황 사진을 공개", "year": null, "confirmed": true},
+    {"summary": "SNS 재개와 함께 프로필 사진을 공개해 팬들 사이 화제", "year": null, "confirmed": true},
+    {"summary": "일부 매체는 '3년 만의 프로필 공개'로 보도", "year": null, "confirmed": false},
+    {"summary": "'나는 소방관입니다' 캠페인에 동참하며 선행으로 근황을 알림", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "47세", "meaning": "현재 나이"},
+    {"value": "4년", "meaning": "활동 공백 기간(일부 매체는 3년으로 표기)"}
+  ],
+  "related_people": [],
+  "beauty_evidence": [
+    "목걸이·귀걸이 없이도 더 빛났다는 백옥피부 평가",
+    "'세월 비껴간 미모'라는 표현이 근황 기사에 반복 등장",
+    "공백기가 무색하다는 동안 미모 평가"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "4년(혹은 3년) 활동 공백 후 SNS를 깜짝 재개", "why_hot": "반전"},
+    {"material": "공백기가 무색한 47세 동안 미모라는 평가", "why_hot": "낙차"},
+    {"material": "무심코 올린 사진 한 장에 팬들이 술렁인 반응", "why_hot": "장면"},
+    {"material": "편성이 계속 불발됐다는 본인 발언으로 복귀 의지 확인", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "몇 년간 잠잠하던 SNS 계정에 사진 한 장이 올라오자 팬들이 순식간에 술렁였다",
+    "목걸이도 귀걸이도 없는 얼굴 사진 한 장이 그대로 화제가 됐다"
+  ],
+  "sns_materials": [
+    "SNS 재개 후 직접 올린 근황 프로필 사진",
+    "무심코 게시한 것으로 보이는 근황 사진 한 장"
+  ],
+  "press_only_materials": [
+    "보그 8월호 화보",
+    "럭셔리 패션 브랜드 LBL 전속모델 발탁 관련 사진"
+  ]
+}
