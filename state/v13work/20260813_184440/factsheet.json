@@ -1,0 +1,57 @@
+{
+  "person": {
+    "name": "황정음",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대 초반",
+    "career": "배우",
+    "major_work": "그녀는 예뻤다",
+    "identity_anchor": "드라마 '그녀는 예뻤다' 등 출연, 이혼 후 두 아들을 홀로 키우는 배우 황정음"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "황정음", "text": "세상에서 운동이 제일 싫다", "context": "운동 시작 관련 인터뷰"},
+    {"speaker": "황정음", "text": "이혼 후 나에게 준 선물이다", "context": "차량 구매 관련 인터뷰"},
+    {"speaker": "황정음", "text": "출산하고 거울만 보면 울었다", "context": "출산 이후 심경 고백"},
+    {"speaker": "황정음", "text": "인생이 끝난 줄 알았다", "context": "이혼 당시 심경 고백"},
+    {"speaker": "황정음", "text": "새로운 모습을 준비 중이다", "context": "근황 관련 인터뷰"}
+  ],
+  "events": [
+    {"summary": "이혼 후 두 아들을 홀로 키우고 있다", "year": null, "confirmed": true},
+    {"summary": "이혼 후 자신에게 주는 선물로 차를 구매했다", "year": null, "confirmed": true},
+    {"summary": "운동을 싫어했지만 52kg을 목표로 운동을 시작했다", "year": null, "confirmed": true},
+    {"summary": "휴식기 동안 태닝한 모습으로 근황을 전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "52kg", "meaning": "본인이 밝힌 운동 목표 체중"},
+    {"value": "두 아들", "meaning": "이혼 후 홀로 키우는 자녀 수"}
+  ],
+  "related_people": [],
+  "beauty_evidence": [
+    "이혼·결별 후에도 동안 미모가 그대로라는 평가를 받는다",
+    "구릿빛 태닝으로 이미지 변신에 성공했다"
+  ],
+  "care_habits": [
+    "운동을 싫어했지만 목표 체중을 정해 운동을 시작했다",
+    "새로운 모습을 위해 근황을 재정비하고 있다"
+  ],
+  "hot_materials": [
+    {"material": "세상에서 운동이 제일 싫다던 그녀가 52kg을 목표로 운동을 시작한 반전", "why_hot": "반전"},
+    {"material": "이혼 후 자신에게 슈퍼카를 선물한 이야기", "why_hot": "발언"},
+    {"material": "출산하고 거울만 보면 울었다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "이혼 후에도 동안 미모가 그대로라는 반응", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "구릿빛 태닝으로 달라진 근황 사진",
+    "거울 앞에서 눈물짓던 순간",
+    "슈퍼카를 자신에게 선물한 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "그녀는 예뻤다 속 캐릭터를 재현한 사진",
+    "자이언트 캐릭터를 다시 소화한 사진"
+  ],
+  "notes": "43억 횡령 관련 기사, 전남편 불륜 의혹 기사, 장난감 나눔 논란 기사는 명예훼손·형사 소재라 전부 제외했다. 故이순재 추모 기사는 사망 관련 소재라 톤에 맞지 않아 제외했다. 온유(SHINee), 오윤아 관련 기사는 동명이인이 아니라 이름이 우연히 섞인 무관한 소스라 제외했다. '뼈말라' 표현은 저체중 조장 우려가 있어 본문 축으로 쓰지 않았다."
+}
