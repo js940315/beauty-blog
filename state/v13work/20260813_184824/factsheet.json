@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "강소라",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "36세",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "한의사 남편을 둔 두 아이의 엄마이자 시술·다이어트를 솔직히 공개해온 배우 강소라"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "강소라", "text": "가장 돈 안 아까운 시술은 보톡스다", "context": "관리 비법 인터뷰"},
+    {"speaker": "강소라", "text": "집에서 미간 주름 쓸 일이 많아 만족한다", "context": "관리 비법 인터뷰"},
+    {"speaker": "강소라", "text": "나이 먹을수록 뚜껑싸움이다", "context": "자기관리 관련 인터뷰"},
+    {"speaker": "강소라", "text": "관리는 돈과 시간, 노력이 전부다", "context": "관리 비법 인터뷰"},
+    {"speaker": "강소라", "text": "평생 어떻게 샐러드만 먹나 싶다", "context": "다이어트 식단 인터뷰"},
+    {"speaker": "강소라", "text": "밀가루를 안 먹은 지 1년이 됐다", "context": "출산 후 관리 인터뷰"},
+    {"speaker": "강소라", "text": "클래식 음악을 들으니 자세가 바뀌었다", "context": "거북목 관련 인터뷰"}
+  ],
+  "events": [
+    {"summary": "출산 후 20kg을 감량했다", "year": null, "confirmed": true},
+    {"summary": "1년에 한두 번 울쎄라 시술을 받는다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "둘째를 임신했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "20kg", "meaning": "출산 후 감량한 체중"},
+    {"value": "1년", "meaning": "밀가루를 끊은 기간"},
+    {"value": "4년", "meaning": "특정 음식을 끊은 기간 (품목 비공개)"},
+    {"value": "36세", "meaning": "시술 관련 보도에서 언급된 나이"}
+  ],
+  "related_people": [
+    {"name": "", "relation": "남편", "mentioned_as": "한의사 남편"}
+  ],
+  "beauty_evidence": [
+    "보톡스와 울쎄라 시술을 꾸준히 받는다고 직접 밝혔다",
+    "두피 관리법을 직접 추천했다",
+    "한 달 만에 피부가 좋아졌다는 반응을 얻었다 (검사 후 식단 조정, 구체 검사 종류 비공개)"
+  ],
+  "care_habits": [
+    "밀가루를 1년째 먹지 않는다",
+    "특정 음식을 4년째 먹지 않는다 (품목 비공개)",
+    "채소 위주 식단을 유지한다",
+    "클래식 음악을 들으며 자세를 교정했다"
+  ],
+  "hot_materials": [
+    {"material": "가장 돈 안 아까운 시술이 보톡스라는 솔직한 고백", "why_hot": "발언"},
+    {"material": "출산 후 20kg을 감량한 이야기", "why_hot": "낙차"},
+    {"material": "밀가루를 1년째 끊었다는 습관", "why_hot": "발언"},
+    {"material": "나이 먹을수록 뚜껑싸움이라는 표현", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "집에서 미간 찌푸리는 습관을 이야기하는 장면",
+    "클래식 음악을 들으며 자세를 바로잡는 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "둘째 임신 관련 화보"
+  ],
+  "notes": "안재현 관련 발언(남자 배우 얼굴 칭찬)은 본문 주제와 거리가 있어 제외했다. 결혼 후 취미 관련 기사는 내용이 모호해 제외했다. 1년에 한 번 바꾸는 것, 4년간 끊은 음식, 한 달 꿀피부 관련 검사 종류는 헤드라인에 구체 품목이 비공개라 factsheet에서도 비워뒀다."
+}
