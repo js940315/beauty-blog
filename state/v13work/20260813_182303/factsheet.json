@@ -1,0 +1,71 @@
+{
+  "person": {
+    "name": "김정은",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "재미교포 남편을 둔 방송인 겸 배우 김정은 (북한 정치인과 동명이인)"
+  },
+  "namesake_dropped": ["북한 국무위원장(정치인) 김정은", "북한 지도자 관련 보도"],
+  "quotes": [
+    {
+      "speaker": "김정은",
+      "text": "죽음의 다이어트 중이다",
+      "context": "식단 공개 인터뷰"
+    },
+    {
+      "speaker": "김정은",
+      "text": "미국 할머님이 찍어주셨다",
+      "context": "남편 공개 관련 인터뷰"
+    },
+    {
+      "speaker": "김정은",
+      "text": "곤란하다",
+      "context": "동생 결혼식 관련 해명"
+    }
+  ],
+  "events": [
+    {"summary": "재미교포 남편과 뉴욕에서 결혼 8주년을 기념했다", "year": null, "confirmed": true},
+    {"summary": "동생 결혼식 사진이 본인 웨딩드레스 사진으로 오해받은 해프닝이 있었다", "year": null, "confirmed": true},
+    {"summary": "재미교포 남편을 처음 공개했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "47세", "meaning": "레깅스 인증샷 당시 언급된 나이"},
+    {"value": "50세", "meaning": "결혼 8주년 당시 언급된 나이"},
+    {"value": "51세", "meaning": "미모 관련 보도에서 언급된 나이"},
+    {"value": "8주년", "meaning": "결혼기념일"}
+  ],
+  "related_people": [
+    {"name": "", "relation": "남편", "mentioned_as": "재미교포 남편"}
+  ],
+  "beauty_evidence": [
+    "바이크슈트 차림 몸매가 보정 없는 실제라고 밝혔다",
+    "레깅스 인증샷에서 선명한 복근이 화제였다",
+    "죽음의 다이어트라 표현할 만큼 강도 높은 식단 관리를 했다"
+  ],
+  "care_habits": [
+    "강도 높은 다이어트로 식단을 관리한 적이 있다",
+    "나이대와 다른 탄탄한 몸매를 유지한다"
+  ],
+  "hot_materials": [
+    {"material": "죽음의 다이어트라 스스로 표현한 식단 관리", "why_hot": "발언"},
+    {"material": "레깅스 차림 복근에 CG 아니냐는 반응이 나온 것", "why_hot": "반전"},
+    {"material": "동생 결혼식 사진이 본인 웨딩드레스로 오해받은 해프닝", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "레깅스 입고 찍은 인증샷",
+    "뉴욕에서 맞은 결혼 8주년"
+  ],
+  "sns_materials": [
+    "레깅스 착용 인증샷"
+  ],
+  "press_only_materials": [
+    "재력가 남편과 함께한 데이트 사진",
+    "남편·반려견과 함께 찍은 화보"
+  ],
+  "notes": "'김정은' 검색 결과 대부분이 북한 국무위원장(정치인)에 관한 기사라 전부 제외했다. 배우 김정은 관련 기사만 남겼고, 나이는 기사 시점마다 47/50/51세로 다르게 언급돼 단일 나이로 확정하지 않고 각 발언 시점 숫자로만 기록했다."
+}
