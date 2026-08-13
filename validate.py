@@ -11,7 +11,57 @@
 import json
 import re
 
+import config as C
+
 U2800 = "⠀"
+
+# 매체명·출처 표현 (2026-08-13 사용자 확정). 목록은 config 한 곳에서만 늘린다.
+_MEDIA_SUFFIX = re.compile(
+    r"[가-힣A-Za-z]{1,6}(?:" + "|".join(C.MEDIA_SUFFIXES) + r")"
+)
+# 진부한 마무리 — titles.py 와 같은 기준. v13 은 .jpg 로 끝난다.
+_VAGUE_TAIL = re.compile(
+    r"(?:" + "|".join(re.escape(w) for w in C.VAGUE_TAILS) + r")"
+    r"\s*[.?!]*\s*(?:\.jpg)?\s*$"
+)
+_AGE = re.compile(r"\d+\s*(?:세|대)")
+_CONTRAST = re.compile(r"인데|는데도|은데도|았는데|었는데|고도 ")
+
+
+def media_hits(text: str) -> list:
+    """본문에 남은 매체명·출처 표현을 찾는다.
+
+    2026-08-13 사고: "스포츠조선 인터뷰에서", "헬스조선에서는", "뉴스컬처
+    인터뷰에서" 가 한 글에 다 들어갔다. 원인은 모델이 아니라 예전 프롬프트가
+    출처를 밝히라고 시키고 있었던 것. 프롬프트를 뒤집었고, 여기서 실제로 센다.
+    """
+    hits = []
+    for term in C.MEDIA_TERMS:
+        if term in text:
+            hits.append(term)
+    for phrase in C.SOURCE_PHRASES:
+        if phrase in text:
+            hits.append(phrase)
+    for m in _MEDIA_SUFFIX.finditer(text):
+        if m.group(0) not in hits:
+            hits.append(m.group(0))
+    return list(dict.fromkeys(hits))
+
+
+def head_specifics(head: str) -> list:
+    """앞 20자 안의 구체 요소. 나이는 구체 요소가 아니다 (titles.py 와 같은 기준)."""
+    found = []
+    if re.search(r"\d", _AGE.sub("", head)):
+        found.append("숫자")
+    if any(w in head for w in C.SCENE_WORDS):
+        found.append("장면")
+    if any(n in head for n in C.MALE_CELEB_NAMES):
+        found.append("실명")
+    if any(w in head for w in C.DIET_SIGNAL_WORDS):
+        found.append("신호어")
+    if _CONTRAST.search(head):
+        found.append("모순")
+    return found
 
 # 알파벳 허용 목록. 팩트시트의 영문 고유명은 load 시 자동 추가된다.
 ALPHA_ALLOW = {"jpg", "kg", "cm", "SM", "SK", "JYP", "YG", "CJ", "LG", "MBC",
@@ -62,6 +112,14 @@ def validate_factsheet(fs: dict) -> list:
                         f"낙차|장면|실명|발언|반전 중 하나여야 함")
     if not fs.get("hot_materials"):
         errs.append("hot_materials 비어 있음 — 화력 원석 없이는 제목을 못 뽑는다")
+    # 동명이인 판정을 실제로 했는지 (2026-08-13 사용자 확정)
+    if not (person.get("identity_anchor") or "").strip():
+        errs.append(
+            "person.identity_anchor 비어 있음 — 소스에 같은 이름의 다른 사람이 "
+            "섞여 있는지 먼저 가리고, 주 인물을 대표작·소속으로 못 박아라")
+    if "namesake_dropped" not in fs:
+        errs.append(
+            "namesake_dropped 필드 없음 — 동명이인이 없었다면 빈 배열로 명시해라")
     return errs
 
 
@@ -95,6 +153,15 @@ def validate_titles(titles: list, factsheet: dict) -> list:
             liz_endings.append(no)
         if t.get("heat", 0) < 7:
             errs.append(f"{no}번 화력 {t.get('heat')} — 7 미만 재생성")
+        # 홈판은 앞 20자만 노출한다. 그 자리가 "34세 배우"로 채워지면 아무
+        # 그림도 안 그려진다 (2026-08-13 사고 제목이 정확히 이 유형).
+        spec = head_specifics(s[:20])
+        if not spec:
+            errs.append(
+                f"{no}번 앞 20자에 구체 요소 없음 — 홈판에는 『{s[:20]}....』 만 뜬다. "
+                "숫자(나이 제외)·장면어·관계 실명·신호어·모순 중 2개를 앞으로 당겨라")
+        if _VAGUE_TAIL.search(s):
+            errs.append(f"{no}번 진부한 마무리 — '{s[-12:]}' 는 '그래서 뭐?'가 나온다")
         hooks = re.split(r"[+|,\s]+", t.get("hook", ""))
         if len([h for h in hooks if h]) < 2:
             errs.append(f"{no}번 후킹 {t.get('hook')} — 도파민 요소 2개 이상 필수")
@@ -198,6 +265,21 @@ def validate_body(body: str, factsheet: dict, state: dict) -> list:
     if "**" in body:
         errs.append("소제목에 별표(**) 사용 — 네이버에 그대로 노출된다. 큰따옴표만 쓸 것")
 
+    # 매체명·출처 표기 (2026-08-13 사용자 확정)
+    for hit in media_hits(visible_text):
+        errs.append(
+            f"매체·출처 표기: '{hit}' — 출처는 한 글자도 쓰지 않는다. "
+            "'이렇게 말한 적이 있어요' 처럼 출처 없이 풀어라")
+
+    # 동명이인 (2026-08-13 사용자 확정)
+    # 팩트시트가 버린 쪽의 표식이 본문에 나오면 두 사람을 섞어 쓴 것이다.
+    for marker in factsheet.get("namesake_dropped") or []:
+        marker = (marker or "").strip()
+        if marker and marker in visible_text:
+            errs.append(
+                f"동명이인 소재 혼입: '{marker}' — 같은 이름의 다른 사람이다. "
+                f"이 글은 {person.get('identity_anchor') or '주 인물'} 한 사람만 다룬다")
+
     # 큰따옴표 단독 줄 = 도입 인용구 1 + 소제목 5, 딱 여섯이어야 한다.
     # (2026-08-07 사용자 확정: 마무리가 무거워 챕터를 5개로 늘림)
     quote_lines = [l for l in lines
@@ -234,7 +316,9 @@ def validate_body(body: str, factsheet: dict, state: dict) -> list:
 # ── 자체 테스트 ─────────────────────────────────────────────────────────
 
 def _selftest():
-    fs = {"person": {"name": "홍길동", "gender": "여", "job": "무용가"},
+    fs = {"person": {"name": "홍길동", "gender": "여", "job": "무용가",
+                     "identity_anchor": "봄의 왈츠 안무를 맡은 무용가"},
+          "namesake_dropped": [],
           "quotes": [{"speaker": "홍길동", "text": "말", "context": ""}],
           "hot_materials": [{"material": "x", "why_hot": "낙차"}]}
 
@@ -243,6 +327,14 @@ def _selftest():
     bad_fs = json.loads(json.dumps(fs))
     bad_fs["person"]["job"] = ""
     assert any("person.job" in e for e in validate_factsheet(bad_fs))
+
+    # 동명이인 판정을 건너뛴 팩트시트는 통과하지 못한다 (2026-08-13)
+    no_id = json.loads(json.dumps(fs))
+    no_id["person"]["identity_anchor"] = ""
+    del no_id["namesake_dropped"]
+    errs = validate_factsheet(no_id)
+    assert any("identity_anchor" in e for e in errs)
+    assert any("namesake_dropped" in e for e in errs)
 
     # 검증 2: 본명 노출·jpg 누락·화력 미달·후킹 1개가 전부 잡히는지
     # "N세 직업" 덩어리는 4개까지만 허용되므로 정상 케이스는 형식을 섞는다.
@@ -306,6 +398,32 @@ def _selftest():
     # 직업 불일치 태그
     errs = validate_body(body.replace("#무용가미모", "#여배우미모"), fs, {})
     assert any("직업 불일치" in e for e in errs)
+
+    # 매체·출처 표기는 잡혀야 한다 (2026-08-13 사용자 확정)
+    sourced = body.replace("여기 열다섯 자짜리 문장이" + B,
+                           "스포츠조선 인터뷰에서" + B, 1)
+    errs = validate_body(sourced, fs, {})
+    assert any("스포츠조선" in e for e in errs), errs
+    assert any("인터뷰에서" in e for e in errs), errs
+    # 목록에 없는 신생 매체도 꼬리표로 잡는다
+    unknown = body.replace("이어지는 열네 자 문장과" + B, "가나다일보에 따르면" + B, 1)
+    assert any("가나다일보" in e for e in validate_body(unknown, fs, {}))
+
+    # 동명이인 소재 혼입 (2026-08-13 사고 재현)
+    ns_fs = json.loads(json.dumps(fs))
+    ns_fs["namesake_dropped"] = ["솔로지옥5 출연자", "고니"]
+    mixed = body.replace("마무리 열세 자 문장이" + B, "고니 얘기를 섞으면" + B, 1)
+    errs = validate_body(mixed, ns_fs, {})
+    assert any("동명이인" in e for e in errs), errs
+    # 안 섞였으면 조용해야 한다
+    assert not any("동명이인" in e for e in validate_body(body, ns_fs, {}))
+
+    # 밋밋한 제목 (앞 20자 구체 요소 0 / 진부한 마무리) — 2026-08-13 사고 제목
+    dull = json.loads(json.dumps(titles))
+    dull[0]["title"] = '"엄격한 식단 안 한다는" 34세 무용가, 그런데 피부는 도자기라는데.jpg'
+    errs = validate_titles(dull, fs)
+    assert any("앞 20자에 구체 요소 없음" in e for e in errs), errs
+    assert any("진부한 마무리" in e for e in errs), errs
 
     print("validate.py 자체 테스트 전부 통과")
 

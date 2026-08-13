@@ -40,6 +40,34 @@ _QUESTION_END = re.compile(r"(?:\?|까|까요|나요|을까|ㄹ까|일까|는지
 # "아이돌인데 뚱뚱하다고" / "32kg 뺐는데도 실패" / "평판 1위인데 돌연 사라진"
 _CONTRAST = re.compile(r"인데|는데도|은데도|았는데|었는데|고도 ")
 _OPEN_END = re.compile(r"(?:\.\.\.|…)\s*$")
+# 진부한 마무리. "그래서 뭐?"가 나오는 종결어미·명사로 끝나는 제목.
+# .jpg 마감(v13)과 말줄임은 떼고 본다.
+_VAGUE_TAIL = re.compile(
+    r"(?:" + "|".join(re.escape(w) for w in C.VAGUE_TAILS) + r")"
+    r"\s*[.?!]*\s*(?:\.jpg)?\s*$"          # v13 제목의 .jpg 마감은 떼고 본다
+)
+
+
+def _head_specifics(head: str) -> list:
+    """앞 20자 안에 있는 '구체 요소'를 센다.
+
+    2026-08-13 사용자 확정. 홈판은 앞 20자만 노출하는데, 그 자리가
+    "34세 배우" 같은 덩어리로 채워지면 독자 머릿속에 아무 그림도 안 그려진다.
+    나이는 구체 요소로 치지 않는다 — 어느 제목에나 붙일 수 있는 빈칸이라서다.
+    """
+    found = []
+    # 나이 표기를 걷어낸 뒤에도 숫자가 남는가 (금액·연도·순위·kg)
+    if _NUM.search(_AGE.sub("", head)):
+        found.append("숫자")
+    if any(w in head for w in C.SCENE_WORDS):
+        found.append("장면")
+    if any(n in head for n in C.MALE_CELEB_NAMES):
+        found.append("실명")
+    if any(w in head for w in C.DIET_SIGNAL_WORDS):
+        found.append("신호어")
+    if _CONTRAST.search(head):
+        found.append("모순")
+    return found
 
 
 def _head(title: str) -> str:
@@ -94,7 +122,11 @@ def score(title: str):
     w = C.WEIGHTS
     total = 0
 
-    if _NUM.search(head):
+    # 앞 20자 숫자 — 단, 나이는 숫자로 치지 않는다 (2026-08-13 사용자 확정).
+    # 개선 전에는 "34세 배우" 한 덩어리만으로 +30을 받았다. 어느 제목에나 붙일 수
+    # 있는 값이라 이게 최고 가중치를 먹으면 밋밋한 제목이 그대로 1위로 올라간다.
+    # 실제 사고 제목이 이 경로로 확정됐다. 금액·연도·순위·kg 만 인정한다.
+    if _NUM.search(_AGE.sub("", head)):
         total += w["head_number"]
         reasons.append(f"앞20자 숫자 +{w['head_number']}")
 
@@ -105,6 +137,22 @@ def score(title: str):
     if _fully_inside(_AGE, head, title) or _fully_inside(_JOB, head, title):
         total += w["head_person"]
         reasons.append(f"앞20자 인물 특정 +{w['head_person']}")
+
+    # 앞 20자 구체성 — 홈판에 실제로 보이는 자리에 그림이 그려지는가
+    specifics = _head_specifics(head)
+    if not specifics:
+        total += w["head_thin"]
+        reasons.append(f"앞20자에 구체 요소 없음(나이·직업만) {w['head_thin']}")
+    if "장면" in specifics:
+        total += w["head_scene"]
+        reasons.append(f"앞20자 장면어 +{w['head_scene']}")
+    if "실명" in specifics:
+        total += w["head_male_celeb"]
+        reasons.append(f"앞20자 관계 실명 +{w['head_male_celeb']}")
+
+    if _VAGUE_TAIL.search(title):
+        total += w["vague_tail"]
+        reasons.append(f"진부한 마무리 {w['vague_tail']}")
 
     if _DURATION.search(title) and _WEIGHT_TOKEN.search(title):
         total += w["duration_form"]
@@ -183,7 +231,13 @@ def pick(candidates):
 # ── 자체 테스트 ─────────────────────────────────────────────────────────
 # 뷰티판 config로 실측한 점수를 그대로 재현하는지 확인한다 (2026-08-05).
 KNOWN = [
-    ("30년째 같은 피부라는 58세 여배우의 아침 습관", 86),
+    # ── 2026-08-13 사고 재현: 밋밋한 제목이 1위로 확정되던 유형 ──────────
+    # 실제 확정 제목. 앞 20자에 남는 게 "식단 안 한다"와 "34세"뿐이라
+    # 홈판에서 그림이 안 그려지고, "~라는데" 로 끝나 다 아는 소리로 읽힌다.
+    # 개선 전에는 이슈 선행형 +22를 그대로 받아 1위로 올라갔다.
+    ('"엄격한 식단 안 한다는" 34세 배우, 그런데 피부는 도자기라는데', 24),
+    # 같은 소재를 앞 20자에 숫자·모순으로 채운 쪽. 54점 차로 확실히 앞선다.
+    ("48kg인데 식단표가 없다는 34세 배우, 대신 새벽마다 한강을 뛴다", 78),
     ('"남편과 어제도 키스했다는.." 55세 여배우의 동안 피부 비결', 76),
     # 저체중 스펙 가드는 뷰티판에서도 그대로 살아 있다 (-15).
     ('"165cm 43kg" 유지한다는 62세 여배우의 공항패션', 63),

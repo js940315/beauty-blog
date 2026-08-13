@@ -29,6 +29,21 @@ _SPELLED_NUM = re.compile(
 )
 
 
+# 목록에 없는 신생 매체까지 잡는 꼬리표. 앞에 붙은 글자가 있어야 걸리므로
+# "그 뉴스가 퍼졌어요" 같은 일반 표현은 통과한다.
+_MEDIA_SUFFIX = re.compile(
+    r"[가-힣A-Za-z]{1,6}(?:" + "|".join(C.MEDIA_SUFFIXES) + r")"
+)
+
+
+def _media_hits(text: str) -> list:
+    """매체명·출처 표현을 찾는다. 목록은 config 한 곳에서만 늘린다."""
+    hits = [t for t in C.MEDIA_TERMS if t in text]
+    hits += [p for p in C.SOURCE_PHRASES if p in text]
+    hits += [m.group(0) for m in _MEDIA_SUFFIX.finditer(text)]
+    return list(dict.fromkeys(hits))
+
+
 def subhead(text: str) -> str:
     """소제목 한 줄을 만든다. 표시 방식은 config에서만 정한다."""
     return f"{C.SUBHEAD_OPEN}{text}{C.SUBHEAD_CLOSE}"
@@ -249,6 +264,16 @@ def validate(text: str, richness: str = "normal", cta: str = None, celeb: str = 
     for w in C.BANNED_HOOKS:
         if w in full:
             problems.append(f"금지선 소재: {w}")
+
+    # 13. 매체명·출처 표기 (2026-08-13 사용자 확정)
+    #     2026-08-13 사고: 본문에 "스포츠조선 인터뷰에서", "헬스조선에서는",
+    #     "뉴스컬처 인터뷰에서" 가 줄줄이 박혔다. 원인은 모델이 아니라 예전
+    #     프롬프트가 "어디서 한 말인지 밝혀라"라고 시키고 있었던 것이다.
+    #     프롬프트를 뒤집었고, 다시 새지 않도록 여기서 실제로 센다.
+    for hit in _media_hits(full):
+        problems.append(
+            f"매체·출처 표기: {hit} — 출처는 한 글자도 쓰지 않는다 "
+            "('이렇게 말한 적이 있어요' 처럼 출처 없이 풀 것)")
 
     return problems
 
