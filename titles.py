@@ -15,7 +15,7 @@ _NUM = re.compile(r"\d+")
 _AGE = re.compile(r"\d+\s*(?:세|대)")
 _JOB = re.compile(
     r"여배우|배우|가수|모델|아나운서|방송인|개그우먼|코미디언|트로트|"
-    r"여신|스타|아이돌|디바|MC|셀럽"
+    r"여신|스타|아이돌|디바|MC|셀럽|인플루언서|댄서|크리에이터|무용가"
 )
 # 정답이 너무 쉬운 조합: 유명 남자 실명 + 혼인 관계어.
 # "장동건과 16년째 부부"는 누가 봐도 답이 나와서 클릭베이트가 죽는다.
@@ -48,12 +48,15 @@ _VAGUE_TAIL = re.compile(
 )
 
 
-def _head_specifics(head: str) -> list:
-    """앞 20자 안에 있는 '구체 요소'를 센다.
+def head_specifics(head: str) -> list:
+    """앞 20자 안에 있는 '구체 요소'를 센다. validate.py도 이 함수를 그대로 쓴다.
 
     2026-08-13 사용자 확정. 홈판은 앞 20자만 노출하는데, 그 자리가
     "34세 배우" 같은 덩어리로 채워지면 독자 머릿속에 아무 그림도 안 그려진다.
     나이는 구체 요소로 치지 않는다 — 어느 제목에나 붙일 수 있는 빈칸이라서다.
+
+    ⚠️ 판정 기준은 여기 한 곳에만 둔다. 검증기에 같은 로직을 복사해 두면
+       한쪽만 고쳤을 때 "점수는 통과인데 검증기는 반려" 같은 교착이 생긴다.
     """
     found = []
     # 나이 표기를 걷어낸 뒤에도 숫자가 남는가 (금액·연도·순위·kg)
@@ -61,10 +64,12 @@ def _head_specifics(head: str) -> list:
         found.append("숫자")
     if any(w in head for w in C.SCENE_WORDS):
         found.append("장면")
-    if any(n in head for n in C.MALE_CELEB_NAMES):
+    if any(n in head for n in C.MALE_CELEB_NAMES + C.FEMALE_RELATION_NAMES):
         found.append("실명")
     if any(w in head for w in C.DIET_SIGNAL_WORDS):
         found.append("신호어")
+    if any(g in head for g in C.GAP_MARKERS):
+        found.append("격차")
     if _CONTRAST.search(head):
         found.append("모순")
     return found
@@ -118,6 +123,8 @@ def score(title: str):
     if dq:
         return C.DISQUALIFIED, [f"{dq} → 즉시 탈락"]
 
+    # v13 제목은 .jpg 로 끝난다. 길이를 잴 때는 떼고 센다.
+    core = title[:-4].rstrip() if title.endswith(".jpg") else title
     head = _head(title)
     w = C.WEIGHTS
     total = 0
@@ -139,7 +146,7 @@ def score(title: str):
         reasons.append(f"앞20자 인물 특정 +{w['head_person']}")
 
     # 앞 20자 구체성 — 홈판에 실제로 보이는 자리에 그림이 그려지는가
-    specifics = _head_specifics(head)
+    specifics = head_specifics(head)
     if not specifics:
         total += w["head_thin"]
         reasons.append(f"앞20자에 구체 요소 없음(나이·직업만) {w['head_thin']}")
@@ -149,6 +156,12 @@ def score(title: str):
     if "실명" in specifics:
         total += w["head_male_celeb"]
         reasons.append(f"앞20자 관계 실명 +{w['head_male_celeb']}")
+    if "모순" in specifics:
+        total += w["head_contrast"]
+        reasons.append(f"앞20자 모순 구조 +{w['head_contrast']}")
+    if "격차" in specifics:
+        total += w["head_gap"]
+        reasons.append(f"앞20자 정보 격차 +{w['head_gap']}")
 
     if _VAGUE_TAIL.search(title):
         total += w["vague_tail"]
@@ -202,10 +215,20 @@ def score(title: str):
         total += n * w["per_number"]
         reasons.append(f"숫자 {n}개 +{n * w['per_number']}")
 
-    over = len(title) - C.TITLE_LEN_SOFT_MAX
+    # 인물이 주인공인 블로그다. 사람이 빠진 제목은 "누구 얘긴데?"조차 안 나온다.
+    if not any(lab in title for lab in C.PERSON_LABELS):
+        total += w["no_person"]
+        reasons.append(f"여성 인물 지칭 없음(여배우·여가수·여자 모델 등) {w['no_person']}")
+
+    over = len(core) - C.TITLE_LEN_SOFT_MAX
     if over > 0:
         total -= over
         reasons.append(f"{C.TITLE_LEN_SOFT_MAX}자 초과 {over}자 -{over}")
+    if len(core) < C.TITLE_LEN_MIN:
+        total += w["too_short"]
+        reasons.append(
+            f"{len(core)}자 — {C.TITLE_LEN_MIN}자 미만이라 홈판 앞 20자를 다 못 씀 "
+            f"{w['too_short']}")
 
     bmi = _bmi(title)
     if bmi is not None and bmi < C.BMI_FLOOR:
@@ -231,17 +254,31 @@ def pick(candidates):
 # ── 자체 테스트 ─────────────────────────────────────────────────────────
 # 뷰티판 config로 실측한 점수를 그대로 재현하는지 확인한다 (2026-08-05).
 KNOWN = [
+    ("30년째 같은 피부라는 58세 여배우의 아침 습관", 86),
     # ── 2026-08-13 사고 재현: 밋밋한 제목이 1위로 확정되던 유형 ──────────
     # 실제 확정 제목. 앞 20자에 남는 게 "식단 안 한다"와 "34세"뿐이라
     # 홈판에서 그림이 안 그려지고, "~라는데" 로 끝나 다 아는 소리로 읽힌다.
     # 개선 전에는 이슈 선행형 +22를 그대로 받아 1위로 올라갔다.
     ('"엄격한 식단 안 한다는" 34세 배우, 그런데 피부는 도자기라는데', 24),
+    # ── 2026-08-13 사고 2: 인물이 통째로 빠진 v13 제목 10개 ─────────────
+    # heat(모델 자평)로 1위를 뽑던 시절 실제로 확정된 제목. 사람도 없고
+    # 후킹도 없고 11자라 홈판 노출 면적도 못 쓴다.
+    ("부활절 인사 남긴 근황.jpg", -63),
+    # 김연경은 관계 실명으로 인정받아 감점이 덜하지만, 인물 지칭이 없고
+    # 13자라 여전히 하한 근처도 못 간다.
+    ("김연경과 절친이라는 사실.jpg", -29),
+    # 숫자는 있지만 여전히 인물이 없고 짧다.
+    ("166cm에 47kg이라는 몸무게.jpg", -10),
+    # 같은 소재를 인물·모순·길이로 살린 쪽. 키·몸무게 병기는 피했다(저체중 가드).
+    ("47kg인데 야식은 끊은 적 없다는 40대 여배우.jpg", 76),
+    # 숫자가 하나도 없어도 앞 20자 모순이 살아 있으면 하한(30점)을 넘긴다.
+    ("톱스타인데 주말엔 고양이랑 뜨개질만 한다는 여배우.jpg", 48),
     # 같은 소재를 앞 20자에 숫자·모순으로 채운 쪽. 54점 차로 확실히 앞선다.
-    ("48kg인데 식단표가 없다는 34세 배우, 대신 새벽마다 한강을 뛴다", 78),
+    ("48kg인데 식단표가 없다는 34세 배우, 대신 새벽마다 한강을 뛴다", 90),
     ('"남편과 어제도 키스했다는.." 55세 여배우의 동안 피부 비결', 76),
     # 저체중 스펙 가드는 뷰티판에서도 그대로 살아 있다 (-15).
     ('"165cm 43kg" 유지한다는 62세 여배우의 공항패션', 63),
-    ("명품 앰버서더인데 시장 옷 입는다는 40대 여배우", 50),
+    ("명품 앰버서더인데 시장 옷 입는다는 40대 여배우", 62),
     # 의혹 제기·실명 노출은 즉시 탈락.
     ("성형 의혹 불거진 40대 여배우의 근황", C.DISQUALIFIED),
     ("전지현 공항패션이 또 화제라는데", C.DISQUALIFIED),

@@ -296,8 +296,35 @@ def stage_body():
     if errs:
         _fail(errs, "제목")
 
-    ranked = sorted(titles, key=lambda t: -t.get("heat", 0))
+    # 확정은 점수 함수가 한다. 모델이 아니다 (2026-08-13 사용자 확정).
+    #
+    # 예전엔 heat(모델이 자기 제목에 스스로 매긴 점수)로 1위를 뽑았다. 그러면
+    # 저장소 설계 원칙 ①("제목은 LLM이 고르지 않는다")이 v13 경로에서만 깨진다.
+    # 실제 사고: "부활절 인사 남긴 근황.jpg" 가 heat 최고점으로 확정됐다.
+    # 인물도 없고 후킹도 없는 제목인데 모델은 자기 것이라 높게 준다.
+    # heat 는 동점일 때 순서만 가른다.
+    import config as CFG
+    import titles as TS
+    ranked = []
+    for t in titles:
+        s, why = TS.score(t.get("title", ""))
+        ranked.append({**t, "score": s, "score_reasons": why})
+    ranked.sort(key=lambda t: (-t["score"], -t.get("heat", 0)))
     top = ranked[0]
+
+    if top["score"] < CFG.TITLE_SCORE_FLOOR:
+        _fail([f"1위 {top['score']}점 — 확정 하한 {CFG.TITLE_SCORE_FLOOR}점 미달: "
+               f"{top['title']}"]
+              + [f"   · {r}" for r in top["score_reasons"]]
+              + ["10개 전부 다시 뽑아라. 감점 사유를 그대로 뒤집으면 된다 — "
+                 "여성 인물 지칭을 넣고, 앞 20자에 숫자·장면·실명을 박고, "
+                 "진부한 마무리를 버리고, 24자 이상으로 늘려라."],
+              "제목 화력")
+
+    print(f"■ 제목 점수 1위 {top['score']}점 "
+          f"(2위 {ranked[1]['score'] if len(ranked) > 1 else '-'}점)")
+    for r in top["score_reasons"]:
+        print("   ·", r)
 
     # 예비 후보 저장 (2~10위).
     # 라벨·번호 없이 제목만, 빈 줄 간격 — 복사 붙여넣기 최우선 (사용자 확정 2026-08-05).

@@ -24,8 +24,6 @@ _VAGUE_TAIL = re.compile(
     r"(?:" + "|".join(re.escape(w) for w in C.VAGUE_TAILS) + r")"
     r"\s*[.?!]*\s*(?:\.jpg)?\s*$"
 )
-_AGE = re.compile(r"\d+\s*(?:세|대)")
-_CONTRAST = re.compile(r"인데|는데도|은데도|았는데|었는데|고도 ")
 
 
 def media_hits(text: str) -> list:
@@ -48,20 +46,10 @@ def media_hits(text: str) -> list:
     return list(dict.fromkeys(hits))
 
 
-def head_specifics(head: str) -> list:
-    """앞 20자 안의 구체 요소. 나이는 구체 요소가 아니다 (titles.py 와 같은 기준)."""
-    found = []
-    if re.search(r"\d", _AGE.sub("", head)):
-        found.append("숫자")
-    if any(w in head for w in C.SCENE_WORDS):
-        found.append("장면")
-    if any(n in head for n in C.MALE_CELEB_NAMES):
-        found.append("실명")
-    if any(w in head for w in C.DIET_SIGNAL_WORDS):
-        found.append("신호어")
-    if _CONTRAST.search(head):
-        found.append("모순")
-    return found
+# 앞 20자 구체 요소 판정은 titles.py 한 곳에만 둔다.
+# 여기 복사본을 두면 한쪽만 고쳤을 때 "점수 함수는 통과인데 검증기는 반려"로
+# 영원히 못 끝내는 교착이 생긴다 (2026-08-13).
+from titles import head_specifics  # noqa: E402
 
 # 알파벳 허용 목록. 팩트시트의 영문 고유명은 load 시 자동 추가된다.
 ALPHA_ALLOW = {"jpg", "kg", "cm", "SM", "SK", "JYP", "YG", "CJ", "LG", "MBC",
@@ -127,7 +115,9 @@ def validate_factsheet(fs: dict) -> list:
 
 def validate_titles(titles: list, factsheet: dict) -> list:
     errs = []
-    name = (factsheet.get("person") or {}).get("name", "")
+    person = factsheet.get("person") or {}
+    name = person.get("name", "")
+    job = (person.get("job") or "").strip()
     allow = alpha_allow_from(factsheet)
 
     if len(titles) != 10:
@@ -155,6 +145,19 @@ def validate_titles(titles: list, factsheet: dict) -> list:
             errs.append(f"{no}번 화력 {t.get('heat')} — 7 미만 재생성")
         # 홈판은 앞 20자만 노출한다. 그 자리가 "34세 배우"로 채워지면 아무
         # 그림도 안 그려진다 (2026-08-13 사고 제목이 정확히 이 유형).
+        # 인물이 주인공이다. 사람이 빠지면 "누구 얘긴데?"조차 안 나온다.
+        # 2026-08-13 사고: 10개 전부 인물 없이 사건만 있었다
+        # ("부활절 인사 남긴 근황.jpg", "은은한 촛불 아래 만찬 사진.jpg")
+        core = s[:-4].rstrip() if s.endswith(".jpg") else s
+        if not (job and job in s) and not any(l in s for l in C.PERSON_LABELS):
+            errs.append(
+                f"{no}번 여성 인물 지칭 없음 — 이 블로그의 주인공은 사건이 아니라 "
+                f"사람이다. '여{job}' 처럼 person.job 을 여성 지칭으로 넣어라")
+        if len(core) < C.TITLE_LEN_MIN:
+            errs.append(
+                f"{no}번 {len(core)}자 — {C.TITLE_LEN_MIN}자 미만이라 홈판 앞 20자를 "
+                "다 못 쓴다. 노출 면적을 스스로 버리는 제목이다")
+
         spec = head_specifics(s[:20])
         if not spec:
             errs.append(
@@ -338,8 +341,10 @@ def _selftest():
 
     # 검증 2: 본명 노출·jpg 누락·화력 미달·후킹 1개가 전부 잡히는지
     # "N세 직업" 덩어리는 4개까지만 허용되므로 정상 케이스는 형식을 섞는다.
-    forms = ["40세 무용가의 반전 순간{i}.jpg", "1986년생 무용가의 그 장면{i}.jpg",
-             "무대를 멈춘 무용가의 선택{i}.jpg"]
+    # 2026-08-13: 인물 지칭(job)과 24자 하한이 생겨서 예시를 그에 맞게 늘렸다.
+    forms = ["40세 무용가의 무대를 멈춘 반전 순간{i}.jpg",
+             "1986년생 무용가의 거울 앞 그 장면{i}.jpg",
+             "무대를 멈춘 무용가가 택한 마지막 선택{i}.jpg"]
     titles = [{"no": i, "title": f"수식어{i} " + forms[i % 3].format(i=i),
                "angle": f"관점{(i - 1) // 4}", "hook": "낙차+장면", "heat": 8}
               for i in range(1, 11)]
