@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "박솔미",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대 후반",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "배우 한재석의 아내이자 김치 사업을 운영하는 두 딸의 엄마 배우 박솔미"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {
+      "speaker": "박솔미",
+      "text": "운동하고 나면 들어갈 때 좋아지는 마법이 있다",
+      "context": "패션 매체 인터뷰"
+    },
+    {
+      "speaker": "박솔미",
+      "text": "드디어 세상 밖으로 나온다",
+      "context": "김치 사업 관련 인터뷰"
+    },
+    {
+      "speaker": "박솔미",
+      "text": "딸이 나보다 철들었다",
+      "context": "딸 관련 근황 인터뷰"
+    }
+  ],
+  "events": [
+    {"summary": "김치 사업을 시작해 매출 45억을 올렸다", "year": null, "confirmed": true},
+    {"summary": "작업복을 입고 공장에서 직접 일하는 모습이 공개됐다", "year": null, "confirmed": true},
+    {"summary": "이탈리아 여행을 다녀왔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "45억", "meaning": "김치 사업 매출"},
+    {"value": "170cm", "meaning": "본인이 공개한 키"},
+    {"value": "50kg", "meaning": "본인이 공개한 몸무게"},
+    {"value": "47세", "meaning": "동안 미모 관련 보도에서 언급된 나이"}
+  ],
+  "related_people": [
+    {"name": "한재석", "relation": "남편", "mentioned_as": "배우 한재석"}
+  ],
+  "beauty_evidence": [
+    "47세에도 주름이 없다는 평가를 받는다",
+    "민낯 같은 셀카에도 피부가 매끈하다는 반응이 나온다",
+    "운동 후 몸이 좋아진다는 이야기를 직접 밝혔다"
+  ],
+  "care_habits": [
+    "건강한 재료로 채운 브런치를 즐긴다",
+    "골프를 취미로 즐긴다",
+    "운동을 꾸준히 한다"
+  ],
+  "hot_materials": [
+    {"material": "재벌가 며느리 배우가 김치 사업으로 매출 45억을 올린 반전", "why_hot": "낙차"},
+    {"material": "170cm 50kg을 공개했는데 실제 몸매는 더 놀랍다는 반응", "why_hot": "반전"},
+    {"material": "47세인데 주름 하나 없다는 평가", "why_hot": "낙차"},
+    {"material": "두 딸의 엄마인데 20대 같은 몸매라는 반응", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "작업복 입고 공장에서 구슬땀 흘리는 모습",
+    "건강 재료 가득한 브런치 테이블",
+    "여유로운 평일 골프 라운딩"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "수영복 화보",
+    "이탈리아 여행 패션 사진",
+    "얼빡샷 셀카"
+  ],
+  "notes": "패션·화보 소재가 많지만 착장 특정 묘사는 배제하고 김치 사업·동안 미모·가족 이야기 위주로 뽑았다. 다른 여자 연예인(송혜교·박효주·최희서 등) 실명은 본문 노출 금지 규칙에 따라 전부 제외했다."
+}
