@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "고민시",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "아무도 없는 숲속에서",
+    "identity_anchor": "드라마 '아무도 없는 숲속에서' 등 출연 배우, 클래시스 슈링크 유니버스 올림 모델"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {
+      "speaker": "고민시",
+      "text": "몸무게가 58kg에서 43kg까지 고무줄처럼 왔다갔다 하고, 하루 만에 3kg까지 찌기도 한다",
+      "context": "냉터뷰 인터뷰"
+    },
+    {
+      "speaker": "고민시",
+      "text": "화보 촬영 전에는 꼭 하는 운동이 있다",
+      "context": "화보 촬영 관련 인터뷰"
+    }
+  ],
+  "events": [
+    {
+      "summary": "클래시스 슈링크 유니버스 올림 모델로 발탁됐다",
+      "year": null,
+      "confirmed": true
+    }
+  ],
+  "numbers": [
+    {"value": "58kg→43kg", "meaning": "본인이 밝힌 체중 변동 폭"},
+    {"value": "하루 3kg", "meaning": "하루 새 체중이 변동한다고 밝힌 폭"}
+  ],
+  "related_people": [],
+  "beauty_evidence": [
+    "클래시스 슈링크 유니버스 올림 모델로 활동 중",
+    "인터뷰에서 뷰티 아이콘이라는 수식어로 소개됐다"
+  ],
+  "care_habits": [
+    "화보 촬영 전에는 꼭 챙기는 운동이 있다 (구체 종목은 비공개)",
+    "체력을 위해 공복에 챙겨 먹는 것이 있다 (구체 품목은 비공개)",
+    "배역을 위해 43kg까지 체중을 줄인 적이 있다"
+  ],
+  "hot_materials": [
+    {"material": "58kg에서 43kg까지 고무줄처럼 오간다는 체중 변화", "why_hot": "낙차"},
+    {"material": "하루 만에 3kg까지 변동한다는 체중 폭", "why_hot": "발언"},
+    {"material": "배역을 위해 43kg까지 감량했던 과거", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "화보 촬영 직전 매번 챙기는 운동",
+    "체력 유지를 위해 공복에 챙기는 것"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "신혼여행 1순위로 꼽히는 여행지에서 찍은 화보",
+    "클래시스 슈링크 광고 촬영 사진"
+  ]
+}
