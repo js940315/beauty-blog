@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "최지우",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "30년 롱런",
+    "major_work": "겨울연가"
+  },
+  "quotes": [
+    {"speaker": "최지우", "text": "오후 8시부터 안 먹어‥속 비워야 잘 자", "context": "컬투쇼"},
+    {"speaker": "최지우", "text": "일 주어지면 꾀 안 부려", "context": "TV리포트, 30년 롱런 비결 인터뷰"}
+  ],
+  "events": [
+    {"summary": "겨울연가로 배용준만큼 벌었냐는 돌직구 질문에 쿨하게 인정했다", "year": null, "confirmed": true},
+    {"summary": "11살 연하 남자 배우와 부부 연기를 했다", "year": null, "confirmed": true},
+    {"summary": "46세에 출산해 노산의 아이콘으로 불린다", "year": null, "confirmed": true},
+    {"summary": "9살 연하 배우자와 결혼한 것으로 알려졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10", "meaning": "해독주스를 마셔온 햇수(년)"},
+    {"value": "174", "meaning": "키(cm)"},
+    {"value": "11", "meaning": "부부 연기 상대 배우와의 나이 차(살)"},
+    {"value": "46", "meaning": "출산 당시 나이(세)"},
+    {"value": "30", "meaning": "스스로 밝힌 롱런 햇수(년)"}
+  ],
+  "related_people": [
+    {"name": "신애라", "relation": "지인", "mentioned_as": "딸이 닮았다고 언급한 배우"},
+    {"name": "배용준", "relation": "공동 출연 배우", "mentioned_as": "겨울연가 상대역 비교 대상"},
+    {"name": "백지연", "relation": "지인", "mentioned_as": "생일 파티를 함께한 우정"},
+    {"name": "양미라", "relation": "지인", "mentioned_as": "데이트 인증샷을 공개한 지인"},
+    {"name": "송선미", "relation": "고교 선후배 배우", "mentioned_as": "동안 비결을 함께 밝힌 선후배"},
+    {"name": "오연수", "relation": "지인", "mentioned_as": "휴가 중 미모를 언급한 배우"}
+  ],
+  "beauty_evidence": [
+    "최강 동안이라는 평가",
+    "방부제 미모라는 평",
+    "교복도 완벽 소화한다는 동안 인증",
+    "11살 연하 배우와 부부 연기해도 위화감 없다는 반응"
+  ],
+  "care_habits": [
+    "아침에 눈 뜨자마자 챙겨 먹는 것이 있다고 밝혔다",
+    "10년간 해독주스를 마셔왔다고 밝혔다",
+    "오후 8시 이후로는 먹지 않는다는 기준을 정했다",
+    "속을 비워야 잘 잔다는 이유를 직접 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "11살 연하 배우와 부부 연기를 해도 위화감이 없다는 반응", "why_hot": "낙차"},
+    {"material": "겨울연가로 배용준만큼 벌었냐는 돌직구에 쿨하게 인정한 것", "why_hot": "발언"},
+    {"material": "오후 8시 이후로는 절대 먹지 않는다는 스스로의 기준", "why_hot": "발언"},
+    {"material": "10년간 해독주스를 마셔온 습관", "why_hot": "장면"},
+    {"material": "46세에 출산해 노산의 아이콘으로 불리는 사실", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "라디오쇼에서 돌직구 질문에 쿨하게 답하는 장면",
+    "컬투쇼에서 야식 끊는 기준을 직접 밝히는 장면",
+    "계단을 성큼성큼 오르며 우아함을 뽐낸 순간",
+    "북촌을 나들이하며 거울을 볼 때마다 짓는 표정"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "북촌 나들이 사진",
+    "계단을 오르며 블랙 부츠를 신은 사진",
+    "생일 파티에서 백지연과 함께한 사진",
+    "가방 속을 공개한 화보 사진"
+  ]
+}

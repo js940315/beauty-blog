@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "한채영",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대 후반",
+    "career": "",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "한채영", "text": "좋은 하루", "context": "SNS 근황 게시글"},
+    {"speaker": "한채영", "text": "즐거운 하루", "context": "SNS 근황 게시글"}
+  ],
+  "events": [
+    {"summary": "탁재훈과 함께 찍은 셀카를 공개해 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "40대 중반 아들맘 중 제일 예쁘다는 평가를 받았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "168", "meaning": "키(cm)"},
+    {"value": "112", "meaning": "다리 길이(cm)"},
+    {"value": "12", "meaning": "아들 나이(세)"},
+    {"value": "3", "meaning": "아침을 나눠 먹는 횟수(번)"}
+  ],
+  "related_people": [
+    {"name": "최화정", "relation": "동료 배우", "mentioned_as": "목주름 관리 특집을 함께한 배우"},
+    {"name": "탁재훈", "relation": "방송 동료", "mentioned_as": "함께 셀카를 찍은 방송인"}
+  ],
+  "beauty_evidence": [
+    "뽀얀 피부와 각선미로 안 늙는다는 평",
+    "원조 바비인형 미모라는 평",
+    "시간이 멈춘 듯한 미모라는 평",
+    "40대 중반 아들맘 중 제일 예쁘다는 평가"
+  ],
+  "care_habits": [
+    "아침을 세 번에 나눠 먹는다는 습관을 공개했다",
+    "목주름 관리 팁을 공개했다",
+    "보정 어플을 즐겨 쓴다고 스스로 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "168cm 키에 다리만 112cm이라는 압도적 비율", "why_hot": "낙차"},
+    {"material": "아침을 세 번 나눠 먹는다는 독특한 식습관", "why_hot": "장면"},
+    {"material": "보정 어플 마니아라고 스스로 인정한 것", "why_hot": "발언"},
+    {"material": "탁재훈과 함께 찍은 셀카로 화제가 된 것", "why_hot": "실명"},
+    {"material": "최화정과 나란히 목주름 관리 팁을 공개한 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "핑크 룩을 입고 근황 사진을 올리는 장면",
+    "탁재훈과 나란히 셀카를 찍는 장면",
+    "카키 미니스커트에 롱부츠로 다리 길이를 뽐낸 장면",
+    "아침 식사를 세 번에 나눠 먹는 장면"
+  ],
+  "sns_materials": [
+    "좋은 하루라는 문구와 함께 근황 사진을 올렸다",
+    "즐거운 하루라는 문구와 함께 근황 사진을 올렸다",
+    "핑크 룩을 입은 셀카를 올렸다",
+    "탁재훈과 함께 찍은 셀카를 공개했다"
+  ],
+  "press_only_materials": [
+    "카키 미니스커트에 롱부츠를 신은 화보 사진",
+    "목주름 관리 특집 화보 사진"
+  ]
+}

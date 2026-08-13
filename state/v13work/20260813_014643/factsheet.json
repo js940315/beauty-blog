@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "정려원",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대 중반",
+    "career": "",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "정려원", "text": "happy easter weekend", "context": "야외 카페 근황 게시글"},
+    {"speaker": "정려원", "text": "Wishing you a lifetime of love", "context": "결혼 축하 인사 게시글"},
+    {"speaker": "정려원", "text": "love your W", "context": "가을 만찬 근황 게시글"}
+  ],
+  "events": [
+    {"summary": "김연경과 절친으로 알려져 있으며 시사회에 참석해 응원했다", "year": null, "confirmed": true},
+    {"summary": "집에서 반려묘와 뜨개질 시간을 보냈다고 근황을 전했다", "year": null, "confirmed": true},
+    {"summary": "채정안과 함께 에트로 포니백 스타일링에 참여했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "166", "meaning": "키(cm)"},
+    {"value": "47", "meaning": "몸무게(kg)"}
+  ],
+  "related_people": [
+    {"name": "김연경", "relation": "절친", "mentioned_as": "시사회에 함께한 배구선수 친구"},
+    {"name": "한지민", "relation": "동료 배우", "mentioned_as": "신인감독 응원한 동료"},
+    {"name": "채정안", "relation": "동료 배우", "mentioned_as": "에트로 포니백 스타일링을 함께한 배우"}
+  ],
+  "beauty_evidence": [
+    "세월 비껴간 미모라는 평",
+    "45세 안 믿기는 완벽 동안 미모라는 평",
+    "꾸밈없는데 완벽하다는 평"
+  ],
+  "care_habits": [
+    "밥에 특정 재료를 넣어 혈당과 열량을 낮춘다고 밝혔다",
+    "아점으로 포만감이 오래 가는 음식을 즐긴다고 알려졌다",
+    "사과에 재료를 뿌려 먹으며 염증을 줄인다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "happy easter weekend라는 인사와 함께 근황을 전한 것", "why_hot": "장면"},
+    {"material": "Wishing you a lifetime of love라며 결혼 축하 글을 남긴 것", "why_hot": "발언"},
+    {"material": "집에서 반려묘와 뜨개질하며 여유를 즐긴 근황", "why_hot": "장면"},
+    {"material": "166cm에 47kg이라는 체중이 화제가 된 것", "why_hot": "낙차"},
+    {"material": "김연경과 절친으로 시사회를 함께한 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "야외 카페에서 easter 인사를 전하는 장면",
+    "은은한 촛불 아래 가을 만찬을 즐기는 장면",
+    "집에서 반려묘와 뜨개질을 하는 장면",
+    "김연경과 나란히 시사회장에 선 장면"
+  ],
+  "sns_materials": [
+    "happy easter weekend라는 문구와 함께 근황 사진을 올렸다",
+    "Wishing you a lifetime of love라며 결혼 축하 글을 올렸다",
+    "love your W라는 문구와 함께 만찬 사진을 올렸다",
+    "집에서 반려묘와 뜨개질하는 사진을 올렸다"
+  ],
+  "press_only_materials": [
+    "그레이 롱 원피스와 화이트 시스루로 완성한 사복 화보",
+    "니트와 청바지로 완성한 가을 감성 화보",
+    "가죽 점퍼와 숄더백으로 완성한 보헤미안 시크룩 화보",
+    "에트로 포니백 스타일링 화보"
+  ]
+}

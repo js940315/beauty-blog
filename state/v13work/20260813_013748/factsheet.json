@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "이미연",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대 중반",
+    "career": "10년 공백 후 근황 공개",
+    "major_work": ""
+  },
+  "quotes": [
+    {"speaker": "이미연", "text": "나만의 행복 찾기 중", "context": "레이디경향 인터뷰"},
+    {"speaker": "송혜교", "text": "언니 감사해요", "context": "커피차 선물을 받고 남긴 인사"}
+  ],
+  "events": [
+    {"summary": "10년째 활동 공백이었다가 근황을 공개했다", "year": null, "confirmed": true},
+    {"summary": "11년 만에 카메라 앞에 다시 섰다", "year": null, "confirmed": true},
+    {"summary": "송혜교로부터 커피차 선물을 받았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10", "meaning": "활동 공백 기간(년)"},
+    {"value": "11", "meaning": "오랜만에 카메라 앞에 선 기간(년)"}
+  ],
+  "related_people": [
+    {"name": "송혜교", "relation": "후배 배우", "mentioned_as": "커피차 선물을 보낸 후배"},
+    {"name": "최지우", "relation": "동료 배우", "mentioned_as": "함께 동안 피부 관리법이 비교된 배우"},
+    {"name": "김남주", "relation": "동료 배우", "mentioned_as": "함께 동안 피부 관리법이 비교된 배우"}
+  ],
+  "beauty_evidence": [
+    "54세에도 전설의 미모라는 평",
+    "압도적 아우라라는 평",
+    "빛나는 피부가 여전하다는 평",
+    "변함없는 눈빛으로 여신 포스라는 평"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "10년째 활동 공백 끝에 근황을 공개한 것", "why_hot": "낙차"},
+    {"material": "54세에도 전설의 미모라는 평가", "why_hot": "낙차"},
+    {"material": "송혜교가 커피차를 보내며 언니 감사해요라고 인사한 것", "why_hot": "실명"},
+    {"material": "11년 만에 카메라 앞에 다시 선 것", "why_hot": "장면"},
+    {"material": "시크하게 달라진 헤어스타일로 나타난 근황", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "10년 만에 카메라 앞에 다시 선 장면",
+    "커피차를 받고 언니라고 부르며 인사하는 장면",
+    "시크한 숏컷으로 나타난 근황 사진"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "주얼리 화보 사진",
+    "하객룩으로 참석한 사진"
+  ]
+}

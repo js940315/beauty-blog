@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "김하늘",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대 후반",
+    "career": "",
+    "major_work": ""
+  },
+  "quotes": [],
+  "events": [
+    {"summary": "김재원과 24년 만에 재회해 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "연하의 CEO와 열애 중인 것으로 알려졌다", "year": null, "confirmed": true},
+    {"summary": "7살 딸을 둔 것으로 알려졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48", "meaning": "보도 시점 나이(세)"},
+    {"value": "24", "meaning": "김재원과 재회하기까지 걸린 시간(년)"},
+    {"value": "7", "meaning": "딸의 나이(세)"}
+  ],
+  "related_people": [
+    {"name": "김재원", "relation": "과거 드라마 상대역", "mentioned_as": "24년 만에 재회한 배우"},
+    {"name": "정지훈", "relation": "공동 출연 배우", "mentioned_as": "화인가 스캔들에서 경호원 역을 맡은 배우"}
+  ],
+  "beauty_evidence": [
+    "초근접 민낯 셀카에도 주름이 안 보인다는 반응",
+    "48세 맞냐는 말이 반복되는 초동안 미모",
+    "군살 하나 없는 슬림 탄탄 몸매라는 평",
+    "아기 피부 같다는 평",
+    "방부제 미모라는 평"
+  ],
+  "care_habits": [
+    "일부러 챙겨 먹는 특정 음식이 있다고 보도됐다",
+    "노화를 늦춘다는 습관이 공원에서 포착됐다",
+    "슬림한 몸매를 유지하는 특정 운동을 한다고 보도됐다",
+    "오운완(운동 완료) 인증 스타일을 즐긴다는 보도가 있다"
+  ],
+  "hot_materials": [
+    {"material": "초근접 민낯 셀카를 공개했는데도 주름이 안 보인다는 반응", "why_hot": "장면"},
+    {"material": "김재원과 24년 만에 재회한 장면", "why_hot": "실명"},
+    {"material": "연하 CEO와 열애 중이라는 사실", "why_hot": "반전"},
+    {"material": "볼을 빵빵하게 부풀린 애교 셀카", "why_hot": "장면"},
+    {"material": "군살 하나 없다는 몸매 평가", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "초근접 각도로 민낯 셀카를 찍어 올린 장면",
+    "공원에서 포착된 뜻밖의 노화 관리 장면",
+    "볼을 빵빵하게 부풀린 애교 셀카 장면",
+    "24년 만에 김재원과 다시 마주한 장면"
+  ],
+  "sns_materials": [
+    "초근접 민낯 셀카를 직접 올렸다",
+    "볼을 부풀린 애교 셀카를 공개했다",
+    "오운완 인증 스타일 사진을 올렸다"
+  ],
+  "press_only_materials": [
+    "빈티지 카페에서 촬영한 화보 사진",
+    "아웃도어 룩 화보",
+    "미니스커트 룩 화보"
+  ]
+}
