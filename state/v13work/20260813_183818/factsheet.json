@@ -1,0 +1,57 @@
+{
+  "person": {
+    "name": "서현진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "43세",
+    "career": "배우",
+    "major_work": "또 오해영",
+    "identity_anchor": "드라마 '또 오해영' 주연 배우, 서울대병원 의사 남편을 둔 43세 아들맘 배우 서현진"
+  },
+  "namesake_dropped": ["아나운서 출신 서현진", "미코 출신 인플루언서 서현진"],
+  "quotes": [
+    {"speaker": "서현진", "text": "히스테리 그만 좀 하세요", "context": "카페 목격담 관련 SNS 글"},
+    {"speaker": "서현진", "text": "30분째 소리 지르신다", "context": "카페 목격담 관련 SNS 글"}
+  ],
+  "events": [
+    {"summary": "카페에서 목격한 큰 소리의 훈육 상황에 공개적으로 쓴소리를 남겼다", "year": null, "confirmed": true},
+    {"summary": "26억 원 규모의 전세 사기 피해를 입었다", "year": null, "confirmed": true},
+    {"summary": "전세 사기 피해 중에도 여행을 다녀왔다", "year": null, "confirmed": true},
+    {"summary": "임신으로 15kg이 늘었다가 운동으로 감량했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "26억", "meaning": "전세 사기 피해 금액"},
+    {"value": "15kg", "meaning": "임신으로 늘었다가 감량한 체중"},
+    {"value": "30분", "meaning": "카페에서 큰 소리가 이어졌다고 밝힌 시간"},
+    {"value": "43세", "meaning": "아들맘으로 소개될 때 언급된 나이"}
+  ],
+  "related_people": [
+    {"name": "", "relation": "남편", "mentioned_as": "서울대병원 의사 남편"},
+    {"name": "공유", "relation": "동료 배우", "mentioned_as": "'또 오해영' 공동 주연 공유"}
+  ],
+  "beauty_evidence": [
+    "임신으로 늘었던 15kg을 운동으로 감량했다"
+  ],
+  "care_habits": [
+    "출산 후 운동으로 체중을 관리했다"
+  ],
+  "hot_materials": [
+    {"material": "카페에서 시끄러운 훈육에 공개적으로 쓴소리를 남긴 사건", "why_hot": "장면"},
+    {"material": "26억 원 전세 사기를 당한 피해 소식", "why_hot": "반전"},
+    {"material": "전세 사기 피해 중에도 여행을 다녀온 의연함", "why_hot": "반전"},
+    {"material": "임신으로 늘어난 15kg을 감량한 이야기", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "카페에서 30분째 이어진 큰 소리",
+    "전세 사기 소식 이후 떠난 여행"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "공유와 함께한 화보 촬영 사진",
+    "가을 포멀룩 화보",
+    "청룡어워즈 레드카펫 드레스룩"
+  ],
+  "notes": "'아나운서 출신'/'미코 출신' 태그가 붙은 소스는 요가·수영복 화보 위주의 다른 인물(인플루언서 서현진 아나운서)이라 전부 제외했다. 배우 서현진(또 오해영 주연, 서울대병원 의사 남편)만 남겼다. 송혜교 등 다른 여자 연예인 실명은 본문 노출 금지 규칙에 따라 제외했다."
+}
