@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "한지혜",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대 초반",
+    "career": "배우",
+    "major_work": "다음생은 없으니까",
+    "identity_anchor": "검사 남편을 둔 워킹맘 배우 한지혜, 드라마 '다음생은 없으니까' 출연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한지혜", "text": "이두 삼두 불태웠다", "context": "운동 근황 인터뷰"},
+    {"speaker": "한지혜", "text": "운동, 안 하면 고장이 난다", "context": "운동 습관 인터뷰"},
+    {"speaker": "한지혜", "text": "포기하던 차에 아이가 찾아왔다", "context": "임신 관련 인터뷰"}
+  ],
+  "events": [
+    {"summary": "10년 만에 임신해 딸을 얻었다", "year": null, "confirmed": true},
+    {"summary": "가족사진을 공개하며 만 40세 생일파티 소식을 전했다", "year": null, "confirmed": true},
+    {"summary": "15kg을 감량했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15kg", "meaning": "본인이 밝힌 감량 폭"},
+    {"value": "172cm", "meaning": "본인이 공개한 키"},
+    {"value": "47kg", "meaning": "본인이 공개한 몸무게"},
+    {"value": "10년", "meaning": "임신까지 걸린 기간"}
+  ],
+  "related_people": [
+    {"name": "", "relation": "남편", "mentioned_as": "검사 남편"}
+  ],
+  "beauty_evidence": [
+    "41세인데도 20대 같은 슬림 라인이라는 평가를 받는다",
+    "운동 후 쌩얼도 화제가 될 만큼 피부가 매끈하다",
+    "탄탄한 복근과 어깨라인으로 화제가 됐다"
+  ],
+  "care_habits": [
+    "이두근·삼두근 운동을 꾸준히 한다",
+    "운동을 하루라도 안 하면 몸이 힘들다고 밝혔다",
+    "15kg을 감량한 뒤에도 관리를 이어가고 있다"
+  ],
+  "hot_materials": [
+    {"material": "15kg을 감량하고도 40대라 믿기지 않는 몸매라는 반응", "why_hot": "낙차"},
+    {"material": "10년 만에 임신해 딸을 얻은 이야기", "why_hot": "발언"},
+    {"material": "운동 안 하면 고장 난다는 직설적인 발언", "why_hot": "발언"},
+    {"material": "애엄마인데 11자 복근이라는 반전", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "운동 후 쌩얼로 찍힌 모습",
+    "가족사진 속 생일파티 장면",
+    "선명한 복근과 어깨라인"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "니트 원피스 화보",
+    "운동복 핏 사진",
+    "공항·일상 패션 사진"
+  ],
+  "notes": "패션·의상 관련 기사가 많지만 착장 명칭은 최소화하고 15kg 감량·임신 스토리·운동 습관 위주로 뽑았다. 다른 여자 연예인(김희선·윤아·설현·이민정·박탐희 등) 실명은 본문 노출 금지 규칙에 따라 전부 제외했다. 남편은 '검사'라는 직업만 확인되고 실명은 소스에 없어 related_people.name을 비웠다."
+}
