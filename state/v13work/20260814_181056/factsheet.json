@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "문채원",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "5월 28일 비공개 결혼식을 올린 배우 문채원"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "문채원", "text": "계량만 잘하면 다 먹을 수 있다", "context": "유튜브 채널 다이어트 식단 공개"},
+    {"speaker": "문채원", "text": "자제력 잃어", "context": "웨딩 앞두고 관리 중 인터뷰"},
+    {"speaker": "문채원", "text": "원하는 것을 얻지 못하는 것이 때로 행운", "context": "결혼식 나흘 뒤 올린 SNS 글"},
+    {"speaker": "문채원", "text": "만난 적도 없는데", "context": "이준기 결별설 관련 해명"},
+    {"speaker": "문채원", "text": "긴장했지만 최선을 다했다", "context": "SNL 첫 도전 소감"},
+    {"speaker": "문채원", "text": "촬영 중 홀딱 깼다", "context": "미우새 별별TV, 권상우가 첫사랑 배우였다는 고백"}
+  ],
+  "events": [
+    {"summary": "비연예인 연인과 5월 28일 한옥에서 비공개 결혼식을 올렸다", "year": 2026, "confirmed": true},
+    {"summary": "결혼식 나흘 만에 SNS에 의미심장한 글을 올렸다", "year": 2026, "confirmed": true},
+    {"summary": "이준기와의 결별설이 제기됐으나 본인이 직접 부인했다", "year": null, "confirmed": false},
+    {"summary": "SNL에 처음 도전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "28일", "meaning": "5월 비공개 결혼식을 올린 날짜"},
+    {"value": "4일", "meaning": "결혼 후 SNS에 글을 올리기까지 걸린 기간"}
+  ],
+  "related_people": [
+    {"name": "권상우", "relation": "본인이 첫사랑 배우로 꼽았던 상대", "mentioned_as": "촬영 중 실제로 보니 홀딱 깼다는 고백 상대"},
+    {"name": "이준기", "relation": "결별설이 돌았던 인물(본인이 부인)", "mentioned_as": "만난 적도 없다고 밝힌 상대"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "웨딩 앞두고 물오른 미모라는 반응을 받았다",
+    "웨딩 사진 공개 후 여신 같다는 반응이 쏟아졌다"
+  ],
+  "care_habits": [
+    "유튜브에서 단기 다이어트 식단 비법을 공개했다(계량 중심 식단)",
+    "결혼 준비로 관리에 들어가며 자제력이 필요했다고 직접 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "비연예인과 5월 28일 전격 비공개 결혼식", "why_hot": "반전"},
+    {"material": "결혼식 나흘 만에 올린 의미심장한 SNS 문구", "why_hot": "발언"},
+    {"material": "이준기와의 결별설을 본인이 직접 부인", "why_hot": "실명"},
+    {"material": "권상우가 첫사랑 배우였다는 고백", "why_hot": "실명"},
+    {"material": "유튜브 다이어트 식단 비법 공개", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "한옥에서 열린 비공개 결혼식 현장",
+    "신혼 첫 SNS에 올라온 의미심장한 문구",
+    "SNL 무대에 처음 선 순간"
+  ],
+  "sns_materials": [
+    "결혼식 나흘 뒤 올린 SNS 문구 '원하는 것을 얻지 못하는 것이 때로 행운'",
+    "웨딩 사진 SNS 공개"
+  ],
+  "press_only_materials": [
+    "한옥 비공개 결혼식 현장 포착 사진",
+    "물오른 미모 웨딩 화보성 사진"
+  ]
+}
