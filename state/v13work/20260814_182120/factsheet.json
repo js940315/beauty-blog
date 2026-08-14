@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "김옥빈",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "38세",
+    "age_range": "",
+    "career": "",
+    "major_work": "안목의 여왕",
+    "identity_anchor": "안목의 여왕 등 출연 배우 김옥빈, 최근 비공개 결혼식을 올렸다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김옥빈", "text": "물+소금만 먹어", "context": "안목의 여왕 관련 인터뷰"},
+    {"speaker": "김옥빈", "text": "하루 한 번은 먹으려 한다", "context": "스포탈코리아 인터뷰"},
+    {"speaker": "김옥빈", "text": "이것만 발라서 굽는다", "context": "머니투데이 셀럽 웰빙"},
+    {"speaker": "김옥빈", "text": "1일 3팩…수분감 채워줘야", "context": "스포츠월드 인터뷰"},
+    {"speaker": "김옥빈", "text": "봐도 봐도 좋아", "context": "발리 근황"},
+    {"speaker": "김옥빈", "text": "모든 게 완벽했던 날", "context": "결혼식 후기"},
+    {"speaker": "김옥빈", "text": "바쁜 하루였다", "context": "결혼식 후기"},
+    {"speaker": "김옥빈", "text": "신랑은 자상한 사람", "context": "결혼 소감"}
+  ],
+  "events": [
+    {"summary": "2주간 물과 소금만 먹으며 극한 다이어트를 했다", "year": null, "confirmed": true},
+    {"summary": "11월에 비연예인과 비공개 결혼식을 올렸다", "year": null, "confirmed": true},
+    {"summary": "김연아·전지현이 결혼한 곳과 같은 장소에서 결혼식을 올렸다", "year": null, "confirmed": true},
+    {"summary": "발리로 신혼여행을 다녀왔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "38세", "meaning": "나이"},
+    {"value": "2주", "meaning": "극한 다이어트 기간"},
+    {"value": "1일 3회", "meaning": "하루 팩 횟수"}
+  ],
+  "related_people": [
+    {"name": "채서진", "relation": "동생(배우)", "mentioned_as": "함께 발리 여행하며 다이빙한 자매"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "38세인데 군살 없이 늘씬하다는 평가를 받았다",
+    "수영복 화보에서 탄탄한 몸매로 화제였다"
+  ],
+  "care_habits": [
+    "1일 3회 팩으로 수분을 채운다고 밝혔다",
+    "고기는 하루 한 번은 먹으려 한다고 말했다",
+    "2주간 물과 소금만 먹는 극한 다이어트를 한 적이 있다"
+  ],
+  "hot_materials": [
+    {"material": "11월 비공개 결혼식, 김연아·전지현과 같은 장소", "why_hot": "낙차"},
+    {"material": "2주간 물+소금만 먹은 극한 다이어트", "why_hot": "발언"},
+    {"material": "1일 3팩으로 수분 채우는 피부 관리", "why_hot": "발언"},
+    {"material": "38세인데 군살 없는 몸매", "why_hot": "낙차"},
+    {"material": "동생 채서진과 함께한 발리 다이빙", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "2주간 물과 소금만 먹으며 버틴 시간",
+    "1일 3번 팩을 붙이는 저녁 루틴",
+    "발리 바다에서 손 꼭 잡고 다이빙하는 자매의 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "수영복 입은 몸매 화보 사진",
+    "웨딩드레스 자태 공개 사진",
+    "발리 신혼여행 사진"
+  ]
+}
