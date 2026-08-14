@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "전미도",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "",
+    "major_work": "왕과 사는 남자",
+    "identity_anchor": "왕과 사는 남자 매화 역 배우 전미도"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "전미도", "text": "행복하고 보람되네요", "context": "왕사남 천만돌파 소감"},
+    {"speaker": "전미도", "text": "박지훈, 첫 미팅 후 15kg 감량후 등장… 첫 촬영에 눈물났죠", "context": "인터뷰"},
+    {"speaker": "전미도", "text": "박지훈, 저장 원조인 줄 몰랐다..몰입도 최고", "context": "인터뷰"},
+    {"speaker": "전미도", "text": "유해진·박지훈에 도움 받아", "context": "인터뷰"},
+    {"speaker": "전미도", "text": "먼저 다가와서 감사", "context": "파워타임 인터뷰"},
+    {"speaker": "전미도", "text": "'왕사남' 미팅, 대본도 좋았지만 장항준 감독 덕심에 출석", "context": "인터뷰"},
+    {"speaker": "전미도", "text": "어쩌다 해피엔딩 토니상, 상상도 못해...참 좋은 공연", "context": "인터뷰"},
+    {"speaker": "전미도", "text": "연극 갈매기 15년 만 출연...슬의생3 하고 싶어", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "왕과 사는 남자에서 매화 역으로 출연해 천만 관객을 돌파했다", "year": null, "confirmed": true},
+    {"summary": "인스타그램 아이디를 @mido_ring으로 쓰는 이유가 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "손석구와 과거 연인 사이였다는 사실이 알려졌다", "year": null, "confirmed": true},
+    {"summary": "백상예술대상에서 신세경에게 아깝게 밀려 수상하지 못했다", "year": null, "confirmed": true},
+    {"summary": "뮤지컬 여배우 부문에서 옥주현과 대결 구도를 이뤘다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15kg", "meaning": "박지훈이 첫 미팅 후 감량한 체중(전미도가 언급)"},
+    {"value": "15년", "meaning": "연극 갈매기에 다시 출연하기까지 걸린 기간"}
+  ],
+  "related_people": [
+    {"name": "박지훈", "relation": "왕과 사는 남자 속 상대역", "mentioned_as": "단종 역, 15kg 감량 후 등장해 눈물나게 한 배우"},
+    {"name": "장항준", "relation": "왕과 사는 남자 감독", "mentioned_as": "덕심으로 출연을 결정하게 만든 감독"},
+    {"name": "손석구", "relation": "과거 연인", "mentioned_as": "전 여자친구였다는 사실이 알려진 인물"},
+    {"name": "신세경", "relation": "백상예술대상 경쟁 후보", "mentioned_as": "같은 부문에서 수상한 배우"},
+    {"name": "옥주현", "relation": "뮤지컬 여배우 부문 경쟁자", "mentioned_as": "대결 구도를 이룬 배우"},
+    {"name": "유해진", "relation": "왕과 사는 남자 동료 배우", "mentioned_as": "촬영 중 도움을 줬다고 언급한 배우"}
+  ],
+  "works": [
+    {"title": "왕과 사는 남자", "year": null, "costar": "박지훈", "scene": "박지훈이 첫 미팅 후 15kg을 감량하고 등장해 첫 촬영에서 눈물이 났다고 밝혔다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "수수해서 더 예쁘다는 '꾸안꾸' 이미지로 화제였다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "손석구와 과거 연인이었다는 사실", "why_hot": "실명"},
+    {"material": "박지훈이 15kg 감량 후 등장해 눈물났다는 비하인드", "why_hot": "실명"},
+    {"material": "왕과 사는 남자 천만 돌파 소감", "why_hot": "발언"},
+    {"material": "백상예술대상 신세경에 아깝게 밀린 후보 경쟁", "why_hot": "낙차"},
+    {"material": "인스타 아이디 @mido_ring의 비하인드", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "첫 미팅에서 15kg 감량한 박지훈을 보고 눈물이 난 순간",
+    "왕사남 천만 돌파 소식을 들은 순간",
+    "연극 갈매기 무대에 15년 만에 오른 순간"
+  ],
+  "sns_materials": [
+    "인스타그램 아이디 @mido_ring에 담긴 사연"
+  ],
+  "press_only_materials": [
+    "왕사남 매화 캐릭터 '꾸안꾸' 패션 사진"
+  ]
+}
