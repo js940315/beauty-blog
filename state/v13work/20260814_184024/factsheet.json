@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "장영남",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "",
+    "major_work": "동궁",
+    "identity_anchor": "동궁 대비마마 역 배우 장영남"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장영남", "text": "좋아해서 죄송하다고", "context": "데이앤나잇(남편 편지 공개)"},
+    {"speaker": "장영남", "text": "임신 사실 숨긴 채 바다 입수", "context": "백반기행(부산시장 촬영 비하인드)"},
+    {"speaker": "장영남", "text": "동네 무당도 아들이라 했는데..딸 태어나 구박 많이 받아", "context": "백반기행"},
+    {"speaker": "장영남", "text": "이런 게 아름다움", "context": "데이앤나잇(신구 선배 관련)"},
+    {"speaker": "장영남", "text": "30명 母 연기 중 두 사람이 가장 예뻤다", "context": "데이앤나잇(박보검·박보영 관련)"},
+    {"speaker": "장영남", "text": "무장해제 시키는 힘... 케미 좋아", "context": "미지의 서울 인터뷰(박보영 관련)"},
+    {"speaker": "장영남", "text": "서울예대 위아래 통틀어 제일 예뻐", "context": "데이앤나잇(이영애 관련)"},
+    {"speaker": "장영남", "text": "겁 많아 귀신 무서워", "context": "심야괴담회"},
+    {"speaker": "장영남", "text": "대비는 냉정함 속 여러 감정과 사연 품고 있어", "context": "동궁 인터뷰"}
+  ],
+  "events": [
+    {"summary": "7세 연하 남편에게 '좋아해서 죄송하다'는 편지를 받았다고 공개했다", "year": null, "confirmed": true},
+    {"summary": "42세에 임신한 상태로 부산시장 촬영 당시 바다에 입수했다", "year": null, "confirmed": true},
+    {"summary": "임신 5개월에 국제시장 촬영을 강행했다", "year": null, "confirmed": true},
+    {"summary": "딸을 낳은 뒤 구박을 받았다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "2년 만에 전 소속사 앤드마크와 다시 전속계약을 맺었다", "year": null, "confirmed": true},
+    {"summary": "동궁에서 대비마마 역으로 인생 캐릭터를 경신했다는 평가를 받았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "7세", "meaning": "남편과의 나이 차이(연하)"},
+    {"value": "42세", "meaning": "부산시장 촬영 당시 임신했던 나이"},
+    {"value": "5개월", "meaning": "국제시장 촬영 강행 당시 임신 개월수"},
+    {"value": "2년", "meaning": "전 소속사로 돌아가기까지 걸린 기간"},
+    {"value": "30명", "meaning": "연기해온 엄마 역할 수"}
+  ],
+  "related_people": [
+    {"name": "박보검", "relation": "함께 언급된 배우", "mentioned_as": "엄마 역 연기 중 가장 예뻤다고 꼽은 두 사람 중 하나"},
+    {"name": "박보영", "relation": "미지의 서울 상대 배우", "mentioned_as": "무장해제시키는 케미로 꼽힌 배우"},
+    {"name": "이영애", "relation": "서울예대 선배", "mentioned_as": "학교 다닐 때 가장 예뻤다고 꼽은 선배"},
+    {"name": "신구", "relation": "동료 원로 배우", "mentioned_as": "투병 중에도 연기 열정을 보여 울컥하게 만든 배우"},
+    {"name": "장현성", "relation": "인터뷰 동석 동료 배우", "mentioned_as": "함께 연기 인생을 이야기한 배우"}
+  ],
+  "works": [
+    {"title": "동궁", "year": null, "costar": "", "scene": "대비마마 역으로 냉정함 속에 여러 감정과 사연을 품은 인물을 연기했다", "kind": "극중"},
+    {"title": "엄마친구아들", "year": null, "costar": "정해인", "scene": "정해인의 엄마로 강렬하게 등장해 긴장감을 높였다", "kind": "극중"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "7세 연하 남편의 '좋아해서 죄송하다' 편지 공개", "why_hot": "발언"},
+    {"material": "42세 임신 중 바다 입수 촬영 강행", "why_hot": "발언"},
+    {"material": "딸 낳고 구박받았다는 솔직 고백", "why_hot": "발언"},
+    {"material": "박보검·박보영이 가장 예뻤다는 발언", "why_hot": "실명"},
+    {"material": "이영애가 서울예대에서 제일 예뻤다는 목격담", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "임신한 몸으로 바다에 입수하는 촬영 현장",
+    "동궁 대비마마로 인생 캐릭터를 갈아치운 순간",
+    "신구 선배의 연기를 보고 울컥한 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "동궁 대비마마 화보성 스틸컷",
+    "명품 배우로 소개된 인물 사진"
+  ]
+}
