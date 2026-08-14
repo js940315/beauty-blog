@@ -1,0 +1,71 @@
+{
+  "person": {
+    "name": "라미란",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "",
+    "major_work": "하이파이브",
+    "identity_anchor": "시민덕희·하이파이브 등 출연 배우 라미란"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "라미란", "text": "다 아는 방법", "context": "텐아시아 인터뷰"},
+    {"speaker": "라미란", "text": "여러분도 다 아는 것", "context": "머니투데이 인터뷰"},
+    {"speaker": "라미란", "text": "위고비 NO!…식단과 필라테스로 13kg 뺐다", "context": "동아일보 인터뷰"},
+    {"speaker": "라미란", "text": "1년 걸려 14kg 뺐다", "context": "스포츠동아 인터뷰"},
+    {"speaker": "라미란", "text": "앞자리 7자 직전 위기 의식, 3~4kg 더 뺄 것", "context": "인터뷰"},
+    {"speaker": "라미란", "text": "입 터지고 노출증 생겨", "context": "하이파이브 인터뷰"},
+    {"speaker": "라미란", "text": "진짜 많이 들어", "context": "스포츠조선 인터뷰"},
+    {"speaker": "라미란", "text": "족발먹고 자면 탱탱", "context": "나남뉴스 인터뷰"},
+    {"speaker": "라미란", "text": "내 인생 마지막 미스 역할이라 생각하고 연기했다", "context": "영화人 인터뷰"}
+  ],
+  "events": [
+    {"summary": "식단과 필라테스로 13kg을 감량했다", "year": null, "confirmed": true},
+    {"summary": "이후 1년에 걸쳐 총 14kg까지 감량을 늘렸다", "year": null, "confirmed": true},
+    {"summary": "체중 감량 부작용으로 노출증이 생겼다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "성동일이 살이 너무 빠진 모습을 보고 아픈 줄 알고 놀랐다", "year": null, "confirmed": true},
+    {"summary": "생일에 김숙에게서 4.5리터 김치통 가득 미역국을 선물받았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "13kg", "meaning": "1차 감량한 체중"},
+    {"value": "14kg", "meaning": "이후 늘어난 총 감량 체중"},
+    {"value": "1년", "meaning": "감량에 걸린 기간"},
+    {"value": "4.5리터", "meaning": "김숙에게 받은 미역국 통 용량"}
+  ],
+  "related_people": [
+    {"name": "성동일", "relation": "동료 배우", "mentioned_as": "살 빠진 모습에 놀란 인물"},
+    {"name": "김숙", "relation": "친한 동료 코미디언", "mentioned_as": "생일에 미역국을 선물한 친구"}
+  ],
+  "works": [
+    {"title": "하이파이브", "year": null, "costar": "", "scene": "인생 마지막 미스 역할이라 생각하고 연기했다고 밝혔다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "13kg 감량 후 예뻐졌다는 말을 정말 많이 듣는다고 밝혔다",
+    "달라진 얼굴로 화제가 됐다"
+  ],
+  "care_habits": [
+    "위고비 대신 식단과 필라테스로 감량했다",
+    "슬로우 조깅으로 체중과 건강을 함께 관리한다고 알려졌다",
+    "족발을 먹고 자면 얼굴이 탱탱하다고 말했다"
+  ],
+  "hot_materials": [
+    {"material": "13kg 감량, 위고비 대신 식단+필라테스", "why_hot": "발언"},
+    {"material": "체중 감량 부작용으로 생긴 노출증 고백", "why_hot": "발언"},
+    {"material": "성동일이 놀랄 만큼 살 빠진 근황", "why_hot": "실명"},
+    {"material": "김숙에게 받은 4.5리터 미역국 생일 선물", "why_hot": "실명"},
+    {"material": "앞자리 7 직전 위기의식, 3~4kg 더 감량 목표", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "필라테스로 땀 흘리는 루틴",
+    "슬로우 조깅으로 아침을 여는 모습",
+    "4.5리터 김치통 가득 담긴 미역국 생일 선물"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "달라진 얼굴 화보성 사진",
+    "하이파이브 인터뷰 현장 사진"
+  ]
+}
