@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "하지원",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대 후반",
+    "career": "",
+    "major_work": "시크릿가든",
+    "identity_anchor": "시크릿가든 길라임으로 유명한 배우 하지원"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "하지원", "text": "레몬에 미친 사람", "context": "뉴시스 인터뷰"},
+    {"speaker": "하지원", "text": "타고난 피부 아냐", "context": "스포츠경향 인터뷰"},
+    {"speaker": "하지원", "text": "외출 시 필수, 없으면 집에 돌아가", "context": "리뷰잇 방송"},
+    {"speaker": "하지원", "text": "길라임 숏커트, 내가 제안", "context": "얼굴보고 방송"},
+    {"speaker": "하지원", "text": "조미료 맛 싫어해", "context": "코메디닷컴 인터뷰"},
+    {"speaker": "하지원", "text": "올리브유에 밥 말아 먹어", "context": "하이뉴스 인터뷰"},
+    {"speaker": "하지원", "text": "이러니 결혼 못 하지", "context": "근황 인터뷰(일 중독 관련)"}
+  ],
+  "events": [
+    {"summary": "15년째 매일 레몬(레몬티·레몬주스)을 마시는 습관을 공개했다", "year": null, "confirmed": true},
+    {"summary": "레이저 시술을 본인 비용으로 받았다고 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "본인 화장품 브랜드를 직접 만들어 뷰티 CEO로 변신했다", "year": null, "confirmed": true},
+    {"summary": "드라마 시크릿가든 속 길라임 캐릭터의 숏커트를 본인이 제안했다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15년", "meaning": "매일 레몬을 마셔온 기간"}
+  ],
+  "related_people": [],
+  "works": [
+    {"title": "시크릿가든", "year": null, "costar": "", "scene": "극중 길라임 캐릭터의 숏커트 헤어스타일을 본인이 직접 제안했다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "무보정 실물 사진에도 화제가 될 만큼 관리가 됐다는 평가를 받았다",
+    "40대 후반인데도 30대처럼 보인다는 반응이 반복해서 나왔다"
+  ],
+  "care_habits": [
+    "15년째 매일 레몬을 마신다",
+    "조미료 맛을 싫어해 담백한 식사를 선호한다",
+    "올리브유를 밥에 곁들여 먹는다",
+    "레이저 시술을 받은 적이 있다고 직접 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "15년째 매일 레몬을 마신다는 습관 공개", "why_hot": "발언"},
+    {"material": "레이저 시술을 직접 밝힌 솔직한 고백", "why_hot": "발언"},
+    {"material": "길라임 숏커트를 본인이 제안했다는 비하인드", "why_hot": "반전"},
+    {"material": "무보정 실물에도 화제가 된 동안 미모", "why_hot": "낙차"},
+    {"material": "조미료 싫어해 담백하게 먹는 식습관", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "15년째 매일 아침 레몬을 챙겨 마시는 루틴",
+    "외출할 때 꼭 챙기는 찐템이 없으면 집으로 돌아간다는 습관",
+    "화장품을 직접 만드는 뷰티 CEO로서의 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "무보정 실물 목격담 사진",
+    "방송 리뷰잇에서 공개된 찐템 모습"
+  ],
+  "notes": "기사마다 나이가 46~48세로 다르게 표기돼(발행 시점 차이로 추정) 특정 나이를 단정하지 않고 age_range로만 표기함."
+}
