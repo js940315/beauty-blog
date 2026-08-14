@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "염정아",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "52세",
+    "age_range": "",
+    "career": "",
+    "major_work": "크로스",
+    "identity_anchor": "크로스·노웨이아웃 등 출연 배우 염정아"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "염정아", "text": "입 좀 닦아", "context": "언니네 산지직송2"},
+    {"speaker": "염정아", "text": "10년째 영양제로 건강관리", "context": "크로스 인터뷰"},
+    {"speaker": "염정아", "text": "너무 웃어 눈에 주름 잡혀", "context": "언니네 산지직송2"},
+    {"speaker": "염정아", "text": "무서워", "context": "선업튀 시사회(스타이슈)"},
+    {"speaker": "염정아", "text": "남편과 방귀 안 텄다", "context": "헬스조선 인터뷰"},
+    {"speaker": "염정아", "text": "미치겠다", "context": "안은진 수영모 패션 관련 반응"},
+    {"speaker": "염정아", "text": "효녀다", "context": "언니네 산지직송(노윤서 관련)"},
+    {"speaker": "염정아", "text": "없으면 일 못한다, 얼마나 힘센데", "context": "십오야(덱스 관련)"},
+    {"speaker": "염정아", "text": "예능은 인간 염정아, 작품은 완벽한 연기", "context": "스포츠경향 인터뷰"}
+  ],
+  "events": [
+    {"summary": "데뷔 후 처음으로 인스타그램을 개설했다", "year": null, "confirmed": true},
+    {"summary": "인스타그램 첫 게시물로 의사(병원장) 남편과 손을 잡은 투샷을 공개했다", "year": null, "confirmed": true},
+    {"summary": "결혼 20주년을 전후해 남편과의 일상을 처음 공개했다", "year": null, "confirmed": true},
+    {"summary": "10년째 영양제로 건강관리를 해왔다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "52세", "meaning": "나이"},
+    {"value": "10년", "meaning": "영양제로 건강관리한 기간"},
+    {"value": "20년", "meaning": "결혼 기간(20주년 전후)"}
+  ],
+  "related_people": [
+    {"name": "안은진", "relation": "예능 동료 배우", "mentioned_as": "수영모 패션으로 웃게 만든 인물, 새 예능에서 함께할 사이"},
+    {"name": "덱스", "relation": "예능 동료", "mentioned_as": "홀린 매력 있다고 언급한 인물"},
+    {"name": "임지연", "relation": "예능 동료 배우", "mentioned_as": "먹는 모습에 이미지 관리 발언을 하게 만든 인물"},
+    {"name": "노윤서", "relation": "예능 동료", "mentioned_as": "효녀라고 감동한 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "52세인데 웃어서 눈가에 주름이 잡힐 정도로 동안이라는 반응이 있었다"
+  ],
+  "care_habits": [
+    "10년째 영양제로 건강관리를 해왔다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "데뷔 후 첫 인스타그램 개설, 남편과 투샷 공개", "why_hot": "반전"},
+    {"material": "의사(병원장) 남편과 결혼 20년차에도 손 꼭 잡은 일상", "why_hot": "낙차"},
+    {"material": "남편과 방귀 안 텄다는 솔직 고백", "why_hot": "발언"},
+    {"material": "안은진 수영모 패션에 폭소한 반응", "why_hot": "실명"},
+    {"material": "10년째 영양제로 건강관리, 동안 비결은 '너무 웃어서'", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "인스타그램 첫 게시물에 담긴 손 꼭 잡은 부부 사진",
+    "산지직송 촬영장에서 웃음 터진 순간",
+    "안은진 수영모 패션을 보고 폭소하는 모습"
+  ],
+  "sns_materials": [
+    "데뷔 후 처음 개설한 인스타그램 첫 게시물(남편과의 투샷)"
+  ],
+  "press_only_materials": [
+    "홀터넥 드레스룩 나들이 사진",
+    "김태리와 숏컷 깔맞춤 패션 현장 사진"
+  ]
+}
