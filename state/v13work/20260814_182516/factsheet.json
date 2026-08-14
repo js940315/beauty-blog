@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "배두나",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "45세",
+    "age_range": "",
+    "career": "",
+    "major_work": "가족계획",
+    "identity_anchor": "가족계획 등 출연 배우 배두나"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "배두나", "text": "메이크업하고 자는 장면 솔직히 불편해", "context": "팝인터뷰"},
+    {"speaker": "배두나", "text": "식단 안 해요", "context": "씨네타운(예능)"},
+    {"speaker": "배두나", "text": "기운 하나도 없어, 연기 몰입 안돼", "context": "할리우드 식단 관련 인터뷰"},
+    {"speaker": "배두나", "text": "21살 때 노출 촬영 두려웠다…이젠 뭘 시켜도 가능", "context": "엄정화TV"},
+    {"speaker": "배두나", "text": "화장 하나도 안 하고", "context": "짠한형(고현정 관련 일화)"},
+    {"speaker": "배두나", "text": "최대한 연기 수명 늘리려면", "context": "팝인터뷰(사생활 노출 조심 이유)"},
+    {"speaker": "배두나", "text": "힘들어서 일탈하고 싶었다", "context": "엄정화TV(번아웃 고백)"}
+  ],
+  "events": [
+    {"summary": "드라마 가족계획에서 류승범과 부부 역할로 호흡을 맞췄다", "year": null, "confirmed": true},
+    {"summary": "베를린국제영화제 심사위원으로 위촉됐다", "year": null, "confirmed": true},
+    {"summary": "할리우드 식단을 소화하다 기운이 없어 힘들었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "번아웃을 겪어 일탈하고 싶었다고 고백했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "170cm", "meaning": "키"},
+    {"value": "49kg", "meaning": "몸무게"},
+    {"value": "만보", "meaning": "하루 걷는 걸음 수"},
+    {"value": "20년", "meaning": "어떤 아침 습관을 끊어온 기간"}
+  ],
+  "related_people": [
+    {"name": "류승범", "relation": "드라마 가족계획 속 상대역", "mentioned_as": "극중 남편 역할"},
+    {"name": "고현정", "relation": "선배 배우", "mentioned_as": "화장 안 한 모습에 충격받았다고 언급한 선배"}
+  ],
+  "works": [
+    {"title": "가족계획", "year": null, "costar": "류승범", "scene": "극중 부부로 호흡을 맞췄고 장성한 딸이 있다는 설정으로 등장했다", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "170cm에 49kg으로 마른 몸매라는 평가를 받았다",
+    "민낯도 완벽하다는 반응이 나왔다",
+    "물광 피부라는 평가를 받은 사진이 있었다"
+  ],
+  "care_habits": [
+    "식단 대신 하루 만 보를 걷는다고 밝혔다",
+    "아침마다 먹던 것을 20년째 끊었다고 말했다",
+    "메이크업 없이 맨얼굴로 연기하는 걸 선호한다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "170cm 49kg 뼈말라 몸매, 식단 대신 만보 걷기", "why_hot": "발언"},
+    {"material": "할리우드 식단에 기운 없다고 폭로", "why_hot": "발언"},
+    {"material": "고현정 민낯에 충격받았다는 고백", "why_hot": "실명"},
+    {"material": "21살 노출 촬영이 두려웠다는 고백", "why_hot": "발언"},
+    {"material": "번아웃으로 일탈하고 싶었다는 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "하루 만 보를 걷는 걸음",
+    "메이크업 없이 카메라 앞에 서는 순간",
+    "베를린영화제 심사위원석에 앉은 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "금빛 미니드레스 화보 사진",
+    "화이트 티셔츠 데일리룩 사진",
+    "청청패션 스트리트 사진"
+  ]
+}
