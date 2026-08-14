@@ -1,0 +1,71 @@
+{
+  "person": {
+    "name": "채시라",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "57세",
+    "age_range": "",
+    "career": "",
+    "major_work": "여명의 눈동자",
+    "identity_anchor": "여명의 눈동자 등 출연 배우 채시라, 57세에 무용수로 데뷔했다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "채시라", "text": "너무 일찍 떠난 언니, 고생 많았어요", "context": "고 윤석화 추모"},
+    {"speaker": "채시라", "text": "그동안 애 많이 쓰신 아버지", "context": "고 이순재 추모"},
+    {"speaker": "채시라", "text": "최재성 실제로 뱀 먹어, 생각보다 못 뜯어 아쉬워해", "context": "여명의 눈동자 비하인드"},
+    {"speaker": "채시라", "text": "군인 3000명 앞, 영하 30도에 키스신 촬영", "context": "여명의 눈동자 비하인드"},
+    {"speaker": "채시라", "text": "나의 시그니처 패션 청청", "context": "인터뷰"},
+    {"speaker": "채시라", "text": "배우 되기 전 꿈, 설렌다", "context": "무용수 데뷔 인터뷰"},
+    {"speaker": "채시라", "text": "마른 체질 고민", "context": "코메디닷컴 인터뷰"}
+  ],
+  "events": [
+    {"summary": "57세에 무용수로 데뷔했다", "year": null, "confirmed": true},
+    {"summary": "괄사를 애용하는 스타로 소개됐다", "year": null, "confirmed": true},
+    {"summary": "고 이순재를 추모하며 눈물을 보였다", "year": null, "confirmed": true},
+    {"summary": "고 윤석화를 추모했다", "year": null, "confirmed": true},
+    {"summary": "한국무용을 전공한 딸을 공개했다", "year": null, "confirmed": true},
+    {"summary": "딸이 남편 김태욱을 닮았고, 옷은 아들과 함께 입는다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "57세", "meaning": "나이"},
+    {"value": "3000명", "meaning": "여명의 눈동자 키스신 촬영 당시 동원된 군인 수"},
+    {"value": "영하 30도", "meaning": "여명의 눈동자 키스신 촬영 당시 기온"}
+  ],
+  "related_people": [
+    {"name": "김혜수", "relation": "오랜 절친 배우", "mentioned_as": "세월이 비껴간 미모로 함께 화제가 된 배우"},
+    {"name": "최재성", "relation": "여명의 눈동자 상대역", "mentioned_as": "실제로 뱀을 먹었다고 밝힌 상대"},
+    {"name": "조보아", "relation": "방송 동료", "mentioned_as": "센스 있는 선물로 훈훈함을 준 후배"},
+    {"name": "김태욱", "relation": "남편", "mentioned_as": "딸이 닮았다고 밝힌 인물"}
+  ],
+  "works": [
+    {"title": "여명의 눈동자", "year": null, "costar": "최재성", "scene": "군인 3000명 앞에서 영하 30도의 날씨에 키스신을 촬영했다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "57세인데 우아하고 품격 있다는 평가를 받았다",
+    "민낯에도 화제가 될 만큼 동안이라는 반응이 있었다",
+    "김혜수와 함께 세월이 비껴간 미모로 화제였다"
+  ],
+  "care_habits": [
+    "얼굴이 부었을 때 괄사로 문지르는 관리법을 쓴다고 알려졌다",
+    "57세에 무용수로 데뷔할 만큼 몸 관리에 공을 들인다"
+  ],
+  "hot_materials": [
+    {"material": "57세에 무용수로 깜짝 데뷔", "why_hot": "반전"},
+    {"material": "괄사로 얼굴 붓기 관리한다는 습관", "why_hot": "발언"},
+    {"material": "김혜수와 세월 비껴간 미모로 화제", "why_hot": "실명"},
+    {"material": "여명의 눈동자 영하 30도 키스신 비하인드", "why_hot": "장면"},
+    {"material": "한국무용 전공 딸 공개, 남편 김태욱 닮았다는 근황", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "영하 30도 추위 속 군인 3000명 앞 키스신 촬영 현장",
+    "57세에 처음 선 무용 무대",
+    "얼굴 붓기를 괄사로 문지르는 아침 루틴"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "발레복 입은 우아한 자태 화보 사진",
+    "데님 핏 시그니처 패션 사진"
+  ]
+}
