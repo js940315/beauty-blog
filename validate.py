@@ -5,7 +5,7 @@
 검증 실패 시 전체 재작성이 아니라 errs 목록을 그대로 모델에 되먹인다.
 
 ⚠️ 기존 validator.py(일일 자동 파이프라인용)와 별개다. v13은 자체 규격
-   (제목 .jpg 마감, 공백·점자 제외 850~1000자, 볼드 소제목)을 쓴다.
+   (공백·점자 제외 850~1000자, 볼드 소제목)을 쓴다.
 """
 
 import json
@@ -127,11 +127,17 @@ def validate_titles(titles: list, factsheet: dict) -> list:
     for t in titles:
         s = t.get("title", "")
         no = t.get("no", "?")
-        if not s.endswith(".jpg"):
-            errs.append(f"{no}번 .jpg 마감 누락")
+        # 옛 .jpg 마감이 붙어 오면 떼고 센다 (아래에서 위반으로도 잡는다)
+        core = s[:-4].rstrip() if s.endswith(".jpg") else s
+        # 2026-08-14 사용자 확정: .jpg 마감 폐지.
+        # 저장소 어디에도 근거가 없었고(diet-blog 복제 때 딸려온 관행),
+        # 사용자가 실측한 홈판 상위 80개 제목 중 .jpg 로 끝나는 건 0개였다.
+        # 일일 경로는 원래부터 안 붙였다. 발행자가 손으로 떼던 작업이 사라진다.
+        if s.endswith(".jpg"):
+            errs.append(f"{no}번 제목 끝 .jpg — 폐지됐다. 확장자 없이 문장으로 끝내라")
         if name and name in s:
             errs.append(f"{no}번 본명 노출: {name}")
-        for w in re.findall(r"[A-Za-z]+", s[:-4] if s.endswith(".jpg") else s):
+        for w in re.findall(r"[A-Za-z]+", core):
             if w not in allow:
                 errs.append(f"{no}번 알파벳 혼입: {w}")
         parts = s.split()
@@ -139,7 +145,7 @@ def validate_titles(titles: list, factsheet: dict) -> list:
         m = re.search(r"(\d+세\s*\S+)", s)
         if m:
             combos.append(m.group(1))
-        if re.search(r"리즈\s?시절\.jpg$", s):
+        if re.search(r"리즈\s?시절\s*$", core):
             liz_endings.append(no)
         if t.get("heat", 0) < 7:
             errs.append(f"{no}번 화력 {t.get('heat')} — 7 미만 재생성")
@@ -147,8 +153,7 @@ def validate_titles(titles: list, factsheet: dict) -> list:
         # 그림도 안 그려진다 (2026-08-13 사고 제목이 정확히 이 유형).
         # 인물이 주인공이다. 사람이 빠지면 "누구 얘긴데?"조차 안 나온다.
         # 2026-08-13 사고: 10개 전부 인물 없이 사건만 있었다
-        # ("부활절 인사 남긴 근황.jpg", "은은한 촛불 아래 만찬 사진.jpg")
-        core = s[:-4].rstrip() if s.endswith(".jpg") else s
+        # ("부활절 인사 남긴 근황", "은은한 촛불 아래 만찬 사진")
         if not (job and job in s) and not any(l in s for l in C.PERSON_LABELS):
             errs.append(
                 f"{no}번 여성 인물 지칭 없음 — 이 블로그의 주인공은 사건이 아니라 "
@@ -342,25 +347,27 @@ def _selftest():
     # 검증 2: 본명 노출·jpg 누락·화력 미달·후킹 1개가 전부 잡히는지
     # "N세 직업" 덩어리는 4개까지만 허용되므로 정상 케이스는 형식을 섞는다.
     # 2026-08-13: 인물 지칭(job)과 24자 하한이 생겨서 예시를 그에 맞게 늘렸다.
-    forms = ["40세 무용가의 무대를 멈춘 반전 순간{i}.jpg",
-             "1986년생 무용가의 거울 앞 그 장면{i}.jpg",
-             "무대를 멈춘 무용가가 택한 마지막 선택{i}.jpg"]
+    # 2026-08-14: .jpg 마감 폐지로 확장자를 뗐다.
+    forms = ["40세 무용가의 무대를 멈춘 반전 순간{i}",
+             "1986년생 무용가의 거울 앞 그 장면{i}",
+             "무대를 멈춘 무용가가 택한 마지막 선택{i}"]
     titles = [{"no": i, "title": f"수식어{i} " + forms[i % 3].format(i=i),
                "angle": f"관점{(i - 1) // 4}", "hook": "낙차+장면", "heat": 8}
               for i in range(1, 11)]
     assert validate_titles(titles, fs) == []
     bad = json.loads(json.dumps(titles))
-    bad[0]["title"] = "홍길동의 리즈시절"          # 본명 + .jpg 누락
+    bad[0]["title"] = "홍길동의 리즈시절"          # 본명 노출
     bad[1]["heat"] = 5                             # 화력 미달
     bad[2]["hook"] = "낙차"                        # 후킹 1개
+    bad[3]["title"] = bad[3]["title"] + ".jpg"     # 폐지된 확장자 마감
     errs = validate_titles(bad, fs)
     assert any("본명 노출" in e for e in errs)
-    assert any(".jpg 마감 누락" in e for e in errs)
+    assert any("제목 끝 .jpg" in e for e in errs), errs
     assert any("7 미만" in e for e in errs)
     assert any("2개 이상" in e for e in errs)
 
     # 도배 검출: 같은 "40세 무용가" 5개
-    combo = [{"no": i, "title": f"40세 무용가 사건{i}의 진짜 이유{i}.jpg",
+    combo = [{"no": i, "title": f"40세 무용가 사건{i}의 진짜 이유{i}",
               "angle": f"관점{i % 3}", "hook": "낙차+격차", "heat": 8}
              for i in range(1, 11)]
     assert any("도배" in e for e in validate_titles(combo, fs))
@@ -425,7 +432,7 @@ def _selftest():
 
     # 밋밋한 제목 (앞 20자 구체 요소 0 / 진부한 마무리) — 2026-08-13 사고 제목
     dull = json.loads(json.dumps(titles))
-    dull[0]["title"] = '"엄격한 식단 안 한다는" 34세 무용가, 그런데 피부는 도자기라는데.jpg'
+    dull[0]["title"] = '"엄격한 식단 안 한다는" 34세 무용가, 그런데 피부는 도자기라는데'
     errs = validate_titles(dull, fs)
     assert any("앞 20자에 구체 요소 없음" in e for e in errs), errs
     assert any("진부한 마무리" in e for e in errs), errs

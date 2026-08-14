@@ -13,7 +13,7 @@ ANTHROPIC_API_KEY 가 없는 환경이 기본이므로 main.py 와 같은 '에�
       (에이전트가 body.txt 작성)
     python pipeline.py --stage finish         # 검증3 → 완성본 저장 + state 갱신
     python pipeline.py --retitle 3            # 예비 3번 제목으로 C 지시서 재생성
-    python pipeline.py --retitle "직접 쓴 제목.jpg"
+    python pipeline.py --retitle "직접 쓴 제목"
 
 검증 실패 시 종료 코드 4 + 위반 목록 출력. 해당 파일만 고쳐 같은 명령을 다시 돌린다.
 """
@@ -383,7 +383,8 @@ def stage_retitle(arg):
         title = ranked[idx - 1]["title"]
         marker = f"retitle#{idx}"
     else:
-        title = arg if arg.endswith(".jpg") else arg + ".jpg"
+        # 2026-08-14 사용자 확정: .jpg 마감 폐지. 옛 습관으로 붙여 넣으면 떼준다.
+        title = arg[:-4].rstrip() if arg.endswith(".jpg") else arg
         name = fs["person"]["name"]
         if name and name in title:
             raise SystemExit(f"제목에 본명({name})이 들어 있습니다.")
