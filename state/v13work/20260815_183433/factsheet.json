@@ -1,0 +1,59 @@
+{
+  "person": {
+    "name": "박주미",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 53,
+    "age_range": "50대 초반",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "재력가와 결혼해 화제가 된 배우 박주미, 방부제 미모로 알려진 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박주미", "text": "막걸리보다 스타일에 취한다", "context": "골프장 방문 인터뷰"}
+  ],
+  "events": [
+    {"summary": "1300억대 재력가와 결혼한 것으로 알려짐", "year": null, "confirmed": true},
+    {"summary": "시부모에게 140억대 저택을 선물받은 것으로 알려짐", "year": null, "confirmed": true},
+    {"summary": "계절마다 근황을 SNS에 담백하게 올리는 것으로 알려짐", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "53", "meaning": "나이(세)"},
+    {"value": "1300억", "meaning": "남편의 연매출 규모로 알려진 금액"},
+    {"value": "140억", "meaning": "시부모에게 선물받았다는 저택 규모"}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "53세인데 주름 하나 없다는 평가를 받음",
+    "백옥 피부라는 평가가 따라붙음",
+    "방부제 미모로 불리며 나이가 믿기지 않는다는 반응이 이어짐",
+    "여대생으로 착각할 뻔했다는 반응까지 나옴",
+    "화장기 없는 민낯에도 기품이 느껴진다는 평가를 받음"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "1300억대 재력가와 결혼했다는 사실", "why_hot": "반전"},
+    {"material": "시부모에게 140억대 저택을 선물받았다는 사실", "why_hot": "반전"},
+    {"material": "53세인데 주름 하나 없다는 평가", "why_hot": "낙차"},
+    {"material": "여대생으로 착각할 뻔했다는 반응", "why_hot": "반전"},
+    {"material": "방부제 미모로 불린다는 평가", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "전시장에서 고요한 미소를 짓는 순간",
+    "계절이 바뀔 때마다 근황을 담백하게 올리는 장면"
+  ],
+  "sns_materials": [
+    "겨울 문 앞에서 잠시 머물다 라는 코트 차림 근황 게시물",
+    "전시장에서 만난 고요한 순간 이라는 게시물",
+    "빛으로 물든 순간 이라는 우아한 근황 게시물",
+    "지인과 함께한 실내 만남을 공개한 게시물"
+  ],
+  "press_only_materials": [
+    "럭셔리 사모님 콘셉트 화보",
+    "여성조선·여성동아 커버스토리",
+    "신세계그룹 사모님과의 투샷 보도"
+  ]
+}
