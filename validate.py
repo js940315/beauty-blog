@@ -207,8 +207,38 @@ def _is_tag(stripped: str) -> bool:
     return stripped.startswith("#")
 
 
+def namesake_contamination(body: str, factsheet: dict) -> list:
+    """동명이인이 섞였을 가능성을 본문에서 잡는다 (2026-08-14 사용자 지시).
+
+    NAMESAKE_DROP 은 이미 당한 이름만 막는다. 처음 보는 동명이인은 못 막는다.
+    본문에 나온 직업·이력 표식이 팩트시트에 근거가 없으면 남의 이력이 옮겨붙은 것이다.
+    건강비버 2026-08-14 사고가 정확히 이 형태였다 — 배우 서현진 글에
+    "미스코리아 출신이자 전직 MBC 아나운서"가 들어갔고 그건 동명이인 쪽 이력이었다.
+    """
+    if not isinstance(factsheet, dict):
+        return []
+    person = factsheet.get("person") or {}
+    grounds = " ".join(str(person.get(k, "")) for k in ("job", "identity_anchor", "notes"))
+    for k in ("life_events", "quotes", "habits"):
+        v = person.get(k) or factsheet.get(k) or []
+        if isinstance(v, list):
+            grounds += " " + " ".join(str(x) for x in v)
+    grounds += " " + " ".join(str(x) for x in (factsheet.get("namesake_dropped") or []))
+
+    plain = body.replace("⠀", "")
+    found = [m for m in getattr(C, "PROFESSION_MARKERS", ())
+             if m in plain and m not in grounds]
+    if not found:
+        return []
+    anchor = (person.get("identity_anchor") or "").strip() or "(비어 있음)"
+    return [f"동명이인 의심: 본문에 팩트시트 근거가 없는 이력 {found} 가 나왔다. "
+            f"주 인물은 '{anchor}' 다. 다른 사람 이력이 섞였는지 확인하고, "
+            f"근거가 있으면 팩트시트에 넣어라"]
+
+
 def validate_body(body: str, factsheet: dict, state: dict) -> list:
     errs = []
+    errs += namesake_contamination(body, factsheet)
     person = factsheet.get("person") or {}
     job = person.get("job", "")
     allow = alpha_allow_from(factsheet)
