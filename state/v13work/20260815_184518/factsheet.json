@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "이정현",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 46,
+    "age_range": "40대 중반",
+    "career": "배우",
+    "major_work": "기생수",
+    "identity_anchor": "기생수 출연 배우 이정현, 19세부터 찻잔 마사지로 도자기 피부를 유지해온 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이정현", "text": "알짜배기 먼저 바른다", "context": "기초케어 인터뷰"},
+    {"speaker": "이정현", "text": "이것부터 발라야 한다", "context": "아침 루틴 인터뷰"},
+    {"speaker": "이정현", "text": "이거만 한 게 없다", "context": "편스토랑"},
+    {"speaker": "이정현", "text": "외출 안 해도 선크림 목까지 발라", "context": "편스토랑"},
+    {"speaker": "이정현", "text": "너무 바빠서 피부과 못 가", "context": "인터뷰"},
+    {"speaker": "이정현", "text": "클렌징 열심히, 똑바로 자기", "context": "편스토랑"},
+    {"speaker": "이정현", "text": "20세부터 앞만 보고 자", "context": "편스토랑"},
+    {"speaker": "이정현", "text": "옷 안 맞아 라면 끊어", "context": "불후"},
+    {"speaker": "이정현", "text": "아픈 거 참고 촬영", "context": "편스토랑"}
+  ],
+  "events": [
+    {"summary": "19세부터 27년간 찻잔으로 얼굴을 마사지해온 것으로 알려짐", "year": null, "confirmed": true},
+    {"summary": "44세에 둘째를 출산함", "year": null, "confirmed": true},
+    {"summary": "43세에 대학원에 입학함", "year": null, "confirmed": true},
+    {"summary": "출산 3개월 만에 촬영에 복귀함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "46", "meaning": "나이(세), 기사마다 43~46세로 표기"},
+    {"value": "19세", "meaning": "찻잔 마사지를 시작한 나이"},
+    {"value": "27년", "meaning": "찻잔 마사지를 해온 기간"},
+    {"value": "44세", "meaning": "둘째를 출산한 나이"}
+  ],
+  "related_people": [],
+  "works": [
+    {"title": "기생수", "year": null, "costar": "", "scene": "출산 3개월 만에 복귀해 아픈 것을 참고 촬영에 임한 작품", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "46세인데 도자기 피부라는 평가를 받음",
+    "19세부터 27년간 찻잔으로 얼굴을 마사지해온 습관이 있음",
+    "외출을 안 해도 선크림을 목까지 바른다고 밝힘",
+    "클렌징을 열심히 하고 똑바로 잔다고 밝힘",
+    "옷이 안 맞아 라면을 끊었다고 밝힘",
+    "남편의 얼굴에도 같은 찻잔 마사지를 해준다고 알려짐"
+  ],
+  "care_habits": [
+    "19세부터 찻잔으로 얼굴을 마사지하는 습관",
+    "외출 여부와 상관없이 선크림을 목까지 바르는 습관",
+    "클렌징을 열심히 하고 똑바로 누워 자는 습관",
+    "옷이 안 맞을 때 라면을 끊는 습관"
+  ],
+  "hot_materials": [
+    {"material": "19세부터 27년간 찻잔으로 얼굴을 마사지해왔다는 습관", "why_hot": "반전"},
+    {"material": "46세인데 도자기 피부라는 평가", "why_hot": "낙차"},
+    {"material": "44세에 둘째를 출산했다는 사실", "why_hot": "반전"},
+    {"material": "출산 3개월 만에 아픈 걸 참고 촬영에 복귀했다는 발언", "why_hot": "발언"},
+    {"material": "남편 얼굴에도 같은 찻잔 마사지를 해준다는 사실", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "찻잔으로 얼굴을 문지르는 마사지 장면",
+    "외출 전 선크림을 목까지 바르는 아침 루틴",
+    "출산 3개월 만에 촬영장으로 복귀하는 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "편스토랑 방송 속 찻잔 마사지 공개 장면",
+    "앙블쁘리띠 브랜드 화보"
+  ]
+}
