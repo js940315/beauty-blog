@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "엄정화",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 56,
+    "age_range": "50대 중반",
+    "career": "가수",
+    "major_work": "엄정화TV·엄메이징(방송)",
+    "identity_anchor": "저탄저당 식단과 선크림 습관을 공개해온 가수 엄정화"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "엄정화", "text": "먹고 싶은 거 다 먹고 이것 지켜", "context": "셀럽웰빙 인터뷰"},
+    {"speaker": "엄정화", "text": "타고 태어난 미모, 관리 중요", "context": "엄메이징"},
+    {"speaker": "엄정화", "text": "엉밑살도 탄력 떨어지면 바로", "context": "엄메이징"},
+    {"speaker": "엄정화", "text": "피부과 자주 다녀, 식단 효과 있더라", "context": "엄정화TV"},
+    {"speaker": "엄정화", "text": "배고프면 먹방 봐", "context": "순간포착"},
+    {"speaker": "엄정화", "text": "3년 동안 탄수화물·설탕 안 먹어", "context": "오케이 마담2"},
+    {"speaker": "엄정화", "text": "워터밤 불러만 준다면", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "3년간 탄수화물과 설탕을 끊었다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "50억대 건물주로 알려지며 추석에도 운동에 매진함", "year": null, "confirmed": true},
+    {"summary": "신체나이가 30대로 나왔다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "56", "meaning": "나이(세), 일부 기사는 55·57·58세로도 표기"},
+    {"value": "3년", "meaning": "탄수화물과 설탕을 끊은 기간"},
+    {"value": "30대", "meaning": "신체나이 측정 결과"},
+    {"value": "50억", "meaning": "건물 자산 규모로 알려짐"}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "56세인데 잡티와 기미가 없다는 평가를 받음",
+    "집 안에 있어도 선크림을 꼭 바른다고 밝힘",
+    "신체나이가 30대로 나왔다고 밝힘",
+    "저탄저당 식단을 지킨다고 밝힘",
+    "먹는 순서를 지킨다고 밝힘",
+    "사과를 넣은 차를 마신다고 밝힘",
+    "아침마다 마시는 음료가 있다고 밝힘"
+  ],
+  "care_habits": [
+    "3년간 탄수화물과 설탕을 끊은 습관",
+    "피부가 건조한 편이라 샤워할 때 따로 쓰는 것이 있다는 습관",
+    "엉밑살까지 탄력 관리를 챙기는 습관",
+    "피부과를 자주 다닌다고 밝힌 습관",
+    "먹고 싶은 걸 다 먹되 한 가지 원칙은 지킨다는 습관"
+  ],
+  "hot_materials": [
+    {"material": "3년간 탄수화물과 설탕을 안 먹는다는 독한 식단 고백", "why_hot": "발언"},
+    {"material": "56세인데 신체나이 30대로 나왔다는 반전", "why_hot": "반전"},
+    {"material": "집 안에 있어도 선크림을 꼭 바른다는 습관", "why_hot": "낙차"},
+    {"material": "엉밑살까지 탄력 관리한다는 솔직 고백", "why_hot": "발언"},
+    {"material": "먹고 싶은 거 다 먹되 한 가지만 지킨다는 원칙", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "집 안에서도 선크림을 챙겨 바르는 아침 루틴",
+    "사과를 넣은 차를 만드는 모습",
+    "추석에도 운동에 매진하는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "엄정화TV·엄메이징 방송 속 관리 비결 공개 장면"
+  ]
+}
