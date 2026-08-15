@@ -122,12 +122,17 @@ def recent_ctas(n=None):
 
 
 def next_cta() -> str:
-    """직전 글들과 다른 CTA를 코드가 강제로 고른다."""
+    """직전 글들과 다른 논쟁 질문을 코드가 강제로 고른다.
+
+    2026-08-14: 예전엔 응원 격언 풀(CTA_POOL)이었다. 그 문장들이 전부
+    "마무리 격언" 이라 INSTRUCTION.md §3 금지 목록에 올라 논쟁 질문으로
+    갈아끼웠다. 함수·DB 컬럼 이름은 마이그레이션을 피하려고 그대로 뒀다.
+    """
     used = set(recent_ctas())
-    for cta in C.CTA_POOL:
-        if cta not in used:
-            return cta
-    return C.CTA_POOL[0]  # 풀을 다 돌았으면 처음부터
+    for q in C.DEBATE_POOL:
+        if q not in used:
+            return q
+    return C.DEBATE_POOL[0]  # 풀을 다 돌았으면 처음부터
 
 
 # ── 발행 기록 ───────────────────────────────────────────────────────────

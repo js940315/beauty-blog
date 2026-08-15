@@ -211,14 +211,21 @@ def stage_titles():
     recent_hooks = sorted({h for p in recent[-3:]
                            for h in p.get("hooks_used", [])})
 
+    # 슬롯이 제목 문형을 정한다 (INSTRUCTION.md §6). 제목을 뽑기 전에 확정돼야 한다.
+    plan = slot_plan(next_slot())
+    _jdump(os.path.join(d, "slot.json"), plan)
+
     prompt = _read(os.path.join(PROMPTS, "B_titles.md"))
     prompt = (prompt
               .replace("{factsheet}", json.dumps(fs, ensure_ascii=False, indent=2))
               .replace("{banned_first_words}",
                        ", ".join(banned_first) or "(없음)")
-              .replace("{recent_hooks}", ", ".join(recent_hooks) or "(없음)"))
+              .replace("{recent_hooks}", ", ".join(recent_hooks) or "(없음)")
+              .replace("{slot_no}", str(plan["slot"]))
+              .replace("{title_type}", plan["title_type"]))
     _write(os.path.join(d, "B_지시서.md"), prompt)
-    print("■ 팩트시트 검증 통과")
+    print(f"■ 팩트시트 검증 통과 — {plan['slot']}번 슬롯 / "
+          f"포맷 {plan['format']} / 제목 문형 {plan['title_type']}")
     print(f"   에이전트가 할 일: B_지시서.md 를 전부 읽고 titles.json 작성 (정확히 10개)")
     print("   그 다음: python pipeline.py --stage body")
 
@@ -230,6 +237,31 @@ def _kst_now():
     return datetime.datetime.utcnow() + datetime.timedelta(hours=9)
 
 
+def next_slot() -> int:
+    """오늘 몇 번 슬롯인지. 방을 만들기 전에 미리 안다 (2026-08-14).
+
+    ⚠️ 슬롯 번호가 **제목을 뽑기 전에** 확정돼야 한다.
+       INSTRUCTION.md §2·§6 의 포맷·제목 문형 로테이션이 슬롯 번호로 갈리는데,
+       예전엔 제목을 다 뽑은 뒤(stage_body)에야 방을 배정해서 로테이션을
+       걸 자리가 아예 없었다. 그래서 매일 같은 문형이 나왔다.
+    """
+    day_dir = os.path.join(OUT_ROOT, _kst_now().strftime("%m%d"))
+    n = 2                                  # 1번은 일일 자동 포스팅 몫
+    while os.path.exists(os.path.join(day_dir, str(n))):
+        n += 1
+    return n
+
+
+def slot_plan(slot: int) -> dict:
+    """슬롯 번호 → 포맷·제목 문형. 코드가 강제 주입하는 값이다."""
+    import config as CFG
+    return {
+        "slot": slot,
+        "format": CFG.SLOT_FORMATS.get(slot, "A"),
+        "title_type": CFG.SLOT_TITLE_TYPES.get(slot, "수치충돌"),
+    }
+
+
 def _alloc_outdir(person):
     """output/MMDD/번호/ 방 배정. 1번은 일일 자동 포스팅 몫이라 2번부터 쓴다.
 
@@ -237,9 +269,7 @@ def _alloc_outdir(person):
     """
     day_dir = os.path.join(OUT_ROOT, _kst_now().strftime("%m%d"))
     os.makedirs(day_dir, exist_ok=True)
-    n = 2
-    while os.path.exists(os.path.join(day_dir, str(n))):
-        n += 1
+    n = next_slot()
     out = os.path.join(day_dir, str(n))
     os.makedirs(out)
     return out
@@ -251,36 +281,49 @@ def _pool_pick(pool, used_recent):
 
 
 def _make_c_brief(d, fs, title, marker=""):
-    """C 지시서 생성. 마감·CTA·연결 문장은 코드가 골라 1개씩만 주입한다."""
+    """C 지시서 생성. 포맷·브릿지·논쟁질문·마감은 코드가 골라 주입한다.
+
+    2026-08-14 전면 개편 (INSTRUCTION.md):
+      - 포맷 A~E 는 슬롯이 정한다. 프롬프트에 "섞어라"라고 적으면 안 갈린다.
+      - 마감 격언(endings.json 회고형)은 §3 금지 목록에 올라 폐기했다.
+      - 하트 CTA 는 논쟁 질문 + 행동 지시 2단으로 교체했다.
+    """
+    import config as CFG
     st = _state()
     recent = st["recent_posts"][-3:]
-    endings_data = _jload(os.path.join(DATA, "endings.json"), {})
-    ending_pool = (endings_data.get("회고형", [])
-                   + endings_data.get("행동유도형", []))
-    cta_pool = _jload(os.path.join(DATA, "cta.json"), {}).get("pool", [])
     conn_pool = _jload(os.path.join(DATA, "connectors.json"), {}).get("pool", [])
 
-    ending = _pool_pick(ending_pool, [p.get("ending_template") for p in recent])
-    cta = _pool_pick(cta_pool, [p.get("cta_used") for p in recent])
-    conn = random.choice(conn_pool)
-    banned_phrases = [p.get("ending_used") for p in recent
-                      if p.get("ending_used")]
+    plan = _jload(os.path.join(d, "slot.json")) or slot_plan(next_slot())
+    fmt = CFG.FORMAT_SPECS[plan["format"]]
+
+    debate = _pool_pick(CFG.DEBATE_POOL, [p.get("cta_used") for p in recent])
+    closing = _pool_pick(CFG.CLOSING_POOL, [p.get("closing_used") for p in recent])
+    # 브릿지는 2개를 서로 다르게 뽑는다 (§4-2)
+    bridges = random.sample(list(CFG.BRIDGE_POOL), CFG.BRIDGE_MIN)
+    conn = random.choice(conn_pool) if conn_pool else ""
 
     prompt = _read(os.path.join(PROMPTS, "C_body.md"))
     prompt = (prompt
               .replace("{title}", title)
               .replace("{factsheet}", json.dumps(fs, ensure_ascii=False, indent=2))
-              .replace("{ending_pick}", ending)
-              .replace("{cta_pick}", cta)
-              .replace("{connector_pick}", conn)
-              .replace("{banned_phrases}",
-                       " / ".join(banned_phrases) or "(없음)"))
+              .replace("{slot_no}", str(plan["slot"]))
+              .replace("{format_key}", plan["format"])
+              .replace("{format_name}", fmt["name"])
+              .replace("{format_open}", fmt["open"])
+              .replace("{format_skeleton}", fmt["skeleton"])
+              .replace("{bridge_picks}", " / ".join(bridges))
+              .replace("{debate_pick}", debate)
+              .replace("{closing_pick}", closing)
+              .replace("{connector_pick}", conn))
     _write(os.path.join(d, "C_지시서.md"), prompt)
     _jdump(os.path.join(d, "meta.json"),
-           {"title": title, "ending_template": ending, "cta": cta,
+           {"title": title, "slot": plan["slot"], "format": plan["format"],
+            "cta": debate, "closing": closing, "bridges": bridges,
             "connector": conn, "marker": marker})
     print(f"■ 확정 제목: {title}")
-    print(f"   주입: 마감틀 「{ending}」 / CTA 「{cta}」")
+    print(f"   슬롯 {plan['slot']} / 포맷 {plan['format']}({fmt['name']})")
+    print(f"   주입: 논쟁질문 「{debate}」")
+    print(f"         마감 「{closing}」")
     print("   에이전트가 할 일: C_지시서.md 를 전부 읽고 body.txt 작성 (평문 아님 — 점자 포함 최종형)")
     print("   그 다음: python pipeline.py --stage finish")
 
@@ -404,9 +447,11 @@ def stage_finish():
     body = _read(body_path).rstrip("\n")
 
     st = _state()
-    errs = V.validate_body(body, fs, {
-        "recent_endings": [p.get("ending_used") for p in
-                           st["recent_posts"][-3:] if p.get("ending_used")]})
+    errs = V.validate_body(
+        body, fs,
+        {"recent_endings": [p.get("ending_used") for p in
+                            st["recent_posts"][-3:] if p.get("ending_used")]},
+        debate=meta.get("cta", ""))     # 코드가 주입한 논쟁 질문
 
     # 제목 훅 회수 검증 — 어그로만 걸고 본문이 딴소리하면 낚시로 읽힌다.
     # 제목의 숫자와 인용구가 본문에 실제로 있는지 대조한다 (일일 시스템과 동일 원칙).

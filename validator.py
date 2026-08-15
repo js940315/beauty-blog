@@ -209,8 +209,9 @@ def validate(text: str, richness: str = "normal", cta: str = None, celeb: str = 
                 problems.append(f"고정 해시태그 누락: {ft}")
         if f"#{celeb}" not in tag_text:
             problems.append(f"인물 해시태그 누락: #{celeb}")
-        if "❤" not in text:
-            problems.append("하트 CTA 없음 — 해시태그 앞에 ❤ 한 줄")
+        # 2026-08-14: 하트 CTA 는 폐지됐다. 예전엔 여기서 ❤ 를 강제했다.
+        if "❤" in text:
+            problems.append("하트 구걸 문구 — 폐지됐다. 행동 지시로 마감해라")
 
     # 9. 소제목 형식 / 마크다운 노출
     #    네이버는 마크다운을 해석하지 않는다. **가 있으면 화면에 별표가 그대로 보인다.
@@ -274,6 +275,25 @@ def validate(text: str, richness: str = "normal", cta: str = None, celeb: str = 
         problems.append(
             f"매체·출처 표기: {hit} — 출처는 한 글자도 쓰지 않는다 "
             "('이렇게 말한 적이 있어요' 처럼 출처 없이 풀 것)")
+
+    # 14. INSTRUCTION.md 강제 항목 (2026-08-14) — v13 검증기와 같은 기준
+    for p in C.BANNED_PHRASES:
+        if p in full:
+            problems.append(f"금지 문구: '{p}' — 상투구다. 다른 말로 바꿔 써라")
+
+    voices = sum(full.count(p) for p in C.SELF_VOICE_PATTERNS)
+    if voices > C.SELF_VOICE_MAX:
+        problems.append(f"화자 소감 {voices}회 (최대 {C.SELF_VOICE_MAX}) — "
+                        "소감 자리에 사실 한 조각을 넣어라")
+
+    bridges = [b for b in C.BRIDGE_POOL if b in full]
+    if len(bridges) < C.BRIDGE_MIN:
+        problems.append(f"브릿지 {len(bridges)}개 (최소 {C.BRIDGE_MIN}) — "
+                        f"소제목 사이에 다음 궁금증을 만드는 한 줄을 넣어라")
+
+    numbered = sum(1 for ln in cl if re.match(r"^\d+\s+\S", visible(ln)))
+    if numbered < 3 and "❌" not in full and "⭕" not in full:
+        problems.append("스크롤 유인 블록 없음 — 번호 리스트 3줄 또는 ❌/⭕ 대비 블록")
 
     return problems
 

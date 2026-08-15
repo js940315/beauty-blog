@@ -26,6 +26,24 @@ _VAGUE_TAIL = re.compile(
 )
 
 
+def banned_phrase_hits(text: str) -> list:
+    """INSTRUCTION.md §3 금지 문구를 찾는다.
+
+    실제 산출물 6편에서 중복 검출된 상투구다. 사람이 매일 10편을 눈으로
+    잡아낼 수 없으니 코드가 센다. 걸리면 그 슬롯만 재생성한다.
+    """
+    return [p for p in C.BANNED_PHRASES if p in text]
+
+
+def self_voice_count(text: str) -> int:
+    """화자 소감이 몇 번 나오는가 (§0-4, 최대 3회).
+
+    예전 글은 8번째 줄에서 답이 다 나오고 나머지가 감상문이었다.
+    소감으로 분량을 채우는 걸 막는다.
+    """
+    return sum(text.count(p) for p in C.SELF_VOICE_PATTERNS)
+
+
 def media_hits(text: str) -> list:
     """본문에 남은 매체명·출처 표현을 찾는다.
 
@@ -186,6 +204,14 @@ def validate_titles(titles: list, factsheet: dict) -> list:
     for a, c in _count(angles).items():
         if a and c > 5:
             errs.append(f"관점 '{a}' {c}개 — 한 관점 최대 5개, 관점을 분산해라")
+
+    # §6 "여배우" 로 가리는 건 10개 중 6개까지. 전부 같으면 어뷰징으로 읽힌다.
+    veiled = sum(1 for t in titles if C.FEMALE_LABEL_WATCH in t.get("title", ""))
+    if veiled > C.FEMALE_LABEL_MAX:
+        errs.append(
+            f"'{C.FEMALE_LABEL_WATCH}' 로 가린 제목 {veiled}개 "
+            f"(최대 {C.FEMALE_LABEL_MAX}) — 나머지는 '40대 배우', "
+            f"'1990년생 여가수', '천만 배우' 처럼 다른 지칭으로 분산해라")
     return errs
 
 
@@ -236,22 +262,29 @@ def namesake_contamination(body: str, factsheet: dict) -> list:
             f"근거가 있으면 팩트시트에 넣어라"]
 
 
-def validate_body(body: str, factsheet: dict, state: dict) -> list:
+def validate_body(body: str, factsheet: dict, state: dict, debate: str = "") -> list:
+    """debate: 코드가 주입한 논쟁 질문. 본문에 실제로 들어갔는지 대조한다."""
     errs = []
     errs += namesake_contamination(body, factsheet)
     person = factsheet.get("person") or {}
     job = person.get("job", "")
     allow = alpha_allow_from(factsheet)
 
-    # 글자수 (공백·점자빈칸 제외). 2026-08-05 사용자 조정: 850~1000 → 780~900.
-    # 목표는 820자 안팎 — 끝부분이 길어지는 것보다 짧고 밀도 있게.
-    n = len(re.sub(r"[\s⠀]", "", body))
-    if not (780 <= n <= 900):
-        hint = ("부족: 12줄 미만 챕터에 3줄 문단 추가" if n < 780
-                else "초과: 마지막 챕터·마무리에서 곁가지 문단 삭제")
-        errs.append(f"글자수 {n}자 (허용 780~900) — {hint}")
-
     lines = body.split("\n")
+
+    # 글자수 — 2026-08-14 사용자 확정으로 일일 경로와 자를 통일했다.
+    #   기준: 네이버 글자수세기 공백제외 = 보이는 글자 + 점자 빈칸
+    #   범위: 본문만 (제목·해시태그 제외)
+    # 예전엔 v13만 "점자 제외 + 해시태그 포함 780~900" 이라 실제로는 네이버
+    # 기준 980~1100자로 일일보다 길었다. 기존 완성본 63편 실측 중앙값 966자.
+    _tagless = [ln for ln in lines if not _is_tag(ln.replace(U2800, "").strip())]
+    n = (sum(len(re.sub(r"\s", "", ln.replace(U2800, ""))) for ln in _tagless)
+         + sum(ln.count(U2800) for ln in _tagless))
+    if not (C.BODY_CHARS_MIN <= n <= C.BODY_CHARS_MAX):
+        hint = ("부족: 짧은 챕터에 3줄 문단 추가" if n < C.BODY_CHARS_MIN
+                else "초과: 마지막 챕터·마무리에서 곁가지 문단 삭제")
+        errs.append(f"네이버기준 {n}자 "
+                    f"(허용 {C.BODY_CHARS_MIN}~{C.BODY_CHARS_MAX}) — {hint}")
 
     # 첫 글자 큰따옴표
     first_visible = ""
@@ -344,6 +377,42 @@ def validate_body(body: str, factsheet: dict, state: dict) -> list:
     if trailing and not _is_tag(trailing[0].replace(U2800, "").strip()):
         errs.append("마지막 줄이 해시태그가 아님 — 8번 태그 뒤에 아무것도 붙이지 마라")
 
+    # ── INSTRUCTION.md 강제 항목 (2026-08-14) ──────────────────────────
+    # 프롬프트에 적어두는 것만으로는 안 지켜진다. 여기서 실제로 센다.
+
+    # §3 금지 문구 — 실제 산출물에서 반복 검출된 상투구
+    for p in banned_phrase_hits(visible_text):
+        errs.append(f"금지 문구: '{p}' — 상투구다. 다른 말로 바꿔 써라")
+
+    # §0-4 화자 소감은 최대 3회. 소감으로 분량을 채우면 정보밀도가 죽는다
+    voices = self_voice_count(visible_text)
+    if voices > C.SELF_VOICE_MAX:
+        errs.append(f"화자 소감 {voices}회 (최대 {C.SELF_VOICE_MAX}) — "
+                    "소감 단락을 빼고 그 자리에 사실 한 조각을 넣어라")
+
+    # §4-2 브릿지 — 정답을 뒤로 미룬 만큼 중간을 버텨줄 장치가 필요하다
+    bridges = [b for b in C.BRIDGE_POOL if b in visible_text]
+    if len(bridges) < C.BRIDGE_MIN:
+        errs.append(f"브릿지 {len(bridges)}개 (최소 {C.BRIDGE_MIN}) — "
+                    f"소제목 사이에 다음 궁금증을 만드는 한 줄을 넣어라. "
+                    f"예: {C.BRIDGE_POOL[0]}")
+
+    # §4-3 스크롤 유인 블록 — 번호 리스트(숫자+점자 들여쓰기) 또는 ❌/⭕ 대비
+    numbered = sum(1 for l in lines
+                   if re.match(r"^\d+\s+\S", l.replace(U2800, "").strip()))
+    has_contrast_block = ("❌" in body) or ("⭕" in body)
+    if numbered < 3 and not has_contrast_block:
+        errs.append("스크롤 유인 블록 없음 — 번호 리스트 3줄(숫자 뒤 점자 들여쓰기) "
+                    "또는 ❌/⭕ 대비 블록을 1개 넣어라. 눈이 걸려야 체류가 붙는다")
+
+    # §5 논쟁 질문 — 의견이 갈려야 댓글이 달린다
+    if debate and re.sub(r"\s", "", debate) not in re.sub(r"\s", "", visible_text):
+        errs.append(f"논쟁 질문 누락 — 마지막에서 두 번째 블록에 넣어라: {debate}")
+
+    # §5 하트 구걸 금지 (예전 규격은 ❤ 를 오히려 강제했다)
+    if "❤" in body:
+        errs.append("하트 구걸 문구 — 폐지됐다. 행동 지시 + 경험 요청으로 마감해라")
+
     # 마감·CTA 중복 (state 대조)
     for old in state.get("recent_endings", []):
         if old and old in body:
@@ -412,12 +481,23 @@ def _selftest():
             good_lines += ["여기 열다섯 자짜리 문장이" + B,
                            "이어지는 열네 자 문장과" + B,
                            "마무리 열세 자 문장이" + B, B * 3]
+        # 2026-08-14 신규 규격: 브릿지 2개 · 스크롤 유인 블록 1개
+        if ch == 1:
+            good_lines += [C.BRIDGE_POOL[0] + B, B * 3]
+        if ch == 2:
+            good_lines += [C.BRIDGE_POOL[1] + B, B * 3]
+        if ch == 3:
+            good_lines += [B * 2 + "1 세안 뒤 3분 안에" + B,
+                           B * 2 + "2 목까지 같이 바르기" + B,
+                           B * 2 + "3 아침엔 물로만" + B, B * 3]
+    debate = C.DEBATE_POOL[0]
+    good_lines += [debate[:18] + B, debate[18:] + B, B * 3]
     good_lines += ["#홍길동", "#홍길동근황", "#홍길동미모", "#미모비결",
                    "#관계인물", "#대표작", "#무용가미모", "#무용가관리"]
     body = "\n".join(good_lines)
-    errs = validate_body(body, fs, {})
-    # 글자수는 샘플이라 부족할 수 있다 — 글자수 외 오류가 없어야 한다
-    assert all("글자수" in e for e in errs), errs
+    errs = validate_body(body, fs, {}, debate=debate)
+    # 글자수는 샘플이라 어긋날 수 있다 — 그 외 위반이 없어야 한다
+    assert all("네이버기준" in e for e in errs), errs
 
     broken = body.replace(B * 3, "", 1).replace('"그 말', "그 말", 1) + "\n덧붙임"
     errs = validate_body(broken, fs, {})
