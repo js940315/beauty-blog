@@ -447,11 +447,18 @@ def stage_finish():
     body = _read(body_path).rstrip("\n")
 
     st = _state()
+    # 오늘 이미 나온 다른 슬롯들의 도입 3줄 — §2 중복 검사용
+    _today = _kst_now().date().isoformat()
+    same_day_intros = [p.get("intro", "") for p in st["recent_posts"]
+                       if p.get("date") == _today
+                       and p.get("title") != meta["title"] and p.get("intro")]
     errs = V.validate_body(
         body, fs,
         {"recent_endings": [p.get("ending_used") for p in
                             st["recent_posts"][-3:] if p.get("ending_used")]},
-        debate=meta.get("cta", ""))     # 코드가 주입한 논쟁 질문
+        debate=meta.get("cta", ""),     # 코드가 주입한 논쟁 질문
+        fmt=meta.get("format", ""),     # 슬롯이 정한 포맷 → 도입 문형 판정
+        same_day_intros=same_day_intros)
 
     # 제목 훅 회수 검증 — 어그로만 걸고 본문이 딴소리하면 낚시로 읽힌다.
     # 제목의 숫자와 인용구가 본문에 실제로 있는지 대조한다 (일일 시스템과 동일 원칙).
@@ -535,6 +542,10 @@ def stage_finish():
         "date": _kst_now().date().isoformat(),
         "person": fs["person"]["name"],
         "title": title,
+        "slot": meta.get("slot"),
+        "format": meta.get("format", ""),
+        # 도입 3줄을 남긴다 — 다음 슬롯이 이것과 겹치는지 대조한다 (§2)
+        "intro": " ".join(V.intro_lines(body)),
         "ending_template": meta.get("ending_template", ""),
         "ending_used": used_ending,
         "cta_used": meta.get("cta", ""),

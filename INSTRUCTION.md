@@ -165,7 +165,9 @@ OO 등에서 활약해온 배우이고 ~로도 유명합니다
 |---|---|---|
 | §0-1 포맷 3개 초과 | `config.FORMAT_MAX_PER_DAY` | mod 5 배분이라 포맷당 2개 — 자동 충족 |
 | §0-2 금지 문구 | `config.BANNED_PHRASES` → `validate.banned_phrase_hits()` / `validator.py` | 본문에서 실측, 걸리면 반려 |
-| §0-3 정답 지연 | `prompts/C_body.md` | 프롬프트 지시 (자동 검출 불가) |
+| §0-3 정답 지연 | `prompts/C_body.md` | 프롬프트 지시 (자동 검출 불가 — **유일하게 코드가 못 잡는 조항**) |
+| §2 도입 3줄 문형 | `FORMAT_SPECS[*].intro_test` → `validate.intro_form_error()` | 포맷별로 인용/숫자/물음표/표지어를 판정 |
+| §2 도입 중복 | `config.INTRO_OVERLAP_MAX` → `validate.intro_overlap()` | 같은 날 다른 슬롯과 문자 2-gram 자카드 45% 이상이면 반려 |
 | §0-4 소감 3회 | `config.SELF_VOICE_MAX` → 두 검증기 | "저는/제가/저도/저라면/제 생각" 횟수를 센다 |
 | §0-5 앞 20자 완결 | `titles.head_specifics()` · `config.WEIGHTS` | 구체 요소 0이면 감점·반려 |
 | §2 포맷 로테이션 | `config.SLOT_FORMATS` · `FORMAT_SPECS` → `pipeline.slot_plan()` | 슬롯이 정해 C 지시서에 주입 |

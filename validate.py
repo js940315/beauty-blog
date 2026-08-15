@@ -26,6 +26,74 @@ _VAGUE_TAIL = re.compile(
 )
 
 
+def intro_lines(body: str, n: int = 3) -> list:
+    """도입 n줄 (해시태그·빈 줄 제외한 내용 줄 기준)."""
+    out = []
+    for ln in body.split("\n"):
+        v = ln.replace(U2800, "").strip()
+        if v and not v.startswith("#"):
+            out.append(v)
+        if len(out) >= n:
+            break
+    return out
+
+
+def _bigrams(text: str) -> set:
+    t = re.sub(r"\s", "", text)
+    return {t[i:i + 2] for i in range(len(t) - 1)}
+
+
+def intro_overlap(intro: str, others) -> float:
+    """같은 날 다른 슬롯의 도입과 얼마나 겹치는가 (문자 2-gram 자카드).
+
+    한국어는 조사가 붙어 어절 단위 비교가 잘 안 먹는다. 문자 단위로 잰다.
+    """
+    a = _bigrams(intro)
+    if not a:
+        return 0.0
+    worst = 0.0
+    for o in others:
+        b = _bigrams(o or "")
+        if not b:
+            continue
+        worst = max(worst, len(a & b) / len(a | b))
+    return worst
+
+
+def intro_form_error(intro3: list, fmt: str) -> str:
+    """슬롯이 정한 포맷의 도입 문형을 지켰는가 (INSTRUCTION.md §2).
+
+    포맷 이름만 다르고 도입이 똑같으면 로테이션은 아무 의미가 없다.
+    독자는 골격이 아니라 첫 세 줄로 "또 그 글"인지 판단한다.
+    """
+    spec = C.FORMAT_SPECS.get(fmt)
+    if not spec or not intro3:
+        return ""
+    test = spec.get("intro_test") or {}
+    joined = " ".join(intro3)
+    kind = test.get("kind")
+
+    if kind == "quote":
+        ok = intro3[0].startswith('"') or intro3[0].startswith("“")
+        miss = "첫 줄을 큰따옴표 인용으로 열어라"
+    elif kind == "number":
+        ok = bool(re.search(r"\d", joined))
+        miss = "도입에 결과 수치(숫자)를 넣어라"
+    elif kind == "question":
+        ok = "?" in joined
+        miss = "도입을 질문으로 열어라"
+    elif kind == "words":
+        ok = any(w in joined for w in test.get("words", ()))
+        miss = f"도입에 {'/'.join(test.get('words', ())[:4])} 같은 표지가 있어야 한다"
+    else:
+        return ""
+
+    if ok:
+        return ""
+    return (f"포맷 {fmt}({spec['name']}) 도입 문형 위반 — {spec['open']} {miss}. "
+            f"현재 도입: {joined[:40]}")
+
+
 def banned_phrase_hits(text: str) -> list:
     """INSTRUCTION.md §3 금지 문구를 찾는다.
 
@@ -262,9 +330,28 @@ def namesake_contamination(body: str, factsheet: dict) -> list:
             f"근거가 있으면 팩트시트에 넣어라"]
 
 
-def validate_body(body: str, factsheet: dict, state: dict, debate: str = "") -> list:
-    """debate: 코드가 주입한 논쟁 질문. 본문에 실제로 들어갔는지 대조한다."""
+def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
+                  fmt: str = "", same_day_intros=()) -> list:
+    """debate: 코드가 주입한 논쟁 질문. 본문에 실제로 들어갔는지 대조한다.
+    fmt: 슬롯이 정한 포맷 키(A~E). 도입 문형을 이걸로 판정한다.
+    same_day_intros: 오늘 이미 나온 다른 슬롯들의 도입. 중복을 잡는다.
+    """
     errs = []
+
+    # §2 도입 3줄 — 포맷별 문형 + 같은 날 중복 (2026-08-14 사용자 확정)
+    intro3 = intro_lines(body)
+    if fmt:
+        e = intro_form_error(intro3, fmt)
+        if e:
+            errs.append(e)
+    if same_day_intros:
+        joined = " ".join(intro3)
+        ov = intro_overlap(joined, same_day_intros)
+        if ov >= C.INTRO_OVERLAP_MAX:
+            errs.append(
+                f"도입 3줄이 오늘 다른 슬롯과 {ov:.0%} 겹친다 "
+                f"(허용 {C.INTRO_OVERLAP_MAX:.0%} 미만) — 첫 세 줄을 통째로 다시 써라. "
+                "독자는 골격이 아니라 도입으로 '또 그 글'인지 판단한다")
     errs += namesake_contamination(body, factsheet)
     person = factsheet.get("person") or {}
     job = person.get("job", "")
@@ -520,6 +607,25 @@ def _selftest():
     # 직업 불일치 태그
     errs = validate_body(body.replace("#무용가미모", "#여배우미모"), fs, {})
     assert any("직업 불일치" in e for e in errs)
+
+    # 도입 3줄 — 포맷별 문형 판정 (INSTRUCTION.md §2, 2026-08-14)
+    assert intro_form_error(['"인용으로 열었다"', "둘째 줄", "셋째 줄"], "A") == ""
+    assert intro_form_error(["인용이 없다", "둘째 줄", "셋째 줄"], "A") != ""
+    assert intro_form_error(["48kg을 지킨다", "둘째", "셋째"], "B") == ""
+    assert intro_form_error(["체중을 지킨다", "둘째", "셋째"], "B") != ""
+    assert intro_form_error(["맞을까요?", "둘째", "셋째"], "C") == ""
+    assert intro_form_error(["맞습니다", "둘째", "셋째"], "C") != ""
+    assert intro_form_error(["다들 그렇게 압니다", "둘째", "셋째"], "D") == ""
+    assert intro_form_error(["그렇게 압니다", "둘째", "셋째"], "D") != ""
+    assert intro_form_error(["혹시 하고 계신가요", "둘째", "셋째"], "E") == ""
+    assert intro_form_error(["습관이 있습니다", "둘째", "셋째"], "E") != ""
+
+    # 도입 3줄 — 같은 날 중복 판정
+    base = "그 말이 나온 자리에서 다들 숟가락을 놨습니다 식단 얘기였어요"
+    near = "그 말이 나온 자리에서 다들 숟가락을 놨어요 식단 얘기였습니다"
+    far = "48kg을 10년째 지킵니다 따라할 수 있는 건 딱 세 가지"
+    assert intro_overlap(base, [near]) >= C.INTRO_OVERLAP_MAX
+    assert intro_overlap(base, [far]) < C.INTRO_OVERLAP_MAX
 
     # 매체·출처 표기는 잡혀야 한다 (2026-08-13 사용자 확정)
     sourced = body.replace("여기 열다섯 자짜리 문장이" + B,
