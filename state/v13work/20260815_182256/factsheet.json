@@ -1,0 +1,56 @@
+{
+  "person": {
+    "name": "심혜진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 60,
+    "age_range": "60대 초반",
+    "career": "배우",
+    "major_work": "3대 영화제 여우주연상 수상 경력",
+    "identity_anchor": "라이즈 앤톤의 어머니이자 윤상의 아내인 배우 심혜진, 3대 영화제 여우주연상을 휩쓴 경력의 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "심혜진", "text": "너무 힘들어서 포기했어요", "context": "씨네타운 인터뷰"},
+    {"speaker": "심혜진", "text": "미친 60살이라니", "context": "환갑 생일파티 인터뷰"}
+  ],
+  "events": [
+    {"summary": "3000평 규모의 가평 대저택을 19년 만에 처분함", "year": null, "confirmed": true},
+    {"summary": "환갑을 맞아 동료 배우들과 생일파티를 가짐", "year": null, "confirmed": true},
+    {"summary": "여동생 사후 조카 심재원을 친아들처럼 길러온 것으로 알려짐", "year": null, "confirmed": true},
+    {"summary": "국내 드라마 여배우 트렌드지수 순위 3위에 오름", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "60", "meaning": "나이(세), 환갑"},
+    {"value": "3000평", "meaning": "과거 거주하던 가평 대저택 규모"},
+    {"value": "19년", "meaning": "해당 저택에 거주한 기간"}
+  ],
+  "related_people": [
+    {"name": "윤상", "relation": "남편", "mentioned_as": "뮤지션"},
+    {"name": "심재원", "relation": "조카(여동생의 아들, 친아들처럼 양육)", "mentioned_as": "조카"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "환갑을 맞은 나이임에도 동안이라는 반응이 나옴",
+    "오래전 콜라 광고 속 이미지가 여전히 회자됨",
+    "라이즈 앤톤의 어머니로 알려지며 미모 유전 화제가 됨"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "3000평 대저택을 19년 만에 처분했다는 솔직 고백", "why_hot": "반전"},
+    {"material": "환갑 생일에 미친 60살이라며 웃음 섞인 소감을 밝힘", "why_hot": "발언"},
+    {"material": "여동생 사후 조카를 친아들처럼 길러온 사연", "why_hot": "반전"},
+    {"material": "라이즈 앤톤의 어머니라는 사실", "why_hot": "실명"},
+    {"material": "국내 드라마 여배우 트렌드지수 3위에 오름", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "3000평 저택을 떠나 서울 근교로 이사하는 순간",
+    "환갑 생일파티에서 웃음 섞인 소감을 밝히는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "화보 촬영 당시의 미모 관련 사진",
+    "환갑 생일파티 사진"
+  ]
+}
