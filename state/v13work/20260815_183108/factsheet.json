@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "김성령",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 58,
+    "age_range": "50대 후반",
+    "career": "배우",
+    "major_work": "라디오스타(예능)",
+    "identity_anchor": "동안 미모로 알려진 배우 김성령, 피부과 시술과 운동 루틴을 스스로 공개해온 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김성령", "text": "피부과 이 시술, 연 1회 꼬박꼬박", "context": "인터뷰"},
+    {"speaker": "김성령", "text": "몸무게 앞자리 6 찍었다, 시술은 잘 안 해", "context": "라디오스타"},
+    {"speaker": "김성령", "text": "어마어마하게 쓴다", "context": "전현무계획2"},
+    {"speaker": "김성령", "text": "900샷 때린다", "context": "전현무계획2"},
+    {"speaker": "김성령", "text": "키만 타고났고 나머지는 노력", "context": "라디오스타"},
+    {"speaker": "김성령", "text": "벌어서 나한테 투자", "context": "전현무계획2"},
+    {"speaker": "김성령", "text": "17년 동안 한 번도 운동 쉰 적 없어", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "59세에 인생 최대 몸무게로 몸무게 앞자리가 6으로 바뀌었다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "57세에 할머니가 됐다고 가족을 공개함", "year": null, "confirmed": true},
+    {"summary": "아이오페 슈퍼바이탈 크림의 모델로 피부 비결을 소개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "900", "meaning": "피부과에서 맞는다는 시술(샷) 횟수"},
+    {"value": "17년", "meaning": "운동을 한 번도 쉰 적 없다는 기간"},
+    {"value": "5년", "meaning": "요가·필라테스를 해온 기간"},
+    {"value": "168cm", "meaning": "신장"},
+    {"value": "54kg", "meaning": "한 인터뷰에서 밝힌 몸무게"},
+    {"value": "5회", "meaning": "주당 운동 횟수"}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "연 1회 정기적으로 피부과 시술을 받는다고 밝힘",
+    "피부과에서 900샷을 맞는다고 공개함",
+    "아이오페 슈퍼바이탈 크림의 모델로 피부 비결을 소개함",
+    "168cm 54kg을 유지한다고 밝힌 인터뷰가 있음",
+    "17년간 운동을 한 번도 쉰 적 없다고 밝힘",
+    "주 5회 유산소와 무산소 운동을 나눠서 한다고 밝힘",
+    "5년째 요가와 필라테스를 병행한다고 밝힘",
+    "반려 괄사로 꾸준히 마사지한다고 밝힘"
+  ],
+  "care_habits": [
+    "반려 괄사로 마사지하는 습관",
+    "유산소와 무산소 운동을 나눠서 하는 습관",
+    "명상을 함께 병행하는 습관"
+  ],
+  "hot_materials": [
+    {"material": "59세에 인생 최대 몸무게, 몸무게 앞자리가 6으로 바뀌었다는 솔직 고백", "why_hot": "발언"},
+    {"material": "피부과에서 900샷을 맞는다는 시술 비용 솔직 고백", "why_hot": "발언"},
+    {"material": "17년간 운동을 한 번도 쉰 적 없다는 발언", "why_hot": "발언"},
+    {"material": "57세에 할머니가 됐다며 가족을 공개함", "why_hot": "반전"},
+    {"material": "키만 타고났고 나머지는 노력이라는 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "피부과에서 900샷을 맞는 장면",
+    "반려 괄사로 마사지하는 순간",
+    "주 5회 운동을 소화하는 루틴"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "아이오페 화보 속 피부 비결 소개",
+    "MZ패션을 소화한 화보 사진"
+  ]
+}
