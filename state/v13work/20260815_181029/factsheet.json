@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "전인화",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 59,
+    "age_range": "50대 후반",
+    "career": "배우",
+    "major_work": "같이 삽시다(예능)",
+    "identity_anchor": "유동근의 아내이자 예능 같이 삽시다에 출연 중인 배우 전인화"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "전인화", "text": "보기 부끄러워", "context": "같이 삽시다"},
+    {"speaker": "전인화", "text": "연예계 은퇴 고민..", "context": "같이 삽시다"},
+    {"speaker": "전인화", "text": "이렇게 물 맞을 줄은, 내 생애 첫 열기", "context": "흠뻑쇼 관련 인터뷰"},
+    {"speaker": "전인화", "text": "내 사랑 두 아들", "context": "본인 SNS"}
+  ],
+  "events": [
+    {"summary": "촬영 중 어떤 아이템을 썼다가 원형 탈모가 왔던 일화가 알려짐", "year": null, "confirmed": true},
+    {"summary": "홈앤쇼핑 저속노화 콘셉트 알부민 크림 브랜드의 모델로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "예능 같이 삽시다에서 연예계 은퇴를 고민했다고 고백함", "year": null, "confirmed": true},
+    {"summary": "물축제 흠뻑쇼에 생애 처음 참석함", "year": null, "confirmed": true},
+    {"summary": "시어머니와 30년 넘게 함께 살아온 것으로 알려짐", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "59", "meaning": "나이(세)"},
+    {"value": "30년", "meaning": "예전 옷이 아직 맞는다는 기간, 시어머니와 함께 산 기간"}
+  ],
+  "related_people": [
+    {"name": "유동근", "relation": "남편", "mentioned_as": "배우"},
+    {"name": "황신혜", "relation": "같이 삽시다 출연 동료", "mentioned_as": "배우"},
+    {"name": "이영애", "relation": "연극을 함께 관람한 동료 배우", "mentioned_as": "배우"}
+  ],
+  "works": [
+    {"title": "같이 삽시다", "year": null, "costar": "황신혜", "scene": "황신혜가 유동근과 통화하며 장난치는 걸 보고 전인화가 박장대소한 장면", "kind": "실제"},
+    {"title": "같이 삽시다", "year": null, "costar": "유동근", "scene": "유동근과 황신혜의 장면을 보고 전인화가 보기 부끄러웠다고 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "60세라는 나이가 믿기지 않는다는 반응이 나온 민낯 상태",
+    "잡티 하나 없다는 평을 받은 초근접 셀카",
+    "저속노화 콘셉트 안티에이징 크림 브랜드 모델로 발탁됨",
+    "30년 전 옷이 아직 맞는다는 몸매 유지"
+  ],
+  "care_habits": [
+    "30년 전 옷이 맞는 몸매를 유지하며 운동을 병행한다고 알려짐",
+    "촬영 중 특정 아이템을 썼다가 원형 탈모를 겪었던 경험이 있음"
+  ],
+  "hot_materials": [
+    {"material": "촬영 중 무언가를 썼다가 원형 탈모가 왔다는 일화", "why_hot": "반전"},
+    {"material": "60세 민낯에 잡티 하나 없는 초근접 셀카", "why_hot": "장면"},
+    {"material": "30년 전 옷이 아직 맞는 몸매 유지", "why_hot": "낙차"},
+    {"material": "저속노화 안티에이징 크림 브랜드 모델 발탁", "why_hot": "반전"},
+    {"material": "황신혜가 유동근과 통화하는 걸 보고 박장대소한 장면", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "촬영장에서 원형 탈모가 생겼던 순간",
+    "반려견을 안고 찍은 초근접 셀카",
+    "흠뻑쇼에서 물을 맞으며 즐거워하던 순간",
+    "황신혜의 통화 장면을 보고 박장대소하던 순간"
+  ],
+  "sns_materials": [
+    "반려견과 함께 찍은 초근접 민낯 셀카",
+    "아들 지상의 근황을 올린 게시물",
+    "여행지에서 여유로운 미소를 짓는 사진"
+  ],
+  "press_only_materials": [
+    "이영애 연극 관람 현장 사진",
+    "흠뻑쇼 참석 사진"
+  ]
+}
