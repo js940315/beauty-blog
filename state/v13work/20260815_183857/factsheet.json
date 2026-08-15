@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "신애라",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 56,
+    "age_range": "50대 중반",
+    "career": "배우",
+    "major_work": "신애라이프(방송)",
+    "identity_anchor": "차인표의 아내이자 신애라이프를 진행하는 배우 신애라"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신애라", "text": "이 말 반복하니 화가 가라앉아", "context": "갱년기 대처법 인터뷰"},
+    {"speaker": "신애라", "text": "2년 전부터 갱년기, 체중 조절해도 안 돼", "context": "신애라이프"},
+    {"speaker": "신애라", "text": "운동으론 안 돼", "context": "A급 장영란"},
+    {"speaker": "신애라", "text": "화장 NO, 이것 심하게 발라", "context": "인터뷰"},
+    {"speaker": "신애라", "text": "난 20점 아내, 차인표는 변함없이 사랑 표현해", "context": "A급 장영란"},
+    {"speaker": "신애라", "text": "윷놀이하다 고관절 무리", "context": "신애라이프"}
+  ],
+  "events": [
+    {"summary": "2년 전부터 갱년기를 겪고 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "결혼 31주년을 맞아 애정을 표현함", "year": null, "confirmed": true},
+    {"summary": "30년째 남편에게 손하트를 받는다고 알려짐", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "50kg", "meaning": "평생 유지해온 몸무게대"},
+    {"value": "31주년", "meaning": "결혼 기념 연차"},
+    {"value": "30년", "meaning": "남편과 알콩달콩 지낸 기간"}
+  ],
+  "related_people": [
+    {"name": "차인표", "relation": "남편", "mentioned_as": "배우"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "56세인데 20대 피부라는 평가를 받음",
+    "화장 대신 이것을 심하게 바른다고 밝힘",
+    "평생 50kg대를 유지해온 것으로 알려짐",
+    "피부 탄력의 이유로 매일 챙겨 먹는 채소가 있다고 밝힘",
+    "남편이 29살처럼 생겼다며 손하트를 보낸다고 알려짐"
+  ],
+  "care_habits": [
+    "염증을 억제한다는 채소를 매일 챙겨 먹는 습관",
+    "식초 대신 다른 것을 먹는다고 밝힌 습관",
+    "갱년기 다이어트 주스를 직접 만들어 먹는 습관",
+    "밥 먹기 전에 혈당을 천천히 올리는 것을 먼저 먹는 습관",
+    "관절과 근육 관리를 위해 새로운 걸 시작했다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "2년 전부터 갱년기, 체중 조절해도 안 된다는 솔직 고백", "why_hot": "발언"},
+    {"material": "화장 안 하고 이것만 심하게 바른다는 20대 피부 비결", "why_hot": "발언"},
+    {"material": "윷놀이하다 고관절 무리 갔다는 에피소드", "why_hot": "반전"},
+    {"material": "평생 50kg대 유지, 남편이 29살처럼 생겼다며 손하트", "why_hot": "발언"},
+    {"material": "화 가라앉히는 말을 반복한다는 갱년기 대처법", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "갱년기 다이어트 주스를 직접 만드는 모습",
+    "윷놀이하다 고관절이 삐끗한 순간",
+    "남편에게 손하트를 받는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "신애라이프 방송 속 갱년기 고백 장면"
+  ]
+}
