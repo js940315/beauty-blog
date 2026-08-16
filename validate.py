@@ -587,8 +587,9 @@ def _selftest():
             good_lines += [B * 2 + "1 세안 뒤 3분 안에" + B,
                            B * 2 + "2 목까지 같이 바르기" + B,
                            B * 2 + "3 아침엔 물로만" + B, B * 3]
+    # 논쟁 질문은 이제 한 줄에 들어간다 (INJECT_MAX_CHARS 이하로 줄였다)
     debate = C.DEBATE_POOL[0]
-    good_lines += [debate[:18] + B, debate[18:] + B, B * 3]
+    good_lines += [debate + B, B * 3]
     good_lines += ["#홍길동", "#홍길동근황", "#홍길동미모", "#미모비결",
                    "#관계인물", "#대표작", "#무용가미모", "#무용가관리"]
     body = "\n".join(good_lines)
@@ -632,6 +633,15 @@ def _selftest():
     assert intro_form_error(["그렇게 압니다", "둘째", "셋째"], "D") != ""
     assert intro_form_error(["혹시 하고 계신가요", "둘째", "셋째"], "E") == ""
     assert intro_form_error(["습관이 있습니다", "둘째", "셋째"], "E") != ""
+
+    # 주입 문장 길이 — 30자를 넘으면 4줄이 되어 문장 한가운데에 빈 줄이 박힌다
+    # (2026-08-16 실측 사고: "치워보세요. 몇 개나 / ⠀⠀⠀ / 나왔는지 궁금해요.")
+    for pool_name, pool in (("CLOSING_POOL", C.CLOSING_POOL),
+                            ("DEBATE_POOL", C.DEBATE_POOL),
+                            ("BRIDGE_POOL", C.BRIDGE_POOL)):
+        for s in pool:
+            assert len(s) <= C.INJECT_MAX_CHARS, \
+                f"{pool_name} 문장이 {len(s)}자 — {C.INJECT_MAX_CHARS}자 초과라 단락이 깨진다: {s}"
 
     # 도입 3줄 — 같은 날 중복 판정
     base = "그 말이 나온 자리에서 다들 숟가락을 놨습니다 식단 얘기였어요"
