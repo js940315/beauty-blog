@@ -1,0 +1,58 @@
+{
+  "person": {
+    "name": "남지현",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "포미닛 출신 아이돌, 현재는 바레 강사 겸 운동 관련 사업체 대표",
+    "major_work": "포미닛",
+    "identity_anchor": "포미닛 출신 아이돌로, 현재 바레 강사이자 사업체 대표로 활동하는 남지현"
+  },
+  "namesake_dropped": [
+    "같은 작품 출연자 장나라의 개인 스킨케어·이혼설 관련 기사(공동 출연으로 딸려 들어온 다른 인물 기사)"
+  ],
+  "quotes": [
+    {"speaker": "남지현", "text": "굿파트너2 출연이 불발됐지만 장나라 선배가 있으니 걱정 없다", "context": "MD인터뷰"},
+    {"speaker": "남지현", "text": "운동하면 힘이 난다니까", "context": "바레 강사 전향 인터뷰"},
+    {"speaker": "남지현", "text": "세상 배우길 잘했다", "context": "CEO 근황 인터뷰"}
+  ],
+  "events": [
+    {"summary": "포미닛 해체 후 바레 강사로 전향, 이후 운동 관련 사업체 대표가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "자격증 8개", "meaning": "본인이 취득했다고 밝힌 자격증 개수"},
+    {"value": "16년", "meaning": "데뷔 이후 지금까지의 활동 기간"}
+  ],
+  "related_people": [
+    {"name": "장나라", "relation": "작품 선배", "mentioned_as": "굿파트너에서 함께한 신뢰하는 선배"},
+    {"name": "강훈", "relation": "예능 동료", "mentioned_as": "런닝맨에서 좋아했다고 고백한 상대"}
+  ],
+  "works": [
+    {"title": "굿파트너", "year": null, "costar": "장나라", "scene": "시즌1 하차 후에도 장나라를 믿고 응원한다고 밝힌 상황", "kind": "실제"},
+    {"title": "런닝맨", "year": null, "costar": "강훈", "scene": "강훈이 예전에 좋아했다고 고백한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [
+    "바레 운동을 꾸준히 하며 체형을 관리함",
+    "테니스 등 새로운 운동에도 도전함",
+    "운동 관련 자격증을 8개나 취득함"
+  ],
+  "hot_materials": [
+    {"material": "아이돌에서 바레 강사, CEO로 이어진 커리어 전환", "why_hot": "반전"},
+    {"material": "운동 자격증을 8개나 땄다는 숫자", "why_hot": "낙차"},
+    {"material": "런닝맨에서 강훈이 예전에 좋아했다고 고백한 장면", "why_hot": "장면"},
+    {"material": "굿파트너2 하차에도 장나라를 믿는다고 밝힌 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "바레 스튜디오에서 수업을 진행하는 모습",
+    "런닝맨 녹화 중 강훈의 고백에 반응하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "수영장·풀파티 근황 사진 (매체 촬영 사진)",
+    "카페·일상 룩 소개 기사 (매체 촬영 사진)"
+  ],
+  "notes": "소스가 조선비즈·스타패션 등 매체가 촬영한 몸매·룩 소개 기사 위주라 press_only로 분류하고 축에서 뺐다. sns_materials가 없어 패션 축을 세우기 어려워 커리어 전환·피트니스 축으로 구성함. '꽃다발 트라우마'(유라 관련) 기사는 따돌림 연상 소재라 배제."
+}
