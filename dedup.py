@@ -20,7 +20,16 @@ state.json 에 편당 지문을 남긴다. 본문 전체를 저장하지 않으�
 import hashlib
 import re
 
+import config as C
+
 BR = "⠀"
+
+# 브릿지 풀은 설계상 편마다 그대로 재사용된다(pipeline.py가 두 문장을
+# 그대로 주입하도록 강제한다). 문장 재사용 검사가 이 의도된 반복까지
+# "상투구"로 잡으면 풀이 7개뿐이라 두 편만 있어도 거의 항상 걸린다.
+# 실제로 0817 조여정·예지원 편이 서로 다른 소재인데도 브릿지 두 문장이
+# 겹쳐 반려됐다 — 지문에서 미리 제외한다.
+_BOILERPLATE = {re.sub(r"[^\w가-힣]", "", p) for p in C.BRIDGE_POOL}
 # 본문 유사도를 잴 때 쓰는 n-gram 길이. 4면 조사 변화에도 견딘다.
 NGRAM = 4
 # MinHash 서명 길이. 편당 이만큼의 정수만 저장한다.
@@ -53,7 +62,7 @@ def sentences(body: str):
     out = []
     for s in re.split(r"(?<=[.!?])\s+|(?<=습니다)\s+|(?<=었어요)\s+", flat):
         s = s.strip()
-        if len(_norm(s)) >= 8 and not s.startswith("#"):
+        if not s.startswith("#") and len(_norm(s)) >= 8 and _norm(s) not in _BOILERPLATE:
             out.append(s)
     return out
 
