@@ -1,0 +1,50 @@
+{
+  "person": {
+    "name": "전여빈",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "여우조연상을 수상한 배우",
+    "major_work": "검은 수녀들",
+    "identity_anchor": "'검은 수녀들'에서 송혜교와 호흡을 맞춘 여우조연상 수상 배우 전여빈"
+  },
+  "namesake_dropped": [
+    "남궁민·정수정·장윤주·진영·태연·한혜진·신동엽 등 함께 검색된 다른 연예인 기사",
+    "송혜교 단독 근황·타 작품 기사(전여빈과 무관한 건)"
+  ],
+  "quotes": [
+    {"speaker": "전여빈", "text": "행복하고 값진 귀한 시간이었다", "context": "드라마 종영 소감"},
+    {"speaker": "전여빈", "text": "진짜로 불쾌하다", "context": "근거 없는 소문에 대한 반박"}
+  ],
+  "events": [
+    {"summary": "영화 '검은 수녀들'로 여우조연상을 수상함", "year": null, "confirmed": true},
+    {"summary": "이너뷰티 브랜드의 슬로우에이징 캠페인 앰배서더로 발탁됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "송혜교", "relation": "작품 동료", "mentioned_as": "검은 수녀들에서 함께 연기하며 극찬과 애정을 보인 선배"}
+  ],
+  "works": [
+    {"title": "검은 수녀들", "year": null, "costar": "송혜교", "scene": "송혜교가 직접 상대역으로 추천하고 애정을 드러낸 작품, 이 작품으로 여우조연상 수상", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "송혜교가 직접 상대역으로 추천했다는 사실", "why_hot": "실명"},
+    {"material": "그 작품으로 여우조연상을 수상한 결과", "why_hot": "낙차"},
+    {"material": "근거 없는 소문에 진짜로 불쾌하다고 직접 반박한 발언", "why_hot": "발언"},
+    {"material": "이너뷰티 브랜드 슬로우에이징 캠페인에 발탁된 소식", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "시상식에서 여우조연상을 수상하는 순간",
+    "송혜교와 나란히 작품 홍보에 나선 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "하퍼스 바자·바이린샵 화보 공개 (매체·브랜드 화보)",
+    "데일리룩 소개 기사 (패션 전문 매체 보도)"
+  ],
+  "notes": "'전여빈' 검색에 남궁민·정수정·장윤주·진영·태연·한혜진·신동엽 등 완전히 무관한 연예인 기사가 대거 섞여 있어 전부 배제. 발작·실신 관련 건강 기사는 민감 소재라 사용하지 않음."
+}
