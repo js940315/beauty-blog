@@ -1,0 +1,57 @@
+{
+  "person": {
+    "name": "조보아",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "드라마·영화에서 활동 중인 배우, 11년 만에 영화 '탄금'으로 스크린 복귀",
+    "major_work": "탄금",
+    "identity_anchor": "11년 만에 영화 '탄금'으로 스크린에 복귀한 배우 조보아"
+  },
+  "namesake_dropped": [
+    "어릴 적 사진으로 성형의혹을 잠재웠다는 다른 여배우(실명 불명)",
+    "저탄고지 다이어트로 소개된 배우 한가인·기은세",
+    "수지 관련 다이어트 비교 기사"
+  ],
+  "quotes": [
+    {"speaker": "조보아", "text": "아빠는 치과의사, 딸 둘인 집이라 사랑 많이 받고 자랐다", "context": "가족 배경 인터뷰"},
+    {"speaker": "조보아", "text": "출산 시기는 말 못 한다", "context": "임신 발표 인터뷰"},
+    {"speaker": "조보아", "text": "축하와 응원을 부탁드린다", "context": "득남 소식 발표"},
+    {"speaker": "조보아", "text": "탄금이 제게 왜 중요한 작품이냐면요", "context": "탄금 인터뷰"},
+    {"speaker": "조보아", "text": "11년 전 가시가 마지막이었다, 비중 상관없이 출연하고 싶었다", "context": "탄금 인터뷰, 스크린 복귀 소감"}
+  ],
+  "events": [
+    {"summary": "비연예인과 10월에 직행 결혼함", "year": null, "confirmed": true},
+    {"summary": "결혼 2년 만에 아들을 얻음", "year": null, "confirmed": true},
+    {"summary": "11년 만에 영화 '탄금'으로 스크린에 복귀함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "11년", "meaning": "이전 영화 출연작 이후 스크린 복귀까지 걸린 기간"}
+  ],
+  "related_people": [
+    {"name": "채시라", "relation": "선배 배우", "mentioned_as": "결혼과 득남 소식에 축하를 전한 선배"},
+    {"name": "이동욱", "relation": "작품 동료", "mentioned_as": "과거 함께한 커플을 다시 연기하며 재회한 동료 배우"},
+    {"name": "이재욱", "relation": "작품 동료", "mentioned_as": "탄금에서 함께 호흡을 맞춘 동료 배우"}
+  ],
+  "works": [
+    {"title": "탄금", "year": null, "costar": "이재욱", "scene": "11년 만의 스크린 복귀작으로, 비중과 상관없이 출연을 결심한 작품", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "열애설 한 번 없이 비연예인과 직행 결혼한 선택", "why_hot": "반전"},
+    {"material": "결혼 2년 만에 득남했다는 소식", "why_hot": "낙차"},
+    {"material": "11년 만에 영화로 스크린 복귀했다는 이력", "why_hot": "낙차"},
+    {"material": "비중 상관없이 출연하고 싶었다는 본인 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "결혼과 출산을 거쳐 다시 스크린 앞에 선 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "일상 셀카·화보풍 근황 사진 (매체 촬영·보정 사진)"
+  ],
+  "notes": "김수현 관련 논란 기사는 본인과 무관한 제3자 이슈라 완전히 배제함. 성형의혹·타 배우 다이어트 비교 기사도 동명이인/오염 소스로 제외."
+}
