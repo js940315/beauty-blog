@@ -205,8 +205,10 @@ def run_api(args):
         })
         return
 
-    cta = store.next_cta()
-    print(f"■ 본문 생성... (CTA: {cta[:24]}...)")
+    # cta·closing 은 2026-08-16 사용자 확정으로 폐기됐다.
+    # DB 컬럼 호환을 위해 키만 빈 값으로 남긴다 (pipeline.py와 동일 패턴).
+    cta = ""
+    print("■ 본문 생성...")
     heart = C.CLOSING_POOL[int(date_str.replace("-", "")) % len(C.CLOSING_POOL)]
     body, history, polished = writer.generate_body(
         chosen["title"], fs_text, richness, cta,
@@ -267,7 +269,9 @@ def stage_crawl(args):
     if not items:
         raise SystemExit("소스를 하나도 못 모았습니다. 인물을 바꾸거나 --sort date로 시도하세요.")
     richness = crawler.assess_richness(items)
-    cta = store.next_cta()
+    # cta·closing 은 2026-08-16 사용자 확정으로 폐기됐다.
+    # DB 컬럼 호환을 위해 키만 빈 값으로 남긴다 (pipeline.py와 동일 패턴).
+    cta = ""
     print(f"   {len(items)}건 수집 / richness={richness}")
 
     _dump(wpath(d, "sources.json"), items)

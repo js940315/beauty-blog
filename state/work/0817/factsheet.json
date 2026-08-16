@@ -1,0 +1,19 @@
+{
+  "celeb": "제니",
+  "age": "",
+  "job": "가수 (블랙핑크 멤버)",
+  "weight_before": "",
+  "weight_after": "",
+  "height": "",
+  "duration": "",
+  "foods": ["바세린 바디케어 컬렉션"],
+  "exercises": ["플라잉요가", "필라테스", "아침 찬물 섭취"],
+  "habits": ["화장 걷어내는 미니멀 뷰티(휴일 민낯 스킨케어)", "짠맛을 줄이는 식습관"],
+  "life_events": ["바세린 바디케어 글로벌 앰배서더 발탁 및 캠페인 공개"],
+  "quotes": ["짠맛 차단하라"],
+  "quote_sources": ["한국경제 건강 톡 코너"],
+  "identity_anchor": "블랙핑크 멤버로 활동하는 가수 제니",
+  "namesake_dropped": [],
+  "has_exercise_detail": true,
+  "notes": "구글 뉴스 헤드라인 위주 수집(richness=thin)이라 본문 근거가 얕음. 나이·신장·체중 등 구체 수치는 소스에 없어 비움. 팀 내 재산 비교 기사는 민감 소재라 배제. 바세린 앰배서더 발탁은 뷰티(바디케어) 소재로 활용 가능."
+}

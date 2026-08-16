@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-17",
+  "celeb": "제니",
+  "richness": "thin",
+  "sources": 199,
+  "title": {
+    "title": "11자 복근이라는 여가수, 비결은 특별식이 아니었다",
+    "score": 76,
+    "reasons": [
+      "앞20자 숫자 +30",
+      "앞20자 인물 특정 +14",
+      "앞20자 정보 격차 +18",
+      "단정형 종결 +8",
+      "숫자 1개 +6"
+    ]
+  },
+  "cta": "",
+  "content_lines": 79,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": []
+}
