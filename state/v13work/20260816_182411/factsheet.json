@@ -1,0 +1,57 @@
+{
+  "person": {
+    "name": "김선아",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 53,
+    "age_range": "50대",
+    "career": "20년 넘게 활동한 배우",
+    "major_work": "내 이름은 김삼순",
+    "identity_anchor": "내 이름은 김삼순 주연 배우 김선아"
+  },
+  "namesake_dropped": ["피부질환 다학제 접근을 강조한 김선아 교수(데일리벳 소스)"],
+  "quotes": [
+    {"speaker": "김선아", "text": "더 노력할게요", "context": "팬들과의 근황 인사"},
+    {"speaker": "김선아", "text": "행복했다", "context": "몽정기 출연 배우들과의 골프 모임"},
+    {"speaker": "김선아", "text": "고마워", "context": "몽정기 출연 배우들과 20년 만의 재회"}
+  ],
+  "events": [],
+  "numbers": [
+    {"value": "53세", "meaning": "현재 나이"},
+    {"value": "20년", "meaning": "김삼순 방영 이후 지난 시간"}
+  ],
+  "related_people": [
+    {"name": "이소연", "relation": "친분", "mentioned_as": "골프 라운딩을 함께한 절친"},
+    {"name": "백지영", "relation": "친분", "mentioned_as": "골프 라운딩을 함께한 절친"},
+    {"name": "오윤아", "relation": "친분", "mentioned_as": "골프 라운딩을 함께한 절친"},
+    {"name": "이윤미", "relation": "친분", "mentioned_as": "20년 지기로 골프를 함께 즐기는 사이"}
+  ],
+  "works": [
+    {"title": "내 이름은 김삼순", "year": null, "costar": "", "scene": "20년이 지나도 회자되는 명장면이 여전히 화제가 됨", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "삼순이 시절보다 지금이 더 동안이라는 평가가 나옴",
+    "53세에도 스타일이 종잡을 수 없을 만큼 변화무쌍하다는 평가를 받음"
+  ],
+  "care_habits": [
+    "복근 단련 관련 소품 사진을 본인이 직접 올림"
+  ],
+  "hot_materials": [
+    {"material": "삼순이 때보다 지금이 더 동안이라는 낙차", "why_hot": "낙차"},
+    {"material": "53세인데 스타일이 종잡을 수 없다는 반응", "why_hot": "반전"},
+    {"material": "20년 전 김삼순 명장면이 지금도 회자됨", "why_hot": "장면"},
+    {"material": "복근 단련 사진을 본인이 직접 공개함", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "20년 전 김삼순 속 장면이 지금도 화제로 소환되는 순간"
+  ],
+  "sns_materials": [
+    "복근 단련 효과가 엿보이는 소품 사진을 셀프로 올린 게시물"
+  ],
+  "press_only_materials": [
+    "수영장·비키니 화보성 사진 (파파라치성 매체 보도)",
+    "다양한 데일리룩 소개 기사 (패션 전문 매체 보도)",
+    "골프복 패션 스냅 (매체 촬영 사진)"
+  ]
+}
