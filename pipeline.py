@@ -376,10 +376,17 @@ def stage_body():
     # 예비 후보 저장 (2~10위).
     # 라벨·번호 없이 제목만, 빈 줄 간격 — 복사 붙여넣기 최우선 (사용자 확정 2026-08-05).
     # 화력·후킹 라벨이 필요하면 state/v13work/<세션>/ranked.json 에 그대로 있다.
-    lines = ["[확정]", "", top["title"], "", "─── 예비 ───"]
+    # out_dir 을 먼저 잡는다 — 첫 줄에 출처(날짜·슬롯)를 박아야 하기 때문이다.
+    # 2026-08-16: 예비제목.txt 는 홈판 안에 100개 넘게 전부 같은 이름이고 메모장은
+    # 탭에 파일명만 보여준다. 발행 끝난 슬롯 폴더는 지워지는데 메모장은 세션 복원으로
+    # 그 탭을 계속 들고 있어서, 이미 사라진 어제 파일이 오늘 것처럼 떠 있다.
+    # 0번 본문.txt 에는 넣지 않는다 — 통째로 복사해 발행하는 파일이다.
+    out_dir = _alloc_outdir(fs["person"]["name"])
+    _p = os.path.abspath(out_dir).replace("\\", "/").split("/")
+    _o = f"패션비버 {_p[-2]}-{_p[-1]}" if len(_p) >= 2 else "패션비버"
+    lines = [f"[{_o} · 확정]", "", top["title"], "", "─── 예비 ───"]
     for t in ranked[1:]:
         lines += ["", t["title"]]
-    out_dir = _alloc_outdir(fs["person"]["name"])
     _write(os.path.join(out_dir, "예비제목.txt"), "\n".join(lines) + "\n")
     _jdump(os.path.join(d, "ranked.json"), ranked)
     _write(os.path.join(d, "OUTDIR"), out_dir)

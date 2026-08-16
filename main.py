@@ -133,7 +133,14 @@ def _finalize(d, body, richness, meta, chosen, polish_ok):
     if os.path.exists(ranked_path):
         with open(ranked_path, encoding="utf-8") as f:
             _ranked = json.load(f)
-        lines = ["[확정]", "", chosen["title"], "", "─── 예비 ───"]
+        # 첫 줄에 출처(블로그·날짜·슬롯)를 박는다. 2026-08-16: 예비제목.txt 는
+        # 홈판 안에 100개 넘게 전부 같은 이름이고 메모장은 탭에 파일명만 보여준다.
+        # 발행 끝난 슬롯 폴더는 지워지는데 메모장은 세션 복원으로 그 탭을 계속
+        # 들고 있어서, 이미 사라진 어제 파일이 오늘 것처럼 떠 있다.
+        # 0번 본문.txt 에는 넣지 않는다 — 통째로 복사해 발행하는 파일이다.
+        _p = os.path.abspath(d).replace("\\", "/").split("/")
+        _o = f"패션비버 {_p[-2]}-{_p[-1]}" if len(_p) >= 2 else "패션비버"
+        lines = [f"[{_o} · 확정]", "", chosen["title"], "", "─── 예비 ───"]
         for t in _ranked:
             if t["title"] != chosen["title"] and t.get("score", 0) > -900:
                 lines += ["", t["title"]]
