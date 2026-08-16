@@ -355,7 +355,7 @@ BODY_USER = """\
 
 {factsheet}
 
-**분량 — 네이버 글자수세기 공백제외 기준 850~950자 (제목·해시태그 제외)**
+**분량 — 네이버 글자수세기 공백제외 기준 {chars_min}~{chars_max}자 (제목·해시태그 제외)**
 네이버는 점자 빈칸도 글자로 센다. 검증기가 같은 방식으로 실제로 센다.
 - 가장 흔한 실패: 챕터 본문을 2줄 문단 4개(8줄)로 끝내는 것. 그러면 600자대에서 끝난다.
 - 챕터 본문은 최소 12줄. 3줄 문단이 챕터당 최소 2개는 있어야 한다.
@@ -433,5 +433,10 @@ def body_user(title, factsheet_text, richness, cta, has_exercise, celeb, heart,
         bridges=" / ".join(bridges),
         celeb=celeb,
         tags=C.HASHTAG_COUNT,
+        # ⚠️ 분량은 반드시 config 에서 끌어온다. 예전엔 프롬프트에 850~950 이
+        #    하드코딩돼 있어서 config 를 900~1000 으로 올려도 모델은 계속
+        #    850~950 을 목표로 썼다. 0816 방 1 이 868자로 나간 원인이다.
+        chars_min=(C.THIN_CHARS_MIN if richness == "thin" else C.BODY_CHARS_MIN),
+        chars_max=C.BODY_CHARS_MAX,
         richness_note=note,
     )

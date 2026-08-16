@@ -311,6 +311,10 @@ def _make_c_brief(d, fs, title, marker=""):
               .replace("{format_name}", fmt["name"])
               .replace("{format_open}", fmt["open"])
               .replace("{format_skeleton}", fmt["skeleton"])
+              # 분량은 config 에서만 끌어온다. 프롬프트에 숫자를 박아두면
+              # config 를 고쳐도 모델은 옛 숫자를 목표로 쓴다 (0816 실측 사고).
+              .replace("{chars_min}", str(CFG.BODY_CHARS_MIN))
+              .replace("{chars_max}", str(CFG.BODY_CHARS_MAX))
               .replace("{bridge_picks}", " / ".join(bridges))
               .replace("{debate_pick}", debate)
               .replace("{closing_pick}", closing)
