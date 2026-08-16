@@ -502,11 +502,13 @@ def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
         errs.append("스크롤 유인 블록 없음 — 번호 리스트 3줄(숫자 뒤 점자 들여쓰기) "
                     "또는 ❌/⭕ 대비 블록을 1개 넣어라. 눈이 걸려야 체류가 붙는다")
 
-    # §5 논쟁 질문 — 의견이 갈려야 댓글이 달린다
-    if debate and re.sub(r"\s", "", debate) not in re.sub(r"\s", "", visible_text):
-        errs.append(f"논쟁 질문 누락 — 마지막에서 두 번째 블록에 넣어라: {debate}")
+    # 반응 유도 장치 금지 (2026-08-16 사용자 확정으로 논쟁 질문·행동 지시 폐기).
+    # 독자는 시키는 걸 알아채고, 알아채는 순간 창을 닫는다.
+    for p in C.NUDGE_PHRASES:
+        if p in visible_text:
+            errs.append(f"반응 유도 문구: '{p}' — 시키지 말고 이야기로 자연스럽게 맺어라")
 
-    # §5 하트 구걸 금지 (예전 규격은 ❤ 를 오히려 강제했다)
+    # 하트 구걸 금지 (예전 규격은 ❤ 를 오히려 강제했다)
     if "❤" in body:
         errs.append("하트 구걸 문구 — 폐지됐다. 행동 지시 + 경험 요청으로 마감해라")
 

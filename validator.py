@@ -295,6 +295,11 @@ def validate(text: str, richness: str = "normal", cta: str = None, celeb: str = 
     if numbered < 3 and "❌" not in full and "⭕" not in full:
         problems.append("스크롤 유인 블록 없음 — 번호 리스트 3줄 또는 ❌/⭕ 대비 블록")
 
+    # 15. 반응 유도 금지 (2026-08-16 사용자 확정으로 마무리 장치 폐기)
+    for p in C.NUDGE_PHRASES:
+        if p in full:
+            problems.append(f"반응 유도 문구: {p} — 시키지 말고 이야기로 자연스럽게 맺어라")
+
     return problems
 
 

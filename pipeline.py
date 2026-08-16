@@ -296,10 +296,15 @@ def _make_c_brief(d, fs, title, marker=""):
     plan = _jload(os.path.join(d, "slot.json")) or slot_plan(next_slot())
     fmt = CFG.FORMAT_SPECS[plan["format"]]
 
-    debate = _pool_pick(CFG.DEBATE_POOL, [p.get("cta_used") for p in recent])
-    closing = _pool_pick(CFG.CLOSING_POOL, [p.get("closing_used") for p in recent])
-    # 브릿지는 2개를 서로 다르게 뽑는다 (§4-2)
-    bridges = random.sample(list(CFG.BRIDGE_POOL), CFG.BRIDGE_MIN)
+    # 브릿지 — 글 안에서 2개를 다르게 뽑는 것만으로는 부족하다.
+    # 2026-08-16 실측: "문제는 그다음이었습니다" 가 같은 날 5편 중 4편에 깔렸다.
+    # 최근 글들이 이미 쓴 것을 빼고 남은 것에서 고른다.
+    used_recent = {b for p in _state()["recent_posts"][-6:]
+                   for b in (p.get("bridges_used") or [])}
+    avail = [b for b in CFG.BRIDGE_POOL if b not in used_recent]
+    if len(avail) < CFG.BRIDGE_MIN:          # 풀을 다 돌았으면 처음부터
+        avail = list(CFG.BRIDGE_POOL)
+    bridges = random.sample(avail, CFG.BRIDGE_MIN)
     conn = random.choice(conn_pool) if conn_pool else ""
 
     prompt = _read(os.path.join(PROMPTS, "C_body.md"))
@@ -316,18 +321,17 @@ def _make_c_brief(d, fs, title, marker=""):
               .replace("{chars_min}", str(CFG.BODY_CHARS_MIN))
               .replace("{chars_max}", str(CFG.BODY_CHARS_MAX))
               .replace("{bridge_picks}", " / ".join(bridges))
-              .replace("{debate_pick}", debate)
-              .replace("{closing_pick}", closing)
               .replace("{connector_pick}", conn))
     _write(os.path.join(d, "C_지시서.md"), prompt)
     _jdump(os.path.join(d, "meta.json"),
            {"title": title, "slot": plan["slot"], "format": plan["format"],
-            "cta": debate, "closing": closing, "bridges": bridges,
+            # cta·closing 은 2026-08-16 사용자 확정으로 폐기됐다.
+            # DB 컬럼 호환을 위해 키만 빈 값으로 남긴다.
+            "cta": "", "closing": "", "bridges": bridges,
             "connector": conn, "marker": marker})
     print(f"■ 확정 제목: {title}")
     print(f"   슬롯 {plan['slot']} / 포맷 {plan['format']}({fmt['name']})")
-    print(f"   주입: 논쟁질문 「{debate}」")
-    print(f"         마감 「{closing}」")
+    print(f"   주입: 브릿지 「{' / '.join(bridges)}」")
     print("   에이전트가 할 일: C_지시서.md 를 전부 읽고 body.txt 작성 (평문 아님 — 점자 포함 최종형)")
     print("   그 다음: python pipeline.py --stage finish")
 
@@ -467,9 +471,13 @@ def stage_finish():
         body, fs,
         {"recent_endings": [p.get("ending_used") for p in
                             st["recent_posts"][-3:] if p.get("ending_used")]},
-        debate=meta.get("cta", ""),     # 코드가 주입한 논쟁 질문
         fmt=meta.get("format", ""),     # 슬롯이 정한 포맷 → 도입 문형 판정
         same_day_intros=same_day_intros)
+
+    # 유사문서 검사 — 이미 발행한 글과 겹치면 네이버가 검색에서 걷어낸다.
+    # (2026-08-16 사용자 확정: "중복유사문서로 판명나면 절대 안된다")
+    import dedup
+    errs += dedup.check(meta["title"], body, st["recent_posts"])
 
     # 제목 훅 회수 검증 — 어그로만 걸고 본문이 딴소리하면 낚시로 읽힌다.
     # 제목의 숫자와 인용구가 본문에 실제로 있는지 대조한다 (일일 시스템과 동일 원칙).
@@ -557,6 +565,11 @@ def stage_finish():
         "format": meta.get("format", ""),
         # 도입 3줄을 남긴다 — 다음 슬롯이 이것과 겹치는지 대조한다 (§2)
         "intro": " ".join(V.intro_lines(body)),
+        # 유사문서 지문 — 본문 전체가 아니라 서명·문장해시·제목골격만 남긴다
+        "fp": __import__("dedup").fingerprint(title, body),
+        # 브릿지 로테이션용. 예전엔 저장을 안 해서 슬롯끼리 겹쳤다
+        # (2026-08-16 실측: "문제는 그다음이었습니다" 가 5편 중 4편에 깔렸다)
+        "bridges_used": meta.get("bridges", []),
         "ending_template": meta.get("ending_template", ""),
         "ending_used": used_ending,
         "cta_used": meta.get("cta", ""),
