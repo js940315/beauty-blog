@@ -26,6 +26,13 @@ _VAGUE_TAIL = re.compile(
 )
 
 
+# 한국어 의문 종결어미. 물음표 없이 끝나는 질문을 잡는다.
+_Q_END = re.compile(
+    r"(?:까요|나요|을까|ㄹ까|일까|는지|던가요|습니까|ㅂ니까|겠어요|가요)"
+    r"\s*[.?!]*\s*$"
+)
+
+
 def intro_lines(body: str, n: int = 3) -> list:
     """도입 n줄 (해시태그·빈 줄 제외한 내용 줄 기준)."""
     out = []
@@ -80,7 +87,10 @@ def intro_form_error(intro3: list, fmt: str) -> str:
         ok = bool(re.search(r"\d", joined))
         miss = "도입에 결과 수치(숫자)를 넣어라"
     elif kind == "question":
-        ok = "?" in joined
+        # 물음표만 보면 안 된다. 한국어 의문문은 "답일까요" 처럼 물음표 없이
+        # 성립하고, 이 블로그 문체가 실제로 그렇게 쓴다. 물음표만 요구하면
+        # 멀쩡한 도입이 계속 반려돼 무한 재생성이 난다 (2026-08-14 샘플에서 실측).
+        ok = ("?" in joined) or any(_Q_END.search(l) for l in intro3)
         miss = "도입을 질문으로 열어라"
     elif kind == "words":
         ok = any(w in joined for w in test.get("words", ()))
@@ -614,6 +624,9 @@ def _selftest():
     assert intro_form_error(["48kg을 지킨다", "둘째", "셋째"], "B") == ""
     assert intro_form_error(["체중을 지킨다", "둘째", "셋째"], "B") != ""
     assert intro_form_error(["맞을까요?", "둘째", "셋째"], "C") == ""
+    # 물음표 없는 한국어 의문문도 질문으로 인정해야 한다 (2026-08-14 실측)
+    assert intro_form_error(["하루 한 끼가 답일까요", "둘째", "셋째"], "C") == ""
+    assert intro_form_error(["어느 쪽이 나은가요", "둘째", "셋째"], "C") == ""
     assert intro_form_error(["맞습니다", "둘째", "셋째"], "C") != ""
     assert intro_form_error(["다들 그렇게 압니다", "둘째", "셋째"], "D") == ""
     assert intro_form_error(["그렇게 압니다", "둘째", "셋째"], "D") != ""
