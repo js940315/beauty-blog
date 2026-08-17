@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "정유미",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "예능 활동 7년째, 로맨틱코미디 복귀로 화제",
+    "major_work": "",
+    "identity_anchor": "배우 정유미, 강타와 부부로 알려진 스타"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "정유미", "text": "5일 정도는 스킨 로션 안 발라도 돼", "context": "v.daum.net, 꽃보다청춘"},
+    {"speaker": "정유미", "text": "화장은 했잖아", "context": "매일경제, 꽃보다청춘"},
+    {"speaker": "최우식", "text": "오프닝은 예뻐야지", "context": "OSEN, 꽃보다청춘"},
+    {"speaker": "정유미", "text": "윰블리 즐기고 있어", "context": "xportsnews, 인터뷰"}
+  ],
+  "events": [
+    {"summary": "청룡영화상 여우주연상 관련 악플에 짧고 담담한 대응으로 화제를 모았다", "year": null, "confirmed": true},
+    {"summary": "로맨틱코미디 복귀작으로 10년 만에 팬들 사이에서 큰 화제를 모았다", "year": null, "confirmed": true},
+    {"summary": "예능 활동 7년째를 맞으며 연기에도 도움이 된다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "5일", "meaning": "스킨 로션을 안 발라도 괜찮다고 말한 기간"},
+    {"value": "7년", "meaning": "예능 활동을 이어온 기간"},
+    {"value": "10년", "meaning": "로맨틱코미디 복귀까지 걸린 기간"}
+  ],
+  "related_people": [
+    {"name": "강타", "relation": "남편", "mentioned_as": "강타"},
+    {"name": "최우식", "relation": "예능 동료", "mentioned_as": "최우식"}
+  ],
+  "works": [
+    {"title": "꽃보다청춘", "year": null, "costar": "최우식",
+     "scene": "민낯에 가까운 차림으로 나오자 최우식이 화장은 해야지라고 놀렸고 정유미는 화장은 했다고 되받아친 장면",
+     "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "여배우인데 피부관리를 포기했다는 말로 화제를 모았다",
+    "5일 정도는 스킨 로션을 안 발라도 된다고 말할 만큼 관리에 얽매이지 않는다",
+    "동안으로 꼽히는 배우들을 다루는 뷰티 특집에 이름을 올렸다"
+  ],
+  "care_habits": [
+    "건강식을 챙겨 먹는 모습이 공개돼 화제였다",
+    "특정 음식을 끊는 다이어트 비결을 실천한 스타 중 한 명으로 꼽혔다"
+  ],
+  "hot_materials": [
+    {"material": "피부관리를 포기했다는 파격 발언", "why_hot": "발언"},
+    {"material": "최우식과의 등교룩 팩폭 공방", "why_hot": "장면"},
+    {"material": "여우주연상 관련 악플에 담담하게 대처한 것", "why_hot": "반전"},
+    {"material": "예능 7년째 윰블리를 즐긴다는 근황", "why_hot": "발언"},
+    {"material": "뷰티 특집에 이름을 올린 것", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "꽃보다청춘 촬영장에서 최우식과 화장 공방을 벌인 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "올블랙 슬랙스 차림의 화보성 사진"
+  ]
+}
