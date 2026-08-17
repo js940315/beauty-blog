@@ -1,0 +1,52 @@
+{
+  "person": {
+    "name": "신예은",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "성균관대 졸업을 앞둔 배우",
+    "major_work": "닥터 섬보이, 정년이, 더 글로리",
+    "identity_anchor": "닥터 섬보이, 더 글로리 등에 출연한 배우 신예은"
+  },
+  "namesake_dropped": ["몽골 화산 사고로 사망한 여행 인플루언서 신씨"],
+  "quotes": [
+    {"speaker": "신예은", "text": "밋밋한 여름 룩엔 모자가 치트키", "context": "스타패션, 스타일 제안"},
+    {"speaker": "유재석", "text": "너 다음주에도 나와라", "context": "오마이스타, 런닝맨"}
+  ],
+  "events": [
+    {"summary": "패션 브랜드 잇미샤의 2026 가을 화보를 공개했다", "year": null, "confirmed": true},
+    {"summary": "브랜드 세터가 신예은을 멀티 브랜드 모델 전략의 일환으로 발탁했다", "year": null, "confirmed": true},
+    {"summary": "모자를 활용한 캡과 미니백 스타일링을 직접 제안했다", "year": null, "confirmed": true},
+    {"summary": "퍼스널컬러 개념이 무의미할 만큼 모든 색이 잘 어울린다는 평가를 받았다", "year": null, "confirmed": true},
+    {"summary": "런닝맨에서 전소민의 후임 강력 후보로 거론되며 유재석에게 컴백 요청을 받았다", "year": null, "confirmed": true},
+    {"summary": "성균관대 졸업을 앞두고 도와달라는 글을 남겼다", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "유재석", "relation": "런닝맨 진행자", "mentioned_as": "유재석"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "퍼스널컬러 개념이 무의미할 만큼 모든 색이 잘 어울린다는 평가를 받았다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "잇미샤 2026 가을 화보 공개", "why_hot": "낙차"},
+    {"material": "세터 멀티 브랜드 모델 전략 발탁", "why_hot": "낙차"},
+    {"material": "모자를 활용한 스타일링 팁 직접 제안", "why_hot": "발언"},
+    {"material": "퍼스널컬러 개념 붕괴라는 평가", "why_hot": "반전"},
+    {"material": "유재석이 런닝맨 컴백을 요청한 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "런닝맨 현장에서 유재석이 컴백을 요청한 장면"
+  ],
+  "sns_materials": [
+    "본인이 제안한 캡과 미니백 스타일링 콘텐츠"
+  ],
+  "press_only_materials": [
+    "잇미샤 2026 가을 화보",
+    "세터 브랜드 화보"
+  ]
+}
