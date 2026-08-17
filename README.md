@@ -10,6 +10,7 @@ prompts 의 리스크 규칙, 사진 버킷 셋만 뷰티판이다.
 ```
 run.ps1 (윈도우) / run.sh → main.py
   crawler.py       네이버 검색 API 또는 Google News RSS로 소스 수집
+  popularity.py    수집한 소재를 실제 좋아요 수 순으로 정렬 (벤치마킹)
   store.py         인물 45일 쿨다운 / 기사·CTA 중복 차단 (SQLite)
   prompts.py       팩트시트·제목·본문 프롬프트 + 리스크 규칙  ★규칙은 여기 한 곳
   titles.py        제목 10개 → 점수 → 1개 확정   ★핵심
@@ -222,6 +223,7 @@ python validator.py         # 망가진 입력의 검출·복구 + 안내문 경
 python store.py             # DB 초기화 + 쿨다운/CTA 상태
 python crawler.py 전지현    # 실제 수집 (키 없으면 구글 뉴스로 폴백)
 python images.py            # 팩트시트 → 사진 버킷 선택 로직
+python popularity.py "https://blog.naver.com/{id}/{postNo}"   # 좋아요 조회 (검색 키 불필요)
 ```
 
 ## ⚠️ 이 주제 고유의 리스크

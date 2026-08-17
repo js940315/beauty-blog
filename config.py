@@ -33,6 +33,17 @@ QUERY_SUFFIXES = ("피부 관리", "동안 비결", "인스타", "패션",
 #   google : Google News RSS. 키가 필요 없지만 description이 제목 복사본이라
 #            사실상 헤드라인만 얻는다 → richness가 thin으로 떨어지는 게 정상이다.
 SOURCE_MODE = "auto"         # auto | naver | google
+
+# ── 벤치마킹(좋아요 순 정렬) ─────────────────────────────────────────────
+# 수집 순서는 인기와 무관한데 summarize() 가 앞 25건만 프롬프트에 넣는다.
+# 네이버 블로그 소재에 실제 좋아요 수를 붙여 정렬한다. 근거는 popularity.py 참고.
+# 정렬만 한다 — 좋아요가 적다고 버리지 않는다(2026-08-17 사용자 확정).
+# 소재를 버리면 하루 10편을 못 채울 위험이 생긴다.
+POPULARITY_ENABLED = True
+LIKE_LOOKUP_MAX = 40         # 좋아요 조회 상한. 배치가 안 돼 포스트당 1요청이다
+LIKE_SLEEP_MS = 150          # 요청 간격. 40건 × 150ms ≈ 6초 + 응답시간
+LIKE_TIMEOUT_S = 8.0         # 느린 응답에 그날 작업이 묶이지 않게 짧게 잡는다
+
 GOOGLE_NEWS_DAYS = 1095      # 이보다 오래된 기사는 버린다. 뷰티 루틴·화보 기사는 오래 가서 넉넉히 잡는다
 GOOGLE_NEWS_PER_QUERY = 40   # 쿼리당 상한
 # 구글 뉴스는 관련도순이라 인물 쿼리만으론 옛 광고성 기사가 위로 온다.

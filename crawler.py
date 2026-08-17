@@ -197,8 +197,21 @@ def drop_namesakes(celeb: str, items):
     return kept
 
 
+def _finish(celeb: str, items):
+    """동명이인을 걸러낸 뒤 좋아요 순으로 정렬한다.
+
+    정렬이 여기 붙는 이유: summarize() 가 앞 25건만 프롬프트에 넣으므로
+    순서가 곧 선별이다. 실패하면 원래 순서가 그대로 나온다(popularity.rank).
+    """
+    import popularity
+    return popularity.rank(drop_namesakes(celeb, items))
+
+
 def collect(celeb: str, sort: str = None, display: int = None, mode: str = None):
-    """한 인물에 대한 소스를 모은다. 이미 쓴 링크·동명이인 기사는 걸러낸다."""
+    """한 인물에 대한 소스를 모은다. 이미 쓴 링크·동명이인 기사는 걸러낸다.
+
+    반환 순서는 좋아요 수 기준이다(뉴스/블로그 자리 배치는 유지).
+    """
     sort = sort or C.DEFAULT_SORT
     display = display or C.NAVER_DISPLAY
     mode = mode or C.SOURCE_MODE
@@ -206,9 +219,9 @@ def collect(celeb: str, sort: str = None, display: int = None, mode: str = None)
     seen_links = set()
 
     if mode == "naver":
-        return drop_namesakes(celeb, _collect_naver(celeb, sort, display, seen_links))
+        return _finish(celeb, _collect_naver(celeb, sort, display, seen_links))
     if mode == "google":
-        return drop_namesakes(celeb, _collect_google(celeb, seen_links))
+        return _finish(celeb, _collect_google(celeb, seen_links))
     if mode != "auto":
         raise ValueError(f"알 수 없는 수집 경로: {mode}")
 
@@ -219,14 +232,14 @@ def collect(celeb: str, sort: str = None, display: int = None, mode: str = None)
     if naver_ready():
         items = _collect_naver(celeb, sort, display, seen_links)
         if items:
-            return drop_namesakes(celeb, items)
+            return _finish(celeb, items)
         print("  [알림] 네이버에서 한 건도 못 받았습니다 (키·스코프·한도를 확인하세요). "
               "Google News RSS로 전환합니다.")
         seen_links.clear()
     else:
         print("  [알림] 네이버 키가 없어 Google News RSS로 수집합니다. "
               "헤드라인만 얻으므로 근거가 얇습니다(글이 짧게 나갑니다).")
-    return drop_namesakes(celeb, _collect_google(celeb, seen_links))
+    return _finish(celeb, _collect_google(celeb, seen_links))
 
 
 def assess_richness(items) -> str:
