@@ -1,0 +1,59 @@
+{
+  "person": {
+    "name": "백진희",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대 중반",
+    "career": "데뷔 19년 차 배우",
+    "major_work": "금사월",
+    "identity_anchor": "데뷔 19년 차 배우 백진희"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "백진희", "text": "명품 종류별로 다 샀지만 불편해서 결국 당근했다", "context": "네이트, 지니이즈백"},
+    {"speaker": "백진희", "text": "명품 운동화·가방, 비싼데 불편해 에코백 들고 다녀", "context": "starnewskorea.com, 지니이즈백"},
+    {"speaker": "백진희", "text": "명품 불편, 다시는 안 산다", "context": "v.daum.net, 지니이즈백"},
+    {"speaker": "백진희", "text": "20대 때는 좋았는데 편한 게 최고", "context": "스포츠조선, 지니이즈백"},
+    {"speaker": "백진희", "text": "오늘 콘셉트는 부내", "context": "미주중앙일보, 지니이즈백"}
+  ],
+  "events": [
+    {"summary": "샤넬과 에르메스 제품을 중고 거래로 처분했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "7년 연애했던 배우 윤현민과 결별했다", "year": null, "confirmed": true},
+    {"summary": "아침마다 영양제와 음료로 부기를 관리한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "찜질방에서 힐링하며 피부가 좋아졌다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "19년", "meaning": "백진희의 데뷔 후 활동 기간"},
+    {"value": "7년", "meaning": "윤현민과 연애했던 기간"}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "요가로 다져진 몸매라는 평가를 받았다",
+    "찜질방에서 힐링한 뒤 피부가 좋아졌다고 밝혔다"
+  ],
+  "care_habits": [
+    "아침마다 영양제를 먹고 커피로 부기를 관리한다고 밝혔다",
+    "아침마다 특정 음료로 부기를 뺀다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "명품을 종류별로 다 샀지만 결국 중고 거래로 처분한 것", "why_hot": "반전"},
+    {"material": "샤넬·에르메스를 처분하고 에코백을 든다는 것", "why_hot": "발언"},
+    {"material": "명품 대신 편한 걸 택한다는 솔직한 발언", "why_hot": "발언"},
+    {"material": "19년 차 배우라는 반전 경력", "why_hot": "반전"},
+    {"material": "아침마다 부기 관리하는 루틴", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "명품을 당근마켓으로 처분하는 모습"
+  ],
+  "sns_materials": [
+    "본인 콘텐츠 지니이즈백에서 명품을 처분하며 남긴 소감",
+    "본인 콘텐츠 지니이즈백에서 에코백을 든 모습",
+    "본인 콘텐츠 지니이즈백에서 부내 콘셉트를 밝힌 게시물"
+  ],
+  "press_only_materials": [
+    "글래머러스한 드레스 자태의 화보"
+  ]
+}
