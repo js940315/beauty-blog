@@ -272,10 +272,46 @@ def assess_richness(items) -> str:
     return "thin" if hits < 12 else "normal"
 
 
+def _balance_by_query(items, limit):
+    """쿼리별로 돌아가며 뽑는다. 앞 쿼리가 자리를 다 먹는 것을 막는다.
+
+    2026-08-18 발견(diet-blog 에서 같은 결함을 찾고 여기도 확인했다):
+    수집기는 QUERY_SUFFIXES 를 순서대로 돌며 append 하는데, 쿼리 하나가 최대
+    60건(30건 × news/blog)을 쌓는다. 그래서 items[:25] 는 **사실상 첫 쿼리만** 담는다.
+
+    2026-08-13 에 "작품 관계형 제목의 재료가 없다"며 명장면·명대사 재조명·
+    상대역 케미·예능 출연 4개를 추가했는데, 그것들이 5~8번째라 **프롬프트에 한 건도
+    들어가지 않았다.** 쿼리만 늘고 재료는 5일간 그대로였다.
+
+    라운드로빈으로 25칸을 모든 쿼리가 나눠 갖게 한다. 수집량·토큰은 그대로다.
+    """
+    buckets = {}
+    order = []
+    for it in items:
+        q = it.get("query") or "_"
+        if q not in buckets:
+            buckets[q] = []
+            order.append(q)
+        buckets[q].append(it)
+    out, i = [], 0
+    while len(out) < limit:
+        added = False
+        for q in order:
+            if i < len(buckets[q]):
+                out.append(buckets[q][i])
+                added = True
+                if len(out) >= limit:
+                    break
+        if not added:
+            break
+        i += 1
+    return out
+
+
 def summarize(items, limit=25):
     """프롬프트에 넣을 소스 묶음. 너무 길면 자른다."""
     out = []
-    for i, it in enumerate(items[:limit], 1):
+    for i, it in enumerate(_balance_by_query(items, limit), 1):
         head = it.get("media") or it["source"]
         line = f"[{i}] ({head}) {it['title']}"
         desc = (it.get("desc") or "").strip()
