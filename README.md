@@ -10,6 +10,8 @@ prompts 의 리스크 규칙, 사진 버킷 셋만 뷰티판이다.
 ```
 run.ps1 (윈도우) / run.sh → main.py
   crawler.py       네이버 검색 API 또는 Google News RSS로 소스 수집
+  popularity.py    수집한 소재를 실제 좋아요 수 순으로 정렬
+  benchmark.py     경쟁 블로그 RSS + 좋아요로 "지금 먹히는 소재" 파악 (검색 키 불필요)
   store.py         인물 45일 쿨다운 / 기사·CTA 중복 차단 (SQLite)
   prompts.py       팩트시트·제목·본문 프롬프트 + 리스크 규칙  ★규칙은 여기 한 곳
   titles.py        제목 10개 → 점수 → 1개 확정   ★핵심
@@ -222,7 +224,22 @@ python validator.py         # 망가진 입력의 검출·복구 + 안내문 경
 python store.py             # DB 초기화 + 쿨다운/CTA 상태
 python crawler.py 전지현    # 실제 수집 (키 없으면 구글 뉴스로 폴백)
 python images.py            # 팩트시트 → 사진 버킷 선택 로직
+python popularity.py "https://blog.naver.com/{id}/{postNo}"   # 좋아요 조회 (검색 키 불필요)
+python benchmark.py         # 경쟁 블로그에서 지금 먹히는 소재 상위 15 (검색 키 불필요)
+python benchmark.py 한소희  # 그 인물이 등장한 벤치마크 글만
 ```
+
+## 네이버 검색 API 가 막혔다 (2026-08-17 확인)
+
+2026-07-31 로 **개발자센터의 검색 API 신규 신청이 종료**됐다. 기존 키 보유자만
+2027-06-30 까지 쓸 수 있고, 새 프로젝트는 NAVER API HUB(네이버 클라우드)로 가야 한다.
+
+지금 이 저장소에는 `.env` 가 없어 키도 없다. 그래서 `crawler.py` 는 Google News
+RSS 폴백으로 도는데, 그건 제목만 주므로 `richness=thin` 이 되고 글이 짧게 나간다
+(실측: 4건 수집 / thin).
+
+`benchmark.py` 는 그 상황에서도 쓸 수 있게 만들었다 — RSS 와 좋아요 API 는
+로그인·키가 모두 불필요하다. 블로그 9곳에서 180편을 모아 좋아요 순으로 준다.
 
 ## ⚠️ 이 주제 고유의 리스크
 

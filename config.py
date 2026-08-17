@@ -33,6 +33,41 @@ QUERY_SUFFIXES = ("피부 관리", "동안 비결", "인스타", "패션",
 #   google : Google News RSS. 키가 필요 없지만 description이 제목 복사본이라
 #            사실상 헤드라인만 얻는다 → richness가 thin으로 떨어지는 게 정상이다.
 SOURCE_MODE = "auto"         # auto | naver | google
+
+# ── 벤치마킹(좋아요 순 정렬) ─────────────────────────────────────────────
+# 수집 순서는 인기와 무관한데 summarize() 가 앞 25건만 프롬프트에 넣는다.
+# 네이버 블로그 소재에 실제 좋아요 수를 붙여 정렬한다. 근거는 popularity.py 참고.
+# 정렬만 한다 — 좋아요가 적다고 버리지 않는다(2026-08-17 사용자 확정).
+# 소재를 버리면 하루 10편을 못 채울 위험이 생긴다.
+POPULARITY_ENABLED = True
+LIKE_LOOKUP_MAX = 40         # 좋아요 조회 상한. 배치가 안 돼 포스트당 1요청이다
+LIKE_SLEEP_MS = 150          # 요청 간격. 40건 × 150ms ≈ 6초 + 응답시간
+LIKE_TIMEOUT_S = 8.0         # 느린 응답에 그날 작업이 묶이지 않게 짧게 잡는다
+
+# ── 벤치마크 블로그 (검색 키 없이 RSS 로 읽는다) ──────────────────────────
+# 2026-07-31 로 네이버 개발자센터 검색 API 신규 신청이 종료됐다. 키가 없으면
+# Google News 폴백뿐이고 그건 제목만 준다(richness=thin). RSS 는 키가 필요 없다.
+#
+# 목록은 실측으로 정했다(2026-08-17). 후보 22곳의 최근 5편 좋아요 중앙값을 재고
+# 셀럽패션·스타패션 계열만 남겼다. 괄호는 (좋아요 중앙값 / 최고).
+#   jayuyu        제인 블로그        셀럽패션      (61 / 87)
+#   viva-a        May fashion blog  연예인패션    (29 / 249)  ← 편차가 크다
+#   iamjina_26    오늘도 예쁘게       셀럽          (22 / 51)
+#   ohye1991      예뚱이 블로그       스타패션/이슈  (19 / 22)
+#   yeonju_hhh    쭈잉 패션 매거진    트렌드리포트   (19 / 19)
+#   mira841213    김미의 패션n쇼핑    셀럽패션      (14 / 64)
+#   goodface0863  시아의 룩북        셀럽패션      (11 / 93)
+#   sunnyya314    뷰티소싱          FASHION ISSUE (11 / 14)
+#   cjstkdqh94    SeonMin Beauty    스킨케어      (12 / 17)
+# 반응이 훨씬 높아도 카테고리가 푸드·요리인 곳은 제외했다 — 패션 소재가 아니다.
+# (kwang5166 중앙 218, howmany70 23 → 건강비버/diet-blog 쪽 후보다)
+BENCHMARK_BLOGS = ("jayuyu", "viva-a", "iamjina_26", "ohye1991", "yeonju_hhh",
+                   "mira841213", "goodface0863", "sunnyya314", "cjstkdqh94")
+BENCHMARK_PER_BLOG = 20      # 블로그당 최근 몇 편까지 볼까 (RSS 는 50편을 준다)
+BENCHMARK_LIKE_BUDGET = 60   # 좋아요 조회 총량. 포스트당 1요청이다
+BENCHMARK_SLEEP_MS = 120
+BENCHMARK_TIMEOUT_S = 15.0
+
 GOOGLE_NEWS_DAYS = 1095      # 이보다 오래된 기사는 버린다. 뷰티 루틴·화보 기사는 오래 가서 넉넉히 잡는다
 GOOGLE_NEWS_PER_QUERY = 40   # 쿼리당 상한
 # 구글 뉴스는 관련도순이라 인물 쿼리만으론 옛 광고성 기사가 위로 온다.
