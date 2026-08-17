@@ -1,0 +1,50 @@
+{
+  "person": {
+    "name": "김혜윤",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "스타트렌드 여자 배우 부문 1위에 오른 배우",
+    "major_work": "선재 업고 튀어, 굿파트너2, 설강화",
+    "identity_anchor": "선재 업고 튀어, 굿파트너2 등에 출연한 배우 김혜윤"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "유재석", "text": "이거 비싼 건데", "context": "네이트, 유퀴즈"},
+    {"speaker": "김혜윤", "text": "처음 시도해보는 이미지, 깨부수는 작업 계속 할 것", "context": "v.daum.net, 금발 변신 인터뷰"},
+    {"speaker": "김혜윤", "text": "현장에서 사적인 이야기 많이 해", "context": "sports.donga.com, 선업튀 케미 비결"}
+  ],
+  "events": [
+    {"summary": "코스메틱 브랜드 로우퀘스트의 모델로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "주얼리 브랜드 글로벌 앰버서더로 가장 잘 어울리는 배우 1위에 올랐다", "year": null, "confirmed": true},
+    {"summary": "패션 브랜드 코닥어패럴의 26SS 캠페인 모델로 나섰다", "year": null, "confirmed": true},
+    {"summary": "역전 끝에 스타트렌드 여자 배우 부문 1위에 올랐다", "year": null, "confirmed": true},
+    {"summary": "금발로 파격 변신하며 처음 시도하는 이미지라고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "related_people": [
+    {"name": "유재석", "relation": "유퀴즈 진행자", "mentioned_as": "유재석"}
+  ],
+  "works": [],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "금발로 파격 변신한 것", "why_hot": "반전"},
+    {"material": "주얼리 브랜드 글로벌 앰버서더 1위", "why_hot": "낙차"},
+    {"material": "유재석이 잠바를 보고 비싸 보인다고 한 것", "why_hot": "실명"},
+    {"material": "코닥어패럴 26SS 캠페인 모델 발탁", "why_hot": "낙차"},
+    {"material": "역전 끝에 스타트렌드 1위에 오른 것", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "유퀴즈 현장에서 유재석이 잠바를 보고 놀란 장면"
+  ],
+  "sns_materials": [
+    "본인 계정으로 보이는 청청 셋업룩 게시물"
+  ],
+  "press_only_materials": [
+    "코닥어패럴 26SS 캠페인 화보",
+    "금발 변신 화보"
+  ]
+}
