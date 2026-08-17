@@ -120,15 +120,19 @@ def _fail(errs, what):
 
 # ── 단계 0: 소스 → A 지시서 ─────────────────────────────────────────────
 
-def stage_source(source_path, force=False):
+def stage_source(source_path, force=False, bench_rows=None):
     src = _read(source_path).strip()
     if not src:
         raise SystemExit("소스가 비어 있습니다.")
     d = _workdir(create=True, force=force)
     _write(os.path.join(d, "source.txt"), src)
+    if bench_rows:
+        _jdump(os.path.join(d, "bench.json"), bench_rows)
     prompt = _read(os.path.join(PROMPTS, "A_factsheet.md"))
     _write(os.path.join(d, "A_지시서.md"),
-           prompt.replace("{source_text}", src))
+           prompt
+           .replace("{source_text}", src)
+           .replace("{benchmark_block}", _bench_block(bench_rows)))
     print(f"■ 세션 시작 → {d}")
     print("   에이전트가 할 일: A_지시서.md 를 전부 읽고 같은 폴더에 factsheet.json 작성")
     print("   그 다음: python pipeline.py --stage titles")
@@ -142,18 +146,78 @@ def recent_persons(days=45):
             if p.get("date", "") >= cutoff}
 
 
+def _bench_block(rows) -> str:
+    """A 지시서에 넣을 벤치마크 블록.
+
+    ⚠️ 이 블록은 **팩트가 아니다.** 남의 블로그 제목·태그다. A 지시서의 제1
+       원칙이 "추출만 한다, 창작·보완 금지" 인데 여기 있는 문장을 근거로
+       삼으면 그 원칙이 통째로 무너진다 — 남의 제목에 적힌 주장을 우리 글의
+       사실로 옮겨 쓰게 된다.
+       그래서 블록 자체에 "정렬 지시일 뿐"이라고 못 박아 넣는다.
+       팩트시트에 들어갈 값은 [소스] 에서만 나온다.
+    """
+    if not rows:
+        return "(없음 — 이 슬롯은 기존 방식이다. 소스만 보고 뽑아라.)"
+    lines = []
+    for i, r in enumerate(rows, 1):
+        line = f"[{i}] ♥{r.get('likes')} {r.get('title', '')}"
+        tags = [t for t in (r.get("tags") or [])][:8]
+        if tags:
+            line += f"\n    태그: {', '.join(tags)}"
+        lines.append(line)
+    return "\n".join(lines)
+
+
 def stage_auto(celeb, force=False):
     """crawler 로 소스를 자동 구성해 세션을 연다 (하루 10편 운영의 기본 진입점).
 
     발언(따옴표)·직업 표기 기사를 앞세워 32건을 뽑는다 — 직업 확정과
     quotes 확보가 팩트시트 검증 1의 관문이기 때문이다.
+
+    슬롯이 bench 면(config.SLOT_SOURCE_MODES) 벤치마크에서 지금 반응 있는
+    앵글을 뽑아 크롤러 쿼리에 붙이고, 그 근거를 A 지시서에 함께 넣는다.
+    벤치마크가 죽어도 그날 글은 나가야 하므로 실패하면 기존 방식으로 간다.
     """
     if celeb in recent_persons():
         print(f"⚠ {celeb} 은 최근 45일 안에 이미 썼습니다. 계속 진행은 하지만 확인할 것.")
     import crawler
     import store
     store.init()
-    items = crawler.collect(celeb, mode="google")
+
+    import config as CFG
+    plan = slot_plan(next_slot())
+    extra, bench_rows = [], []
+    if plan["source_mode"] == "bench":
+        print(f"■ {plan['slot']}번 슬롯 = 벤치마크 소재 (5+5 중 벤치마크 쪽)")
+        try:
+            import benchmark
+            rows = benchmark.collect()
+            angles = [w for w, _lk, _n in benchmark.angle_words(rows)]
+            extra = [f"{celeb} {a}" for a in angles]
+            # 그 인물이 벤치마크에 실제로 등장하면 그 글들을, 아니면 전체
+            # 상위를 넣는다. 후자여도 값이 있다 — "지금 어떤 앵글이 먹히나"는
+            # 인물과 무관하게 성립한다.
+            # 그 인물의 글을 앞에 두고, 뒤는 전체 상위로 채운다.
+            # 인물 글만 넣으면 안 된다 — 2026-08-18 실측: 이효리는 벤치마크에
+            # 1편만 등장해서 A 지시서에 1행만 들어갔고, "지금 어떤 앵글이 먹히나"가
+            # 통째로 날아갔다. 그 신호는 인물과 무관하게 성립하므로 항상 넣는다.
+            hit = benchmark.for_celeb(celeb, rows)
+            seen = {(r["blog_id"], r["post_id"]) for r in hit}
+            bench_rows = (hit + [r for r in rows
+                                 if (r["blog_id"], r["post_id"]) not in seen]
+                          )[:CFG.BENCHMARK_PROMPT_ROWS]
+            print(f"   앵글: {', '.join(angles) or '(없음)'}")
+            print(f"   추가 쿼리 {len(extra)}개 / {celeb} 등장 {len(hit)}편")
+        except Exception as e:
+            # 벤치마크는 부가 신호다. 죽어도 그날 글은 나가야 한다.
+            # 다만 조용히 넘기지 않는다 — 5+5 가 실제로는 10+0 이 돼 있는데
+            # 아무도 모르는 상태가 가장 나쁘다.
+            print(f"  [경고] 벤치마크 실패({type(e).__name__}: {e}) — "
+                  f"이 슬롯은 기존 방식으로 진행합니다.")
+    else:
+        print(f"■ {plan['slot']}번 슬롯 = 기존 방식 소재 (5+5 중 기존 쪽)")
+
+    items = crawler.collect(celeb, mode="google", extra_queries=extra)
     if len(items) < 6:
         raise SystemExit(f"{celeb}: 수집 {len(items)}건 — 소스가 얇아 진행 불가. 다른 인물로.")
     keyed = [it for it in items
@@ -173,14 +237,19 @@ def stage_auto(celeb, force=False):
     tmp = os.path.join(WORK_ROOT, f"_auto_source_{celeb}.txt")
     _write(tmp, "\n".join(lines))
     print(f"■ {celeb}: {len(items)}건 수집 → 소스 {len(picked)}건 구성")
-    stage_source(tmp, force=force)
+    stage_source(tmp, force=force, bench_rows=bench_rows)
 
 
 def stage_plan(n):
-    """오늘 쓸 인물 N명 추천 — 최근 45일 미사용 인물을 config 풀에서 뽑는다.
+    """오늘 쓸 인물 N명 추천 — 소재 조달 경로를 5+5 로 나눠 보여준다.
 
     v13 사용 이력(state.json)과 일일 시스템 쿨다운(store.db)을 둘 다 거른다.
     (2026-08-07: 일일이 쓴 김유정을 v13이 다음날 또 쓴 교차 중복 실측 → 보강)
+
+    2026-08-17 사용자 확정 — 5+5:
+      pool  슬롯은 예전처럼 풀 순서대로.
+      bench 슬롯은 벤치마크에서 지금 좋아요를 받는 인물부터.
+    두 목록에서 같은 인물이 겹쳐 나오지 않게 bench 쪽을 먼저 확정한다.
     """
     import config as CFG
     import store
@@ -189,8 +258,48 @@ def stage_plan(n):
     avail = [c for c in CFG.CELEB_POOL
              if c not in used and not store.celeb_on_cooldown(c)]
     print(f"■ 후보 {len(avail)}명 (풀 {len(CFG.CELEB_POOL)} - 최근 사용 {len(used)})")
-    print("   오늘의 추천:", ", ".join(avail[:n]))
-    print("   시작: python pipeline.py --auto <인물명>")
+
+    # 오늘 남은 슬롯. 10번까지 다 찼으면 내일 몫(2번부터)을 보여준다 —
+    # 없는 11·12번 슬롯을 만들어내면 5+5 배분이 통째로 pool 로 떨어진다
+    # (SLOT_SOURCE_MODES 에 11번이 없어 기본값 pool 이 된다).
+    slot = next_slot()
+    todo = list(range(slot, 11))[:n]
+    if not todo:
+        print(f"   오늘 슬롯은 {slot - 1}번까지 다 찼습니다. 아래는 내일 몫입니다.")
+        todo = list(range(2, 11))[:n]
+    bench_slots = [s for s in todo
+                   if CFG.SLOT_SOURCE_MODES.get(s, "pool") == "bench"]
+    pool_slots = [s for s in todo if s not in bench_slots]
+
+    ok = set(avail)
+    bench_picks = []
+    if bench_slots:
+        try:
+            import benchmark
+            rows = benchmark.collect()
+            angles = benchmark.angle_words(rows)
+            print("\n── 지금 반응 있는 앵글 ──")
+            print("   " + " / ".join(f"{w}(♥{lk})" for w, lk, _n in angles))
+            bench_picks = [e for e in benchmark.hot_celebs(rows)
+                           if e["celeb"] in ok][:len(bench_slots)]
+            print(f"\n── 벤치마크 슬롯 {bench_slots} — 지금 반응 있는 인물 ──")
+            if not bench_picks:
+                print("   (없음 — 벤치마크 상위에 쓸 수 있는 풀 인물이 없다. "
+                      "아래 기존 방식 후보로 채워라)")
+            for e in bench_picks:
+                t = e["posts"][0]["title"][:40] if e["posts"] else ""
+                print(f"   ♥{e['likes']:>4}  {e['celeb']}   ← {t}")
+        except Exception as e:
+            print(f"\n  [경고] 벤치마크 실패({type(e).__name__}: {e}) — "
+                  f"벤치마크 슬롯도 기존 방식 후보로 채웁니다.")
+            pool_slots = todo
+
+    taken = {e["celeb"] for e in bench_picks}
+    rest = [c for c in avail if c not in taken]
+    print(f"\n── 기존 방식 슬롯 {pool_slots} — 풀 순서 ──")
+    print("   " + (", ".join(rest[:len(pool_slots)]) or "(없음)"))
+    print("\n   시작: python pipeline.py --auto <인물명>")
+    print("   슬롯 번호가 경로를 정한다 — 순서대로 돌리면 5+5 가 맞는다")
 
 
 # ── 단계 1: 검증1 → B 지시서 ────────────────────────────────────────────
@@ -222,10 +331,18 @@ def stage_titles():
                        ", ".join(banned_first) or "(없음)")
               .replace("{recent_hooks}", ", ".join(recent_hooks) or "(없음)")
               .replace("{slot_no}", str(plan["slot"]))
-              .replace("{title_type}", plan["title_type"]))
+              .replace("{title_type}", plan["title_type"])
+              .replace("{form_quota}", _form_quota_text()))
     _write(os.path.join(d, "B_지시서.md"), prompt)
     print(f"■ 팩트시트 검증 통과 — {plan['slot']}번 슬롯 / "
           f"포맷 {plan['format']} / 제목 문형 {plan['title_type']}")
+    counts = today_title_forms()
+    if counts:
+        print("   오늘 확정된 문형: "
+              + " / ".join(f"{f} {n}편" for f, n in sorted(counts.items(),
+                                                           key=lambda x: -x[1])))
+    for f, (n, cap) in sorted(blocked_forms().items()):
+        print(f"   ⚠ {f} 은 오늘 {n}편으로 상한({cap}편) 소진 — 확정 후보에서 제외된다")
     print(f"   에이전트가 할 일: B_지시서.md 를 전부 읽고 titles.json 작성 (정확히 10개)")
     print("   그 다음: python pipeline.py --stage body")
 
@@ -253,13 +370,79 @@ def next_slot() -> int:
 
 
 def slot_plan(slot: int) -> dict:
-    """슬롯 번호 → 포맷·제목 문형. 코드가 강제 주입하는 값이다."""
+    """슬롯 번호 → 포맷·제목 문형·소재 조달 경로. 코드가 강제 주입하는 값이다."""
     import config as CFG
     return {
         "slot": slot,
         "format": CFG.SLOT_FORMATS.get(slot, "A"),
         "title_type": CFG.SLOT_TITLE_TYPES.get(slot, "수치충돌"),
+        # pool = 기존 방식 / bench = 벤치마크 소재 (config.SLOT_SOURCE_MODES)
+        "source_mode": CFG.SLOT_SOURCE_MODES.get(slot, "pool"),
     }
+
+
+# ── 문형 하루 상한 ──────────────────────────────────────────────────────
+
+def today_title_forms() -> dict:
+    """오늘 이미 확정된 제목들의 문형 개수. {문형: 편수}
+
+    문형은 state.json 에 적힌 값을 믿지 않고 제목에서 **매번 다시 판정**한다.
+    상한을 넣기 전에 쌓인 글에는 title_form 키가 아예 없고, 판정 기준을
+    고치면 옛 기록과 새 기록이 서로 다른 자로 재어진다.
+    제목이 원본이고 문형은 파생값이다 — 파생값을 저장해두고 그걸 세면
+    기준을 고친 날 상한이 조용히 어긋난다.
+
+    ⚠️ 슬롯 1(일일 자동 포스팅)은 main.py 경로라 state.json 에 남지 않는다.
+       즉 여기서 세는 건 v13 슬롯(2~10)뿐이다. 사용자가 "9편 중 6편"이라고
+       센 것과 같은 범위다.
+    """
+    import titles as TS
+    today = _kst_now().date().isoformat()
+    out = {}
+    for p in _state()["recent_posts"]:
+        if p.get("date") != today:
+            continue
+        f = TS.form_of(p.get("title", ""))
+        out[f] = out.get(f, 0) + 1
+    return out
+
+
+def blocked_forms() -> dict:
+    """오늘 상한을 다 쓴 문형. {문형: (오늘 편수, 상한)}
+
+    비어 있으면 제약이 없는 것이다. 이 딕셔너리에 든 문형은 그날 남은
+    슬롯에서 확정 후보 자격을 잃는다 (stage_body).
+    """
+    import config as CFG
+    counts = today_title_forms()
+    caps = getattr(CFG, "TITLE_FORM_DAILY_MAX", {})
+    return {f: (counts.get(f, 0), cap) for f, cap in caps.items()
+            if counts.get(f, 0) >= cap}
+
+
+def _form_quota_text() -> str:
+    """B 지시서에 넣을 '오늘 남은 문형 자리' 안내.
+
+    이건 **강제가 아니라 안내**다. 강제는 stage_body 가 한다. 남은 자리를
+    알려주는 이유는 하나뿐이다 — 안 알려주면 모델이 상한에 걸린 문형으로
+    10개를 다 채워오고, 그날 그 슬롯은 통째로 재생성이 된다(왕복 1회 손실).
+    """
+    import config as CFG
+    counts = today_title_forms()
+    caps = getattr(CFG, "TITLE_FORM_DAILY_MAX", {})
+    if not caps:
+        return "(상한 없음)"
+    lines = []
+    for f, cap in caps.items():
+        n = counts.get(f, 0)
+        left = cap - n
+        if left <= 0:
+            lines.append(f"- **{f}: 오늘 {n}편으로 상한({cap}편) 소진.** "
+                         f"이 문형으로 쓴 제목은 확정 후보에서 코드가 제외한다 — "
+                         f"10개 중 몇 개를 이 문형으로 채우면 그만큼 버려진다")
+        else:
+            lines.append(f"- {f}: 오늘 {n}편 / 상한 {cap}편 → 남은 자리 {left}편")
+    return "\n".join(lines)
 
 
 def _alloc_outdir(person):
@@ -325,6 +508,7 @@ def _make_c_brief(d, fs, title, marker=""):
     _write(os.path.join(d, "C_지시서.md"), prompt)
     _jdump(os.path.join(d, "meta.json"),
            {"title": title, "slot": plan["slot"], "format": plan["format"],
+            "source_mode": plan.get("source_mode", ""),
             # cta·closing 은 2026-08-16 사용자 확정으로 폐기됐다.
             # DB 컬럼 호환을 위해 키만 빈 값으로 남긴다.
             "cta": "", "closing": "", "bridges": bridges,
@@ -359,8 +543,39 @@ def stage_body():
     ranked = []
     for t in titles:
         s, why = TS.score(t.get("title", ""))
-        ranked.append({**t, "score": s, "score_reasons": why})
+        ranked.append({**t, "score": s, "score_reasons": why,
+                       "form": TS.form_of(t.get("title", ""))})
     ranked.sort(key=lambda t: (-t["score"], -t.get("heat", 0)))
+
+    # ── 문형 하루 상한 (2026-08-17 사용자 확정) ──────────────────────────
+    # score() 는 문형을 보지 않는다. 그래서 그날 가장 잘 먹는 한 문형이
+    # 하루 열 편을 통째로 먹는다 (0817 인용형 8편 / 0816 모순형 9편).
+    # 상한을 넘긴 문형은 여기서 확정 후보 자격을 잃는다. 점수는 그대로 두고
+    # **후보에서 빼는** 방식이다 — 가중치를 건드리면 titles.py 의 실측
+    # 캘리브레이션(KNOWN)이 통째로 무너진다.
+    blocked = blocked_forms()
+    dropped = [t for t in ranked if t["form"] in blocked]
+    if blocked:
+        print("■ 문형 하루 상한")
+        for f, (n, cap) in sorted(blocked.items()):
+            print(f"   · {f}: 오늘 이미 {n}편 (상한 {cap}편) → 확정 후보 제외")
+        print(f"   후보 10개 중 {len(dropped)}개 제외 / {len(ranked) - len(dropped)}개 남음")
+        for t in dropped[:4]:
+            print(f"      (제외) {t['score']:>4}점 [{t['form']}] {t['title']}")
+    ranked = [t for t in ranked if t["form"] not in blocked]
+
+    if not ranked:
+        _fail([f"10개 전부 상한에 걸린 문형이라 확정할 제목이 없다."]
+              + [f"   · {f}: 오늘 {n}편 / 상한 {cap}편" for f, (n, cap)
+                 in sorted(blocked.items())]
+              + ["B_지시서.md 의 [오늘 남은 문형 자리] 를 다시 읽고 10개를 "
+                 "다른 문형으로 다시 뽑아라. 상한에 걸린 문형은 한 개도 "
+                 "확정될 수 없으니 그 문형으로 채운 자리는 전부 버려진다.",
+                 "인용폭로가 막혔으면 큰따옴표를 아예 쓰지 마라 — 발언을 "
+                 "따옴표 없이 서술로 풀거나(했다는·라고 한), 수치충돌·부정금지·"
+                 "손해경고·제3자반응으로 가라."],
+              "제목 문형 상한")
+
     top = ranked[0]
 
     if top["score"] < CFG.TITLE_SCORE_FLOOR:
@@ -391,8 +606,18 @@ def stage_body():
     lines = [f"[{_o} · 확정]", "", top["title"], "", "─── 예비 ───"]
     for t in ranked[1:]:
         lines += ["", t["title"]]
+    # 상한에 걸려 빠진 제목도 보여준다. 안 보여주면 "왜 이게 확정됐지"를
+    # 사람이 알 수 없고, 없는 셈 치면 예비 번호(--retitle N)와도 어긋난다.
+    if dropped:
+        lines += ["", f"─── 제외 · 문형 상한 ({', '.join(sorted(blocked))}) ───"]
+        for t in dropped:
+            lines += ["", f"[{t['form']}] {t['title']}"]
     _write(os.path.join(out_dir, "예비제목.txt"), "\n".join(lines) + "\n")
+    # ranked.json 은 상한을 통과한 것만 담는다 — --retitle <번호> 가 이 순서를
+    # 그대로 센다. 제외분은 따로 남겨 추적만 가능하게 둔다.
     _jdump(os.path.join(d, "ranked.json"), ranked)
+    if dropped:
+        _jdump(os.path.join(d, "ranked_dropped.json"), dropped)
     _write(os.path.join(d, "OUTDIR"), out_dir)
 
     _make_c_brief(d, fs, top["title"], marker="auto#1")
@@ -446,6 +671,16 @@ def stage_retitle(arg):
         name = fs["person"]["name"]
         if name and name in title:
             raise SystemExit(f"제목에 본명({name})이 들어 있습니다.")
+        # 사람이 직접 쓴 제목은 상한으로 막지 않는다. 최종 발행은 사람이 하고,
+        # 상한은 자동 확정이 한 문형으로 쏠리는 걸 막으려고 둔 것이다.
+        # 다만 조용히 넘기지는 않는다 — 모르고 넘기면 상한이 무의미해진다.
+        import titles as TS
+        form = TS.form_of(title)
+        cap = blocked_forms().get(form)
+        if cap:
+            print(f"⚠ 이 제목은 문형이 '{form}' 인데 오늘 이미 {cap[0]}편으로 "
+                  f"상한({cap[1]}편)을 넘겼습니다. 사람이 직접 정한 제목이라 "
+                  f"진행은 합니다.")
         marker = "retitle#manual"
     _make_c_brief(d, fs, title, marker=marker)
 
@@ -570,6 +805,13 @@ def stage_finish():
         # 브릿지 로테이션용. 예전엔 저장을 안 해서 슬롯끼리 겹쳤다
         # (2026-08-16 실측: "문제는 그다음이었습니다" 가 5편 중 4편에 깔렸다)
         "bridges_used": meta.get("bridges", []),
+        # 문형 — 기록용이다. 하루 상한은 이 값을 세지 않고 제목에서 매번 다시
+        # 판정한다 (today_title_forms 의 주석 참고). 여기 남기는 건 "그날 뭐가
+        # 몇 편이었나"를 나중에 눈으로 확인하려고.
+        "title_form": __import__("titles").form_of(title),
+        # 소재를 어디서 골랐나 (pool=기존 방식 / bench=벤치마크). 5+5 배분이
+        # 실제로 지켜졌는지 이 값으로 센다.
+        "source_mode": meta.get("source_mode", ""),
         "ending_template": meta.get("ending_template", ""),
         "ending_used": used_ending,
         "cta_used": meta.get("cta", ""),

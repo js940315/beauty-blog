@@ -133,6 +133,62 @@ def for_celeb(celeb: str, rows=None):
             or any(key in t.replace(" ", "") for t in r["tags"])]
 
 
+def hot_celebs(rows=None, pool=None, limit: int = None):
+    """벤치마크 상위 글에 등장하는 **우리 풀 인물** — 좋아요 합계 순.
+
+    2026-08-17 사용자 확정. 하루 10편 중 5편은 소재를 여기서 고른다.
+    기존 방식(CELEB_POOL 순서대로 돌리기)은 "누가 지금 반응을 얻고 있나"를
+    전혀 안 본다. 풀 순서는 그냥 우리가 적어둔 순서다.
+
+    제목·태그에서만 찾는다 — 본문은 애초에 수집하지 않는다(모듈 상단 참고).
+
+    ⚠️ 부분 문자열로 찾는다. 태그가 "김지원패션" 처럼 이름에 붙어 오기 때문에
+       어쩔 수 없다. 두 글자 예명은 엉뚱한 단어에 걸릴 수 있으니(풀에서
+       '지수·슬기' 류를 이미 빼둔 이유와 같은 문제) 결과는 추천 목록이고
+       확정은 사람이 --auto 로 한다.
+    """
+    rows = rows if rows is not None else collect(verbose=False)
+    pool = pool if pool is not None else C.CELEB_POOL
+
+    hit = {}
+    for r in rows:
+        blob = (r["title"] + " " + " ".join(r["tags"])).replace(" ", "")
+        for name in pool:
+            if name.replace(" ", "") not in blob:
+                continue
+            e = hit.setdefault(name, {"celeb": name, "likes": 0, "posts": []})
+            e["likes"] += r["likes"] or 0
+            e["posts"].append(r)
+    out = sorted(hit.values(), key=lambda e: (-e["likes"], e["celeb"]))
+    return out[:limit] if limit else out
+
+
+def angle_words(rows=None, limit: int = None):
+    """지금 좋아요를 받는 앵글 단어 — [(단어, 좋아요합, 편수)] 내림차순.
+
+    이 단어를 크롤러 쿼리에 붙여 소재 수집 자체를 그쪽으로 끌어온다.
+    ("한소희" 만 검색하면 광고성 옛 기사가 오지만 "한소희 데일리룩" 은
+     지금 사람들이 보고 있는 자리의 기사를 준다)
+
+    어휘는 config.BENCHMARK_ANGLE_WORDS 로 고정하고 **순위만 실측으로** 낸다.
+    태그를 그대로 쓰면 "김민희패션" 같은 인물명 태그와 "더로우알마바게트백"
+    같은 브랜드 태그가 상위에 올라 쿼리로 못 쓴다 (2026-08-17 실측).
+    """
+    rows = rows if rows is not None else collect(verbose=False)
+    limit = limit if limit is not None else C.BENCHMARK_ANGLE_MAX
+
+    agg = {}
+    for r in rows:
+        blob = (r["title"] + " " + " ".join(r["tags"])).replace(" ", "")
+        for w in C.BENCHMARK_ANGLE_WORDS:
+            if w.replace(" ", "") in blob:
+                lk, n = agg.get(w, (0, 0))
+                agg[w] = (lk + (r["likes"] or 0), n + 1)
+    out = sorted(((w, lk, n) for w, (lk, n) in agg.items()),
+                 key=lambda x: (-x[1], x[0]))
+    return out[:limit] if limit else out
+
+
 def summarize(rows, limit: int = 15) -> str:
     """프롬프트에 넣을 형태. 제목·좋아요·태그만 — 베낄 본문이 없다."""
     out = []
@@ -165,3 +221,15 @@ if __name__ == "__main__":
         print("\n── 상위 40편의 카테고리 분포 ──")
         for c, n in sorted(cats.items(), key=lambda x: -x[1])[:8]:
             print(f"  {n:>3}편  {c or '-'}")
+
+        print("\n── 지금 반응 있는 앵글 (크롤러 쿼리에 붙는다) ──")
+        for w, lk, n in angle_words(rows, limit=10):
+            print(f"  ♥{lk:>4}  {n:>2}편  {w}")
+
+        print("\n── 우리 풀 인물 중 지금 등장하는 사람 ──")
+        hot = hot_celebs(rows, limit=12)
+        if not hot:
+            print("  (없음 — 벤치마크 상위에 우리 풀 인물이 안 보인다)")
+        for e in hot:
+            print(f"  ♥{e['likes']:>4}  {len(e['posts']):>2}편  {e['celeb']}")
+        print("\n  bench 슬롯 시작: python pipeline.py --auto <인물명>")
