@@ -189,6 +189,13 @@ def run_api(args):
     print(f"■ 제목 점수 ({len(ranked)}개)")
     for r in ranked:
         print(f"   {r['score']:>5}  {r['title']}")
+    # 2026-08-18: 하한선 미달이면 알린다. 이 저장소엔 하한선이 없어서 58점짜리도
+    # 그대로 확정됐다("그 배우, 피부까지 완벽했다" 류). 후보를 다시 써야 한다는
+    # 신호를 화면에 남긴다 — 조용히 통과시키면 규칙을 글로만 적어둔 것과 같다.
+    if ranked and T.below_floor(ranked):
+        print(f"■ 경고: 최고점 {ranked[0]['score']}점 < {C.MIN_SCORE}점 — 제목이 약하다. "
+              f"반전(A인데 B / A 버리고 B)과 장면어를 넣어 다시 뽑아라.")
+        print(f"   1등: {ranked[0]['title']}")
     if not ranked or ranked[0]["score"] <= 0:
         raise SystemExit("쓸 만한 제목이 없습니다. 후킹 근거가 부족하거나 전부 탈락했습니다.")
 
@@ -305,6 +312,13 @@ def stage_title(args):
     print(f"■ 제목 점수 ({len(ranked)}개)")
     for r in ranked:
         print(f"   {r['score']:>5}  {r['title']}")
+    # 2026-08-18: 하한선 미달이면 알린다. 이 저장소엔 하한선이 없어서 58점짜리도
+    # 그대로 확정됐다("그 배우, 피부까지 완벽했다" 류). 후보를 다시 써야 한다는
+    # 신호를 화면에 남긴다 — 조용히 통과시키면 규칙을 글로만 적어둔 것과 같다.
+    if ranked and T.below_floor(ranked):
+        print(f"■ 경고: 최고점 {ranked[0]['score']}점 < {C.MIN_SCORE}점 — 제목이 약하다. "
+              f"반전(A인데 B / A 버리고 B)과 장면어를 넣어 다시 뽑아라.")
+        print(f"   1등: {ranked[0]['title']}")
     if not ranked or ranked[0]["score"] <= 0:
         raise SystemExit("쓸 만한 제목이 없습니다. 후킹 근거가 부족하거나 전부 탈락했습니다.")
 
