@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "강한나",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대 후반",
+    "career": "런닝맨 최다 출연 기록을 세운 예능인 겸 배우",
+    "major_work": "캐셔로, 폭군의 셰프, 신삼국지",
+    "identity_anchor": "드라마 캐셔로, 폭군의 셰프 등에 출연한 배우 겸 예능인 강한나"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "강한나", "text": "고경표, 예능 아니라 노동이라고", "context": "xportsnews, 백패커2"},
+    {"speaker": "강한나", "text": "요트 스펠링이 뭐죠", "context": "네이트, 런닝맨"}
+  ],
+  "events": [
+    {"summary": "런닝맨에 네 번째 최다 출연 기록을 세우며 컴백했다", "year": null, "confirmed": true},
+    {"summary": "발레리나가 꿈이었다고 밝힌 적이 있다", "year": null, "confirmed": true},
+    {"summary": "26FW 화보 현장을 공개하며 패션 아이콘 행보를 이어갔다", "year": null, "confirmed": true},
+    {"summary": "1박 2일에서 이준과 커플룩을 선보였다", "year": null, "confirmed": true},
+    {"summary": "신삼국지에서 여진구, 침착맨과 함께 명장면을 해석했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4번째", "meaning": "런닝맨 최다 출연 기록"}
+  ],
+  "related_people": [
+    {"name": "이준", "relation": "1박 2일 동료", "mentioned_as": "이준"},
+    {"name": "고경표", "relation": "백패커2 동료", "mentioned_as": "고경표"}
+  ],
+  "works": [
+    {"title": "1박 2일", "year": null, "costar": "이준",
+     "scene": "캐주얼한 커플룩을 함께 선보인 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "결별 후 더 상큼해진 미모라는 평가를 받았다",
+    "얼굴만 보면 20살 같다는 반응을 얻었다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "26FW 화보로 패션 아이콘 행보를 이어간 것", "why_hot": "낙차"},
+    {"material": "이준과 선보인 커플룩", "why_hot": "실명"},
+    {"material": "런닝맨 최다 출연 기록", "why_hot": "반전"},
+    {"material": "발레리나가 꿈이었다는 반전 이력", "why_hot": "반전"},
+    {"material": "요트 스펠링을 몰라 굴욕당한 장면", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "런닝맨 영어 퀴즈에서 굴욕당한 장면",
+    "1박 2일에서 이준과 커플룩을 맞춘 장면"
+  ],
+  "sns_materials": [
+    "본인 계정으로 보이는 포근한 공간에서의 미소 게시물",
+    "본인 계정으로 보이는 사극 촬영 근황 게시물",
+    "본인 계정으로 보이는 퇴근 후 티타임 게시물",
+    "본인 계정으로 보이는 한복 착용 게시물"
+  ],
+  "press_only_materials": [
+    "26FW 화보",
+    "명품 향수를 든 화보 컷"
+  ]
+}
