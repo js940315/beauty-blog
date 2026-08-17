@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "노윤서",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "Z세대 대표 배우로 꼽히는 신예",
+    "major_work": "청설, 동궁, 우블",
+    "identity_anchor": "드라마 청설, 동궁 등에 출연한 Z세대 대표 배우 노윤서"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "홍경", "text": "노윤서와 마지막 키스신 정말 떨렸다, 연기가 아니었다", "context": "네이트, 청설 현장"}
+  ],
+  "events": [
+    {"summary": "스킨케어 브랜드 연작의 모델로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "드라마 청설에서 홍경과 마지막 키스신을 촬영했다", "year": null, "confirmed": true},
+    {"summary": "드라마 동궁에서 남주혁과 함께 화보를 촬영했다", "year": null, "confirmed": true},
+    {"summary": "데뷔작 우블에 연기 경험 없이 오디션만 네 번 봐서 합류했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4번", "meaning": "데뷔작 오디션을 본 횟수"}
+  ],
+  "related_people": [
+    {"name": "홍경", "relation": "청설 상대역", "mentioned_as": "홍경"},
+    {"name": "남주혁", "relation": "동궁 상대역", "mentioned_as": "남주혁"}
+  ],
+  "works": [
+    {"title": "청설", "year": null, "costar": "홍경",
+     "scene": "마지막 키스신에서 정말 떨렸다는 상대역의 소감이 나온 장면",
+     "kind": "실제"},
+    {"title": "동궁", "year": null, "costar": "남주혁",
+     "scene": "함께 화보를 촬영하며 조승우의 태도에서 많은 것을 느꼈다고 밝힌 장면",
+     "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "결점 없는 완벽한 피부라는 평가를 받았다",
+    "스킨케어 브랜드의 모델로 발탁될 만큼 피부가 화제였다"
+  ],
+  "care_habits": [
+    "슬렌더한 몸매 비결로 한 운동에 빠져 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "스킨케어 브랜드 모델 발탁", "why_hot": "낙차"},
+    {"material": "결점 없는 완벽 피부라는 평가", "why_hot": "발언"},
+    {"material": "홍경과의 마지막 키스신 소감", "why_hot": "실명"},
+    {"material": "슬렌더 몸매 비결로 운동에 빠진 것", "why_hot": "반전"},
+    {"material": "오디션 네 번 만에 데뷔작에 합류한 것", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "청설 마지막 키스신 촬영 현장"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "메이크업 현장 셀프 촬영 사진",
+    "블랙 재킷 스타일링 사진",
+    "핫핑크와 워크웨어를 매치한 화보"
+  ]
+}
