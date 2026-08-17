@@ -67,10 +67,10 @@ def _request(target: str, query: str, sort: str, display: int):
         return json.loads(r.read().decode("utf-8"))
 
 
-def _collect_naver(celeb: str, sort: str, display: int, seen_links: set):
+def _collect_naver(celeb: str, sort: str, display: int, seen_links: set,
+                   extra_queries=()):
     items = []
-    for suffix in C.QUERY_SUFFIXES:
-        query = f"{celeb} {suffix}"
+    for query in [f"{celeb} {s}" for s in C.QUERY_SUFFIXES] + list(extra_queries):
         for target in C.SEARCH_TARGETS:
             try:
                 data = _request(target, query, sort, display)
@@ -132,9 +132,11 @@ def _gnews(query: str):
     return rows
 
 
-def _collect_google(celeb: str, seen_links: set):
+def _collect_google(celeb: str, seen_links: set, extra_queries=()):
     cutoff = datetime.now(timezone.utc) - timedelta(days=C.GOOGLE_NEWS_DAYS)
-    queries = [f"{celeb} {s}" for s in C.QUERY_SUFFIXES] + list(C.GOOGLE_TOPIC_QUERIES)
+    queries = ([f"{celeb} {s}" for s in C.QUERY_SUFFIXES]
+               + list(extra_queries)
+               + list(C.GOOGLE_TOPIC_QUERIES))
 
     items = []
     for query in queries:
@@ -207,21 +209,29 @@ def _finish(celeb: str, items):
     return popularity.rank(drop_namesakes(celeb, items))
 
 
-def collect(celeb: str, sort: str = None, display: int = None, mode: str = None):
+def collect(celeb: str, sort: str = None, display: int = None, mode: str = None,
+            extra_queries=()):
     """한 인물에 대한 소스를 모은다. 이미 쓴 링크·동명이인 기사는 걸러낸다.
 
     반환 순서는 좋아요 수 기준이다(뉴스/블로그 자리 배치는 유지).
+
+    extra_queries: 기본 쿼리(QUERY_SUFFIXES) 뒤에 덧붙일 완성된 검색어들.
+      bench 슬롯이 벤치마크에서 뽑은 앵글을 여기로 넣는다 — "한소희 데일리룩"
+      처럼. 인물명만 검색하면 옛 광고성 기사가 위로 오는데, 지금 반응 있는
+      앵글을 붙이면 그 자리의 기사가 들어온다 (2026-08-17 사용자 확정).
     """
     sort = sort or C.DEFAULT_SORT
     display = display or C.NAVER_DISPLAY
     mode = mode or C.SOURCE_MODE
+    extra_queries = list(extra_queries or ())
 
     seen_links = set()
 
     if mode == "naver":
-        return _finish(celeb, _collect_naver(celeb, sort, display, seen_links))
+        return _finish(celeb, _collect_naver(celeb, sort, display, seen_links,
+                                             extra_queries))
     if mode == "google":
-        return _finish(celeb, _collect_google(celeb, seen_links))
+        return _finish(celeb, _collect_google(celeb, seen_links, extra_queries))
     if mode != "auto":
         raise ValueError(f"알 수 없는 수집 경로: {mode}")
 
@@ -230,7 +240,7 @@ def collect(celeb: str, sort: str = None, display: int = None, mode: str = None)
     # 없으면 401 "Scope Status Invalid"가 난다(실측). 키 만료·한도 초과도 마찬가지다.
     # 여기서 안 넘어가면 그날 글이 통째로 안 나온다.
     if naver_ready():
-        items = _collect_naver(celeb, sort, display, seen_links)
+        items = _collect_naver(celeb, sort, display, seen_links, extra_queries)
         if items:
             return _finish(celeb, items)
         print("  [알림] 네이버에서 한 건도 못 받았습니다 (키·스코프·한도를 확인하세요). "
@@ -239,7 +249,7 @@ def collect(celeb: str, sort: str = None, display: int = None, mode: str = None)
     else:
         print("  [알림] 네이버 키가 없어 Google News RSS로 수집합니다. "
               "헤드라인만 얻으므로 근거가 얇습니다(글이 짧게 나갑니다).")
-    return _finish(celeb, _collect_google(celeb, seen_links))
+    return _finish(celeb, _collect_google(celeb, seen_links, extra_queries))
 
 
 def assess_richness(items) -> str:
