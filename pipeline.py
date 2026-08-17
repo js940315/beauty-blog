@@ -197,8 +197,15 @@ def stage_auto(celeb, force=False):
             # 그 인물이 벤치마크에 실제로 등장하면 그 글들을, 아니면 전체
             # 상위를 넣는다. 후자여도 값이 있다 — "지금 어떤 앵글이 먹히나"는
             # 인물과 무관하게 성립한다.
+            # 그 인물의 글을 앞에 두고, 뒤는 전체 상위로 채운다.
+            # 인물 글만 넣으면 안 된다 — 2026-08-18 실측: 이효리는 벤치마크에
+            # 1편만 등장해서 A 지시서에 1행만 들어갔고, "지금 어떤 앵글이 먹히나"가
+            # 통째로 날아갔다. 그 신호는 인물과 무관하게 성립하므로 항상 넣는다.
             hit = benchmark.for_celeb(celeb, rows)
-            bench_rows = (hit or rows)[:CFG.BENCHMARK_PROMPT_ROWS]
+            seen = {(r["blog_id"], r["post_id"]) for r in hit}
+            bench_rows = (hit + [r for r in rows
+                                 if (r["blog_id"], r["post_id"]) not in seen]
+                          )[:CFG.BENCHMARK_PROMPT_ROWS]
             print(f"   앵글: {', '.join(angles) or '(없음)'}")
             print(f"   추가 쿼리 {len(extra)}개 / {celeb} 등장 {len(hit)}편")
         except Exception as e:
