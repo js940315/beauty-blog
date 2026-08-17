@@ -1,0 +1,58 @@
+{
+  "person": {
+    "name": "박규영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "연세대 졸업 후 JYP 캐스팅으로 데뷔한 배우",
+    "major_work": "사마귀, 오징어게임 시리즈",
+    "identity_anchor": "연세대 출신, JYP 캐스팅으로 데뷔한 배우 박규영"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박규영", "text": "아침에 커피 마시고 이 운동 해", "context": "코메디닷컴, 네이트"},
+    {"speaker": "박규영", "text": "요즘 이 운동에 푹 빠져", "context": "코메디닷컴"}
+  ],
+  "events": [
+    {"summary": "스킨케어 브랜드 AHC의 글로벌 앰버서더로 선정됐다", "year": null, "confirmed": true},
+    {"summary": "패션 브랜드 COS의 글로벌 앰버서더로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "보그 코리아 커버를 장식했다", "year": null, "confirmed": true},
+    {"summary": "스노우피크어패럴과 여성 타깃 여름 컬렉션을 함께 출시했다", "year": null, "confirmed": true},
+    {"summary": "15kg을 감량하고 마른 몸매를 유지 중이라고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "외고와 연세대를 나온 뒤 대학 잡지 모델 경험으로 JYP에 캐스팅됐다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15kg", "meaning": "박규영이 감량한 체중"}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "겨울에도 매끈한 피부 비결이 있다는 평가를 받았다",
+    "피부 탄력 관리로 알려진 기기를 활용한다는 인터뷰가 있었다"
+  ],
+  "care_habits": [
+    "아침에 커피를 마신 뒤 특정 운동을 한다고 밝혔다",
+    "최근 한 운동에 푹 빠져 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "패션 브랜드 COS 글로벌 앰버서더 발탁", "why_hot": "낙차"},
+    {"material": "스킨케어 브랜드 AHC 글로벌 앰버서더 선정", "why_hot": "낙차"},
+    {"material": "보그 코리아 커버 장식", "why_hot": "낙차"},
+    {"material": "15kg 감량 후 마른 몸매 유지 비결", "why_hot": "발언"},
+    {"material": "연세대 출신에 JYP 캐스팅 비화", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "공항에서 포착된 코스 룩 차림"
+  ],
+  "sns_materials": [
+    "본인 계정으로 보이는 흑백 화보 게시물",
+    "본인 계정으로 보이는 올블랙 스타일링 게시물",
+    "본인 계정으로 보이는 보그 코리아 커버 게시물"
+  ],
+  "press_only_materials": [
+    "코스 화보 비하인드 컷",
+    "공항패션 코스 룩"
+  ]
+}
