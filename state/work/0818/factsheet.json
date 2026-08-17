@@ -1,0 +1,24 @@
+{
+  "celeb": "정호연",
+  "age": "",
+  "job": "배우",
+  "weight_before": "",
+  "weight_after": "",
+  "height": "",
+  "duration": "",
+  "foods": ["꾸안꾸 네일", "원피스 수영복", "가죽재킷", "무대인사 룩"],
+  "exercises": [],
+  "habits": [],
+  "life_events": [
+    "영화 '호프' 마지막 무대인사를 진행했다",
+    "배우 이동휘와 9년째 열애 중이다",
+    "월드컵 결승전 현장에 깜짝 등장해 우승 트로피를 공개했다",
+    "한여름에도 가죽재킷을 입고 나와 유재석이 안 덥냐고 물었다"
+  ],
+  "quotes": [],
+  "quote_sources": [],
+  "identity_anchor": "영화 '호프' 주연, 배우 이동휘와 9년째 열애 중인 배우 정호연",
+  "namesake_dropped": [],
+  "has_exercise_detail": false,
+  "notes": "Google News RSS 헤드라인만 확보되어 richness=thin. 본인 직접 발언은 원문 확인이 안 되어 quotes에서 전부 제외했다. 나이·신체 수치는 소스에 없어 공란. 뷰티 각도(피부·관리) 근거는 소스에 없고, 패션·근황(무대인사·열애·월드컵 등장) 위주로만 구성 가능."
+}
