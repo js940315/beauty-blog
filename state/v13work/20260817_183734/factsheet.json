@@ -1,0 +1,59 @@
+{
+  "person": {
+    "name": "박소담",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 34,
+    "age_range": "30대",
+    "career": "영화 기생충 등에 출연한 배우",
+    "major_work": "기생충",
+    "identity_anchor": "영화 기생충 출연 배우 박소담"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박소담", "text": "사랑은 나 자신을 사랑하는 것부터", "context": "bnt news, 화보 인터뷰"},
+    {"speaker": "박소담", "text": "몇 번으로 바꿀까요", "context": "네이트, 프로필 사진 공개"},
+    {"speaker": "허영만", "text": "쌍꺼풀 안 한 연예인 처음 봐", "context": "mhnse.com, 백반기행"}
+  ],
+  "events": [
+    {"summary": "여동생 결혼식에서 부케를 직접 만들어 선물했다", "year": null, "confirmed": true},
+    {"summary": "한예종 동기 이유영의 결혼식에 참석해 축하했다", "year": null, "confirmed": true},
+    {"summary": "동료 안영미가 응원 간식차를 보내며 친분을 드러냈다", "year": null, "confirmed": true},
+    {"summary": "한국 배우 최초로 영국 매거진 하우스 오브 솔로 커버를 장식했다", "year": null, "confirmed": true},
+    {"summary": "10년 만에 프로필 사진을 새로 공개했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "34세", "meaning": "박소담의 나이"},
+    {"value": "10년", "meaning": "프로필 사진을 새로 찍기까지 걸린 기간"}
+  ],
+  "related_people": [
+    {"name": "안영미", "relation": "동료", "mentioned_as": "안영미"},
+    {"name": "이유영", "relation": "한예종 동기", "mentioned_as": "이유영"},
+    {"name": "허영만", "relation": "방송 진행자", "mentioned_as": "허영만"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "쌍꺼풀 없는 눈매가 인상적이라는 감탄을 들었다",
+    "고난도 운동을 소화하는 사진이 공개되며 탄탄한 몸매가 화제였다",
+    "사랑은 나 자신을 사랑하는 것부터 시작한다는 화보 인터뷰가 있었다"
+  ],
+  "care_habits": [
+    "고난도 운동을 꾸준히 소화하는 모습이 공개됐다"
+  ],
+  "hot_materials": [
+    {"material": "쌍꺼풀 없는 눈매에 대한 감탄", "why_hot": "발언"},
+    {"material": "고난도 운동 사진 공개", "why_hot": "장면"},
+    {"material": "한국 배우 최초 영국 매거진 커버", "why_hot": "낙차"},
+    {"material": "10년 만의 프로필 사진 공개", "why_hot": "반전"},
+    {"material": "사랑은 나 자신을 사랑하는 것부터라는 화보 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "고난도 운동 동작을 소화하는 사진 속 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "영국 매거진 하우스 오브 솔로 커버 화보",
+    "올블랙 패션 화보"
+  ]
+}
