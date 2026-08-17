@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "이효리",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 45,
+    "age_range": "40대",
+    "career": "가수 활동 27년째, 방송인",
+    "major_work": "",
+    "identity_anchor": "가수 이효리, 남편 이상순과 결혼 생활 중인 방송인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이효리", "text": "젊어지고파", "context": "xportsnews"},
+    {"speaker": "이효리", "text": "나만 늙었다고 생각", "context": "xportsnews"},
+    {"speaker": "이효리", "text": "배 쭈글쭈글해 크롭톱 못 입어", "context": "health.chosun.com"},
+    {"speaker": "이효리", "text": "한번 맞아봤더니 웃어도 눈이 안없어져", "context": "스포츠조선"},
+    {"speaker": "이효리", "text": "눈가 주름 많고 얼굴 처졌지만 다 가질 순 없어, 외모 관리중", "context": "네이트/스포츠조선"},
+    {"speaker": "이효리", "text": "다를수록 많은 사랑 필요", "context": "연애전쟁"},
+    {"speaker": "이효리", "text": "27년간 늘 조마조마했다", "context": "sports.donga.com, 유퀴즈온더블럭"}
+  ],
+  "events": [
+    {"summary": "유퀴즈온더블럭에 출연해 27년간 늘 조마조마했다고 말하며 눈물을 보였다", "year": null, "confirmed": true},
+    {"summary": "남편 이상순과 13년째 결혼 생활을 이어가고 있다", "year": null, "confirmed": true},
+    {"summary": "부친상을 겪은 뒤 요가원에서 몸과 마음을 회복하는 근황이 전해졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "45세", "meaning": "이효리의 나이"},
+    {"value": "13년", "meaning": "이상순과 결혼 생활 유지 기간"},
+    {"value": "15년", "meaning": "야식을 끊고 유지한 기간"},
+    {"value": "27년", "meaning": "가수 활동 기간"},
+    {"value": "11년", "meaning": "특정 음식을 먹지 않은 기간"}
+  ],
+  "related_people": [
+    {"name": "이상순", "relation": "남편", "mentioned_as": "이상순"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "눈가 주름과 얼굴 처짐을 스스로 인정하면서도 다 가질 순 없다고 말했다",
+    "보톡스 시술 경험과 그 부작용을 직접 언급했다",
+    "성형과 시술에 대한 고민을 솔직하게 털어놓았다"
+  ],
+  "care_habits": [
+    "야식을 끊고 15년째 유지하고 있다고 밝혔다",
+    "11년째 특정 음식을 먹지 않는다고 밝혔다",
+    "아침마다 챙겨 먹는 것이 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "보톡스 시술과 부작용을 직접 언급한 것", "why_hot": "발언"},
+    {"material": "나만 늙었다고 생각한다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "이상순과 13년째 이어온 결혼 생활", "why_hot": "실명"},
+    {"material": "27년간 조마조마했다는 방송 중 눈물", "why_hot": "발언"},
+    {"material": "야식 끊고 15년째 유지한 습관", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "유퀴즈온더블럭에서 눈물을 보인 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "이상순과 함께한 화보 촬영",
+    "유퀴즈온더블럭 출연 당시 협찬 받은 승려룩"
+  ]
+}
