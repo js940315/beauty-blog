@@ -1,0 +1,51 @@
+{
+  "person": {
+    "name": "왕지원",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우, 방송인",
+    "major_work": "",
+    "identity_anchor": "발레리노 박종석의 배우자, 여성조선 6월호 커버 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "왕지원", "text": "헤어지고 나서는 못 먹어서 많이 말랐었다", "context": "아는 형님"},
+    {"speaker": "왕지원", "text": "추울수록 사람이 붙더라", "context": "아는 형님"}
+  ],
+  "events": [
+    {"summary": "3살 연하인 발레리노 박종석과 결혼해 '아는 형님'에 부부로 출연함", "year": null, "confirmed": true},
+    {"summary": "막창집에서 소주를 마시다 첫 키스를 했다는 사연을 공개함", "year": null, "confirmed": true},
+    {"summary": "남편과 세부로 여행을 떠나 비키니 차림으로 근황을 전함", "year": null, "confirmed": true},
+    {"summary": "2024 F/W 서울패션위크에서 숏컷 스타일로 매력을 발산함", "year": 2024, "confirmed": true},
+    {"summary": "여성조선 6월호 커버스토리로 '아름다운 균형'이라는 제목의 화보를 찍음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "3세", "meaning": "남편 박종석과의 나이 차이(연하)"}
+  ],
+  "related_people": [
+    {"name": "박종석", "relation": "배우자", "mentioned_as": "3살 연하 발레리노 남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "발레리나 같은 몸매라는 평가를 받음",
+    "숏컷 스타일로 서울패션위크에서 매력을 발산함"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "막창집에서 소주 마시다 첫 키스했다는 사연", "why_hot": "장면"},
+    {"material": "헤어졌던 시기 못 먹어서 말랐었다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "3살 연하 발레리노 남편과 결혼해 아는 형님에 부부로 출연", "why_hot": "실명"},
+    {"material": "세부 여행에서 발레리나 몸매로 시선을 모음", "why_hot": "장면"},
+    {"material": "숏컷 스타일로 서울패션위크에서 매력을 발산함", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "막창집에서 소주를 마시다 첫 키스를 했던 순간",
+    "세부 바닷가에서 근황을 전하던 순간",
+    "서울패션위크 숏컷 스타일로 등장한 순간"
+  ],
+  "sns_materials": ["세부 여행 사진"],
+  "press_only_materials": ["여성조선 6월호 커버 화보", "서울패션위크 포토"]
+}
