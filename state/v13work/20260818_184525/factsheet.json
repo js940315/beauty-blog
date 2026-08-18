@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "유선",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 50,
+    "age_range": "",
+    "career": "배우, 연극 무대에서도 활동",
+    "major_work": "",
+    "identity_anchor": "결혼 14년차, 10대 딸을 둔 배우, 방부제 미모로 불리는 배우"
+  },
+  "namesake_dropped": ["윤유선", "판사와 3개월만에 결혼", "혼전임신 의혹", "유호정", "결혼 32년차"],
+  "quotes": [
+    {"speaker": "유선", "text": "갱년기 건강관리에 신경을 쓴다", "context": "백반기행"},
+    {"speaker": "유선", "text": "14년 만에 드레스를 입었는데 여전히 설렌다", "context": "인터뷰"},
+    {"speaker": "유선", "text": "어느덧 딸과 키가 가까워졌다", "context": "SNS·인터뷰"},
+    {"speaker": "유선", "text": "딸과 함께한 순간이 소중했다", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "중학생 딸과 웨딩드레스 화보를 함께 촬영함", "year": null, "confirmed": true},
+    {"summary": "13살 딸의 얼굴을 처음 공개함", "year": null, "confirmed": true},
+    {"summary": "결혼 14년차에 다시 드레스를 입고 촬영함", "year": null, "confirmed": true},
+    {"summary": "빈탄섬 여행에서 비키니 차림으로 근황을 공개함", "year": null, "confirmed": true},
+    {"summary": "동료 여배우들이 딸과 함께 찍은 화보를 보고 감탄함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49세", "meaning": "갱년기 건강관리 발언 당시 나이"},
+    {"value": "50세", "meaning": "14년 만에 드레스를 입었을 당시 나이"},
+    {"value": "14년", "meaning": "결혼 기간"},
+    {"value": "13세", "meaning": "딸의 나이"}
+  ],
+  "related_people": [
+    {"name": "김숙", "relation": "절친", "mentioned_as": "패션 취향을 놀리듯 언급한 친구"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "데뷔 후 쭉 동안 미모라는 평가를 받음",
+    "방부제 미모라는 수식어로 불림",
+    "중학생 딸과 나란히 서면 자매처럼 보인다는 반응을 받음"
+  ],
+  "care_habits": [
+    "갱년기에 접어들며 건강관리에 더 신경 쓴다고 밝힘",
+    "40kg대 체중을 유지하려고 관리한다는 근황이 전해짐"
+  ],
+  "hot_materials": [
+    {"material": "중학생 딸과 웨딩드레스 화보를 찍어 자매처럼 보인다는 반응을 받음", "why_hot": "반전"},
+    {"material": "결혼 14년차에도 드레스 입고 여전히 설렌다고 밝힘", "why_hot": "발언"},
+    {"material": "갱년기 건강관리를 직접 챙긴다고 밝힘", "why_hot": "발언"},
+    {"material": "13살 딸의 얼굴을 처음 공개함", "why_hot": "장면"},
+    {"material": "방부제 미모라는 수식어로 불림", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "중학생 딸과 나란히 선 웨딩드레스 화보 촬영 현장",
+    "14년 만에 다시 드레스를 입던 순간",
+    "빈탄섬에서 비키니 차림으로 근황을 알린 순간"
+  ],
+  "sns_materials": ["빈탄섬 여행 사진", "딸과 함께한 리마인드 웨딩 사진"],
+  "press_only_materials": ["백반기행 방송 캡처", "청청패션 화보"]
+}
