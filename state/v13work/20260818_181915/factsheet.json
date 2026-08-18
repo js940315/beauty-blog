@@ -1,0 +1,55 @@
+{
+  "person": {
+    "name": "산다라박",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 41,
+    "age_range": "",
+    "career": "2NE1 출신, 현재 솔로·방송 활동",
+    "major_work": "2NE1",
+    "identity_anchor": "2NE1 출신 가수 겸 방송인, 재외동포청 홍보대사"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "산다라박", "text": "한때 복근에 심취해서 여자 김종국처럼 운동하고 식단해서 37kg까지 뺐어요", "context": "SBS 파워FM 비밀보장"},
+    {"speaker": "산다라박", "text": "그런데 동안을 잃고 나이 들어 보여서 포기했어요", "context": "SBS 파워FM 비밀보장"},
+    {"speaker": "산다라박", "text": "비빔밥 먹고 싶었어요", "context": "스포츠조선 인터뷰"},
+    {"speaker": "산다라박", "text": "술, 담배 안 해요", "context": "패션엔 인터뷰"},
+    {"speaker": "산다라박", "text": "예능은 스파르타로 배워야 해요", "context": "일간스포츠 인터뷰"},
+    {"speaker": "산다라박", "text": "리아킴과 친구여서 스트릿 우먼 파이터 2에 출연했어요, 영광이었어요", "context": "SBS 파워FM 컬투쇼"}
+  ],
+  "events": [
+    {"summary": "재외동포청 홍보대사로 발탁돼 필리핀에서 오랜 시간 생활한 이야기를 밝힘", "year": 2026, "confirmed": true},
+    {"summary": "리아킴과의 친분으로 스트릿 우먼 파이터 2에 출연", "year": 2026, "confirmed": true},
+    {"summary": "한때 복근 운동과 식단으로 37kg까지 감량했다가 동안을 잃어 포기함", "year": null, "confirmed": true},
+    {"summary": "체중이 8kg 늘자 오히려 건강 이상설이 돌았음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "37kg", "meaning": "복근 운동·식단으로 감량했던 체중"},
+    {"value": "39kg", "meaning": "소식가로 알려진 평소 체중"},
+    {"value": "8kg", "meaning": "체중이 늘자 건강 이상설이 돌았던 증가폭"},
+    {"value": "41세", "meaning": "현재 나이"}
+  ],
+  "related_people": [
+    {"name": "리아킴", "relation": "지인", "mentioned_as": "친구 사이로 스트릿 우먼 파이터 2 출연 계기"},
+    {"name": "윤유선", "relation": "인연", "mentioned_as": "2NE1 데뷔 당시 '우리 딸이다' 하며 자랑스러워한 인연"}
+  ],
+  "works": [],
+  "beauty_evidence": ["술, 담배를 하지 않는 것을 동안 비결로 꼽음", "소식하는 식습관을 유지해 옴"],
+  "care_habits": ["술·담배를 하지 않는다", "소식 습관을 오래 유지해 왔다", "최근에는 밥 한 공기도 먹는다는 근황이 전해짐"],
+  "hot_materials": [
+    {"material": "동안 비결로 술·담배 안 한다고 직접 밝힘", "why_hot": "발언"},
+    {"material": "복근 만들려 37kg까지 뺐다가 동안을 잃어 포기함", "why_hot": "반전"},
+    {"material": "체중이 8kg 늘자 오히려 건강 이상설이 돌았음", "why_hot": "낙차"},
+    {"material": "내향인이라면서도 스파르타로 예능을 배웠다는 발언", "why_hot": "반전"},
+    {"material": "리아킴과의 친분으로 스우파2에 출연", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "복근을 만들려고 극한 식단을 했던 시절",
+    "체중이 늘자 오히려 건강 이상설이 돌았던 순간",
+    "재외동포청 홍보대사로 필리핀 생활을 이야기하던 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": ["워터밤 무대 사진", "비키니 사진 근황", "화보·방송 촬영 사진"]
+}
