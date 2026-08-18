@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "한혜진",
+    "gender": "여성",
+    "job": "모델",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "톱모델, 방송인",
+    "major_work": "미운 우리 새끼, 편스토랑",
+    "identity_anchor": "톱모델 출신 방송인, 기성용의 배우자"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한혜진", "text": "목이 곧 얼굴이다, 늦게 늙기 위해 목도 신경 쓴다", "context": "온라인 커뮤니티·방송 발언"},
+    {"speaker": "한혜진", "text": "모델이라 몸이 재산이라 직업적으로 관리하지만 스스로 돌볼 필요도 있다", "context": "방송 발언"},
+    {"speaker": "한혜진", "text": "돈 관리는 각자 한다, 8살 나이 차는 남자 다 똑같다", "context": "방송 발언"},
+    {"speaker": "한혜진", "text": "20년이 넘은 사진일 뿐이다", "context": "민증 사진 화제에 대한 발언"},
+    {"speaker": "한혜진의 모친", "text": "47kg 이상 되면 식사량을 절반으로 줄인다", "context": "미운 우리 새끼"}
+  ],
+  "events": [
+    {"summary": "기성용과 결혼 14년차를 맞음", "year": null, "confirmed": true},
+    {"summary": "형부 김강우가 결혼 전 두 사람 결혼을 반대했던 일화가 방송에서 공개됨", "year": null, "confirmed": true},
+    {"summary": "체중이 60kg을 돌파했다는 사실을 스스로 공개했는데 오히려 예쁘다는 반응이 쏟아짐", "year": null, "confirmed": true},
+    {"summary": "18살 주민등록증 사진이 화제가 되자 20년이 넘은 사진일 뿐이라고 밝힘", "year": null, "confirmed": true},
+    {"summary": "7일 만에 복근을 만든 식단과 운동법을 공개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "177cm", "meaning": "키"},
+    {"value": "60kg", "meaning": "본인이 공개한 체중"},
+    {"value": "47kg", "meaning": "모친이 밝힌 식사량 조절 기준 체중"},
+    {"value": "7일", "meaning": "복근을 만든 기간"},
+    {"value": "14년", "meaning": "기성용과의 결혼 기간"}
+  ],
+  "related_people": [
+    {"name": "기성용", "relation": "배우자", "mentioned_as": "결혼 14년차 남편"},
+    {"name": "김강우", "relation": "형부", "mentioned_as": "결혼 전 반대했다가 지금은 각별한 형부"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "목주름 예방을 위해 목도 얼굴처럼 관리한다고 밝힘",
+    "얼굴에 무언가를 붙이고 운동해 에너지를 얻는다고 밝힘",
+    "단발머리로 얼굴선을 더 또렷하게 보이게 했다는 평가를 받음"
+  ],
+  "care_habits": [
+    "만두 3개로 점심을 해결할 만큼 식사량을 관리한다",
+    "목도 얼굴처럼 신경 써서 관리한다",
+    "운동할 때 얼굴에 무언가를 붙이고 한다",
+    "7일 만에 복근을 만들기 위해 특정 음식과 유산소·근력 운동을 병행했다"
+  ],
+  "hot_materials": [
+    {"material": "만두 3개가 점심이라는 극강 식단 관리", "why_hot": "낙차"},
+    {"material": "60kg 돌파를 스스로 공개했는데 오히려 반응이 좋았음", "why_hot": "반전"},
+    {"material": "형부 김강우가 결혼을 반대했었다는 일화", "why_hot": "실명"},
+    {"material": "목도 얼굴처럼 관리한다는 발언", "why_hot": "발언"},
+    {"material": "7일 만에 복근을 만든 식단·운동 비결", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "만두 3개로 점심을 끝내는 식사 장면",
+    "얼굴에 무언가를 붙이고 운동하는 모습",
+    "18살 주민등록증 사진이 다시 화제가 된 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": ["미운 우리 새끼 방송 캡처", "편스토랑 방송 캡처", "화보 촬영 사진"]
+}
