@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "김향기",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 25,
+    "age_range": "",
+    "career": "3살에 데뷔한 아역 출신 배우",
+    "major_work": "로맨스의 절댓값, 인생이 영화",
+    "identity_anchor": "3살 데뷔 아역 출신, 로맨스의 절댓값 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김향기", "text": "선택지가 많지 않아서 앞머리를 날렸다", "context": "인터뷰"},
+    {"speaker": "김향기", "text": "누가 셀카 연습을 이 닦으면서 하니", "context": "인터뷰"},
+    {"speaker": "김향기", "text": "이 시대엔 맞는 나이라고 생각한다", "context": "인생이 영화"},
+    {"speaker": "김향기", "text": "정우성을 다시 만나니 너무 놀랐다, 어릴 때 기억이 났다", "context": "인생이 영화"}
+  ],
+  "events": [
+    {"summary": "3살 때 정우성과 함께한 촬영 인연이 17년 만의 재회로 이어짐", "year": null, "confirmed": true},
+    {"summary": "25살에 처음으로 엄마 역할에 도전함", "year": null, "confirmed": true},
+    {"summary": "처피뱅 앞머리 스타일로 파격 변신함", "year": null, "confirmed": true},
+    {"summary": "로맨스의 절댓값에서 낮엔 여고생, 밤엔 BL 소설 작가인 이중생활 캐릭터를 연기함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "3세", "meaning": "데뷔 나이"},
+    {"value": "17년", "meaning": "정우성과 재회하기까지 걸린 시간"},
+    {"value": "25세", "meaning": "첫 엄마 역할에 도전한 나이"},
+    {"value": "10번", "meaning": "극중 비둘기 똥 맞는 장면 NG 횟수"}
+  ],
+  "related_people": [
+    {"name": "정우성", "relation": "공동 출연자", "mentioned_as": "3살 때 함께 촬영, 17년 만에 재회"},
+    {"name": "차학연", "relation": "공동 출연자", "mentioned_as": "로맨스의 절댓값 상대역, 숨소리만 들어도 웃음이 터진다고 밝힘"}
+  ],
+  "works": [
+    {"title": "로맨스의 절댓값", "year": null, "costar": "차학연", "scene": "비둘기 똥을 맞고 기절하는 장면을 NG 10번 끝에 찍은 장면", "kind": "극중"},
+    {"title": "로맨스의 절댓값", "year": null, "costar": "차학연", "scene": "차학연이 숨소리만 들어도 웃음이 터진다고 밝힌 장면", "kind": "실제"},
+    {"title": "인생이 영화", "year": null, "costar": "정우성", "scene": "3살 때 함께 촬영했던 정우성과 17년 만에 재회해 놀란 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "처피뱅 앞머리 스타일로 이미지 변신을 함",
+    "화장하지 않은 청명한 미소로 산책하는 근황을 공개함"
+  ],
+  "care_habits": [
+    "셀카 연습을 이 닦으면서 할 정도로 소탈한 습관을 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "3살 때 함께 촬영한 정우성과 17년 만에 재회", "why_hot": "실명"},
+    {"material": "차학연이 숨소리만 들어도 웃음이 터진다고 밝힘", "why_hot": "발언"},
+    {"material": "선택지가 많지 않아 앞머리를 날렸다는 파격 변신", "why_hot": "발언"},
+    {"material": "25살에 첫 엄마 역할에 도전함", "why_hot": "반전"},
+    {"material": "셀카 연습을 이 닦으면서 한다는 소탈한 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "비둘기 똥을 맞고 기절하는 장면을 NG 10번 끝에 찍은 순간",
+    "3살 때 함께한 정우성과 17년 만에 재회해 놀라던 순간",
+    "이를 닦으며 셀카를 연습하던 모습"
+  ],
+  "sns_materials": ["강아지와 나들이 셀피", "케이크 든 근황 셀피"],
+  "press_only_materials": ["로맨스의 절댓값 화보", "인생이 영화 방송 캡처"]
+}
