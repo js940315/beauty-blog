@@ -227,6 +227,15 @@ def _has_firepower(title: str) -> bool:
                 or _age_gap(_head(title)))   # 나이 반전
 
 
+# 지시어로 인물을 가리는 형태를 패턴으로 잡는다 (목록 방식은 수식어가 끼면 뚫린다).
+#   그 배우 / 그 톱배우 / 이 여배우 / 해당 인기 가수 / 그 국민 여동생
+_PRONOUN_PAT = re.compile(
+    r"(?:그|이|저|해당)\s*"
+    r"(?:[가-힣]{1,4}\s*){0,2}"
+    r"(?:여?배우|여?가수|모델|아나운서|방송인|개그우먼|아이돌|셀럽|연예인|스타|톱스타)"
+)
+
+
 def disqualify_reason(title: str):
     """즉시 탈락 사유. 없으면 None."""
     for w in C.EXTREME_WORDS:
@@ -252,6 +261,12 @@ def disqualify_reason(title: str):
     for w in getattr(C, "PRONOUN_SUBJECTS", ()):
         if w in title:
             return f"인물을 지시대명사로 가림(특정성 0): {w}"
+    # 목록만으로는 샌다. 2026-08-18 실측: "그 **톱배우**" 가 목록에 없어서
+    # 99점짜리로 통과했다. 수식어가 하나 끼면 목록 방식은 무한히 뚫린다.
+    # 지시어 + (수식어 0~2개) + 직업어 를 패턴으로 잡는다.
+    m = _PRONOUN_PAT.search(title)
+    if m:
+        return f"인물을 지시대명사로 가림(특정성 0): {m.group(0)}"
     for w in getattr(C, "ABSTRACT_WORDS", ()):
         if w in title:
             return f"추상 표현(그림이 안 그려짐): {w}"
