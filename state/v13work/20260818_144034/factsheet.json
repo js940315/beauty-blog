@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "오나라", "gender": "여", "job": "배우",
+    "birth_year": 1970, "age": 52, "age_range": "50대",
+    "career": "25년째 배우 김도훈과 열애 중, 결혼은 하지 않음",
+    "major_work": "미운 우리 새끼 출연",
+    "identity_anchor": "25년째 같은 사람과 연애 중인 52세 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "오나라", "text": "계면활성제 안 써요, 수건 한 장이면 끝", "context": "동안 미모 유지 비법을 공개하며"},
+    {"speaker": "오나라", "text": "결혼 필요성을 못 느껴요", "context": "25년 연애 중 결혼 계획을 묻는 질문에"},
+    {"speaker": "오나라", "text": "안 굶고 이렇게 먹는다", "context": "나잇살 없는 팔뚝 비결을 설명하며"},
+    {"speaker": "오나라", "text": "피부과 열심히 다닌다", "context": "동안 비법을 묻자"},
+    {"speaker": "오나라", "text": "싸워도 헤어지자는 통보는 안 한다", "context": "장기 연애 비결"},
+    {"speaker": "오나라", "text": "뒤끝 없고 방목형", "context": "23년 연애 비결을 한마디로 정리하며"},
+    {"speaker": "오나라", "text": "남친이 우리 집에 혼자 놀다 간다, 엄마랑 더 친하다", "context": "미운 우리 새끼에서"},
+    {"speaker": "오나라", "text": "장훈아 우리 친하게 지내자", "context": "동갑내기 서장훈에게"},
+    {"speaker": "오나라", "text": "무작정 따라 하면 오히려 트러블이 난다", "context": "피부 비결을 공개하면서 덧붙인 말"}
+  ],
+  "events": [
+    {"summary": "배우 김도훈과 25년째 열애 중이며 결혼은 하지 않았다", "year": null, "confirmed": true},
+    {"summary": "연애 초반 9개월간 일본에서 함께 고생한 시기가 있었다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "20년 전 사진과 지금 얼굴이 같다는 반응이 나옴", "year": null, "confirmed": true},
+    {"summary": "동갑내기 서장훈과 방송에서 만나 친구를 하자고 제안", "year": null, "confirmed": true},
+    {"summary": "세안할 때 계면활성제를 쓰지 않고 수건만 쓴다고 공개", "year": null, "confirmed": true},
+    {"summary": "피부과에 꾸준히 다닌다고 직접 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "52세", "meaning": "나이"},
+    {"value": "25년", "meaning": "김도훈과의 연애 기간"},
+    {"value": "20년", "meaning": "얼굴이 그대로라는 비교 기준"},
+    {"value": "9개월", "meaning": "연애 초반 일본에서 함께 버틴 기간"},
+    {"value": "한 장", "meaning": "세안에 쓰는 수건 수"}
+  ],
+  "related_people": [
+    {"name": "김도훈", "relation": "25년째 연인", "mentioned_as": "결혼은 하지 않은 채 장기 연애 중"},
+    {"name": "서장훈", "relation": "동갑내기 방송 동료", "mentioned_as": "친구 하자고 제안한 상대"},
+    {"name": "소유진", "relation": "동료 배우", "mentioned_as": "동안 관리 비결로 함께 언급됨"}
+  ],
+  "works": [
+    {"title": "미운 우리 새끼", "year": null, "costar": "서장훈", "scene": "20년 전 사진을 공개하고 수건이 비결이라고 말한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "20년 전 사진과 지금 얼굴이 같다는 반응",
+    "52세인데 20대 같다는 평",
+    "나잇살 없는 팔뚝"
+  ],
+  "care_habits": [
+    "세안할 때 계면활성제를 쓰지 않는다",
+    "수건 한 장으로 세안을 마무리한다",
+    "피부과에 꾸준히 다닌다",
+    "굶지 않고 먹는 방식으로 관리한다"
+  ],
+  "hot_materials": [
+    {"material": "52세인데 20년 전 사진과 얼굴이 같다는 반응", "why_hot": "낙차"},
+    {"material": "세안에서 계면활성제를 버리고 수건 한 장만 쓴다", "why_hot": "반전"},
+    {"material": "25년을 만나고도 결혼 필요성을 못 느낀다고 말했다", "why_hot": "발언"},
+    {"material": "연애 초반 9개월을 일본에서 함께 버텼다", "why_hot": "장면"},
+    {"material": "남자친구가 본인 없이 집에 놀러 와 엄마와 더 친하다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "세안 뒤 수건 한 장으로 끝내는 장면",
+    "20년 전 사진과 지금 얼굴을 나란히 놓고 비교하는 장면",
+    "남자친구가 혼자 집에 와서 엄마와 시간을 보내는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": ["동안 비결 관련 인터뷰 사진"]
+}

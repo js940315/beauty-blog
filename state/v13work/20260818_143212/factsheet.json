@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "유호정", "gender": "여", "job": "배우",
+    "birth_year": null, "age": null, "age_range": "50대",
+    "career": "결혼 32년차, 11년 만에 안방 복귀",
+    "major_work": "사랑을 처방해드립니다",
+    "identity_anchor": "이재룡의 아내이자 11년 만에 복귀한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "유호정", "text": "몇년간 칩거, 엄마로서 열심히 살았다", "context": "라디오쇼에서 두문불출했던 이유를 밝히며"},
+    {"speaker": "유호정", "text": "세상이 궁금해져서", "context": "결혼 30년 차 복귀 이유"},
+    {"speaker": "유호정", "text": "대사만 잘 외우면 된다", "context": "복귀 소감"},
+    {"speaker": "유호정", "text": "술 때문에 각서 쓰고 3주 별거도 했다", "context": "남편 이재룡의 음주 문제를 언급하며"},
+    {"speaker": "유호정", "text": "차라리 여자를 만나라", "context": "남편의 잦은 음주에 호소하며 한 말"},
+    {"speaker": "유호정", "text": "각서 10장 넘게 써도 안 변한다", "context": "별거까지 갔던 이유"},
+    {"speaker": "유호정", "text": "윤유선 3개월 만 결혼에 혼전임신 의심했다", "context": "동상이몽2에서 절친 윤유선의 판사와의 초고속 결혼 소식에"},
+    {"speaker": "유호정", "text": "인기 절정 시기에 결혼한 게 천추의 한", "context": "동상이몽2"},
+    {"speaker": "유호정", "text": "이재룡이 나를 회장님이라 부른다", "context": "동상이몽2 호칭 관련"},
+    {"speaker": "유호정", "text": "이재룡의 서프라이즈는 일찍 귀가하는 것", "context": "동상이몽2"}
+  ],
+  "events": [
+    {"summary": "11년 만에 안방 복귀 — 드라마 사랑을 처방해드립니다 출연", "year": null, "confirmed": true},
+    {"summary": "남편 이재룡 세 번째 음주운전 물의, 송치 후 두 달 침묵", "year": null, "confirmed": true},
+    {"summary": "남편의 잦은 음주로 각서·3주 별거·가출까지 간 적이 있다고 과거 방송에서 밝힘", "year": null, "confirmed": true},
+    {"summary": "절친 윤유선이 판사와 3개월 만에 결혼, 유호정이 방송에서 놀라움을 표함", "year": null, "confirmed": true},
+    {"summary": "백지연·최지우 생일 파티에 이영애·오연수와 함께 참석", "year": null, "confirmed": true},
+    {"summary": "드라마에서 김승수와 부부 역, 서로 여보야라 부름", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "32년", "meaning": "이재룡과의 결혼 연차"},
+    {"value": "11년", "meaning": "안방 복귀까지 걸린 공백"},
+    {"value": "10장", "meaning": "남편이 쓴 각서 수"},
+    {"value": "3주", "meaning": "별거 기간"},
+    {"value": "3번째", "meaning": "남편 이재룡의 음주 물의 횟수"},
+    {"value": "30년", "meaning": "김승수의 첫 푼수 역까지 걸린 시간"}
+  ],
+  "related_people": [
+    {"name": "이재룡", "relation": "남편", "mentioned_as": "세 번째 음주운전으로 물의, 복귀에 찬물"},
+    {"name": "김승수", "relation": "드라마 상대역", "mentioned_as": "극중 부부, 여보야 호칭"},
+    {"name": "윤유선", "relation": "32년 지기 절친", "mentioned_as": "판사와 3개월 만 결혼"},
+    {"name": "최지우", "relation": "동료 배우", "mentioned_as": "생일 파티 참석"},
+    {"name": "백지연", "relation": "지인", "mentioned_as": "생일 파티 주최"},
+    {"name": "이영애", "relation": "동료 배우", "mentioned_as": "생일 파티 참석"}
+  ],
+  "works": [
+    {"title": "사랑을 처방해드립니다", "year": null, "costar": "김승수", "scene": "극중 부부로 서로를 여보야라 부른다", "kind": "극중"},
+    {"title": "동상이몽2", "year": null, "costar": "이재룡", "scene": "남편이 일찍 귀가하는 것이 서프라이즈라고 말한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "남편 이재룡의 세 번째 음주운전이 아내의 11년 만의 복귀에 찬물을 끼얹었다", "why_hot": "낙차"},
+    {"material": "유호정이 과거 남편에게 차라리 여자를 만나라고 호소했다", "why_hot": "발언"},
+    {"material": "각서를 10장 넘게 썼는데도 안 변해 3주 별거까지 갔다", "why_hot": "반전"},
+    {"material": "국민 부부로 불리던 두 사람이 민폐 남편 프레임으로 뒤집혔다", "why_hot": "반전"},
+    {"material": "인기 절정 시기에 결혼한 것이 천추의 한이라고 직접 말했다", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "각서 10장이 쌓여도 남편이 변하지 않아 집을 나간 장면",
+    "복귀 인터뷰에서 대사만 잘 외우면 된다고 담담히 말하는 장면",
+    "송치 두 달이 지나도록 부부가 나란히 침묵하는 상황"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "이재룡 음주운전 삼진아웃 보도",
+    "백지연·최지우 생일 파티 사진"
+  ]
+}

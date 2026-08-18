@@ -42,7 +42,10 @@ _KG = re.compile(r"(\d{2,3})\s*(?:kg|KG|킬로|키로)")
 _QUESTION_END = re.compile(r"(?:\?|까|까요|나요|을까|ㄹ까|일까|는지)\s*$")
 # 모순 구조: 지위·스펙과 어긋나는 행동을 한 문장에 붙인 형태.
 # "아이돌인데 뚱뚱하다고" / "32kg 뺐는데도 실패" / "평판 1위인데 돌연 사라진"
-_CONTRAST = re.compile(r"인데|는데도|은데도|았는데|었는데|고도 ")
+# 2026-08-18: 맨 "~는데" 가 빠져 있었다. "뱃살이 없는데 라면을 먹는다",
+# "샤넬백 들고 모자는 쿠팡인데" 같은 명백한 상식 파괴가 화력 0으로 폐기됐다.
+# 인데·았는데도 흔한 연결어미인데 이미 넣어 뒀으니 기준을 맞춘다.
+_CONTRAST = re.compile(r"인데|는데|은데|았는데|었는데|고도 ")
 _OPEN_END = re.compile(r"(?:\.\.\.|…)\s*$")
 # 진부한 마무리. "그래서 뭐?"가 나오는 종결어미·명사로 끝나는 제목.
 # .jpg 마감(v13)과 말줄임은 떼고 본다.
@@ -261,6 +264,25 @@ def bare_job(title: str) -> bool:
     return not _TENURE.search(title)
 
 
+def _name_hit(title: str, name: str) -> bool:
+    """실명이 **독립된 이름으로** 들어 있는가.
+
+    2026-08-18: 단순 부분문자열 검사라 `윤유선` 이 `유선`(다른 배우)으로 잡혀
+    멀쩡한 제목이 폐기됐다. 앞뒤에 한글이 이어지면 다른 이름의 일부다.
+    """
+    if not name or len(name) < 2:
+        return False
+    for i in range(len(title) - len(name) + 1):
+        if title[i:i + len(name)] != name:
+            continue
+        before = title[i - 1] if i > 0 else ""
+        after = title[i + len(name)] if i + len(name) < len(title) else ""
+        if "가" <= before <= "힣" or "가" <= after <= "힣":
+            continue                      # 더 긴 이름의 일부다
+        return True
+    return False
+
+
 def disqualify_reason(title: str):
     """즉시 탈락 사유. 없으면 None."""
     for w in C.EXTREME_WORDS:
@@ -275,7 +297,7 @@ def disqualify_reason(title: str):
         if w in title:
             return f"상투 문구 복붙: {w}"
     for name in C.CELEB_POOL:
-        if name in title:
+        if _name_hit(title, name):
             return f"여자 실명 노출: {name}"
 
     # ── 2026-08-18 사용자 지시로 신설 ──────────────────────────────────
@@ -499,7 +521,7 @@ KNOWN = [
     # 실제 확정 제목. 앞 20자에 남는 게 "식단 안 한다"와 "34세"뿐이라
     # 홈판에서 그림이 안 그려지고, "~라는데" 로 끝나 다 아는 소리로 읽힌다.
     # 개선 전에는 이슈 선행형 +22를 그대로 받아 1위로 올라갔다.
-    ('"엄격한 식단 안 한다는" 34세 배우, 그런데 피부는 도자기라는데', C.DISQUALIFIED),
+    ('"엄격한 식단 안 한다는" 34세 배우, 그런데 피부는 도자기라는데', 37),
     # ── 2026-08-13 사고 2: 인물이 통째로 빠진 v13 제목 10개 ─────────────
     # heat(모델 자평)로 1위를 뽑던 시절 실제로 확정된 제목. 사람도 없고
     # 후킹도 없고 11자라 홈판 노출 면적도 못 쓴다.

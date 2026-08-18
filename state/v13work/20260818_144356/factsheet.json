@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "박하선", "gender": "여", "job": "배우",
+    "birth_year": null, "age": 38, "age_range": "30대",
+    "career": "이혼숙려캠프 등 방송 활동, 47kg 체중 관리로 화제",
+    "major_work": "이혼숙려캠프",
+    "identity_anchor": "2주마다 레이저를 받는다고 밝힌 38세 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박하선", "text": "2주마다 레이저를 받는다, 진작 할 걸", "context": "동안 비결을 묻자"},
+    {"speaker": "박하선", "text": "샤넬 빈티지백에 쿠팡 모자를 매치한다, 하이로우 패션을 좋아한다", "context": "착장 조합을 설명하며"},
+    {"speaker": "박하선", "text": "돈 버느라 3개월 잠수했다", "context": "근황을 전하며"},
+    {"speaker": "박하선", "text": "운동 안 하고 굶었더니 영양실조가 왔다", "context": "과거 관리 실패를 돌아보며"},
+    {"speaker": "박하선", "text": "많이 먹은 날은 이렇게 마무리한다", "context": "뱃살 관리법을 설명하며"},
+    {"speaker": "박하선", "text": "끝나면 라면 먹어야지", "context": "레드카펫 직전 급 식단 관리 중"},
+    {"speaker": "박하선", "text": "추석 후 2kg 넘게 쪘다", "context": "체중 변화를 언급하며"},
+    {"speaker": "박하선", "text": "기내식에도 뿌려 먹는다", "context": "염증을 줄인다는 재료를 소개하며"},
+    {"speaker": "박하선", "text": "일을 해야 가정주부다", "context": "이혼숙려캠프에서 일침을 놓으며"}
+  ],
+  "events": [
+    {"summary": "동안 비결이 피부과이며 2주마다 레이저를 받는다고 공개", "year": null, "confirmed": true},
+    {"summary": "과거 운동 없이 굶는 방식으로 관리하다 영양실조를 겪었다고 고백", "year": null, "confirmed": true},
+    {"summary": "샤넬 빈티지백과 저가 모자를 함께 매치하는 하이로우 패션을 즐긴다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "레드카펫 드레스를 앞두고 급하게 식단을 관리했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "이혼숙려캠프에서 배달 일을 하는 남편에게 2시간 동안 34통 전화한 사례에 일침", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "38세", "meaning": "나이"},
+    {"value": "47kg", "meaning": "체중"},
+    {"value": "2주", "meaning": "레이저 시술 간격"},
+    {"value": "3개월", "meaning": "일하느라 활동을 쉰 기간"},
+    {"value": "2kg", "meaning": "추석 후 늘어난 체중"},
+    {"value": "34통", "meaning": "이혼숙려캠프 사례에서 언급된 전화 횟수"}
+  ],
+  "related_people": [
+    {"name": "임수향", "relation": "동료 배우", "mentioned_as": "함께 방송에 출연"},
+    {"name": "한혜진", "relation": "동료 방송인", "mentioned_as": "함께 방송에 출연"}
+  ],
+  "works": [
+    {"title": "이혼숙려캠프", "year": null, "costar": "", "scene": "시댁에 말없이 해외여행을 갔다는 사연에 표정 관리를 못 한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": ["38세인데 20대 같다는 반응", "47kg에 앉아도 뱃살이 없다는 평"],
+  "care_habits": [
+    "2주마다 피부과에서 레이저를 받는다",
+    "많이 먹은 날은 마무리 방식을 따로 둔다",
+    "굶는 방식은 영양실조를 겪은 뒤로 하지 않는다",
+    "기내식에도 특정 재료를 뿌려 먹는다"
+  ],
+  "hot_materials": [
+    {"material": "샤넬 빈티지백에 쿠팡 모자를 함께 쓴다", "why_hot": "반전"},
+    {"material": "동안 비결이 타고난 게 아니라 2주마다 받는 레이저였다", "why_hot": "반전"},
+    {"material": "굶어서 관리하다 영양실조까지 갔다고 직접 고백", "why_hot": "낙차"},
+    {"material": "레드카펫 직전까지 굶고 끝나면 라면 먹겠다고 말했다", "why_hot": "발언"},
+    {"material": "돈 버느라 3개월 잠수했다고 표현", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "샤넬 백을 들고 저가 모자를 눌러쓴 착장",
+    "레드카펫 직전 드레스를 앞두고 굶는 장면",
+    "2주에 한 번 피부과 시술대에 눕는 장면"
+  ],
+  "sns_materials": ["명품 가방과 저가 모자를 함께 착용한 사진"],
+  "press_only_materials": ["레드카펫 사진"]
+}
