@@ -740,11 +740,11 @@ def stage_finish():
         raise SystemExit("OUTDIR 기록이 없습니다. --stage body 를 먼저 실행하세요.")
     out_dir = _read(os.path.join(d, "OUTDIR")).strip()
     title = meta["title"]
-    _write(os.path.join(out_dir, "완성본.txt"), title + "\n\n" + body + "\n")
+    import config as C  # 2026-08-18: 파일명 상수화(두 블로그 '본문.txt' 통일)
+    _write(os.path.join(out_dir, C.POST_FILENAME), title + "\n\n" + body + "\n")
 
     # 이미지메모.txt — 발행할 때 사진을 어디서 구할지 알려준다.
     # (2026-08-10 사용자 확정: 이미지 조달 시간이 시스템 최대 병목)
-    import config as C
     name = fs["person"]["name"]
     sns = [s for s in (fs.get("sns_materials") or []) if s]
     memo = [f"■ {name} — 이미지 어디서 구하나", ""]
@@ -753,7 +753,11 @@ def stage_finish():
         for s in sns[:5]:
             memo.append(f"  · {s}")
         memo.append("")
-    memo.append(C.INSTAGRAM_SEARCH.format(name=name))
+    # 2026-08-18: 인스타 explore 링크가 죽어서(오류 페이지) 네이버·다음으로 바꿨다.
+    # 링크를 두 개 주는 이유 — 하나가 막혔을 때 손품이 0이어야 한다.
+    memo.append("이미지 검색 (로그인 없이 바로 열립니다):")
+    memo.append(f"  네이버  {C.IMAGE_SEARCH_PRIMARY.format(name=name)}")
+    memo.append(f"  다음    {C.IMAGE_SEARCH_BACKUP.format(name=name)}")
     memo.append("")
     memo.append("※ 못 찾으면 얼굴 사진 없이 발행해도 되는 글입니다.")
     memo.append("   (본문이 착장을 특정하지 않으므로 어떤 근황 사진이든 어울립니다)")
@@ -824,7 +828,7 @@ def stage_finish():
     _jdump(STATE, st)
 
     n = len(re.sub(r"[\s⠀]", "", body))
-    print(f"■ 완성 → {os.path.join(out_dir, '완성본.txt')}")
+    print(f"■ 완성 → {os.path.join(out_dir, C.POST_FILENAME)}")
     print(f"   공백·점자 제외 {n}자 / {attempts['n']}회 만에 위반 0 / state.json 갱신")
     print("   사람 검수 후 발행하세요. 제목 교체: python pipeline.py --retitle <번호|제목>")
 

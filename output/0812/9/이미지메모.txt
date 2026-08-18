@@ -1,6 +1,7 @@
 ■ 한가인 — 이미지 어디서 구하나
 
-https://www.instagram.com/explore/search/keyword/?q=한가인
+이미지 검색 (로그인 없이 바로 열립니다):
+  네이버  https://search.naver.com/search.naver?where=image&query=%ED%95%9C%EA%B0%80%EC%9D%B8
+  다음    https://search.daum.net/search?w=img&q=%ED%95%9C%EA%B0%80%EC%9D%B8
 
-※ 못 찾으면 얼굴 사진 없이 발행해도 되는 글입니다.
-   (본문이 착장을 특정하지 않으므로 어떤 근황 사진이든 어울립니다)
+※ 못 찾으면 사진 없이 발행해도 되는 글입니다.
