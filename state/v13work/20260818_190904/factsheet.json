@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "옥주현",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "핑클 출신 가수, 뮤지컬 배우",
+    "major_work": "핑클(Fin.K.L)",
+    "identity_anchor": "핑클 출신 가수 겸 뮤지컬 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "옥주현", "text": "안 먹는 다이어트는 고속 노화다", "context": "인터뷰"},
+    {"speaker": "옥주현", "text": "다이어트를 잘못 했다가 급속도로 늙었다", "context": "인터뷰"},
+    {"speaker": "옥주현", "text": "아침 샤워는 세상에서 제일 더러운 일이다", "context": "인터뷰"},
+    {"speaker": "옥주현", "text": "심고 나니 문제가 생겼다", "context": "모발이식 관련 인터뷰"},
+    {"speaker": "옥주현", "text": "잔머리가 없어져서, 돈이 있어도 안 되더라", "context": "모발이식 관련 인터뷰"},
+    {"speaker": "옥주현", "text": "날 핑클에서 삭제하고 봐줬으면 한다", "context": "비혼 관련 해명"}
+  ],
+  "events": [
+    {"summary": "5개월 다이어트에 성공해 옷 사이즈를 2번 줄였고, 핑클 시절 옷을 아직도 입는다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "주당 0.45kg 감량을 핵심 원칙으로 삼는다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "모발이식 수술 후 9년째 두피 루틴을 이어가고 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "어릴 때 어머니가 입가 주름을 걱정해 빨대도 못 쓰게 했다는 사연을 공개함", "year": null, "confirmed": true},
+    {"summary": "주름이 생길까 봐 특정 제품을 절대 쓰지 않는다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "18살부터 집안의 가장 역할을 해왔다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "후배들에게 1000만원을 통 크게 쓴 일화가 방송에서 공개됨", "year": null, "confirmed": true},
+    {"summary": "비혼주의설에 대해 직접 해명함", "year": null, "confirmed": true},
+    {"summary": "이진, 이효리와 돈독한 우정을 유지하고 있음", "year": null, "confirmed": true},
+    {"summary": "수영장에서 탄탄한 각선미를 드러내 화제가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "173cm", "meaning": "키"},
+    {"value": "0.45kg", "meaning": "주당 감량 목표치"},
+    {"value": "9년", "meaning": "모발이식 후 두피 루틴을 이어온 기간"},
+    {"value": "18세", "meaning": "가장 역할을 시작한 나이"},
+    {"value": "1000만원", "meaning": "후배들에게 쓴 금액"},
+    {"value": "5개월", "meaning": "다이어트 성공 기간"},
+    {"value": "2번", "meaning": "줄인 옷 사이즈 횟수"}
+  ],
+  "related_people": [
+    {"name": "이효리", "relation": "핑클 동료", "mentioned_as": "밥을 잘 사주는 리더 언니"},
+    {"name": "이진", "relation": "동료", "mentioned_as": "함께 애정 어린 일상을 보내는 사이"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "핑클 시절 옷을 지금도 입을 정도로 체형을 유지함",
+    "주름이 생길까 봐 특정 제품을 절대 쓰지 않는다고 밝힘",
+    "어릴 때부터 입가 주름 관리에 엄격했다는 사연이 있음"
+  ],
+  "care_habits": [
+    "안 먹는 다이어트 대신 주당 0.45kg 감량을 원칙으로 삼음",
+    "모발이식 후 9년째 두피 루틴을 이어가고 있음",
+    "주름 우려로 특정 제품 사용을 피함"
+  ],
+  "hot_materials": [
+    {"material": "모발이식 부작용을 솔직히 고백함", "why_hot": "발언"},
+    {"material": "안 먹는 다이어트가 고속노화를 부른다고 직접 경고함", "why_hot": "발언"},
+    {"material": "5개월 만에 옷 사이즈를 2번 줄이며 핑클 시절 옷을 다시 입음", "why_hot": "낙차"},
+    {"material": "18살부터 가장 역할을 하며 후배들에게 1000만원을 썼다는 일화", "why_hot": "반전"},
+    {"material": "어머니가 빨대도 못 쓰게 했다는 주름 관리 사연", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "모발이식 후 두피 루틴을 이어가는 아침 시간",
+    "수영장에서 탄탄한 각선미를 드러낸 순간",
+    "후배들에게 통 크게 쓰던 순간"
+  ],
+  "sns_materials": ["수영장 근황 사진"],
+  "press_only_materials": ["뮤지컬 무대 사진", "인터뷰 화보"]
+}
