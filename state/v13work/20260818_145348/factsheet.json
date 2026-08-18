@@ -1,0 +1,50 @@
+{
+  "person": {
+    "name": "이주영", "gender": "여", "job": "배우",
+    "birth_year": null, "age": null, "age_range": "30대",
+    "career": "더 에이트 쇼 출연, 호텔도깨비 합류",
+    "major_work": "더 에이트 쇼",
+    "identity_anchor": "더 에이트 쇼 2번방으로 알려진 배우"
+  },
+  "namesake_dropped": [
+    "이주영 국회의원 관련 기사",
+    "대림그룹 총수일가 4세 이주영 관련 기사",
+    "수지·장원영 관련 기사"
+  ],
+  "quotes": [
+    {"speaker": "이주영", "text": "뭐든지 시켜만 주세요", "context": "호텔도깨비 제주 한옥 호텔 합류 소감"},
+    {"speaker": "고현정", "text": "너 갈수록 더 예뻐진다", "context": "이주영의 달라진 비주얼을 보고"}
+  ],
+  "events": [
+    {"summary": "더 에이트 쇼에서 2번방 역할로 알려짐", "year": null, "confirmed": true},
+    {"summary": "호텔도깨비에 합류해 제주 한옥 호텔 촬영에 들어감", "year": null, "confirmed": true},
+    {"summary": "고현정이 갈수록 예뻐진다고 감탄한 장면이 전해짐", "year": null, "confirmed": true},
+    {"summary": "박은빈과 함께 아이유 콘서트를 관람한 모습이 공개됨", "year": null, "confirmed": true},
+    {"summary": "옥상에서 농구공을 든 화보가 공개되며 각선미가 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "서울패션로드 현장에서 등이 드러난 착장으로 포착됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "2번방", "meaning": "더 에이트 쇼에서 맡은 배역 번호"},
+    {"value": "8", "meaning": "더 에이트 쇼의 방 개수"}
+  ],
+  "related_people": [
+    {"name": "고현정", "relation": "선배 배우", "mentioned_as": "갈수록 예뻐진다고 감탄"},
+    {"name": "박은빈", "relation": "동료 배우", "mentioned_as": "아이유 콘서트 동행"}
+  ],
+  "works": [
+    {"title": "더 에이트 쇼", "year": null, "costar": "", "scene": "2번방을 맡은 역할", "kind": "극중"},
+    {"title": "호텔도깨비", "year": null, "costar": "", "scene": "제주 한옥 호텔에서의 촬영", "kind": "극중"}
+  ],
+  "beauty_evidence": ["고현정이 갈수록 예뻐진다고 말한 반응", "각선미가 화제가 된 화보"],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "고현정이 갈수록 더 예뻐진다고 감탄했다", "why_hot": "실명"},
+    {"material": "야생미 넘치는 파격 비주얼로 달라졌다는 반응", "why_hot": "반전"},
+    {"material": "박은빈과 아이유 콘서트를 함께 봤다", "why_hot": "실명"},
+    {"material": "옥상 농구공 화보에서 각선미가 화제가 됐다", "why_hot": "장면"},
+    {"material": "더 에이트 쇼 2번방에서 호텔도깨비로 넘어왔다", "why_hot": "낙차"}
+  ],
+  "scene_materials": ["옥상에서 농구공을 든 장면", "제주 한옥 호텔 촬영장", "아이유 콘서트 객석"],
+  "sns_materials": ["옥상 농구공 화보", "콘서트 관람 사진"],
+  "press_only_materials": ["서울패션로드 포토"]
+}

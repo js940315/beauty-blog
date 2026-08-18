@@ -1,0 +1,40 @@
+{
+  "person": {
+    "name": "서지혜", "gender": "여", "job": "배우",
+    "birth_year": null, "age": null, "age_range": "30대",
+    "career": "연애 예능 출신 꼬리표를 떼고 배우로 자리 잡음, 합기도 공인 4단",
+    "major_work": "사랑의 불시착",
+    "identity_anchor": "사랑의 불시착에 나온 합기도 공인 4단 배우"
+  },
+  "namesake_dropped": ["정려원 호주 일상 기사", "56세 여배우 리프팅 시술 기사"],
+  "quotes": [],
+  "events": [
+    {"summary": "합기도 공인 4단 보유자로 소개됨", "year": null, "confirmed": true},
+    {"summary": "연애 예능 출신이라는 꼬리표를 떼고 배우로 인정받았다는 평가", "year": null, "confirmed": true},
+    {"summary": "사랑의 불시착 출연으로 인지도를 얻음", "year": null, "confirmed": true},
+    {"summary": "방송에서 사용 중인 탈모 샴푸를 직접 공개", "year": null, "confirmed": true},
+    {"summary": "드라마 조립식 가족 이후 제주에서 쉬는 근황이 전해짐", "year": null, "confirmed": true},
+    {"summary": "해변에서 모노키니 차림이 포착되며 몸매가 화제가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4단", "meaning": "합기도 공인 단수"},
+    {"value": "2막", "meaning": "연애 예능 출신에서 배우로 넘어온 단계를 표현한 말"}
+  ],
+  "related_people": [],
+  "works": [
+    {"title": "사랑의 불시착", "year": null, "costar": "", "scene": "", "kind": "극중"},
+    {"title": "조립식 가족", "year": null, "costar": "", "scene": "종영 후 제주에서 쉬는 근황", "kind": "극중"}
+  ],
+  "beauty_evidence": ["완벽한 이목구비라는 평", "슬림한데 볼륨감도 있다는 반응", "청순과 시크를 오간다는 평"],
+  "care_habits": ["탈모 샴푸를 직접 골라 쓴다", "합기도로 몸을 만들어 왔다"],
+  "hot_materials": [
+    {"material": "청순한 이미지인데 합기도 공인 4단이다", "why_hot": "반전"},
+    {"material": "연애 예능 출신이라는 꼬리표를 떼는 데 오래 걸렸다", "why_hot": "낙차"},
+    {"material": "여배우가 방송에서 탈모 샴푸를 직접 공개했다", "why_hot": "반전"},
+    {"material": "슬림한 줄만 알았는데 볼륨감도 있다는 반응이 나왔다", "why_hot": "반전"},
+    {"material": "조립식 가족 이후 제주 잔디밭에서 쉬는 모습이 전해졌다", "why_hot": "장면"}
+  ],
+  "scene_materials": ["제주 잔디 위에서 쉬는 장면", "해변에서의 모노키니 차림", "합기도 수련 이력"],
+  "sns_materials": ["제주 잔디밭 사진", "해변 사진"],
+  "press_only_materials": ["블루드래곤 화이트 드레스 자태"]
+}

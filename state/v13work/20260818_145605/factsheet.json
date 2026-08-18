@@ -1,0 +1,50 @@
+{
+  "person": {
+    "name": "류현경", "gender": "여", "job": "배우",
+    "birth_year": null, "age": null, "age_range": "30대",
+    "career": "무명 시절 아르바이트로 버틴 뒤 연극·영화로 자리 잡음",
+    "major_work": "고백하지마",
+    "identity_anchor": "무명 시절 생활고를 직접 밝힌 배우"
+  },
+  "namesake_dropped": ["우미령 대표 관련 기사", "장은숙 관련 기사"],
+  "quotes": [
+    {"speaker": "류현경", "text": "무명 시절 각종 아르바이트로 하루하루 버텼다", "context": "백반기행에서 지난 시간을 돌아보며"},
+    {"speaker": "류현경", "text": "아르바이트를 하는데 손님이 나를 알아봤다", "context": "생활고를 고백하면서"},
+    {"speaker": "류현경", "text": "곽 장가가는 날 만세", "context": "곽튜브 결혼식에 참석하며"},
+    {"speaker": "류현경", "text": "어떤 왕자님 덕에 나도 호강한다", "context": "공연장 로비에서"},
+    {"speaker": "류현경", "text": "무보정 그 자체로", "context": "가을 오후 사진을 올리며"}
+  ],
+  "events": [
+    {"summary": "백반기행에서 무명 시절 생활고와 아르바이트 경험을 고백", "year": null, "confirmed": true},
+    {"summary": "아르바이트 중 손님이 알아본 적이 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "전현무계획2에서 전현무의 처제가 될 뻔했다는 이야기가 나옴", "year": null, "confirmed": true},
+    {"summary": "언니가 전현무와 소개팅을 했으나 다른 남자와 결혼했다는 내용", "year": null, "confirmed": true},
+    {"summary": "연극 고백하지마가 4천 관객을 돌파", "year": null, "confirmed": true},
+    {"summary": "곽튜브 결혼식에 참석하고 만삭 여행에는 사진사로 동행", "year": null, "confirmed": true},
+    {"summary": "보정 없는 사진을 직접 올림", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4천", "meaning": "연극 고백하지마 돌파 관객 수"},
+    {"value": "2", "meaning": "전현무계획 시즌"}
+  ],
+  "related_people": [
+    {"name": "전현무", "relation": "방송인", "mentioned_as": "언니와 소개팅을 해 처제가 될 뻔한 사이"},
+    {"name": "곽튜브", "relation": "지인", "mentioned_as": "결혼식 참석, 만삭 여행 사진사로 동행"}
+  ],
+  "works": [
+    {"title": "고백하지마", "year": null, "costar": "", "scene": "4천 관객을 돌파한 공연", "kind": "극중"},
+    {"title": "백반기행", "year": null, "costar": "", "scene": "무명 시절 생활고를 털어놓은 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": ["보정 없이 올린 사진이 화제가 됨"],
+  "care_habits": ["사진을 보정하지 않고 올린다"],
+  "hot_materials": [
+    {"material": "전현무의 처제가 될 뻔했으나 언니가 다른 남자와 결혼했다", "why_hot": "반전"},
+    {"material": "아르바이트를 하는데 손님이 알아봤다고 고백", "why_hot": "낙차"},
+    {"material": "무명 시절 각종 아르바이트로 하루하루 버텼다", "why_hot": "낙차"},
+    {"material": "곽튜브 만삭 여행에 사진사로 따라갔다", "why_hot": "장면"},
+    {"material": "보정 없이 사진을 올린다", "why_hot": "반전"}
+  ],
+  "scene_materials": ["아르바이트 중 손님이 알아본 순간", "곽튜브 결혼식장에서 만세를 부른 장면", "공연장 로비"],
+  "sns_materials": ["무보정 가을 사진", "곽튜브 결혼식 인증 사진"],
+  "press_only_materials": ["GV 무대 사진"]
+}
