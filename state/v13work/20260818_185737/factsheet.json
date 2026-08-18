@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "성유리",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 45,
+    "age_range": "",
+    "career": "핑클 출신 배우, 쌍둥이 딸을 둔 워킹맘",
+    "major_work": "핑클(Fin.K.L)",
+    "identity_anchor": "핑클 출신 배우, 쌍둥이 딸을 둔 45세 워킹맘"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "성유리", "text": "유산소 가야지", "context": "인터뷰"},
+    {"speaker": "성유리", "text": "니가 좋아", "context": "SNS·인터뷰"},
+    {"speaker": "성유리", "text": "쌍둥이인데 달라도 너무 다르다", "context": "인터뷰"},
+    {"speaker": "성유리", "text": "힙쟁이 울아빠", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "쌍둥이 딸을 출산한 뒤에도 핑클 시절 체형을 유지하고 있다는 평가를 받음", "year": null, "confirmed": true},
+    {"summary": "한때 30kg을 감량했지만 요요와 탈모를 겪었다고 스스로 밝히며 극단적 다이어트에 주의를 당부함", "year": null, "confirmed": true},
+    {"summary": "출산 후 체중이 80kg까지 늘었던 경험을 방송에서 직접 털어놓음", "year": null, "confirmed": true},
+    {"summary": "150kg에 달하는 무게를 드는 모습이 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "78세 아버지의 패션 감각을 자랑스러워하며 소개함", "year": null, "confirmed": true},
+    {"summary": "쌍둥이 딸들이 서로 다르게 생겼다며 성장 근황을 전함", "year": null, "confirmed": true},
+    {"summary": "셋째 임신 소식을 전하며 10년 지기 이문정과의 우정을 언급함", "year": null, "confirmed": true},
+    {"summary": "2년 7개월 만에 복귀하며 이효리를 비롯한 동료들의 응원을 받음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "30kg", "meaning": "한때 감량했던 체중"},
+    {"value": "80kg", "meaning": "출산 후 최고 체중"},
+    {"value": "150kg", "meaning": "든 무게"},
+    {"value": "45세", "meaning": "현재 나이"},
+    {"value": "78세", "meaning": "아버지 나이"},
+    {"value": "10년", "meaning": "이문정과의 우정 기간"}
+  ],
+  "related_people": [
+    {"name": "이효리", "relation": "핑클 동료", "mentioned_as": "복귀를 응원한 선배"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "쌍둥이 출산 후에도 핑클 시절 체형을 유지한다는 평가를 받음",
+    "45세에도 도자기 피부라는 평가를 받음",
+    "방부제 미모라는 수식어로 불림"
+  ],
+  "care_habits": [
+    "유산소 운동을 꾸준히 챙긴다고 밝힘",
+    "150kg 무게를 드는 고강도 운동을 소화함",
+    "극단적인 30kg 감량 이후 부작용을 겪고 나서는 무리한 다이어트를 경계한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "30kg을 뺐다가 요요와 탈모를 겪고 극단적 다이어트에 주의를 당부함", "why_hot": "반전"},
+    {"material": "출산 후 80kg까지 쪘던 경험을 방송에서 직접 밝힘", "why_hot": "낙차"},
+    {"material": "150kg 무게를 드는 모습이 화제가 됨", "why_hot": "장면"},
+    {"material": "쌍둥이 출산 후에도 핑클 시절 체형을 유지함", "why_hot": "낙차"},
+    {"material": "78세 아버지의 패션 감각을 자랑함", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "150kg 무게를 번쩍 들어올리는 순간",
+    "두 딸과 토스트를 먹으며 웃는 순간",
+    "78세 아버지의 옷차림을 자랑스레 소개하는 순간"
+  ],
+  "sns_materials": ["두 딸과 토스트 먹방 사진", "아버지 패션 자랑 사진"],
+  "press_only_materials": ["끝까지 간다 방송 캡처", "레깅스 운동 사진"]
+}
