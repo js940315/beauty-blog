@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "홍현희",
+    "gender": "여성",
+    "job": "개그우먼",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "개그우먼, 유튜브 '홍쓴TV' 운영, 방송인",
+    "major_work": "홍쓴TV",
+    "identity_anchor": "개그우먼, 제이쓴의 배우자, 유튜브 홍쓴TV 운영자"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "홍현희", "text": "예뻐지려면 고생이 따른다", "context": "홍쓴TV"},
+    {"speaker": "홍현희", "text": "위고비도 마운자로도 안 했다", "context": "방송 발언"},
+    {"speaker": "홍현희", "text": "절대 안 굶고 이것만 지켰다", "context": "인터뷰 발언"},
+    {"speaker": "홍현희", "text": "삼겹살을 먹어도 살이 빠졌다", "context": "인터뷰 발언"},
+    {"speaker": "홍현희", "text": "20년 만에 몸무게 앞자리가 4자로 바뀌었다", "context": "방송 발언"},
+    {"speaker": "홍현희", "text": "결백하다, 약은 맞지 않았다", "context": "방송 발언"},
+    {"speaker": "홍현희", "text": "닮고 싶은 배우들처럼 되고 싶은 마음에 3일을 절식했다", "context": "순간포착"}
+  ],
+  "events": [
+    {"summary": "체중이 한때 70kg에 근접했다가 49kg대까지 감량함", "year": null, "confirmed": true},
+    {"summary": "16kg 감량 후 헤어샵을 바꾸며 이미지에 변화를 줌", "year": null, "confirmed": true},
+    {"summary": "3일간 절식을 한 뒤 얼굴이 홀쭉해져 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "위고비·마운자로 등 약물 사용 의혹이 제기되자 본인이 직접 부인함", "year": null, "confirmed": true},
+    {"summary": "20년 만에 몸무게 앞자리가 4자로 바뀌었다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "70kg", "meaning": "한때 근접했던 최고 체중"},
+    {"value": "49kg", "meaning": "현재 체중"},
+    {"value": "16kg", "meaning": "감량 폭"},
+    {"value": "3일", "meaning": "절식했다고 밝힌 기간"},
+    {"value": "20년", "meaning": "몸무게 앞자리가 4자였던 것이 처음인 기간"}
+  ],
+  "related_people": [
+    {"name": "제이쓴", "relation": "배우자", "mentioned_as": "함께 홍쓴TV를 운영하는 남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "16kg을 감량한 뒤 헤어샵을 바꿔 이미지에 변화를 줌",
+    "절식 후에도 관리를 이어가겠다고 밝힘"
+  ],
+  "care_habits": [
+    "절대 굶지 않고 정해진 습관을 지켰다고 밝힘",
+    "삼겹살 같은 음식을 먹으면서도 식후 습관을 지켰다고 밝힘",
+    "3일간 절식을 시도한 경험이 있음"
+  ],
+  "hot_materials": [
+    {"material": "위고비·마운자로 의혹을 본인이 직접 부인함", "why_hot": "발언"},
+    {"material": "20년 만에 몸무게 앞자리가 4자로 바뀌었다는 감격 발언", "why_hot": "낙차"},
+    {"material": "70kg에서 49kg까지 감량한 뒤 헤어샵도 바꿈", "why_hot": "낙차"},
+    {"material": "닮고 싶은 배우들처럼 되고 싶어 3일 절식을 함", "why_hot": "발언"},
+    {"material": "삼겹살 먹어도 살이 빠졌다는 반전 발언", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "3일 절식 후 홀쭉해진 얼굴로 방송에 나온 순간",
+    "20년 만에 처음으로 4자 몸무게를 확인하던 순간",
+    "헤어샵을 바꾸고 달라진 모습을 공개한 순간"
+  ],
+  "sns_materials": ["수영복 인증 사진", "헤어스타일 변화 공개 사진"],
+  "press_only_materials": ["순간포착 방송 캡처", "홍쓴TV 유튜브 화면"]
+}
