@@ -1,0 +1,58 @@
+{
+  "person": {
+    "name": "소유진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 43,
+    "age_range": "",
+    "career": "배우, 방송인",
+    "major_work": "",
+    "identity_anchor": "세 아이를 키우는 43세 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "소유진", "text": "왜 이러나", "context": "옛 영상이 다시 소환됐을 때의 반응"}
+  ],
+  "events": [
+    {"summary": "아이 셋을 키우면서도 한줌 허리와 늘씬한 각선비를 유지한다는 평가를 받음", "year": null, "confirmed": true},
+    {"summary": "오나라와 셀카를 찍으며 공통된 피부 관리 비결을 공유한다고 알려짐", "year": null, "confirmed": true},
+    {"summary": "빵을 먹어도 살이 안 찌는 이유로 특정 운동을 꾸준히 한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "아침 식사를 든든하게 챙겨 먹는 습관을 공개함", "year": null, "confirmed": true},
+    {"summary": "위암으로 배우자와 사별한 한 팬의 냉장고를 채워주는 선행을 베풂", "year": null, "confirmed": true},
+    {"summary": "거실 벽 가득한 아이들 낙서를 보고 놀라며 도배 계획을 밝힘", "year": null, "confirmed": true},
+    {"summary": "170cm 키에 47kg 체중을 유지하고 있다는 사실이 화제가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "170cm", "meaning": "키"},
+    {"value": "47kg", "meaning": "체중"},
+    {"value": "43세", "meaning": "나이"},
+    {"value": "3명", "meaning": "자녀 수"}
+  ],
+  "related_people": [
+    {"name": "오나라", "relation": "동료 배우", "mentioned_as": "함께 셀카를 찍으며 관리 비결을 공유하는 사이"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "동안 배우로 불리며 오나라와 관리 비결을 공유함",
+    "170cm, 47kg을 유지하며 각선미로 화제가 됨"
+  ],
+  "care_habits": [
+    "빵을 먹어도 살이 안 찌도록 특정 운동을 꾸준히 한다고 밝힘",
+    "아침 식사를 든든하게 챙겨 먹는다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "아이 셋을 키우면서도 170cm, 47kg을 유지함", "why_hot": "낙차"},
+    {"material": "빵을 먹어도 살이 안 찌는 이유로 특정 운동을 꼽음", "why_hot": "반전"},
+    {"material": "위암으로 배우자를 잃은 팬의 냉장고를 채워주는 선행을 함", "why_hot": "장면"},
+    {"material": "거실 벽 가득한 아이들 낙서에 놀랐다는 근황", "why_hot": "장면"},
+    {"material": "옛 영상이 소환되자 왜 이러냐며 당황한 반응", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "거실 벽 가득한 아이들 낙서를 보던 순간",
+    "위암으로 배우자를 잃은 팬의 냉장고를 채우던 순간",
+    "오나라와 나란히 셀카를 찍던 순간"
+  ],
+  "sns_materials": ["오나라와 함께 찍은 셀카", "거실 낙서 사진"],
+  "press_only_materials": ["패션 화보", "홈쇼핑 방송 캡처"]
+}
