@@ -193,9 +193,17 @@ def run_api(args):
     # 그대로 확정됐다("그 배우, 피부까지 완벽했다" 류). 후보를 다시 써야 한다는
     # 신호를 화면에 남긴다 — 조용히 통과시키면 규칙을 글로만 적어둔 것과 같다.
     if ranked and T.below_floor(ranked):
-        print(f"■ 경고: 최고점 {ranked[0]['score']}점 < {C.MIN_SCORE}점 — 제목이 약하다. "
-              f"반전(A인데 B / A 버리고 B)과 장면어를 넣어 다시 뽑아라.")
+        # 경고만 하면 그대로 확정된다. pipeline(슬롯 2~10)은 여기서 중단하는데
+        # 슬롯 1만 통과시키면 같은 날 품질이 갈린다. 두 경로를 맞춘다.
+        print(f"■ 제목 화력 미달: 최고 {ranked[0]['score']}점 < {C.MIN_SCORE}점 — 확정하지 않는다.")
         print(f"   1등: {ranked[0]['title']}")
+        for _r in ranked[0]["reasons"]:
+            print(f"     · {_r}")
+        print("   화력 넷 중 하나는 반드시: 모순(A인데 B) / 대비(A 버리고 B) / "
+              "강조(얼마나 ~했으면) / 나이차 15살 이상")
+        print("   즉시 폐기: '그 배우' 류 지시대명사, '완벽·놀란·감탄' 류 추상 서술어")
+        print("   → 후보 10개를 다시 써라.")
+        return None
     if not ranked or ranked[0]["score"] <= 0:
         raise SystemExit("쓸 만한 제목이 없습니다. 후킹 근거가 부족하거나 전부 탈락했습니다.")
 
@@ -316,9 +324,17 @@ def stage_title(args):
     # 그대로 확정됐다("그 배우, 피부까지 완벽했다" 류). 후보를 다시 써야 한다는
     # 신호를 화면에 남긴다 — 조용히 통과시키면 규칙을 글로만 적어둔 것과 같다.
     if ranked and T.below_floor(ranked):
-        print(f"■ 경고: 최고점 {ranked[0]['score']}점 < {C.MIN_SCORE}점 — 제목이 약하다. "
-              f"반전(A인데 B / A 버리고 B)과 장면어를 넣어 다시 뽑아라.")
+        # 경고만 하면 그대로 확정된다. pipeline(슬롯 2~10)은 여기서 중단하는데
+        # 슬롯 1만 통과시키면 같은 날 품질이 갈린다. 두 경로를 맞춘다.
+        print(f"■ 제목 화력 미달: 최고 {ranked[0]['score']}점 < {C.MIN_SCORE}점 — 확정하지 않는다.")
         print(f"   1등: {ranked[0]['title']}")
+        for _r in ranked[0]["reasons"]:
+            print(f"     · {_r}")
+        print("   화력 넷 중 하나는 반드시: 모순(A인데 B) / 대비(A 버리고 B) / "
+              "강조(얼마나 ~했으면) / 나이차 15살 이상")
+        print("   즉시 폐기: '그 배우' 류 지시대명사, '완벽·놀란·감탄' 류 추상 서술어")
+        print("   → 후보 10개를 다시 써라.")
+        return None
     if not ranked or ranked[0]["score"] <= 0:
         raise SystemExit("쓸 만한 제목이 없습니다. 후킹 근거가 부족하거나 전부 탈락했습니다.")
 
