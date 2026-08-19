@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "손담비",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 42,
+    "age_range": "40대",
+    "career": "가수 활동 중 결혼 후 출산, 출산 이후 관리 근황이 다수 보도됨",
+    "major_work": "",
+    "identity_anchor": "가수 손담비 — 전 스피드스케이팅 국가대표 이규혁과 결혼, 출산 후 관리 근황으로 화제"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "손담비", "text": "5분 만에 중안부 정리", "context": "리프팅 관련 인터뷰"},
+    {"speaker": "손담비", "text": "진심 민낯 맞음", "context": "리프팅 후 근황 인터뷰"},
+    {"speaker": "손담비", "text": "관리에 가까워", "context": "리프팅 시술 관련 인터뷰"},
+    {"speaker": "손담비", "text": "기미·잡티가 잡초처럼 나와", "context": "피부 고민 인터뷰"},
+    {"speaker": "손담비", "text": "기미·잡티 신경 쓰여, 없애는 데 수백만 원", "context": "피부 고민 인터뷰"},
+    {"speaker": "손담비", "text": "출산 후 얼굴선이 무너져", "context": "노화 고민 인터뷰"},
+    {"speaker": "손담비", "text": "왜 이렇게 늙었냐고 할까 봐", "context": "육아 예능 아근진"},
+    {"speaker": "손담비", "text": "무리한 다이어트는 안 해", "context": "감량 관련 인터뷰"},
+    {"speaker": "손담비", "text": "많이 먹어도 살 안 쪄", "context": "체중 유지 인터뷰"},
+    {"speaker": "이규혁", "text": "술 마신 날 슬라이딩으로 귀가", "context": "육아 예능 아근진, 손담비가 전한 남편 일화"}
+  ],
+  "events": [
+    {"summary": "임신 중 편평사마귀가 380개까지 번져 제거 시술을 받음", "year": null, "confirmed": true},
+    {"summary": "출산 후 13kg을 감량했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "출산 후 기미·잡티 등 피부 고민을 겪었다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "딸이 태어난 뒤 숨 쉬는지 확인하며 밤새 지켜봤다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "남편 이규혁과 함께 딸을 키우는 육아 예능에 출연 중", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "380개", "meaning": "임신 중 번진 편평사마귀 제거 개수(본인 발언)"},
+    {"value": "13kg", "meaning": "출산 후 감량한 체중(본인 발언)"},
+    {"value": "42세", "meaning": "보도된 현재 나이"}
+  ],
+  "credentials": [
+    {"item": "전 스피드스케이팅 국가대표 출신", "whose": "남편(이규혁)"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이규혁", "relation": "남편, 전 스피드스케이팅 국가대표", "mentioned_as": "육아 예능에서 함께 언급됨"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "리프팅 시술 후 중안부가 달라졌다고 밝힘",
+    "출산 후 기미·잡티 고민을 겪었다고 밝힘",
+    "임신 중 편평사마귀가 번져 제거 시술을 받았다고 밝힘"
+  ],
+  "care_habits": [
+    "홈케어 위주로 얼굴 관리를 한다고 밝힘",
+    "무리한 다이어트 대신 습관 관리로 체중을 되찾았다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "임신 중 편평사마귀 380개 제거 고백", "why_hot": "발언"},
+    {"material": "출산 후 13kg 감량, 딸 눈치에 관리한다는 고백", "why_hot": "낙차"},
+    {"material": "리프팅 시술 후 5분 만에 중안부가 달라졌다는 표현", "why_hot": "장면"},
+    {"material": "기미·잡티 없애는 데 수백만 원 썼다는 고백", "why_hot": "발언"},
+    {"material": "이규혁이 술 마신 날 슬라이딩으로 귀가했다는 일화", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "리프팅 시술 직후 거울로 달라진 얼굴을 확인하는 장면",
+    "밤새 딸이 숨 쉬는지 확인하며 지켜보는 장면",
+    "이규혁이 슬라이딩하듯 무릎 꿇고 귀가하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "육아 예능 아근진 방송 캡처",
+    "리얼리티 프로그램 담비손 방송 캡처",
+    "출산 후 근황 인터뷰 사진(언론사 촬영)"
+  ]
+}
