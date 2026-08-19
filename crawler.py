@@ -199,14 +199,47 @@ def drop_namesakes(celeb: str, items):
     return kept
 
 
-def _finish(celeb: str, items):
-    """동명이인을 걸러낸 뒤 좋아요 순으로 정렬한다.
+# 제목 앞 이 글자 수 안에 이름이 있으면 그 기사의 주인공으로 본다.
+SPOTLIGHT_HEAD = 12
 
-    정렬이 여기 붙는 이유: summarize() 가 앞 25건만 프롬프트에 넣으므로
+
+def _spotlight(celeb: str, items):
+    """주인공이 **주인공인** 기사를 앞으로, 곁다리로 스친 기사를 뒤로 보낸다.
+
+    2026-08-19 실측 사고: "재산" 쿼리를 넣었더니 이영애 편에 이런 게 들어왔다.
+        "'9440억 재산 분할' 노소영, 깜짝 근황…최수종 공연 인증샷→이영애도 방문"
+    이영애 재산 기사가 아니라 **노소영 재산 기사**다. 이런 걸 근거로 삼으면
+    남의 수치가 우리 인물의 조건으로 둔갑한다. 동명이인 필터는 이름이 같은
+    사람만 걸러서 이건 못 잡는다.
+
+    지우지는 않는다 — 제목에 이름이 없어도 본문이 그 인물 얘기인 경우가 있다.
+    순서만 내린다. summarize() 가 앞에서부터 자르므로 이것으로 충분하다.
+    """
+    name = (celeb or "").replace(" ", "")
+    if not name:
+        return items
+
+    def tier(it):
+        title = (it.get("title") or "").replace(" ", "")
+        pos = title.find(name)
+        if pos < 0:
+            return 2          # 제목에 없음 — 본문 얘기일 수도 있으니 버리진 않는다
+        # 이름이 제목 앞쪽에 있으면 그 기사의 주인공이다.
+        # "노소영 9440억 재산분할…이영애도 방문" 에서 이영애는 18번째다.
+        return 0 if pos <= SPOTLIGHT_HEAD else 1
+
+    return sorted(items, key=tier)      # 안정 정렬이라 tier 안에서는 인기순 유지
+
+
+def _finish(celeb: str, items):
+    """동명이인·곁다리 기사를 정리한 뒤 좋아요 순으로 정렬한다.
+
+    정렬이 여기 붙는 이유: summarize() 가 앞에서부터만 프롬프트에 넣으므로
     순서가 곧 선별이다. 실패하면 원래 순서가 그대로 나온다(popularity.rank).
     """
     import popularity
-    return popularity.rank(drop_namesakes(celeb, items))
+    ranked = popularity.rank(drop_namesakes(celeb, items))
+    return _spotlight(celeb, ranked)
 
 
 def collect(celeb: str, sort: str = None, display: int = None, mode: str = None,
@@ -269,6 +302,11 @@ def assess_richness(items) -> str:
     # 구체적 근거(숫자·아이템·루틴명)가 얼마나 있는지
     hits = len(re.findall(r"\d+\s*(?:년|개월|주|일|만원|억|세|분)", body))
     hits += sum(body.count(w) for w in ("피부", "메이크업", "패션", "코디", "루틴", "관리"))
+    # 2026-08-19: 조건·사건 축을 추가하면서 이 신호도 같이 넓혔다. 안 그러면
+    # 재산·가족 기사만 잔뜩 모여도 "근거 얇음"으로 판정돼 분량 하한이 풀린다.
+    hits += sum(body.count(w) for w in
+                ("재산", "자산", "남편", "아내", "결혼", "이혼", "열애",
+                 "학력", "졸업", "집안", "수상", "데뷔"))
     return "thin" if hits < 12 else "normal"
 
 
@@ -316,8 +354,13 @@ def _balance_by_query(items, limit, floor=1):
     return picked
 
 
-def summarize(items, limit=25):
-    """프롬프트에 넣을 소스 묶음. 너무 길면 자른다."""
+def summarize(items, limit=None):
+    """프롬프트에 넣을 소스 묶음. 너무 길면 자른다.
+
+    limit 기본값은 config.SOURCE_ITEMS_MAX 다. 쿼리 수가 늘면 여기도 같이
+    늘려야 한다 — _balance_by_query 의 쿼리별 보장분이 자리를 먹기 때문이다.
+    """
+    limit = limit or getattr(C, "SOURCE_ITEMS_MAX", 25)
     out = []
     for i, it in enumerate(_balance_by_query(items, limit), 1):
         head = it.get("media") or it["source"]
