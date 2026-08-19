@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "김완선",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 56,
+    "age_range": "50대",
+    "career": "데뷔 40년째 가수로 활동하며 최근 화가로도 뉴욕에서 첫 개인전을 염",
+    "major_work": "",
+    "identity_anchor": "가수 김완선 — 데뷔 40년째, 데뷔 때와 비슷한 몸매를 유지하며 최근 뉴욕에서 화가로 첫 개인전을 연 근황으로 화제"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김완선", "text": "동안 피부 비결? 돈 벌면 다 쏟아 부어", "context": "짠한형, 피부 관리 질문에 답하며"},
+    {"speaker": "김완선", "text": "가수 안 했으면 노화 빨랐을 듯", "context": "김완선 TV, 동안 비결 인터뷰"},
+    {"speaker": "김완선", "text": "이 메뉴만 한 달 동안 먹어", "context": "김완선 TV, 몸매 유지 비결 공개"},
+    {"speaker": "김완선", "text": "나를 고치는 작업이었다", "context": "뉴욕 개인전 관련 인터뷰"},
+    {"speaker": "김완선", "text": "해방된 느낌, 자유로워진 것 같아", "context": "뉴욕 개인전 퍼포먼스 관련 인터뷰"}
+  ],
+  "events": [
+    {"summary": "데뷔 당시 45kg이었고 지금도 46kg을 유지하고 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "저속노화를 위해 매일 특정 루틴을 챙긴다고 밝힘(구체 내용 비공개)", "year": null, "confirmed": true},
+    {"summary": "한 달 동안 같은 메뉴를 먹어 체지방을 줄였다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "동안 피부 관리를 위해 번 돈을 아낌없이 쓴다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "뉴욕에서 컬러즈 오브 마이 소울이라는 제목으로 첫 개인전을 염", "year": null, "confirmed": true},
+    {"summary": "10대 시절 방송 출연 정지를 겪고 방송국 관계자들에게 모진 말을 들었다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "후배 가수 김광규가 자신의 팬이라 밝히며 부상 중에도 방송에 함께 출연함", "year": null, "confirmed": true},
+    {"summary": "댄스 가수로서 한 트렌드 조사에서 케이팝 여자 부문 1위에 오르며 살아있는 전설로 소개됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "56세", "meaning": "보도된 현재 나이"},
+    {"value": "45kg", "meaning": "데뷔 당시 체중"},
+    {"value": "46kg", "meaning": "현재까지 유지하고 있다는 체중"},
+    {"value": "40년", "meaning": "데뷔 이후 활동 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김광규", "relation": "후배 가수", "mentioned_as": "본인 팬이라며 부상 중에도 함께 방송 출연함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "데뷔 당시 45kg에서 지금도 46kg을 유지하고 있다고 밝힘",
+    "동안 피부 관리를 위해 번 돈을 아낌없이 쓴다고 밝힘",
+    "저속노화를 위한 루틴을 매일 챙긴다고 밝힘(구체 내용 비공개)"
+  ],
+  "care_habits": [
+    "한 달간 같은 메뉴를 먹는 방식으로 체지방을 줄였다고 밝힘",
+    "저속노화를 위해 매일 루틴을 챙긴다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "데뷔 40년, 45kg에서 46kg으로 몸매를 그대로 유지한다는 고백", "why_hot": "낙차"},
+    {"material": "동안 비결로 번 돈을 아낌없이 쓴다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "가수 안 했으면 노화가 더 빨랐을 거라는 발언", "why_hot": "발언"},
+    {"material": "뉴욕에서 화가로 첫 개인전을 열었다는 근황", "why_hot": "반전"},
+    {"material": "후배 김광규가 팬심으로 부상 중에도 함께 출연했다는 훈훈한 일화", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "뉴욕 개인전에서 특별 퍼포먼스를 선보이는 장면",
+    "한 달 내내 같은 메뉴를 챙겨 먹는 장면",
+    "동안 비결을 묻는 질문에 웃으며 돈 얘기를 꺼내는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "뉴욕 개인전 현장 사진(언론사 촬영)",
+    "짠한형 방송 캡처",
+    "김완선 TV 방송 캡처"
+  ]
+}
