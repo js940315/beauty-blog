@@ -460,8 +460,14 @@ def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
                    if _is_quote_only(l.replace(U2800, "").strip())]
     want_q = 1 + C.SUBHEAD_COUNT
     if len(quote_lines) != want_q:
+        hint = ""
+        if len(quote_lines) > want_q:
+            # 실측으로 가장 흔한 원인: 반응 인용을 줄 첫머리에 통째로 놓아
+            # 그 줄이 통째로 큰따옴표가 돼 소제목으로 세어진다.
+            hint = (' — 인용을 줄 첫머리에 통째로 놓지 마라. 문장 안에 넣어라: '
+                    '(X) "예쁜 게 아냐" / (O) "예쁜 게 아냐"라는 말이 나왔습니다')
         errs.append(f"큰따옴표 단독 줄 {len(quote_lines)}개 — "
-                    f"도입 인용구 1 + 소제목 {C.SUBHEAD_COUNT} = {want_q}개여야 함")
+                    f"도입 인용구 1 + 소제목 {C.SUBHEAD_COUNT} = {want_q}개여야 함{hint}")
 
     # 해시태그
     tags = [l.replace(U2800, "").strip() for l in lines

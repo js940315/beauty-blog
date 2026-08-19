@@ -33,6 +33,7 @@ import validate as V        # noqa: E402
 import validator as VR      # noqa: E402
 
 B = C.BRAILLE
+NL = chr(10)
 SAMPLES = "benchmark_samples"
 
 # 파일명 → (인물명, 직업)
@@ -43,6 +44,12 @@ PEOPLE = {
     "04_채수빈.txt": ("채수빈", "배우"),
 }
 EXCEPTION = "05_이시원_예외.txt"
+
+# 2026-08-19 신규격으로 직접 써 본 참고 본문. **실적글이 아니라 규격 검증용**이다.
+# "규격이 실제로 만족 가능한가"를 증명한다 — 규칙을 조이다 보면 어느 순간
+# 아무 글도 통과 못 하는 상태가 되는데, 그걸 이걸로 잡는다.
+# 지시서에는 넣지 않는다. 예시를 주면 모델이 통째로 베낀다(CLICHE_OPENERS 참고).
+REFERENCE = ("99_newspec_reference.txt", "이영애", "배우")
 
 
 def to_body(raw):
@@ -76,16 +83,25 @@ def naver_chars(lines):
             + sum(l.count(B) for l in body))
 
 
-def run(fn, name, job):
+def run(fn, name, job, reactions=False):
     raw = open(os.path.join(HERE, SAMPLES, fn), encoding="utf-8").read()
     lines = to_body(raw)
+    # 픽스처에 해시태그가 들어 있으면 떼어낸다 — 경로마다 태그 규칙이 달라서
+    # (v13 은 자유 8개, 일일은 고정 4개 + 인물 2개) 여기서 각자 붙인다.
+    while lines and lines[-1].replace(B, "").strip().startswith("#"):
+        lines.pop()
+    while lines and lines[-1] == B * 3:
+        lines.pop()
     flat = name.replace(" ", "")
 
     # v13 경로 (pipeline.py → validate.validate_body)
     tags13 = [f"#{flat}", f"#{flat}근황", f"#{flat}미모", "#소재하나",
               "#소재둘", "#소재셋", "#여배우미모", "#연예인뷰티"]
-    e13 = V.validate_body("\n".join(lines + [B * 3] + tags13),
-                          factsheet(name, job), {})
+    fs = factsheet(name, job)
+    if reactions:
+        # 반응 인용 검사는 재료가 있을 때만 켜진다. 참고본은 그 경로도 밟는다.
+        fs["public_reactions"] = [{"text": "예쁜 게 아냐, 아름다워", "where": "방송"}]
+    e13 = V.validate_body(NL.join(lines + [B * 3] + tags13), fs, {})
 
     # 일일 경로 (main.py → validator.validate)
     tags1 = list(C.FIXED_HASHTAGS) + [f"#{flat}", f"#{flat}패션",
@@ -139,6 +155,19 @@ def main():
         e13, e1, n, rows = run(fn, name, job)
         ok = not e13 and not e1
         print(f"{'OK  ' if ok else 'FAIL'} {fn}  {n}자 / 내용줄 {rows}")
+        for e in e13:
+            print("       [v13]  ", e)
+        for e in e1:
+            print("       [일일] ", e)
+        if not ok:
+            bad += 1
+
+    # 신규격 참고 본문 — 반드시 통과해야 한다 (규격이 만족 가능한가)
+    fn, name, job = REFERENCE
+    if os.path.exists(os.path.join(HERE, SAMPLES, fn)):
+        e13, e1, n, rows = run(fn, name, job, reactions=True)
+        ok = not e13 and not e1
+        print(f"{'OK  ' if ok else 'FAIL'} {fn}  {n}자 / 내용줄 {rows}  (신규격 참고본)")
         for e in e13:
             print("       [v13]  ", e)
         for e in e1:
