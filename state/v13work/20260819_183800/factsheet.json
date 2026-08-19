@@ -1,0 +1,79 @@
+{
+  "person": {
+    "name": "장윤정",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 55,
+    "age_range": "50대",
+    "career": "가수로 활동하며 유튜브 채널 장공장을 운영, 최근 기획사를 차려 후배 양성 계획도 밝힘",
+    "major_work": "",
+    "identity_anchor": "가수 장윤정 — 방송인 도경완과 결혼, 유튜브 채널 장공장에서 솔직한 관리·일상 고백으로 화제"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장윤정", "text": "벨트 해도 바지가 남아", "context": "장공장, 다이어트 효과 관련"},
+    {"speaker": "장윤정", "text": "평생 살 안 찔 줄 알았다, 나이 들수록 살과 전쟁", "context": "장공장, 체중 관리 토로"},
+    {"speaker": "장윤정", "text": "목욕탕에서 사진 찍힌 후 겁났다", "context": "장공장, 개인 사우나 설치 이유"},
+    {"speaker": "장윤정", "text": "칫솔질은 기본, 가글·치실까지 다 한다", "context": "네고왕, 구강 케어 루틴 공개"},
+    {"speaker": "장윤정", "text": "간식 안 먹어, 그저 술만", "context": "체중 유지 비결 인터뷰"},
+    {"speaker": "장윤정", "text": "가수 그만두면 어떻게 살까", "context": "은퇴 고민 관련 발언"},
+    {"speaker": "장윤정", "text": "도경완 영입은 NO", "context": "장공장, 기획사 설립 관련 발언"},
+    {"speaker": "장윤정", "text": "친정서 30년 못 받은 생일상, 시어머니가 챙겨줘", "context": "백반기행"}
+  ],
+  "events": [
+    {"summary": "안 굶고 다이어트에 성공해 48kg을 유지한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "대중목욕탕에서 사진이 찍힌 뒤 무서워져 집에 개인 사우나를 들였다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "칫솔질, 가글, 치실까지 챙기는 구강 케어 루틴을 공개함", "year": null, "confirmed": true},
+    {"summary": "두 자녀를 국제학교에 보내며 학비로 12억 원가량이 든다고 보도됨", "year": null, "confirmed": true},
+    {"summary": "매일 아침 6시 30분에 일어나 자녀 도시락을 싼다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "주3회가량 음주를 하면서도 간식을 최소화해 체형을 유지한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "55세에도 뱃살이 거의 없어 운동 3종세트가 비결로 언급됨", "year": null, "confirmed": true},
+    {"summary": "기획사를 차려 후배를 키우고 싶다고 밝히며 남편 영입 계획은 없다고 선을 그음", "year": null, "confirmed": true},
+    {"summary": "가수 활동을 그만두면 어떻게 살지 고민한 적이 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "친정에서는 30년간 못 받은 생일상을 시어머니가 챙겨줬다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "55세", "meaning": "보도된 현재 나이"},
+    {"value": "48kg", "meaning": "유지한다고 밝힌 체중"},
+    {"value": "12억원", "meaning": "자녀 국제학교 학비로 보도된 금액"},
+    {"value": "120억원", "meaning": "거주 중이라고 보도된 펜트하우스 관련 금액"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "얼굴톤 달라졌다", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "도경완", "relation": "남편, 방송인", "mentioned_as": "체중 관리 변화에 놀란 반응을 보임"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "공복에 특정 음식을 챙겨 먹으면서 얼굴 톤이 달라졌다는 반응을 얻음(품목 비공개)",
+    "칫솔질, 가글, 치실까지 챙기는 구강 케어 루틴을 공개함",
+    "간식을 최소화해 음주를 해도 체형을 유지한다고 밝힘"
+  ],
+  "care_habits": [
+    "안 굶는 방식으로 다이어트를 했다고 밝힘",
+    "대중목욕탕 노출이 부담스러워 개인 사우나를 마련함",
+    "운동 3종세트로 뱃살을 관리한다고 언급됨",
+    "공복에 특정 음식을 챙겨 먹는다고 밝힘(품목 비공개)"
+  ],
+  "hot_materials": [
+    {"material": "안 굶고 다이어트해 벨트를 해도 바지가 남는다는 고백", "why_hot": "발언"},
+    {"material": "목욕탕에서 사진 찍힌 뒤 겁나서 개인 사우나를 들였다는 고백", "why_hot": "장면"},
+    {"material": "자녀 국제학교 학비 12억 원, 매일 6시30분 기상해 도시락 싼다는 사실", "why_hot": "낙차"},
+    {"material": "애주가인데도 48kg을 유지한다는 반전", "why_hot": "반전"},
+    {"material": "남편 도경완이 얼굴톤 변화에 깜짝 놀랐다는 반응", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "대중목욕탕에서 몰래 사진이 찍혀 놀라는 장면",
+    "새벽 6시30분에 일어나 도시락을 싸는 장면",
+    "칫솔질 후 가글과 치실까지 꼼꼼히 챙기는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "유튜브 채널 장공장 방송 캡처",
+    "네고왕 방송 캡처",
+    "백반기행 방송 캡처"
+  ]
+}
