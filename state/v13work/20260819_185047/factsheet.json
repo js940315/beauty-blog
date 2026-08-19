@@ -1,0 +1,76 @@
+{
+  "person": {
+    "name": "백지영",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 49,
+    "age_range": "40대",
+    "career": "가수로 활동하며 9세 연하 정석원과 결혼, 솔직한 성형·관리 고백으로 화제",
+    "major_work": "",
+    "identity_anchor": "가수 백지영 — 배우 정석원과 결혼, 과거 성형 고백 이후 시술을 끊고 저속노화를 택한 근황으로 화제"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "백지영", "text": "수술대 다시 눕고싶어", "context": "성형 부작용 고백 인터뷰"},
+    {"speaker": "백지영", "text": "그 정도는 금방 벌어", "context": "성형에 들인 비용 관련 고백"},
+    {"speaker": "백지영", "text": "시술·리프팅 NO, 나이 어쩔 수 없어", "context": "저속노화 관련 인터뷰"},
+    {"speaker": "백지영", "text": "슬로우에이징이 목표", "context": "피부 관리 관련 인터뷰"},
+    {"speaker": "백지영", "text": "20년간 49kg", "context": "체중 관리 인터뷰"},
+    {"speaker": "백지영", "text": "아이스크림·음료수 안 먹어", "context": "몸매 유지 비결 인터뷰"},
+    {"speaker": "백지영", "text": "그냥 확 줄였다", "context": "3kg 감량 식단 관리법 인터뷰"},
+    {"speaker": "백지영", "text": "아침마다 콩물 마신다", "context": "출산 후 탈모 고민 인터뷰"},
+    {"speaker": "백지영", "text": "못 지킬까봐 아예 안 해, 탄수화물만 제한", "context": "체형 관리법 인터뷰"}
+  ],
+  "events": [
+    {"summary": "과거 성형 부작용을 고백하며 다시 수술대에 눕고 싶다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "성형에 들인 비용을 고백하며 빨리 벌 수 있다고 말함", "year": null, "confirmed": true},
+    {"summary": "현재는 시술·리프팅을 하지 않고 저속노화를 택했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "미백 라인 스킨케어로 피부를 관리한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "20년간 49kg을 유지하고 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "탄수화물만 제한하는 방식으로 체형을 관리한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "식단을 확 줄여 3kg을 감량했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "출산 후 탈모가 심해져 아침마다 콩물을 마신다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "9세 연하 정석원과 결혼해 딸을 키우고 있음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49세", "meaning": "보도된 현재 나이"},
+    {"value": "49kg", "meaning": "20년째 유지한다고 밝힌 체중"},
+    {"value": "3kg", "meaning": "식단 관리로 감량했다고 밝힌 체중"},
+    {"value": "9세", "meaning": "남편 정석원과의 나이 차"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "정석원", "relation": "남편, 배우", "mentioned_as": "9세 연하로 언급됨"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "과거 성형 부작용을 스스로 고백함",
+    "현재는 시술·리프팅 없이 저속노화를 택했다고 밝힘",
+    "미백 라인 스킨케어로 피부를 관리한다고 밝힘"
+  ],
+  "care_habits": [
+    "탄수화물만 제한하는 방식으로 체형을 관리한다고 밝힘",
+    "아이스크림·음료수를 먹지 않는다고 밝힘",
+    "출산 후 탈모 때문에 아침마다 콩물을 마신다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "성형 부작용 고백, 다시 수술대에 눕고 싶다는 발언", "why_hot": "발언"},
+    {"material": "지금은 시술·리프팅을 끊고 저속노화를 택했다는 반전", "why_hot": "반전"},
+    {"material": "20년간 49kg을 유지한다는 고백", "why_hot": "낙차"},
+    {"material": "출산 후 탈모로 아침마다 콩물을 마신다는 고백", "why_hot": "발언"},
+    {"material": "성형 비용을 금방 번다고 쿨하게 말한 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "성형 부작용을 고백하며 눈물을 보이는 장면",
+    "아침마다 콩물을 마시는 장면",
+    "탄수화물만 제한하며 식단을 확 줄이는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "예능 미우새 방송 캡처",
+    "세상에 이런 일이 방송 캡처",
+    "인터뷰 사진(언론사 촬영)"
+  ]
+}
