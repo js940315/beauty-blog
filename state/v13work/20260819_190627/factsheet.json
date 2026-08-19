@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "권유리",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "소녀시대 멤버로 데뷔해 SM과 19년 동행 후 최근 연기에 완전히 몰입, 새 드라마 형사 역할로 컴백 예정",
+    "major_work": "침범",
+    "identity_anchor": "배우 권유리 — 소녀시대 멤버, SM과 19년 동행을 마무리하며 배우로서 새 드라마 형사 역할에 캐스팅된 근황으로 화제"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "권유리", "text": "연기할 때 살아있음을 느낀다", "context": "화보 인터뷰"},
+    {"speaker": "권유리", "text": "변화를 알아보는 눈이 생겼다", "context": "싱글리스트 화보 인터뷰"},
+    {"speaker": "권유리", "text": "오히려 자유로워", "context": "TEN인터뷰, 드라마 침범 액션 장면 관련"},
+    {"speaker": "권유리", "text": "주변에 선입견이 있었지만..", "context": "바이크 취미 관련 인터뷰"},
+    {"speaker": "권유리", "text": "탈선하지 않아", "context": "바이크 구매 관련 인터뷰"},
+    {"speaker": "권유리", "text": "다들 20대 같네", "context": "소녀시대 완전체 모임 소감"},
+    {"speaker": "최수영", "text": "몸매가 진짜 미쳤어요", "context": "권유리 10년 전 비키니 사진에 대한 반응"},
+    {"speaker": "강소라", "text": "열정적이고 빛나", "context": "권유리 응원 관련 발언"}
+  ],
+  "events": [
+    {"summary": "소녀시대로 데뷔해 SM과 19년 동행을 마무리하며 소녀시대 활동은 계속한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "새 드라마에서 가석방 심사관 이한신 이라는 형사 역할로 캐스팅됨", "year": null, "confirmed": true},
+    {"summary": "드라마 침범 촬영을 위해 역할에 맞춰 5kg을 증량했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "230억 원대 건물주로 알려져 있으며 3천만원대 바이크를 구매함", "year": null, "confirmed": true},
+    {"summary": "소녀시대 완전체 모임 사진을 공개함", "year": null, "confirmed": true},
+    {"summary": "10년 전 비키니 사진이 재조명되며 동료 배우 최수영의 극찬을 받음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "5kg", "meaning": "드라마 침범 배역을 위해 증량했다고 밝힌 체중"},
+    {"value": "19년", "meaning": "SM과 함께한 기간"},
+    {"value": "230억원", "meaning": "보도된 건물 자산 규모"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "몸매가 진짜 미쳤어요", "where": "기사반응", "scale": ""},
+    {"text": "열정적이고 빛나", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "최수영", "relation": "동료 배우", "mentioned_as": "비키니 사진에 극찬함"},
+    {"name": "강소라", "relation": "동료 배우", "mentioned_as": "응원 메시지를 전함"}
+  ],
+  "works": [
+    {"title": "침범", "year": null, "costar": "", "scene": "미혼 임신 상태의 캐릭터로 몸싸움을 벌이는 장면", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "10년 전 비키니 사진이 재조명되며 동료 배우의 극찬을 받음",
+    "소녀시대 완전체 모임에서 다들 20대 같다는 반응을 얻음"
+  ],
+  "care_habits": [
+    "배역을 위해 5kg을 증량하는 등 캐릭터에 맞춰 체형을 조절함",
+    "바이크를 취미로 즐기며 활동적인 생활을 이어감"
+  ],
+  "hot_materials": [
+    {"material": "SM과 19년 동행을 마무리하며 소녀시대 활동은 계속한다는 근황", "why_hot": "낙차"},
+    {"material": "드라마 배역을 위해 5kg을 증량했다는 고백", "why_hot": "발언"},
+    {"material": "10년 전 비키니 사진에 최수영이 몸매가 미쳤다고 극찬한 반응", "why_hot": "실명"},
+    {"material": "230억 건물주인데 3천만원대 바이크에 빠졌다는 반전", "why_hot": "반전"},
+    {"material": "예능퀸에서 형사 역할 배우로 돌아온다는 근황", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "드라마 침범 촬영장에서 몸싸움 장면을 소화하는 모습",
+    "소녀시대 완전체 모임에서 다 함께 웃는 장면",
+    "바이크를 타고 자유롭게 달리는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "화보 촬영 사진(언론사 촬영)",
+    "시사회장 패션 사진(언론사 촬영)",
+    "예능 놀토·백사장3 방송 캡처"
+  ]
+}
