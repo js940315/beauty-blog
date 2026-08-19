@@ -587,9 +587,14 @@ def stage_body():
     # heat 는 동점일 때 순서만 가른다.
     import config as CFG
     import titles as TS
+    # 주인공 이름을 넘긴다 — 제목은 블라인드다 (2026-08-19).
+    # 예전엔 score() 가 CELEB_POOL 전체를 막아서 주인공이 자동으로 걸렸는데,
+    # 그 규칙이 제3자 실명(최강 훅)까지 막고 있어서 주인공만 막도록 바꿨다.
+    # 그래서 이제는 누가 주인공인지 **넘겨줘야** 한다.
+    subject = (fs.get("person") or {}).get("name", "")
     ranked = []
     for t in titles:
-        s, why = TS.score(t.get("title", ""))
+        s, why = TS.score(t.get("title", ""), subject)
         ranked.append({**t, "score": s, "score_reasons": why,
                        "form": TS.form_of(t.get("title", ""))})
     ranked.sort(key=lambda t: (-t["score"], -t.get("heat", 0)))

@@ -22,6 +22,12 @@ _JOB = re.compile(
 # 정답이 너무 쉬운 조합: 유명 남자 실명 + 혼인 관계어.
 # "장동건과 16년째 부부"는 누가 봐도 답이 나와서 클릭베이트가 죽는다.
 _MARRIAGE = re.compile(r"남편|부부|아내|와이프|배우자|결혼|재혼")
+# 실명이 **배우자로 묶인** 형태만. "결혼하자 고백한" · "결혼하고 싶다는" 은
+# 소망·제안이라 정답 노출이 아니다 (2026-08-19).
+_SPOUSE_BIND = re.compile(
+    r"(?:와|과)\s*(?:결혼한|재혼한|부부|백년가약)"
+    r"|남편\s*[가-힣]{2,4}"
+    r"|[가-힣]{2,4}\s*(?:아내|와이프|배우자)로")
 # 유지 기간형: 37년째 / 20년간 / 15년 동안
 _DURATION = re.compile(r"\d+\s*년\s*(?:째|간|동안|넘게|째로)")
 _WEIGHT_TOKEN = re.compile(r"\d+\s*(?:kg|KG|킬로|키로)|\d+\s*사이즈|몸무게|체중")
@@ -49,7 +55,13 @@ _QUESTION_END = re.compile(r"(?:\?|까|까요|나요|을까|ㄹ까|일까|는지
 # 2026-08-18: 맨 "~는데" 가 빠져 있었다. "뱃살이 없는데 라면을 먹는다",
 # "샤넬백 들고 모자는 쿠팡인데" 같은 명백한 상식 파괴가 화력 0으로 폐기됐다.
 # 인데·았는데도 흔한 연결어미인데 이미 넣어 뒀으니 기준을 맞춘다.
-_CONTRAST = re.compile(r"인데|는데|은데|았는데|었는데|고도 ")
+# 2026-08-19: 기대 배반형을 추가했다. "성시경과 결혼할줄 알았지만 결국"(1.5만)
+# 이 화력 0 으로 폐기됐다 — 이건 모순 구조의 전형인데 어미가 목록에 없었다.
+_CONTRAST = re.compile(
+    r"인데|는데|은데|았는데|었는데|고도 "
+    r"|줄 알았|줄알았|인 줄|는 줄|알았지만|했지만|하지만|그런데|오히려|아직"
+    # 양보형도 모순이다 — "화장 안해도 이쁜"(1.0만)
+    r"|안\s*해도|않아도|없이도|아니어도|말고도")
 _OPEN_END = re.compile(r"(?:\.\.\.|…)\s*$")
 # 진부한 마무리. "그래서 뭐?"가 나오는 종결어미·명사로 끝나는 제목.
 # .jpg 마감(v13)과 말줄임은 떼고 본다.
@@ -111,8 +123,13 @@ def head_specifics(head: str) -> list:
         found.append("나이반전")
     if any(w in head for w in C.SCENE_WORDS):
         found.append("장면")
-    if any(n in head for n in C.MALE_CELEB_NAMES + C.FEMALE_RELATION_NAMES):
+    # 2026-08-19: 예전엔 남자·여자관계 목록만 봐서 CELEB_POOL 쪽 실명
+    # ("송혜교도 예뻐서…" 조회 2.2만)을 구체 요소로 못 셌다.
+    if third_party_name(head):
         found.append("실명")
+    # 신분어도 그림을 그린다 — "멘사 회장", "버스기사", "서울대"
+    if any(w in head for w in getattr(C, "STATUS_WORDS", ())):
+        found.append("신분")
     if any(w in head for w in C.DIET_SIGNAL_WORDS):
         found.append("신호어")
     if any(g in head for g in C.GAP_MARKERS):
@@ -164,7 +181,7 @@ def form_of(title: str) -> str:
         return "기타"
     head = _head(title)
 
-    if any(n in head for n in C.MALE_CELEB_NAMES + C.FEMALE_RELATION_NAMES):
+    if third_party_name(head):
         return "제3자반응"
     if _DQUOTE.search(title):
         return "인용폭로"
@@ -215,12 +232,15 @@ _SWAP = re.compile(
 # 강조·과장 구문은 그 자체로 궁금증을 만든다. "얼마나 예뻤으면 감독이 대본을 고쳤을까"
 # 는 사실을 하나도 안 바꾸고 화력만 올린다. 기존 채점기에 이 항목이 통째로 없었다.
 _INTENSITY = re.compile(
-    r"얼마나\s*\S{1,12}(?:으면|었으면|했으면|길래)"
+    r"얼마나\s*\S{0,12}(?:면|으면|었으면|했으면|길래|이길래)"
     r"|오죽(?:했으면|하면)"
     r"|도대체\s*얼마나|대체\s*얼마나"
     r"|\S+까지\s*\S{1,6}(?:다|다는|았다|었다|해|했다|버렸|말았)"
     r"|심지어|무려|단\s*\d|겨우\s*\d|\S+조차\s*안"
     r"|이 정도면|이쯤 되면"
+    # 2026-08-19: 희소성. "50년에 한 번 나올 미모"(2.1만)가 화력 0 이었다.
+    r"|\d+\s*년에\s*한\s*번|한\s*번\s*나올|단\s*한\s*(?:명|사람)"
+    r"|유일(?:한|하게)|사상\s*최초|역대\s*최|전무후무|반박\s*불가"
 )
 
 # "진라면 금지" — 화력 요소가 하나도 없는 제목은 홈판에서 안 눌린다.
@@ -231,19 +251,34 @@ def _has_firepower(title: str) -> bool:
     return bool(_CONTRAST.search(title)      # 모순  "48세인데 20대 쇄골"
                 or _SWAP.search(title)       # 대비  "명품 다 팔고 에코백"
                 or _INTENSITY.search(title)  # 강조  "얼마나 예뻤으면"
-                or _age_gap(_head(title)))   # 나이 반전
+                or _age_gap(_head(title))    # 나이 반전
+                or third_party_name(title)   # 실명  "송혜교도 예뻐서"
+                or len(hook_units(title)) >= 2)  # 훅 2개 이상
+                # 실명은 2026-08-19 에 추가했다. "송혜교도 예뻐서 친해지고
+                # 싶다며 편지 보냈던"(조회 2.2만)이 화력 0 으로 폐기됐다.
+                # 상위 20편 중 15편이 제3자 실명형이다 — 이게 최강 훅이다.
 
 
 # 지시어로 인물을 가리는 형태를 패턴으로 잡는다 (목록 방식은 수식어가 끼면 뚫린다).
 #   그 배우 / 그 톱배우 / 이 여배우 / 해당 인기 가수 / 그 국민 여동생
+# ⚠️ 2026-08-19 실측 오탐: "화장 안해도 이쁜 여배우"(조회 1.0만)가
+#    "이"+"쁜 "+"여배우" 로 잡혀 즉시 탈락했다. 지시어 뒤에 공백을 강제한다.
+#    "그 톱배우" 는 수식어 그룹이 "톱"을 먹으므로 그대로 잡힌다.
+#    2026-08-19 2차: 앞 경계도 필요하다. "여신이 된 여배우"(1.2만) ·
+#    "현빈이 여배우 중"(1.2만) 의 조사 "이" 가 지시어로 잡혔다.
 _PRONOUN_PAT = re.compile(
-    r"(?:그|이|저|해당)\s*"
+    r"(?<![가-힣])(?:그|이|저|해당)\s+"
     r"(?:[가-힣]{1,4}\s*){0,2}"
     r"(?:여?배우|여?가수|모델|아나운서|방송인|개그우먼|아이돌|셀럽|연예인|스타|톱스타)"
 )
 
 
 # 경력·기간을 숫자로 밝힌 표현. 이것도 "누군데?" 를 만드는 수식어다.
+# 숫자 + 단위 = 구체 수치 훅 (2026-08-19). 맨 숫자는 세지 않는다.
+_UNIT_NUM = re.compile(
+    r"\d+\s*(?:살|세|대|조|억|만원|천만|년생|년|개월|장|위|명|편|kg|배|평|번|시간|분)")
+
+
 _TENURE = re.compile(r"\d+\s*년\s*(?:차|째|만에)|데뷔\s*\d+|\d+\s*기|\d+\s*년\s*활동")
 
 
@@ -262,10 +297,20 @@ def bare_job(title: str) -> bool:
         return False
     if any(e in title for e in getattr(C, "BLIND_EPITHETS", ())):
         return False
+    # 2026-08-18 사용자 확정을 코드로 옮긴 부분 (2026-08-19 보강):
+    # "앞에 충분히 궁금해 할 만한 포인트가 들어가면서 수식어가 붙으면 가능."
+    # 훅이 두 개 이상이면 그 조건은 이미 충족된 것이다. 실측: 이 감점이
+    # 상위 20편 중 8편에 걸려 있었다 ("신동엽 얼굴에 침 뱉은 여배우" 포함).
+    if len(hook_units(title)) >= 2:
+        return False
     # 숫자형 수식어도 수식어다 — "19년 차 배우", "데뷔 27년 가수", "3년 만에".
     # 목록에만 의존하면 "19년 차 배우, 명품 다 팔고 에코백"(좋은 제목)이
     # 맨몸 취급을 받아 -15 를 맞는다(2026-08-18 실측: 82 -> 67 로 하한 미달).
     return not _TENURE.search(title)
+
+
+# 이름 뒤에 붙는 한 글자 조사. 이 집합 안이면 이름 경계로 본다.
+_JOSA = set("이가은는을를과와도만의에로께랑씨님")
 
 
 def _name_hit(title: str, name: str) -> bool:
@@ -281,13 +326,60 @@ def _name_hit(title: str, name: str) -> bool:
             continue
         before = title[i - 1] if i > 0 else ""
         after = title[i + len(name)] if i + len(name) < len(title) else ""
-        if "가" <= before <= "힣" or "가" <= after <= "힣":
+        if "가" <= before <= "힣":
             continue                      # 더 긴 이름의 일부다
+        # 뒤는 조사가 붙는 게 정상이다 — "손예진과", "송혜교도", "현빈이".
+        # 2026-08-19 이전엔 뒤 글자가 한글이면 무조건 넘겼고, 그래서 실명이
+        # 붙은 제목을 채점기가 거의 다 놓쳤다 (상위 20편 중 15편이 실명형인데
+        # 코드가 인식한 건 3편뿐이었다).
+        if "가" <= after <= "힣" and after not in _JOSA:
+            continue
         return True
     return False
 
 
-def disqualify_reason(title: str):
+def third_party_name(title: str):
+    """제목에 들어간 제3자 유명인 실명. 없으면 None.
+
+    제목은 주인공을 가리는 게 규칙이라, 제목에 나오는 실명은 정의상 제3자다.
+    그래서 CELEB_POOL(우리 주인공 후보)까지 전부 훑어도 된다 — 주인공 본인
+    이름은 disqualify_reason() 이 따로 막는다.
+    """
+    for name in (tuple(C.CELEB_POOL) + tuple(C.MALE_CELEB_NAMES)
+                 + tuple(C.FEMALE_RELATION_NAMES)):
+        if _name_hit(title, name):
+            return name
+    return None
+
+
+def hook_units(title: str):
+    """제목에 든 훅 단위 목록 (2026-08-19 사용자 지시로 신설).
+
+    사용자: "하나가 엄청 구체적이면서 강력한 거면 몰라도, 그냥 적당히 강한
+    거면 2개를 넣는 게 더 세게 꽂힌다. 0.5초 안에 클릭할지 말지 결정하게
+    만들어야 한다. 홈판에서 클릭이 안 나오면 글이 아무리 좋아도 의미 없다."
+
+    상위 20편 실측 분포(수정 전 채점기 기준)는 0개 4편 / 1개 4편이었는데,
+    그건 채점기가 실명을 못 세서 나온 값이었다. 실명 판정을 고친 뒤
+    다시 세면 전 편이 2개 이상이다.
+    """
+    got = []
+    if third_party_name(title):
+        got.append("실명")
+    if _UNIT_NUM.search(title):
+        got.append("수치")
+    if any(w in title for w in getattr(C, "STATUS_WORDS", ())):
+        got.append("신분")
+    if any(e in title for e in C.LIFE_EVENTS):
+        got.append("사건")
+    if _INTENSITY.search(title) or _SWAP.search(title) or _CONTRAST.search(title):
+        got.append("강조")
+    if _STACK.search(title):
+        got.append("스택")
+    return got
+
+
+def disqualify_reason(title: str, subject: str = ""):
     """즉시 탈락 사유. 없으면 None."""
     for w in C.EXTREME_WORDS:
         if w in title:
@@ -300,17 +392,28 @@ def disqualify_reason(title: str):
     for w in getattr(C, "CLICHE_OPENERS", ()):
         if w in title:
             return f"상투 문구 복붙: {w}"
-    for name in C.CELEB_POOL:
-        if _name_hit(title, name):
-            return f"여자 실명 노출: {name}"
+    # ⚠️ 2026-08-19 교체. 예전엔 CELEB_POOL 의 **아무 이름이나** 제목에 있으면
+    #    탈락시켰다. 그런데 CELEB_POOL 은 우리 주인공 후보 명단이고, 거기
+    #    이름들(손예진·송혜교·전지현·서현진)은 남의 글에선 최강의 제3자 훅이다.
+    #    실측: 상위 20편 중 4편이 이 규칙에 걸린다 — 1위(5.0만) 포함.
+    #    막아야 하는 건 **오늘 그 글의 주인공 이름**뿐이다.
+    if subject and _name_hit(title, subject):
+        return f"주인공 실명 노출: {subject} (제목은 블라인드다)"
 
     # ── 2026-08-18 사용자 지시로 신설 ──────────────────────────────────
     # "추상적인 표현은 절대 사용하지 말고 구체적인 키워드식의 제목을 만들라고.
     #  딱 보면 머릿속에 그림이 그려지도록."
     # 감점이 아니라 폐기다. 감점으로 두면 다른 항목으로 벌충해서 살아남는다 —
     # 실측 0818: "오디션 4번 거친 그 배우, 피부까지 완벽했다" 가 80점으로 확정됐다.
+    # ⚠️ 단순 부분문자열 검사는 조사를 지시어로 오인한다 (2026-08-19 실측:
+    #    "현빈이 여배우 중 가장 예쁘다"(1.2만) 가 "이 여배우" 로 걸려 탈락).
+    #    앞 글자가 한글이면 그건 지시어가 아니라 앞 단어의 조사다.
     for w in getattr(C, "PRONOUN_SUBJECTS", ()):
-        if w in title:
+        for i in range(len(title) - len(w) + 1):
+            if title[i:i + len(w)] != w:
+                continue
+            if i > 0 and "가" <= title[i - 1] <= "힣":
+                continue
             return f"인물을 지시대명사로 가림(특정성 0): {w}"
     # 목록만으로는 샌다. 2026-08-18 실측: "그 **톱배우**" 가 목록에 없어서
     # 99점짜리로 통과했다. 수식어가 하나 끼면 목록 방식은 무한히 뚫린다.
@@ -318,9 +421,16 @@ def disqualify_reason(title: str):
     m = _PRONOUN_PAT.search(title)
     if m:
         return f"인물을 지시대명사로 가림(특정성 0): {m.group(0)}"
-    for w in getattr(C, "ABSTRACT_WORDS", ()):
-        if w in title:
-            return f"추상 표현(그림이 안 그려짐): {w}"
+    # 추상어는 **혼자 인물을 수식할 때만** 문제다 (2026-08-19 완화).
+    # 사용자 지침: "앞에 충분히 궁금해 할 포인트가 들어가면서 수식어가 붙으면
+    # 사용해도 가능하다." 실측으로 걸린 두 편이 정확히 그 경우였다:
+    #   "역대급 사기캐 뇌색녀 여배우"(3.3만) — 역대급 뒤에 구체어가 둘 붙었다
+    #   "서현진이 실물보고 진심으로 감동 받은"(1.0만) — 감동은 사건의 서술어다
+    # 훅이 두 개 이상이면 그림은 이미 그려진 것이다.
+    if len(hook_units(title)) < 2:
+        for w in getattr(C, "ABSTRACT_WORDS", ()):
+            if w in title:
+                return f"추상 표현(그림이 안 그려짐): {w} — 훅이 하나뿐이라 더 치명적이다"
 
     if not _has_firepower(title):
         return ("화력 0 — 반전·대비·강조·나이반전이 하나도 없다 "
@@ -346,12 +456,16 @@ def below_floor(ranked):
     return ranked[0]["score"] < getattr(C, "MIN_SCORE", 0)
 
 
-def score(title: str):
-    """(점수, 사유 목록) 반환. 사유는 titles.json에 그대로 남긴다."""
+def score(title: str, subject: str = ""):
+    """(점수, 사유 목록) 반환. 사유는 titles.json에 그대로 남긴다.
+
+    subject = 오늘 그 글의 주인공 이름. 제목에 이 이름이 나오면 탈락이다
+    (제목은 블라인드). 다른 유명인 실명은 훅이라 막지 않는다.
+    """
     title = title.strip()
     reasons = []
 
-    dq = disqualify_reason(title)
+    dq = disqualify_reason(title, subject)
     if dq:
         return C.DISQUALIFIED, [f"{dq} → 즉시 탈락"]
 
@@ -440,12 +554,31 @@ def score(title: str):
         total += w["quote_stack"]
         reasons.append(f"인용구 안 조건 2개 병렬 +{w['quote_stack']}")
 
+    # ── 훅 단위 (2026-08-19 사용자 지시) ────────────────────────────
+    # "적당히 강한 거면 2개를 넣어야 세게 꽂힌다. 0.5초 안에 결정된다."
+    units = hook_units(title)
+    if len(units) >= 2:
+        bonus = w["hook_stack"] * min(len(units) - 1, 2)
+        total += bonus
+        reasons.append(f"훅 {len(units)}개({'+'.join(units)}) +{bonus}")
+    else:
+        total += w["single_hook"]
+        reasons.append(
+            f"훅 {len(units)}개({'+'.join(units) or '없음'}) {w['single_hook']} — "
+            "0.5초 안에 눌리게 하려면 하나로는 약하다. 실명·수치·신분·사건·"
+            "강조 중 하나를 더 얹어라")
+
     if any(e in title for e in C.LIFE_EVENTS):
         total += w["life_event"]
         reasons.append(f"인생 사건 +{w['life_event']}")
 
-    if any(n in title for n in C.MALE_CELEB_NAMES):
-        if _MARRIAGE.search(title):
+    _m = third_party_name(title)
+    if _m and _m in C.MALE_CELEB_NAMES:
+        # 2026-08-19: 예전엔 남자 실명 + "결혼" 이 한 제목에 있기만 하면
+        # 정답 노출로 -25 였다. 그런데 "기안이 11억 빚 갚아줄테니 결혼하자
+        # 고백한"(2.0만) · "이서진이 결혼하고 싶다는"(1.5만) 은 남편이 아니라
+        # **제3자의 발언**이다. 실제로 배우자로 묶였을 때만 잡는다.
+        if _SPOUSE_BIND.search(title):
             total += w["too_obvious"]
             reasons.append(f"남편 실명+혼인어 = 정답 노출 {w['too_obvious']}")
         else:
@@ -533,36 +666,49 @@ KNOWN = [
     # 실제 확정 제목. 앞 20자에 남는 게 "식단 안 한다"와 "34세"뿐이라
     # 홈판에서 그림이 안 그려지고, "~라는데" 로 끝나 다 아는 소리로 읽힌다.
     # 개선 전에는 이슈 선행형 +22를 그대로 받아 1위로 올라갔다.
-    ('"엄격한 식단 안 한다는" 34세 배우, 그런데 피부는 도자기라는데', 37),
+    # ⚠️ 2026-08-19 기준점 재설정. 상위 20편 실측으로 채점기를 고치면서
+    #    (제3자 실명=화력 인정 · 훅 2개 가점 · 맨몸직업어 면제 조건 추가)
+    #    아래 기대값이 전반적으로 올라갔다. 순위 관계는 그대로다.
+    ('"엄격한 식단 안 한다는" 34세 배우, 그런데 피부는 도자기라는데', 66),
     # ── 2026-08-13 사고 2: 인물이 통째로 빠진 v13 제목 10개 ─────────────
     # heat(모델 자평)로 1위를 뽑던 시절 실제로 확정된 제목. 사람도 없고
     # 후킹도 없고 11자라 홈판 노출 면적도 못 쓴다.
     ("부활절 인사 남긴 근황.jpg", C.DISQUALIFIED),
     # 김연경은 관계 실명으로 인정받아 감점이 덜하지만, 인물 지칭이 없고
     # 13자라 여전히 하한 근처도 못 간다.
-    ("김연경과 절친이라는 사실.jpg", C.DISQUALIFIED),
+    # 실명이 화력으로 인정돼 탈락은 면했지만 -35 다. 하한(75) 근처도 못 간다.
+    ("김연경과 절친이라는 사실.jpg", -35),
     # 숫자는 있지만 여전히 인물이 없고 짧다.
     ("166cm에 47kg이라는 몸무게.jpg", C.DISQUALIFIED),
     # 같은 소재를 인물·모순·길이로 살린 쪽. 키·몸무게 병기는 피했다(저체중 가드).
-    ("47kg인데 야식은 끊은 적 없다는 40대 여배우.jpg", 72),
+    ("47kg인데 야식은 끊은 적 없다는 40대 여배우.jpg", 101),
     # 숫자가 하나도 없어도 앞 20자 모순이 살아 있으면 하한(30점)을 넘긴다.
-    ("톱스타인데 주말엔 고양이랑 뜨개질만 한다는 여배우.jpg", 77),
+    ("톱스타인데 주말엔 고양이랑 뜨개질만 한다는 여배우.jpg", 91),
     # ── 작품 관계형 (2026-08-13 사용자가 제시한 유형) ────────────────────
     # 상대역 실명이 맨 앞. 인용구가 22자로 길지만 실명이 앞에 있어 후킹이 산다.
     # head_male_celeb 8→20, 실명 선두 인용 인정 전에는 36점이었다.
-    ('"이광수에게 오늘 밤 같이 있고 싶다고 말한" 여배우.jpg', C.DISQUALIFIED),
-    ('"정우성이 정색하며 사과하라고 했던" 여배우의 그때 그 눈빛.jpg', C.DISQUALIFIED),
+    # 2026-08-19: 실명을 화력으로 인정하면서 탈락은 풀렸다. 다만 훅이
+    # 실명 하나뿐이라 25점 — 하한 아래다. 상위 20편에서도 실명 단독형
+    # (송혜교·덱스·성시경 편)은 전부 하위권이었다. 판정이 실측과 맞는다.
+    ('"이광수에게 오늘 밤 같이 있고 싶다고 말한" 여배우.jpg', 25),
+    ('"정우성이 정색하며 사과하라고 했던" 여배우의 그때 그 눈빛.jpg', 25),
     # 여기에 연도까지 얹으면 최상급이 된다.
-    ('18년 전 "소지섭이 같이 죽자고 했던" 여배우의 그 장면.jpg', C.DISQUALIFIED),
+    # 여기엔 연도(18년 전)가 붙어 훅이 둘이다. 82점으로 하한을 넘는다.
+    ('18년 전 "소지섭이 같이 죽자고 했던" 여배우의 그 장면.jpg', 82),
     # 같은 소재를 앞 20자에 숫자·모순으로 채운 쪽. 54점 차로 확실히 앞선다.
-    ("48kg인데 식단표가 없다는 34세 배우, 대신 새벽마다 한강을 뛴다", 126),
+    ("48kg인데 식단표가 없다는 34세 배우, 대신 새벽마다 한강을 뛴다", 155),
     ('"남편과 어제도 키스했다는.." 55세 여배우의 동안 피부 비결', C.DISQUALIFIED),
     # 저체중 스펙 가드는 뷰티판에서도 그대로 살아 있다 (-15).
     ('"165cm 43kg" 유지한다는 62세 여배우의 공항패션', C.DISQUALIFIED),
-    ("명품 앰버서더인데 시장 옷 입는다는 40대 여배우", 88),
+    ("명품 앰버서더인데 시장 옷 입는다는 40대 여배우", 117),
     # 의혹 제기·실명 노출은 즉시 탈락.
     ("성형 의혹 불거진 40대 여배우의 근황", C.DISQUALIFIED),
-    ("전지현 공항패션이 또 화제라는데", C.DISQUALIFIED),
+    # 여기서 전지현은 **주인공**이다. 제목은 블라인드라 탈락이어야 한다.
+    # 2026-08-19 이후로는 주인공 이름을 넘겨야 잡힌다 (제3자 실명은 훅이라
+    # 막지 않기 때문). 3번째 원소가 그 주인공 이름이다.
+    ("전지현 공항패션이 또 화제라는데", C.DISQUALIFIED, "전지현"),
+    # 같은 이름이라도 제3자로 쓰이면 통과해야 한다 (상위 12위 실제 제목 형태).
+    ('"200억 재력가와 이별 후 리즈 경신!" 전지현 닮은 여배우', 78),
 ]
 
 
@@ -606,8 +752,10 @@ if __name__ == "__main__":
         sys.stdout.reconfigure(encoding="utf-8")
 
     ok = True
-    for title, expected in KNOWN:
-        got, reasons = score(title)
+    for case in KNOWN:
+        title, expected = case[0], case[1]
+        subject = case[2] if len(case) > 2 else ""
+        got, reasons = score(title, subject)
         mark = "OK " if got == expected else "FAIL"
         if got != expected:
             ok = False

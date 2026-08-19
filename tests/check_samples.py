@@ -97,8 +97,44 @@ def run(fn, name, job):
     return e13, e1, naver_chars(lines), len(content)
 
 
+def check_titles():
+    """상위 20편 제목이 채점기에서 살아남는가 (2026-08-19 신설).
+
+    이걸 만든 이유: 이 저장소의 제목 채점기는 **자기 블로그 상위 20편 중
+    12편을 즉시 탈락**시키고 있었다. 원인은 규칙 자체가 아니라 판정 버그였다.
+      · "현빈이 여배우 중" 의 조사 "이" 를 지시대명사로 오인
+      · "이쁜 여배우" 의 "이" 를 지시대명사로 오인
+      · 실명 뒤에 조사가 붙으면(송혜교도·손예진과) 실명으로 인식 못 함
+      · CELEB_POOL(주인공 후보) 이름이면 제3자로 쓴 경우까지 탈락
+      · "얼마나 예쁘면" 이 강조 표현으로 안 잡힘 (어미 "면" 누락)
+    전부 고쳤고, 다시 뒤집히지 않게 여기서 매번 대조한다.
+    """
+    path = os.path.join(HERE, SAMPLES, "00_top20_titles.txt")
+    if not os.path.exists(path):
+        return 0
+    import titles as T
+    dq = low = 0
+    for line in open(path, encoding="utf-8").read().strip().split(chr(10)):
+        views, title = line.split("|", 1)
+        sc, _ = T.score(title)
+        units = T.hook_units(title)
+        if sc == C.DISQUALIFIED:
+            dq += 1
+            print(f"FAIL 제목 탈락 ({int(views):,}회) — {T.disqualify_reason(title)}")
+            print(f"       {title}")
+        elif sc < C.MIN_SCORE:
+            low += 1
+            print(f"note 하한 미만 {sc}점 · 훅 {len(units)}개 "
+                  f"({int(views):,}회) {title[:34]}")
+    print(f"{'FAIL' if dq else 'OK  '} 상위 20편 제목 — 탈락 {dq} · "
+          f"하한({C.MIN_SCORE}) 미만 {low}")
+    return dq
+
+
 def main():
     bad = 0
+    bad += check_titles()
+    print()
     for fn, (name, job) in sorted(PEOPLE.items()):
         e13, e1, n, rows = run(fn, name, job)
         ok = not e13 and not e1
