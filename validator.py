@@ -245,17 +245,33 @@ def validate(text: str, richness: str = "normal", cta: str = None, celeb: str = 
     for ln in cl:
         v = visible(ln)
         for m in _SPELLED_NUM.finditer(v):
+            if any(w in v and m.start() >= v.index(w)
+                   and m.end() <= v.index(w) + len(w)
+                   for w in C.SPELLED_NUM_EXEMPT):
+                continue          # 백년가약 같은 관용구는 수사가 아니다
             problems.append(f"수치를 한글로 풀어씀 (숫자로 쓸 것): {m.group(0)}")
 
     # 12. 누출 검사
     full = " ".join(visible(ln) for ln in body)
     # 실명 규칙: 제목은 블라인드(titles.py가 잡는다), 본문은 도입부에서 공개한다.
     if celeb:
-        if celeb not in full:
+        # 이름에 공백이 있으면("신카와 유아") 태그·본문 표기가 갈린다. 공백을 지우고 본다.
+        flat_full = re.sub(r"\s", "", full)
+        flat_celeb = re.sub(r"\s", "", celeb)
+        if flat_celeb not in flat_full:
             problems.append(f"실명 리빌 없음: 도입부에서 {celeb} 이름을 밝혀야 함")
-        for name in C.CELEB_POOL:
-            if name != celeb and name in full:
-                problems.append(f"다른 여자 연예인 실명 노출: {name}")
+        # 제3자 실명은 **위험 문맥과 같은 줄에 있을 때만** 잡는다 (2026-08-19).
+        # 예전엔 언급만 해도 반려했는데, 실적 1위 글이 "손예진과 라이벌이었는데"로
+        # 제목부터 걸고 들어간다. 단순 언급까지 막으면 주력 후킹이 통째로 막힌다.
+        # INSTRUCTION §7 이 실제로 막는 건 연애·불륜·갈등에 엮는 것이다.
+        for ln in cl:
+            v = visible(ln)
+            if not any(w in v for w in C.THIRD_PARTY_RISK_WORDS):
+                continue
+            for name in C.CELEB_POOL:
+                if name != celeb and name in v:
+                    problems.append(
+                        f"제3자 실명이 위험 문맥에 있음: {name} — {v[:24]}")
     else:
         # 인물 없이 호출된 경우(자체 테스트)는 예전처럼 전부 잡는다
         for name in C.CELEB_POOL:

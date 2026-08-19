@@ -329,7 +329,10 @@ def namesake_contamination(body: str, factsheet: dict) -> list:
             grounds += " " + " ".join(str(x) for x in v)
     grounds += " " + " ".join(str(x) for x in (factsheet.get("namesake_dropped") or []))
 
-    plain = body.replace("⠀", "")
+    _nl = chr(10)
+    plain = _nl.join(l for l in body.split(_nl)
+                      if not l.replace("⠀", "").strip().startswith("#"))
+    plain = plain.replace("⠀", "")
     found = [m for m in getattr(C, "PROFESSION_MARKERS", ())
              if m in plain and m not in grounds]
     if not found:
@@ -470,8 +473,10 @@ def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
             if tg.startswith("#여배우") or tg.startswith("#배우"):
                 errs.append(f"직업 불일치 태그: {tg} (실제 직업: {job})")
     name = person.get("name", "")
-    if name and tags and not any(name in tg for tg in tags):
-        errs.append(f"해시태그에 인물명 없음 — 1번 태그는 #{name}")
+    flat_name = re.sub(r"\s", "", name)
+    if (name and tags
+            and not any(flat_name in re.sub(r"\s", "", tg) for tg in tags)):
+        errs.append(f"해시태그에 인물명 없음 — 1번 태그는 #{flat_name}")
 
     # 8번 태그가 글의 끝
     trailing = [l for l in lines[::-1] if l.replace(U2800, "").strip()]
