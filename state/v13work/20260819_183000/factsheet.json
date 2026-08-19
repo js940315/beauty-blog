@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "서인영",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 41,
+    "age_range": "40대",
+    "career": "가수로 활동하며 예능 개과천선에 출연, 리얼한 다이어트·관리 고백으로 화제",
+    "major_work": "",
+    "identity_anchor": "가수 서인영 — 예능 개과천선 출연, 워터밤 준비 과정과 솔직한 관리 고백으로 화제"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "서인영", "text": "워터밤에 인생 걸었다", "context": "지방흡입 관련 인터뷰"},
+    {"speaker": "서인영", "text": "피부과 돈 아까워, 이게 훨씬 이득", "context": "개과천선, 피부 관리 질문에 답하며"},
+    {"speaker": "서인영", "text": "혀를 조져!", "context": "개과천선, 양치 장면에서"},
+    {"speaker": "서인영", "text": "생으로 받아, 난 독한 편", "context": "리프팅 시술 고백 인터뷰"},
+    {"speaker": "서인영", "text": "연예인 아니면 살 안 뺐다", "context": "지방흡입·다이어트 관련 인터뷰"},
+    {"speaker": "서인영", "text": "7개월째 쌀 끊었다", "context": "체중 감량 관련 인터뷰"},
+    {"speaker": "서인영", "text": "생수에 이것 타 마시며 혈당 관리", "context": "체중 감량 관련 인터뷰"},
+    {"speaker": "서인영", "text": "아이들이 울어", "context": "개과천선, 메이크업 비법 공개 후"}
+  ],
+  "events": [
+    {"summary": "46kg까지 감량했지만 팔뚝만 안 빠져 지방흡입 수술을 받았다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "워터밤 페스티벌 출연을 앞두고 전신마취 하 지방흡입을 받았다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "리프팅 시술을 마취 없이 받았다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "코 수술을 다섯 차례 받은 적이 있다고 스스로 비교해 언급함", "year": null, "confirmed": true},
+    {"summary": "7개월간 쌀을 끊는 식단을 이어가며 체중을 감량했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "혈당 관리를 위해 생수에 특정 첨가물을 타 마신다고 밝힘(품목 비공개)", "year": null, "confirmed": true},
+    {"summary": "예능 개과천선을 통해 꾸밈없는 일상 관리 루틴을 공개함", "year": null, "confirmed": true},
+    {"summary": "이혼 이후 재혼을 앞두고 있다는 근황이 전해짐", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "41세", "meaning": "보도된 현재 나이"},
+    {"value": "15kg", "meaning": "감량했다고 보도된 체중"},
+    {"value": "46kg", "meaning": "감량 목표로 언급된 체중"},
+    {"value": "5회", "meaning": "본인이 언급한 코 수술 횟수"},
+    {"value": "7개월", "meaning": "쌀을 끊은 식단 유지 기간"}
+  ],
+  "credentials": [
+    {"item": "부친이 식품 회사 대표", "whose": "아버지"}
+  ],
+  "public_reactions": [
+    {"text": "너무 귀여워", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "피부과 대신 홈케어 위주로 관리한다고 밝힘",
+    "리프팅 시술을 마취 없이 받았다고 밝힘",
+    "코 수술을 다섯 차례 받았다고 스스로 언급함"
+  ],
+  "care_habits": [
+    "피부과 대신 비용이 덜 드는 홈케어를 택한다고 밝힘",
+    "양치질을 꼼꼼히 한다고 밝힘",
+    "쌀을 끊고 저당 식단을 이어간다고 밝힘",
+    "생수에 첨가물을 타 마시며 혈당을 관리한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "워터밤 위해 전신마취 지방흡입까지 받았다는 고백", "why_hot": "발언"},
+    {"material": "피부과 대신 홈케어로 버틴다는 고백, 이유는 비용 부담", "why_hot": "발언"},
+    {"material": "코 수술 5번에 비하면 별거 아니라는 비교 발언", "why_hot": "반전"},
+    {"material": "7개월 쌀 끊고 체중 감량한 식단 습관", "why_hot": "낙차"},
+    {"material": "이혼 후 재혼을 앞둔 근황", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "혀를 조져 라며 스스로 다그치듯 양치하는 장면",
+    "메이크업 공개 후 아이들이 울었다며 웃어넘기는 장면",
+    "리프팅을 마취 없이 받는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "예능 개과천선 방송 캡처",
+    "워터밤 무대 사진(언론사 촬영)",
+    "인터뷰 사진(언론사 촬영)"
+  ]
+}
