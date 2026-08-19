@@ -36,6 +36,10 @@ _ISSUE_LEAD = re.compile(r'^["“]([^"“”]{4,20})["”]')
 # 선두 인용구 전체(길이 무관). 아래 _lead_is_named() 가 이 안을 들여다본다.
 _LEAD_QUOTE = re.compile(r'^["“]([^"“”]{4,44})["”]')
 # 선두 인용이 ..으로 끝나며 여운을 남기는 형태.  "어제도 했다는.."
+# 인용구 안에 "A는 B, C는 D" 로 조건을 두 개 쌓은 형태 (2026-08-19)
+_STACK = re.compile(
+    r'["“][^"”]*[가-힣]{2,8}[은는][^"”,]{2,24},\s*'
+    r'[가-힣]{2,8}[은는][^"”]*["”]')
 _TEASE = re.compile(r'^["“][^"“”]{4,20}(?:\.\.|…)["”]?')
 _HEIGHT = re.compile(r"(\d{2,3})\s*(?:cm|CM|센치|센티)")
 _KG = re.compile(r"(\d{2,3})\s*(?:kg|KG|킬로|키로)")
@@ -427,6 +431,14 @@ def score(title: str):
     elif _QUOTE.search(title):
         total += w["quote"]
         reasons.append(f"본인 발언 인용 +{w['quote']}")
+
+    # 인용구 안에 조건 두 개를 쉼표로 병렬 배치한 제목 (2026-08-19).
+    # 실적 5위 글(조회 3.3만) 제목이 이 형태다:
+    #   "아버지는 멘사 회장, 남편은 서울대 의사에요.."
+    # 조건 하나짜리보다 "이게 다 한 사람이라고?" 가 훨씬 세게 걸린다.
+    if _STACK.search(title):
+        total += w["quote_stack"]
+        reasons.append(f"인용구 안 조건 2개 병렬 +{w['quote_stack']}")
 
     if any(e in title for e in C.LIFE_EVENTS):
         total += w["life_event"]

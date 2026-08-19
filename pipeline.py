@@ -497,6 +497,36 @@ def _make_c_brief(d, fs, title, marker=""):
     closer_avail = [c for c in CFG.CLOSER_POOL if c not in used_closers]
     closer = random.choice(closer_avail or list(CFG.CLOSER_POOL))
 
+    # ── 터진 글의 장치용 재료 (2026-08-19) ──────────────────────────
+    # 지시서에 "조건을 쌓아라"라고만 쓰면 모델은 팩트시트를 대충 훑고 만다.
+    # 쓸 수 있는 재료를 눈앞에 늘어놔야 실제로 쌓는다.
+    creds = fs.get("credentials") or []
+    if creds:
+        _nl = chr(10)
+        credential_block = _nl.join(
+            f"    · {c.get('item','')}"
+            + (f"  ({c.get('whose')})" if c.get("whose") else "")
+            for c in creds if c.get("item"))
+        if len(creds) < CFG.CREDENTIAL_STACK_MIN:
+            credential_block += (
+                f"{_nl}    ⚠️ {len(creds)}개뿐이다 (권장 {CFG.CREDENTIAL_STACK_MIN}개 이상). "
+                "부족하면 조건 쌓기 대신 다른 축으로 밀어라 — 없는 스펙을 만들지 마라.")
+    else:
+        credential_block = ("    (없음 — 조건 쌓기는 이 글에서 쓰지 마라. "
+                            "스펙은 특히 지어내면 안 된다.)")
+
+    reacts = fs.get("public_reactions") or []
+    if reacts:
+        _nl = chr(10)
+        reaction_block = _nl.join(
+            f'    · "{r.get("text","")}"'
+            + (f"  ({r.get('where','')}{' · ' + r['scale'] if r.get('scale') else ''})"
+               if r.get("where") or r.get("scale") else "")
+            for r in reacts if r.get("text"))
+    else:
+        reaction_block = ("    (없음 — 반응 인용을 쓰지 마라. 확인 안 된 반응을 "
+                          "지어내면 허위사실이다.)")
+
     prompt = _read(os.path.join(PROMPTS, "C_body.md"))
     prompt = (prompt
               .replace("{title}", title)
@@ -512,6 +542,8 @@ def _make_c_brief(d, fs, title, marker=""):
               .replace("{chars_max}", str(CFG.BODY_CHARS_MAX))
               .replace("{bridge_picks}", " / ".join(bridges))
               .replace("{closer_pick}", closer)
+              .replace("{credential_block}", credential_block)
+              .replace("{reaction_block}", reaction_block)
               .replace("{connector_pick}", conn))
     _write(os.path.join(d, "C_지시서.md"), prompt)
     _jdump(os.path.join(d, "meta.json"),
@@ -527,6 +559,10 @@ def _make_c_brief(d, fs, title, marker=""):
     if bridges:
         print(f"   주입: 브릿지 「{' / '.join(bridges)}」")
     print(f"   주입: 마감 한 줄 「{closer}」")
+    print(f"   재료: 조건 {len(creds)}개 · 반응 인용 {len(reacts)}개")
+    if plan["format"] == "E" and len(creds) < CFG.CREDENTIAL_STACK_MIN:
+        print(f"   ⚠️ 골격 E(조건 누적형)인데 조건이 {len(creds)}개뿐이다 — "
+              "글이 안 설 수 있다. 소재를 바꾸는 편이 낫다.")
     print("   에이전트가 할 일: C_지시서.md 를 전부 읽고 body.txt 작성 (평문 아님 — 점자 포함 최종형)")
     print("   그 다음: python pipeline.py --stage finish")
 

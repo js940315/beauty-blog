@@ -547,6 +547,24 @@ def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
         errs.append("데뷔 문단 없음 — 인물 공개 바로 뒤에 "
                     "\"OOOO년생인 그녀는 / OOOO년 ~로 / 데뷔했습니다\" 3줄을 넣어라")
 
+    # ── 제3자 반응 인용 (2026-08-19, 실적 5위 글에서 뽑은 장치) ──────────
+    # 조회 3.3만 글은 "생각보다 반전 매력이 있다"는 댓글이 쏟아졌습니다 처럼
+    # 남의 반응을 토씨째 인용해 사회적 증거를 만든다. 1~4위 글엔 없는 장치다.
+    #
+    # ⚠️ **재료가 있을 때만** 강제한다. 없는 반응을 지어내면 허위사실이다.
+    #    팩트시트 public_reactions 가 비어 있으면 이 검사는 건너뛴다.
+    if factsheet.get("public_reactions"):
+        inline_marks = sum(
+            l.replace(U2800, "").count('"') for l in lines
+            if not _is_quote_only(l.replace(U2800, "").strip())
+            and not _is_tag(l.replace(U2800, "").strip()))
+        if inline_marks // 2 < C.REACTION_QUOTE_MIN:
+            errs.append(
+                f"제3자 반응 인용 {inline_marks // 2}회 "
+                f"(최소 {C.REACTION_QUOTE_MIN}) — 팩트시트 public_reactions 에 "
+                "실제 반응이 있다. 문장 안에 큰따옴표로 인용해라. "
+                '예: "생각보다 반전 매력이 있다"는 댓글이 쏟아졌습니다')
+
     # 마감·CTA 중복 (state 대조)
     for old in state.get("recent_endings", []):
         if old and old in body:
