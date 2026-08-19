@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "박미경",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "가수로 활동하며 골든걸스 멤버, 불후의 명곡 등 무대에서 압도적 성량으로 화제",
+    "major_work": "",
+    "identity_anchor": "가수 박미경 — 골든걸스 멤버, 미국인 남편과의 국제결혼과 박진영을 향한 애교 섞인 농담으로 화제"
+  },
+  "namesake_dropped": ["밀양시의회 박미경 의원(정치인, 동명이인)"],
+  "quotes": [
+    {"speaker": "박미경", "text": "미국인 남편, 내 겨드랑이털에 반해…제모 안 하고 살았다", "context": "돌싱포맨, 국제결혼 러브스토리"},
+    {"speaker": "박미경", "text": "박진영, 골든걸스 JYP 연습생 취급해", "context": "라디오스타, 박진영 관련 불만 토로"},
+    {"speaker": "박미경", "text": "날 딸로 입양시켜줘, 재산엔 관심 없어", "context": "골든걸스, 박진영에게 건넨 농담"},
+    {"speaker": "박미경", "text": "MZ들 내가 가수인 줄 몰라", "context": "라디오스타, CF 출연 관련"},
+    {"speaker": "박미경", "text": "기립 박수 나오길 바라", "context": "불후의 명곡, 우승 소감"},
+    {"speaker": "박미경", "text": "유쾌한 일탈이었다", "context": "골든걸스 기부 공연 소감"},
+    {"speaker": "김용빈", "text": "눈으로도 노래해, 쏙 빠졌다", "context": "방송에서 박미경 무대에 대한 극찬"}
+  ],
+  "events": [
+    {"summary": "미국인 남편과 국제결혼했으며 겨드랑이 털을 제모하지 않은 모습에 반했다는 러브스토리를 공개함", "year": null, "confirmed": true},
+    {"summary": "골든걸스 활동 중 박진영에게 입양시켜달라는 농담을 건네 웃음을 안김", "year": null, "confirmed": true},
+    {"summary": "박진영이 연습생 취급을 한다며 애정 섞인 불만을 토로함", "year": null, "confirmed": true},
+    {"summary": "복면가왕에 출연해 압도적인 성량으로 녹화장을 흔들었다는 반응을 얻음", "year": null, "confirmed": true},
+    {"summary": "불후의 명곡에서 신효범과 팀을 이뤄 우승함", "year": null, "confirmed": true},
+    {"summary": "골든걸스 기부 공연에 참여해 유쾌한 일탈이었다고 소감을 밝힘", "year": null, "confirmed": true},
+    {"summary": "라디오스타에서 로봇짤로 화제가 되며 CF까지 촬영했다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "눈으로도 노래해, 쏙 빠졌다", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "박진영", "relation": "골든걸스 프로듀서", "mentioned_as": "입양 농담과 연습생 취급 불만의 대상"},
+    {"name": "신효범", "relation": "불후의 명곡 팀 파트너", "mentioned_as": "함께 우승함"},
+    {"name": "김용빈", "relation": "방송 동료", "mentioned_as": "무대를 극찬함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "50대에도 변함없는 무대 매력이 있다는 평가를 받음",
+    "아이돌 가수 못지않은 외모라는 반응을 얻음"
+  ],
+  "care_habits": [
+    "겨드랑이 털을 제모하지 않고 자연스럽게 지낸다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "제모 안 한 겨드랑이털에 반한 미국인 남편과의 러브스토리", "why_hot": "반전"},
+    {"material": "박진영에게 입양시켜달라 농담한 장면", "why_hot": "실명"},
+    {"material": "박진영이 연습생 취급한다는 애정 섞인 불만", "why_hot": "실명"},
+    {"material": "복면가왕에서 압도적 성량으로 녹화장을 흔들었다는 반응", "why_hot": "장면"},
+    {"material": "김용빈이 눈으로도 노래한다고 극찬한 반응", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "복면가왕 무대에서 압도적인 성량으로 녹화장을 흔드는 장면",
+    "골든걸스에서 박진영에게 입양 농담을 건네는 장면",
+    "불후의 명곡 무대에서 기립 박수를 바라는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "복면가왕 방송 캡처",
+    "돌싱포맨 방송 캡처",
+    "골든걸스 방송 캡처",
+    "불후의 명곡 방송 캡처"
+  ]
+}
