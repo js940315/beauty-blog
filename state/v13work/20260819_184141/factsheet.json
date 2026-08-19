@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "홍진영",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 40,
+    "age_range": "40대",
+    "career": "가수로 활동하며 발라드 트롯 다시, 봄 으로 컴백, 공백기 이후 달라진 미모로 화제",
+    "major_work": "다시, 봄",
+    "identity_anchor": "가수 홍진영 — 미혼, 공백기 이후 컴백하며 달라진 미모와 솔직한 관리 고백으로 화제"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "홍진영", "text": "1일1식으로 관리", "context": "수산시장 근황 인터뷰"},
+    {"speaker": "홍진영", "text": "레이저 좀 쏴봤습니다", "context": "공백기 이후 달라진 미모 관련 인터뷰"},
+    {"speaker": "홍진영", "text": "반년 만에 관리", "context": "피부 시술 공개 인터뷰"},
+    {"speaker": "홍진영", "text": "벗으면 장난 아냐", "context": "돌싱포맨, 뱃살·임신 논란에 대한 반응"},
+    {"speaker": "홍진영", "text": "다들 어떻게 그렇게 예쁘게 사진 찍는 거야", "context": "일상 근황 인터뷰"}
+  ],
+  "events": [
+    {"summary": "1일1식으로 몸 관리를 한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "반년 만에 얼굴 레이저 관리를 받았다고 직접 밝힘", "year": null, "confirmed": true},
+    {"summary": "K뷰티 미백화장품을 들고 뷰티박람회에 참석함", "year": null, "confirmed": true},
+    {"summary": "뱃살·임신 논란에 직접 해명하며 오히려 미모가 좋아졌다는 반응을 얻음", "year": null, "confirmed": true},
+    {"summary": "발라드 트롯 다시, 봄 으로 컴백함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "40세", "meaning": "보도된 현재 나이"},
+    {"value": "1일1식", "meaning": "본인이 밝힌 식사 관리 방식"},
+    {"value": "반년", "meaning": "레이저 관리를 받은 기간(본인 발언)"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "이게 얼마 만이야", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "반년 만에 얼굴 레이저 관리를 받았다고 직접 밝힘",
+    "1일1식으로 몸 관리를 한다고 밝힘",
+    "K뷰티 미백화장품 브랜드 행사에 참석함"
+  ],
+  "care_habits": [
+    "1일1식으로 식사량을 관리한다고 밝힘",
+    "반년 주기로 얼굴 레이저 관리를 받는다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "공백기 뒤 몰라보게 예뻐졌다는 반응, 이유는 레이저 관리였다는 고백", "why_hot": "낙차"},
+    {"material": "1일1식으로 관리한다는 고백", "why_hot": "발언"},
+    {"material": "뱃살·임신 논란에 당당히 반박한 대응", "why_hot": "반전"},
+    {"material": "반년 만에 레이저 관리를 받았다는 구체적 고백", "why_hot": "발언"},
+    {"material": "발라드 트롯으로 컴백하며 달라진 근황", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "수산시장에서 소탈한 차림으로 포착된 장면",
+    "레이저 관리 후 달라진 얼굴을 공개하는 장면",
+    "뷰티박람회에서 미백화장품을 들고 선 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "수산시장 근황 사진(언론사 촬영)",
+    "뷰티박람회 참석 사진(언론사 촬영)",
+    "돌싱포맨 방송 캡처"
+  ]
+}
