@@ -401,15 +401,18 @@ def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
             if not _is_tag(stripped) and not ln.endswith(U2800):
                 errs.append(f"{i}행 점자 빈 칸 누락")
             if (len(stripped) > 19 and not _is_tag(stripped)
-                    and not _is_subhead(stripped)):
+                    and not _is_subhead(stripped)
+                    and "❤" not in stripped):   # 마감 한 줄은 예외
                 errs.append(f"{i}행 {len(stripped)}자 — 19자 초과: {stripped[:22]}")
             if re.match(r"^[·\-\*o]\s|^\d+\.\s", stripped):
                 errs.append(f"{i}행 불릿·목차 마커")
             for w in re.findall(r"[A-Za-z]+", stripped):
                 if w not in allow:
                     errs.append(f"{i}행 알파벳: {w}")
-            if para > 3 and not _is_subhead(stripped) and not _is_tag(stripped):
-                errs.append(f"{i}행 포함 단락 4줄 이상 — 벽돌. 빈 줄로 끊어라")
+            if (para > C.PARA_MAX_LINES and not _is_subhead(stripped)
+                    and not _is_tag(stripped)):
+                errs.append(f"{i}행 포함 단락 {C.PARA_MAX_LINES + 1}줄 이상 — "
+                            "벽돌. 빈 줄로 끊어라")
         else:
             if ln.replace(U2800, "").strip() == "" and ln != U2800 * 3:
                 if ln.strip() == "" and ln != "":
@@ -448,13 +451,14 @@ def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
                 f"동명이인 소재 혼입: '{marker}' — 같은 이름의 다른 사람이다. "
                 f"이 글은 {person.get('identity_anchor') or '주 인물'} 한 사람만 다룬다")
 
-    # 큰따옴표 단독 줄 = 도입 인용구 1 + 소제목 5, 딱 여섯이어야 한다.
-    # (2026-08-07 사용자 확정: 마무리가 무거워 챕터를 5개로 늘림)
+    # 큰따옴표 단독 줄 = 도입 인용구 1 + 소제목 SUBHEAD_COUNT 개.
+    # 2026-08-19: 상위 랭킹 실적글 5편이 전부 소제목 4개라 5로 내렸다.
     quote_lines = [l for l in lines
                    if _is_quote_only(l.replace(U2800, "").strip())]
-    if len(quote_lines) != 6:
+    want_q = 1 + C.SUBHEAD_COUNT
+    if len(quote_lines) != want_q:
         errs.append(f"큰따옴표 단독 줄 {len(quote_lines)}개 — "
-                    "도입 인용구 1 + 소제목 5 = 6개여야 함")
+                    f"도입 인용구 1 + 소제목 {C.SUBHEAD_COUNT} = {want_q}개여야 함")
 
     # 해시태그
     tags = [l.replace(U2800, "").strip() for l in lines
@@ -489,7 +493,7 @@ def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
 
     # §4-2 브릿지 — 정답을 뒤로 미룬 만큼 중간을 버텨줄 장치가 필요하다
     bridges = [b for b in C.BRIDGE_POOL if b in visible_text]
-    if len(bridges) < C.BRIDGE_MIN:
+    if C.BRIDGE_MIN and len(bridges) < C.BRIDGE_MIN:
         errs.append(f"브릿지 {len(bridges)}개 (최소 {C.BRIDGE_MIN}) — "
                     f"소제목 사이에 다음 궁금증을 만드는 한 줄을 넣어라. "
                     f"예: {C.BRIDGE_POOL[0]}")
@@ -498,7 +502,7 @@ def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
     numbered = sum(1 for l in lines
                    if re.match(r"^\d+\s+\S", l.replace(U2800, "").strip()))
     has_contrast_block = ("❌" in body) or ("⭕" in body)
-    if numbered < 3 and not has_contrast_block:
+    if C.SCROLL_BLOCK_REQUIRED and numbered < 3 and not has_contrast_block:
         errs.append("스크롤 유인 블록 없음 — 번호 리스트 3줄(숫자 뒤 점자 들여쓰기) "
                     "또는 ❌/⭕ 대비 블록을 1개 넣어라. 눈이 걸려야 체류가 붙는다")
 
@@ -508,9 +512,35 @@ def validate_body(body: str, factsheet: dict, state: dict, debate: str = "",
         if p in visible_text:
             errs.append(f"반응 유도 문구: '{p}' — 시키지 말고 이야기로 자연스럽게 맺어라")
 
-    # 하트 구걸 금지 (예전 규격은 ❤ 를 오히려 강제했다)
-    if "❤" in body:
-        errs.append("하트 구걸 문구 — 폐지됐다. 행동 지시 + 경험 요청으로 마감해라")
+    # ── 마감 한 줄 (2026-08-19 사용자 확정: 실적글 5편 규격으로 복원) ──────
+    # 08-16 에 "반응 유도 장치"로 묶어 ❤ 를 통째로 막았었다. 그런데 실제
+    # 폐지 대상은 논쟁 질문·행동 지시였고, 감사 한 줄은 아니었다. 상위 랭킹
+    # 글 5편이 전부 이 줄로 닫는다. 되살리되 위치와 횟수를 못 박는다.
+    hearts = body.count("❤")
+    if hearts == 0:
+        errs.append(
+            "마감 한 줄 없음 — 해시태그 바로 앞에 ❤ 로 닫는 감사 한 줄을 넣어라. "
+            f"예: {C.CLOSER_POOL[0]}")
+    elif hearts > 1:
+        errs.append(f"❤ {hearts}개 — 마감 한 줄에서 딱 1번만 쓴다")
+    else:
+        vis = [l.replace(U2800, "").strip() for l in lines
+               if l.replace(U2800, "").strip()]
+        tag_at = next((i for i, t in enumerate(vis) if _is_tag(t)), None)
+        if tag_at is not None:
+            if tag_at == 0 or "❤" not in vis[tag_at - 1]:
+                errs.append("❤ 마감 줄 위치 오류 — 첫 해시태그 바로 앞 줄이어야 한다")
+            elif len(vis[tag_at - 1]) > 30:
+                errs.append(f"마감 줄 {len(vis[tag_at - 1])}자 — 30자 이내 한 줄로 짧게")
+
+    # ── 인물 공개 존칭 (실적글 5편 전부 "배우 OOO 님입니다") ─────────────
+    if name and f"{name} 님" not in visible_text and f"{name}님" not in visible_text:
+        errs.append(f"인물 공개에 존칭 없음 — \"배우 {name} 님입니다\" 형태로 한 줄에 밝혀라")
+
+    # ── 데뷔 문단 (실적글 전부 "OOOO년생인 그녀는 ~ 데뷔했습니다") ────────
+    if not re.search(r"\d{4}년생", visible_text):
+        errs.append("데뷔 문단 없음 — 인물 공개 바로 뒤에 "
+                    "\"OOOO년생인 그녀는 / OOOO년 ~로 / 데뷔했습니다\" 3줄을 넣어라")
 
     # 마감·CTA 중복 (state 대조)
     for old in state.get("recent_endings", []):
@@ -573,7 +603,10 @@ def _selftest():
     # 검증 3: 형식 위반 검출
     B = U2800
     good_lines = ['"그 말 한마디였습니다"' + B, B * 3]
-    for ch in range(5):
+    good_lines += ["그 주인공은 바로" + B, "무용가 홍길동 님입니다" + B, B * 3,
+                   "1986년생인 그녀는" + B, "2008년 무대로" + B,
+                   "데뷔했습니다" + B, B * 3]
+    for ch in range(C.SUBHEAD_COUNT):
         good_lines.append(f'"소제목 어쩌고 {ch + 1}번"' + B)
         good_lines.append(B * 3)
         for p in range(4):
@@ -592,6 +625,7 @@ def _selftest():
     # 논쟁 질문은 이제 한 줄에 들어간다 (INJECT_MAX_CHARS 이하로 줄였다)
     debate = C.DEBATE_POOL[0]
     good_lines += [debate + B, B * 3]
+    good_lines += [C.CLOSER_POOL[0] + B, B * 3]
     good_lines += ["#홍길동", "#홍길동근황", "#홍길동미모", "#미모비결",
                    "#관계인물", "#대표작", "#무용가미모", "#무용가관리"]
     body = "\n".join(good_lines)
@@ -624,21 +658,15 @@ def _selftest():
     # 도입 3줄 — 포맷별 문형 판정 (INSTRUCTION.md §2, 2026-08-14)
     assert intro_form_error(['"인용으로 열었다"', "둘째 줄", "셋째 줄"], "A") == ""
     assert intro_form_error(["인용이 없다", "둘째 줄", "셋째 줄"], "A") != ""
-    assert intro_form_error(["48kg을 지킨다", "둘째", "셋째"], "B") == ""
-    assert intro_form_error(["체중을 지킨다", "둘째", "셋째"], "B") != ""
-    assert intro_form_error(["맞을까요?", "둘째", "셋째"], "C") == ""
-    # 물음표 없는 한국어 의문문도 질문으로 인정해야 한다 (2026-08-14 실측)
-    assert intro_form_error(["하루 한 끼가 답일까요", "둘째", "셋째"], "C") == ""
-    assert intro_form_error(["어느 쪽이 나은가요", "둘째", "셋째"], "C") == ""
-    assert intro_form_error(["맞습니다", "둘째", "셋째"], "C") != ""
-    assert intro_form_error(["다들 그렇게 압니다", "둘째", "셋째"], "D") == ""
-    assert intro_form_error(["그렇게 압니다", "둘째", "셋째"], "D") != ""
-    assert intro_form_error(["혹시 하고 계신가요", "둘째", "셋째"], "E") == ""
-    assert intro_form_error(["습관이 있습니다", "둘째", "셋째"], "E") != ""
+    # 2026-08-19: 도입 문형은 A~E 전부 인용구로 고정됐다. 갈리는 축은
+    # 도입이 아니라 골격(4챕터가 무엇을 다루는가)으로 옮겼다.
+    for k in "ABCDE":
+        assert intro_form_error(['"인용으로 열었다"', "둘째", "셋째"], k) == "", k
+        assert intro_form_error(["인용이 없다", "둘째", "셋째"], k) != "", k
 
     # 주입 문장 길이 — 30자를 넘으면 4줄이 되어 문장 한가운데에 빈 줄이 박힌다
     # (2026-08-16 실측 사고: "치워보세요. 몇 개나 / ⠀⠀⠀ / 나왔는지 궁금해요.")
-    for pool_name, pool in (("CLOSING_POOL", C.CLOSING_POOL),
+    for pool_name, pool in (("CLOSER_POOL", C.CLOSER_POOL),
                             ("DEBATE_POOL", C.DEBATE_POOL),
                             ("BRIDGE_POOL", C.BRIDGE_POOL)):
         for s in pool:

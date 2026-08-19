@@ -162,6 +162,8 @@ def validate(text: str, richness: str = "normal", cta: str = None, celeb: str = 
             continue
         if flags[i]:
             continue
+        if "❤" in visible(ln):      # 마감 한 줄은 길이 예외
+            continue
         n = visible_len(ln)
         if n < C.LINE_MIN or n > C.LINE_MAX:
             problems.append(f"줄 길이 {n}자 (허용 {C.LINE_MIN}~{C.LINE_MAX}): {visible(ln)[:24]}")
@@ -209,9 +211,15 @@ def validate(text: str, richness: str = "normal", cta: str = None, celeb: str = 
                 problems.append(f"고정 해시태그 누락: {ft}")
         if f"#{celeb}" not in tag_text:
             problems.append(f"인물 해시태그 누락: #{celeb}")
-        # 2026-08-14: 하트 CTA 는 폐지됐다. 예전엔 여기서 ❤ 를 강제했다.
-        if "❤" in text:
-            problems.append("하트 구걸 문구 — 폐지됐다. 행동 지시로 마감해라")
+    # 2026-08-19 사용자 확정: 상위 랭킹 실적글 5편이 전부 ❤ 한 줄로 닫는다.
+    # 08-16 에 "반응 유도 장치"로 묶어 막았던 건 과잉이었다 — 폐지 대상은
+    # 논쟁 질문·행동 지시였고 이 감사 한 줄은 아니었다.
+    hearts = text.count("❤")
+    if hearts == 0:
+        problems.append("마감 한 줄 없음 — 해시태그 바로 앞에 ❤ 로 닫는 "
+                        f"감사 한 줄을 넣어라. 예: {C.CLOSER_POOL[0]}")
+    elif hearts > 1:
+        problems.append(f"❤ {hearts}개 — 마감 한 줄에서 딱 1번만 쓴다")
 
     # 9. 소제목 형식 / 마크다운 노출
     #    네이버는 마크다운을 해석하지 않는다. **가 있으면 화면에 별표가 그대로 보인다.
@@ -287,12 +295,13 @@ def validate(text: str, richness: str = "normal", cta: str = None, celeb: str = 
                         "소감 자리에 사실 한 조각을 넣어라")
 
     bridges = [b for b in C.BRIDGE_POOL if b in full]
-    if len(bridges) < C.BRIDGE_MIN:
+    if C.BRIDGE_MIN and len(bridges) < C.BRIDGE_MIN:
         problems.append(f"브릿지 {len(bridges)}개 (최소 {C.BRIDGE_MIN}) — "
                         f"소제목 사이에 다음 궁금증을 만드는 한 줄을 넣어라")
 
     numbered = sum(1 for ln in cl if re.match(r"^\d+\s+\S", visible(ln)))
-    if numbered < 3 and "❌" not in full and "⭕" not in full:
+    if (C.SCROLL_BLOCK_REQUIRED and numbered < 3
+            and "❌" not in full and "⭕" not in full):
         problems.append("스크롤 유인 블록 없음 — 번호 리스트 3줄 또는 ❌/⭕ 대비 블록")
 
     # 15. 반응 유도 금지 (2026-08-16 사용자 확정으로 마무리 장치 폐기)

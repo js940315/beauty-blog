@@ -490,6 +490,13 @@ def _make_c_brief(d, fs, title, marker=""):
     bridges = random.sample(avail, CFG.BRIDGE_MIN)
     conn = random.choice(conn_pool) if conn_pool else ""
 
+    # 마감 한 줄 (2026-08-19 복원). 브릿지에서 겪은 사고를 그대로 답습하지
+    # 않으려고 처음부터 최근 사용분을 빼고 고른다 — 안 그러면 같은 날 10편이
+    # 전부 "이 글이 마음에 닿으셨다면 ❤" 로 끝난다.
+    used_closers = {p.get("closer_used") for p in _state()["recent_posts"][-8:]}
+    closer_avail = [c for c in CFG.CLOSER_POOL if c not in used_closers]
+    closer = random.choice(closer_avail or list(CFG.CLOSER_POOL))
+
     prompt = _read(os.path.join(PROMPTS, "C_body.md"))
     prompt = (prompt
               .replace("{title}", title)
@@ -504,6 +511,7 @@ def _make_c_brief(d, fs, title, marker=""):
               .replace("{chars_min}", str(CFG.BODY_CHARS_MIN))
               .replace("{chars_max}", str(CFG.BODY_CHARS_MAX))
               .replace("{bridge_picks}", " / ".join(bridges))
+              .replace("{closer_pick}", closer)
               .replace("{connector_pick}", conn))
     _write(os.path.join(d, "C_지시서.md"), prompt)
     _jdump(os.path.join(d, "meta.json"),
@@ -512,10 +520,13 @@ def _make_c_brief(d, fs, title, marker=""):
             # cta·closing 은 2026-08-16 사용자 확정으로 폐기됐다.
             # DB 컬럼 호환을 위해 키만 빈 값으로 남긴다.
             "cta": "", "closing": "", "bridges": bridges,
+            "closer": closer,
             "connector": conn, "marker": marker})
     print(f"■ 확정 제목: {title}")
     print(f"   슬롯 {plan['slot']} / 포맷 {plan['format']}({fmt['name']})")
-    print(f"   주입: 브릿지 「{' / '.join(bridges)}」")
+    if bridges:
+        print(f"   주입: 브릿지 「{' / '.join(bridges)}」")
+    print(f"   주입: 마감 한 줄 「{closer}」")
     print("   에이전트가 할 일: C_지시서.md 를 전부 읽고 body.txt 작성 (평문 아님 — 점자 포함 최종형)")
     print("   그 다음: python pipeline.py --stage finish")
 
@@ -815,6 +826,8 @@ def stage_finish():
         # 브릿지 로테이션용. 예전엔 저장을 안 해서 슬롯끼리 겹쳤다
         # (2026-08-16 실측: "문제는 그다음이었습니다" 가 5편 중 4편에 깔렸다)
         "bridges_used": meta.get("bridges", []),
+        # 마감 한 줄 로테이션용 (2026-08-19)
+        "closer_used": meta.get("closer", ""),
         # 문형 — 기록용이다. 하루 상한은 이 값을 세지 않고 제목에서 매번 다시
         # 판정한다 (today_title_forms 의 주석 참고). 여기 남기는 건 "그날 뭐가
         # 몇 편이었나"를 나중에 눈으로 확인하려고.

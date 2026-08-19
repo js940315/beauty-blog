@@ -224,7 +224,7 @@ def run_api(args):
     # DB 컬럼 호환을 위해 키만 빈 값으로 남긴다 (pipeline.py와 동일 패턴).
     cta = ""
     print("■ 본문 생성...")
-    heart = C.CLOSING_POOL[int(date_str.replace("-", "")) % len(C.CLOSING_POOL)]
+    heart = C.CLOSER_POOL[int(date_str.replace("-", "")) % len(C.CLOSER_POOL)]
     body, history, polished = writer.generate_body(
         chosen["title"], fs_text, richness, cta,
         bool(fs.get("has_exercise_detail")), celeb, heart,
@@ -290,7 +290,7 @@ def stage_crawl(args):
     print(f"   {len(items)}건 수집 / richness={richness}")
 
     _dump(wpath(d, "sources.json"), items)
-    heart = C.CLOSING_POOL[int(date_str.replace("-", "")) % len(C.CLOSING_POOL)]
+    heart = C.CLOSER_POOL[int(date_str.replace("-", "")) % len(C.CLOSER_POOL)]
     _dump(wpath(d, "meta.json"), {
         "date": date_str, "celeb": celeb, "richness": richness,
         "sources": len(items), "cta": cta, "heart": heart,
@@ -343,8 +343,8 @@ def stage_title(args):
     for why in chosen["reasons"]:
         print(f"      - {why}")
 
-    heart = meta.get("heart") or C.CLOSING_POOL[
-        int(date_str.replace("-", "")) % len(C.CLOSING_POOL)]
+    heart = meta.get("heart") or C.CLOSER_POOL[
+        int(date_str.replace("-", "")) % len(C.CLOSER_POOL)]
     path = brief.body_brief(d, chosen["title"], brief.factsheet_text(fs),
                             meta["richness"], meta["cta"],
                             bool(fs.get("has_exercise_detail")),
