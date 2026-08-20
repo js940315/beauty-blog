@@ -1,0 +1,76 @@
+{
+  "person": {
+    "name": "장윤주", "gender": "여성", "job": "모델",
+    "birth_year": null, "age": 45, "age_range": "40대",
+    "career": "20년 이상 활동한 톱모델, 유튜브 채널 운영",
+    "major_work": "패션 모델",
+    "identity_anchor": "173cm 톱모델, 유튜브 '윤쥬르' 운영 장윤주"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장윤주", "text": "하루 종일 바른 자세를 의식한다", "context": "12시엔 주현영 방송 자기관리 언급"},
+    {"speaker": "장윤주", "text": "조금씩 자주 먹는다", "context": "윤쥬르 일주일 관리 공개"},
+    {"speaker": "장윤주", "text": "이렇게 말랐는데도 셀룰라이트 있어 꾸준히 관리한다", "context": "윤주르, 173cm 54kg 언급"},
+    {"speaker": "장윤주", "text": "유산균, 마사지 필수", "context": "윤쥬르 몸매 관리 언급"},
+    {"speaker": "장윤주", "text": "1일 1팩은 안 한다", "context": "윤쥬르 취침 전 관리 언급"},
+    {"speaker": "장윤주", "text": "음식의 잠복기, 공복을 즐겨야 빠진다", "context": "윤쥬르 2주 루틴 공개"},
+    {"speaker": "장윤주", "text": "싱글이냐는 질문을 자주 받는다", "context": "딸과 놀이터에서의 근황"}
+  ],
+  "events": [
+    {"summary": "45세에 무보정 수영복 사진을 공개해 피지컬이 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "20년째 같은 모닝 루틴을 실천한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "딸과 놀이터에 있어도 싱글이냐는 질문을 받는다고 전함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "173cm", "meaning": "키"},
+    {"value": "54kg", "meaning": "몸무게"},
+    {"value": "45세", "meaning": "나이"},
+    {"value": "20년", "meaning": "모닝 루틴 유지 기간"}
+  ],
+  "credentials": [
+    {"item": "80세에도 다리찢기가 되고 하루 2시간 건강관리를 하는 어머니", "whose": "어머니"}
+  ],
+  "public_reactions": [
+    {"text": "이게 44세 피지컬이냐", "where": "기사반응", "scale": ""},
+    {"text": "5~8살 어려 보인다", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "주현영", "relation": "방송 동료", "mentioned_as": "자기관리에 감탄한 동료"},
+    {"name": "신현지", "relation": "동료 톱모델", "mentioned_as": "결혼식에 참석한 지인"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "173cm 54kg의 마른 체형을 유지",
+    "45세에 무보정 수영복 사진을 공개",
+    "꿀피부라는 평이 따라붙음",
+    "말랐어도 셀룰라이트가 있다며 꾸준히 관리한다고 밝힘"
+  ],
+  "care_habits": [
+    "하루 종일 바른 자세를 의식한다",
+    "조금씩 자주 먹는다",
+    "공복 시간을 즐긴다",
+    "유산균을 챙기고 마사지를 한다",
+    "취침 전 피부 관리를 하되 1일 1팩은 하지 않는다",
+    "20년째 같은 모닝 루틴을 실천한다",
+    "매주 저녁에 피부 관리를 한다"
+  ],
+  "hot_materials": [
+    {"material": "45세 무보정 수영복샷", "why_hot": "낙차"},
+    {"material": "173cm 54kg인데도 셀룰라이트 있다며 관리", "why_hot": "반전"},
+    {"material": "80세 어머니의 다리찢기", "why_hot": "낙차"},
+    {"material": "20년째 지키는 모닝 루틴", "why_hot": "발언"},
+    {"material": "딸과 있어도 싱글이냐는 질문을 받는 근황", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "딸과 놀이터에 있는데 싱글이냐는 질문을 받는 순간",
+    "취침 전 피부를 손질하는 장면"
+  ],
+  "sns_materials": [
+    "유튜브 채널에 공개한 일주일 관리 루틴",
+    "무보정 수영복 근황 사진"
+  ],
+  "press_only_materials": [
+    "속옷 광고 촬영 현장",
+    "언더웨어 화보"
+  ]
+}
