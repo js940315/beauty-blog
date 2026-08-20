@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "한고은", "gender": "여성", "job": "배우",
+    "birth_year": 1977, "age": 50, "age_range": "50대",
+    "career": "오랜 활동을 이어온 배우, 여러 예능·방송 출연",
+    "major_work": "배우",
+    "identity_anchor": "20대 몸무게를 50세까지 유지한다고 밝힌 배우 한고은"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한고은", "text": "삼겹살을 안 먹고 주기적으로 24시간 디톡스를 한다", "context": "A급 장영란 동안 비결"},
+    {"speaker": "한고은", "text": "조금씩 자주 먹는다", "context": "52kg 몸매 비결"},
+    {"speaker": "한고은", "text": "20대 때와 체중 차이가 거의 없다", "context": "체중 유지 언급"},
+    {"speaker": "한고은", "text": "결혼하고 새치가 없어졌다", "context": "동안 비결 언급"},
+    {"speaker": "한고은", "text": "겨울에는 이것을 절대 안 쓴다", "context": "겨울 피부 관리 언급"}
+  ],
+  "events": [
+    {"summary": "50세에도 20대 몸무게 52kg을 그대로 유지한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "주기적으로 24시간 디톡스를 실천한다고 공개", "year": null, "confirmed": true},
+    {"summary": "30년째 같은 식단을 지켜 나잇살이 없다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "52kg", "meaning": "20대부터 유지한 몸무게"},
+    {"value": "50세", "meaning": "나이"},
+    {"value": "24시간", "meaning": "주기적 디톡스 시간"},
+    {"value": "30년", "meaning": "식단 유지 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "더 어려졌다", "where": "기사반응", "scale": ""},
+    {"text": "20대 몸무게 그대로", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "50세에 20대 몸무게 52kg을 유지",
+    "나잇살이 없다는 평",
+    "꿀피부라 불림",
+    "운동 없이도 마른 몸매를 유지"
+  ],
+  "care_habits": [
+    "삼겹살을 멀리한다",
+    "주기적으로 24시간 디톡스를 한다",
+    "조금씩 자주 먹는다",
+    "세안 후 노화를 늦추는 습관을 지킨다",
+    "매일 몸에 좋은 음식을 한 숟가락씩 챙긴다",
+    "겨울에는 특정 화장품을 쓰지 않는다"
+  ],
+  "hot_materials": [
+    {"material": "50세에 20대 몸무게 52kg 그대로", "why_hot": "낙차"},
+    {"material": "삼겹살 끊고 주 24시간 디톡스", "why_hot": "장면"},
+    {"material": "겨울엔 이것 절대 안 쓴다는 관리", "why_hot": "반전"},
+    {"material": "결혼 후 새치가 없어졌다는 동안 비결", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "24시간 동안 액체만 먹으며 디톡스하는 장면",
+    "세안 후 노화를 늦추는 아침 습관"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
