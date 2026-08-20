@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "명세빈", "gender": "여성", "job": "배우",
+    "birth_year": 1975, "age": 50, "age_range": "50대",
+    "career": "데뷔 28년차 배우, '닥터 차정숙'·'김부장' 출연",
+    "major_work": "닥터 차정숙, 김부장",
+    "identity_anchor": "'닥터 차정숙'·'김부장'에 출연한 데뷔 28년차 배우 명세빈"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "명세빈", "text": "어릴 땐 메이크업을 안 할수록 예뻤다", "context": "동안 회상 언급"},
+    {"speaker": "명세빈", "text": "식습관이 중요하고 찬물 세수도 한다", "context": "편스토랑 동안 비결"},
+    {"speaker": "명세빈", "text": "과일을 챙기고 마사지를 한다", "context": "편스토랑 미모 비결"},
+    {"speaker": "명세빈", "text": "멋지게 나이 들고 싶다", "context": "숏컷 변신 소감"},
+    {"speaker": "명세빈", "text": "닥터 차정숙 이후 도전에 대한 두려움이 줄었다", "context": "화보 인터뷰"}
+  ],
+  "events": [
+    {"summary": "데뷔 28년차에도 냉동미녀라 불릴 만큼 동안을 유지", "year": null, "confirmed": true},
+    {"summary": "긴 머리를 숏컷으로 자르며 새로운 시즌을 선언", "year": null, "confirmed": true},
+    {"summary": "샐러드 위주 식습관을 동안 비결로 꼽음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "28년", "meaning": "데뷔 후 활동 기간"},
+    {"value": "50세", "meaning": "나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "20대 뺨치는 동안", "where": "기사반응", "scale": ""},
+    {"text": "냉동미녀", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이정현", "relation": "방송 동료", "mentioned_as": "함께 동안 비결을 밝힌 동료"}
+  ],
+  "works": [
+    {"title": "닥터 차정숙", "year": null, "costar": "", "scene": "", "kind": "극중"},
+    {"title": "김부장", "year": null, "costar": "", "scene": "", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "데뷔 28년차에도 냉동미녀라 불림",
+    "20대 뺨치는 동안이라는 평",
+    "샐러드 위주 식습관을 유지",
+    "찬물 세수와 마사지를 꾸준히 함"
+  ],
+  "care_habits": [
+    "샐러드 위주로 식습관을 관리한다",
+    "과일을 챙겨 먹는다",
+    "찬물로 세수를 한다",
+    "얼굴 마사지를 꾸준히 한다",
+    "아침마다 자기만의 루틴을 지킨다"
+  ],
+  "hot_materials": [
+    {"material": "데뷔 28년차 냉동미녀 동안", "why_hot": "반전"},
+    {"material": "샐러드·찬물 세수 같은 소박한 동안 비결", "why_hot": "장면"},
+    {"material": "긴 머리를 숏컷으로 자른 변신", "why_hot": "낙차"},
+    {"material": "어릴 땐 메이크업 안 할수록 예뻤다는 회상", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "찬물로 세수하는 아침 장면",
+    "긴 머리를 숏컷으로 자른 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "50세 프로필 사진",
+    "화보 촬영"
+  ]
+}
