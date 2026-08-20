@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "김나영", "gender": "여성", "job": "방송인",
+    "birth_year": null, "age": null, "age_range": "40대",
+    "career": "방송인, 유튜브 채널 '노필터TV' 운영",
+    "major_work": "방송 진행",
+    "identity_anchor": "유튜브 '노필터TV' 운영, 마이큐와 재혼한 방송인 김나영"
+  },
+  "namesake_dropped": ["탁구 선수 김나영"],
+  "quotes": [
+    {"speaker": "김나영", "text": "입맛이 없어서 일부러 운동을 많이 한다", "context": "노필터TV 식습관 언급"},
+    {"speaker": "김나영", "text": "원하는 것은 다 먹지만 양을 조절한다", "context": "노필터TV 60kg에서 50kg 식단 공개"},
+    {"speaker": "김나영", "text": "옆 엉덩이가 없어서 PT를 결제했다", "context": "노필터TV 운동 언급"},
+    {"speaker": "김나영", "text": "영하에도 패딩은 안 입는다", "context": "겨울 패션 언급"}
+  ],
+  "events": [
+    {"summary": "체중을 60kg에서 50kg으로 줄인 식단을 공개함", "year": null, "confirmed": true},
+    {"summary": "군살 없는 수영복 몸매로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "7년 전 싱글맘 시절 사진을 보고 눈물을 흘렸다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "170cm", "meaning": "키"},
+    {"value": "50kg", "meaning": "현재 몸무게"},
+    {"value": "60kg", "meaning": "감량 전 몸무게"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "애 둘 맘 맞아", "where": "기사반응", "scale": ""},
+    {"text": "요즘 예뻐졌다", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "마이큐", "relation": "남편", "mentioned_as": "재혼한 남편"},
+    {"name": "홍진경", "relation": "방송 동료", "mentioned_as": "함께 방송한 동료"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "170cm 50kg의 몸매를 유지",
+    "군살 없는 수영복 몸매로 화제",
+    "체중을 60kg에서 50kg으로 감량",
+    "요즘 얼굴이 예뻐졌다는 반응이 많음"
+  ],
+  "care_habits": [
+    "입맛이 없으면 일부러 운동을 더 한다",
+    "먹고 싶은 것은 먹되 양을 조절한다",
+    "PT를 등록해 하체 운동을 한다",
+    "새 모이 수준으로 소식한다"
+  ],
+  "hot_materials": [
+    {"material": "60kg에서 50kg으로 감량한 식단", "why_hot": "낙차"},
+    {"material": "애 둘 엄마의 수영복 몸매", "why_hot": "반전"},
+    {"material": "7년 전 싱글맘 시절과 지금의 낙차", "why_hot": "낙차"},
+    {"material": "새 모이 수준 소식 식단", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "옆 엉덩이가 없어 PT를 등록하는 장면",
+    "7년 전 사진을 보며 눈물짓는 순간"
+  ],
+  "sns_materials": [
+    "유튜브에 공개한 60kg에서 50kg 식단",
+    "군살 없는 수영복 근황",
+    "겨울 퍼 코트 차림"
+  ],
+  "press_only_materials": [
+    "웨딩드레스 화보"
+  ]
+}
