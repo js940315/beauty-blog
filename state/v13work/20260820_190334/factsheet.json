@@ -1,0 +1,59 @@
+{
+  "person": {
+    "name": "장혜진", "gender": "여성", "job": "배우",
+    "birth_year": 1975, "age": 50, "age_range": "50대",
+    "career": "'기생충' 등에 출연한 천만 배우, 한국예술종합학교 1기",
+    "major_work": "기생충, 폭싹 속았수다",
+    "identity_anchor": "'기생충'에 출연한 천만 배우 장혜진"
+  },
+  "namesake_dropped": ["대경대 K-바이오뷰티융합대학원장 장혜진"],
+  "quotes": [
+    {"speaker": "장혜진", "text": "세안 후에 베이킹소다로 관리하면 여드름이 들어간다", "context": "50대 피부 관리 비결"},
+    {"speaker": "장혜진", "text": "봉준호 감독의 '살인의 추억' 제안을 거절했었다", "context": "전참시, 기생충으로 재회 언급"},
+    {"speaker": "장혜진", "text": "남편이 자기 월급을 내 연기에 다 쓰라고 지지해 줬다", "context": "무명 시절 회상"}
+  ],
+  "events": [
+    {"summary": "마트 아르바이트를 하던 시절을 지나 '기생충'으로 인생이 역전됨", "year": null, "confirmed": true},
+    {"summary": "봉준호 감독의 '살인의 추억' 제안을 거절했다가 '기생충'으로 재회", "year": null, "confirmed": true},
+    {"summary": "50대에도 베이킹소다 세안으로 피부를 관리한다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "천만", "meaning": "출연작 관객 수"},
+    {"value": "23년", "meaning": "결혼 생활 기간"}
+  ],
+  "credentials": [
+    {"item": "한국예술종합학교 1기", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "천만 배우의 소탈한 일상", "where": "기사반응", "scale": ""},
+    {"text": "마트 알바에서 기생충까지 반전 인생", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "봉준호", "relation": "감독", "mentioned_as": "'기생충'·'살인의 추억' 감독"}
+  ],
+  "works": [
+    {"title": "기생충", "year": null, "costar": "", "scene": "", "kind": "극중"},
+    {"title": "살인의 추억", "year": null, "costar": "", "scene": "봉준호 감독의 제안을 거절했던 작품", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "50대에도 소탈하게 피부를 관리",
+    "베이킹소다 세안으로 여드름을 관리한다고 밝힘",
+    "천만 배우다운 자연스러운 미모"
+  ],
+  "care_habits": [
+    "세안 후 베이킹소다로 피부를 관리한다",
+    "값비싼 방법보다 소탈한 관리를 택한다"
+  ],
+  "hot_materials": [
+    {"material": "마트 알바에서 기생충으로 인생 역전", "why_hot": "낙차"},
+    {"material": "봉준호 감독의 살인의 추억을 거절한 과거", "why_hot": "반전"},
+    {"material": "천만 배우인데 베이킹소다로 세안하는 소탈함", "why_hot": "반전"},
+    {"material": "50대에도 여드름을 잡는 피부 관리법", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "세안 후 베이킹소다로 피부를 관리하는 장면",
+    "마트에서 아르바이트하던 무명 시절"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
