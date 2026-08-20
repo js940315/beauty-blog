@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "안은진", "gender": "여성", "job": "배우",
+    "birth_year": 1992, "age": 33, "age_range": "30대",
+    "career": "한국예술종합학교 출신 배우, '연인'·'키스는 괜히 해서' 출연",
+    "major_work": "연인, 키스는 괜히 해서",
+    "identity_anchor": "'연인'·'키스는 괜히 해서'에 출연한 한예종 출신 배우 안은진"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "안은진", "text": "로코를 위해 열심히 관리하고 긴장을 늦추지 않는다", "context": "키스는 괜히 해서 관리 언급"},
+    {"speaker": "안은진", "text": "10kg 감량 효과가 확실하다", "context": "턱선·콧날 변화 언급"},
+    {"speaker": "안은진", "text": "부기 관리를 먼저 한다", "context": "다이어트 방법 언급"}
+  ],
+  "events": [
+    {"summary": "10kg을 감량해 턱선과 콧날이 또렷해졌다", "year": null, "confirmed": true},
+    {"summary": "요가와 공원 운동으로 몸매를 관리한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "시상식에서 슬림해진 몸매로 화제가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10kg", "meaning": "감량한 무게"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "몰라보게 예뻐졌다", "where": "기사반응", "scale": ""},
+    {"text": "턱선과 콧날이 또렷해졌다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김고은", "relation": "한예종 동기·절친", "mentioned_as": "17년 우정의 절친"},
+    {"name": "장기용", "relation": "상대역", "mentioned_as": "'키스는 괜히 해서' 상대역"}
+  ],
+  "works": [
+    {"title": "키스는 괜히 해서", "year": null, "costar": "장기용", "scene": "", "kind": "극중"},
+    {"title": "연인", "year": null, "costar": "", "scene": "", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "10kg 감량 후 턱선과 콧날이 또렷해짐",
+    "시상식에서 슬림한 몸매로 화제",
+    "가녀린 어깨와 몸매라는 평"
+  ],
+  "care_habits": [
+    "살보다 부기 관리를 먼저 한다",
+    "요가를 꾸준히 한다",
+    "공원에서 운동을 한다",
+    "작품을 앞두고 긴장을 늦추지 않고 관리한다"
+  ],
+  "hot_materials": [
+    {"material": "10kg 감량으로 턱선·콧날이 또렷해진 변화", "why_hot": "낙차"},
+    {"material": "김고은과 17년 절친이라는 관계", "why_hot": "실명"},
+    {"material": "장기용과의 로코를 위한 관리", "why_hot": "실명"},
+    {"material": "살보다 부기부터 잡는 관리법", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "공원에서 운동하는 장면",
+    "시상식에서 슬림해진 모습으로 등장한 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "시상식 사진",
+    "화보"
+  ]
+}
