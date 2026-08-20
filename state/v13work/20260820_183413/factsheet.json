@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "박소현", "gender": "여성", "job": "방송인",
+    "birth_year": null, "age": 55, "age_range": "50대",
+    "career": "라디오 '러브게임' 25년 진행, 오랜 방송 활동",
+    "major_work": "러브게임, 세상에 이런 일이",
+    "identity_anchor": "라디오 '러브게임'을 25년 진행한 방송인 박소현"
+  },
+  "namesake_dropped": ["게임 해설가 고수진과 결혼한 아나운서 박소현"],
+  "quotes": [
+    {"speaker": "박소현", "text": "오후 3시에도 공복이고 방울토마토 5알이 한 끼다", "context": "소식 습관 언급"},
+    {"speaker": "박소현", "text": "30년간 46kg을 유지하고 있다", "context": "체중 관리 언급"}
+  ],
+  "events": [
+    {"summary": "30년간 46kg 체중을 유지해 왔다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "라디오 러브게임을 25년간 진행해 왔다", "year": null, "confirmed": true},
+    {"summary": "55세에도 최강 동안이라는 평을 받음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "46kg", "meaning": "30년간 유지한 몸무게"},
+    {"value": "30년", "meaning": "체중 유지 기간"},
+    {"value": "25년", "meaning": "러브게임 진행 기간"},
+    {"value": "5알", "meaning": "한 끼로 먹는 방울토마토 개수"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "최강 동안", "where": "기사반응", "scale": ""},
+    {"text": "55세가 믿기지 않는다", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "30년간 46kg을 유지",
+    "55세에도 최강 동안이라는 평",
+    "소식좌로 불릴 만큼 적게 먹음"
+  ],
+  "care_habits": [
+    "오후 3시에도 공복을 유지한다",
+    "방울토마토 5알을 한 끼로 삼을 만큼 소식한다",
+    "30년간 같은 체중을 지켜 왔다"
+  ],
+  "hot_materials": [
+    {"material": "30년간 46kg 유지", "why_hot": "낙차"},
+    {"material": "방울토마토 5알이 한 끼인 소식", "why_hot": "장면"},
+    {"material": "55세 최강 동안", "why_hot": "반전"},
+    {"material": "오후 3시에도 공복", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "오후 3시에도 아무것도 먹지 않고 버티는 장면",
+    "방울토마토 다섯 알을 한 끼로 먹는 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
