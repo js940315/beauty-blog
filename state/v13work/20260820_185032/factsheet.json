@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "최정윤", "gender": "여성", "job": "배우",
+    "birth_year": 1976, "age": 50, "age_range": "50대",
+    "career": "오랜 활동을 이어온 배우, '친절한 선주씨' 등 출연",
+    "major_work": "배우",
+    "identity_anchor": "재벌가와 이혼 후 5살 연하 사업가와 재혼한 배우 최정윤"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "최정윤", "text": "다들 얼굴이 좋아졌다고 한다", "context": "재혼 후 근황 언급"},
+    {"speaker": "최정윤", "text": "싱글맘 프레임을 벗고 싶었다", "context": "재혼 발표"},
+    {"speaker": "최정윤", "text": "열심히 걸어 나가겠다", "context": "재혼 소감"},
+    {"speaker": "최정윤", "text": "딸이 첫 만남에 먼저 아빠라고 불렀다", "context": "재혼 발표"}
+  ],
+  "events": [
+    {"summary": "재벌가와 이혼한 지 3년 만에 5살 연하 사업가와 재혼", "year": null, "confirmed": true},
+    {"summary": "재혼 후 얼굴이 더 화사해졌다는 반응을 얻음", "year": null, "confirmed": true},
+    {"summary": "딸이 새아빠를 먼저 아빠라고 부르며 받아들임", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "5살", "meaning": "남편과의 나이 차이"},
+    {"value": "3년", "meaning": "이혼 후 재혼까지 걸린 기간"},
+    {"value": "50세", "meaning": "나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "나이를 거꾸로 먹나", "where": "기사반응", "scale": ""},
+    {"text": "얼굴이 좋아졌다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "박진희", "relation": "동료 배우", "mentioned_as": "힘이 되어 준 동료"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "재혼 후 미모가 물올랐다는 평",
+    "나이를 거꾸로 먹는다는 반응",
+    "얼굴이 더 화사해졌다는 근황"
+  ],
+  "care_habits": [
+    "꾸준히 운동으로 몸을 관리한다",
+    "마음의 안정을 가장 큰 관리로 꼽는다"
+  ],
+  "hot_materials": [
+    {"material": "재벌가 이혼 후 5살 연하와 재혼", "why_hot": "낙차"},
+    {"material": "재혼 후 얼굴이 더 폈다는 반응", "why_hot": "반전"},
+    {"material": "딸이 먼저 아빠라 부른 장면", "why_hot": "장면"},
+    {"material": "나이를 거꾸로 먹는다는 근황", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "딸이 첫 만남에 먼저 아빠라고 부르는 순간",
+    "재혼을 알리며 웨딩 사진을 공개하는 장면"
+  ],
+  "sns_materials": [
+    "재혼 후 공개한 근황 사진"
+  ],
+  "press_only_materials": [
+    "웨딩 사진"
+  ]
+}
