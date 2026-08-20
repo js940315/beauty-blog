@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "진서연", "gender": "여성", "job": "배우",
+    "birth_year": 1980, "age": 45, "age_range": "40대",
+    "career": "'독전' 등에 출연한 배우, 자기관리로 유명",
+    "major_work": "독전",
+    "identity_anchor": "'독전' 출연, 자기관리 끝판왕으로 불리는 배우 진서연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "진서연", "text": "백미를 안 먹은 지 7년째다", "context": "168cm 48kg 다이어트 언급"},
+    {"speaker": "진서연", "text": "매일 10km를 뛴다", "context": "편스토랑 자기관리"},
+    {"speaker": "진서연", "text": "모닝 루틴은 명상과 음양탕, 마사지팩이다", "context": "편스토랑 모닝 루틴"},
+    {"speaker": "진서연", "text": "체중의 절반이 근육이다", "context": "체지방 8kg 언급"},
+    {"speaker": "진서연", "text": "아이 낳고 40일 만에 28kg을 뺐다", "context": "산후 감량 언급"}
+  ],
+  "events": [
+    {"summary": "출산 후 40일 만에 28kg을 감량", "year": null, "confirmed": true},
+    {"summary": "철인 3종 경기를 완주", "year": null, "confirmed": true},
+    {"summary": "체지방 8kg으로 체중 절반이 근육이라는 몸을 만듦", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "168cm", "meaning": "키"},
+    {"value": "48kg", "meaning": "몸무게"},
+    {"value": "28kg", "meaning": "출산 후 감량한 무게"},
+    {"value": "7년", "meaning": "백미를 끊은 기간"},
+    {"value": "10km", "meaning": "매일 뛰는 거리"},
+    {"value": "8kg", "meaning": "체지방"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "자기관리 끝판왕", "where": "기사반응", "scale": ""},
+    {"text": "체중 절반이 근육", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "방민아", "relation": "방송 동료", "mentioned_as": "함께 뷰티 방송을 한 동료"}
+  ],
+  "works": [
+    {"title": "독전", "year": null, "costar": "", "scene": "", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "168cm 48kg에 체지방 8kg",
+    "체중의 절반이 근육",
+    "출산 후 40일 만에 28kg 감량",
+    "철인 3종을 완주한 체력"
+  ],
+  "care_habits": [
+    "백미를 7년째 먹지 않는다",
+    "매일 10km를 뛴다",
+    "모닝 루틴으로 명상과 음양탕, 마사지팩을 한다",
+    "철인 3종을 준비할 만큼 운동을 꾸준히 한다"
+  ],
+  "hot_materials": [
+    {"material": "출산 40일 만에 28kg 감량", "why_hot": "낙차"},
+    {"material": "체중 절반이 근육인 몸", "why_hot": "반전"},
+    {"material": "백미 7년째 끊은 식습관", "why_hot": "발언"},
+    {"material": "매일 10km 러닝과 철인 3종", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "매일 10km를 뛰는 새벽 러닝 장면",
+    "모닝 루틴으로 마사지팩을 하는 아침"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
