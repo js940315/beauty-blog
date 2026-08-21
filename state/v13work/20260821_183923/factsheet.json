@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "변정수",
+    "gender": "여성",
+    "job": "모델",
+    "birth_year": null,
+    "age": "51세",
+    "age_range": "",
+    "career": "모델 출신으로 방송 활동을 이어가고 있다",
+    "major_work": "셀러브리티, 4인용식탁",
+    "identity_anchor": "모델 출신 방송인, 두 딸도 모델로 활동 중인 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "변정수", "text": "몸 하수구 뚫고 청소", "context": "사우나 영상 공개"},
+    {"speaker": "변정수 남편", "text": "7세 많은데 나보고 아빠라고", "context": "인터뷰 인용"},
+    {"speaker": "변정수", "text": "제일 행복해", "context": "밀라노 근황 인용"},
+    {"speaker": "변정수", "text": "애도 있는데 네가 거기서 뭘 하겠냐", "context": "뉴욕 진출 회고 인터뷰"},
+    {"speaker": "변정수", "text": "엄마 가방 2개 뺏겼다", "context": "딸들과의 데이트 인용"}
+  ],
+  "events": [
+    {"summary": "살이 쪄서 후회했다며 찐 살 관리법을 공개했다", "year": null, "confirmed": true},
+    {"summary": "사우나에서 몸 관리하는 영상을 직접 공개했다", "year": null, "confirmed": true},
+    {"summary": "두 딸과 밀라노·뉴욕 등에서 가족 시간을 보냈다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "남편이 뉴욕 진출을 위해 보증을 서준 덕분에 꿈을 이뤘다고 회고했다", "year": null, "confirmed": true},
+    {"summary": "30년 전 과거 사진이 화제가 됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "51세", "meaning": "현재 나이"},
+    {"value": "7세", "meaning": "남편과의 나이 차이"},
+    {"value": "2개", "meaning": "딸들에게 뺏겼다고 밝힌 가방 개수"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "", "relation": "남편", "mentioned_as": "동안인 아내 탓에 아빠로 오해받았다는 인터뷰에서 등장"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "동안 외모 때문에 남편이 아빠로 오해받았다는 일화",
+    "살이 쪄서 후회했다는 발언과 찐 살 관리법"
+  ],
+  "care_habits": [
+    "사우나에서 직접 몸 관리를 한다",
+    "찐 살을 관리하는 방법을 공개했다"
+  ],
+  "hot_materials": [
+    {"material": "동안 아내 탓에 아빠로 오해받았다는 남편의 굴욕 일화", "why_hot": "반전"},
+    {"material": "살 쪄서 후회했다는 솔직한 고백과 관리법", "why_hot": "발언"},
+    {"material": "사우나에서 '몸 하수구 뚫고 청소'라 표현한 관리 영상", "why_hot": "장면"},
+    {"material": "두 딸이 모두 모델로 활동하는 가족 이야기", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "사우나에서 몸 관리하는 영상을 공개했다",
+    "딸들과 밀라노·뉴욕에서 가방을 나눠 드는 모습이 화제가 됐다"
+  ],
+  "sns_materials": [
+    "사우나에서 관리하는 모습을 직접 공개한 영상"
+  ],
+  "press_only_materials": [
+    "30년 전 과거 사진"
+  ]
+}
