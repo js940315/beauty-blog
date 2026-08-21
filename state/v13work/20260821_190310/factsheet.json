@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "신봉선",
+    "gender": "여성",
+    "job": "개그우먼",
+    "birth_year": 1981,
+    "age": "45세",
+    "age_range": "",
+    "career": "개그우먼으로 활동하며 다이어트 광고 모델로도 꾸준히 활동하고 있다",
+    "major_work": "미운 우리 새끼, 놀토",
+    "identity_anchor": "11kg 감량 후 다이어트 광고를 6번 재계약한 개그우먼"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신봉선", "text": "닭가슴살 식단, 죽어도 못 해", "context": "인터뷰 인용"},
+    {"speaker": "신봉선", "text": "이 음식 코끼리처럼 먹어", "context": "인터뷰 인용"},
+    {"speaker": "신봉선", "text": "술 먹고 해장 NO", "context": "놀토 방송 인용"},
+    {"speaker": "신봉선", "text": "하면 예쁜 걸 알지만, 중독될까봐", "context": "인터뷰 인용"},
+    {"speaker": "신봉선", "text": "3주 내내 당근라페 먹어", "context": "인터뷰 인용"}
+  ],
+  "events": [
+    {"summary": "11kg을 감량하고 3년째 유지하고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "체지방률 18%까지 관리하고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "다이어트 광고 모델로 6번 재계약에 성공했다", "year": null, "confirmed": true},
+    {"summary": "피부과 시술을 받았다고 직접 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "45세", "meaning": "현재 나이"},
+    {"value": "11kg", "meaning": "감량한 몸무게"},
+    {"value": "18%", "meaning": "관리 중인 체지방률"},
+    {"value": "6번", "meaning": "다이어트 광고 재계약 횟수"},
+    {"value": "3년", "meaning": "감량 후 유지 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "닮았다는 반응이 쏟아졌다", "where": "댓글", "scale": "다수"}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "울쎄라와 써마지 등 피부과 시술을 받았다고 밝혔다",
+    "체지방률 18%를 유지하며 관리한다"
+  ],
+  "care_habits": [
+    "아침마다 수영과 발레로 운동한다",
+    "일주일에 세 번 정해진 운동을 한다",
+    "술을 마셔도 해장 음식은 먹지 않는다",
+    "닭가슴살 식단은 하지 않는다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "11kg 감량 후 다이어트 광고 6번 재계약한 이야기", "why_hot": "낙차"},
+    {"material": "닭가슴살 식단은 죽어도 못 한다는 솔직한 발언", "why_hot": "발언"},
+    {"material": "체지방률 18%까지 관리하는 꾸준함", "why_hot": "장면"},
+    {"material": "피부과 시술도 중독될까봐 조심한다는 소신", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "아침마다 수영장과 발레 학원을 오가는 모습이 공개됐다",
+    "닮았다는 반응이 쏟아질 만큼 달라진 분위기를 보여줬다"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
