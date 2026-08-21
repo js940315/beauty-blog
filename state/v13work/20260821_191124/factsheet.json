@@ -1,0 +1,55 @@
+{
+  "person": {
+    "name": "강수정",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": 1983,
+    "age": "",
+    "age_range": "",
+    "career": "방송인으로 활동하며 현재는 홍콩에서 거주하고 있다",
+    "major_work": "4인용식탁",
+    "identity_anchor": "배우 강동원의 여동생, 홍콩 거주 금융인 남편을 둔 방송인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "강수정", "text": "삼촌 너무 사랑해", "context": "강동원과 아들 투샷 공개 인용"},
+    {"speaker": "강수정", "text": "명품백 여러 개 사주더라", "context": "4인용식탁 방송 인용"},
+    {"speaker": "강수정", "text": "내 몸 아끼라고 외식하자는 남편", "context": "인터뷰 인용"},
+    {"speaker": "강수정", "text": "부끄러워 고개 숙여", "context": "콩글리시 관련 인터뷰 인용"},
+    {"speaker": "강수정", "text": "건강이 최고", "context": "홍콩 자택 인터뷰 인용"}
+  ],
+  "events": [
+    {"summary": "친오빠 강동원과 아들의 투샷을 공개했다", "year": null, "confirmed": true},
+    {"summary": "금융인 남편과 결혼기념일을 맞아 근황을 공개했다", "year": null, "confirmed": true},
+    {"summary": "남편이 명품 가방을 여러 개 사줬다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "홍콩살이 19년 차인데도 콩글리시 때문에 남편에게 놀림을 받는다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "김강우와 고3 시절 함께 여행 갔던 일화를 17년 만에 공개했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "19년", "meaning": "홍콩 거주 기간"},
+    {"value": "17년", "meaning": "김강우와의 일화가 공개되기까지 걸린 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "강동원", "relation": "친오빠", "mentioned_as": "아들과 함께 찍은 투샷 공개에서 삼촌으로 등장"},
+    {"name": "김강우", "relation": "오랜 지인", "mentioned_as": "고3 시절 함께 여행 갔던 일화의 상대로 등장"}
+  ],
+  "works": [],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "친오빠 강동원과 아들의 훈훈한 투샷", "why_hot": "실명"},
+    {"material": "남편이 명품 가방을 여러 개 사줬다는 고백", "why_hot": "발언"},
+    {"material": "김강우와 고3 시절 여행 일화가 17년 만에 공개된 사연", "why_hot": "실명"},
+    {"material": "홍콩살이 19년 차인데도 콩글리시로 남편에게 놀림받는 일상", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "강동원이 조카를 사랑한다고 표현하는 투샷이 공개됐다",
+    "남편에게 콩글리시로 놀림받고 고개를 숙였다는 일화가 공개됐다"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "남편이 사줬다는 명품 가방 여러 개"
+  ]
+}
