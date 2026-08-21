@@ -1,7 +1,0 @@
-■ 황정음 — 이미지 어디서 구하나
-
-이미지 검색 (로그인 없이 바로 열립니다):
-  네이버  https://search.naver.com/search.naver?where=image&query=%ED%99%A9%EC%A0%95%EC%9D%8C
-  다음    https://search.daum.net/search?w=img&q=%ED%99%A9%EC%A0%95%EC%9D%8C
-
-※ 못 찾으면 사진 없이 발행해도 되는 글입니다.
