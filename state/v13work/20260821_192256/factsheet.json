@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "김원희",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": 1972,
+    "age": "54세",
+    "age_range": "",
+    "career": "오랜 기간 방송인으로 활동해온 원조 예능인이다",
+    "major_work": "철파엠, 핑계고",
+    "identity_anchor": "'원조 바비인형'으로 불리는 방송인, 결혼 34년 차. 방송에서 인기 아이돌 스타일을 따라 하는 챌린지에도 도전했다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김원희", "text": "열심히 했는데, 한 달 2kg 밖에 안 빠졌다", "context": "인터뷰 인용"},
+    {"speaker": "김원희", "text": "따라한 내가 죄인", "context": "스타일 챌린지 인용"},
+    {"speaker": "김원희", "text": "수십 년 만에 쉬었는데", "context": "은퇴설 관련 인터뷰 인용"},
+    {"speaker": "김원희", "text": "샬롬, 교회 가는 길 덥다 더워", "context": "SNS 재개 인용"}
+  ],
+  "events": [
+    {"summary": "탈모 관리법을 방송에서 직접 공개했다", "year": null, "confirmed": true},
+    {"summary": "결혼 34년 차인데도 남편에게 긴장한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "50대 중반에도 식스팩을 유지하고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "인기 아이돌 스타일을 따라 하는 챌린지에 도전했다", "year": null, "confirmed": true},
+    {"summary": "두 달간 6kg 감량에 도전했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "2년 만에 SNS 활동을 재개했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "54세", "meaning": "현재 나이"},
+    {"value": "34년", "meaning": "결혼 생활 기간"},
+    {"value": "2kg", "meaning": "한 달간 감량한 몸무게"},
+    {"value": "6kg", "meaning": "두 달 목표 감량 몸무게"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "유재석", "relation": "절친한 동료", "mentioned_as": "핑계고 등 방송 활동에서 함께 언급됨"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "탈모 관리법을 직접 공개했다",
+    "옛날 얼굴 그대로라는 말을 듣는 관리 비결을 꼽았다"
+  ],
+  "care_habits": [
+    "50대 중반에도 식스팩을 유지하는 운동을 한다",
+    "두 달간 6kg 감량에 도전했다"
+  ],
+  "hot_materials": [
+    {"material": "결혼 34년 차인데도 남편에게 긴장한다는 고백", "why_hot": "낙차"},
+    {"material": "50대 중반에도 식스팩을 유지하는 몸매", "why_hot": "낙차"},
+    {"material": "인기 아이돌 스타일에 도전했다가 '내가 죄인'이라 자평한 일화", "why_hot": "반전"},
+    {"material": "탈모 관리법을 솔직하게 공개한 이야기", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "인기 아이돌의 올림머리 스타일을 따라 하는 모습을 공개했다",
+    "탈모 관리 제품을 직접 소개하는 모습이 방송에 나왔다"
+  ],
+  "sns_materials": [
+    "2년 만에 재개한 SNS에 유쾌한 근황을 올렸다"
+  ],
+  "press_only_materials": []
+}
