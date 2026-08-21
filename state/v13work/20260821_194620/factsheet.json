@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "송은이",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": 1971,
+    "age": null,
+    "age_range": "50대",
+    "career": "코미디언 출신 방송인",
+    "major_work": "비보티비, 전참시, 라디오스타",
+    "identity_anchor": "코미디언 출신 방송인, 유튜브 '비보티비' 진행자 송은이"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "송은이", "text": "눈 커지고 리프팅", "context": "스포츠조선"},
+    {"speaker": "송은이", "text": "쌍수한지 얼마 안 돼", "context": "Chosunbiz"},
+    {"speaker": "송은이", "text": "나나와 10년째 같은 메이크업 쌤", "context": "조선일보"},
+    {"speaker": "네티즌", "text": "메릴 스트립 같아", "context": "머니투데이"}
+  ],
+  "events": [
+    {"summary": "괄사 마사지를 3분 만에 해보고 눈이 커지고 리프팅 효과를 봤다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "메이크업 아티스트 이사배의 손을 거쳐 확 달라진 얼굴을 공개했다", "year": null, "confirmed": true},
+    {"summary": "예전 하객룩 사진이 재소환되자 그 시절 쌍꺼풀 수술을 한 지 얼마 안 됐었다고 스스로 설명했다", "year": null, "confirmed": true},
+    {"summary": "은발로 염색한 모습을 공개해 메릴 스트립 같다는 반응을 받았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "3분", "meaning": "괄사 마사지로 효과를 봤다는 시간"},
+    {"value": "10년", "meaning": "나나와 같은 메이크업 아티스트에게 관리받아온 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "메릴 스트립 같아", "where": "댓글", "scale": ""},
+    {"text": "이상하지 않아", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이사배", "relation": "메이크업 아티스트", "mentioned_as": "얼굴을 확 바꿔준 인물"},
+    {"name": "나나", "relation": "동료 연예인", "mentioned_as": "같은 메이크업 아티스트를 10년째 공유"},
+    {"name": "조권", "relation": "동료 방송인", "mentioned_as": "괄사 마사지를 함께 체험한 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "괄사 마사지 3분 만에 눈이 커지고 리프팅 효과",
+    "메이크업 아티스트 이사배의 손을 거쳐 확 달라진 얼굴",
+    "쌍꺼풀 수술 사실을 스스로 언급",
+    "나나와 10년째 같은 메이크업 아티스트에게 관리받음",
+    "은발 염색 시도"
+  ],
+  "care_habits": [
+    "괄사 마사지를 관리법으로 활용한다",
+    "10년째 같은 메이크업 아티스트에게 관리를 받는다"
+  ],
+  "hot_materials": [
+    {"material": "괄사 마사지 3분 만에 눈이 커지고 리프팅됐다는 직접 체험담", "why_hot": "발언"},
+    {"material": "메이크업 아티스트 이사배가 만들어준 달라진 얼굴", "why_hot": "실명"},
+    {"material": "옛 사진 속 쌍꺼풀 수술을 스스로 언급한 솔직함", "why_hot": "발언"},
+    {"material": "은발 변신에 쏟아진 메릴 스트립 비유", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "괄사로 얼굴을 마사지하는 장면",
+    "메이크업 아티스트 손끝에서 달라지는 얼굴",
+    "은발로 염색한 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
