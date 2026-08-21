@@ -1,0 +1,47 @@
+{
+  "person": {
+    "name": "이경실",
+    "gender": "여성",
+    "job": "개그우먼",
+    "birth_year": 1966,
+    "age": "61세",
+    "age_range": "",
+    "career": "오랜 기간 개그우먼으로 활동해온 원로 방송인이다",
+    "major_work": "핑계고, 조선의 사랑꾼",
+    "identity_anchor": "환갑을 맞은 원로 개그우먼"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이경실", "text": "피부 훨씬 환해져..돈 들인 만큼 좋아", "context": "줄기세포 시술 관련 인터뷰"},
+    {"speaker": "이경실", "text": "가슴으로 울어..내년 박미선 차례", "context": "환갑 파티 인터뷰"}
+  ],
+  "events": [
+    {"summary": "줄기세포 시술을 받고 만족감을 드러냈다", "year": null, "confirmed": true},
+    {"summary": "환갑을 맞아 동료들이 깜짝 파티를 열어줬다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "아들이 군복을 입고 무대에 깜짝 등장해 감동을 받았다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "61세", "meaning": "환갑을 맞은 현재 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "", "relation": "아들", "mentioned_as": "군복 입고 무대에 깜짝 등장해 감동을 준 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "줄기세포 시술을 받고 피부가 훨씬 환해졌다고 밝혔다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "줄기세포 시술 후 피부가 환해졌다는 만족 발언", "why_hot": "발언"},
+    {"material": "환갑을 맞아 동료 개그우먼들이 모두 모인 깜짝 파티", "why_hot": "장면"},
+    {"material": "아들이 군복 입고 무대에 깜짝 등장한 순간", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "동료 개그우먼들이 총출동한 환갑 파티가 열렸다",
+    "아들이 군복을 입고 무대에 등장해 감동을 안겼다"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}

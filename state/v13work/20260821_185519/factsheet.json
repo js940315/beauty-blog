@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "홍윤화",
+    "gender": "여성",
+    "job": "개그우먼",
+    "birth_year": null,
+    "age": "",
+    "age_range": "",
+    "career": "개그우먼으로 활동하며 남편과 함께 오뎅바 사업도 운영하고 있다",
+    "major_work": "동상이몽, 꽁냥꽁냥",
+    "identity_anchor": "개그우먼, 오뎅바를 운영하는 김민기의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "홍윤화", "text": "이번이 마지막 다이어트", "context": "동상이몽 인터뷰 인용"},
+    {"speaker": "홍윤화", "text": "몸무게 앞자리가 바뀌었다, 슬슬 티가 나", "context": "기사 인용"},
+    {"speaker": "홍윤화", "text": "약물 절대 NO", "context": "종합 기사 인용"},
+    {"speaker": "홍윤화", "text": "이것 내돈내산", "context": "꽁냥꽁냥 인용"},
+    {"speaker": "김민기", "text": "이제 내려놓자", "context": "기사 인용"},
+    {"speaker": "홍윤화", "text": "먹고 싶은 거 다 먹었다", "context": "기사 인용"}
+  ],
+  "events": [
+    {"summary": "40kg 감량을 목표로 다이어트를 시작해 여러 차례 감량 소식을 공개했다", "year": null, "confirmed": true},
+    {"summary": "27kg을 감량했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "결혼 7주년을 맞아 레트로 웨딩사진을 공개했다", "year": null, "confirmed": true},
+    {"summary": "남편과 함께 오뎅바를 열어 개업 3일 만에 매진을 기록했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "40kg", "meaning": "감량 목표"},
+    {"value": "27kg", "meaning": "감량에 성공했다고 밝힌 몸무게"},
+    {"value": "7주년", "meaning": "김민기와의 결혼기념일"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김민기", "relation": "남편", "mentioned_as": "다이어트 응원과 사업 관련 기사에서 남편으로 등장"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "40kg 감량을 목표로 다이어트를 진행 중이며 27kg 감량에 성공했다",
+    "약물 없이 다이어트를 했다고 직접 밝혔다"
+  ],
+  "care_habits": [
+    "다이어트 중에도 먹고 싶은 음식을 참지 않았다고 밝혔다",
+    "감량에 도움이 됐다는 음식을 직접 구매해 먹었다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "40kg 감량을 목표로 27kg까지 뺀 다이어트 여정", "why_hot": "낙차"},
+    {"material": "약물 없이 뺐다는 솔직한 해명", "why_hot": "발언"},
+    {"material": "몸무게 앞자리가 바뀌었다는 변화", "why_hot": "장면"},
+    {"material": "남편과 함께 연 오뎅바가 개업 3일 만에 매진된 이야기", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "몸무게 앞자리가 바뀔 만큼 살이 빠진 모습을 공개했다",
+    "결혼 7주년 레트로 웨딩사진을 공개했다"
+  ],
+  "sns_materials": [
+    "다이어트 비포 애프터 사진을 직접 공개했다"
+  ],
+  "press_only_materials": []
+}
