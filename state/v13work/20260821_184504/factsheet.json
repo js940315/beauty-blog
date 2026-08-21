@@ -1,0 +1,67 @@
+{
+  "person": {
+    "name": "안선영",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": "49세",
+    "age_range": "",
+    "career": "홈쇼핑 방송으로 완판 신화를 쓰며 사업가로도 활동하고 있다",
+    "major_work": "바로 안선영, 이게바로",
+    "identity_anchor": "홈쇼핑 완판 신화로 유명한 방송인 겸 사업가"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "안선영", "text": "풀메 후 노세안, 다 뒤집어져", "context": "바로 안선영 방송 인용"},
+    {"speaker": "안선영", "text": "10년째 보톡스, 꾸준히 시술 받아", "context": "이게바로 방송 인용"},
+    {"speaker": "안선영", "text": "명품백 말고 피부·머리숱에 투자", "context": "인터뷰 인용"},
+    {"speaker": "안선영", "text": "밀가루·설탕 끊은지 5년", "context": "인터뷰 인용"},
+    {"speaker": "안선영", "text": "이 시술에 차 한 대 값 써", "context": "인터뷰 인용"},
+    {"speaker": "안선영", "text": "댓글 보고 쌍꺼풀 AS 받았다, 너무 무서워요", "context": "기사 인용"}
+  ],
+  "events": [
+    {"summary": "10년째 보톡스 시술을 꾸준히 받고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "밀가루와 설탕을 끊은 지 5년이 됐다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "11kg을 감량하고 운동을 인증했다", "year": null, "confirmed": true},
+    {"summary": "댓글을 보고 쌍꺼풀 수술 부위를 다시 손봤다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "풀메이크업 후 세안을 하지 않아 피부가 뒤집어진 경험을 공개했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49세", "meaning": "현재 나이"},
+    {"value": "168cm", "meaning": "키"},
+    {"value": "50kg", "meaning": "현재 몸무게"},
+    {"value": "11kg", "meaning": "감량한 몸무게"},
+    {"value": "5년", "meaning": "밀가루·설탕을 끊은 기간"},
+    {"value": "10년", "meaning": "보톡스 시술을 받아온 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "10년째 보톡스 시술을 받고 있다",
+    "얼굴이 아닌 다른 부위에 시술을 받고 만족했다고 밝혔다",
+    "피부과 시술에 국산차 한 대 값을 쓴다고 밝혔다",
+    "쌍꺼풀 수술 부위를 다시 손봤다"
+  ],
+  "care_habits": [
+    "밀가루와 설탕을 끊은 지 5년째다",
+    "담배를 한 번도 피운 적이 없다고 밝혔다",
+    "명품 가방 대신 피부와 머리숱 관리에 투자한다는 소신을 밝혔다",
+    "혈당 관리에 좋다는 음식을 수시로 챙겨 먹는다"
+  ],
+  "hot_materials": [
+    {"material": "10년째 보톡스를 꾸준히 맞는다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "풀메이크업 후 세안을 안 해 피부가 뒤집어진 경험담", "why_hot": "장면"},
+    {"material": "명품백 대신 피부·머리숱에 투자한다는 소신", "why_hot": "반전"},
+    {"material": "밀가루·설탕 끊은 지 5년, 11kg 감량", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "풀메이크업 후 세안을 잊어 피부가 뒤집어진 모습을 그대로 공개했다",
+    "운동으로 11kg을 감량한 몸을 인증했다"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "안티에이징 스킨케어 브랜드 모델로 발탁된 소식"
+  ]
+}
