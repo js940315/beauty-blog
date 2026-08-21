@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "홍윤화",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": 1994,
+    "age": null,
+    "age_range": "30대",
+    "career": "개그우먼 출신 방송인",
+    "major_work": "동상이몽, 꽁냥꽁냥",
+    "identity_anchor": "개그우먼 출신 방송인, 남편 김민기와 함께 사업도 하는 홍윤화"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "홍윤화", "text": "요요 안 오게 기도할까요", "context": "동아일보"},
+    {"speaker": "홍윤화", "text": "최고의 성형은 다이어트", "context": "네이트"},
+    {"speaker": "홍윤화", "text": "이번이 마지막 다이어트", "context": "v.daum.net"},
+    {"speaker": "홍윤화", "text": "약물 절대 NO", "context": "sports.donga.com"},
+    {"speaker": "홍윤화", "text": "슬슬 티가 나", "context": "네이트"},
+    {"speaker": "홍윤화", "text": "살쪄 죽겠다 싶었다", "context": "twig24.com"}
+  ],
+  "events": [
+    {"summary": "40kg 감량을 목표로 다이어트를 선언했다", "year": null, "confirmed": true},
+    {"summary": "27kg 감량에 성공했다", "year": null, "confirmed": true},
+    {"summary": "몸무게 앞자리가 바뀔 정도로 감량했다", "year": null, "confirmed": true},
+    {"summary": "결혼 7주년을 맞아 레트로 웨딩사진을 공개했다", "year": null, "confirmed": true},
+    {"summary": "감량 도중 건강 문제로 체중이 다시 늘었다가 재도전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "40kg", "meaning": "감량 목표치"},
+    {"value": "27kg", "meaning": "실제 감량한 체중"},
+    {"value": "7주년", "meaning": "결혼 기념일"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김민기", "relation": "남편", "mentioned_as": "함께 사업하는 배우자"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "40kg 감량을 목표로 선언하고 27kg을 감량했다",
+    "몸무게 앞자리가 바뀔 정도의 변화를 보였다",
+    "약물 없이 감량했다고 밝혔다",
+    "결혼 7주년 레트로 웨딩사진을 공개했다"
+  ],
+  "care_habits": [
+    "요요가 오지 않기를 바라며 관리를 이어간다",
+    "약물 없이 자연스러운 방법으로 감량했다"
+  ],
+  "hot_materials": [
+    {"material": "40kg 감량을 목표로 선언하고 27kg을 실제로 감량한 과정", "why_hot": "낙차"},
+    {"material": "\"최고의 성형은 다이어트\"라는 자평", "why_hot": "발언"},
+    {"material": "감량 도중 건강 문제로 다시 늘었다가 재도전한 반전", "why_hot": "반전"},
+    {"material": "결혼 7주년 레트로 웨딩사진 공개", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "몸무게 앞자리가 바뀌는 순간",
+    "레트로 웨딩사진 촬영 현장"
+  ],
+  "sns_materials": [
+    "결혼 7주년 레트로 웨딩사진"
+  ],
+  "press_only_materials": []
+}
