@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "송은이",
+    "gender": "여성",
+    "job": "개그우먼",
+    "birth_year": 1973,
+    "age": "",
+    "age_range": "",
+    "career": "개그우먼으로 활동하며 콘텐츠 회사 대표로도 활동하고 있다",
+    "major_work": "비보티비, 전참시, 유퀴즈",
+    "identity_anchor": "157억 사옥을 세운 콘텐츠 회사 대표 겸 개그우먼"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "송은이", "text": "눈 커지고 리프팅", "context": "비보티비 인용"},
+    {"speaker": "송은이", "text": "1995년엔 내가 유재석보다 더 유명했다", "context": "런닝맨 인용"},
+    {"speaker": "송은이", "text": "메릴 스트립 같아", "context": "은발 영정사진 관련 인용"},
+    {"speaker": "송은이", "text": "쌍수한지 얼마 안 돼", "context": "비보티비 인용"},
+    {"speaker": "송은이", "text": "진짜로 사귀었다, 마지막 연애는 정우성이었다", "context": "인터뷰 인용"}
+  ],
+  "events": [
+    {"summary": "조권에게 괄사 마사지를 배워 3분 만에 얼굴이 달라지는 효과를 봤다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "잘못된 피부 관리법을 소개하며 주의를 당부했다", "year": null, "confirmed": true},
+    {"summary": "은발로 염색한 파격적인 콘셉트 사진을 공개했다", "year": null, "confirmed": true},
+    {"summary": "메이크업 아티스트 이사배의 손을 거쳐 확 달라진 얼굴을 공개했다", "year": null, "confirmed": true},
+    {"summary": "1995년에는 유재석보다 더 유명했다고 밝혔다", "year": 1995, "confirmed": true},
+    {"summary": "과거 정우성과 연애했었다고 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "백수 생활 끝에 직원 50명을 둔 회사의 대표가 됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "3분", "meaning": "괄사 마사지로 효과를 봤다는 시간"},
+    {"value": "157억", "meaning": "직접 세운 사옥의 가치"},
+    {"value": "50명", "meaning": "회사 직원 수"},
+    {"value": "1995년", "meaning": "유재석보다 유명했다고 밝힌 시기"}
+  ],
+  "credentials": [
+    {"item": "직원 50명 회사의 대표", "whose": "본인"},
+    {"item": "157억 사옥 소유", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "유재석", "relation": "동료 방송인", "mentioned_as": "1995년 유명세 비교 발언에서 등장"},
+    {"name": "정우성", "relation": "과거 연인", "mentioned_as": "마지막 연애 상대로 직접 언급"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "괄사 마사지로 3분 만에 눈이 커지고 리프팅 효과를 봤다",
+    "쌍꺼풀 수술을 한 지 얼마 안 됐다고 밝혔다",
+    "메이크업 아티스트의 손을 거쳐 확 달라진 얼굴을 공개했다"
+  ],
+  "care_habits": [
+    "잘못된 피부 관리법을 스스로 점검하고 소개했다"
+  ],
+  "hot_materials": [
+    {"material": "1995년엔 유재석보다 유명했다는 폭로", "why_hot": "실명"},
+    {"material": "마지막 연애 상대가 정우성이었다는 고백", "why_hot": "실명"},
+    {"material": "괄사 마사지 3분 만에 달라진 얼굴", "why_hot": "장면"},
+    {"material": "백수에서 157억 사옥 대표가 된 반전", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "은발로 염색한 파격적인 콘셉트 사진을 공개했다",
+    "메이크업 아티스트의 손을 거쳐 확 달라진 얼굴을 공개했다"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
