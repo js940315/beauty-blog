@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "이은지",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": 1990,
+    "age": null,
+    "age_range": "30대",
+    "career": "개그우먼 출신 방송인",
+    "major_work": "지락실, 우주뜨끈, 은지랑",
+    "identity_anchor": "개그우먼 출신 방송인, 러닝으로 10kg 감량한 이은지"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이은지", "text": "쾌녀가 된 것 같다", "context": "한국경제"},
+    {"speaker": "이은지", "text": "10kg 빼서 56kg", "context": "세계일보"},
+    {"speaker": "옥택연", "text": "러블리", "context": "Chosunbiz"}
+  ],
+  "events": [
+    {"summary": "러닝으로 10kg을 감량했다", "year": null, "confirmed": true},
+    {"summary": "위고비 없이 자연스러운 방법으로 감량했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "65kg에서 55~56kg으로 체중이 줄었다", "year": null, "confirmed": true},
+    {"summary": "매일 실천하는 습관 덕분에 요요가 오지 않는다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10kg", "meaning": "감량한 체중"},
+    {"value": "65kg", "meaning": "감량 전 체중"},
+    {"value": "56kg", "meaning": "감량 후 체중"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "러블리", "where": "기사반응", "scale": ""},
+    {"text": "여배우 뺨치는 미모", "where": "기사반응", "scale": ""},
+    {"text": "몰라보겠네", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "옥택연", "relation": "동료 연예인", "mentioned_as": "달라진 모습에 '러블리'라고 인정한 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "러닝으로 10kg 감량",
+    "65kg에서 56kg으로 체중 변화",
+    "위고비 없이 자연스러운 방법으로 감량",
+    "매일 실천하는 습관으로 요요 없이 유지"
+  ],
+  "care_habits": [
+    "러닝을 꾸준히 한다",
+    "매일 실천하는 습관을 지킨다",
+    "약물 없이 운동으로 관리한다"
+  ],
+  "hot_materials": [
+    {"material": "65kg에서 56kg으로, 러닝만으로 10kg 감량", "why_hot": "낙차"},
+    {"material": "위고비 없이 자연스럽게 감량했다는 점", "why_hot": "발언"},
+    {"material": "옥택연이 직접 '러블리'라고 인정한 반응", "why_hot": "실명"},
+    {"material": "'여배우 뺨치는 미모'라는 평가가 쏟아진 반전", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "매일 러닝하는 모습",
+    "달라진 미모에 놀라는 주변 반응"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
