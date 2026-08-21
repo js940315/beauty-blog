@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "신봉선",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": 1982,
+    "age": 45,
+    "age_range": "40대",
+    "career": "코미디언 출신 방송인",
+    "major_work": "탐비, 놀토, 아침봉, 미우새",
+    "identity_anchor": "코미디언 출신 방송인, 다이어트 광고 6회 재계약한 신봉선"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신봉선", "text": "요요 와도 위약금 無", "context": "네이트"},
+    {"speaker": "신봉선", "text": "술 먹고 해장 NO", "context": "네이트"},
+    {"speaker": "신봉선", "text": "이 음식 코끼리처럼 먹어", "context": "네이트"},
+    {"speaker": "신봉선", "text": "닭가슴살 식단, 죽어도 못 해", "context": "마이데일리"},
+    {"speaker": "신봉선", "text": "3주 내내 당근라페 먹어", "context": "조선일보"},
+    {"speaker": "신봉선", "text": "하면 예쁜 걸 알지만, 중독될까봐", "context": "뉴스엔"},
+    {"speaker": "송은이", "text": "매출 제일 높다고", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "11kg을 감량하고 3년째 유지하고 있다", "year": null, "confirmed": true},
+    {"summary": "체지방률 18%까지 만들었다", "year": null, "confirmed": true},
+    {"summary": "아침마다 수영과 발레를 한다", "year": null, "confirmed": true},
+    {"summary": "울쎄라와 써마지 시술을 받았다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "다이어트 제품 광고를 6번 재계약했다", "year": null, "confirmed": true},
+    {"summary": "일주일에 세 번 정해진 운동을 한다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "11kg", "meaning": "감량한 체중"},
+    {"value": "3년", "meaning": "감량 후 유지 기간"},
+    {"value": "18%", "meaning": "체지방률"},
+    {"value": "6번", "meaning": "다이어트 광고 재계약 횟수"},
+    {"value": "3주", "meaning": "당근라페를 먹은 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "이렇게 예뻤나", "where": "기사반응", "scale": ""},
+    {"text": "아이유 닮았다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "송은이", "relation": "동료 방송인", "mentioned_as": "광고 매출을 언급한 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "11kg 감량 후 3년째 유지",
+    "체지방률 18%",
+    "아침 수영과 발레",
+    "울쎄라·써마지 시술",
+    "다이어트 광고 6회 재계약"
+  ],
+  "care_habits": [
+    "아침마다 수영과 발레를 한다",
+    "일주일에 세 번 정해진 운동을 한다",
+    "술을 마셔도 해장은 하지 않는다",
+    "당근라페 같은 식단으로 유지 관리를 한다",
+    "닭가슴살 위주 식단은 하지 않는다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "11kg 감량 후 3년째 요요 없이 유지", "why_hot": "낙차"},
+    {"material": "다이어트 광고를 6번이나 재계약한 신뢰도", "why_hot": "낙차"},
+    {"material": "닭가슴살 식단은 거부하고 당근라페로 유지한다는 반전", "why_hot": "반전"},
+    {"material": "체지방률 18%까지 만든 구체적 수치", "why_hot": "낙차"},
+    {"material": "아이유를 닮았다는 반응이 쏟아졌다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "아침마다 수영장에서 수영하는 모습",
+    "발레 동작을 연습하는 모습",
+    "당근라페를 먹는 식탁 풍경"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
