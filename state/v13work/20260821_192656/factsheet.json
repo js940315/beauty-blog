@@ -1,0 +1,57 @@
+{
+  "person": {
+    "name": "변정수",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": 1976,
+    "age": 51,
+    "age_range": "50대",
+    "career": "모델 출신 방송인",
+    "major_work": "셀러브리티, 4인용식탁",
+    "identity_anchor": "모델 출신 방송인, 모델로 활동 중인 딸 유채원의 어머니"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "변정수", "text": "엄마 가방 2개 뺏겼다", "context": "v.daum.net"},
+    {"speaker": "변정수", "text": "몸 하수구 뚫고 청소", "context": "sports.donga.com"},
+    {"speaker": "변정수", "text": "제일 행복해", "context": "뉴시스"},
+    {"speaker": "변정수", "text": "내 딸 아닌 것 같아", "context": "네이트"},
+    {"speaker": "남편", "text": "7세 많은데 나보고 아빠라고", "context": "뉴스1"}
+  ],
+  "events": [
+    {"summary": "살이 쪄서 후회했다며 찐 살 관리를 시작했다", "year": null, "confirmed": true},
+    {"summary": "딸 유채원과 파리 패션위크에 함께 갔다가 딸이 모델로 데뷔했다", "year": null, "confirmed": true},
+    {"summary": "둘째 딸과 뉴욕을 여행하며 딸이 시선을 끄는 모습을 지켜봤다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "51세", "meaning": "본인 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "유채원", "relation": "딸", "mentioned_as": "모델로 데뷔한 딸"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "51세 나이에 남편이 '7세 많은데 아빠 소리 듣는다'고 굴욕을 토로할 만큼 동안이라는 평",
+    "살이 찐 것을 스스로 후회하고 관리를 시작했다",
+    "사우나에서 정기적으로 몸 관리를 한다"
+  ],
+  "care_habits": [
+    "사우나에서 땀을 빼며 몸 관리를 한다",
+    "살이 붙으면 바로 자각하고 관리에 들어간다"
+  ],
+  "hot_materials": [
+    {"material": "51세인데 남편이 7세 연상 취급 받을 만큼 동안이라는 후일담", "why_hot": "낙차"},
+    {"material": "살 쪄서 후회했다는 솔직한 고백과 이후 관리", "why_hot": "발언"},
+    {"material": "딸이 파리 패션위크에서 모델로 발탁된 사건", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "사우나에서 땀을 빼는 모습",
+    "딸과 함께 해외 여행 중 시선을 끄는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "딸과 함께한 해외 여행 사진"
+  ]
+}
