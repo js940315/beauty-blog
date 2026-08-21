@@ -1,0 +1,56 @@
+{
+  "person": {
+    "name": "박은혜",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1978,
+    "age": null,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "마리와 별난 아빠들",
+    "identity_anchor": "이혼 7년 만에 웨딩드레스를 입고 재혼을 발표한 배우 박은혜"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박은혜", "text": "제 신랑입니다", "context": "v.daum.net"},
+    {"speaker": "박은혜", "text": "저 결혼해요", "context": "뉴시스"},
+    {"speaker": "박은혜", "text": "나름 다 했다, 걱정 말아달라", "context": "폴리뉴스"},
+    {"speaker": "박은혜", "text": "씩씩하게 버텨줘 자랑스러워", "context": "마이데일리"}
+  ],
+  "events": [
+    {"summary": "이혼 7년 만에 웨딩드레스를 입고 재혼을 발표했다", "year": null, "confirmed": true},
+    {"summary": "다이어트와 피부관리를 하며 컴백을 준비한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "한국어교원자격증을 2년 만에 취득했다", "year": null, "confirmed": true},
+    {"summary": "구의동에 빈티지 소품 쇼룸을 오픈했다", "year": null, "confirmed": true},
+    {"summary": "유학 간 쌍둥이 아들과 한국에서 재회했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "7년", "meaning": "이혼 후 재혼까지 걸린 기간"},
+    {"value": "2년", "meaning": "한국어교원자격증 취득에 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "재혼을 앞두고 다이어트와 피부관리로 컴백을 준비했다",
+    "이혼 7년 만에 웨딩드레스를 다시 입었다"
+  ],
+  "care_habits": [
+    "컴백을 앞두고 다이어트와 피부관리를 함께 병행한다"
+  ],
+  "hot_materials": [
+    {"material": "이혼 7년 만에 웨딩드레스를 입고 재혼을 발표한 반전", "why_hot": "반전"},
+    {"material": "재혼을 앞두고 다이어트와 피부관리로 컴백을 준비하는 모습", "why_hot": "발언"},
+    {"material": "2년 만에 한국어교원자격증을 딴 자기계발", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "웨딩드레스를 입고 환하게 웃는 모습",
+    "쌍둥이 아들과 재회하는 장면",
+    "빈티지 소품 가득한 쇼룸"
+  ],
+  "sns_materials": [
+    "웨딩드레스 입은 근황 사진"
+  ],
+  "press_only_materials": []
+}
