@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "이유리",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1979,
+    "age": null,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "신랑수업2, 남겨서 뭐하게",
+    "identity_anchor": "목사 남편과 결혼 17년 차인 배우 이유리, 홈쇼핑 완판 여왕으로 화장품 회사를 세움"
+  },
+  "namesake_dropped": ["고딩엄빠5 출연자", "가정폭력 폭로 후 별거 중인 이유리"],
+  "quotes": [
+    {"speaker": "이유리", "text": "홈쇼핑 덕에 화장품 회사 건물 세웠다", "context": "EPN엔피나우"},
+    {"speaker": "이유리", "text": "지금이 훨씬 좋아", "context": "네이트"},
+    {"speaker": "이유리", "text": "불같은 사랑 아니지만", "context": "뉴스엔"},
+    {"speaker": "이유리", "text": "먼저 사귀자고, 청혼도 내가 먼저", "context": "텐아시아"},
+    {"speaker": "이유리", "text": "시간 가는 줄 몰라", "context": "Chosunbiz"}
+  ],
+  "events": [
+    {"summary": "홈쇼핑에서 화장품을 완판시켜 화장품 회사 건물을 세웠다", "year": null, "confirmed": true},
+    {"summary": "12살 연상의 목사 남편에게 먼저 고백하고 프러포즈했다", "year": null, "confirmed": true},
+    {"summary": "결혼 17년 차를 맞았다", "year": null, "confirmed": true},
+    {"summary": "체중 조절과 근력 강화에 좋은 운동에 빠졌다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "17년", "meaning": "결혼 기간"},
+    {"value": "12살", "meaning": "남편과의 나이 차"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "홈쇼핑 완판으로 화장품 회사 건물을 세운 사업 성공",
+    "체중 조절과 근력 강화에 좋은 운동을 꾸준히 한다",
+    "결혼 17년 차에도 애정을 유지하는 자기관리"
+  ],
+  "care_habits": [
+    "체중 조절과 근력 강화를 함께 잡는 운동을 꾸준히 한다"
+  ],
+  "hot_materials": [
+    {"material": "홈쇼핑 완판으로 화장품 회사 건물을 세웠다는 사업 반전", "why_hot": "반전"},
+    {"material": "12살 연상 목사 남편에게 먼저 고백하고 프러포즈한 서사", "why_hot": "반전"},
+    {"material": "결혼 17년 차에 '지금이 훨씬 좋다'는 애정 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "체중 조절 운동을 하는 모습",
+    "결혼 17주년을 맞은 부부의 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
