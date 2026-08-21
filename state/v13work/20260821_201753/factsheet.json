@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "김원희",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": 1973,
+    "age": 54,
+    "age_range": "50대",
+    "career": "배우 출신 방송인",
+    "major_work": "철파엠, 놀러와",
+    "identity_anchor": "54세 방송인, '원조 바비인형' 별명의 김원희, 남편과 결혼 34년 차"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김원희", "text": "열심히 했는데, 한 달 2kg 밖에 안 빠졌다", "context": "뉴시스"},
+    {"speaker": "김원희", "text": "따라한 내가 죄인", "context": "v.daum.net"},
+    {"speaker": "장영란", "text": "너무 예쁘오", "context": "supple.kr"}
+  ],
+  "events": [
+    {"summary": "40대에 접어들며 갑자기 10kg이 늘었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "두 달 동안 6kg 감량에 도전했다", "year": null, "confirmed": true},
+    {"summary": "블랙핑크 제니의 스타일을 따라했다가 스스로 '역부족'이라며 웃었다", "year": null, "confirmed": true},
+    {"summary": "탈모 관리 비결을 공개해 실시간 화제를 모았다", "year": null, "confirmed": true},
+    {"summary": "남편과 결혼 34년 차를 맞았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "54세", "meaning": "본인 나이"},
+    {"value": "2kg", "meaning": "한 달간 감량한 체중"},
+    {"value": "6kg", "meaning": "두 달 감량 목표"},
+    {"value": "10kg", "meaning": "40대 접어들며 늘어난 체중"},
+    {"value": "34년", "meaning": "결혼 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "너무 예쁘오", "where": "방송", "scale": ""},
+    {"text": "언니 저 구매했어요", "where": "방송", "scale": "실시간 인기"}
+  ],
+  "related_people": [
+    {"name": "장영란", "relation": "동료 방송인", "mentioned_as": "미모를 극찬한 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "'원조 바비인형'이라는 별명",
+    "탈모 관리 비결 공개",
+    "50대 중반에도 유지하는 자기관리",
+    "두 달 6kg 감량 도전"
+  ],
+  "care_habits": [
+    "탈모 관리를 꾸준히 한다",
+    "체중 변화가 있을 때마다 감량에 도전한다"
+  ],
+  "hot_materials": [
+    {"material": "40대에 10kg 늘었다가 다시 감량에 도전한 낙차", "why_hot": "낙차"},
+    {"material": "한 달에 2kg밖에 못 뺐다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "블랙핑크 제니 스타일에 도전했다가 '역부족'이라 자평한 반전", "why_hot": "반전"},
+    {"material": "'원조 바비인형' 별명에 걸맞은 탈모 관리 공개", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "탈모 관리 비결을 공개하는 방송 장면",
+    "제니 스타일을 따라해보는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
