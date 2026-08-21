@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "이유리",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1980,
+    "age": "",
+    "age_range": "",
+    "career": "배우로 활동하며 홈쇼핑 완판으로도 유명하다",
+    "major_work": "신랑수업2, 남겨서 뭐하게",
+    "identity_anchor": "홈쇼핑 완판 여왕으로 불리는 배우, 목사 남편과 결혼 17년 차"
+  },
+  "namesake_dropped": ["고딩엄빠5 출연자 이유리(가정폭력·이혼 관련 별개 인물)"],
+  "quotes": [
+    {"speaker": "이유리", "text": "홈쇼핑 덕에 화장품 회사 건물 세웠다", "context": "인터뷰 인용"},
+    {"speaker": "이유리", "text": "지금이 훨씬 좋아", "context": "신랑수업2 인용"},
+    {"speaker": "이유리", "text": "불같이 사랑한 건 아니지만", "context": "신랑수업2 인용"},
+    {"speaker": "이유리", "text": "먼저 사귀자고, 청혼도 내가 먼저", "context": "신랑수업2 인용"}
+  ],
+  "events": [
+    {"summary": "홈쇼핑 완판을 통해 화장품 회사 건물을 세웠다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "12살 연상 목사 남편에게 먼저 고백하고 프러포즈했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "결혼 17년 차를 맞아 근황을 공개했다", "year": null, "confirmed": true},
+    {"summary": "실전 호신술에 빠져 있다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "17년", "meaning": "목사 남편과의 결혼 기간"},
+    {"value": "12살", "meaning": "남편과의 나이 차이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "", "relation": "남편(목사)", "mentioned_as": "결혼 17년 차 근황 인터뷰에서 남편으로 등장"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "홈쇼핑 완판으로 화장품 회사 건물을 세웠다"
+  ],
+  "care_habits": [
+    "실전 호신술을 취미로 즐기고 있다"
+  ],
+  "hot_materials": [
+    {"material": "홈쇼핑 완판으로 화장품 회사 건물을 세웠다는 고백", "why_hot": "반전"},
+    {"material": "12살 연상 목사 남편에게 먼저 프러포즈한 이야기", "why_hot": "반전"},
+    {"material": "결혼 17년 차, 불같은 사랑은 아니었지만 지금이 더 좋다는 발언", "why_hot": "발언"},
+    {"material": "실전 호신술에 빠진 의외의 취미", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "실전 호신술로 상대를 제압하는 모습에 짜릿함을 느꼈다고 밝혔다"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
