@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "안선영",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": 1978,
+    "age": 49,
+    "age_range": "40대",
+    "career": "방송인",
+    "major_work": "바로 안선영, 이게바로, RE:스타",
+    "identity_anchor": "168cm 방송인, 안티에이징 스킨케어 브랜드 모델로 발탁된 안선영"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "안선영", "text": "10년째 보톡스, 꾸준히 시술 받아", "context": "v.daum.net"},
+    {"speaker": "안선영", "text": "밀가루·설탕 끊은지 5년", "context": "조선일보"},
+    {"speaker": "안선영", "text": "명품백 말고 피부·머리숱에 투자하라", "context": "조선일보"},
+    {"speaker": "안선영", "text": "피부과 시술과 한몸, 비용은 국산차 한 대", "context": "뉴시스"},
+    {"speaker": "안선영", "text": "한 번도 담배 피운 적 없어", "context": "앳스타일"}
+  ],
+  "events": [
+    {"summary": "11kg을 감량했다", "year": null, "confirmed": true},
+    {"summary": "밀가루와 설탕을 끊은 지 5년째다", "year": null, "confirmed": true},
+    {"summary": "10년째 보톡스 시술을 꾸준히 받고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "안티에이징 스킨케어 브랜드 모델로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "1시간에 1000칼로리를 태우는 운동을 인증했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49세", "meaning": "본인 나이"},
+    {"value": "168cm", "meaning": "키"},
+    {"value": "50kg", "meaning": "몸무게"},
+    {"value": "11kg", "meaning": "감량한 체중"},
+    {"value": "5년", "meaning": "밀가루·설탕을 끊은 기간"},
+    {"value": "10년", "meaning": "보톡스 시술을 받아온 기간"},
+    {"value": "1000칼로리", "meaning": "인증한 운동 1시간 소모 칼로리"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "168cm 50kg, 11kg 감량 이력",
+    "밀가루·설탕을 5년째 끊었다",
+    "10년째 보톡스 시술을 받고 있다",
+    "안티에이징 스킨케어 브랜드 모델로 발탁됐다",
+    "담배를 한 번도 피운 적이 없다"
+  ],
+  "care_habits": [
+    "밀가루·설탕을 끊고 5년째 유지 중이다",
+    "1시간에 1000칼로리를 태우는 운동을 한다",
+    "10년째 꾸준히 보톡스 시술을 받는다",
+    "명품 가방 대신 피부·머리숱 관리에 투자한다는 소신을 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "49세에 168cm 50kg, 11kg을 감량한 몸매 관리", "why_hot": "낙차"},
+    {"material": "밀가루·설탕을 5년째 끊었다는 구체적 습관", "why_hot": "발언"},
+    {"material": "10년째 보톡스 시술을 이어온다는 솔직한 공개", "why_hot": "발언"},
+    {"material": "명품백 대신 피부·머리숱에 투자하라는 소신 발언", "why_hot": "반전"},
+    {"material": "안티에이징 브랜드 모델 발탁", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "1시간 동안 1000칼로리를 태우는 운동 장면",
+    "10년째 이어온 시술 루틴"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "안티에이징 브랜드 광고 촬영 사진"
+  ]
+}
