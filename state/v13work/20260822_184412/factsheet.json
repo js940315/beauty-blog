@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "장도연",
+    "gender": "여",
+    "job": "개그우먼",
+    "birth_year": 1985,
+    "age": 40,
+    "age_range": "40대",
+    "career": "개그우먼, 방송인",
+    "major_work": "살롱드립2, 구기동프렌즈",
+    "identity_anchor": "39세 개그우먼 장도연, 손석구가 이상형이라 밝힌 것으로 화제가 됐다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장도연", "text": "먹고 싶은 거 다 먹는데 이 습관을 얻어걸렸다", "context": "마른 체형을 유지하는 비결을 밝히며 한 말"},
+    {"speaker": "장도연", "text": "전남친 인스타 스토리를 매일 염탐했는데 기록이 남는 줄 몰랐다", "context": "과거 연애 시절 습관을 고백하며 한 말"},
+    {"speaker": "장도연", "text": "20대 때 클럽에서 헌팅을 거절당해 경멸의 눈빛에 상처받았다", "context": "과거 상처받았던 경험을 고백하며 한 말"},
+    {"speaker": "장도연", "text": "손석구 생각에 심장이 뛴다, 여전히 이상형이다", "context": "손석구에 대한 설렘을 고백하며 한 말"},
+    {"speaker": "장도연", "text": "설렌 적이 정말 많다, 손석구와 만났으면 좋겠다", "context": "손석구에 대한 마음을 밝히며 한 말"},
+    {"speaker": "손석구", "text": "우리 사귀는 거다, 딸 둘로 하자", "context": "장도연에게 방송 중 플러팅을 하며 한 말"},
+    {"speaker": "유세윤", "text": "안 사귈 거면 꼬시지 마라", "context": "손석구가 장도연에게 플러팅하자 경고하며 한 말"},
+    {"speaker": "나나", "text": "6년 전보다 더 멋진 사람이 됐다", "context": "장도연과 깜짝 볼 뽀뽀를 한 뒤 밝힌 말"},
+    {"speaker": "박나래·비비", "text": "장도연은 남 얘기를 절대 안 한다", "context": "장도연의 성격에 대해 밝힌 말"}
+  ],
+  "events": [
+    {"summary": "예능 '살롱드립2'에서 손석구가 플러팅해 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "박나래와 절친으로 함께 활동해 왔다", "year": null, "confirmed": true},
+    {"summary": "나나와 방송 중 볼 뽀뽀를 해 팬심이 폭발했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "39세", "meaning": "현재 나이"},
+    {"value": "6년", "meaning": "나나가 언급한, 예전보다 멋져졌다는 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "6년 전보다 더 멋진 사람이 됐다", "where": "방송", "scale": "나나의 반응"},
+    {"text": "안 사귈 거면 꼬시지 마라", "where": "방송", "scale": "유세윤의 경고성 반응"}
+  ],
+  "related_people": [
+    {"name": "손석구", "relation": "'살롱드립2' 공동 출연자", "mentioned_as": "장도연에게 방송 중 플러팅한 이상형"},
+    {"name": "유세윤", "relation": "'살롱드립2' 공동 출연자", "mentioned_as": "손석구의 플러팅에 경고를 건넨 동료"},
+    {"name": "나나", "relation": "방송 동료", "mentioned_as": "장도연과 볼 뽀뽀를 한 인물"},
+    {"name": "박나래", "relation": "절친 동료 개그우먼", "mentioned_as": "장도연과 오랜 절친 사이"}
+  ],
+  "works": [
+    {"title": "살롱드립2", "year": null, "costar": "손석구", "scene": "손석구가 방송 중 '우리 사귀는 거다, 딸 둘로 하자'며 플러팅한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "배우 못지않은 비주얼과 포스라는 평가를 받았다"
+  ],
+  "care_habits": [
+    "먹고 싶은 것을 다 먹으면서도 마른 체형을 유지하는 습관이 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "손석구가 방송 중 플러팅하고 유세윤이 경고한 장면", "why_hot": "발언"},
+    {"material": "먹고 싶은 거 다 먹는데 마른 비결을 밝힌 것", "why_hot": "반전"},
+    {"material": "20대 때 클럽 헌팅 거절로 상처받았다는 고백", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "손석구가 플러팅하는 방송 장면",
+    "나나와 볼 뽀뽀를 하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
