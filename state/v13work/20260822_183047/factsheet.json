@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "이지혜",
+    "gender": "여",
+    "job": "방송인",
+    "birth_year": 1979,
+    "age": 47,
+    "age_range": "40대",
+    "career": "1998년 혼성그룹 '샵(S#ARP)'으로 데뷔, 현재 방송인으로 활동",
+    "major_work": "관종언니, 남겨서 뭐하게",
+    "identity_anchor": "혼성그룹 '샵(S#ARP)' 출신 가수로 데뷔해 현재 방송인으로 활동하는 이지혜"
+  },
+  "namesake_dropped": [
+    "배우 이지혜 (Apple TV+ '파친코' 출연, 1990년대생 별개 인물)"
+  ],
+  "quotes": [
+    {"speaker": "이지혜", "text": "콧대 있어야 도도하다고 해서", "context": "고등학교 시절 아버지 권유로 첫 코 성형을 한 이유를 밝히며 한 말"},
+    {"speaker": "이지혜", "text": "예뻐질 수 있다면 아파도 꾹 참아야 한다", "context": "인중 축소술과 실리프팅 시술 뒤 소감을 밝히며 한 말"},
+    {"speaker": "이지혜", "text": "정신 건강, 마음 건강이 먼저다", "context": "성형 후 관리 태도에 대해 밝힌 말"},
+    {"speaker": "이지혜", "text": "지금이 리즈라고 감히 말씀드린다", "context": "인중 축소 시술 직후 달라진 얼굴을 공개하며 한 말"},
+    {"speaker": "이지혜", "text": "연예인들도 집에서 갈아", "context": "발 각질을 직접 제거하는 습관을 밝히며 한 말"},
+    {"speaker": "이지혜", "text": "조만간 법적으로 대응하겠다", "context": "큰딸 얼굴 사진이 다이어트 광고에 무단 도용된 것에 분노하며 한 말"}
+  ],
+  "events": [
+    {"summary": "고등학교 시절 아버지의 권유로 첫 코 성형을 했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "인중 축소술과 실리프팅 시술을 함께 받았다고 공개했다", "year": null, "confirmed": true},
+    {"summary": "시술 후 얼굴 공개에 '5~8살 어려졌다'는 댓글이 쏟아졌다", "year": null, "confirmed": true},
+    {"summary": "큰딸의 얼굴 사진이 다이어트 광고에 무단 도용되자 법적 대응을 예고했다", "year": null, "confirmed": true},
+    {"summary": "같은 그룹 출신 서지영이 평범한 삶이 좋다고 해 재결합이 어렵다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4cm", "meaning": "축소한 인중 길이"},
+    {"value": "5~8세", "meaning": "시술 후 어려 보인다는 댓글 반응의 폭"},
+    {"value": "47세", "meaning": "현재 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "5~8살 어려졌다", "where": "댓글", "scale": "댓글 폭주"},
+    {"text": "심하게 다른 사람 만들어놔", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "서지영", "relation": "혼성그룹 '샵(S#ARP)' 동료", "mentioned_as": "평범한 삶이 좋다며 재결합을 원하지 않는 옛 동료"},
+    {"name": "맹승지", "relation": "동종 시술을 받은 동료 방송인", "mentioned_as": "이지혜에 이어 같은 시술을 받은 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "인중 축소술과 실리프팅 시술 후 '5~8살 어려졌다'는 댓글이 쏟아졌다",
+    "시술 직후 스스로 '지금이 리즈'라고 말할 정도로 만족했다"
+  ],
+  "care_habits": [
+    "발 각질을 집에서 직접 제거하는 습관이 있다",
+    "과음한 다음 날에도 몸 관리를 챙긴다",
+    "생일에 특정 관리를 받고 '피로가 가시고 젊어진다'며 만족했다"
+  ],
+  "hot_materials": [
+    {"material": "고등학교 때 아버지 권유로 첫 코 성형을 했다고 밝힌 것", "why_hot": "반전"},
+    {"material": "인중 축소술 직후 '지금이 리즈'라고 말한 장면", "why_hot": "발언"},
+    {"material": "큰딸 사진 무단 도용에 분노해 법적 대응을 예고한 것", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "시술 직후 얼굴을 공개하며 냉찜질하는 장면",
+    "발 각질을 직접 제거하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
