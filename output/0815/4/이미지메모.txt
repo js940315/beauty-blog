@@ -1,7 +1,0 @@
-■ 김옥빈 — 이미지 어디서 구하나
-
-이미지 검색 (로그인 없이 바로 열립니다):
-  네이버  https://search.naver.com/search.naver?where=image&query=%EA%B9%80%EC%98%A5%EB%B9%88
-  다음    https://search.daum.net/search?w=img&q=%EA%B9%80%EC%98%A5%EB%B9%88
-
-※ 못 찾으면 사진 없이 발행해도 되는 글입니다.
