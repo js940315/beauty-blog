@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "이경실",
+    "gender": "여",
+    "job": "개그우먼",
+    "birth_year": 1966,
+    "age": 60,
+    "age_range": "60대",
+    "career": "1987년 MBC 개그 콘테스트로 데뷔",
+    "major_work": "핑계고, 신여성",
+    "identity_anchor": "1987년 MBC 개그 콘테스트로 데뷔한 개그우먼 이경실, 최근 환갑을 맞아 동료들의 축하를 받았다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이경실", "text": "언제 죽나 하면서도 건강 생각뿐이다", "context": "98세 어머니의 임플란트 비용을 언급하며 효심을 밝힌 말"},
+    {"speaker": "이경실", "text": "피부가 훨씬 환해졌다, 돈 들인 만큼 좋아졌다", "context": "줄기세포 시술 효과에 대만족하며 밝힌 말"},
+    {"speaker": "이경실", "text": "가슴으로 울었다, 내년은 박미선 차례다", "context": "깜짝 환갑 파티에 감동하며 밝힌 말"}
+  ],
+  "events": [
+    {"summary": "98세 어머니의 임플란트 비용으로 3천만 원가량을 들이며 건강을 챙겼다", "year": null, "confirmed": true},
+    {"summary": "97세 어머니가 치아와 피부, 머리까지 정정한 미모를 유지해 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "줄기세포 시술을 받고 피부가 훨씬 환해졌다며 만족감을 밝혔다", "year": null, "confirmed": true},
+    {"summary": "환갑을 맞아 개그계 동료들이 총출동한 깜짝 파티를 열어줬다", "year": null, "confirmed": true},
+    {"summary": "아들 손보승이 군복을 입고 무대에 올라 '사랑해 엄마'라고 인사해 뭉클함을 안겼다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "60세", "meaning": "올해 맞은 환갑 나이"},
+    {"value": "98세", "meaning": "어머니의 나이"},
+    {"value": "3천만 원", "meaning": "어머니 임플란트에 들인 비용"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "조혜련", "relation": "동료 개그우먼", "mentioned_as": "환갑 파티에 참석한 동료"},
+    {"name": "정선희", "relation": "동료 개그우먼", "mentioned_as": "환갑 파티에 참석한 동료"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "줄기세포 시술 후 피부가 훨씬 환해졌다고 밝혔다",
+    "97세 어머니가 정정한 미모를 유지해 화제가 됐다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "60세에 줄기세포 시술로 피부가 환해졌다고 밝힌 것", "why_hot": "반전"},
+    {"material": "98세 어머니 임플란트에 3천만 원을 들인 효심", "why_hot": "발언"},
+    {"material": "아들이 군복 입고 무대에서 '사랑해 엄마'라고 인사한 장면", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "환갑 파티에서 동료들에게 둘러싸인 장면",
+    "아들이 군복을 입고 무대에 오르는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
