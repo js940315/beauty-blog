@@ -1,0 +1,57 @@
+{
+  "person": {
+    "name": "김지민",
+    "gender": "여",
+    "job": "개그우먼",
+    "birth_year": 1984,
+    "age": 41,
+    "age_range": "40대",
+    "career": "2006년 KBS 공채 개그우먼으로 데뷔",
+    "major_work": "준호 지민, 터치미",
+    "identity_anchor": "2006년 KBS 공채 개그우먼으로 데뷔한 41세 김지민, 김준호와 결혼해 시험관 시술 끝에 임신에 성공했다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김지민", "text": "혼자 화장실에서 오열했다", "context": "시험관 시술 성공으로 임신을 확인한 뒤 심경을 밝히며 한 말"},
+    {"speaker": "김지민", "text": "벌써 바지가 다 안 맞는다", "context": "임신 사실을 밝히며 한 말"},
+    {"speaker": "김지민", "text": "피부가 다 뒤집어졌다, 시술도 못 받는다", "context": "임신 초기 피부 트러블을 밝히며 한 말"},
+    {"speaker": "김지민", "text": "잠들기 전에도 선크림을 바른다", "context": "쌩얼로 뷰티 팁을 공개하며 밝힌 습관"},
+    {"speaker": "김지민", "text": "눈밑 기미는 재생 크림으로 관리한다", "context": "41세의 피부 고민과 관리법을 밝히며 한 말"},
+    {"speaker": "김지민", "text": "새벽 운동 14일째", "context": "결혼식을 앞두고 자기 관리를 하며 밝힌 말"},
+    {"speaker": "김지민", "text": "꿈만 같다, 아들이라니", "context": "둘째 성별을 공개하며 밝힌 소감"}
+  ],
+  "events": [
+    {"summary": "시험관 시술 끝에 임신에 성공해 혼자 화장실에서 오열했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "임신 초기 피부 트러블이 심해져 시술도 받지 못했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "결혼식을 앞두고 새벽 운동을 이어가며 자기 관리를 했다", "year": null, "confirmed": true},
+    {"summary": "김준호와 함께 어머니께 치아·피부 관리를 선물하는 효도를 했다", "year": null, "confirmed": true},
+    {"summary": "둘째 성별이 아들로 확인돼 기뻐했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "41세", "meaning": "현재 나이"},
+    {"value": "14일", "meaning": "결혼식을 앞두고 이어간 새벽 운동 일수"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김준호", "relation": "남편, 개그맨", "mentioned_as": "함께 임신을 준비하고 어머니께 효도한 남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [],
+  "care_habits": [
+    "쌩얼로도 잠들기 전 선크림을 바른다고 밝혔다",
+    "눈밑 기미는 재생 크림으로 관리한다고 밝혔다",
+    "결혼식을 앞두고 새벽 운동을 14일째 이어갔다"
+  ],
+  "hot_materials": [
+    {"material": "시험관 시술 성공 후 화장실에서 혼자 오열했다는 것", "why_hot": "발언"},
+    {"material": "임신 초기 피부가 뒤집어졌다고 솔직하게 밝힌 것", "why_hot": "반전"},
+    {"material": "결혼식 앞두고 새벽 운동을 14일째 이어간 것", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "화장실에서 홀로 임신 사실을 확인하고 우는 장면",
+    "쌩얼로 선크림을 바르는 뷰티 팁 공개 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
