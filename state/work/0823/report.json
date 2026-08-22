@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-23",
+  "celeb": "임수정",
+  "richness": "thin",
+  "sources": 250,
+  "title": {
+    "title": "회사 대신 혼자 다니는 톱스타인데, 피부과는 열심히 다닌다는 그 이유",
+    "score": 121,
+    "reasons": [
+      "앞20자 인물 특정 +14",
+      "앞20자 모순 구조 +25",
+      "훅 2개(신분+강조) +14",
+      "모순 구조(~인데 ~했다) +30",
+      "구체 대비(A 버리고 B) +30",
+      "단정형 종결 +8"
+    ]
+  },
+  "cta": "",
+  "content_lines": 83,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": []
+}
