@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "김태리",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1990,
+    "age": null,
+    "age_range": "30대",
+    "career": "데뷔 10년차",
+    "major_work": "정년이, 아가씨",
+    "identity_anchor": "드라마 '정년이' 주연, 데뷔 10년 만에 첫 예능 '방과후 태리쌤'에 도전한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신예은", "text": "다른 친구들이랑 놀지마, 질투나", "context": "'살롱드립2' 방송 중 김태리를 보며 한 말"},
+    {"speaker": "김태리", "text": "겨울잠 자듯 자고 하루 14시간 수면은 기본이었다", "context": "166cm까지 1년 만에 10cm 자란 비결을 밝힌 인터뷰"},
+    {"speaker": "김태리", "text": "마음고생이 제일 심했다", "context": "첫 예능 '방과후 태리쌤' 촬영 소감"},
+    {"speaker": "김태리", "text": "가출할 뻔했는데 정신력으로 붙잡았다", "context": "'방과후 태리쌤'에서 최현욱과 말싸움 후 밝힌 뒤끝"},
+    {"speaker": "김태리", "text": "처음이자 마지막 예능일 듯하다", "context": "'방과후 태리쌤' 촬영 중 눈물을 보이며 한 말"}
+  ],
+  "events": [
+    {"summary": "데뷔 10년 만에 첫 예능 '방과후 태리쌤'(tvN)에 도전했다", "year": null, "confirmed": true},
+    {"summary": "칸 영화제 참석 10년 만에 요트 위에서 비하인드를 공개하며 '10년 만에 깐느으'라는 소회를 밝혔다", "year": null, "confirmed": true},
+    {"summary": "신인 시절부터 리포터를 잘 챙겨줬다는 미담이 알려졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "166cm", "meaning": "현재 키"},
+    {"value": "10cm", "meaning": "1년 만에 자란 키"},
+    {"value": "14시간", "meaning": "성장기에 잤다는 하루 수면 시간"},
+    {"value": "10년", "meaning": "데뷔 후 첫 예능까지 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "다른 친구들이랑 놀지마, 질투나", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "신예은", "relation": "'살롱드립2' 공동 출연자", "mentioned_as": "김태리를 보며 질투난다고 말한 동료 배우"},
+    {"name": "최현욱", "relation": "'방과후 태리쌤' 공동 출연자", "mentioned_as": "화장실 공유·말싸움 에피소드의 상대"},
+    {"name": "강남", "relation": "'방과후 태리쌤' 공동 출연자", "mentioned_as": "함께 눈물을 보인 동료 출연자"},
+    {"name": "문소리", "relation": "'정년이' 공동 출연자", "mentioned_as": "'정년이' 명장면 상대 배우"}
+  ],
+  "works": [
+    {"title": "정년이", "year": null, "costar": "문소리", "scene": "문소리가 연기한 '추월만정'을 마주하는 정년의 얼굴 장면", "kind": "극중"},
+    {"title": "방과후 태리쌤", "year": null, "costar": "최현욱", "scene": "화장실을 같이 쓰다 최현욱에게 촬영하지 말라고 진땀 뺀 장면", "kind": "실제"},
+    {"title": "살롱드립2", "year": null, "costar": "신예은", "scene": "신예은이 김태리를 보며 다른 친구들과 놀지 말라고 질투한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [
+    "성장기에 겨울잠 자듯 하루 14시간을 잤다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "신예은이 방송 중 '다른 친구들이랑 놀지마, 질투나'라고 말한 장면", "why_hot": "발언"},
+    {"material": "데뷔 10년 만에 첫 예능에서 눈물을 보인 장면", "why_hot": "낙차"},
+    {"material": "최현욱과 화장실을 같이 쓰다 생긴 해프닝", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "칸 영화제 요트 위에서 10년 만의 소회를 밝히는 장면",
+    "첫 예능 촬영장에서 눈물을 보인 장면"
+  ],
+  "sns_materials": [
+    "재킷만 걸친 브라톱 차림으로 본인이 SNS에 올린 사진 (본문 축으로 쓰지 않음)"
+  ],
+  "press_only_materials": [
+    "네잎클로버를 문 화보 컷 (매거진 화보 추정)"
+  ]
+}
