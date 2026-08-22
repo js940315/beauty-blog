@@ -1,0 +1,58 @@
+{
+  "person": {
+    "name": "홍지민",
+    "gender": "여",
+    "job": "뮤지컬 배우",
+    "birth_year": 1973,
+    "age": 53,
+    "age_range": "50대",
+    "career": "1996년 데뷔, 뮤지컬 배우 겸 가수",
+    "major_work": "말자쇼, 새롭게 하소서",
+    "identity_anchor": "1996년 데뷔한 뮤지컬 배우 겸 가수 홍지민, 92kg에서 32kg을 감량한 것으로 알려졌다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "홍지민", "text": "다이어트 가장 큰 실패 이유는 하나다", "context": "32kg을 감량한 뒤 다이어트 실패 원인을 밝히며 한 말"},
+    {"speaker": "홍지민", "text": "치팅데이 다음 날은 5시간씩 걸었다", "context": "92kg에서 60kg까지 감량한 비법을 공개하며 한 말"},
+    {"speaker": "홍지민", "text": "시중에 있는 다이어트는 다 해봤다, 지금도 유지 중이다", "context": "출산 후 30kg을 감량한 뒤 밝힌 말"},
+    {"speaker": "홍지민", "text": "다이어트는 관계 회복이었다", "context": "32kg 감량 유지 비결을 공개하며 한 말"},
+    {"speaker": "홍지민", "text": "힘들어도 억지로라도 버텨야 한다", "context": "감량 후 운동을 이어가는 이유를 밝히며 한 말"},
+    {"speaker": "홍지민", "text": "정말 누추하다", "context": "연하 남편과 함께 자가 아닌 전셋집을 처음 공개하며 한 말"}
+  ],
+  "events": [
+    {"summary": "둘째 딸 출산 후 92kg까지 늘었던 체중을 3개월 만에 32kg 감량했다", "year": null, "confirmed": true},
+    {"summary": "감량 유지 중 탈모 고민이 생겨 흑채를 뿌릴 정도라고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "급격한 감량 후 피부 탄력이 사라진 부위가 있다고 솔직하게 밝혔다", "year": null, "confirmed": true},
+    {"summary": "남편과 함께 건강검진을 받았다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "결혼 7년 만에 남편이 이혼을 요구했으나 위기를 극복했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "연하 남편과 함께 자가가 아닌 전셋집을 처음 공개했다", "year": null, "confirmed": true},
+    {"summary": "독립운동가 후손이라고 밝히며 광고 출연료를 독립유공자 가정에 기부했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "32kg", "meaning": "감량한 체중"},
+    {"value": "92kg", "meaning": "출산 후 최고 체중"},
+    {"value": "3개월", "meaning": "32kg을 감량한 기간"},
+    {"value": "5시간", "meaning": "치팅데이 다음 날 걸었다는 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [],
+  "care_habits": [
+    "치팅데이 다음 날은 5시간씩 걸었다",
+    "감량 후에도 힘들어도 억지로 운동을 이어간다",
+    "필라테스를 하고 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "92kg에서 32kg을 감량한 뒤 유지 비결로 '관계 회복'을 꼽은 것", "why_hot": "반전"},
+    {"material": "탈모 고민으로 흑채를 뿌릴 정도라고 솔직하게 밝힌 것", "why_hot": "반전"},
+    {"material": "결혼 7년 만에 이혼 요구를 받았지만 위기를 극복한 것", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "치팅데이 다음 날 5시간씩 걷는 장면",
+    "연하 남편과 전셋집을 처음 공개하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
