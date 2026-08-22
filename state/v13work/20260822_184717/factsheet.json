@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "김민경",
+    "gender": "여",
+    "job": "방송인",
+    "birth_year": 1981,
+    "age": 44,
+    "age_range": "40대",
+    "career": "2001년 미스코리아 진(眞)으로 데뷔, 현재 '맛있는 녀석들' 등에 출연하는 방송인",
+    "major_work": "맛있는 녀석들, 라디오스타",
+    "identity_anchor": "2001년 미스코리아 진(眞) 출신으로 '맛있는 녀석들'에 출연하는 방송인 김민경, 지난해 결혼 후 40대 중반에 임신했다"
+  },
+  "namesake_dropped": [
+    "출판사 편집자 김민경 (라디오스타 출연, 민음사 근무, 오빠가 약사 겸 변호사)",
+    "사격 국가대표 출신 해설위원 김민경",
+    "장안대 패션디자인과 교수 김민경"
+  ],
+  "quotes": [
+    {"speaker": "김민경", "text": "이 나이에 임밍아웃할 줄이야", "context": "40대 중반에 임신 소식을 전하며 한 말"},
+    {"speaker": "김민경", "text": "무럭무럭 잘 자라는 중", "context": "임신 중 태아 근황을 전하며 한 말"},
+    {"speaker": "김민경", "text": "배 가려운 걸로 툴툴대지 말아야지", "context": "임신 중 한밤중 응급실을 다녀온 뒤 밝힌 소감"},
+    {"speaker": "김민경", "text": "잘 살아볼게", "context": "결혼식 현장을 공개하며 한 말"},
+    {"speaker": "김민경", "text": "뛰고 삼겹살 코스 강추", "context": "청계천에서 러닝을 한 뒤 밝힌 말"},
+    {"speaker": "김민경", "text": "맥이 팍팍 끊기잖아요", "context": "방송 중 김구라가 말을 끊자 맞서며 한 말"}
+  ],
+  "events": [
+    {"summary": "2001년 미스코리아 선발대회에서 진(眞)으로 당선되며 데뷔했다", "year": 2001, "confirmed": true},
+    {"summary": "지난해 11월 일반인 신랑과 결혼식을 올렸다", "year": null, "confirmed": true},
+    {"summary": "결혼 후 40대 중반에 임신 소식을 전해 축하를 받았다", "year": null, "confirmed": true},
+    {"summary": "임신 중 한밤중 응급실을 다녀왔다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "청계천에서 러닝을 하는 슬렌더한 몸매를 자랑했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "44세", "meaning": "임신 당시 나이"},
+    {"value": "2001년", "meaning": "미스코리아 진 당선 연도"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김구라", "relation": "'라디오스타' 공동 출연자", "mentioned_as": "말을 끊자 그녀가 맞선 상대"},
+    {"name": "유세윤", "relation": "'라디오스타' 공동 출연자", "mentioned_as": "그녀의 저렴한 의상 가격에 놀란 인물"},
+    {"name": "이대호", "relation": "방송 동료", "mentioned_as": "대구 맛집 투어를 함께한 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [],
+  "care_habits": [
+    "청계천에서 러닝을 하며 슬렌더한 몸매를 유지한다"
+  ],
+  "hot_materials": [
+    {"material": "40대 중반에 임신 소식을 전하며 '임밍아웃할 줄이야'라고 밝힌 것", "why_hot": "반전"},
+    {"material": "미스코리아 진 출신인데 상하의 합쳐 2만 5천원짜리 옷을 입어 유세윤이 놀란 것", "why_hot": "반전"},
+    {"material": "임신 중 응급실에 다녀오고도 '툴툴대지 말아야지'라고 담담하게 넘긴 것", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "청계천에서 러닝하는 장면",
+    "결혼식 현장 공개 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "제주 여행 중 수영복 자태 사진",
+    "비키니 착용 화보성 사진"
+  ]
+}
