@@ -1,0 +1,55 @@
+{
+  "person": {
+    "name": "안영미",
+    "gender": "여",
+    "job": "개그우먼",
+    "birth_year": 1983,
+    "age": 42,
+    "age_range": "40대",
+    "career": "2004년 KBS 19기 공채 개그우먼으로 데뷔",
+    "major_work": "SNL 코리아, 두데",
+    "identity_anchor": "SNL 코리아 등에 출연하는 42세 개그우먼 안영미, 최근 둘째를 출산했다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "안영미", "text": "놀다오자", "context": "만삭의 몸으로 SNL 촬영장에 출근하며 밝힌 말"},
+    {"speaker": "안영미", "text": "더디지만 천천히", "context": "임신 당시 70kg까지 늘었던 체중 감량 비결을 밝히며 한 말"},
+    {"speaker": "안영미", "text": "모유 수유를 끊을 수 없다", "context": "둘째 출산 후 모유 수유를 이어가는 이유를 밝히며 한 말"},
+    {"speaker": "안영미", "text": "3일 뒤면 이 호강도 끝", "context": "산후조리원에서 랍스터 식단을 받으며 한 말"},
+    {"speaker": "안영미", "text": "혼인신고 후 남편이 미국에 가서 나 홀로 신혼이었다", "context": "결혼 초 생활을 밝히며 한 말"},
+    {"speaker": "안영미", "text": "둘째 아들은 한국에서 낳는다, 남편도 귀국한다", "context": "원정 출산 의혹에 대해 공식 입장으로 밝힌 말"}
+  ],
+  "events": [
+    {"summary": "42세에 둘째를 임신해 만삭의 몸으로도 SNL 촬영장에 출근했다", "year": null, "confirmed": true},
+    {"summary": "미국 원정 출산 의혹이 일자 둘째는 한국에서 낳고 남편도 귀국한다고 공식 반박했다", "year": null, "confirmed": true},
+    {"summary": "둘째 아들을 한국에서 순산했으며 산모와 아이 모두 건강하다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "산후조리원에서 랍스터가 나오는 식단을 받았다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "방송인 이문세가 만삭인 그녀의 배에 손을 얹고 덕담을 건넨 적이 있다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "42세", "meaning": "둘째 임신 당시 나이"},
+    {"value": "70kg", "meaning": "임신 당시 체중"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이문세", "relation": "방송 동료", "mentioned_as": "만삭인 그녀의 배에 손을 얹고 덕담을 건넨 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [],
+  "care_habits": [
+    "임신 당시 70kg까지 늘었던 체중을 더디지만 천천히 감량했다",
+    "둘째 출산 후에도 모유 수유를 이어가고 있다"
+  ],
+  "hot_materials": [
+    {"material": "42세에 둘째를 임신해 만삭의 몸으로도 촬영을 강행한 것", "why_hot": "반전"},
+    {"material": "미국 원정 출산 의혹을 공식 반박하고 한국에서 출산한 것", "why_hot": "반전"},
+    {"material": "산후조리원에서 랍스터 식단을 받고 '호강도 끝'이라 말한 장면", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "만삭의 몸으로 SNL 촬영장에 출근하는 장면",
+    "산후조리원에서 랍스터 식단을 받는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
