@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "리사",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "블랙핑크 멤버로 10년 넘게 활동 중",
+    "major_work": "블랙핑크",
+    "identity_anchor": "블랙핑크 멤버로 활동하는 글로벌 가수"
+  },
+  "namesake_dropped": ["프렌즈 배우 리사 쿠드로", "뮤지컬배우 리사(주크박스 콘서트)", "나는 솔로 옥순과 닮은꼴로 언급된 배우 진가현"],
+  "quotes": [
+    {"speaker": "리사", "text": "목 건강을 위해 이 차를 마신다", "context": "인터뷰"},
+    {"speaker": "리사", "text": "죽을 때까지 함께할 멤버들이다", "context": "데뷔 10주년 소감"},
+    {"speaker": "리사", "text": "화생방 훈련이 너무 충격적이었다, 두 번 들어갔다", "context": "예능 '집대성' 방송 발언"},
+    {"speaker": "리사", "text": "너무 힘들었는데 화생방은 또 할 만하더라", "context": "예능 '집대성' 방송 발언"}
+  ],
+  "events": [
+    {"summary": "월드컵 공연으로 176억원을 벌어 참여 가수 중 3위를 기록함", "year": null, "confirmed": true},
+    {"summary": "축구선수 이강인의 유니폼을 입고 월드컵 개막식 공연을 준비함", "year": null, "confirmed": true},
+    {"summary": "드라마 '화이트 로투스 시즌3'에 출연하며 배우로도 활동을 넓힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "176억", "meaning": "월드컵 공연으로 벌어들인 수익"},
+    {"value": "3위", "meaning": "월드컵 참여 가수 중 수익 순위"},
+    {"value": "10주년", "meaning": "그룹 데뷔 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이강인", "relation": "월드컵 개막식 공연 관련 축구선수", "mentioned_as": "그의 유니폼을 입고 공연을 준비함"}
+  ],
+  "works": [
+    {"title": "화이트 로투스 시즌3", "year": null, "costar": "", "scene": "가수에서 배우로 활동 영역을 넓힌 작품", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "코첼라에서 스킨케어 브랜드 메디큐브 부스를 직접 방문함"
+  ],
+  "care_habits": [
+    "목 건강을 위해 특정 차를 마신다고 밝힘",
+    "스킨케어 브랜드 메디큐브의 앰버서더로 활동 중"
+  ],
+  "hot_materials": [
+    {"material": "월드컵 공연으로 176억원을 벌어들인 수익", "why_hot": "낙차"},
+    {"material": "화생방 훈련이 충격적이었다는 예능 속 고백", "why_hot": "발언"},
+    {"material": "가수에서 배우로 영역을 넓힌 화이트 로투스 출연", "why_hot": "반전"},
+    {"material": "이강인 유니폼을 입고 준비한 월드컵 공연", "why_hot": "실명"},
+    {"material": "죽을 때까지 함께할 멤버들이라는 10주년 소감", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "예능에서 화생방 훈련을 받으며 눈물을 흘리는 장면",
+    "코첼라 스킨케어 부스를 직접 방문하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "미국 유타에서 포착된 비키니 사진",
+    "그룹 무대 의상 사진"
+  ]
+}
