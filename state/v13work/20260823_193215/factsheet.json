@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "로제",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "블랙핑크 멤버 겸 솔로 가수",
+    "major_work": "아파트",
+    "identity_anchor": "블랙핑크 멤버로, 솔로곡 '아파트'로 글로벌 히트를 낸 가수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "로제", "text": "두피 건강보다 비주얼이 더 중요하다", "context": "인터뷰"},
+    {"speaker": "로제", "text": "화장기 없는 얼굴로 받은 메달이 내게는 큰 의미다", "context": "그래미 시상식 소감"},
+    {"speaker": "로제", "text": "매 순간이 정말 좋았다", "context": "그래미 참석 소감"},
+    {"speaker": "로제", "text": "생애 최고의 밤이었다", "context": "그래미 뒤풀이 소감"},
+    {"speaker": "로제", "text": "연애를 들키지 않으려고 6개월 동안 할머니로 분장했다", "context": "유퀴즈 방송 발언"}
+  ],
+  "events": [
+    {"summary": "'아파트'가 음원 수익만 133억원을 기록함", "year": null, "confirmed": true},
+    {"summary": "100억대 펜트하우스에서 전세로 거주 중임", "year": null, "confirmed": true},
+    {"summary": "첫 그래미 시상식에 참석함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "7년째", "meaning": "금발 유지 기간"},
+    {"value": "2주마다", "meaning": "염색 주기"},
+    {"value": "133억", "meaning": "'아파트' 음원 수익"},
+    {"value": "100억대", "meaning": "거주 중인 펜트하우스 시세"},
+    {"value": "6개월", "meaning": "연애를 숨기려 변장했던 기간"}
+  ],
+  "credentials": [
+    {"item": "'아파트' 음원 수익 133억원", "whose": "본인"},
+    {"item": "100억대 펜트하우스 거주", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "저작권료 얼마일까?", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "유재석", "relation": "동료 방송인", "mentioned_as": "'아파트' 인기에 저작권료를 궁금해함"},
+    {"name": "윤수일", "relation": "원곡 가수", "mentioned_as": "로제의 '아파트' 역주행에 대해 데뷔 50주년 소감을 밝힘"},
+    {"name": "브루노 마스", "relation": "협업 아티스트", "mentioned_as": "'아파트' 관련 곡을 몰래 보내는 등 인연이 있음"}
+  ],
+  "works": [
+    {"title": "아파트", "year": null, "costar": "브루노 마스", "scene": "윤수일의 원곡을 리메이크해 전세계적으로 역주행시킴", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "7년째 완벽한 금발을 유지 중",
+    "화장기 없는 얼굴로도 화제가 됨"
+  ],
+  "care_habits": [
+    "2주마다 염색해 금발을 관리한다고 밝힘",
+    "두피 건강보다 비주얼을 우선한다고 직접 말함",
+    "피부를 위해 즐겨 먹는 음식이 있다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "7년째 2주마다 염색하는 금발 관리 습관", "why_hot": "발언"},
+    {"material": "화장기 없는 얼굴로 받은 그래미 메달", "why_hot": "반전"},
+    {"material": "연애를 숨기려 6개월간 할머니로 분장", "why_hot": "발언"},
+    {"material": "'아파트' 음원 수익 133억원", "why_hot": "낙차"},
+    {"material": "유재석이 궁금해한 저작권료", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "화장기 없는 맨얼굴로 그래미 메달을 들어 보이는 장면",
+    "할머니로 분장하고 몰래 데이트하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "아슬아슬한 슬립 드레스 자태",
+    "그래미 시상식 레드카펫 사진",
+    "코첼라 무대 직관 사진"
+  ]
+}
