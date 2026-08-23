@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "손예진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 43,
+    "age_range": "40대",
+    "career": "20년 넘게 활동한 배우",
+    "major_work": "사랑의 불시착",
+    "identity_anchor": "드라마 '사랑의 불시착' 주연을 맡은 배우이자 배우 현빈의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "손예진", "text": "차기작에서는 외모부터 파격적으로 변신한다, 대사도 직접 바꾸기도 한다", "context": "인터뷰"},
+    {"speaker": "손예진", "text": "사랑의 불시착 3회쯤에 반했다, 선한 사람이라 좋았다", "context": "예능 방송 발언"},
+    {"speaker": "손예진", "text": "나 울어", "context": "시상식 트로피를 받고 한 발언"},
+    {"speaker": "현빈", "text": "자기가 존경스럽다", "context": "방송 발언"}
+  ],
+  "events": [
+    {"summary": "시상식에서 무관에 아쉬워하다 깜짝 트로피를 받고 눈물을 보임", "year": null, "confirmed": true},
+    {"summary": "강남에 224억 규모 건물을 세웠으나 반년 넘게 공실 상태로 알려짐", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "43세", "meaning": "현재 나이"},
+    {"value": "224억", "meaning": "강남에 세운 건물 규모"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "너무 예뻐요", "where": "기사반응", "scale": ""},
+    {"text": "촌스럽다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "현빈", "relation": "남편(배우)", "mentioned_as": "아내인 손예진을 존경스럽다고 말함"},
+    {"name": "김구라", "relation": "방송인", "mentioned_as": "손예진의 건물 대출이자를 걱정함"}
+  ],
+  "works": [
+    {"title": "사랑의 불시착", "year": null, "costar": "현빈", "scene": "이 작품 3회쯤에서 현빈에게 반했다고 밝힘", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "43세인데 단발 변신 후 훨씬 어려 보인다는 반응을 얻음",
+    "10살은 더 어려 보인다는 평가를 받음",
+    "촌스럽다는 반응에도 굴하지 않는 스타일링을 선보여 본인도 만족함"
+  ],
+  "care_habits": [
+    "차기작마다 외모부터 파격적으로 바꾸는 배우로 알려짐",
+    "대사도 직접 바꿀 만큼 작품에 적극적으로 참여함"
+  ],
+  "hot_materials": [
+    {"material": "43세인데 단발 변신으로 훨씬 어려 보인다는 반응", "why_hot": "낙차"},
+    {"material": "촌스럽다는 반응에도 굴욕 없이 대만족한 스타일링", "why_hot": "반전"},
+    {"material": "사랑의 불시착 3회쯤 현빈에게 반했다는 고백", "why_hot": "발언"},
+    {"material": "무관 아쉬움 달래준 깜짝 트로피에 눈물", "why_hot": "장면"},
+    {"material": "224억 건물이 반년 넘게 공실이라는 반전", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "시상식 무대에서 깜짝 트로피를 받고 눈물을 보인 장면",
+    "단발로 변신한 모습에 다들 놀란 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "훅 파인 넥라인의 화보 사진",
+    "가족 여행 중 포착된 사진",
+    "양갈래 머리 수영복 스냅"
+  ]
+}
