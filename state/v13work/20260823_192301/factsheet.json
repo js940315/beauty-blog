@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "김희애",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 59,
+    "age_range": "50대",
+    "career": "42년째 활동 중인 배우",
+    "major_work": "밀회",
+    "identity_anchor": "드라마 '밀회' 주연을 맡은 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김희애", "text": "피부 관리에 관심 없다, 밤 10시 전에는 무조건 잔다", "context": "오은영의 버킷리스트 방송 발언"},
+    {"speaker": "김희애", "text": "자기 관리하는 이유는, 밤에 나가봤자 사건사고만 날 텐데 굳이 나갈 이유가 없어서다", "context": "인터뷰"},
+    {"speaker": "김희애", "text": "42년 연기 인생, 운이 좋았다", "context": "인터뷰"},
+    {"speaker": "김희애", "text": "요즘 나의 목표는 상대 배우에게 좋은 파트너가 되는 것이다", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "드라마 '돌풍'에서 설경구와 호흡을 맞춤", "year": null, "confirmed": true},
+    {"summary": "제주 여행 중 근황이 화제가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "59세", "meaning": "현재 나이"},
+    {"value": "42년", "meaning": "연기 경력 기간"},
+    {"value": "밤 10시", "meaning": "취침 시간"}
+  ],
+  "credentials": [
+    {"item": "42년째 활동 중인 배우", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "이것이 관리의 증거", "where": "기사반응", "scale": ""},
+    {"text": "자기 관리 끝판왕", "where": "기사반응", "scale": ""},
+    {"text": "58세 맞아?", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "설경구", "relation": "드라마 '돌풍' 상대역", "mentioned_as": "함께 인터뷰를 진행하며 서로를 칭찬함"},
+    {"name": "정려원", "relation": "동료 배우", "mentioned_as": "같은 감독과 작업했던 인연으로 함께 언급됨"}
+  ],
+  "works": [
+    {"title": "밀회", "year": 2014, "costar": "", "scene": "고 안판석 감독과 두 편의 작품을 함께하며 배우 인정을 받은 계기", "kind": "실제"},
+    {"title": "돌풍", "year": null, "costar": "설경구", "scene": "정치적 욕망을 다룬 이야기에서 설경구와 호흡을 맞춤", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "제주 여행에서 탄탄한 팔뚝과 종아리 라인이 화제가 됨",
+    "쇼트 커트 헤어까지 잘 어울린다는 반응을 얻음",
+    "58세에도 힙한 스타일링을 소화한다는 평을 받음"
+  ],
+  "care_habits": [
+    "피부 관리에 큰 관심을 두지 않는다고 밝힘",
+    "밤 10시 전에는 무조건 잠자리에 든다는 취침 습관",
+    "사건사고를 피하려고 밤 외출을 자제한다는 자기 관리 철학"
+  ],
+  "hot_materials": [
+    {"material": "피부 관리 무관심 발언과 대비되는 동안 미모", "why_hot": "낙차"},
+    {"material": "밤 10시 취침 습관", "why_hot": "발언"},
+    {"material": "42년 연기 인생 소회", "why_hot": "발언"},
+    {"material": "자기 관리 이유를 담백하게 밝힌 인터뷰", "why_hot": "발언"},
+    {"material": "제주 여행에서 드러난 탄탄한 팔뚝·종아리", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "제주 여행 중 반소매 차림으로 팔뚝 라인이 드러난 장면",
+    "인터뷰에서 담담하게 자기 관리 이유를 밝히는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "로에베 가방을 든 일상 스타일링 사진",
+    "부산국제영화제 개막식 샤넬룩",
+    "카페에서의 여유로운 근황 사진"
+  ]
+}
