@@ -1,0 +1,79 @@
+{
+  "person": {
+    "name": "김희선", "gender": "여성", "job": "배우",
+    "birth_year": null, "age": 48, "age_range": "40대",
+    "career": "데뷔 30년차 배우", "major_work": "다음생은 없으니까",
+    "identity_anchor": "‘다음생은 없으니까’ 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김희선", "text": "살찔까 식단하지만…이것 포기 못한다", "context": "데일리안 인터뷰"},
+    {"speaker": "김희선", "text": "데뷔 30년, 계속 도전하는 배우 되겠다", "context": "시사저널 인터뷰"},
+    {"speaker": "김희선", "text": "예능+드라마 동반 출연, 시청자들 몰입 방해할까 걱정", "context": "인터뷰(v.daum.net)"},
+    {"speaker": "김희선", "text": "책임지고 물러나겠다", "context": "'한끼합쇼' 하차 인터뷰"},
+    {"speaker": "김희선", "text": "내 고민 다 들어줘", "context": "'밥이나 한잔해' 방송"},
+    {"speaker": "김희선", "text": "첫눈에 결혼해야겠다 생각했다", "context": "머니투데이 인터뷰"},
+    {"speaker": "김희선", "text": "다 사줄게", "context": "머니투데이 인터뷰(이태원 부동산 관련)"},
+    {"speaker": "김희선", "text": "성격이 급하고 허둥지둥 대는데 한혜진, 진서연이 이끌어줬다", "context": "일간스포츠 인터뷰"}
+  ],
+  "events": [
+    {"summary": "'한끼합쇼' 8회 만에 하차를 결심해 책임지고 물러나겠다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "집을 팔고 이사한 뒤에야 2PM 이준호가 새 이웃이 된 사실을 알았다", "year": null, "confirmed": true},
+    {"summary": "IMF 시기에 이태원 땅을 사들여 재력을 보여줬다", "year": null, "confirmed": true},
+    {"summary": "이정재·임지연 커플에게 멜로가 공감되냐며 견제구를 날렸다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48", "meaning": "기사에서 언급된 나이"},
+    {"value": "100억대", "meaning": "남편 사업 연매출"},
+    {"value": "30년", "meaning": "배우 데뷔 연차"},
+    {"value": "8회", "meaning": "'한끼합쇼' 하차 시점 방영 회차"}
+  ],
+  "credentials": [
+    {"item": "연매출 100억대 사업가", "whose": "남편"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "윤박", "relation": "'다음생은 없으니까' 극중 남편 역", "mentioned_as": "불륜 누명을 쓴 극중 남편"},
+    {"name": "한혜진", "relation": "'다음생은 없으니까' 동료 배우", "mentioned_as": "성격 급한 자신을 이끌어준 동료"},
+    {"name": "진서연", "relation": "'다음생은 없으니까' 동료 배우", "mentioned_as": "성격 급한 자신을 이끌어준 동료"},
+    {"name": "이정재", "relation": "'다음생은 없으니까' 공동 출연", "mentioned_as": "멜로 라인 상대로 견제구를 받은 배우"},
+    {"name": "임지연", "relation": "'다음생은 없으니까' 공동 출연", "mentioned_as": "멜로 라인 상대로 견제구를 받은 배우"},
+    {"name": "이준호", "relation": "이웃", "mentioned_as": "이사 후 알게 된 2PM 출신 배우 이웃"}
+  ],
+  "works": [
+    {"title": "다음생은 없으니까", "year": null, "costar": "윤박",
+     "scene": "극중 남편의 불륜 누명을 벗기려 좌천까지 감수하며 나선 장면", "kind": "극중"},
+    {"title": "다음생은 없으니까", "year": null, "costar": "윤박",
+     "scene": "앞치마를 선물한 남편 앞에서 경단녀 설움에 눈물을 보인 장면", "kind": "극중"},
+    {"title": "다음생은 없으니까", "year": null, "costar": "윤박",
+     "scene": "맨바닥에 몸을 던지는 액션까지 펼치며 남편을 지킨 장면", "kind": "극중"},
+    {"title": "다음생은 없으니까", "year": null, "costar": "한혜진·진서연",
+     "scene": "성격 급하고 허둥지둥대는 자신을 두 사람이 이끌어줬다고 밝힌 것", "kind": "실제"},
+    {"title": "다음생은 없으니까", "year": null, "costar": "이정재·임지연",
+     "scene": "두 사람의 멜로가 공감되는지 견제구를 날린 것", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "뽀샵 아니라는 48살 몸의 놀라운 유연성",
+    "20대 뺨친다는 수수한 미모",
+    "무더위를 잊게 한다는 미모로 화제"
+  ],
+  "care_habits": [
+    "살찔까 봐 식단은 관리하지만 포기 못하는 게 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "48살인데 뽀샵 아니라는 놀라운 유연성", "why_hot": "낙차"},
+    {"material": "IMF 때 이태원 땅을 다 사며 '다 사줄게' 재력을 과시했다는 일화", "why_hot": "발언"},
+    {"material": "연매출 100억대 사업가 남편이 첫눈에 반해 청혼했다는 애처가 서사", "why_hot": "반전"},
+    {"material": "극중 남편 불륜 누명을 벗기려 맨바닥까지 몸을 던진 장면", "why_hot": "장면"},
+    {"material": "'한끼합쇼' 8회 만에 책임지고 물러나겠다 밝힌 하차 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "맨바닥에 몸을 던지는 액션 장면",
+    "앞치마 선물한 남편 앞에서 눈물 흘리는 장면",
+    "라면집에서 pho 메뉴 고민하며 인증하는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "'prelin 2026 SS Collection' 화보"
+  ]
+}
