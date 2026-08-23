@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "김태희",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 45,
+    "age_range": "40대",
+    "career": "20년 넘게 활동한 톱배우",
+    "major_work": "",
+    "identity_anchor": "오랜 기간 활동해온 톱배우이자 가수 비의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김태희", "text": "출산 후 외모 불안이 커져서 레이저 시술로 관리 중이다", "context": "인터뷰"},
+    {"speaker": "김태희", "text": "30대 후반부터 외모 불안감이 생겼다, 결혼과 육아도 영향이 있었다", "context": "인터뷰"},
+    {"speaker": "김태희", "text": "외모는 서른 때가 가장 마음에 들었다, 주름은 예쁘게 봐주세요", "context": "유퀴즈 방송 발언"},
+    {"speaker": "김태희", "text": "영상 편집을 잘 모른다", "context": "SNS 게시글"}
+  ],
+  "events": [
+    {"summary": "2년 만에 SNS 활동을 재개함", "year": null, "confirmed": true},
+    {"summary": "일본 여행 중 갑작스러운 팬 카메라 요청에도 두려워하지 않고 응함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "45세", "meaning": "현재 나이"},
+    {"value": "1400억", "meaning": "남편과 소유한 건물 규모"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "스태프들 음식 늘 챙긴다", "where": "방송", "scale": ""},
+    {"text": "차에 타봐 일단", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "비", "relation": "남편(가수)", "mentioned_as": "SNS에 '저희 집으로 오세요'라며 애정 어린 댓글을 남김"},
+    {"name": "정샘물", "relation": "메이크업 아티스트", "mentioned_as": "김태희가 스태프 음식을 늘 챙긴다는 미담을 전함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "45세인데 30대로 보인다는 반응을 자주 받음",
+    "동안 미모로 꾸준히 화제가 됨"
+  ],
+  "care_habits": [
+    "출산 후 외모 불안으로 레이저 시술을 받으며 관리 중이라고 밝힘",
+    "주름조차 예쁘게 봐달라고 할 만큼 나이 듦을 담담하게 받아들임"
+  ],
+  "hot_materials": [
+    {"material": "출산 후 외모 불안, 레이저 시술로 관리 중이라는 고백", "why_hot": "발언"},
+    {"material": "외모는 서른 때가 가장 마음에 들었다는 소회", "why_hot": "발언"},
+    {"material": "남편 비의 SNS 애정 공세 '저희 집으로 오세요'", "why_hot": "실명"},
+    {"material": "1400억 건물주 부부라는 반전 재력", "why_hot": "낙차"},
+    {"material": "영상 편집 모른다는 게시글에 쏟아진 댓글 반응", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "인터뷰에서 담담하게 외모 불안을 고백하는 장면",
+    "SNS에 서툰 게시글을 올리고 댓글이 쏟아지는 장면"
+  ],
+  "sns_materials": [
+    "2년 만에 재개한 SNS 게시글과 남편의 댓글"
+  ],
+  "press_only_materials": [
+    "초미니 청청 패션 사진",
+    "골프장 라운딩 사진",
+    "부부 데이트룩 사진"
+  ]
+}
