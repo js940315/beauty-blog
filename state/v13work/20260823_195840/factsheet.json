@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "이하늬",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 42,
+    "age_range": "40대",
+    "career": "20년 가까이 활동한 배우",
+    "major_work": "밤에 피는 꽃",
+    "identity_anchor": "3년 만에 드라마 '밤에 피는 꽃'으로 복귀한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이하늬", "text": "나이가 있다고 생각했는데 자연임신에 성공해 놀라움을 감추지 못했다", "context": "인터뷰"},
+    {"speaker": "이하늬", "text": "둘째 출산은 생애 가장 아픈 순간이자 행복한 순간이었다", "context": "아침마당 방송 발언"},
+    {"speaker": "이하늬", "text": "출산 6개월 만에 액션 촬영을 시작했다, 잊지 못할 작품이다", "context": "종영 소감"},
+    {"speaker": "이하늬", "text": "80년대 여배우들의 투쟁이 있었기에 지금의 우리가 있다", "context": "인터뷰"},
+    {"speaker": "이하늬", "text": "극본을 보고 바로 출연을 결정했다", "context": "인터뷰"},
+    {"speaker": "이하늬", "text": "공효진은 나의 영원한 슈퍼스타다", "context": "SNS 게시글"}
+  ],
+  "events": [
+    {"summary": "42세에 둘째를 자연임신으로 가짐", "year": null, "confirmed": true},
+    {"summary": "출산 6개월 만에 액션 촬영을 시작해 '밤에 피는 꽃'을 완주함", "year": null, "confirmed": true},
+    {"summary": "3년 만에 드라마로 복귀함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "42세", "meaning": "둘째를 자연임신했을 당시 나이"},
+    {"value": "6개월", "meaning": "출산 후 액션 촬영을 시작하기까지 걸린 기간"},
+    {"value": "3년", "meaning": "드라마 복귀까지의 공백 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "우리나라의 재산", "where": "기사반응", "scale": ""},
+    {"text": "임신 놀라, 완벽 소화 감사", "where": "인터뷰", "scale": ""},
+    {"text": "이건 그냥 애미컷", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "공효진", "relation": "절친 배우", "mentioned_as": "15년 전과 같은 포즈로 재회해 여전한 케미를 보여줌"},
+    {"name": "하정우", "relation": "'윗집 사람들' 상대역", "mentioned_as": "이하늬의 임신 소화 능력에 놀라며 감사를 표함"},
+    {"name": "장태유", "relation": "'밤에 피는 꽃' PD", "mentioned_as": "이하늬를 우리나라의 재산이라고 극찬함"}
+  ],
+  "works": [
+    {"title": "밤에 피는 꽃", "year": null, "costar": "이종원", "scene": "출산 6개월 만에 액션 촬영을 시작해 3년 만에 복귀작을 완주함", "kind": "실제"},
+    {"title": "파스타", "year": null, "costar": "공효진", "scene": "15년 전 함께 찍었던 포즈를 그대로 재현함", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "15년이 지나도 그대로라는 반응을 얻으며 공효진과 옛 포즈를 재현함",
+    "둘째 출산 4개월 만에 고혹적인 드레스 자태를 선보임"
+  ],
+  "care_habits": [
+    "출산 6개월 만에 액션 장면을 직접 소화할 만큼 체력 관리에 힘씀"
+  ],
+  "hot_materials": [
+    {"material": "42세 자연임신 성공에 놀라움을 감추지 못했다는 고백", "why_hot": "발언"},
+    {"material": "출산 6개월 만에 액션 촬영을 시작한 근성", "why_hot": "반전"},
+    {"material": "공효진과 15년 만에 재현한 파스타 포즈", "why_hot": "실명"},
+    {"material": "PD가 '우리나라의 재산'이라 극찬한 일화", "why_hot": "실명"},
+    {"material": "MZ컷에 도전했다 실패해 '애미컷'이라 자평한 유머", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "공효진과 나란히 옛 포즈를 재현하는 장면",
+    "출산 6개월 만에 액션 촬영장에 복귀한 장면"
+  ],
+  "sns_materials": [
+    "공효진을 '나의 영원한 슈퍼스타'라 칭한 SNS 게시글"
+  ],
+  "press_only_materials": [
+    "31주차 임신 중 선명한 D라인이 드러난 드레스 사진",
+    "둘째 출산 4개월 만의 드레스 화보"
+  ]
+}
