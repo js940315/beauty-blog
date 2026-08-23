@@ -294,6 +294,11 @@ def stage_plan(n):
             if not bench_picks:
                 print("   (없음 — 벤치마크 상위에 쓸 수 있는 풀 인물이 없다. "
                       "아래 기존 방식 후보로 채워라)")
+                # 2026-08-24 버그 수정: bench_picks 가 비면 pool_slots 는 그대로 []라
+                # 아래 "기존 방식 후보"도 빈 채로 나가 방을 채울 후보가 하나도
+                # 안 보였다 (실측: --plan 1, avail 16명인데 빈 목록 출력).
+                # 예외 분기와 동일하게 todo 전체를 pool 로 폴백시킨다.
+                pool_slots = todo
             for e in bench_picks:
                 t = e["posts"][0]["title"][:40] if e["posts"] else ""
                 print(f"   ♥{e['likes']:>4}  {e['celeb']}   ← {t}")
