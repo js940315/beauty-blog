@@ -138,8 +138,16 @@ def stage_source(source_path, force=False, bench_rows=None):
     print("   그 다음: python pipeline.py --stage titles")
 
 
-def recent_persons(days=45):
-    """최근 N일 안에 v13이 쓴 인물 목록 (재등장 방지)."""
+def recent_persons(days=None):
+    """최근 N일 안에 v13이 쓴 인물 목록 (재등장 방지).
+
+    2026-08-13 사용자 확정으로 config.CELEB_COOLDOWN_DAYS 가 45→15일로
+    내려갔는데 여기 기본값은 45로 하드코딩돼 있었다 — 풀이 174명으로
+    늘어난 뒤에도 --plan 후보가 6명까지 쪼그라든 원인이 이거였다.
+    """
+    if days is None:
+        import config as CFG
+        days = CFG.CELEB_COOLDOWN_DAYS
     cutoff = (datetime.date.today()
               - datetime.timedelta(days=days)).isoformat()
     return {p["person"] for p in _state()["recent_posts"]
