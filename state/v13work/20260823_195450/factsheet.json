@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "윤아",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "소녀시대 멤버 겸 배우로 데뷔 18년 차",
+    "major_work": "폭군의 셰프",
+    "identity_anchor": "소녀시대 멤버이자 드라마 '폭군의 셰프' 주연 배우"
+  },
+  "namesake_dropped": ["윤아라(전 남자친구 열애설 관련 인물)", "오윤아(재혼 발표 배우)", "홍윤아", "신랑수업 출연자 윤아"],
+  "quotes": [
+    {"speaker": "윤아", "text": "요리의 95%는 직접 하려고 한다", "context": "유퀴즈 방송 발언"},
+    {"speaker": "윤아", "text": "아이돌 출신 배우라는 편견이 있다, 못하면 다음은 없다고 생각한다", "context": "인터뷰"},
+    {"speaker": "윤아", "text": "센터의 기준은 퍼포먼스와 애티튜드다", "context": "인터뷰"},
+    {"speaker": "윤아", "text": "결혼은 서른둘 전에는 하고 싶다", "context": "방송 발언"}
+  ],
+  "events": [
+    {"summary": "'폭군의 셰프'에서 새벽 3시부터 대역 없이 촬영해 쓰러질 뻔함", "year": null, "confirmed": true},
+    {"summary": "'킹더랜드' 인연인 배우 김영옥과 3년 만에 재회함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "18주년", "meaning": "데뷔 이후 활동 기간"},
+    {"value": "170cm", "meaning": "키"},
+    {"value": "48kg", "meaning": "화보에서 언급된 체중"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "제 사이즈 맞춰주셔서 감사하다", "where": "방송", "scale": ""},
+    {"text": "또 얼마나 매력적일까", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김영옥", "relation": "드라마 '킹더랜드' 인연", "mentioned_as": "3년 만에 재회해 친손녀 같다는 말을 들음"},
+    {"name": "정호영", "relation": "방송 동료(셰프)", "mentioned_as": "윤아의 작은 얼굴 크기에 당황하며 감사를 표함"},
+    {"name": "손예진", "relation": "동료 배우", "mentioned_as": "윤아를 응원하며 매력적이라고 말함"}
+  ],
+  "works": [
+    {"title": "폭군의 셰프", "year": null, "costar": "이채민", "scene": "새벽 3시부터 대역 없이 요리 장면을 직접 촬영함", "kind": "실제"},
+    {"title": "킹더랜드", "year": null, "costar": "김영옥", "scene": "촬영 당시의 인연으로 3년 만에 재회함", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "화보 촬영 전날 부기를 빼는 관리를 한다고 밝힘",
+    "170cm 키에 48kg 체중이 언급되며 황금 비율이라는 평을 받음"
+  ],
+  "care_habits": [
+    "화보 촬영 전날 부기 관리를 한다고 밝힘",
+    "요리 장면도 대역 없이 직접 소화할 만큼 철저하게 준비한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "새벽 3시부터 대역 없이 촬영하다 쓰러질 뻔한 일화", "why_hot": "장면"},
+    {"material": "아이돌 출신 배우 편견에 대한 담담한 각오", "why_hot": "발언"},
+    {"material": "김영옥과 3년 만의 재회", "why_hot": "실명"},
+    {"material": "정호영이 작은 얼굴 크기에 당황한 에피소드", "why_hot": "실명"},
+    {"material": "170cm 48kg 황금 비율 화보", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "새벽 3시 촬영장에서 대역 없이 요리하는 장면",
+    "화보 촬영 전날 부기를 관리하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "버버리 신상을 입은 파리·런던 행사 사진",
+    "170cm 48kg 블랙 드레스 화보",
+    "백상예술대상 드레스 사진"
+  ]
+}
