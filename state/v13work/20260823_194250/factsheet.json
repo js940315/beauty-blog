@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "태연",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 37,
+    "age_range": "30대",
+    "career": "소녀시대 멤버 겸 솔로 가수로 18년째 활동 중",
+    "major_work": "소녀시대",
+    "identity_anchor": "소녀시대 멤버로 18년째 활동 중인 가수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "태연", "text": "젤리나 먹고 커피나 마신다", "context": "몸매 관리 비결을 묻는 질문에 대한 답"},
+    {"speaker": "태연", "text": "몸에 좋은 걸 많이 먹는다", "context": "놀토 방송 발언"},
+    {"speaker": "태연", "text": "친구들이가 너무 좋다", "context": "SNS에 소녀시대 완전체 사진을 올리며 남긴 글"}
+  ],
+  "events": [
+    {"summary": "데뷔 18주년을 맞아 소녀시대 완전체 사진을 SNS에 공개함", "year": null, "confirmed": true},
+    {"summary": "팬에게 슈퍼카를 선물 받아 근황을 공개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "37세", "meaning": "현재 나이"},
+    {"value": "18주년", "meaning": "소녀시대 데뷔 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "10대라 해도 믿겠네", "where": "기사반응", "scale": ""},
+    {"text": "예쁘고 귀엽고 다 하네", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "정형돈", "relation": "예능 '우리 결혼했어요' 파트너", "mentioned_as": "가상 부부로 활동했던 인연을 유쾌하게 언급함"}
+  ],
+  "works": [
+    {"title": "우리 결혼했어요", "year": null, "costar": "정형돈", "scene": "가상 결혼 콘셉트로 함께 출연해 화제를 모음", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "37세인데 교복을 입고 10대로 오해받을 만큼 동안이라는 평가를 받음",
+    "36세 맞냐는 물음에 20대로 믿을 만한 동안 미모라는 반응을 얻음"
+  ],
+  "care_habits": [
+    "젤리와 커피 위주로 가볍게 먹는다고 밝힘",
+    "몸에 좋은 음식 위주로 챙겨 먹는다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "37세인데 교복 입고 10대로 오해받은 동안 미모", "why_hot": "낙차"},
+    {"material": "젤리와 커피 위주의 가벼운 식습관 공개", "why_hot": "발언"},
+    {"material": "18주년 맞아 SNS에 올린 소녀시대 완전체 사진", "why_hot": "장면"},
+    {"material": "팬에게 받은 슈퍼카 공개", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "교복을 입고 무대에 선 장면",
+    "SNS에 소녀시대 완전체 사진을 올리는 장면"
+  ],
+  "sns_materials": [
+    "데뷔 18주년 기념 소녀시대 완전체 사진"
+  ],
+  "press_only_materials": [
+    "안경으로 완성한 공항패션 사진"
+  ]
+}
