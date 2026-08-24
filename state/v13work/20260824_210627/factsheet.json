@@ -1,0 +1,71 @@
+{
+  "person": {
+    "name": "고소영",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "오랜 시간 사랑받아온 톱배우, 최근 자신의 유튜브 채널로도 소통 중",
+    "major_work": "",
+    "identity_anchor": "톱배우, 장동건의 아내로도 유명"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "고소영", "text": "얼굴 윤곽에는 괄사 마사지를 한다", "context": "피부 관리 비법 인터뷰"},
+    {"speaker": "고소영", "text": "집에만 있어도 선크림을 바른다", "context": "동안 유지 비결 인터뷰"},
+    {"speaker": "고소영", "text": "치매 예방 게임 같은 것, 긴장을 풀어준다", "context": "모닝 루틴 인터뷰"},
+    {"speaker": "고소영", "text": "일부러 그러는 게 아니라 원래 내 말투다", "context": "말투 관련 악플 해명 인터뷰"},
+    {"speaker": "고소영", "text": "어려 보이고 싶은 마음은 없다, 친절하고 싶었다", "context": "말투 관련 악플 해명 인터뷰"},
+    {"speaker": "고소영", "text": "얼굴과 목에 600샷을 받았다", "context": "리프팅 레이저 시술 고백 인터뷰"},
+    {"speaker": "고소영", "text": "사람들 시선은 신경 안 쓴다, 가리고 다니는 스타일은 아니다", "context": "명품 착용 관련 인터뷰"},
+    {"speaker": "고소영", "text": "0.5kg이 쪄도 빼야 한다는 강박이 있다", "context": "체중 관리 관련 인터뷰"},
+    {"speaker": "고소영", "text": "쉬는 동안 오해가 생겼지만 유튜브로 마음의 문을 열었다", "context": "유튜브 채널 관련 인터뷰"}
+  ],
+  "events": [
+    {"summary": "4kg을 감량해 10년 전 원피스가 다시 맞게 됨", "year": null, "confirmed": true},
+    {"summary": "골프 라운딩에서 남편 장동건이 허리 숙여 다정하게 인사해 화제", "year": null, "confirmed": true},
+    {"summary": "얼굴과 목에 리프팅 레이저 600샷을 받았다고 고백", "year": null, "confirmed": true},
+    {"summary": "본인 유튜브 채널을 통해 오해를 풀고 소통을 시작함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "600샷", "meaning": "리프팅 레이저 시술 샷 수"},
+    {"value": "4kg", "meaning": "감량한 체중"},
+    {"value": "0.5kg", "meaning": "체중 관리 강박의 기준"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "나이 못 속여", "where": "기사반응", "scale": ""},
+    {"text": "여전히 동안", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "장동건", "relation": "남편", "mentioned_as": "골프장에서 다정하게 외조한 남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "얼굴 윤곽을 위한 괄사 마사지",
+    "집에서도 거르지 않는 선크림",
+    "리프팅 레이저 600샷을 받은 피부 시술",
+    "삶은 달걀로 식욕을 조절하는 식습관",
+    "머리 감은 뒤 바르는 모발 관리 제품"
+  ],
+  "care_habits": ["괄사 마사지", "선크림", "리프팅 레이저", "삶은 달걀 식단", "모발 관리 제품"],
+  "hot_materials": [
+    {"material": "피부 시술 안 받는다더니 리프팅 레이저 600샷을 실토한 것", "why_hot": "반전"},
+    {"material": "앵앵거린다는 악플에 원래 말투라고 담담히 해명한 것", "why_hot": "발언"},
+    {"material": "골프장에서 장동건이 허리 숙여 다정하게 인사한 장면", "why_hot": "장면"},
+    {"material": "4kg 감량으로 10년 전 원피스가 다시 맞았다는 것", "why_hot": "낙차"},
+    {"material": "0.5kg이 쪄도 빼야 한다는 체중 관리 강박 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "골프장에서 장동건이 허리 숙여 인사하는 장면",
+    "침대에 누워 모닝 루틴으로 게임을 즐기는 장면"
+  ],
+  "sns_materials": [
+    "본인 유튜브 채널을 통한 소통과 오해 해소"
+  ],
+  "press_only_materials": [
+    "명품 착용 외출 사진",
+    "부부 동반 골프장 사진"
+  ]
+}
