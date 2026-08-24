@@ -1,7 +1,0 @@
-■ 전여빈 — 이미지 어디서 구하나
-
-이미지 검색 (로그인 없이 바로 열립니다):
-  네이버  https://search.naver.com/search.naver?where=image&query=%EC%A0%84%EC%97%AC%EB%B9%88
-  다음    https://search.daum.net/search?w=img&q=%EC%A0%84%EC%97%AC%EB%B9%88
-
-※ 못 찾으면 사진 없이 발행해도 되는 글입니다.
