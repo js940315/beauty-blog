@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "박은빈",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "이상한 변호사 우영우로 큰 사랑을 받은 배우, 현재 오싹한 연애 출연 중",
+    "major_work": "이상한 변호사 우영우, 오싹한 연애, 골든",
+    "identity_anchor": "이상한 변호사 우영우 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박은빈", "text": "긴 여정이었습니다", "context": "차은우와 함께한 광고 캠페인 촬영 소감"},
+    {"speaker": "박은빈", "text": "몰입감과 진심에 감명받았다", "context": "오싹한 연애 명장면 비하인드 인터뷰"},
+    {"speaker": "박은빈", "text": "반전 매력 신경썼다", "context": "오싹한 연애 재벌 상속녀 역 변신 소감"},
+    {"speaker": "박은빈", "text": "함께해 주신 모든 분들 행복하시길", "context": "오싹한 연애 종영 소감"},
+    {"speaker": "박은빈", "text": "우영우 한 신에 대사 20장, 외우다 머리 나빠진 것 같다", "context": "이상한 변호사 우영우 촬영 비하인드"},
+    {"speaker": "박은빈", "text": "돌아올 수 있어 다행", "context": "예능 놀토 출연 정지 해제 소감"}
+  ],
+  "events": [
+    {"summary": "KB국민은행 자산관리 브랜드 광고에 차은우와 함께 출연", "year": null, "confirmed": true},
+    {"summary": "부산국제영화제 개막식 사회자로 이병헌과 함께 단독 발탁", "year": null, "confirmed": true},
+    {"summary": "예능 놀토에서 tvN 출연 정지 1년 반 만에 복귀", "year": null, "confirmed": true},
+    {"summary": "스케쳐스와 서머 캠페인 컴포트웨어 진행", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "20장", "meaning": "우영우 한 신에서 외운 대사 분량"},
+    {"value": "1년 반", "meaning": "놀토 출연 정지 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "옹성우", "relation": "오싹한 연애 상대역", "mentioned_as": "약혼·파혼 스토리 상대"},
+    {"name": "양세종", "relation": "오싹한 연애 상대역", "mentioned_as": "동갑 배우, 호텔 동침 해프닝 상대"},
+    {"name": "차은우", "relation": "광고 공동 출연", "mentioned_as": "KB국민은행 캠페인 파트너"},
+    {"name": "이병헌", "relation": "행사 공동 진행", "mentioned_as": "부산국제영화제 개막식 공동 사회자"}
+  ],
+  "works": [
+    {"title": "이상한 변호사 우영우", "year": null, "costar": "",
+     "scene": "한 신에 대사 20장을 외우다 머리가 나빠진 것 같다고 밝힌 것",
+     "kind": "실제"},
+    {"title": "오싹한 연애", "year": null, "costar": "옹성우",
+     "scene": "몰래 주식을 산 옹성우의 악행을 알고 추궁하는 장면",
+     "kind": "극중"},
+    {"title": "오싹한 연애", "year": null, "costar": "옹성우",
+     "scene": "두 달 안에 결혼하라는 압박에 일단 약혼하기로 하는 장면",
+     "kind": "극중"},
+    {"title": "오싹한 연애", "year": null, "costar": "양세종",
+     "scene": "파혼 통보를 받는 장면",
+     "kind": "극중"},
+    {"title": "오싹한 연애", "year": null, "costar": "양세종",
+     "scene": "호텔 예약 실수로 하룻밤 함께 묵게 되는 장면",
+     "kind": "극중"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "우영우 한 신에 대사 20장, 외우다 머리 나빠진 것 같다는 발언", "why_hot": "발언"},
+    {"material": "오싹한 연애 재벌 상속녀 역 변신, 반전 매력 신경썼다는 소감", "why_hot": "반전"},
+    {"material": "옹성우와 극중 두 달 약혼 압박에 일단 약혼하기로 한 전개", "why_hot": "장면"},
+    {"material": "부산국제영화제 개막식 사회자로 이병헌과 함께 단독 발탁", "why_hot": "실명"},
+    {"material": "차은우와 호흡 맞춘 광고, 긴 여정이었다는 소감", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "호텔 예약 실수로 양세종과 하룻밤 함께 묵게 된 장면",
+    "몰래 주식 산 옹성우의 악행을 알고 추궁하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "발레코어룩 화보 (스타패션 촬영)",
+    "스케쳐스 서머 캠페인 화보",
+    "KB국민은행 광고 비주얼",
+    "부산국제영화제 개막식 포토월 사진"
+  ]
+}
