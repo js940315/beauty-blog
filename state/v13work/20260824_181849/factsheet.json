@@ -1,0 +1,71 @@
+{
+  "person": {
+    "name": "송혜교",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "43세",
+    "age_range": "40대",
+    "career": "",
+    "major_work": "더 글로리, 검은 수녀들",
+    "identity_anchor": "톱배우 송혜교, '더 글로리'·'검은 수녀들' 주연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "송혜교", "text": "내가 봐도 예뻐", "context": "노화를 더디게 관리한다는 취지의 비결 언급"},
+    {"speaker": "송혜교", "text": "내가 봐도 이쁘다", "context": "본인 미모에 대한 소감"},
+    {"speaker": "송혜교", "text": "클렌징·나이트크림으로 관리", "context": "동안 피부 비결 언급"},
+    {"speaker": "송혜교", "text": "동안 유지 비결은 꾸준한 관리", "context": "피부 관리 비결 언급"},
+    {"speaker": "송혜교", "text": "뭐 옛날 사람이죠", "context": "수첩 없으면 약속도 못 잡는다는 일화"},
+    {"speaker": "송혜교", "text": "신비주의NO, 날 잘 모를 어린 친구들에 다가가고 싶었다", "context": "유튜브 출연 이유"},
+    {"speaker": "송혜교", "text": "두 여성의 연대에 끌렸다", "context": "'검은 수녀들' 예능 출연 이유"}
+  ],
+  "events": [
+    {"summary": "'검은 수녀들' 상대역으로 전여빈을 직접 추천", "year": null, "confirmed": true},
+    {"summary": "이진과 30년째 이어온 친분 인증", "year": null, "confirmed": true},
+    {"summary": "이기찬이 데뷔작 연기 파트너였으나 자신이 바로 하차해 친해지지 못했다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "43세", "meaning": "현재 나이"},
+    {"value": "30년", "meaning": "이진과의 우정 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이진", "relation": "30년 지기 친구", "mentioned_as": "절친"},
+    {"name": "전여빈", "relation": "'검은 수녀들' 상대역으로 직접 추천한 후배", "mentioned_as": "상대역"},
+    {"name": "이기찬", "relation": "데뷔작 연기 파트너였다고 언급한 배우", "mentioned_as": "첫 연기 파트너"}
+  ],
+  "works": [
+    {"title": "검은 수녀들", "year": null, "costar": "전여빈", "scene": "본인이 직접 전여빈을 상대역으로 추천해 감격했다는 일화", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "도자기 피부",
+    "동안 피부",
+    "현미경으로 봐도 잡티 없는 피부",
+    "꿀피부",
+    "맑은 피부"
+  ],
+  "care_habits": [
+    "클렌징과 나이트크림으로 관리한다고 밝힘",
+    "동안 유지 비결은 꾸준한 관리라고 밝힘",
+    "매끈한 종아리 유지를 위해 운동을 꾸준히 한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "43세인데 현미경으로 봐도 잡티 없는 피부라는 반응", "why_hot": "낙차"},
+    {"material": "클렌징·나이트크림이 동안 비결이라는 본인 발언", "why_hot": "발언"},
+    {"material": "이진과 30년째 이어온 우정 인증", "why_hot": "장면"},
+    {"material": "전여빈을 직접 상대역으로 추천한 일화", "why_hot": "반전"},
+    {"material": "뭐 옛날 사람이죠, 수첩 없으면 약속도 못잡는다는 소탈한 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "현미경으로 피부를 봐도 잡티가 없다는 반응",
+    "이진과 절친 회동 인증"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "백리스 골드 실크 드레스 화보",
+    "휴양지 수영복 화보",
+    "똥머리 홈웨어 화보"
+  ]
+}
