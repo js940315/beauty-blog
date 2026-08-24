@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "송혜교",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1981,
+    "age": null,
+    "age_range": "40대",
+    "career": "영화 검은 수녀들 주연 등, 톱배우로 불리는 배우",
+    "major_work": "검은 수녀들",
+    "identity_anchor": "영화 검은 수녀들 주연, 톱배우로 불리는 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "송혜교", "text": "내가 봐도 예뻐", "context": "Chosunbiz"},
+    {"speaker": "송혜교", "text": "뭐 옛날 사람이죠", "context": "스포츠조선"},
+    {"speaker": "송혜교", "text": "수첩 없으면 약속도 못 잡아", "context": "스포츠조선"},
+    {"speaker": "송혜교", "text": "클렌징·나이트크림으로 관리", "context": "v.daum.net"},
+    {"speaker": "송혜교", "text": "연기 칭찬이 나에게 최고", "context": "iMBC 연예"},
+    {"speaker": "송혜교", "text": "두 여성의 연대에 끌렸다", "context": "오마이스타"},
+    {"speaker": "송혜교", "text": "신비주의 NO, 날 잘 모를 어린 친구들에 다가가고 싶었다", "context": "네이트"},
+    {"speaker": "송혜교", "text": "목욕탕서 사진? 얼굴만 내놓을 것", "context": "v.daum.net"}
+  ],
+  "events": [
+    {"summary": "영화 검은 수녀들에 출연, 두 여성의 연대라는 소재에 끌려 출연 결정", "year": null, "confirmed": true},
+    {"summary": "전여빈이 검은 수녀들 상대역으로 그녀를 추천받아 감격했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "라디오스타에서 이기찬이 데뷔 시절 연기 파트너였다고 회고", "year": null, "confirmed": true},
+    {"summary": "30년 지기 친구 이진과 절친 회동 인증", "year": null, "confirmed": true},
+    {"summary": "펜디 2026 가을·겨울 프리 컬렉션 디지털 캠페인 공개", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "30년", "meaning": "친구 이진과의 우정 기간"}
+  ],
+  "credentials": [
+    {"item": "톱배우로 불림", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "전여빈", "relation": "검은 수녀들 상대역, 그녀를 추천받아 감격", "mentioned_as": "동료 배우"},
+    {"name": "이기찬", "relation": "데뷔 시절 연기 파트너", "mentioned_as": "동료 배우"},
+    {"name": "이진", "relation": "30년 지기 친구", "mentioned_as": "절친"}
+  ],
+  "works": [
+    {"title": "검은 수녀들", "year": null, "costar": "전여빈", "scene": "전여빈이 상대역으로 그녀를 추천받아 감격했다고 밝힌 일화", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "도자기 피부라는 평가를 받음",
+    "현미경으로 봐도 잡티가 없다는 평가를 받음",
+    "나이가 들수록 점점 어려진다는 평가를 받음"
+  ],
+  "care_habits": [
+    "클렌징과 나이트크림으로 피부를 관리한다고 밝힘",
+    "꾸준히 챙기는 음식이 있다고 언급했으나 구체적인 정체는 공개되지 않음",
+    "꾸준히 하는 운동이 있다고 언급했으나 구체적인 종목은 공개되지 않음"
+  ],
+  "hot_materials": [
+    {"material": "40대인데 동안이라는 반응이 쏟아지는 피부", "why_hot": "낙차"},
+    {"material": "정체를 밝히지 않은 '이 음식'이 비결이라는 언급", "why_hot": "반전"},
+    {"material": "뭐 옛날 사람이라며 수첩 없으면 약속도 못 잡는다는 자기 고백", "why_hot": "발언"},
+    {"material": "전여빈이 감격했다는 검은 수녀들 상대역 추천 일화", "why_hot": "실명"},
+    {"material": "데뷔 시절 연기 파트너였던 이기찬의 회고", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "현미경으로 들여다봐도 잡티가 없다는 피부",
+    "수첩 없으면 약속도 못 잡는다는 아날로그 습관",
+    "목욕탕에서 사진 찍히면 얼굴만 내놓겠다는 다짐"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "펜디 2026 가을겨울 캠페인 화보",
+    "백리스 골드 실크 드레스 화보",
+    "핑크빛 수영복 휴양지 화보"
+  ]
+}
