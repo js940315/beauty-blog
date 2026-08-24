@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "신민아",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1984,
+    "age": 41,
+    "age_range": "40대",
+    "career": "내 여자친구는 구미호 등 출연, 최근 드라마 손해보기 싫어서 종영",
+    "major_work": "내 여자친구는 구미호",
+    "identity_anchor": "내 여자친구는 구미호로 알려진 배우, 드라마 손해보기 싫어서 출연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신민아", "text": "두쫀쿠에 빠졌는데 살 엄청 찐다", "context": "스포츠조선"},
+    {"speaker": "신민아", "text": "쉽지 않아, 엉망이다", "context": "텐아시아"},
+    {"speaker": "신민아", "text": "풀 메이크업 안 한다, 잠 많이 자", "context": "v.daum.net"},
+    {"speaker": "신민아", "text": "화장 시간 40분, 잠 많이 자려 해", "context": "스포츠경향"},
+    {"speaker": "신민아", "text": "전 타고난 근수저라", "context": "news-wa.com"},
+    {"speaker": "신민아", "text": "언제부터인지 사람들이 날 안 찾아", "context": "요정재형"},
+    {"speaker": "신민아", "text": "심플한 웨딩드레스 예쁘다", "context": "뉴시스"},
+    {"speaker": "신민아", "text": "앳되지만 연기 솔직히 못 봐줘", "context": "뉴시스"}
+  ],
+  "events": [
+    {"summary": "10년 연애 끝에 김우빈과 비공개 결혼, 3억 기부로 예식을 채움", "year": null, "confirmed": true},
+    {"summary": "드라마 손해보기 싫어서 종영, 애정 어린 소감을 남김", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10년", "meaning": "김우빈과의 연애 기간"},
+    {"value": "3억", "meaning": "결혼식에서 기부한 금액"},
+    {"value": "41세", "meaning": "현재 나이"},
+    {"value": "20분", "meaning": "집에서 하는 운동 시간(종목 비공개)"},
+    {"value": "40분", "meaning": "화장에 걸리는 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김우빈", "relation": "10년 연애 끝 결혼한 남편", "mentioned_as": "남편"},
+    {"name": "김영대", "relation": "드라마 손해보기 싫어서 상대역", "mentioned_as": "동료 배우"}
+  ],
+  "works": [
+    {"title": "손해보기 싫어서", "year": null, "costar": "김영대", "scene": "종영 소감에서 함께한 이들과 애정을 나눈 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "방부제 미모라는 평가를 받음",
+    "결혼 후 더 예뻐졌다는 평가를 받음",
+    "여배우들도 감탄했다는 인형 같은 미모라는 평가를 받음"
+  ],
+  "care_habits": [
+    "풀 메이크업을 하지 않는다고 밝힘",
+    "잠을 많이 자려 한다고 밝힘",
+    "헬스장 대신 집에서 20분씩 운동한다고 언급(구체 종목 비공개)"
+  ],
+  "hot_materials": [
+    {"material": "10년 연애 끝 김우빈과 결혼, 3억 기부 예식", "why_hot": "반전"},
+    {"material": "풀 메이크업 안 하고 잠 많이 잔다는 방부제 미모 비결", "why_hot": "발언"},
+    {"material": "두쫀쿠 간식에 빠져 살 엄청 찐다는 솔직 고백", "why_hot": "발언"},
+    {"material": "근수저라며 헬스장 대신 집에서 20분만 한다는 운동법", "why_hot": "발언"},
+    {"material": "구미호 시절 연기가 부끄럽다는 자기 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "가방 정리가 엉망이라고 웃으며 인정하는 모습",
+    "화장 시간보다 잠을 택한다는 아침 루틴",
+    "집에서 혼자 20분씩 운동하는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "루이비통 가방 정리 화보",
+    "심플한 웨딩드레스 화보",
+    "비공개 결혼식 관련 보도"
+  ]
+}
