@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "카리나",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 2000,
+    "age": null,
+    "age_range": "20대",
+    "career": "그룹 에스파 멤버로 활동 중인 가수",
+    "major_work": "에스파",
+    "identity_anchor": "그룹 에스파 멤버로 활동 중인 가수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "카리나", "text": "베개에 이것 깔고 자면 피부 깨끗해진다", "context": "톱스타뉴스"},
+    {"speaker": "카리나", "text": "데뷔 전 승무원 준비했다", "context": "한국일보"},
+    {"speaker": "카리나", "text": "강하다는 말, 나답다는 뜻이라 좋아요", "context": "톱스타뉴스"},
+    {"speaker": "카리나", "text": "과대해석해도 돼요?", "context": "스포츠경향"},
+    {"speaker": "카리나", "text": "내 여자친구는 구미호 신민아에 푹 빠져, 하루 사이다 세 번 마셨다", "context": "TV리포트"},
+    {"speaker": "카리나", "text": "소원을 이뤄주셨다", "context": "Chosunbiz"},
+    {"speaker": "이재욱", "text": "민망하네", "context": "iMBC 연예"}
+  ],
+  "events": [
+    {"summary": "샤넬 뷰티 앰버서더로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "배우 이재욱과 공개 열애를 발표함", "year": null, "confirmed": true},
+    {"summary": "20년 전 하이킥 서민정의 장면을 따라해 원조 배우도 놀람", "year": null, "confirmed": true},
+    {"summary": "데뷔 전 승무원을 준비했었다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "윈터와 함께 멕시코에서 한국 축구 대표팀을 직관 응원함", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이재욱", "relation": "공개 열애 중인 연인", "mentioned_as": "연인"},
+    {"name": "장도연", "relation": "예능에서 함께한 방송인", "mentioned_as": "동료 방송인"},
+    {"name": "윈터", "relation": "같은 그룹 멤버", "mentioned_as": "그룹 동료"},
+    {"name": "신민아", "relation": "카리나가 팬심을 드러낸 배우", "mentioned_as": "좋아하는 배우"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "깐달걀 피부라는 평가를 받음",
+    "무결점 피부라는 평가를 받음"
+  ],
+  "care_habits": [
+    "베개에 수건을 깔고 자면 피부가 깨끗해진다는 팁을 직접 공개함"
+  ],
+  "hot_materials": [
+    {"material": "샤넬 뷰티 앰버서더로 발탁된 소식", "why_hot": "낙차"},
+    {"material": "베개에 수건 깔고 자는 피부 꿀팁을 직접 공개한 발언", "why_hot": "발언"},
+    {"material": "20년 전 하이킥 서민정 장면을 따라해 원조도 놀란 일화", "why_hot": "반전"},
+    {"material": "데뷔 전 승무원을 준비했었다는 비하인드 고백", "why_hot": "발언"},
+    {"material": "신민아 팬심에 하루 사이다 세 번 마셨다는 귀여운 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "베개에 수건을 깔고 잠드는 모습",
+    "20년 전 시트콤 장면을 그대로 재연하는 순간",
+    "승무원 유니폼을 입고 면접을 준비하던 데뷔 전 시절"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "샤넬 뷰티 캠페인 화보",
+    "이재욱과의 공개 열애 투샷"
+  ]
+}
