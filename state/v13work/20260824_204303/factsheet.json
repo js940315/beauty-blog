@@ -1,0 +1,81 @@
+{
+  "person": {
+    "name": "김희선",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "오랜 시간 사랑받아온 톱배우, 최근 드라마 다음생은 없으니까에 출연",
+    "major_work": "다음생은 없으니까",
+    "identity_anchor": "다음생은 없으니까 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김희선", "text": "아버지 남방 같아", "context": "생일파티에서 330만원 원피스를 두고 한 자기 발언"},
+    {"speaker": "김희선", "text": "살찔까 봐 식단은 하지만 이것 포기 못한다", "context": "몸매 유지 비결 인터뷰"},
+    {"speaker": "김희선", "text": "예능과 드라마 동반 출연이 시청자들 몰입을 방해할까 걱정", "context": "다음생은 없으니까 관련 인터뷰"},
+    {"speaker": "김희선", "text": "출산 후 6년 공백, TV를 보며 저거 내 건데 싶었다", "context": "경력단절 불안 관련 인터뷰"},
+    {"speaker": "김희선", "text": "책임지고 물러나겠다", "context": "한끼합쇼 하차 결심 발언"},
+    {"speaker": "김희선", "text": "집 팔고 봤더니 이준호가 이사 왔더라", "context": "이웃 관련 에피소드 인터뷰"},
+    {"speaker": "김희선", "text": "내 고민을 다 들어준다", "context": "남편 자랑 인터뷰"},
+    {"speaker": "김희선", "text": "첫눈에 결혼해야겠다는 생각이 들었다", "context": "남편과의 첫 만남 인터뷰"},
+    {"speaker": "김희선", "text": "정경호는 내가 키운 느낌", "context": "밥이나 한잔해 발언"}
+  ],
+  "events": [
+    {"summary": "영재인 중3 딸을 위해 대치동까지 직접 라이딩", "year": null, "confirmed": true},
+    {"summary": "48세에도 뽀샵 아니냐는 말이 나올 만큼 놀라운 유연성을 보임", "year": null, "confirmed": true},
+    {"summary": "동료 배우 김남희에게 인생 첫 명품 벨트를 선물함", "year": null, "confirmed": true},
+    {"summary": "prelin 2026 SS 컬렉션 화보를 촬영함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "6년", "meaning": "출산 후 경력 공백 기간"},
+    {"value": "100억대", "meaning": "남편의 연매출 규모"}
+  ],
+  "credentials": [
+    {"item": "연매출 100억대 사업가", "whose": "남편"}
+  ],
+  "public_reactions": [
+    {"text": "뽀샵 아니에요", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이정재", "relation": "다음생은 없으니까 극중 상대", "mentioned_as": "멜로 라인 상대"},
+    {"name": "임지연", "relation": "다음생은 없으니까 극중 삼각관계", "mentioned_as": "멜로 라인 경쟁 상대"},
+    {"name": "윤박", "relation": "다음생은 없으니까 극중 남편", "mentioned_as": "불륜 누명을 쓴 극중 남편"},
+    {"name": "한혜진", "relation": "다음생은 없으니까 공동 출연", "mentioned_as": "실제로도 가까운 동료 배우"},
+    {"name": "진서연", "relation": "다음생은 없으니까 공동 출연", "mentioned_as": "실제로도 가까운 동료 배우"},
+    {"name": "정경호", "relation": "밥이나 한잔해 출연진", "mentioned_as": "내가 키운 느낌이라 언급한 후배"},
+    {"name": "김남희", "relation": "밥이나 한잔해 출연진", "mentioned_as": "인생 첫 명품 벨트를 선물받은 동료"}
+  ],
+  "works": [
+    {"title": "다음생은 없으니까", "year": null, "costar": "이정재",
+     "scene": "이정재와의 멜로 라인이 공감되는지 질문받은 것", "kind": "극중"},
+    {"title": "다음생은 없으니까", "year": null, "costar": "임지연",
+     "scene": "임지연과 삼각관계를 이루는 설정", "kind": "극중"},
+    {"title": "다음생은 없으니까", "year": null, "costar": "윤박",
+     "scene": "극중 남편 윤박의 불륜 누명을 벗기기 위해 진실을 파헤치는 장면", "kind": "극중"},
+    {"title": "다음생은 없으니까", "year": null, "costar": "한혜진",
+     "scene": "예쁜 사람은 질투하지 않는다며 서로를 챙기는 실제 케미", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "48세에도 놀라운 유연성을 보여 뽀샵 의심을 받음",
+    "살찔까 걱정하면서도 식단을 이어가는 자기 관리"
+  ],
+  "care_habits": ["꾸준한 식단 관리", "유연성 유지 운동"],
+  "hot_materials": [
+    {"material": "330만원 원피스를 아버지 남방 같다고 표현한 자기 개그", "why_hot": "발언"},
+    {"material": "극중 남편 윤박의 불륜 누명을 벗기려 나선 장면", "why_hot": "장면"},
+    {"material": "이정재·임지연과 이룬 멜로 삼각관계, 공감되냐는 질문", "why_hot": "실명"},
+    {"material": "집 팔고 봤더니 이준호가 이웃이 됐다는 에피소드", "why_hot": "발언"},
+    {"material": "출산 후 6년 공백에 대한 경력단절 불안 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "극중 남편의 불륜 누명을 벗기기 위해 나서는 장면",
+    "생일파티에서 330만원 원피스를 두고 벌인 자기 개그"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "prelin 2026 SS 컬렉션 화보",
+    "생일파티 드레스코드 사진"
+  ]
+}
