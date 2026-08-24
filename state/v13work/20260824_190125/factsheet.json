@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "고소영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "55세",
+    "age_range": "50대",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "톱배우 고소영, 장동건의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "고소영", "text": "집에만 있어도 선크림 발라", "context": "동안미녀 유지를 위한 습관을 밝힌 발언"},
+    {"speaker": "고소영", "text": "치매 예방 게임 같은 것, 긴장 풀어줘", "context": "모닝루틴을 소개하며 한 발언"},
+    {"speaker": "고소영", "text": "일부러 아냐, 원래 말투", "context": "목소리를 지적한 악플에 대한 해명"},
+    {"speaker": "고소영", "text": "어려 보이려는 것 아냐, 친절하고파", "context": "말투 관련 악플에 대한 해명"},
+    {"speaker": "고소영", "text": "때 밀면 예뻐져", "context": "동안 피부 비결을 밝힌 발언"},
+    {"speaker": "고소영", "text": "얼굴 광택 난다고", "context": "리프팅 레이저 시술 후 변화를 밝힌 발언"},
+    {"speaker": "고소영", "text": "명상하며 눈물, 착해져", "context": "명상 습관으로 인한 변화를 밝힌 발언"},
+    {"speaker": "고소영", "text": "사람들 시선 신경 안 써, 가리고 다니는 스타일 아냐", "context": "외출 시 태도에 대한 발언"},
+    {"speaker": "고소영", "text": "쉬는 동안 오해 생겼지만, 유튜브로 마음의 문 열었어요", "context": "유튜브 시작 이유를 밝힌 발언"},
+    {"speaker": "고소영", "text": "20대 때 둘이 고기 10인분 먹기도, 매일 몸무게 재며 관리", "context": "체중 관리 습관을 밝힌 발언"}
+  ],
+  "events": [
+    {"summary": "목소리 지적 악플에 직접 해명함", "year": null, "confirmed": true},
+    {"summary": "피부 시술을 안 받는다고 했다가 리프팅 레이저 600샷을 실토함", "year": null, "confirmed": true},
+    {"summary": "남편 장동건이 골프 라운딩에서 허리 숙여 인사하며 외조함", "year": null, "confirmed": true},
+    {"summary": "유튜브 채널을 열어 직접 소통을 시작함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "600샷", "meaning": "리프팅 레이저 시술 횟수"},
+    {"value": "15년", "meaning": "꾸준히 해온 운동 기간"},
+    {"value": "55세", "meaning": "현재 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "부부가 함께 어려지네", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "장동건", "relation": "남편", "mentioned_as": "골프 라운딩에서 다정하게 외조한 남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "동안미녀",
+    "20대 뺨치는 동안",
+    "얼굴 광택",
+    "부부가 함께 어려진다는 반응"
+  ],
+  "care_habits": [
+    "괄사 마사지로 얼굴 윤곽을 관리한다고 밝힘",
+    "눈썹 영양제를 쓰고 집에만 있어도 선크림을 바른다고 밝힘",
+    "리프팅 레이저 600샷을 받는다고 밝힘",
+    "때를 밀면 피부가 좋아진다고 밝힘",
+    "15년째 꾸준히 운동을 해왔다고 밝힘",
+    "매일 몸무게를 재며 관리한다고 밝힘",
+    "머리 감은 뒤 꼭 바르는 것이 있다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "피부 시술 안 받는다더니 리프팅 레이저 600샷을 실토한 반전", "why_hot": "반전"},
+    {"material": "목소리 악플에 '일부러 아냐, 원래 말투'라고 해명한 발언", "why_hot": "발언"},
+    {"material": "장동건이 골프장에서 허리 숙여 인사하며 외조한 장면", "why_hot": "장면"},
+    {"material": "부부가 함께 어려진다는 반응", "why_hot": "낙차"},
+    {"material": "돋보기 쓰고 침대에서 치매 예방 게임을 한다는 모닝루틴", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "골프장에서 장동건이 허리 숙여 인사하는 장면",
+    "돋보기를 쓰고 침대에 누워 게임을 하는 모닝루틴"
+  ],
+  "sns_materials": [
+    "본인 유튜브 채널을 통해 근황과 일상을 공개"
+  ],
+  "press_only_materials": [
+    "명품을 휘감고 외출한 파파라치 컷"
+  ]
+}
