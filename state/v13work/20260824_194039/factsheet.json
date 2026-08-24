@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "장원영",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 2004,
+    "age": null,
+    "age_range": "20대",
+    "career": "아이브 멤버로 활동 중인 가수",
+    "major_work": "아이브",
+    "identity_anchor": "그룹 아이브 멤버로 활동 중인 가수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장원영", "text": "무작정 안 굶어요", "context": "뉴시스"},
+    {"speaker": "장원영", "text": "저녁 3시간 동안 먹어요", "context": "마음건강 길"},
+    {"speaker": "장원영", "text": "보상 없는 고통 없어", "context": "유퀴즈"},
+    {"speaker": "장원영", "text": "사실 붙임머리", "context": "v.daum.net"},
+    {"speaker": "장원영", "text": "편의점 너무 좋아", "context": "twig24.com"},
+    {"speaker": "장원영", "text": "긍정도 부정도 모두 즐긴다", "context": "뉴스버즈"}
+  ],
+  "events": [
+    {"summary": "메릴 스트립·앤 해서웨이 앞에서 원어민급 영어로 대화하며 매료시킴", "year": null, "confirmed": true},
+    {"summary": "돌고래 고음이 웃음바다를 만들어 정식 사과 발표", "year": null, "confirmed": true},
+    {"summary": "유퀴즈 출연, 악플을 이겨낸 비결을 직접 밝힘", "year": null, "confirmed": true},
+    {"summary": "이광수가 게임 실력에 감탄함(출장 십오야)", "year": null, "confirmed": true},
+    {"summary": "박정민과 연기 호흡을 맞춰 자연스럽다는 반응을 얻음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "1시간", "meaning": "콘서트 후 매일 챙기는 관리 시간(구체 내용 비공개)"},
+    {"value": "3시간", "meaning": "저녁 식사에 들이는 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "쏘 뷰티풀", "where": "기사반응", "scale": "메릴 스트립·앤 해서웨이 반응"}
+  ],
+  "related_people": [
+    {"name": "카리나", "relation": "같은 K뷰티 트렌드를 함께 즐긴다고 언급됨", "mentioned_as": "동료 아이돌"},
+    {"name": "이광수", "relation": "게임 실력에 감탄한 예능 동료", "mentioned_as": "동료 방송인"},
+    {"name": "박정민", "relation": "연기 호흡을 맞춘 배우", "mentioned_as": "동료 배우"}
+  ],
+  "works": [
+    {"title": "출장 십오야", "year": null, "costar": "이광수", "scene": "게임 눈치가 빠르다며 이광수가 감탄한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "투명 피부라는 평가를 받음",
+    "광채 피부라는 평가를 받으며 스킨케어 기기 광고에 발탁됨",
+    "찰랑이는 머릿결이라는 평가를 받음"
+  ],
+  "care_habits": [
+    "콘서트 후 1시간씩 챙기는 관리 습관이 있다고 언급했으나 구체적인 내용은 비공개",
+    "씻고 또 씻는 100% 청결한 습관을 고집한다고 밝힘",
+    "무작정 굶지 않고 고단백 식단을 챙긴다고 밝힘",
+    "샴푸 전에 챙기는 습관이 있다고 언급했으나 구체적인 내용은 비공개"
+  ],
+  "hot_materials": [
+    {"material": "씻고 또 씻는 100% 청결 고집이 투명 피부의 비결이라는 평가", "why_hot": "낙차"},
+    {"material": "무작정 안 굶는다는 고단백 식단 발언", "why_hot": "발언"},
+    {"material": "악플에 대해 보상 없는 고통은 없다고 밝힌 소신", "why_hot": "발언"},
+    {"material": "메릴 스트립과 앤 해서웨이 앞에서 사실 붙임머리라고 깜짝 고백", "why_hot": "반전"},
+    {"material": "돌고래 고음으로 정식 사과까지 한 웃픈 해프닝", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "콘서트 후에도 챙기는 1시간짜리 관리 시간",
+    "저녁을 3시간에 걸쳐 천천히 먹는 모습",
+    "할리우드 배우들 앞에서 붙임머리를 고백하는 순간"
+  ],
+  "sns_materials": [
+    "일본 여행 중 편의점 간식 쇼핑 셀카",
+    "카디건과 슬립 드레스 근황 셀카"
+  ],
+  "press_only_materials": [
+    "에이피알 부스터프로X2 스킨케어 기기 광고",
+    "MLB 뉴욕 메츠 시구 패션",
+    "스팽글 투피스 무대 의상"
+  ]
+}
