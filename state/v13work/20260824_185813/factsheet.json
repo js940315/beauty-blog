@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "김남주",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "54세",
+    "age_range": "50대",
+    "career": "데뷔 30주년",
+    "major_work": "그 여자네 집, 안목의 여왕",
+    "identity_anchor": "톱배우 김남주, '안목의 여왕' 주연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김남주", "text": "얼굴 광 없으면 나이 들어보이는 편", "context": "피부 관리의 중요성을 밝힌 발언"},
+    {"speaker": "김남주", "text": "피부과 싫지만 써마지, 울세라 3종 한다", "context": "본인이 받는 피부 시술을 고백한 발언"},
+    {"speaker": "김남주", "text": "한 주 독하게 관리한다", "context": "169cm 47kg 체형 유지 비결을 밝힌 발언"},
+    {"speaker": "김남주", "text": "GD 따라, 용기 생겼다", "context": "딸과 스카프 패션을 시도한 이유를 밝힌 발언"},
+    {"speaker": "김남주", "text": "그 여자네 집 차인표 상대역, 정말 기뻤다", "context": "데뷔 30주년을 맞아 밝힌 소감"},
+    {"speaker": "김남주", "text": "차은우 애인 역할 아냐, 투샷 걱정해", "context": "20살 차이 캐스팅에 대한 소감"},
+    {"speaker": "김남주", "text": "예능 출연, 아무나 하나. 말 주변 없어 겁났다", "context": "예능 도전에 대한 소감"},
+    {"speaker": "김남주", "text": "설레고 떨려", "context": "데뷔 31년 만의 첫 단독 예능 소감"}
+  ],
+  "events": [
+    {"summary": "데뷔 30주년을 맞아 '그 여자네 집'에서 차인표와 상대역으로 만남", "year": null, "confirmed": true},
+    {"summary": "차은우와 20살 차이 나는 파격 캐스팅으로 화제", "year": null, "confirmed": true},
+    {"summary": "데뷔 31년 만에 첫 단독 예능에 도전함", "year": null, "confirmed": true},
+    {"summary": "딸 라희와 함께 스카프 패션을 시도해 눈길을 끔", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "169cm", "meaning": "키"},
+    {"value": "47kg", "meaning": "유지 체중"},
+    {"value": "54세", "meaning": "현재 나이"},
+    {"value": "20살", "meaning": "차은우와의 나이 차이"},
+    {"value": "30주년", "meaning": "데뷔 30주년"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "집에 있어 다행, 정 많아 보증 다 섰을 사람", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김승우", "relation": "남편", "mentioned_as": "20년째 함께하는 남편"},
+    {"name": "차인표", "relation": "'그 여자네 집' 상대역", "mentioned_as": "데뷔 30주년 상대 배우"},
+    {"name": "차은우", "relation": "20살 차이 파격 캐스팅 상대", "mentioned_as": "함께 캐스팅된 배우"},
+    {"name": "이영자", "relation": "절친", "mentioned_as": "걱정을 전한 절친"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "고운 50대 피부",
+    "물광 피부",
+    "피부 너무 곱다는 반응"
+  ],
+  "care_habits": [
+    "촬영 전날 꼭 지키는 피부 관리가 있다고 밝힘",
+    "써마지, 울세라 등 피부 시술을 받는다고 밝힘",
+    "169cm 47kg 유지를 위해 한 주 독하게 관리한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "피부과 싫어하면서도 써마지·울세라 3종을 받는다는 고백", "why_hot": "발언"},
+    {"material": "169cm 47kg 유지 비결로 '한 주 독하게 관리'라는 발언", "why_hot": "발언"},
+    {"material": "20살 차이 차은우와 파격 캐스팅", "why_hot": "낙차"},
+    {"material": "딸과 함께 시도한 스카프 패션에 GD를 언급한 발언", "why_hot": "발언"},
+    {"material": "이영자가 절친으로서 밝힌 걱정 어린 반응", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "피부과를 싫어하면서도 시술은 꾸준히 받는다는 고백 장면"
+  ],
+  "sns_materials": [
+    "본인 유튜브 채널에서 딸과 함께한 스카프 패션 근황"
+  ],
+  "press_only_materials": []
+}
