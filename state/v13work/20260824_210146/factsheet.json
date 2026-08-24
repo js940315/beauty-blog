@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "한지민",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "오랜 관록으로 화제성 1위에도 오른 배우, 글루타넥스 광채 앰버서더로도 활동",
+    "major_work": "나의 완벽한 비서",
+    "identity_anchor": "나의 완벽한 비서 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한지민", "text": "해쓱한 얼굴이 싫어서 밤에 붓는 걸 감수하고 먹는다", "context": "얼굴 붓기 관련 인터뷰"},
+    {"speaker": "한지민", "text": "운동해도 안 돼서 작년부터 음식으로 관리한다", "context": "몸매 관리 관련 인터뷰"},
+    {"speaker": "한지민", "text": "매년 축하해주셔서 고맙습니다", "context": "생일파티 소감"},
+    {"speaker": "한지민", "text": "직업이 배우라니까 오겜 나왔냐고 묻더라", "context": "호주 공항 세관 에피소드 인터뷰"},
+    {"speaker": "한지민", "text": "AI가 복수할까 무서워서 사과했다, 요즘엔 챗GPT 안 쓴다", "context": "핑계고 출연 인터뷰"},
+    {"speaker": "한지민", "text": "왜 욕을 안 먹는지 의문이다", "context": "18년 인연 이서진과의 예능 티키타카(비서진)"}
+  ],
+  "events": [
+    {"summary": "글루타넥스 광채 앰버서더로 2026년 새 캠페인을 시작함", "year": 2026, "confirmed": true},
+    {"summary": "생일파티에서 여전한 동안 미모로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "훌쩍 큰 조카와 찍은 사진을 공개, 김연경이 키가 비슷할 듯하다고 언급", "year": null, "confirmed": true},
+    {"summary": "호주 공항 세관에서 밥솥 때문에 붙잡힌 에피소드를 공개", "year": null, "confirmed": true},
+    {"summary": "손석구의 추천으로 예능 틈만 나면에 출연, 활약상을 자랑하라는 놀림을 받음", "year": null, "confirmed": true},
+    {"summary": "이준혁, 주지훈 등을 제치고 화제성 1위에 오름", "year": null, "confirmed": true},
+    {"summary": "유니세프 팀 캠페인에 다른 배우들과 함께 동참", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "18년", "meaning": "이서진과의 인연 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "키 비슷할 듯", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이서진", "relation": "예능 비서진 공동 출연", "mentioned_as": "18년 인연의 티키타카 상대"},
+    {"name": "손석구", "relation": "예능 동료", "mentioned_as": "그녀의 추천으로 예능에 출연한 동료"},
+    {"name": "김연경", "relation": "지인", "mentioned_as": "조카 사진에 반응을 남긴 지인"},
+    {"name": "이준혁", "relation": "나의 완벽한 비서 극중 상대", "mentioned_as": "극중 설렘을 자각하는 상대"}
+  ],
+  "works": [
+    {"title": "나의 완벽한 비서", "year": null, "costar": "이준혁",
+     "scene": "이준혁을 향한 마음을 자각하게 되는 장면", "kind": "극중"},
+    {"title": "비서진", "year": null, "costar": "이서진",
+     "scene": "18년 인연인 이서진과 예능에서 티키타카를 주고받은 것", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "해쓱해 보이는 게 싫어 붓기를 감수하고 야식을 먹는 습관",
+    "운동만으로는 부족해 작년부터 음식으로 몸매를 관리",
+    "생일파티에서도 여전한 동안 미모를 유지"
+  ],
+  "care_habits": ["야식으로 붓기 감수", "음식으로 체형 관리", "글루타넥스 광채 케어"],
+  "hot_materials": [
+    {"material": "해쓱한 얼굴이 싫어 붓는 걸 감수하고 야식을 먹는다는 발언", "why_hot": "발언"},
+    {"material": "호주 공항 세관에서 밥솥 때문에 붙잡혀 오겜 드립을 들은 에피소드", "why_hot": "장면"},
+    {"material": "손석구가 그녀의 추천으로 예능에 출연했다고 밝힌 것", "why_hot": "실명"},
+    {"material": "18년 인연 이서진과 예능에서 벌인 유쾌한 티키타카", "why_hot": "발언"},
+    {"material": "이준혁, 주지훈 등을 제치고 화제성 1위에 오른 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "호주 공항 세관에서 밥솥 때문에 붙잡힌 장면",
+    "손석구에게 활약상을 자랑하라는 놀림을 받은 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "골든듀 홀리데이 컬렉션 화보",
+    "한복 화보"
+  ]
+}
