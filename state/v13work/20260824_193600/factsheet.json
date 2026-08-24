@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "김희선",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1977,
+    "age": 48,
+    "age_range": "40대",
+    "career": "모두의 첫사랑으로 불리는 배우, 드라마 다음생은 없으니까 출연 중",
+    "major_work": "다음생은 없으니까",
+    "identity_anchor": "모두의 첫사랑으로 불리는 배우, 드라마 다음생은 없으니까 출연 중인 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김희선", "text": "살찔까 식단하지만 이것 포기 못한다", "context": "데일리안"},
+    {"speaker": "김희선", "text": "연 매출 100억대 남편, 첫눈에 결혼해야겠다 생각", "context": "머니투데이"},
+    {"speaker": "김희선", "text": "내 고민 다 들어줘", "context": "v.daum.net"},
+    {"speaker": "김희선", "text": "IMF 때 이태원 땅 다 샀다, 다 사줄게", "context": "머니투데이"},
+    {"speaker": "김희선", "text": "출산 후 6년 공백, TV보며 저거 내건데", "context": "나래식"},
+    {"speaker": "김희선", "text": "성격 급하고 허둥지둥 대는데 한혜진 진서연이 이끌어줘", "context": "네이트"},
+    {"speaker": "김희선", "text": "집 팔고 봤더니 2PM 이준호, 이사 오고 알아", "context": "뉴시스"},
+    {"speaker": "김희선", "text": "정을영 PD 아들 정경호, 내가 키운 느낌", "context": "매일경제"},
+    {"speaker": "김희선", "text": "책임지고 물러나겠다", "context": "v.daum.net"}
+  ],
+  "events": [
+    {"summary": "출산 후 6년간 경력 단절을 겪음", "year": null, "confirmed": true},
+    {"summary": "연 매출 100억대 사업가 남편과 결혼", "year": null, "confirmed": true},
+    {"summary": "IMF 시기 이태원 일대 부동산을 사들인 일화가 있음", "year": null, "confirmed": true},
+    {"summary": "드라마 다음생은 없으니까에서 한혜진 진서연과 함께 출연 중", "year": null, "confirmed": true},
+    {"summary": "요리 예능에서 하차를 스스로 결심함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48세", "meaning": "현재 나이"},
+    {"value": "100억", "meaning": "남편의 연 매출 규모"},
+    {"value": "6년", "meaning": "출산 후 경력 단절 기간"}
+  ],
+  "credentials": [
+    {"item": "연 매출 100억대 사업가", "whose": "남편"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "한혜진", "relation": "다음생은 없으니까 동료 배우", "mentioned_as": "동료 배우"},
+    {"name": "진서연", "relation": "다음생은 없으니까 동료 배우", "mentioned_as": "동료 배우"},
+    {"name": "유해진", "relation": "밥이나 한잔해 동료 출연자", "mentioned_as": "동료 방송인"},
+    {"name": "정경호", "relation": "밥이나 한잔해 PD의 아들, 배우로 성장한 것을 지켜봄", "mentioned_as": "지인의 아들"}
+  ],
+  "works": [
+    {"title": "다음생은 없으니까", "year": null, "costar": "한혜진", "scene": "성격이 급하고 허둥지둥 대는 자신을 한혜진과 진서연이 이끌어준다고 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "48세인데 놀라운 유연성을 보였다는 평가를 받음",
+    "애 엄마 맞냐는 반응이 나올 만큼 수수한 미모라는 평가를 받음",
+    "무더위를 잊게 하는 미모라는 평가를 받음"
+  ],
+  "care_habits": [
+    "살찔까봐 식단 관리를 하면서도 포기 못하는 음식이 있다고 밝힘(구체 메뉴는 비공개)"
+  ],
+  "hot_materials": [
+    {"material": "연 매출 100억대 남편에게 첫눈에 반해 결혼했다는 고백", "why_hot": "발언"},
+    {"material": "IMF 때 이태원 땅을 다 샀다는 재력 일화", "why_hot": "반전"},
+    {"material": "출산 후 6년 경력 단절을 겪었다는 고백", "why_hot": "발언"},
+    {"material": "48세인데 놀라운 유연성을 보였다는 평가", "why_hot": "낙차"},
+    {"material": "한혜진 진서연이 이끌어준다는 겸손한 고백", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "살찔까 식단하면서도 포기 못하는 음식이 있는 모습",
+    "출산 후 TV를 보며 저거 내 배역인데 하고 아쉬워하던 시절",
+    "허둥지둥 대는 자신을 동료들이 이끌어주는 촬영장"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "prelin 2026 SS 컬렉션 화보",
+    "다음생은 없으니까 스틸컷"
+  ]
+}
