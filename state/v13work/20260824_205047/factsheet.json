@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "김남주",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "그 여자네 집 등 히트작을 거친 배우, 데뷔 31년 만에 첫 단독 예능 안목의 여왕 진행",
+    "major_work": "그 여자네 집, 안목의 여왕",
+    "identity_anchor": "그 여자네 집 주연, 안목의 여왕 진행 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김남주", "text": "얼굴에 광이 없으면 나이 들어보이는 편", "context": "외모 관리 관련 인터뷰"},
+    {"speaker": "김남주", "text": "피부과는 싫지만 써마지, 울쎄라 세 가지는 한다", "context": "물광 피부 비결 인터뷰"},
+    {"speaker": "김남주", "text": "여배우 식단 관리는 불쌍하지 않다, 다 자업자득", "context": "몸매 관리 관련 인터뷰"},
+    {"speaker": "김남주", "text": "한 주 동안 독하게 관리한다", "context": "169cm 47kg 유지 비결 인터뷰"},
+    {"speaker": "김남주", "text": "김승우가 갑, 나는 을이다, 외모와 위치가 나보다 낫다고 여긴다", "context": "부부 관계 관련 인터뷰"},
+    {"speaker": "김남주", "text": "GD 따라 한 건데 사실 스카프는 딸이 먼저였다", "context": "딸과의 스카프 패션 관련 유튜브"},
+    {"speaker": "김남주", "text": "그 여자네 집에서 차인표와 상대역을 맡아 정말 기뻤다", "context": "데뷔 30주년 화보 인터뷰"},
+    {"speaker": "김남주", "text": "예능 출연은 아무나 하나, 말주변이 없어 겁났다", "context": "이영자 TV 출연 인터뷰"},
+    {"speaker": "김남주", "text": "예능 신인이라 밤잠을 설친다", "context": "안목의 여왕 단독 예능 진행 소감"}
+  ],
+  "events": [
+    {"summary": "데뷔 31년 만에 첫 단독 예능 안목의 여왕을 진행하게 됨", "year": null, "confirmed": true},
+    {"summary": "작품을 위해 46kg까지 체중을 감량한 적이 있음", "year": null, "confirmed": true},
+    {"summary": "20살 딸 라희와 나란히 스카프 패션을 소화함", "year": null, "confirmed": true},
+    {"summary": "차은우와 20살 차이 나는 캐스팅이 화제가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "169cm", "meaning": "키"},
+    {"value": "47kg", "meaning": "유지 체중"},
+    {"value": "46kg", "meaning": "작품을 위한 감량 체중"},
+    {"value": "31년", "meaning": "데뷔 후 경과 연수"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "정 많아 보증 다 섰을 사람", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김승우", "relation": "남편", "mentioned_as": "부부 관계 발언의 주인공"},
+    {"name": "차인표", "relation": "그 여자네 집 상대역", "mentioned_as": "데뷔 30주년 인터뷰에서 언급한 상대역"},
+    {"name": "차은우", "relation": "신작 상대역", "mentioned_as": "20살 차이 파격 캐스팅 상대"},
+    {"name": "이영자", "relation": "절친", "mentioned_as": "그녀를 걱정해준 방송 속 친구"}
+  ],
+  "works": [
+    {"title": "그 여자네 집", "year": null, "costar": "차인표",
+     "scene": "차인표와 상대역을 맡아 정말 기뻤다고 밝힌 것", "kind": "실제"},
+    {"title": "신작 캐스팅", "year": null, "costar": "차은우",
+     "scene": "20살 차이에도 애인 역할이 아니라 투샷을 걱정했다고 밝힌 것", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "얼굴에 광이 없으면 나이 들어 보인다는 본인만의 기준",
+    "피부과는 싫어하면서도 써마지·울쎄라 시술은 받는다고 밝힘",
+    "169cm에 47kg을 유지하는 몸매 관리",
+    "작품을 위해 46kg까지 감량한 이력"
+  ],
+  "care_habits": ["써마지", "울쎄라", "한 주간 독한 체중 관리"],
+  "hot_materials": [
+    {"material": "피부과는 싫지만 써마지·울쎄라 세 가지는 한다는 자기 발언", "why_hot": "발언"},
+    {"material": "여배우 식단 관리는 자업자득이라는 소신 발언", "why_hot": "발언"},
+    {"material": "김승우가 갑, 나는 을이라는 부부 관계 고백", "why_hot": "발언"},
+    {"material": "20살 딸 라희와 함께한 스카프 패션, GD보다 먼저였다는 사실", "why_hot": "반전"},
+    {"material": "차은우와 20살 차이 캐스팅에 투샷을 걱정했다는 발언", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "20살 딸 라희와 나란히 스카프 패션을 선보인 장면",
+    "데뷔 31년 만에 첫 단독 예능을 진행하게 된 순간"
+  ],
+  "sns_materials": [
+    "딸 라희와의 스카프 패션 (본인 유튜브 콘텐츠)"
+  ],
+  "press_only_materials": [
+    "데뷔 30주년 기념 화보",
+    "수영복 커버 의상 화보"
+  ]
+}
