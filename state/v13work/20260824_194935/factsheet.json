@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "고소영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1972,
+    "age": 55,
+    "age_range": "50대",
+    "career": "동안미녀로 불리는 배우",
+    "major_work": "",
+    "identity_anchor": "동안미녀로 불리는 배우, 장동건의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "고소영", "text": "일부러 아냐, 원래 말투", "context": "mhnse.com"},
+    {"speaker": "고소영", "text": "어려 보이려는 것 아냐, 친절하고파", "context": "mydaily.co.kr"},
+    {"speaker": "고소영", "text": "집에만 있어도 선크림 발라", "context": "네이트"},
+    {"speaker": "고소영", "text": "치매 예방 게임 같은 것, 긴장 풀어줘", "context": "xportsnews.com"},
+    {"speaker": "고소영", "text": "자기야 인사 좀", "context": "xportsnews.com"},
+    {"speaker": "고소영", "text": "때 밀면 예뻐져", "context": "스포츠조선"},
+    {"speaker": "고소영", "text": "명품 휘감고 외출, 사람들 시선 신경 안 써", "context": "네이트"},
+    {"speaker": "고소영", "text": "0.5kg 쪄도 빼야 한다", "context": "뉴스엔"},
+    {"speaker": "고소영", "text": "쉬는 동안 오해 생겼지만, 유튜브로 마음의 문 열었어요", "context": "동아일보"}
+  ],
+  "events": [
+    {"summary": "목소리 관련 악플에 직접 억울함을 호소하며 해명함", "year": null, "confirmed": true},
+    {"summary": "골프장에서 장동건이 허리 숙여 인사하며 다정하게 외조함", "year": null, "confirmed": true},
+    {"summary": "피부과 시술을 안 받는다더니 리프팅 레이저 600샷을 실토함", "year": null, "confirmed": true},
+    {"summary": "활동을 쉬던 동안 생긴 오해를 유튜브로 풀었다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "명상을 하며 눈물을 흘릴 만큼 마음이 편안해졌다고 남편이 체감함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "600샷", "meaning": "얼굴과 목에 받은 리프팅 레이저 시술 횟수"},
+    {"value": "55세", "meaning": "현재 나이"},
+    {"value": "15년", "meaning": "늘씬한 몸매를 위해 해온 습관의 기간(구체 종목 비공개)"},
+    {"value": "0.5kg", "meaning": "찌면 바로 빼야 한다고 밝힌 체중 기준"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "장동건", "relation": "남편, 배우", "mentioned_as": "남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "동안미녀라는 평가를 받음",
+    "20대 뺨치는 동안이라는 평가를 받음",
+    "부부가 함께 어려진다는 평가를 받음"
+  ],
+  "care_habits": [
+    "괄사 마사지로 얼굴 윤곽을 관리한다고 밝힘",
+    "눈썹 영양제를 챙기고 집에만 있어도 선크림을 바른다고 밝힘",
+    "아침에 침대에서 게임을 하며 긴장을 푼다고 밝힘",
+    "삶은 달걀에 무언가를 뿌려 먹어 식욕을 눌러준다고 언급했으나 구체 재료는 비공개",
+    "죄책감 없는 탄수화물이라 극찬한 음식이 있다고 언급했으나 구체 메뉴는 비공개",
+    "리프팅 레이저 600샷을 받았다고 직접 밝힘",
+    "때를 밀면 예뻐진다는 자신만의 관리 철학을 밝힘",
+    "15년째 이어온 운동 습관이 있다고 언급했으나 구체 종목은 비공개",
+    "명상을 한다고 밝힘",
+    "머리를 감고 꼭 바르는 것이 있다고 언급했으나 구체 제품은 비공개"
+  ],
+  "hot_materials": [
+    {"material": "목소리 악플에 원래 말투라며 직접 해명한 일화", "why_hot": "발언"},
+    {"material": "피부과 시술 안 받는다더니 600샷을 실토한 반전", "why_hot": "반전"},
+    {"material": "골프장에서 장동건이 허리 숙여 인사한 다정한 외조", "why_hot": "장면"},
+    {"material": "대식가인데 0.5kg만 쪄도 바로 빼는 강박에 가까운 관리", "why_hot": "발언"},
+    {"material": "활동 쉬던 동안의 오해를 유튜브로 풀었다는 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "골프장에서 장동건이 허리 숙여 인사하는 모습",
+    "침대에 누워 돋보기를 쓰고 게임을 하는 아침",
+    "명상을 하다 눈물을 흘리는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "부부 골프장 동반 외출 사진",
+    "명품 착장 외출 사진"
+  ]
+}
