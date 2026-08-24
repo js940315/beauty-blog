@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "장원영",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "아이브 멤버로 활동 중인 여자 아이돌, 긍정적인 사고방식으로도 화제",
+    "major_work": "아이브",
+    "identity_anchor": "아이브 멤버 장원영"
+  },
+  "namesake_dropped": ["군입대한 남자 연예인 장원영", "군 체험 예능에 등장한 장원영"],
+  "quotes": [
+    {"speaker": "장원영", "text": "무작정 안 굶어요", "context": "고단백 식단 관련 인터뷰"},
+    {"speaker": "장원영", "text": "저녁 3시간 동안 먹어요", "context": "식습관 관련 인터뷰"},
+    {"speaker": "장원영", "text": "보상 없는 고통 없어", "context": "유퀴즈 출연, 악플 극복 비결"},
+    {"speaker": "장원영", "text": "긍정도 부정도 모두 즐긴다", "context": "가치관 인터뷰"},
+    {"speaker": "장원영", "text": "사실 붙임머리예요", "context": "메릴 스트립·앤 해서웨이 앞에서 한 고백"},
+    {"speaker": "장원영", "text": "기죽지 말고 살아봐", "context": "시집 감성 관련 발언"}
+  ],
+  "events": [
+    {"summary": "메릴 스트립, 앤 해서웨이와 만나 원어민급 영어 실력을 보여줌", "year": null, "confirmed": true},
+    {"summary": "박정민과 호흡을 맞추며 언니 장다아의 명대사를 따라해 훈훈한 반응을 얻음", "year": null, "confirmed": true},
+    {"summary": "출장 십오야에서 눈치 빠른 게임 실력으로 이광수를 감탄시킴", "year": null, "confirmed": true},
+    {"summary": "아이브 무대에서 고음 실수 후 정식 사과 발표, 팬들 사이에서 훈훈한 웃음으로 마무리", "year": null, "confirmed": true},
+    {"summary": "에이피알 뷰티기기 부스터프로X2 광고 모델로 발탁", "year": null, "confirmed": true},
+    {"summary": "MLB 뉴욕 메츠 경기 시구 행사 참여", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "173cm", "meaning": "키"},
+    {"value": "3시간", "meaning": "저녁 식사에 들이는 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "바비인형 같네", "where": "기사반응", "scale": ""},
+    {"text": "쏘 뷰티풀", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "장다아", "relation": "친언니", "mentioned_as": "명대사를 따라한 배우 언니"},
+    {"name": "박정민", "relation": "연기 호흡 상대", "mentioned_as": "연기 도전에서 함께한 배우"},
+    {"name": "이광수", "relation": "예능 동료", "mentioned_as": "게임 실력에 감탄한 동료"},
+    {"name": "최예나", "relation": "동료 아이돌", "mentioned_as": "라디오스타 출연 후 가장 먼저 피드백을 준 사이"}
+  ],
+  "works": [
+    {"title": "출장 십오야", "year": null, "costar": "이광수",
+     "scene": "눈치 빠른 게임 실력으로 이광수를 감탄시킨 장면", "kind": "실제"},
+    {"title": "유퀴즈", "year": null, "costar": "",
+     "scene": "탈덕수용소와 악플을 이겨낸 비결을 직접 밝힌 장면", "kind": "실제"},
+    {"title": "드라마 출연", "year": null, "costar": "박정민",
+     "scene": "언니 장다아의 명대사를 따라하며 호흡을 맞춘 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "콘서트 후 1시간씩 피부 관리에 시간을 들임",
+    "하루 여러 차례 씻는 100% 청결 습관",
+    "샴푸 전 별도의 관리 단계를 거치는 헤어 루틴",
+    "무작정 굶지 않는 고단백 식단"
+  ],
+  "care_habits": ["콘서트 후 피부 관리", "잦은 샤워", "샴푸 전 관리 단계", "고단백 식단", "저녁 식사 3시간"],
+  "hot_materials": [
+    {"material": "무작정 안 굶어요, 고단백 식단을 지킨다는 발언", "why_hot": "발언"},
+    {"material": "메릴 스트립·앤 해서웨이 앞에서 사실 붙임머리라고 고백한 순간", "why_hot": "장면"},
+    {"material": "탈덕수용소와 악플을 이겨낸 비결, 보상 없는 고통 없다는 발언", "why_hot": "발언"},
+    {"material": "저녁 3시간 동안 먹는다는 식습관", "why_hot": "발언"},
+    {"material": "언니 장다아의 명대사를 따라하며 연기에 도전한 장면", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "메릴 스트립과 앤 해서웨이 앞에서 붙임머리를 고백한 순간",
+    "아이브 무대에서 고음 실수 후 정식 사과문을 낸 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "MLB 뉴욕 메츠 시구 행사 패션",
+    "에이피알 뷰티기기 광고 비주얼",
+    "근황 셀카 화보"
+  ]
+}
