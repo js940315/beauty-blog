@@ -1,0 +1,84 @@
+{
+  "person": {
+    "name": "김남주",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1971,
+    "age": 54,
+    "age_range": "50대",
+    "career": "데뷔 30년 넘은 배우, 드라마 안목의 여왕 출연 중",
+    "major_work": "그 여자네 집",
+    "identity_anchor": "그 여자네 집으로 알려진 배우, 드라마 안목의 여왕 출연 중"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김남주", "text": "얼굴 광 없으면 나이 들어보이는 편", "context": "starnewskorea.com"},
+    {"speaker": "김남주", "text": "피부과 싫지만 써마지 울세라 3종 한다", "context": "네이트"},
+    {"speaker": "김남주", "text": "한주 독하게 관리한다", "context": "텐아시아"},
+    {"speaker": "김남주", "text": "이상민 결혼식서 부케 받아 결혼했다", "context": "gukjenews.com"},
+    {"speaker": "김남주", "text": "김승우는 갑, 나는 을, 나보다 외모·위치 낫다고 여겨", "context": "네이트"},
+    {"speaker": "김남주", "text": "애들만 찍냐, 포즈는 촌스러워", "context": "스포츠조선"},
+    {"speaker": "김남주", "text": "GD 따라, 용기 생겼다", "context": "v.daum.net"},
+    {"speaker": "김남주", "text": "10년째 졸업 못했다", "context": "조선일보"},
+    {"speaker": "김남주", "text": "차인표 상대역, 정말 기뻤다", "context": "픽콘"},
+    {"speaker": "김남주", "text": "차은우 애인 역할 아냐, 투샷 걱정해", "context": "지디넷코리아"},
+    {"speaker": "김남주", "text": "설레고 떨려", "context": "v.daum.net"}
+  ],
+  "events": [
+    {"summary": "이상민 결혼식에서 부케를 받은 뒤 김승우와 결혼함", "year": null, "confirmed": true},
+    {"summary": "20살 딸 라희와 함께 스카프 패션을 시도, GD보다 먼저였다는 언급", "year": null, "confirmed": true},
+    {"summary": "데뷔 30주년을 맞이함", "year": null, "confirmed": true},
+    {"summary": "데뷔 31년 만에 첫 단독 예능에 출연", "year": null, "confirmed": true},
+    {"summary": "작품을 위해 46kg까지 감량한 적이 있음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "169cm", "meaning": "키"},
+    {"value": "47kg", "meaning": "유지 체중"},
+    {"value": "46kg", "meaning": "작품을 위해 감량했던 체중"},
+    {"value": "54세", "meaning": "현재 나이"},
+    {"value": "20년", "meaning": "결혼 생활 중 주방을 써온 기간"},
+    {"value": "10년", "meaning": "졸업하지 못했다고 밝힌 기간"},
+    {"value": "31년", "meaning": "데뷔 후 첫 단독 예능까지 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김승우", "relation": "남편, 배우 겸 방송인", "mentioned_as": "남편"},
+    {"name": "차인표", "relation": "그 여자네 집 상대역", "mentioned_as": "동료 배우"},
+    {"name": "이상민", "relation": "결혼식에서 부케를 받은 인연", "mentioned_as": "동료 방송인"}
+  ],
+  "works": [
+    {"title": "그 여자네 집", "year": null, "costar": "차인표", "scene": "상대역으로 함께해 정말 기뻤다고 밝힌 장면", "kind": "실제"},
+    {"title": "안목의 여왕", "year": null, "costar": "차은우", "scene": "애인 역할이 아니라며 투샷을 걱정했다고 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "고운 50대 피부라는 평가를 받음",
+    "물광 피부라는 평가를 받음",
+    "피부가 너무 곱다는 평가를 받음"
+  ],
+  "care_habits": [
+    "얼굴에 광이 없으면 나이 들어 보인다고 밝힘",
+    "촬영 전날 꼭 지키는 습관이 있다고 언급했으나 구체적인 내용은 비공개",
+    "피부과를 싫어하지만 써마지·울세라 시술 3종을 받는다고 직접 밝힘",
+    "체중 유지를 위해 한 주씩 독하게 관리한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "피부과 싫어하지만 써마지 울세라 3종을 받는다는 직접 고백", "why_hot": "발언"},
+    {"material": "169cm 47kg을 한 주씩 독하게 관리해 유지한다는 고백", "why_hot": "발언"},
+    {"material": "이상민 결혼식 부케를 받고 김승우와 결혼했다는 일화", "why_hot": "실명"},
+    {"material": "20살 딸과 함께한 스카프 패션이 GD보다 먼저였다는 언급", "why_hot": "반전"},
+    {"material": "데뷔 31년 만에 첫 단독 예능에 도전했다는 소식", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "촬영 전날 꼭 챙기는 피부 관리 루틴",
+    "부케를 받던 결혼식 순간",
+    "딸과 나란히 스카프를 두른 모습"
+  ],
+  "sns_materials": [
+    "본인 유튜브에 올린 딸과의 스카프 패션 영상"
+  ],
+  "press_only_materials": [
+    "부부 커플사진",
+    "안목의 여왕 스틸컷"
+  ]
+}
