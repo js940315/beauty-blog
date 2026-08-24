@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "임수정",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "미사, 파인 등으로 사랑받은 배우, 최근 디렉터스컷어워즈 여자배우상 2관왕",
+    "major_work": "파인: 촌뜨기들",
+    "identity_anchor": "파인: 촌뜨기들로 여자배우상 2관왕을 받은 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "임수정", "text": "피부과를 열심히 다니고, 유전도 있는 것 같다", "context": "동안 비결 인터뷰"},
+    {"speaker": "임수정", "text": "매니저가 없어서 전화도 직접 받고, 출연료도 셀프로 정산한다", "context": "유퀴즈 첫 예능 출연 인터뷰"},
+    {"speaker": "임수정", "text": "정우성, 현빈, 강동원보다 이동욱이 단연코 최고다", "context": "남편 이동욱에 대한 인터뷰"},
+    {"speaker": "임수정", "text": "지인에게 속아 20억을 날렸지만 지금은 많이 올라온 상태", "context": "유퀴즈 인터뷰"},
+    {"speaker": "임수정", "text": "제철 음식을 먹는 즐거움이 있다", "context": "8년째 채식 식단 인터뷰"},
+    {"speaker": "임수정", "text": "사랑스러운 영화, 연애 세포가 깨어났다", "context": "싱글 인 서울 개봉 인터뷰"}
+  ],
+  "events": [
+    {"summary": "데뷔 22년 만에 첫 예능(유퀴즈)에 출연, 조승우가 적극 추천했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "파인: 촌뜨기들로 디렉터스컷어워즈 여자배우상 2관왕을 수상", "year": null, "confirmed": true},
+    {"summary": "김연경, 설인아와 함께 수트 패션 화보를 촬영, 팬들이 설레했다는 반응", "year": null, "confirmed": true},
+    {"summary": "지인에게 속아 20억을 날렸지만 회복한 경험을 공개적으로 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "22년", "meaning": "데뷔 후 첫 예능 출연까지 걸린 시간"},
+    {"value": "20억", "meaning": "지인에게 사기당한 금액"},
+    {"value": "8년", "meaning": "채식 식단을 이어온 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "언니 잘생겼어요", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이동욱", "relation": "남편", "mentioned_as": "다른 배우들보다 최고라고 극찬한 남편"},
+    {"name": "조승우", "relation": "예능 출연 추천인", "mentioned_as": "첫 예능 출연을 적극 추천한 동료"},
+    {"name": "김연경", "relation": "화보 공동 촬영", "mentioned_as": "수트 패션을 함께한 지인"}
+  ],
+  "works": [
+    {"title": "파인: 촌뜨기들", "year": null, "costar": "",
+     "scene": "이 작품으로 여자배우상 2관왕을 수상한 것", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "피부과를 열심히 다니는 관리 습관과 유전적 동안",
+    "8년째 이어온 채식 식단",
+    "제철 음식을 즐기는 식습관"
+  ],
+  "care_habits": ["피부과 관리", "채식 식단", "제철 음식 위주 식사"],
+  "hot_materials": [
+    {"material": "정우성, 현빈, 강동원보다 이동욱이 최고라는 남편 극찬", "why_hot": "실명"},
+    {"material": "지인에게 속아 20억을 날렸지만 회복했다는 고백", "why_hot": "발언"},
+    {"material": "데뷔 22년 만에 첫 예능, 매니저 없이 셀프로 산다는 소탈함", "why_hot": "발언"},
+    {"material": "파인: 촌뜨기들로 여자배우상 2관왕을 받은 것", "why_hot": "낙차"},
+    {"material": "김연경, 설인아와 수트 화보로 팬들을 설레게 한 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "유퀴즈에서 매니저 없이 산다는 소탈한 일상을 공개한 장면",
+    "김연경, 설인아와 함께한 수트 화보 촬영 현장"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "레드 트위드 슈트 화보",
+    "세일러 칼라 원피스룩 화보"
+  ]
+}
