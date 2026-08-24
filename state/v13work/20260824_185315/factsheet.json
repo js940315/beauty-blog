@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "이영애",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "54세",
+    "age_range": "50대",
+    "career": "",
+    "major_work": "대장금",
+    "identity_anchor": "'대장금' 주연 배우 이영애"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이영애", "text": "매끄러운 피부 위해", "context": "36년째 이어온 스킨케어 루틴을 공개하며 한 발언"},
+    {"speaker": "이영애", "text": "세안할 때 아래서 위로 닦기", "context": "백옥 피부 비결로 밝힌 세안법"},
+    {"speaker": "이영애", "text": "먹는 거, 운동 뭐든 적당히", "context": "피부 관리 원칙을 밝힌 발언"},
+    {"speaker": "이영애", "text": "시술받고 세안 신경 써", "context": "백옥 피부 비결을 밝힌 발언"},
+    {"speaker": "이영애", "text": "탄력 효과 좋아", "context": "1년에 세 번 받는 피부 시술을 고백하며 한 발언"},
+    {"speaker": "이영애", "text": "안 꾸미면 위아래로 훑어봐", "context": "딸이 자신을 지적한다는 일화를 밝힌 발언"},
+    {"speaker": "이영애", "text": "감사합니다, 건강하세요", "context": "23년 만에 재회한 '대장금' 요리 스승에게 한 인사"}
+  ],
+  "events": [
+    {"summary": "'불후의 명곡'에서 36년 스킨케어 루틴을 최초 공개함", "year": null, "confirmed": true},
+    {"summary": "'대장금' 요리 스승과 23년 만에 재회함", "year": null, "confirmed": true},
+    {"summary": "남편 정호영과 함께 찍힌 사진에서 부부 모두 동안이라는 반응을 받음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "36년", "meaning": "스킨케어 루틴을 이어온 기간"},
+    {"value": "23년", "meaning": "대장금 요리 스승과 재회하기까지 걸린 기간"},
+    {"value": "1년에 3번", "meaning": "피부 탄력 시술을 받는 빈도"},
+    {"value": "54세", "meaning": "현재 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "20대처럼 보인다", "where": "기사반응", "scale": ""},
+    {"text": "75세 맞아? 40대인 줄 알았다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "정호영", "relation": "남편", "mentioned_as": "20살 연상, 동안 비주얼로 화제 된 남편"},
+    {"name": "이찬원", "relation": "'불후의 명곡'에서 리프팅 마사지법을 듣고 열광한 후배 가수", "mentioned_as": "감탄한 후배"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "날렵한 턱선",
+    "무결점 피부",
+    "백옥 피부",
+    "20대처럼 보이는 피부",
+    "탄탄한 팔근육과 완벽한 체지방률"
+  ],
+  "care_habits": [
+    "36년째 이어온 스킨케어 루틴이 있다고 밝힘",
+    "세안할 때 아래에서 위로 닦아 올린다고 밝힘",
+    "1년에 세 번 피부 탄력 시술을 받는다고 밝힘",
+    "먹는 것과 운동 모두 적당히 한다는 원칙을 밝힘",
+    "동백오일을 쓴다고 밝힘",
+    "아침마다 토마토와 당근을 먹는다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "36년째 이어온 스킨케어 루틴을 처음 공개", "why_hot": "낙차"},
+    {"material": "1년에 세 번 받는 피부 시술을 본인이 직접 고백", "why_hot": "발언"},
+    {"material": "딸이 안 꾸미면 위아래로 훑어보며 지적한다는 일화", "why_hot": "발언"},
+    {"material": "23년 만에 대장금 요리 스승과 재회한 일화", "why_hot": "반전"},
+    {"material": "남편 정호영도 75세에 동안 비주얼로 화제", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "36년 스킨케어 루틴을 처음 공개하는 방송 장면",
+    "23년 만에 요리 스승을 찾아가 인사를 전하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
