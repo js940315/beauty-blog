@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "김희선",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "48세",
+    "age_range": "40대",
+    "career": "",
+    "major_work": "다음생은 없으니까, 밥이나 한잔해",
+    "identity_anchor": "톱배우 김희선, '다음생은 없으니까' 주연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김희선", "text": "살찔까 식단하지만 이것 포기 못한다", "context": "몸매 유지 비결을 묻는 질문에 답한 발언"},
+    {"speaker": "김희선", "text": "성격 급하고 허둥지둥 대는 데 한혜진·진서연이 이끌어줘", "context": "동료 배우들과의 호흡에 대한 발언"},
+    {"speaker": "김희선", "text": "연 매출 100억대 남편, 첫눈에 결혼해야겠다 생각", "context": "남편과의 첫 만남을 회상한 발언"},
+    {"speaker": "김희선", "text": "내 고민 다 들어줘", "context": "남편 자랑을 하며 한 발언"},
+    {"speaker": "김희선", "text": "집 팔고 봤더니 2PM 이준호, 이사 오고 알아", "context": "이웃 근황을 밝힌 발언"},
+    {"speaker": "김희선", "text": "예능과 드라마 동반 출연이 시청자들 몰입을 방해할까 걱정", "context": "동시 출연에 대한 고민을 밝힌 발언"}
+  ],
+  "events": [
+    {"summary": "드라마 '다음생은 없으니까'에서 한혜진, 진서연과 함께 40대 여성 서사를 그림", "year": null, "confirmed": true},
+    {"summary": "예능 '한끼합쇼'에서 하차를 결심하고 책임지겠다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "출산 후 6년간의 경력 공백에 대한 불안을 언급함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48세", "meaning": "현재 나이"},
+    {"value": "6년", "meaning": "출산 후 경력 공백 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "한혜진", "relation": "'다음생은 없으니까' 공동 주연", "mentioned_as": "동료 배우"},
+    {"name": "진서연", "relation": "'다음생은 없으니까' 공동 주연", "mentioned_as": "동료 배우"},
+    {"name": "윤박", "relation": "'다음생은 없으니까' 극중 남편 역", "mentioned_as": "극중 남편"},
+    {"name": "이정재", "relation": "'다음생은 없으니까' 공동 출연", "mentioned_as": "동료 배우"},
+    {"name": "이준호", "relation": "이사 후 알게 된 이웃", "mentioned_as": "2PM 멤버"}
+  ],
+  "works": [
+    {"title": "다음생은 없으니까", "year": null, "costar": "윤박", "scene": "극중 남편의 불륜 누명을 벗기기 위해 나서며 '가족 지키는 게 제일 중요해'라고 말한 장면", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "20대 뺨치는 수수한 미모",
+    "애 엄마 맞냐는 반응",
+    "뽀샵 아니냐는 반응을 부른 유연성",
+    "무더위를 잊게 한 미모"
+  ],
+  "care_habits": [
+    "살찔까 봐 식단 관리를 한다고 밝힘",
+    "다만 포기 못하는 음식 한 가지가 있다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "48세인데 20대 뺨치는 수수한 미모라는 반응", "why_hot": "낙차"},
+    {"material": "48세 나이에 뽀샵 아니냐는 유연성 화제", "why_hot": "낙차"},
+    {"material": "식단하지만 포기 못하는 것 한 가지가 있다는 본인 발언", "why_hot": "발언"},
+    {"material": "한혜진·진서연이 이끌어줬다는 소탈한 발언", "why_hot": "발언"},
+    {"material": "연 매출 100억대 남편과 첫눈에 결혼 결심한 일화", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "애 엄마 맞냐는 반응을 부른 수수한 미모",
+    "뽀샵이냐는 의심을 산 유연성"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "prelin 2026 SS Collection 화보",
+    "화이트데이 도면 인증 사진"
+  ]
+}
