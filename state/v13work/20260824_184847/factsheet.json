@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "장원영",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": "",
+    "age_range": "20대",
+    "career": "",
+    "major_work": "아이브(IVE)",
+    "identity_anchor": "아이브(IVE) 멤버 장원영"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장원영", "text": "씻고 씻고, 또 샤워", "context": "100% 청결을 고집하는 자기 관리 루틴을 밝힌 발언"},
+    {"speaker": "장원영", "text": "무작정 안 굶어요", "context": "고단백 식단 관리에 대해 밝힌 발언"},
+    {"speaker": "장원영", "text": "저녁 3시간 동안 먹어요", "context": "식사 습관을 밝힌 발언"},
+    {"speaker": "장원영", "text": "보상 없는 고통 없어", "context": "악플을 이겨낸 비결을 밝힌 발언"},
+    {"speaker": "장원영", "text": "긍정도 부정도 모두 즐긴다", "context": "본인의 가치관을 밝힌 발언"},
+    {"speaker": "장원영", "text": "사실 붙임머리", "context": "메릴 스트립, 앤 해서웨이 앞에서 한 깜짝 고백"},
+    {"speaker": "장원영", "text": "악으로 해야지", "context": "군 체험 스케줄이 극한이라는 취지로 밝힌 발언"}
+  ],
+  "events": [
+    {"summary": "'유퀴즈' 출연해 악플을 이겨낸 비결을 밝힘", "year": null, "confirmed": true},
+    {"summary": "메릴 스트립, 앤 해서웨이 앞에서 붙임머리라고 깜짝 고백", "year": null, "confirmed": true},
+    {"summary": "군 체험 예능에서 50분만 자고 이동하는 극한 스케줄을 소화함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "173cm", "meaning": "키"},
+    {"value": "50분", "meaning": "군 체험 예능 촬영 중 수면 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "쏘 뷰티풀", "where": "기사반응", "scale": ""},
+    {"text": "바비인형 같네", "where": "기사반응", "scale": ""},
+    {"text": "진짜 잘하네", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이광수", "relation": "예능에서 게임 실력에 감탄한 동료", "mentioned_as": "감탄한 동료"},
+    {"name": "박정민", "relation": "연기 호흡을 맞춘 배우", "mentioned_as": "상대 배우"},
+    {"name": "카리나", "relation": "함께 K뷰티 트렌드를 즐긴다고 언급된 동료 가수", "mentioned_as": "동료 가수"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "투명 피부",
+    "광채피부",
+    "찰랑이는 머릿결",
+    "173cm 완벽 비율",
+    "바비인형 같은 비주얼"
+  ],
+  "care_habits": [
+    "콘서트 후 1시간씩 관리 루틴을 한다고 밝힘",
+    "100% 청결을 고집하며 씻는다고 밝힘",
+    "무작정 굶지 않는 고단백 식단을 한다고 밝힘",
+    "저녁을 3시간에 걸쳐 천천히 먹는다고 밝힘",
+    "샴푸 전에 챙기는 루틴이 있다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "메릴 스트립·앤 해서웨이 앞에서 붙임머리라고 깜짝 고백", "why_hot": "반전"},
+    {"material": "유퀴즈에서 악플 이겨낸 비결 '보상 없는 고통 없어' 발언", "why_hot": "발언"},
+    {"material": "100% 청결 고집하는 씻는 루틴", "why_hot": "장면"},
+    {"material": "173cm 완벽 비율에 바비인형 같다는 반응", "why_hot": "낙차"},
+    {"material": "군 체험 예능에서 50분만 자고 이동한 극한 스케줄", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "콘서트 후 1시간씩 이어지는 관리 루틴",
+    "메릴 스트립·앤 해서웨이 앞에서 붙임머리라 고백하는 장면"
+  ],
+  "sns_materials": [
+    "일본 여행 중 편의점 간식 쇼핑을 소개한 SNS 근황샷"
+  ],
+  "press_only_materials": [
+    "에이피알 부스터프로X2 광고 화보",
+    "스팽글 투피스 화보",
+    "MLB 뉴욕 메츠 시구 패션"
+  ]
+}
