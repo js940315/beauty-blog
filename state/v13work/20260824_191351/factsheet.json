@@ -1,0 +1,67 @@
+{
+  "person": {
+    "name": "박은빈",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1992,
+    "age": null,
+    "age_range": "",
+    "career": "이상한 변호사 우영우, 오싹한 연애 등 출연 배우",
+    "major_work": "이상한 변호사 우영우",
+    "identity_anchor": "이상한 변호사 우영우 주연, 오싹한 연애 출연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박은빈", "text": "'우영우' 한 신에 대사 20장…외우다 머리 나빠진 것 같아", "context": "v.daum.net"},
+    {"speaker": "박은빈", "text": "함께해 주신 모든 분들 행복하시길", "context": "머니투데이"},
+    {"speaker": "박은빈", "text": "반전 매력 신경썼다", "context": "SPOTV NEWS"},
+    {"speaker": "양세종", "text": "박은빈과 동갑이라 소통 잘됐다", "context": "위키트리"}
+  ],
+  "events": [
+    {"summary": "1996년 아역으로 데뷔, SBS 드라마 백야 3.98에서 이병헌 곁에 출연", "year": 1996, "confirmed": true},
+    {"summary": "부산국제영화제 개막식 사회자로 단독 발탁, 이병헌을 잇는다", "year": null, "confirmed": true},
+    {"summary": "드라마 오싹한 연애에서 재벌 상속녀 역할로 반전 매력 변신", "year": null, "confirmed": true},
+    {"summary": "tvN 예능 놀토에서 출연정지 규칙 위반 경고 받고 1년 반 만에 복귀", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "대사 20장", "meaning": "우영우 한 신 분량, 본인이 힘들었다고 밝힘"},
+    {"value": "1년 반", "meaning": "놀토 출연정지 후 복귀까지 걸린 기간"},
+    {"value": "스타랭킹 여배우 2위", "meaning": "오싹한 연애 방영 중 인기 순위"}
+  ],
+  "credentials": [
+    {"item": "부산국제영화제 개막식 사회자 단독 발탁(이병헌 계승)", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "양세종", "relation": "오싹한 연애 상대역", "mentioned_as": "코스타"},
+    {"name": "옹성우", "relation": "오싹한 연애 상대역", "mentioned_as": "코스타"},
+    {"name": "이병헌", "relation": "부산국제영화제 개막식 사회자 전임자", "mentioned_as": "전임 사회자"}
+  ],
+  "works": [
+    {"title": "오싹한 연애", "year": null, "costar": "양세종", "scene": "호텔에서 실수로 하룻밤 동침해 스킨십 여부를 걱정한 장면", "kind": "극중"},
+    {"title": "오싹한 연애", "year": null, "costar": "옹성우", "scene": "몰래 주식을 산 사실을 알고 왜 거짓말했냐고 추궁한 장면", "kind": "극중"},
+    {"title": "오싹한 연애", "year": null, "costar": "양세종", "scene": "파혼을 통보받자 '우리 할머니 만났냐'며 붙잡힌 장면", "kind": "극중"},
+    {"title": "오싹한 연애", "year": null, "costar": "옹성우", "scene": "두 달 안에 결혼하라는 압박에 '일단 약혼'하기로 한 장면", "kind": "극중"},
+    {"title": "이상한 변호사 우영우", "year": null, "costar": "", "scene": "한 신에 대사 20장을 외우며 고생했다고 본인이 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "오싹한 연애 재벌 상속녀 반전 매력 변신", "why_hot": "반전"},
+    {"material": "양세종과 호텔 하룻밤 동침 해프닝", "why_hot": "장면"},
+    {"material": "옹성우와 두 달 결혼 압박에 '일단 약혼'", "why_hot": "장면"},
+    {"material": "부산국제영화제 사회자로 이병헌 계승", "why_hot": "실명"},
+    {"material": "우영우 대사 20장 외우다 머리 나빠진 것 같다는 본인 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "호텔 방에서 실수로 함께 밤을 보낸 장면",
+    "결혼 압박에 얼떨결에 약혼을 택하는 장면",
+    "대사 20장을 통째로 외우던 촬영장"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "발레코어룩 청순 데일리룩 스타일(스타패션 보도)",
+    "스케쳐스 서머 캠페인 컴포트웨어 화보",
+    "KB국민은행 자산관리 브랜드 광고"
+  ]
+}
