@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "이영애",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1971,
+    "age": 54,
+    "age_range": "50대",
+    "career": "대장금으로 유명한 배우",
+    "major_work": "대장금",
+    "identity_anchor": "대장금으로 유명한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이영애", "text": "매끄러운 피부 위해", "context": "네이트"},
+    {"speaker": "이영애", "text": "먹는 거·운동 뭐든 적당히", "context": "조이뉴스24"},
+    {"speaker": "이영애", "text": "세안할 때 아래서 위로 닦기", "context": "조이뉴스24"},
+    {"speaker": "이영애", "text": "모든 걸 아래에서 위로 올려", "context": "톱스타뉴스"},
+    {"speaker": "이영애", "text": "울쎄라보다 덴서티", "context": "news-wa.com"},
+    {"speaker": "이영애", "text": "덴서티 1년에 3번 이상", "context": "스포츠경향"},
+    {"speaker": "이영애", "text": "덜 아픈데 효과 좋아", "context": "네이트"},
+    {"speaker": "이영애", "text": "안 꾸미면 딸이 위아래로 훑어보며 지적해", "context": "iMBC 연예"},
+    {"speaker": "이영애", "text": "감사합니다, 건강하세요", "context": "Chosunbiz"}
+  ],
+  "events": [
+    {"summary": "36년 스킨케어 루틴을 최초 공개함", "year": null, "confirmed": true},
+    {"summary": "본인이 덴서티 시술을 1년에 3번 이상 받는다고 직접 밝힘", "year": null, "confirmed": true},
+    {"summary": "15세 쌍둥이 딸을 둔 학부모로 모임에 참여, 안 꾸미면 딸에게 지적받는다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "대장금 요리 스승과 23년 만에 재회해 감사 인사를 전함", "year": null, "confirmed": true},
+    {"summary": "20살 차이 남편과 나이를 지운 듯한 투샷이 화제가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "54세", "meaning": "현재 나이"},
+    {"value": "36년", "meaning": "스킨케어 루틴을 이어온 기간"},
+    {"value": "3번", "meaning": "1년에 받는 덴서티 시술 횟수"},
+    {"value": "23년", "meaning": "대장금 요리 스승과 재회하기까지 걸린 시간"},
+    {"value": "15세", "meaning": "쌍둥이 딸의 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "정호영", "relation": "20살 차이 나는 남편", "mentioned_as": "남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "55세인데 20대 피부 같다는 평가를 받음",
+    "완벽한 민낯이라는 평가를 받음",
+    "탄탄한 팔근육과 체지방률까지 완벽하다는 평가를 받음"
+  ],
+  "care_habits": [
+    "36년째 이어온 스킨케어 루틴이 있다고 밝힘",
+    "세안할 때 아래에서 위로 올리는 리프팅 마사지법을 쓴다고 밝힘",
+    "덴서티 시술을 1년에 3번 이상 받는다고 직접 밝힘",
+    "아침마다 챙기는 음료가 있다고 언급했으나 구체적인 정체는 비공개",
+    "토마토와 당근을 아침에 챙긴다고 밝힘",
+    "먹는 것도 운동도 뭐든 적당히 한다는 원칙을 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "36년 스킨케어 루틴을 최초 공개했다는 사실", "why_hot": "발언"},
+    {"material": "덴서티 시술을 1년에 3번 이상 받는다는 직접 고백", "why_hot": "발언"},
+    {"material": "안 꾸미면 딸이 위아래로 훑어보며 지적한다는 고백", "why_hot": "발언"},
+    {"material": "20살 차이 남편과 나이를 지운 투샷", "why_hot": "낙차"},
+    {"material": "대장금 요리 스승과 23년 만에 재회한 사연", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "세안할 때 아래에서 위로 손을 올리는 리프팅 동작",
+    "학부모 모임에 나가기 전 딸에게 옷차림을 지적받는 모습",
+    "23년 전 스승을 다시 찾아가 인사를 건네는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "남편과 함께 찍힌 동안 투샷"
+  ]
+}
