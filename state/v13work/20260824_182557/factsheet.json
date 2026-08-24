@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "신민아",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "",
+    "age_range": "40대",
+    "career": "",
+    "major_work": "내 여자친구는 구미호, 곽철용",
+    "identity_anchor": "톱배우 신민아, 김우빈의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신민아", "text": "피부가 숨쉬듯 가벼워요", "context": "피부 상태를 표현한 발언"},
+    {"speaker": "신민아", "text": "풀 메이크업 안 한다, 잠 많이 자려 해", "context": "미모 비결을 밝힌 발언"},
+    {"speaker": "신민아", "text": "전 타고난 근수저라", "context": "헬스장 대신 집운동을 하는 이유를 밝힌 발언"},
+    {"speaker": "신민아", "text": "화장 시간 40분, 잠 많이 자려 해", "context": "추구미와 관리 습관을 밝힌 발언"},
+    {"speaker": "신민아", "text": "심플한 웨딩드레스 예쁘다", "context": "결혼 준비 관련 발언"},
+    {"speaker": "신민아", "text": "언제부터인지 사람들이 날 안 찾아", "context": "집순이가 된 이유를 밝힌 발언"},
+    {"speaker": "신민아", "text": "돈 벌어 어디에 쓰냐고 묻더라", "context": "집순이로 지내는 일상을 밝힌 발언"}
+  ],
+  "events": [
+    {"summary": "김우빈과 10년 연애 끝에 결혼", "year": null, "confirmed": true},
+    {"summary": "결혼 4개월 만에 기쁜 소식을 전함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "40분", "meaning": "화장에 들이는 시간"},
+    {"value": "20분", "meaning": "집에서 하는 운동 시간"},
+    {"value": "10년", "meaning": "김우빈과의 연애 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "신민아 때문에 하루 사이다 3캔 마셔", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김우빈", "relation": "남편", "mentioned_as": "10년 연애 끝에 결혼한 배우"},
+    {"name": "카리나", "relation": "신민아를 언급한 후배 가수", "mentioned_as": "방송에서 신민아를 언급"},
+    {"name": "김영대", "relation": "작품 상대역", "mentioned_as": "중학생 때부터 팬이었다고 밝힌 배우"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "상큼 미모",
+    "방부제 미모",
+    "인형 미모",
+    "피부가 숨쉬듯 가볍다는 평가"
+  ],
+  "care_habits": [
+    "풀 메이크업을 하지 않는다고 밝힘",
+    "잠을 많이 자려 한다고 밝힘",
+    "화장 시간이 40분 정도라고 밝힘",
+    "헬스장 대신 집에서 20분 운동한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "40대인데 상큼 미모, 방부제 미모라는 평가", "why_hot": "낙차"},
+    {"material": "풀 메이크업 안 하고 잠만 많이 잔다는 본인 발언", "why_hot": "발언"},
+    {"material": "타고난 근수저라 헬스장 대신 집에서 20분만 운동한다는 발언", "why_hot": "발언"},
+    {"material": "카리나가 방송에서 신민아 때문에 사이다 3캔 마셨다고 언급", "why_hot": "실명"},
+    {"material": "10년 연애 끝에 김우빈과 결혼, 4개월 만에 기쁜 소식", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "화장 시간 40분, 나머지는 잠으로 채운다는 하루"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "루이비통 가방을 정리하는 모습이 언급된 화보"
+  ]
+}
