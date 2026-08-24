@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "이영애",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "대장금 주연으로 오랜 시간 사랑받아온 톱배우, 동안 미모로도 유명",
+    "major_work": "대장금",
+    "identity_anchor": "대장금 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이영애", "text": "매끄러운 피부를 위해 스킨케어 루틴을 지킨다", "context": "36년 스킨케어 루틴 관련 인터뷰"},
+    {"speaker": "이영애", "text": "세안할 때 모든 걸 아래에서 위로 올려 닦는다", "context": "리프팅 마사지법 인터뷰(불후)"},
+    {"speaker": "이영애", "text": "먹는 거, 운동 뭐든 적당히 한다", "context": "백옥 피부 비결 인터뷰(불후)"},
+    {"speaker": "이영애", "text": "울쎄라보다 덴서티가 낫다", "context": "뷰티 시술 비교 인터뷰"},
+    {"speaker": "이영애", "text": "덴서티는 1년에 세 번 이상 받는다", "context": "시술 빈도 관련 인터뷰"},
+    {"speaker": "이영애", "text": "역노화 박사를 만났다", "context": "남편과의 동안 투샷 관련 인터뷰"},
+    {"speaker": "이영애", "text": "안 꾸미면 딸이 위아래로 훑어보며 지적한다", "context": "학부모 모임 관련 인터뷰(불후)"},
+    {"speaker": "이영애", "text": "감사합니다, 건강하세요", "context": "대장금 요리 스승과 23년 만에 재회한 자리"}
+  ],
+  "events": [
+    {"summary": "36년째 스킨케어 루틴을 지켜왔다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "대장금 요리 자문 스승과 23년 만에 재회", "year": null, "confirmed": true},
+    {"summary": "15세 쌍둥이 딸을 키우는 엄마로 학부모 모임에 참여", "year": null, "confirmed": true},
+    {"summary": "20살 연상인 남편 정호영과 나란히 찍힌 동안 투샷이 화제", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "36년", "meaning": "스킨케어 루틴을 지켜온 기간"},
+    {"value": "23년", "meaning": "대장금 이후 스승과 재회하기까지 지난 시간"},
+    {"value": "15세", "meaning": "쌍둥이 딸의 나이"},
+    {"value": "20살", "meaning": "남편과의 나이 차"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "40대인 줄 알았다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "정호영", "relation": "남편", "mentioned_as": "20살 연상, 동안 투샷의 주인공"},
+    {"name": "이찬원", "relation": "불후 출연자", "mentioned_as": "피부 관리 비법에 열광한 후배"}
+  ],
+  "works": [
+    {"title": "대장금", "year": null, "costar": "",
+     "scene": "23년 만에 요리 자문 스승을 찾아가 감사 인사를 전한 것", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "세안할 때 아래에서 위로 올리는 리프팅 마사지",
+    "아침마다 토마토와 당근을 챙겨 먹는 습관",
+    "탄탄한 팔근육과 낮은 체지방률",
+    "덴서티 시술을 1년에 세 번 이상 받는다고 밝힘"
+  ],
+  "care_habits": ["세안 리프팅 마사지", "아침 토마토·당근", "덴서티 시술", "적당한 식사와 운동"],
+  "hot_materials": [
+    {"material": "36년째 지켜온 스킨케어 루틴을 최초 공개한 것", "why_hot": "발언"},
+    {"material": "울쎄라보다 덴서티가 낫다는 뷰티 시술 비교 발언", "why_hot": "발언"},
+    {"material": "20살 연상 남편과 나란히 찍힌 동안 투샷, 역노화 박사를 만났다는 농담", "why_hot": "반전"},
+    {"material": "안 꾸미면 딸이 위아래로 훑어보며 지적한다는 고백", "why_hot": "발언"},
+    {"material": "대장금 요리 스승과 23년 만에 재회한 순간", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "대장금 요리 스승과 23년 만에 재회해 감사 인사를 전한 장면",
+    "20살 연상 남편과 나란히 선 동안 투샷"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "불후의 명곡 방송 캡처"
+  ]
+}
