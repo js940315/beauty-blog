@@ -1,0 +1,84 @@
+{
+  "person": {
+    "name": "카리나",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "그룹 에스파 멤버",
+    "major_work": "에스파",
+    "identity_anchor": "그룹 에스파 멤버, 배우 이재욱과 공개 열애 중인 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "카리나", "text": "에스파는 생각보다 관리를 안 한다, 닝닝만 건강식을 챙긴다", "context": "십오야"},
+    {"speaker": "카리나", "text": "이것 진짜 잘한다", "context": "무신사TV (베개에 수건 까는 피부 습관 소개)"},
+    {"speaker": "카리나", "text": "베개에 수건을 깔고 자면 피부가 깨끗해진다", "context": "무신사TV"},
+    {"speaker": "카리나", "text": "강하다는 말은 나답다는 뜻이라 좋다", "context": "인터뷰"},
+    {"speaker": "카리나", "text": "데뷔 전 승무원을 준비했었다", "context": "장도바리바리"},
+    {"speaker": "카리나", "text": "신민아 때문에 하루에 사이다 3캔을 마셨다", "context": "구미호 관련 인터뷰"},
+    {"speaker": "카리나", "text": "상속자들 강하늘 대사를 혼잣말로 많이 한다", "context": "데이즈드"},
+    {"speaker": "이재욱", "text": "민망하다", "context": "외모 칭찬을 받고 보인 반응"}
+  ],
+  "events": [
+    {"summary": "배우 이재욱과 공개 열애를 발표, 첫눈에 반했다고 알려짐", "year": null, "confirmed": true},
+    {"summary": "냉장고를 부탁해 계열 예능에서 땀복을 입고 6시간 운동해 하루 만에 4kg을 감량하는 미션을 함", "year": null, "confirmed": true},
+    {"summary": "공항에서 인상을 찌푸린 이유가 알레르기 때문이라고 직접 해명함", "year": null, "confirmed": true},
+    {"summary": "20년 전 '하이킥' 서민정의 장면을 따라해 원조 배우도 놀람", "year": null, "confirmed": true},
+    {"summary": "데뷔 전 승무원을 준비했다는 비하인드를 공개함", "year": null, "confirmed": true},
+    {"summary": "윈터와 함께 멕시코에서 한국 축구 대표팀을 응원함", "year": null, "confirmed": true},
+    {"summary": "장도연의 이벤트에 설렜다는 반응을 보임", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4kg", "meaning": "예능 미션에서 하루 만에 감량한 무게"},
+    {"value": "6시간", "meaning": "땀복을 입고 운동한 시간"},
+    {"value": "20년", "meaning": "따라한 하이킥 장면과의 시간차"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "역시 워터밤 여신", "where": "기사반응", "scale": ""},
+    {"text": "왜 다들 이 장면을", "where": "기사반응", "scale": "서민정도 놀람"},
+    {"text": "과대해석해도 돼요?", "where": "방송", "scale": "장도연 이벤트 반응"},
+    {"text": "저도 속상", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이재욱", "relation": "공개 열애 중인 배우", "mentioned_as": "외모 칭찬에 민망해함"},
+    {"name": "윈터", "relation": "에스파 멤버", "mentioned_as": "멕시코 월드컵 응원을 함께함"},
+    {"name": "서민정", "relation": "하이킥 원조 배우", "mentioned_as": "따라한 장면에 놀람"},
+    {"name": "장도연", "relation": "방송 동료", "mentioned_as": "이벤트로 설렘을 안김"},
+    {"name": "신민아", "relation": "구미호 주연 배우", "mentioned_as": "명장면 팬으로 언급됨"},
+    {"name": "강하늘", "relation": "상속자들 배우", "mentioned_as": "명대사를 혼잣말로 되뇐다고 언급됨"}
+  ],
+  "works": [
+    {"title": "십오야", "year": null, "costar": "", "scene": "에스파 멤버들의 관리 습관을 솔직하게 공개한 장면", "kind": "실제"},
+    {"title": "냉부해 계열 예능", "year": null, "costar": "", "scene": "땀복을 입고 6시간 운동해 하루 만에 4kg을 감량한 미션 장면", "kind": "실제"},
+    {"title": "장도바리바리", "year": null, "costar": "장도연", "scene": "데뷔 전 승무원을 준비했다는 비하인드를 공개한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "깐달걀 피부라는 별명으로 불림",
+    "베개에 수건을 깔고 자는 습관으로 피부 관리 꿀팁을 공개함"
+  ],
+  "care_habits": [
+    "베개에 수건을 깔고 자면 피부가 깨끗해진다고 직접 소개함",
+    "에스파 멤버 중 관리를 특별히 열심히 하는 편은 아니라고 솔직하게 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "베개에 수건 까는 피부 꿀팁 공개", "why_hot": "발언"},
+    {"material": "땀복 입고 6시간, 하루 4kg 감량 미션", "why_hot": "장면"},
+    {"material": "이재욱과의 공개 열애", "why_hot": "실명"},
+    {"material": "20년 전 하이킥 서민정 장면 따라하기", "why_hot": "반전"},
+    {"material": "데뷔 전 승무원 준비 비하인드", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "베개에 수건을 깔고 잠드는 장면",
+    "땀복을 입고 6시간 운동하는 장면",
+    "하이킥 서민정 장면을 따라하는 장면",
+    "승무원 준비생 시절 이야기를 꺼내는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "워터밤 무대 사진",
+    "공항패션 사진"
+  ]
+}
