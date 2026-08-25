@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "청하",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": 28,
+    "age_range": "20대",
+    "career": "아이오아이 출신 솔로 가수 겸 댄서",
+    "major_work": "아이오아이",
+    "identity_anchor": "아이오아이 출신 솔로 가수, 댄서 출신으로 독립운동가 할아버지를 둔 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "청하", "text": "사람 많은 곳은 자주 못 간다", "context": "중앙일보 인터뷰"},
+    {"speaker": "청하", "text": "직업을 바꿀까 고민했다, 은퇴까지 생각했다", "context": "위키트리 인터뷰"},
+    {"speaker": "청하", "text": "인상을 써서 오해를 많이 받는다", "context": "전참시"},
+    {"speaker": "청하", "text": "실제 성격과 성향이 연예인과 진짜 안 맞는다, 직업을 바꾸라는 말도 들었다", "context": "RE:뷰"},
+    {"speaker": "청하", "text": "빚을 다 갚고 집과 차를 플렉스했다, 은퇴할까 싶었다", "context": "라디오스타"},
+    {"speaker": "청하", "text": "어릴 적 꿈은 형사였다", "context": "용감한 형사들4"},
+    {"speaker": "청하", "text": "아이오아이 재결합은 내 덕분이다", "context": "런닝맨"}
+  ],
+  "events": [
+    {"summary": "솔로 데뷔 7주년을 반려견과 함께 기념함", "year": null, "confirmed": true},
+    {"summary": "댄서들에게 명품 가방을 선물해 미담으로 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "한국사 자격증을 취득, 독립운동가 할아버지 영향이라고 밝힘", "year": null, "confirmed": true},
+    {"summary": "라디오 프로그램 '볼륨을 높여요' DJ를 1년 만에 하차, 앨범 활동에 집중한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "새 소속사에서 박재범과 한솥밥이 됐다고 소개됨", "year": null, "confirmed": true},
+    {"summary": "프로듀스101 시절 교복에서 냄새가 났다는 비하인드를 직접 공개함", "year": null, "confirmed": true},
+    {"summary": "아이오아이 10년 만의 재결합을 본인이 주도했다는 이야기가 나옴", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "7주년", "meaning": "솔로 데뷔 기념"},
+    {"value": "10년", "meaning": "아이오아이 재결합까지 걸린 기간"},
+    {"value": "28살", "meaning": "나이(보도 기준)"}
+  ],
+  "credentials": [
+    {"item": "한국사 자격증 취득", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "청하 댄서 출신, 유튜브 출연으로 인생 바뀌어", "where": "방송", "scale": "권또또"},
+    {"text": "청하, 나랑 비슷해, 불안할 때 자격증 따", "where": "방송", "scale": "김신영"},
+    {"text": "10년만 재결합, 청하가 주도했다", "where": "방송", "scale": "전소미"}
+  ],
+  "related_people": [
+    {"name": "전소미", "relation": "아이오아이 동료", "mentioned_as": "재결합을 청하가 주도했다고 언급"},
+    {"name": "김신영", "relation": "방송 동료", "mentioned_as": "청하와 습관이 비슷하다고 언급"},
+    {"name": "박재범", "relation": "새 소속사 동료", "mentioned_as": "한솥밥이 됐다고 소개됨"}
+  ],
+  "works": [
+    {"title": "프로듀스101", "year": null, "costar": "", "scene": "당시 댄서 생활이 힘들었지만 오히려 평온했다고 돌아본 장면", "kind": "실제"},
+    {"title": "아이오아이", "year": null, "costar": "전소미", "scene": "10년 만의 재결합을 본인이 주도했다는 비하인드가 공개된 장면", "kind": "실제"},
+    {"title": "런닝맨", "year": null, "costar": "", "scene": "아이오아이 재결합이 본인 덕분이라고 너스레를 떤 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [
+    "불안할 때 자격증을 따는 습관이 있다고 밝힘",
+    "댄서 출신답게 무대 활동을 오래 이어오고 있음"
+  ],
+  "hot_materials": [
+    {"material": "독립운동가 할아버지 영향으로 한국사 자격증 취득", "why_hot": "반전"},
+    {"material": "시신경 문제로 인상 써서 오해받는다는 고백", "why_hot": "발언"},
+    {"material": "댄서들에게 가장 비싼 명품백을 선물한 미담", "why_hot": "낙차"},
+    {"material": "은퇴까지 고민했다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "아이오아이 재결합을 본인이 주도했다는 비하인드", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "반려견과 데뷔 7주년을 기념하는 장면",
+    "댄서들에게 명품 가방을 선물하는 장면",
+    "라디오스타에서 은퇴 고민을 털어놓는 장면"
+  ],
+  "sns_materials": [
+    "반려견 '밤비'와 '아란'과 함께한 근황 사진과 영상"
+  ],
+  "press_only_materials": [
+    "새 소속사 프로필 공개 사진"
+  ]
+}
