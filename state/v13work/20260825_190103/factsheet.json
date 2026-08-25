@@ -1,0 +1,81 @@
+{
+  "person": {
+    "name": "윈터",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "그룹 에스파 멤버, 데뷔 6년 차",
+    "major_work": "에스파",
+    "identity_anchor": "그룹 에스파 멤버, SM 오디션에 세 번 떨어진 뒤 합격한 데뷔 6년 차 가수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "윈터", "text": "집안 관리는 전부 아빠가 한다", "context": "할명수"},
+    {"speaker": "윈터", "text": "주체적이란, 내가 사랑하는 걸 남들 눈치 안 보고 하는 것이다", "context": "인터뷰"},
+    {"speaker": "윈터", "text": "SM 오디션에 3번 떨어졌다, 카리나는 DM 캐스팅이었다", "context": "냉부해"},
+    {"speaker": "윈터", "text": "소주에 안주는 김치, 혼자 마실 땐 병나발이다", "context": "냉부해"},
+    {"speaker": "윈터", "text": "성격이 급해서 못 참는다", "context": "냉부해 (식습관 고백)"},
+    {"speaker": "윈터", "text": "권성준 셰프의 2등 제자였다, 1등은 페이커였다", "context": "냉부해"},
+    {"speaker": "윈터", "text": "마스크를 안 써도 못 알아본다, 홀로 산책을 즐긴다", "context": "인터뷰"},
+    {"speaker": "박명수", "text": "기가 막힌 친구다", "context": "라디오쇼 (윈터 인성 극찬)"}
+  ],
+  "events": [
+    {"summary": "재테크와 집안 관리를 전부 아버지에게 맡긴다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "SM 오디션에 세 번 떨어진 뒤 합격, 카리나는 DM 캐스팅이었다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "냉장고를 부탁해에 카리나와 함께 출연, 할매 입맛 냉장고를 공개함", "year": null, "confirmed": true},
+    {"summary": "배달비 5천원을 아끼려던 습관이 알려져 안정환이 걱정함", "year": null, "confirmed": true},
+    {"summary": "빌보드 무대 중 방송사고를 겪고 몰카인 줄 알았다며 놀란 일화를 공개함", "year": null, "confirmed": true},
+    {"summary": "배기성이 윈터를 따라 하다 '소주핑'이라는 별명이 붙음", "year": null, "confirmed": true},
+    {"summary": "카리나와 함께 멕시코에서 한국 축구 대표팀을 응원함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "6년", "meaning": "데뷔 이후 활동 기간"},
+    {"value": "3번", "meaning": "SM 오디션에 떨어진 횟수"},
+    {"value": "5천원", "meaning": "아끼려던 배달비"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "기가 막힌 친구", "where": "방송", "scale": "박명수"},
+    {"text": "에스파 어렵냐", "where": "방송", "scale": "안정환"},
+    {"text": "항상 취한 느낌", "where": "방송", "scale": "배기성"},
+    {"text": "포기하지 않아", "where": "방송", "scale": "전현무"}
+  ],
+  "related_people": [
+    {"name": "박명수", "relation": "라디오쇼 진행자", "mentioned_as": "인성을 극찬함"},
+    {"name": "안정환", "relation": "냉부해 동료 출연자", "mentioned_as": "배달비 아끼는 습관을 걱정함"},
+    {"name": "배기성", "relation": "아는형님 동료 출연자", "mentioned_as": "윈터를 따라 하다 별명이 붙음"},
+    {"name": "전현무", "relation": "월드컵 응원 동행", "mentioned_as": "함께 응원하며 환호함"},
+    {"name": "카리나", "relation": "에스파 동료", "mentioned_as": "DM 캐스팅으로 합류, 함께 냉부해 출연"},
+    {"name": "페이커", "relation": "냉부해 언급 인물", "mentioned_as": "권성준 셰프의 1등 제자로 언급됨"}
+  ],
+  "works": [
+    {"title": "냉장고를 부탁해", "year": null, "costar": "카리나", "scene": "할매 입맛 냉장고를 공개하며 웃음을 자아낸 장면", "kind": "실제"},
+    {"title": "할명수", "year": null, "costar": "", "scene": "재테크를 전부 아빠에게 맡긴다고 밝힌 장면", "kind": "실제"},
+    {"title": "냉부해", "year": null, "costar": "", "scene": "SM 오디션에 세 번 떨어진 비하인드를 공개한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "인형 비주얼이라는 감탄을 반복적으로 받음",
+    "배기성이 따라 하다 '소주핑' 별명이 붙을 만큼 특유의 혈색이 화제가 됨"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "SM 오디션 3번 탈락, 카리나는 DM 캐스팅이었다는 비하인드", "why_hot": "낙차"},
+    {"material": "재테크를 전부 아빠에게 맡긴다는 고백", "why_hot": "발언"},
+    {"material": "배달비 5천원 아끼는 습관에 안정환이 걱정한 장면", "why_hot": "발언"},
+    {"material": "할매 입맛 냉장고 공개", "why_hot": "장면"},
+    {"material": "빌보드 방송사고를 몰카로 착각한 일화", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "할매 입맛 냉장고를 여는 장면",
+    "배달비를 아끼는 습관이 드러난 장면",
+    "SM 오디션 탈락 비하인드를 고백하는 장면",
+    "빌보드 무대에서 방송사고를 겪는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "월드컵 직관 사진",
+    "대학 축제 반전 패션 사진"
+  ]
+}
