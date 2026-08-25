@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "안유진",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "그룹 아이브 멤버",
+    "major_work": "아이브",
+    "identity_anchor": "그룹 아이브 멤버, 예능 '지락실3' '냉장고를 부탁해' '런닝맨' 등 다수 출연 가수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "안유진", "text": "이렇게 먹으면 편안하게 살이 빠진다", "context": "코메디닷컴 인터뷰"},
+    {"speaker": "안유진", "text": "선재야, 진짜 똑같이 한 것", "context": "지락실3 (선업튀 재연)"},
+    {"speaker": "안유진", "text": "평생 잊지 못할 소중한 추억, 본업 컴백 준비 중", "context": "지락실3 종영 소감"},
+    {"speaker": "안유진", "text": "정말 맛있다", "context": "비서진 (김광규 요리)"},
+    {"speaker": "안유진", "text": "처음엔 창피했지만 부끄러움을 이겨냈다", "context": "Asia Artist Awards 인터뷰 (크라임씬 롤플레잉)"}
+  ],
+  "events": [
+    {"summary": "예능 '지락실3' 촬영을 마치고 아이브 본업으로 복귀 예고", "year": null, "confirmed": true},
+    {"summary": "냉장고를 부탁해 출연, 아이돌력 화제", "year": null, "confirmed": true},
+    {"summary": "비서진 출연, 김광규 요리에 감동", "year": null, "confirmed": true},
+    {"summary": "런닝맨 출연 중 유재석이 나영석 PD와의 인연을 언급", "year": null, "confirmed": true},
+    {"summary": "화투 실력이 예사롭지 않다는 반응을 받음(지뛰빵)", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "안유진 보고싶어", "where": "댓글", "scale": ""},
+    {"text": "유진이라고요!", "where": "댓글", "scale": "팬들 다수"},
+    {"text": "안유진 = 나영석 PD 딸", "where": "방송", "scale": ""},
+    {"text": "몇 살 때부터 예뻤나", "where": "방송", "scale": ""},
+    {"text": "타짜 중에 최고였어요", "where": "방송", "scale": ""},
+    {"text": "보조개 요정인줄", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이영지", "relation": "동료 방송인", "mentioned_as": "댓글로 안유진을 언급"},
+    {"name": "유재석", "relation": "런닝맨 MC", "mentioned_as": "나영석 PD와의 인연을 언급하며 극찬"},
+    {"name": "나영석", "relation": "PD", "mentioned_as": "안유진을 자주 캐스팅하는 PD로 언급됨"},
+    {"name": "김광규", "relation": "비서진 공동출연자", "mentioned_as": "요리를 대접함"}
+  ],
+  "works": [
+    {"title": "지락실3", "year": null, "costar": "", "scene": "선업튀 속 '선재' 대사를 그대로 재연한 장면", "kind": "실제"},
+    {"title": "선재 업고 튀어", "year": null, "costar": "", "scene": "지락실3에서 이 작품 속 애절한 눈빛 연기를 재연함", "kind": "극중"},
+    {"title": "냉장고를 부탁해", "year": null, "costar": "", "scene": "출연진들이 '몇 살 때부터 예뻤나' 라며 감탄한 장면", "kind": "실제"},
+    {"title": "런닝맨", "year": null, "costar": "유재석", "scene": "유재석이 안유진을 나영석 PD와 엮어 국민 MC의 인정을 받은 장면", "kind": "실제"},
+    {"title": "비서진", "year": null, "costar": "김광규", "scene": "김광규가 차려준 요리를 먹고 정말 맛있다고 반응한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "올블랙 스타일링으로 시크한 이미지를 완성했다는 반응",
+    "보조개가 도드라지는 애교 사진이 화제가 됨"
+  ],
+  "care_habits": [
+    "몸매 관리와 관련해 편하게 먹으면서도 살이 빠진다는 취지로 답한 적이 있음(구체 식단 미공개)"
+  ],
+  "hot_materials": [
+    {"material": "지락실3 종영 소감과 본업 복귀 예고", "why_hot": "장면"},
+    {"material": "유재석이 인정한 나영석 PD와의 인연", "why_hot": "실명"},
+    {"material": "선업튀 대사 재연 장면", "why_hot": "장면"},
+    {"material": "이영지 댓글에 팬들의 유쾌한 항의", "why_hot": "발언"},
+    {"material": "화투 실력에 대한 타짜 반응", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "지락실3에서 선재 대사를 그대로 재연한 장면",
+    "비서진에서 김광규가 차려준 요리를 먹는 장면",
+    "런닝맨에서 유재석과 나영석 PD 이야기를 나누는 장면"
+  ],
+  "sns_materials": [
+    "엄마가 찍어준 사진이라며 공개한 근황 사진"
+  ],
+  "press_only_materials": [
+    "올블랙 스타일링 화보성 사진",
+    "9종 애교 컨셉 사진"
+  ]
+}
