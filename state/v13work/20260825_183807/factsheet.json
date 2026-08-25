@@ -1,0 +1,80 @@
+{
+  "person": {
+    "name": "김유정",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "아역 출신 배우, 드라마 '친애하는 X' 주연",
+    "major_work": "친애하는 X",
+    "identity_anchor": "아역 출신으로 '구르미 그린 달빛' '친애하는 X'에 출연한 배우, 언니 김연정을 둔 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김유정", "text": "아역 때부터 심리상담사가 붙었다, 나도 여전히 혼란스럽다", "context": "인터뷰"},
+    {"speaker": "김유정", "text": "박보검은 달팽이관 같은 존재다", "context": "구르미 그린 달빛 10주년 특집"},
+    {"speaker": "김유정", "text": "리허설 중 오열했다", "context": "구르미 그린 달빛 10주년 특집"},
+    {"speaker": "김유정", "text": "가장 높은 곳에 갈 거야", "context": "친애하는 X 극중 대사"},
+    {"speaker": "김유정", "text": "폭력신을 찍다 졸도했다, 감정을 숨기고 연기하기 어려웠다", "context": "친애하는 X 인터뷰"}
+  ],
+  "events": [
+    {"summary": "청룡랭킹 3월 여자 배우부문 1위, 김소현의 추격을 뿌리치고 수성", "year": null, "confirmed": true},
+    {"summary": "찰스앤키스 브랜드 앰버서더로 발탁, 2026 F/W 캠페인 공개", "year": null, "confirmed": true},
+    {"summary": "언니 김연정이 만삭 화보를 공개, 곧 이모가 된다며 미소 지음", "year": null, "confirmed": true},
+    {"summary": "구르미 그린 달빛 10주년 특집 예능에 박보검·곽동연과 재회", "year": null, "confirmed": true},
+    {"summary": "12억 오피스텔에 거주하며 국산 제네시스 GV80을 탄다고 보도됨", "year": null, "confirmed": true},
+    {"summary": "공개 일정에 2600명이 몰려 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "유해진·박서준과 한식구(같은 소속사)가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "12억", "meaning": "오피스텔 가격(보도 기준)"},
+    {"value": "2600명", "meaning": "공개 일정에 몰린 인파"},
+    {"value": "10주년", "meaning": "구르미 그린 달빛 방영 10주년"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "인형이네", "where": "기사반응", "scale": ""},
+    {"text": "송혜교인 줄", "where": "기사반응", "scale": ""},
+    {"text": "이제 김유정이 3명?", "where": "댓글", "scale": "누리꾼"},
+    {"text": "미모 유전자 완성", "where": "기사반응", "scale": ""},
+    {"text": "무승부", "where": "기사반응", "scale": "김세정과 포토월 비교"}
+  ],
+  "related_people": [
+    {"name": "박보검", "relation": "구르미 그린 달빛 상대역", "mentioned_as": "달팽이관 같은 존재라고 언급"},
+    {"name": "곽동연", "relation": "구르미 그린 달빛 동료", "mentioned_as": "10주년 특집에 함께 출연"},
+    {"name": "김소현", "relation": "청룡랭킹 경쟁 배우", "mentioned_as": "3월 여자 배우 부문에서 추격함"},
+    {"name": "김세정", "relation": "포토월 패션 비교 대상", "mentioned_as": "무승부로 비교됨"},
+    {"name": "김연정", "relation": "친언니", "mentioned_as": "만삭 화보를 공개함"},
+    {"name": "유해진", "relation": "소속사 동료", "mentioned_as": "한식구가 됨"}
+  ],
+  "works": [
+    {"title": "친애하는 X", "year": null, "costar": "", "scene": "극중 백아진이 폭력적인 장면을 연기하다 졸도할 정도로 몰입한 장면", "kind": "실제"},
+    {"title": "친애하는 X", "year": null, "costar": "홍종현", "scene": "극중 인물이 홍종현과 결혼하는 파격적인 전개", "kind": "극중"},
+    {"title": "구르미 그린 달빛", "year": null, "costar": "박보검", "scene": "10주년 특집에서 리허설 중 오열한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "금발 염색을 소화해 '인형이네' 라는 감탄을 받음",
+    "호텔 화보에서 성숙미를 발산해 '송혜교인 줄' 이라는 반응을 얻음"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "아역 시절부터 심리상담사가 붙었다는 고백", "why_hot": "발언"},
+    {"material": "박보검을 달팽이관 같은 존재라고 표현한 인터뷰", "why_hot": "발언"},
+    {"material": "폭력신 촬영 중 졸도한 일화", "why_hot": "장면"},
+    {"material": "언니 김연정의 만삭 화보와 미모 유전자 반응", "why_hot": "낙차"},
+    {"material": "청룡랭킹 1위 수성", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "폭력신을 찍다 졸도한 촬영장 장면",
+    "구르미 그린 달빛 리허설에서 오열한 장면",
+    "대형 컵라면을 들고 찍은 장난스러운 사진"
+  ],
+  "sns_materials": [
+    "대형 컵라면을 들고 찍은 장난스러운 근황 사진"
+  ],
+  "press_only_materials": [
+    "호텔 침대 화보 사진",
+    "찰스앤키스 캠페인 화보"
+  ]
+}
