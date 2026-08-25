@@ -1,0 +1,88 @@
+{
+  "person": {
+    "name": "황신혜",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": 62,
+    "age_range": "60대",
+    "career": "예능 '같이삽시다' 출연 중인 배우",
+    "major_work": "같이삽시다",
+    "identity_anchor": "예능 '같이삽시다'에 출연 중인 60대 배우, 딸 이진이를 둔 어머니"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "황신혜", "text": "20년째 이 영양제를 꼭 챙긴다", "context": "코메디닷컴 인터뷰"},
+    {"speaker": "황신혜", "text": "옷을 자주 리폼해서 입는다", "context": "같이삽시다"},
+    {"speaker": "황신혜", "text": "시판 제품은 별로다", "context": "같이삽시다 (레몬즙 루틴 공개)"},
+    {"speaker": "전인화", "text": "유동근과 황신혜의 키스신을 보기 민망했다", "context": "같이삽시다"},
+    {"speaker": "전인화", "text": "절친 황신혜의 키스신을 보기 부끄러웠다", "context": "같이삽시다"}
+  ],
+  "events": [
+    {"summary": "예능 '같이삽시다'에 고정 출연 중", "year": null, "confirmed": true},
+    {"summary": "유튜브 계정이 해킹당해 복구 작업을 했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "같이삽시다에서 신계숙 메이크업으로 변신, 못 알아보겠다는 반응을 받음", "year": null, "confirmed": true},
+    {"summary": "전인화 앞에서 유동근과 통화하며 설렌다는 농담을 나눔(같이삽시다)", "year": null, "confirmed": true},
+    {"summary": "옛 드라마에서 유동근과 키스신을 연기한 사실이 같이삽시다에서 회자됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "166cm", "meaning": "신장(보도 기준)"},
+    {"value": "51kg", "meaning": "체중(모친 체질 유전+장어 덕분이라는 보도)"},
+    {"value": "20년", "meaning": "같은 영양제를 챙겨 먹은 기간"},
+    {"value": "44사이즈", "meaning": "현재 옷 사이즈로 보도됨"},
+    {"value": "12층", "meaning": "계단을 4회 왕복하는 운동으로 보도됨"},
+    {"value": "86세", "meaning": "어머니 나이"}
+  ],
+  "credentials": [
+    {"item": "동안 미모로 감탄받는 어머니(86세)", "whose": "어머니"}
+  ],
+  "public_reactions": [
+    {"text": "30대 아냐?", "where": "기사반응", "scale": ""},
+    {"text": "언니다 언니", "where": "기사반응", "scale": ""},
+    {"text": "홀딱 벗으니 더 예뻐", "where": "방송", "scale": "후배 배우"},
+    {"text": "황신혜인 줄 알았네", "where": "기사반응", "scale": ""},
+    {"text": "못 알아보겠어", "where": "방송", "scale": ""},
+    {"text": "몸매 감탄", "where": "방송", "scale": "한그루"}
+  ],
+  "related_people": [
+    {"name": "이진이", "relation": "딸", "mentioned_as": "붕어빵 외모로 화제"},
+    {"name": "전인화", "relation": "같이삽시다 동료 배우", "mentioned_as": "황신혜·유동근 키스신에 대해 발언"},
+    {"name": "유동근", "relation": "옛 드라마 상대역", "mentioned_as": "황신혜와 키스신을 연기한 배우로 언급"},
+    {"name": "한그루", "relation": "같이삽시다 동료", "mentioned_as": "황신혜의 몸매에 감탄"}
+  ],
+  "works": [
+    {"title": "같이삽시다", "year": null, "costar": "전인화", "scene": "유동근과 통화하며 설렌다는 농담을 주고받은 장면", "kind": "실제"},
+    {"title": "옛 드라마(제목 미상)", "year": null, "costar": "유동근", "scene": "유동근과 연기한 키스신을 전인화가 민망했다고 회상한 장면", "kind": "극중"},
+    {"title": "같이삽시다", "year": null, "costar": "신계숙", "scene": "신계숙 메이크업으로 변신해 다들 못 알아본 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "60대에도 '컴퓨터 미인' 소리를 듣는다는 보도",
+    "주름이 거의 없다는 반응이 반복적으로 나옴"
+  ],
+  "care_habits": [
+    "아기용 거즈로 세안하며 각질을 완벽히 제거한다고 밝힘",
+    "시판 제품 대신 직접 만든 레몬즙 루틴을 공개함",
+    "20년째 같은 영양제를 챙겨 먹는다고 밝힘",
+    "12층 계단을 4회 왕복하는 방식으로 운동한다고 보도됨"
+  ],
+  "hot_materials": [
+    {"material": "전인화가 밝힌 황신혜·유동근 키스신 민망 발언", "why_hot": "발언"},
+    {"material": "딸 이진이의 붕어빵 외모", "why_hot": "낙차"},
+    {"material": "20년째 챙겨 먹는 영양제", "why_hot": "장면"},
+    {"material": "86세 어머니의 동안 미모", "why_hot": "반전"},
+    {"material": "신계숙 메이크업 변신에 못 알아본 반응", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "아기용 거즈로 세안하는 장면",
+    "12층 계단을 왕복하는 장면",
+    "신계숙 메이크업으로 변신한 장면",
+    "전인화 앞에서 유동근과 통화하는 장면"
+  ],
+  "sns_materials": [
+    "옷을 자주 리폼해서 입는다고 직접 밝힌 스타일링 습관"
+  ],
+  "press_only_materials": [
+    "수영장에서 즐기는 여름 수영복 사진",
+    "민소매 섬머룩 화보성 사진"
+  ]
+}
