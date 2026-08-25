@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "김지원",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "배우, '눈물의 여왕' '살롱드립2' 출연",
+    "major_work": "눈물의 여왕",
+    "identity_anchor": "'눈물의 여왕'에서 김수현과 호흡을 맞춘 배우, 스타트렌드 여배우 1위에 오른 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김지원", "text": "맛있지만 아껴두겠다", "context": "헬스조선 인터뷰"},
+    {"speaker": "김지원", "text": "작품을 위해 1년간 중식을 안 먹었다", "context": "살롱드립2"},
+    {"speaker": "김수현·김지원", "text": "독일 촬영이 가장 기억에 남는다", "context": "눈물의 여왕 명장면 인터뷰"},
+    {"speaker": "김지원", "text": "사랑이란 곁에서 힘을 주는 것이다", "context": "눈물의 여왕 인터뷰"},
+    {"speaker": "나영희", "text": "김지원은 인성 최고다", "context": "지금 백지연"}
+  ],
+  "events": [
+    {"summary": "LG생활건강 더후 글로벌 앰버서더로 선정됨", "year": null, "confirmed": true},
+    {"summary": "스타트렌드·디시트렌드 여배우 부문 1위에 오름", "year": null, "confirmed": true},
+    {"summary": "의료 느와르 장르 차기작이 기대되고 있음", "year": null, "confirmed": true},
+    {"summary": "불가리 화보 '에클레티카'를 공개함", "year": null, "confirmed": true},
+    {"summary": "장원영이 인스타그램에 함께 찍은 친목 사진을 올림", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "1년", "meaning": "중식을 끊은 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "아역 얼굴 그대로", "where": "기사반응", "scale": ""},
+    {"text": "안구정화 제대로 된다", "where": "댓글", "scale": "누리꾼"},
+    {"text": "김지원은 인성 최고, 송혜교는 실물 최고", "where": "방송", "scale": "나영희"}
+  ],
+  "related_people": [
+    {"name": "김수현", "relation": "눈물의 여왕 상대역", "mentioned_as": "함께 명장면을 꼽음"},
+    {"name": "장원영", "relation": "친분 있는 후배", "mentioned_as": "인스타그램에 친목 사진을 올림"},
+    {"name": "나영희", "relation": "방송 동료", "mentioned_as": "인성 최고라고 평가함"},
+    {"name": "송혜교", "relation": "같은 방송에서 함께 언급된 배우", "mentioned_as": "실물 최고로 함께 꼽힘"}
+  ],
+  "works": [
+    {"title": "눈물의 여왕", "year": null, "costar": "김수현", "scene": "독일 촬영을 가장 기억에 남는 장면으로 함께 꼽은 인터뷰", "kind": "실제"},
+    {"title": "살롱드립2", "year": null, "costar": "", "scene": "작품을 위해 1년간 중식을 끊었다고 고백한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "1년간 중식을 끊은 뒤에도 '아역 얼굴 그대로' 라는 반응을 받음",
+    "청순한 이미지로 공항패션이 화제가 됨"
+  ],
+  "care_habits": [
+    "좋아하는 음식도 작품을 위해 아껴둔다고 밝힘",
+    "작품을 위해 1년간 중식을 끊었다고 직접 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "작품을 위해 1년간 중식을 끊었다는 고백", "why_hot": "발언"},
+    {"material": "눈물의 여왕 독일 촬영을 명장면으로 꼽은 인터뷰", "why_hot": "실명"},
+    {"material": "나영희가 꼽은 인성 최고 평가", "why_hot": "발언"},
+    {"material": "장원영과의 친목 사진에 쏟아진 반응", "why_hot": "낙차"},
+    {"material": "스타트렌드 여배우 1위 등극", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "1년간 중식을 참는 자기관리 장면",
+    "눈물의 여왕 독일 촬영 현장",
+    "장원영과 함께 찍은 친목 사진"
+  ],
+  "sns_materials": [
+    "장원영이 인스타그램에 올린 김지원과의 친목 사진"
+  ],
+  "press_only_materials": [
+    "불가리 화보 '에클레티카' 사진",
+    "공항패션 사진"
+  ]
+}
