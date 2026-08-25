@@ -1,0 +1,88 @@
+{
+  "person": {
+    "name": "신세경",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "28년 차 배우, 서태지 앨범 커버로 데뷔",
+    "major_work": "아라문의 검",
+    "identity_anchor": "서태지 앨범 커버로 데뷔해 28년째 활동 중인 배우, 백상예술대상 조연상 수상자"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신세경", "text": "모든 인연에 감사하다", "context": "백상예술대상 수상소감"},
+    {"speaker": "신세경", "text": "조인성, 박정민이 나만 찾아서 심장이 두근거렸다", "context": "조선일보 인터뷰"},
+    {"speaker": "신세경", "text": "유명세는 날카로운 칼이다", "context": "유퀴즈"},
+    {"speaker": "신세경", "text": "항상 말조심, 행동조심을 한다", "context": "유퀴즈"},
+    {"speaker": "신세경", "text": "서태지 앨범 커버로 데뷔했다, 갑자기 울라고 해서 당황했다", "context": "유퀴즈"},
+    {"speaker": "신세경", "text": "오디션에 계속 떨어져서 아역배우를 못 했다", "context": "인터뷰"},
+    {"speaker": "신세경", "text": "박보검은 인정하지만 나는 아니다", "context": "유퀴즈 ('2대 얼짱' 발언에 대한 반응)"},
+    {"speaker": "신세경", "text": "탄야를 통해 많은 것을 배웠다, 차기작으로 곧 뵙겠다", "context": "아라문의 검 종영소감"},
+    {"speaker": "조정석", "text": "신세경과 멜로 호흡은 10점 만점에 11점이다", "context": "세작"}
+  ],
+  "events": [
+    {"summary": "백상예술대상에서 염혜란, 전미도를 제치고 조연상을 수상함", "year": null, "confirmed": true},
+    {"summary": "서태지 앨범 커버 모델로 데뷔한 뒤 28년째 배우로 활동 중", "year": null, "confirmed": true},
+    {"summary": "지붕뚫고 하이킥의 원래 캐스팅 후보였던 박하선이 노안이라는 이유로 탈락, 그 역할이 신세경에게 갔다는 비하인드가 공개됨", "year": null, "confirmed": true},
+    {"summary": "윤시윤과 한강 나들이가 화제, 차를 자랑하다 치킨을 사게 된 사연이라고 해명함", "year": null, "confirmed": true},
+    {"summary": "이가닉스 AI 맞춤형 홈케어 디바이스 '타잇헤라' 모델로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "현재 프랑스 파리에서 긴 여행 중인 근황이 공개됨", "year": null, "confirmed": true},
+    {"summary": "BTS 'SWIM' 굿즈를 언박싱하는 모습을 공개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "28년", "meaning": "데뷔 이후 활동 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "세경 씨, 그렇게 안 봤는데 무서울 정도로 예쁘네", "where": "댓글", "scale": "누리꾼"},
+    {"text": "진과 잘 어울린다", "where": "댓글", "scale": "누리꾼"},
+    {"text": "지금껏 본 연예인 중 가장 예쁘다", "where": "기사반응", "scale": "박정민"},
+    {"text": "노안이라 떨어졌다", "where": "방송", "scale": "박하선"}
+  ],
+  "related_people": [
+    {"name": "박하선", "relation": "하이킥 캐스팅 비하인드 관련 배우", "mentioned_as": "원래 캐스팅 후보였다가 노안이라는 이유로 탈락"},
+    {"name": "조정석", "relation": "세작 상대역", "mentioned_as": "멜로 호흡을 극찬함"},
+    {"name": "윤시윤", "relation": "한강 나들이 동행", "mentioned_as": "함께 있었던 사연을 해명함"},
+    {"name": "박보검", "relation": "'2대 얼짱' 비교 대상", "mentioned_as": "본인은 인정 안 한다고 겸손하게 답함"},
+    {"name": "박정민", "relation": "동료 배우", "mentioned_as": "실물을 보고 가장 예쁘다고 극찬함"},
+    {"name": "조인성", "relation": "동료 배우", "mentioned_as": "촬영장에서 자신을 자주 찾았다고 언급됨"}
+  ],
+  "works": [
+    {"title": "아라문의 검", "year": null, "costar": "", "scene": "탄야 역을 연기하며 많은 것을 배웠다고 밝힌 종영소감", "kind": "실제"},
+    {"title": "세작", "year": null, "costar": "조정석", "scene": "조정석이 멜로 호흡을 극찬한 장면", "kind": "실제"},
+    {"title": "지붕뚫고 하이킥", "year": null, "costar": "박하선", "scene": "원래 박하선이 캐스팅 후보였다가 노안이라는 이유로 탈락, 신세경이 그 역할을 맡게 된 비하인드", "kind": "실제"},
+    {"title": "백상예술대상", "year": null, "costar": "", "scene": "염혜란, 전미도라는 강력한 후보를 제치고 조연상을 수상한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "깐달걀 피부라는 별명으로 불림",
+    "맑고 투명한 피부결이 조명보다 빛난다는 반응을 받음",
+    "시간을 멈춘 듯한 클래식한 아름다움이라는 평가를 받음"
+  ],
+  "care_habits": [
+    "크림을 듬뿍 바르는 스킨케어 습관이 있다고 밝힘",
+    "파리에서도 운동을 꾸준히 이어가는 모습이 포착됨",
+    "근력 운동을 즐겨 한다고 알려짐"
+  ],
+  "hot_materials": [
+    {"material": "서태지 앨범 커버로 데뷔한 28년 차 배우라는 사실", "why_hot": "반전"},
+    {"material": "하이킥 캐스팅에서 박하선이 노안으로 탈락한 비하인드", "why_hot": "실명"},
+    {"material": "백상예술대상에서 염혜란·전미도를 제치고 수상", "why_hot": "실명"},
+    {"material": "유명세는 날카로운 칼이라는 인터뷰 발언", "why_hot": "발언"},
+    {"material": "조정석이 극찬한 멜로 호흡", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "서태지 앨범 커버 촬영 당시 울음을 요구받아 당황한 장면",
+    "파리에서 운동하는 장면",
+    "BTS 굿즈를 언박싱하는 장면",
+    "백상예술대상 수상 소감을 전하는 장면"
+  ],
+  "sns_materials": [
+    "BTS 'SWIM' 굿즈 언박싱 인증 사진"
+  ],
+  "press_only_materials": [
+    "럭셔리 공항패션 사진",
+    "겨울 아우터 캠페인 화보"
+  ]
+}
