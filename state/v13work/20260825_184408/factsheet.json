@@ -1,0 +1,86 @@
+{
+  "person": {
+    "name": "박신혜",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "배우, 드라마 '언더커버 미쓰홍' '비서진' 출연",
+    "major_work": "상속자들",
+    "identity_anchor": "'상속자들' '언더커버 미쓰홍' 등에 출연한 배우, 배우 최태준의 아내이자 둘째를 임신 중인 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박신혜", "text": "절대 안 굶는다", "context": "코메디닷컴 인터뷰"},
+    {"speaker": "박신혜", "text": "굶는 다이어트는 하지 않는다", "context": "얼루어 인터뷰"},
+    {"speaker": "박신혜", "text": "하루 운동 3시간씩 하지만 굶지는 않는다", "context": "얼루어 인터뷰"},
+    {"speaker": "박신혜", "text": "간지러워서 피부과 처방을 받기도 한다", "context": "얼루어 인터뷰 (햇빛 알레르기 고백)"},
+    {"speaker": "박신혜", "text": "맷집이 생겼다", "context": "화보 인터뷰"},
+    {"speaker": "최지수", "text": "대체 왜 울어", "context": "미쓰홍 종영 후 박신혜와 통화"},
+    {"speaker": "이휘향", "text": "대본에 없던 애드리브였다", "context": "천국의 계단 뺨 장면 비하인드"}
+  ],
+  "events": [
+    {"summary": "둘째 임신, 올 가을 출산 예정이라고 공식 발표", "year": null, "confirmed": true},
+    {"summary": "임신 중 아차산 등산으로 건강을 관리함", "year": null, "confirmed": true},
+    {"summary": "비서진 촬영 중 37.6도 고열과 몸살로 병원에 감", "year": null, "confirmed": true},
+    {"summary": "언더커버 미쓰홍 종영, 최지수와 통화하다 눈물을 보임", "year": null, "confirmed": true},
+    {"summary": "상속자들 인연과 12년 만에 재회", "year": null, "confirmed": true},
+    {"summary": "시구 행사에 나서 '랜디 신혜'라는 별명을 얻음", "year": null, "confirmed": true},
+    {"summary": "둘째 임신 중 PGA 챔피언십에 아버지와 함께 나들이함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "37.6도", "meaning": "촬영 중 앓은 고열"},
+    {"value": "12년", "meaning": "상속자들 인연과 재회까지 걸린 기간"},
+    {"value": "3시간", "meaning": "하루 운동 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "대단하네", "where": "기사반응", "scale": ""},
+    {"text": "이 얼굴이 30대?", "where": "기사반응", "scale": ""},
+    {"text": "박신혜 얼굴이 제 미래보다 또렷하네요", "where": "기사반응", "scale": ""},
+    {"text": "대체 왜 울어", "where": "방송", "scale": "최지수"},
+    {"text": "여전히 멋져", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "최태준", "relation": "남편(배우)", "mentioned_as": "둘째 임신 소식과 함께 언급됨"},
+    {"name": "최지수", "relation": "미쓰홍 동료 배우", "mentioned_as": "종영 후 통화하다 눈물을 보임"},
+    {"name": "이휘향", "relation": "천국의 계단 공동출연 배우", "mentioned_as": "뺨 때리는 장면이 애드리브였다고 밝힘"},
+    {"name": "김래원", "relation": "옛 드라마 상대역", "mentioned_as": "고백 연기가 오그라든다고 회상함"}
+  ],
+  "works": [
+    {"title": "언더커버 미쓰홍", "year": null, "costar": "최지수", "scene": "종영 후 최지수와 통화하다 눈물을 보인 장면", "kind": "실제"},
+    {"title": "천국의 계단", "year": null, "costar": "이휘향", "scene": "이휘향이 뺨을 때리는 장면을 대본에 없던 애드리브로 연기한 장면", "kind": "실제"},
+    {"title": "옛 드라마", "year": null, "costar": "김래원", "scene": "고백을 받는 장면을 연기, 지금 봐도 오그라든다고 회상함", "kind": "극중"},
+    {"title": "비서진", "year": null, "costar": "", "scene": "37.6도 고열 속에서도 촬영을 강행한 장면", "kind": "실제"},
+    {"title": "상속자들", "year": null, "costar": "", "scene": "당시 인연과 12년 만에 재회한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "30대 후반에도 동안이라는 반응이 반복적으로 나옴",
+    "단발로 자른 뒤 리즈 갱신이라는 말까지 나옴"
+  ],
+  "care_habits": [
+    "하루 3시간씩 운동하지만 굶지는 않는다고 밝힘",
+    "임신 중에도 아차산 등산으로 건강을 관리함",
+    "햇빛 알레르기가 있어 간지러우면 피부과 처방을 받는다고 밝힘",
+    "고주파 미용의료기기 브랜드 앰버서더로 활동 중"
+  ],
+  "hot_materials": [
+    {"material": "둘째 임신 중에도 등산으로 관리하는 모습", "why_hot": "낙차"},
+    {"material": "37.6도 고열에도 촬영을 강행한 일화", "why_hot": "장면"},
+    {"material": "천국의 계단 뺨 장면이 애드리브였다는 비하인드", "why_hot": "발언"},
+    {"material": "미쓰홍 종영 후 눈물을 보인 통화", "why_hot": "발언"},
+    {"material": "상속자들 인연과 12년 만의 재회", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "임신 중 아차산을 오르는 장면",
+    "고열 속에서도 촬영을 강행하는 장면",
+    "천국의 계단에서 뺨을 맞는 애드리브 장면",
+    "시구 행사에서 랜디 신혜라는 별명을 얻는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "드뮤어룩 공항패션 사진",
+    "PGA 챔피언십 나들이 사진"
+  ]
+}
