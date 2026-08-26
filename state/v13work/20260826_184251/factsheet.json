@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "신민아",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1984,
+    "age": 41,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "내 여자친구는 구미호",
+    "identity_anchor": "김우빈과 결혼한 배우 신민아, '내 여자친구는 구미호' 주연"
+  },
+  "namesake_dropped": ["재혼 황후 관련 언급(웹소설·드라마 캐릭터로 별개 인물 가능성)", "상속자들 관련 언급(출연작 아님)"],
+  "quotes": [
+    {"speaker": "공효진", "text": "관리 전혀 안 한다, 타고난 근수저다", "context": "방송(당분간 공효진)"},
+    {"speaker": "신민아", "text": "전 타고난 근수저라서요", "context": "인터뷰"},
+    {"speaker": "신민아", "text": "두쫀쿠에 빠졌는데 살 엄청 찐다", "context": "매체 인터뷰"},
+    {"speaker": "신민아", "text": "쉽지 않아요, 엉망이에요", "context": "W코리아 인터뷰"},
+    {"speaker": "신민아", "text": "화장 시간은 40분 정도, 잠을 많이 자려 한다", "context": "인터뷰"},
+    {"speaker": "신민아", "text": "풀 메이크업은 안 한다, 잠을 많이 잔다", "context": "인터뷰"},
+    {"speaker": "김우빈", "text": "애정 표현을 많이 한다", "context": "GQ 인터뷰"},
+    {"speaker": "신민아", "text": "심플한 웨딩드레스가 예쁘다", "context": "인터뷰"},
+    {"speaker": "신민아", "text": "언제부턴가 사람들이 날 안 찾는다", "context": "예능(요정재형)"}
+  ],
+  "events": [
+    {"summary": "김우빈과 결혼해 신혼 생활을 하고 있다", "year": null, "confirmed": true},
+    {"summary": "김우빈과 10년 연애 끝에 결혼했다", "year": null, "confirmed": true},
+    {"summary": "두쫀쿠라는 간식에 빠져 살이 쪘다고 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "루이비통 가방을 정리하다 엉망이라고 스스로 표현했다", "year": null, "confirmed": true},
+    {"summary": "예능에서 집순이가 된 이유로 사람들이 안 찾는다고 말했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "40분", "meaning": "화장에 걸리는 시간"},
+    {"value": "20분", "meaning": "집에서 하는 운동 시간"},
+    {"value": "41세", "meaning": "보도 시점 나이"},
+    {"value": "10년", "meaning": "김우빈과의 연애 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "관리 전혀 안 한다, 타고난 근수저다", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김우빈", "relation": "남편", "mentioned_as": "10년 연애 끝에 결혼한 배우자"},
+    {"name": "공효진", "relation": "동료 배우", "mentioned_as": "방송에서 신민아 몸매를 언급한 인물"},
+    {"name": "김영대", "relation": "드라마 상대역", "mentioned_as": "중학생 때부터 팬이었다고 밝힌 후배 배우"}
+  ],
+  "works": [
+    {"title": "내 여자친구는 구미호", "year": null, "costar": "", "scene": "", "kind": "실제"},
+    {"title": "최근 드라마", "year": null, "costar": "김영대", "scene": "김영대가 중학생 때부터 팬이었다고 밝히며 상대역으로 만난 소감을 전했다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "풀 메이크업 대신 가벼운 화장을 하고 잠을 많이 자는 것을 중요하게 여긴다",
+    "화장 시간은 약 40분 정도라고 밝혔다"
+  ],
+  "care_habits": [
+    "헬스장 대신 집에서 20분 정도 운동한다",
+    "등 근육을 풀어주는 도구를 챙겨 다닌다",
+    "승마를 즐기고 바다에서 시간을 보내는 취미가 있다"
+  ],
+  "hot_materials": [
+    {"material": "동료 배우 공효진이 '관리 전혀 안 한다, 타고난 근수저'라고 몸매를 언급했다", "why_hot": "발언"},
+    {"material": "본인이 두쫀쿠라는 간식에 빠져 살이 엄청 쪘다고 직접 밝혔다", "why_hot": "반전"},
+    {"material": "루이비통 가방을 정리하다 엉망이라고 스스로 인정했다", "why_hot": "반전"},
+    {"material": "풀 메이크업을 하지 않고 잠을 많이 자는 것만으로 미모를 유지한다고 밝혔다", "why_hot": "낙차"},
+    {"material": "헬스장 대신 집에서 20분만 운동한다고 밝혔다", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "집에서 20분간 혼자 운동하는 모습",
+    "루이비통 가방 속을 정리하다 당황하는 모습",
+    "화장 없이 백옥 피부를 드러낸 일상"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "백옥 피부와 레드립 화보 컷이 포착됐다",
+    "루이비통 가방 인터뷰컷이 공개됐다",
+    "심플한 웨딩드레스 사진이 보도됐다"
+  ]
+}
