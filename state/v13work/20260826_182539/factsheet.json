@@ -1,0 +1,80 @@
+{
+  "person": {
+    "name": "한효주",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1987,
+    "age": 38,
+    "age_range": "30대",
+    "career": "배우",
+    "major_work": "무빙, 독전2, 뷰티 인사이드",
+    "identity_anchor": "무빙·독전2 주연 배우 한효주"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한효주", "text": "독하게 몸 관리했다, 런닝머신에서 눈물도 났다", "context": "인터뷰"},
+    {"speaker": "한효주", "text": "살 빼고 근육 만들고 독하게 준비했다", "context": "BIFF 인터뷰"},
+    {"speaker": "한효주", "text": "근육 노출신을 위해 3일 동안 물을 안 마셨다", "context": "BIFF 인터뷰"},
+    {"speaker": "한효주", "text": "천주교인인데 불교대학을 졸업했고 108배도 열심히 했다", "context": "인터뷰"},
+    {"speaker": "조인성", "text": "효주는 무서운 와이프다", "context": "예능 프로그램"},
+    {"speaker": "한효주", "text": "지금은 내 남편이다", "context": "예능 프로그램에서 박경림에게 한 말"}
+  ],
+  "events": [
+    {"summary": "영화 '독전2'에서 여성으로 바뀐 캐릭터를 맡아 몸을 만들었다", "year": null, "confirmed": true},
+    {"summary": "드라마 '무빙'에서 조인성과 부부로 호흡을 맞췄다", "year": null, "confirmed": true},
+    {"summary": "'무빙' 속 공중 키스신이 대본에 없던 감독의 즉흥 연출이었다는 후일담이 공개됐다", "year": null, "confirmed": true},
+    {"summary": "예능 '어쩌다 사장3'에서 조인성을 '내 남편'이라고 부르며 부부 케미를 이어갔다", "year": null, "confirmed": true},
+    {"summary": "'뷰티 인사이드' 촬영 당시 하루에 13명과 키스신을 찍었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "공명과의 열애설이 돌았으나 양측 모두 부인했다", "year": null, "confirmed": false}
+  ],
+  "numbers": [
+    {"value": "3일", "meaning": "근육 노출신을 위해 물을 마시지 않은 기간"},
+    {"value": "13명", "meaning": "'뷰티 인사이드' 하루 촬영 중 키스신을 찍은 상대 수"},
+    {"value": "38세", "meaning": "보도 시점 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "효주는 무서운 와이프다", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "조인성", "relation": "'무빙' 상대역이자 예능 속 남편 캐릭터", "mentioned_as": "극 중 부부, 예능에서도 부부 컨셉을 이어감"},
+    {"name": "한지민", "relation": "절친", "mentioned_as": "13년 지기 친구로 추억을 나눔"},
+    {"name": "공명", "relation": "열애설이 돌았던 동료 배우", "mentioned_as": "야구장 목격 후 열애설, 양측 모두 부인"},
+    {"name": "강풀", "relation": "'무빙' 원작자 겸 감독", "mentioned_as": "키스신 연출 비하인드를 공개함"}
+  ],
+  "works": [
+    {"title": "무빙", "year": null, "costar": "조인성", "scene": "크리스마스에 공중에서 나눈 키스신이 대본에 없던 즉흥 연출이었다", "kind": "극중"},
+    {"title": "어쩌다 사장3", "year": null, "costar": "조인성", "scene": "조인성을 '내 남편'이라 부르며 부부 케미를 보였다", "kind": "실제"},
+    {"title": "독전2", "year": null, "costar": "", "scene": "여성으로 바뀐 캐릭터를 위해 근육을 만들고 3일간 물을 마시지 않았다", "kind": "실제"},
+    {"title": "뷰티 인사이드", "year": null, "costar": "", "scene": "하루에 13명과 키스신을 촬영했다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "독전2를 위해 독하게 몸 관리를 했고 런닝머신 위에서 눈물이 날 정도였다고 밝혔다",
+    "근육 노출신을 앞두고 3일간 물을 마시지 않았다"
+  ],
+  "care_habits": [
+    "살을 빼고 근육을 만드는 고강도 훈련을 했다",
+    "필요할 때 수분 섭취까지 조절하는 독한 관리를 했다"
+  ],
+  "hot_materials": [
+    {"material": "'독전2'를 위해 3일간 물을 마시지 않고 근육을 만들었다", "why_hot": "낙차"},
+    {"material": "'무빙' 크리스마스 키스신이 대본에 없던 즉흥 연출이었다는 후일담", "why_hot": "장면"},
+    {"material": "조인성이 예능에서 '무서운 와이프'라 부르고 본인도 '내 남편'이라 답했다", "why_hot": "발언"},
+    {"material": "런닝머신 위에서 눈물이 날 만큼 독하게 관리했다고 직접 밝혔다", "why_hot": "발언"},
+    {"material": "'뷰티 인사이드' 촬영 당시 하루에 13명과 키스신을 찍었다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "런닝머신 위에서 눈물을 흘리며 훈련했다",
+    "크리스마스에 공중에서 키스신을 촬영했다",
+    "물 한 모금 없이 3일을 버티며 근육을 만들었다"
+  ],
+  "sns_materials": [
+    "설맞이 인사를 SNS로 전했다",
+    "가족과의 단란한 일상을 공개했다"
+  ],
+  "press_only_materials": [
+    "겨울 패딩룩이 포착됐다",
+    "북마케도니아 여행룩이 공개됐다",
+    "촬영장 밀착 사진집이 발매됐다"
+  ]
+}
