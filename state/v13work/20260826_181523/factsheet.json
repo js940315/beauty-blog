@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "화사",
+    "gender": "여",
+    "job": "가수(마마무 멤버)",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "그룹 마마무 멤버, 솔로 가수",
+    "major_work": "'So Cute' 솔로 컴백",
+    "identity_anchor": "그룹 마마무 소속 솔로 가수 화사"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "화사", "text": "피부가 거뭇하게 변했다", "context": "화상 사고 관련 인터뷰"},
+    {"speaker": "화사", "text": "데뷔 직전에 허락 없이 삭발했다가 회사에서 잘릴 뻔했다", "context": "예능 인터뷰"},
+    {"speaker": "화사", "text": "몸매 비법은 공복 운동과 안무 연습이다", "context": "매체 인터뷰"},
+    {"speaker": "화사", "text": "힘이 되는 건 작고 하찮은 귀여움이다", "context": "'So Cute' 컴백 인터뷰"}
+  ],
+  "events": [
+    {"summary": "가습기를 밟아 발바닥에 2도 화상을 입고도 붕대만 감은 채 콘서트를 진행했다", "year": null, "confirmed": true},
+    {"summary": "'흠뻑쇼' 공연 도중 무릎 부상과 출혈을 겪고도 무대를 이어갔다", "year": null, "confirmed": true},
+    {"summary": "데뷔 직전 허락 없이 삭발해 소속사에서 퇴출 위기를 겪었다", "year": null, "confirmed": true},
+    {"summary": "'So Cute'로 컴백했다", "year": null, "confirmed": true},
+    {"summary": "음원 역주행으로 1위에 올라 소감을 전했다", "year": null, "confirmed": true},
+    {"summary": "엔비디아 CEO 젠슨 황이 방송에서 화사에 대한 팬심을 고백했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "5kg", "meaning": "감량했다고 알려진 체중"},
+    {"value": "2도", "meaning": "발바닥 화상 정도"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "So Cute, 그녀 음악 사랑한다", "where": "방송", "scale": ""},
+    {"text": "훌륭한 가창력을 가졌다", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "젠슨 황", "relation": "엔비디아 CEO", "mentioned_as": "방송에서 화사 음악을 사랑한다고 팬심을 고백한 인물"},
+    {"name": "박정민", "relation": "전 연인", "mentioned_as": "이별 후에도 음원 1위 소감에서 감사를 전한 인물, 이후 듀엣 무대도 함께함"},
+    {"name": "최홍만", "relation": "동료 방송인", "mentioned_as": "같은 방송에 함께 출연"},
+    {"name": "성시경", "relation": "동료 가수", "mentioned_as": "같은 방송에서 함께 언급됨"},
+    {"name": "윤경호", "relation": "동료 방송인", "mentioned_as": "같은 무대에 함께 선 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "가습기 화상 이후 피부가 거뭇해졌다고 직접 밝혔다",
+    "5kg 감량 비결로 식단보다 공복 운동을 꼽았다"
+  ],
+  "care_habits": [
+    "공복 상태로 운동한다",
+    "안무 연습을 반복해 체지방을 관리한다"
+  ],
+  "hot_materials": [
+    {"material": "가습기를 밟아 발바닥에 2도 화상을 입고도 붕대만 감고 콘서트를 강행했다", "why_hot": "낙차"},
+    {"material": "데뷔 직전 허락 없이 삭발해 회사에서 잘릴 뻔했다", "why_hot": "반전"},
+    {"material": "엔비디아 CEO 젠슨 황이 방송에서 화사 음악을 사랑한다고 팬심을 고백했다", "why_hot": "실명"},
+    {"material": "이별한 전 연인 박정민에게 음원 1위 소감에서 감사 인사를 전했다", "why_hot": "발언"},
+    {"material": "'흠뻑쇼' 공연 중 무릎 부상과 출혈을 겪고도 무대를 마쳤다", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "붕대를 감은 발로 무대에 올라 콘서트를 마쳤다",
+    "무릎에서 피가 나는 채로 공연을 이어갔다",
+    "삭발한 머리로 소속사에 불려갔다"
+  ],
+  "sns_materials": [
+    "근황 사진 속 탄탄한 몸매를 공개했다"
+  ],
+  "press_only_materials": [
+    "란제리 룩 스타일링이 포착됐다",
+    "백리스 드레스 패션이 포착됐다",
+    "뉴욕 거리에서 몸매가 포착됐다",
+    "공항과 디너 자리에서 상반된 룩이 포착됐다",
+    "승마 중 매혹적인 자태가 포착됐다"
+  ]
+}
