@@ -1,0 +1,79 @@
+{
+  "person": {
+    "name": "이다희",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1985,
+    "age": 41,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "남편들",
+    "identity_anchor": "'남편들' 출연 배우 이다희"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이다희", "text": "국물은 몇 입만 먹는다", "context": "예능(냉장고를 부탁해)"},
+    {"speaker": "이다희", "text": "현미밥에 참치를 싸먹는다", "context": "예능(냉장고를 부탁해)"},
+    {"speaker": "이다희", "text": "내복 아니고 패션이다", "context": "예능(구기동 프렌즈)"},
+    {"speaker": "이다희", "text": "이별 후 살이 빠졌다", "context": "예능(구기동 프렌즈)"},
+    {"speaker": "이다희", "text": "결혼 해야 하나", "context": "예능(큰손)"},
+    {"speaker": "노희영", "text": "주제 파악부터", "context": "예능(큰손)"},
+    {"speaker": "이다희의 부모님", "text": "혼자 살아도 된다, 나 닮은 2세만 아까워한다", "context": "예능(구기동 프렌즈)에서 전한 발언"},
+    {"speaker": "이다희", "text": "덱스 첫인상이 솔로지옥 모든 게임 통틀어 강렬했다", "context": "예능(냉장고를 부탁해)"}
+  ],
+  "events": [
+    {"summary": "176cm 49kg을 유지하는 식습관을 공개했다", "year": null, "confirmed": true},
+    {"summary": "남동생이 배우라며 다정한 남매 투샷을 공개했다", "year": null, "confirmed": true},
+    {"summary": "3년 열애했던 남자친구가 있었다는 사실을 깜짝 고백했다", "year": null, "confirmed": true},
+    {"summary": "결혼 고민을 털어놓자 노희영이 주제 파악부터 하라고 조언했다", "year": null, "confirmed": true},
+    {"summary": "드라마 '남편들'에서 마약 조직 브레인 역할을 맡았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "176cm", "meaning": "키"},
+    {"value": "49kg", "meaning": "몸무게"},
+    {"value": "41세", "meaning": "보도 시점 나이"},
+    {"value": "3년", "meaning": "열애했던 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "남자친구인 줄 알았잖아요", "where": "기사반응", "scale": ""},
+    {"text": "이렇게 말라도 되는거야", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "안재현", "relation": "예능(구기동 프렌즈) 공동 출연진", "mentioned_as": "같은 예능 프로그램 출연자"},
+    {"name": "최다니엘", "relation": "예능 동료", "mentioned_as": "패션을 지적해 발끈하게 만든 인물"},
+    {"name": "장도연", "relation": "예능 동료", "mentioned_as": "억대 외제차를 부러워한 인물"},
+    {"name": "노희영", "relation": "예능 속 조언자", "mentioned_as": "결혼 고민에 직설적으로 조언한 인물"},
+    {"name": "김지석", "relation": "'남편들' 상대역", "mentioned_as": "극 중 강한 이끌림의 서사를 함께한 상대"}
+  ],
+  "works": [
+    {"title": "남편들", "year": null, "costar": "김지석", "scene": "마약 조직 브레인 역할을 맡아 강한 이끌림의 서사를 선보였다", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "176cm에 49kg을 유지한다고 밝혔다",
+    "라면을 즐기면서도 국물은 몇 입만 먹는 습관으로 체형을 관리한다",
+    "현미밥에 참치를 싸 먹는 식습관을 공개했다"
+  ],
+  "care_habits": [
+    "국물을 최소한으로 먹는 식습관을 유지한다",
+    "묵은지와 현미밥 위주의 식사를 즐긴다"
+  ],
+  "hot_materials": [
+    {"material": "176cm 49kg을 라면을 먹으면서도 유지한다고 밝혔다", "why_hot": "반전"},
+    {"material": "3년 열애했던 남자친구가 있었다는 사실을 깜짝 고백했다", "why_hot": "발언"},
+    {"material": "결혼 고민에 노희영이 주제 파악부터 하라고 조언했다", "why_hot": "발언"},
+    {"material": "남동생이 배우라며 투샷을 공개하자 남자친구인 줄 알았다는 반응이 나왔다", "why_hot": "반전"},
+    {"material": "최다니엘의 패션 지적에 내복이 아니라 패션이라고 발끈했다", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "냉장고를 부탁해에서 요리하는 모습",
+    "남매 투샷을 공개하는 모습",
+    "제작발표회에서 우아한 포즈를 취하는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "천하제빵 제작발표회에서 레더룩이 포착됐다",
+    "남편들 제작보고회에서 화이트 레이스 룩이 포착됐다",
+    "LF 핏플랍과 함께한 여름 스타일링 화보가 공개됐다"
+  ]
+}
