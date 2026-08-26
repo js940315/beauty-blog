@@ -1,0 +1,76 @@
+{
+  "person": {
+    "name": "박민영",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1986,
+    "age": 40,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "하이킥, 킹더랜드, 세이렌",
+    "identity_anchor": "'하이킥', '세이렌' 등 출연 배우 박민영"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박민영", "text": "위하준과의 키스신에서 입술을 잡아먹혔다, 볼까지 빨려 들어갔다", "context": "예능(조째즈)"},
+    {"speaker": "박민영", "text": "나인우가 촬영장에서 누나라고 애교를 부려 처음엔 당황했다", "context": "예능(놀토)"},
+    {"speaker": "박민영", "text": "집에 개인 사우나가 있다, 위하준도 부러워한다", "context": "인터뷰"},
+    {"speaker": "박민영", "text": "무리했지만 건강하다", "context": "팬 우려에 대한 해명"},
+    {"speaker": "박민영", "text": "건강 이상은 아니다", "context": "체중 감량 논란 해명"},
+    {"speaker": "박민영", "text": "만날 때마다 꼭 안아주셨다", "context": "고 이순재 추모"},
+    {"speaker": "박민영", "text": "힘들 때 위로받았다", "context": "일본 팬미팅"}
+  ],
+  "events": [
+    {"summary": "체중 감량 논란에 건강 이상은 아니라고 직접 해명했다", "year": null, "confirmed": true},
+    {"summary": "단발에서 긴 머리로 변신했다", "year": null, "confirmed": true},
+    {"summary": "긴 머리를 칼단발로 짧게 잘랐다", "year": null, "confirmed": true},
+    {"summary": "뉴욕 한복판에서 깜짝 팬미팅을 열었다", "year": null, "confirmed": true},
+    {"summary": "일본 팬미팅에서 눈물을 보이며 힘들 때 위로받았다고 말했다", "year": null, "confirmed": true},
+    {"summary": "데뷔작에서 인연을 맺은 고 이순재를 추모했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "40세", "meaning": "보도 시점 나이"},
+    {"value": "37kg", "meaning": "논란이 된 체중 (건강 이상 아니라고 본인이 해명)"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "뭘 해도 예쁘네", "where": "기사반응", "scale": ""},
+    {"text": "인형이야 사람이야", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "위하준", "relation": "'세이렌' 상대역", "mentioned_as": "키스신 상대, 개인 사우나를 부러워한 인물"},
+    {"name": "나인우", "relation": "예능 동료", "mentioned_as": "촬영장에서 애교를 부린 인물"},
+    {"name": "이순재", "relation": "데뷔작 인연(고인)", "mentioned_as": "만날 때마다 안아준 인물"}
+  ],
+  "works": [
+    {"title": "세이렌", "year": null, "costar": "위하준", "scene": "키스신에서 입술이 잡아먹히는 느낌이었다고 묘사했다", "kind": "극중"},
+    {"title": "놀토", "year": null, "costar": "나인우", "scene": "나인우가 촬영장에서 누나라고 애교를 부려 당황했다", "kind": "실제"},
+    {"title": "하이킥", "year": null, "costar": "이순재", "scene": "데뷔작에서 인연을 맺어 만날 때마다 안아주셨다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "생일날 청순한 미모로 화제를 모았다"
+  ],
+  "care_habits": [
+    "체중 감량 논란에 건강은 이상 없다고 직접 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "위하준과의 키스신을 입술이 잡아먹히는 느낌이었다고 직접 묘사했다", "why_hot": "발언"},
+    {"material": "나인우가 촬영장에서 누나라며 애교를 부려 당황했다", "why_hot": "장면"},
+    {"material": "체중 감량 논란에 건강 이상은 아니라고 직접 해명했다", "why_hot": "반전"},
+    {"material": "뉴욕 한복판에서 깜짝 팬미팅을 열었다", "why_hot": "장면"},
+    {"material": "집에 개인 사우나가 있어 위하준도 부러워했다", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "뉴욕 거리에서 팬들과 깜짝 만난 모습",
+    "일본 팬미팅에서 눈물을 보이는 모습",
+    "촬영장에서 나인우의 애교에 당황하는 모습"
+  ],
+  "sns_materials": [
+    "패션 브랜드와 함께한 출근길 근황을 공개했다"
+  ],
+  "press_only_materials": [
+    "파스텔 민트 코트로 완성한 공항 패션이 포착됐다",
+    "항공사 컨셉 화보가 공개됐다",
+    "2026 봄 시즌 화보가 공개됐다"
+  ]
+}
