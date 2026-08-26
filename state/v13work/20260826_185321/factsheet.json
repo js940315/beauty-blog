@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "박보영",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1990,
+    "age": 36,
+    "age_range": "30대",
+    "career": "배우",
+    "major_work": "미지의 서울, 골드랜드",
+    "identity_anchor": "'미지의 서울' 주연 배우 박보영, 데뷔 20주년"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박보영", "text": "잠을 안 자야 돼", "context": "인터뷰"},
+    {"speaker": "박보영", "text": "워킹맘도 아닌데, 애쓰지 말라는 대사에 가장 위로받았다", "context": "인터뷰"},
+    {"speaker": "박보영", "text": "드라마 명대사에 저도 위로받았다", "context": "인터뷰"},
+    {"speaker": "박보영", "text": "이제야 좀 성장한 느낌, 배우는 내 운명이다", "context": "데뷔 20주년 인터뷰"},
+    {"speaker": "박보영", "text": "사랑에 보답하고 싶어서 매일 팬에게 메시지를 전한다", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "158cm 41kg 몸매를 극단적 다이어트가 아닌 꾸준한 일상 습관으로 유지한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "데뷔 20주년을 맞았다", "year": null, "confirmed": true},
+    {"summary": "7년 만에 팬미팅을 직접 기획하고 진행했다", "year": null, "confirmed": true},
+    {"summary": "사진전 'Somewhere in between'을 개최했다", "year": null, "confirmed": true},
+    {"summary": "'미지의 서울'과 '골드랜드' 촬영을 병행하는 바쁜 일정을 소화했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "158cm", "meaning": "키"},
+    {"value": "41kg", "meaning": "몸무게"},
+    {"value": "36세", "meaning": "보도 시점 나이"},
+    {"value": "20년", "meaning": "데뷔 이후 경과 연수"},
+    {"value": "7년", "meaning": "팬미팅을 열지 않았던 공백 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "고등학생이라 해도 믿겠네", "where": "기사반응", "scale": ""},
+    {"text": "인간 방부제", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "박진영", "relation": "'미지의 서울' 상대역", "mentioned_as": "극 중 로맨스 상대"},
+    {"name": "류경수", "relation": "'미지의 서울' 상대역", "mentioned_as": "극 중 로맨스 상대"},
+    {"name": "유연석", "relation": "예능 동료", "mentioned_as": "나이 언급에 함께 발끈한 인물"},
+    {"name": "이광수", "relation": "예능 동료", "mentioned_as": "나이 언급에 함께 발끈한 인물"}
+  ],
+  "works": [
+    {"title": "미지의 서울", "year": null, "costar": "박진영", "scene": "숨 참는 것도 모를 만큼 어설픈 첫키스 장면이 나왔다", "kind": "극중"},
+    {"title": "미지의 서울", "year": null, "costar": "", "scene": "\"어제는 끝났고 내일은 멀었고 오늘은 아직 모른다\"는 명대사가 화제를 모았다", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "모공 하나 없는 피부로 화제를 모았다",
+    "특정 과일을 갈아 마시는 것을 피부 관리 습관으로 꼽았다",
+    "항산화 식품으로 알려진 음식을 즐겨 먹는다고 밝혔다"
+  ],
+  "care_habits": [
+    "극단적인 다이어트 대신 꾸준한 일상 습관을 유지한다",
+    "수면 시간에 대한 우스갯소리를 인터뷰에서 밝힌 적이 있다"
+  ],
+  "hot_materials": [
+    {"material": "158cm 41kg을 극단적 다이어트가 아닌 꾸준한 습관으로 유지한다고 밝혔다", "why_hot": "낙차"},
+    {"material": "36세인데 고등학생이라 해도 믿겠다는 반응이 쏟아졌다", "why_hot": "반전"},
+    {"material": "데뷔 20주년에 이제야 성장한 느낌이라고 담담하게 말했다", "why_hot": "발언"},
+    {"material": "7년 만에 직접 기획한 팬미팅을 열었다", "why_hot": "반전"},
+    {"material": "극 중 명대사에 본인도 위로받았다고 밝혔다", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "사진전에 본인 사진을 내건 모습",
+    "팬미팅을 직접 기획하고 진행하는 모습",
+    "촬영장에서 두 작품을 오가며 바쁘게 움직이는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "빈폴 브랜드 앰배서더 F/W 화보가 공개됐다",
+    "예능에서 착용한 안경이 눈길을 끌었다",
+    "블랙 트위드 시크룩이 보도됐다"
+  ]
+}
