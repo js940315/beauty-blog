@@ -1,0 +1,82 @@
+{
+  "person": {
+    "name": "이성경",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1990,
+    "age": 36,
+    "age_range": "30대",
+    "career": "배우",
+    "major_work": "착한사나이, 찬란한 너의 계절에",
+    "identity_anchor": "'착한사나이', '찬란한 너의 계절에' 등 출연 배우 이성경"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이성경", "text": "완벽한 몸매를 위해 공연 전날 특정 음식을 피했다", "context": "인터뷰"},
+    {"speaker": "이성경", "text": "과거 10kg 증량으로 튼살이 생겼다", "context": "인터뷰"},
+    {"speaker": "이성경", "text": "16년 꿈꿨던 일이다", "context": "뮤지컬 어워즈 수상 소감"},
+    {"speaker": "이성경", "text": "일상을 되찾길 바란다", "context": "수해 이웃 기부 소감"},
+    {"speaker": "이성경", "text": "쳐다만 봐도 설레는 비주얼이다", "context": "예능 현장"},
+    {"speaker": "채종협", "text": "되게 귀여우신 것 같아요", "context": "예능(자매치킨)"},
+    {"speaker": "채종협", "text": "친해지고 싶게 만들겠다", "context": "인터뷰"},
+    {"speaker": "김준수", "text": "지금이라도 뮤지컬 해서 다행이다", "context": "인터뷰"},
+    {"speaker": "이미숙", "text": "어른 같은 배우, 더 오래 하라고", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "헬스 경력 15년차로 복근 운동 팁을 공유했다", "year": null, "confirmed": true},
+    {"summary": "과거 10kg 증량으로 튼살이 생겼던 경험을 밝혔다", "year": null, "confirmed": true},
+    {"summary": "수해 피해 이웃을 위해 5천만 원을 기부했다", "year": null, "confirmed": true},
+    {"summary": "독거 어르신을 위해 별도로 5천만 원을 기부했다", "year": null, "confirmed": true},
+    {"summary": "뮤지컬 어워즈에서 신인상을 수상하며 16년 꿈꿨던 일이라고 소감을 밝혔다", "year": null, "confirmed": true},
+    {"summary": "첫 중국 팬미팅을 가졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15년", "meaning": "헬스 경력"},
+    {"value": "10kg", "meaning": "과거 증량했던 체중"},
+    {"value": "5천만원", "meaning": "수해 이웃 기부금"},
+    {"value": "16년", "meaning": "뮤지컬을 꿈꿔온 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "축구선수 다리", "where": "기사반응", "scale": ""},
+    {"text": "어른 같은 배우, 더 오래 하라고", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "채종협", "relation": "'찬란한 너의 계절에' 상대역", "mentioned_as": "귀엽다고 돌발 고백급 멘트를 한 인물"},
+    {"name": "이동욱", "relation": "'착한사나이' 상대역", "mentioned_as": "얼굴을 보면 몰입된다고 밝힌 상대"},
+    {"name": "김준수", "relation": "'알라딘' 뮤지컬 상대역", "mentioned_as": "뮤지컬 복귀를 극찬한 인물"},
+    {"name": "이미숙", "relation": "선배 배우", "mentioned_as": "어른 같은 배우라고 극찬한 인물"}
+  ],
+  "works": [
+    {"title": "찬란한 너의 계절에", "year": null, "costar": "채종협", "scene": "3개월 기간제 친구가 되어 서로 배우고 싶다고 말했다", "kind": "극중"},
+    {"title": "착한사나이", "year": null, "costar": "이동욱", "scene": "상대 얼굴을 보면 자연스럽게 몰입된다고 밝혔다", "kind": "실제"},
+    {"title": "알라딘", "year": null, "costar": "김준수", "scene": "김준수가 지금이라도 뮤지컬을 해서 다행이라고 극찬했다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "헬스 경력 15년차로 복근 운동법을 공유했다",
+    "타고난 근육형 체질이라는 반응을 얻었다",
+    "과거 10kg 증량으로 튼살이 생겼던 경험을 공개했다"
+  ],
+  "care_habits": [
+    "완벽한 몸매를 위해 공연 전날 특정 음식을 피한다고 밝혔다",
+    "아침에는 잡곡빵에 무언가를 듬뿍 묻혀 먹는다고 알려졌다"
+  ],
+  "hot_materials": [
+    {"material": "헬스 경력 15년차 근수저인데 과거 10kg 증량으로 튼살이 생겼다고 밝혔다", "why_hot": "반전"},
+    {"material": "수해 피해 이웃과 독거 어르신에게 각각 5천만 원씩 기부했다", "why_hot": "반전"},
+    {"material": "뮤지컬 신인상을 수상하며 16년 꿈꿨던 일이라고 소감을 전했다", "why_hot": "발언"},
+    {"material": "채종협이 되게 귀엽다고 돌발 고백급 멘트를 했다", "why_hot": "발언"},
+    {"material": "김준수가 지금이라도 뮤지컬을 해서 다행이라고 극찬했다", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "헬스장에서 복근 운동을 하는 모습",
+    "기부 소식이 알려진 뒤 조용히 지내는 모습",
+    "뮤지컬 무대에서 신인상을 수상하는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "레더 재킷과 시스루를 믹스매치한 화보가 공개됐다",
+    "여름빛 감각적 화보가 공개됐다",
+    "디즈니 자스민을 연상시키는 화보가 공개됐다"
+  ]
+}
