@@ -1,0 +1,76 @@
+{
+  "person": {
+    "name": "한예슬",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1980,
+    "age": 42,
+    "age_range": "40대",
+    "career": "모델 출신 배우",
+    "major_work": "6년째 활동 공백, 컴백 예고",
+    "identity_anchor": "모델 출신 배우 한예슬, 6년 공백 뒤 컴백 예고"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한예슬", "text": "마지못해 끌려온 불쌍한 짐승이다", "context": "본인 유튜브(한예슬is)"},
+    {"speaker": "한예슬", "text": "30대는 젊으니까 버텨준다", "context": "본인 유튜브(한예슬is)"},
+    {"speaker": "한예슬", "text": "레이저 자주 하지 마라", "context": "인터뷰"},
+    {"speaker": "한예슬", "text": "나 같은 실수하지 마, 병원비 아껴라", "context": "본인 유튜브(한예슬is)"},
+    {"speaker": "한예슬", "text": "30대에 관리 게을렀다, 40대 피부가 다 뒤집어졌다", "context": "인터뷰"},
+    {"speaker": "한예슬", "text": "매년 수면마취로 시작해서 한 번에 3개 시술을 받는다", "context": "본인 유튜브(한예슬is)"},
+    {"speaker": "한예슬", "text": "15분 만에 쌍꺼풀 수술을 했다", "context": "본인 유튜브(한예슬is)"},
+    {"speaker": "한예슬", "text": "그깟 성욕 중요하지 않다, 성욕보다 대화가 중요하다", "context": "인터뷰"},
+    {"speaker": "한예슬", "text": "죽다 살아났다, 남편이 데려간 낭떠러지였다", "context": "인터뷰"},
+    {"speaker": "한예슬", "text": "묘한 2025년이었다, 내년엔 더 활발히 활동하겠다", "context": "인터뷰"},
+    {"speaker": "한예슬", "text": "자기 관리 팁 첫 번째는 운동이다, 피부와 멘털에 좋다", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "10살 연하 남편 류성재와 결혼했다", "year": null, "confirmed": true},
+    {"summary": "30대 후반 이후 피부 트러블이 심해져 레이저 시술을 자제하게 됐다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "매년 수면마취 상태로 시술을 한번에 여러 개 받는다고 공개했다", "year": null, "confirmed": true},
+    {"summary": "15분 만에 쌍꺼풀 수술을 받았다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "남편과 스키장에서 데이트를 하다 낭떠러지에서 아찔한 순간을 겪었다", "year": null, "confirmed": true},
+    {"summary": "6년간의 활동 공백을 깨고 새해 광고로 컴백했다", "year": null, "confirmed": true},
+    {"summary": "2026년에는 더 활발히 활동하겠다고 예고했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10살", "meaning": "남편과의 나이 차"},
+    {"value": "15분", "meaning": "쌍꺼풀 수술에 걸린 시간"},
+    {"value": "6년", "meaning": "활동 공백 기간"},
+    {"value": "42세", "meaning": "보도 시점 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "눈 호강", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "류성재", "relation": "남편(10살 연하)", "mentioned_as": "스키장 데이트에서 낭떠러지로 데려간 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "본인이 직접 시술 경험을 공개하며 레이저는 자주 하지 말라고 조언했다",
+    "매년 수면마취 상태로 시술을 여러 개 받는다고 밝혔다",
+    "15분 만에 쌍꺼풀 수술을 받았다고 고백했다"
+  ],
+  "care_habits": [
+    "자기 관리 팁으로 운동을 첫 번째로 꼽았다",
+    "30대 후반부터 피부 관리에 더 신경 쓰게 됐다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "본인이 직접 매년 수면마취로 시술을 한번에 여러 개 받는다고 공개했다", "why_hot": "발언"},
+    {"material": "15분 만에 쌍꺼풀 수술을 했다고 솔직하게 고백했다", "why_hot": "발언"},
+    {"material": "남편과 스키장 데이트 중 낭떠러지에서 죽다 살아났다고 밝혔다", "why_hot": "장면"},
+    {"material": "10살 연하 남편을 마지못해 끌려온 불쌍한 짐승이라고 놀렸다", "why_hot": "발언"},
+    {"material": "30대에 관리 게을렀더니 40대 피부가 다 뒤집어졌다고 직접 밝혔다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "수면마취 상태로 시술받는 모습",
+    "스키장에서 남편과 데이트하다 아찔했던 순간",
+    "짙은 아이라인을 지우고 청순한 모습을 공개한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "시크한 연말룩과 수트핏이 공개됐다",
+    "새해 광고로 컴백한 모습이 포착됐다"
+  ]
+}
