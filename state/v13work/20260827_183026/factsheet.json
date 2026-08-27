@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "김세정",
+    "gender": "여성",
+    "job": "가수 겸 배우",
+    "birth_year": 1996,
+    "age": null,
+    "age_range": "20대",
+    "career": "아이오아이·구구단 출신 가수, 드라마 '이강달' '더 시즌즈' 등에 출연한 배우",
+    "major_work": "이강달(강태오), 더 시즌즈",
+    "identity_anchor": "아이오아이 출신 가수, 드라마 '이강달' 출연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김세정", "text": "배우보다 예뻐 보이고 싶은 마음", "context": "v.daum.net(이강달 인터뷰)"},
+    {"speaker": "김세정", "text": "이게 다 꿈이었으면", "context": "네이트"},
+    {"speaker": "김세정", "text": "인생 함께할 사람 만나", "context": "starnewskorea.com(자필 편지)"},
+    {"speaker": "김세정", "text": "집 산 건 맞지만 30억은 아냐", "context": "헤럴드경제"},
+    {"speaker": "김세정", "text": "母가 ○○출신", "context": "오토트리뷴"}
+  ],
+  "events": [
+    {"summary": "자필 편지로 결혼(인생을 함께할 사람을 만났다는) 소감을 직접 밝힘", "year": null, "confirmed": true},
+    {"summary": "온 가족 단칸방 생활을 거쳐 집을 마련함", "year": null, "confirmed": true},
+    {"summary": "30억대 펜트하우스 매수설이 돌았으나 본인이 직접 '30억은 아니다'라고 해명", "year": null, "confirmed": false}
+  ],
+  "numbers": [
+    {"value": "통장 9개", "meaning": "20대에 관리한다고 밝힌 재테크용 통장 개수"}
+  ],
+  "credentials": [
+    {"item": "20대에 통장 9개를 관리하는 재테크 습관", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "강태오", "relation": "드라마 '이강달' 상대역", "mentioned_as": "함께 호흡을 맞춘 배우"},
+    {"name": "전소미", "relation": "아이오아이 활동 시절 동료", "mentioned_as": "같은 그룹 활동 동료"}
+  ],
+  "works": [
+    {"title": "이강달", "year": null, "costar": "강태오", "scene": "사극 속에서 강태오와 호흡을 맞춘 케미가 화제가 됨", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "배우보다 예뻐 보이고 싶은 마음에 외모 관리에 진심이라고 밝힘"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "자필 편지로 '인생을 함께할 사람을 만났다'며 결혼 소감을 직접 밝힘", "why_hot": "발언"},
+    {"material": "온 가족 단칸방 생활에서 집을 마련했지만 '30억은 아니다'라고 해명", "why_hot": "낙차"},
+    {"material": "배우보다 예뻐 보이고 싶다는 마음으로 외모 관리에 진심이라고 밝힘", "why_hot": "발언"},
+    {"material": "20대에 통장 9개를 관리하는 재테크 습관", "why_hot": "반전"},
+    {"material": "캐리어를 열자마자 샴푸 거품 대참사를 겪었다고 밝힘", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "캐리어를 열었더니 샴푸 거품이 터져 있던 순간",
+    "자필 편지를 쓰며 결혼 소감을 전한 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "롱샴 캠페인·공항패션 스타일링",
+    "포토월 패션"
+  ]
+}
