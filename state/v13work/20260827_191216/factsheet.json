@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "강민경",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 1990,
+    "age": 36,
+    "age_range": "30대",
+    "career": "다비치 멤버, 패션 브랜드를 설립해 7년째 운영 중인 CEO 가수",
+    "major_work": "다비치",
+    "identity_anchor": "다비치 멤버, 패션 브랜드 설립 7년차 CEO 가수 강민경"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "강민경", "text": "아침에 이것 마시며 관리 중", "context": "헬스조선"},
+    {"speaker": "강민경", "text": "잡티 많이 늘었다", "context": "뉴스엔(걍밍경)"},
+    {"speaker": "강민경", "text": "닥치는 대로 해", "context": "Asia Artist Awards(걍밍경)"},
+    {"speaker": "강민경", "text": "매일 가기 싫다", "context": "osen.co.kr(걍밍경)"},
+    {"speaker": "강민경", "text": "한 끼 한 끼가 소중해", "context": "SPOTV NEWS(걍밍경)"},
+    {"speaker": "강민경", "text": "뻥걸이 죄송합니다", "context": "네이트"},
+    {"speaker": "강민경", "text": "이 사랑 땜에 살 수 있어", "context": "매일경제"},
+    {"speaker": "강민경", "text": "따뜻하게 나를 안아줘서 고마워", "context": "v.daum.net"},
+    {"speaker": "강민경", "text": "너무 영광", "context": "starnewskorea.com(걍밍경)"}
+  ],
+  "events": [
+    {"summary": "패션 브랜드를 설립해 7년째 운영 중", "year": null, "confirmed": true},
+    {"summary": "이해리와 생일을 함께 보내며 애정을 표현함", "year": null, "confirmed": true},
+    {"summary": "고현정이 본인 브랜드 모델로 참여함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "52kg", "meaning": "본인이 공개한 몸무게"},
+    {"value": "10년째", "meaning": "1일 1식 유지 기간"},
+    {"value": "20년째", "meaning": "운동을 이어온 기간"},
+    {"value": "7년째", "meaning": "패션 브랜드 운영 기간"}
+  ],
+  "credentials": [
+    {"item": "패션 브랜드 설립 및 7년째 CEO로 운영", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이해리", "relation": "다비치 파트너", "mentioned_as": "생일을 함께 보낸 짝꿍"},
+    {"name": "고현정", "relation": "본인 브랜드 모델", "mentioned_as": "브랜드 모델로 참여해 영광이라 밝힌 대상"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "아침에 특정 음료를 마시며 혈당 관리를 한다고 밝힘",
+    "잡티가 늘었다며 관리 중이라고 직접 밝힘"
+  ],
+  "care_habits": [
+    "10년째 1일 1식을 유지한다고 밝힘",
+    "20년째 운동을 이어오고 있다고 밝힘",
+    "52kg의 몸무게를 직접 공개함"
+  ],
+  "hot_materials": [
+    {"material": "10년째 1일 1식을 유지하며 '한 끼 한 끼가 소중해'라고 밝힘", "why_hot": "발언"},
+    {"material": "20년째 운동을 이어오면서도 '매일 가기 싫다'고 솔직히 토로함", "why_hot": "발언"},
+    {"material": "패션 브랜드를 설립해 7년째 CEO로 운영 중", "why_hot": "반전"},
+    {"material": "고현정이 본인 브랜드 모델로 참여해 '너무 영광'이라고 밝힘", "why_hot": "실명"},
+    {"material": "이해리와 생일을 함께 보내며 '이 사랑 땜에 살 수 있어'라고 밝힘", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "20년째 운동하러 가기 싫어하면서도 나가는 모습",
+    "이해리와 생일을 축하하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "운동복 스타일링",
+    "여름 화보 근황"
+  ]
+}
