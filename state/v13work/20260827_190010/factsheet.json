@@ -1,0 +1,58 @@
+{
+  "person": {
+    "name": "모모",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 1996,
+    "age": 30,
+    "age_range": "30대",
+    "career": "트와이스 멤버, 그룹 내 댄스·복근 담당으로 알려진 가수",
+    "major_work": "트와이스, MISAMO, 스트릿 우먼 파이터(메가크루)",
+    "identity_anchor": "트와이스 멤버, '스트릿 우먼 파이터' 메가크루에 참여한 가수 모모"
+  },
+  "namesake_dropped": [
+    "모모랜드 멤버들(낸시·주이·연우 등)",
+    "할리우드 배우 제이슨 모모아",
+    "모모고·모모성형외과·모모스커피 등 동명 브랜드",
+    "'부모 말고 모모' 에세이/콘텐츠 인용"
+  ],
+  "quotes": [
+    {"speaker": "모모", "text": "괜히 나왔나 싶어", "context": "조선일보('스우파' 메가크루)"},
+    {"speaker": "모모", "text": "미식 축구 선수 출신, 술도 엄청 좋아해", "context": "네이트"},
+    {"speaker": "모모", "text": "정말 뽑고 싶지 않았다", "context": "SPOTV NEWS"}
+  ],
+  "events": [
+    {"summary": "'스트릿 우먼 파이터' 메가크루로 참여함", "year": null, "confirmed": true},
+    {"summary": "월드투어 중 치아를 발치함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "11자", "meaning": "본인이 공개한 복근 형태"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "추성훈", "relation": "부친과 닮은 것으로 언급된 인물", "mentioned_as": "부친이 닮았다고 언급된 유명인"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "11자 복근 운동법을 직접 공개함"
+  ],
+  "care_habits": [
+    "11자 복근을 만든 운동법을 직접 공개함"
+  ],
+  "hot_materials": [
+    {"material": "11자 복근이 뚜렷하다며 운동법을 직접 공개함", "why_hot": "발언"},
+    {"material": "부친이 추성훈을 닮았고 '미식 축구 선수 출신, 술도 엄청 좋아해'라고 밝힘", "why_hot": "발언"},
+    {"material": "'스우파' 메가크루 참여 후 '괜히 나왔나 싶어'라며 솔직한 심경을 밝힘", "why_hot": "발언"},
+    {"material": "월드투어 중 치아를 발치하며 '정말 뽑고 싶지 않았다'고 밝힘", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "복근 운동을 하는 모습",
+    "스우파 메가크루 무대"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "공항 스타일링",
+    "블랙 드레스·옐로 원피스 화보"
+  ]
+}
