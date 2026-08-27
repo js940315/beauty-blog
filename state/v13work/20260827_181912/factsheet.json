@@ -1,0 +1,56 @@
+{
+  "person": {
+    "name": "한소희",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1994,
+    "age": 32,
+    "age_range": "30대",
+    "career": "'부부의 세계'로 인지도를 얻은 뒤 영화 '인턴'에서 최민식과 호흡을 맞춘 배우",
+    "major_work": "부부의 세계, 인턴(최민식)",
+    "identity_anchor": "'부부의 세계' 출연 배우, 영화 '인턴'에서 최민식과 호흡을 맞춘 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한소희", "text": "출연 이유? 선택당했다", "context": "맥스무비"},
+    {"speaker": "한소희", "text": "우리 사이에 거짓은 없었어", "context": "세계일보"},
+    {"speaker": "한소희", "text": "주기적으로 먹어줘야", "context": "금강일보"}
+  ],
+  "events": [
+    {"summary": "영화 '인턴' 예고편 공개, 최민식과의 싱크로율로 호평받음", "year": null, "confirmed": true},
+    {"summary": "지드래곤과 열애설이 돌았으나 소속사 측이 즉각 부인", "year": null, "confirmed": false}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "정신 바짝 차렸다", "where": "인터뷰", "scale": ""},
+    {"text": "덜컥 찾아온 친구...인스타 DM으로 친해졌다", "where": "인터뷰", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "최민식", "relation": "영화 '인턴' 상대역", "mentioned_as": "캐스팅에 놀랐다고 밝힌 배우"},
+    {"name": "전종서", "relation": "인스타 DM으로 친해진 친구", "mentioned_as": "친분을 밝힌 배우"},
+    {"name": "이영지", "relation": "친분 있는 동료", "mentioned_as": "본인이 언급한 친구"}
+  ],
+  "works": [
+    {"title": "인턴", "year": null, "costar": "최민식", "scene": "최민식이 캐스팅 소식에 놀라 정신을 바짝 차렸다고 밝힌 비화", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "최민식이 캐스팅 소식에 놀라 정신을 바짝 차렸다고 밝힘", "why_hot": "실명"},
+    {"material": "전종서가 인스타 DM으로 친해진 친구라고 소개", "why_hot": "실명"},
+    {"material": "지드래곤과 열애설이 돌았으나 즉각 부인됨", "why_hot": "반전"},
+    {"material": "블론드 헤어와 입술·눈밑 피어싱 추가 등 파격 이미지 변신", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "인턴 예고편 공개 직후 싱크로율로 화제가 된 장면",
+    "로마 여행에서 포착된 근황",
+    "도쿄에서 팬들을 만난 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "블론드 헤어와 CEO룩 스타일링",
+    "입술·눈밑 피어싱 추가한 파격 이미지",
+    "로마·도쿄 여행 근황 사진"
+  ]
+}
