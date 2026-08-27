@@ -1,0 +1,85 @@
+{
+  "person": {
+    "name": "문가영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1996,
+    "age": 30,
+    "age_range": "30대",
+    "career": "독일 출생, 5세 때 독일에서 길거리 캐스팅으로 데뷔한 아역 출신 배우",
+    "major_work": "그놈은 흑염룡(최현욱), 만약에 우리(구교환, 백상예술대상 여우주연상)",
+    "identity_anchor": "독일 출생, 5세 길거리 캐스팅 아역 출신, '그놈은 흑염룡'·'만약에 우리'(백상 여우주연상) 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "문가영", "text": "단 음식 줄이고 이 음식 챙겨", "context": "코메디닷컴"},
+    {"speaker": "문가영", "text": "쉴 때 책 몰아서 보는 편...아침 루틴? 소금차 마셔", "context": "v.daum.net"},
+    {"speaker": "문가영", "text": "저의 든든한 울타리", "context": "네이트(백상예술대상)"},
+    {"speaker": "문가영", "text": "도전 좋아해", "context": "스포츠조선(유퀴즈)"},
+    {"speaker": "문가영", "text": "얌전하다고? 변칙 주고파", "context": "머니투데이"},
+    {"speaker": "구교환", "text": "14살 연하 문가영과 케미? 비주얼보다 중요한 건 엔진", "context": "네이트"},
+    {"speaker": "성시경", "text": "부모님 영향", "context": "네이트(짠한형)"},
+    {"speaker": "성시경", "text": "투명하고 고급스러워", "context": "일간스포츠(짠한형)"}
+  ],
+  "events": [
+    {"summary": "백상예술대상 여우주연상 수상 ('만약에 우리')", "year": null, "confirmed": true},
+    {"summary": "5세 때 독일에서 길거리 캐스팅으로 데뷔", "year": null, "confirmed": true},
+    {"summary": "'그놈은 흑염룡' 종영", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "5세", "meaning": "독일에서 길거리 캐스팅된 나이"},
+    {"value": "14살 연하", "meaning": "구교환과의 나이 차 (구교환 발언 기준)"},
+    {"value": "17살 연하", "meaning": "성시경과의 나이 차 (성시경 발언 기준)"}
+  ],
+  "credentials": [
+    {"item": "독일 출생", "whose": "본인"},
+    {"item": "5세 때 독일 길거리 캐스팅 데뷔", "whose": "본인"},
+    {"item": "백상예술대상 여우주연상 수상", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "부모님 영향", "where": "방송", "scale": ""},
+    {"text": "투명하고 고급스러워", "where": "방송", "scale": ""},
+    {"text": "비주얼보다 중요한 건 엔진", "where": "인터뷰", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "구교환", "relation": "'만약에 우리' 상대 배우", "mentioned_as": "실제 감사 인사 대상"},
+    {"name": "최현욱", "relation": "'그놈은 흑염룡' 상대 배우", "mentioned_as": "극중 연인"},
+    {"name": "성시경", "relation": "선배 가수, 방송에서 극찬한 인물", "mentioned_as": "극찬한 인물"}
+  ],
+  "works": [
+    {"title": "그놈은 흑염룡", "year": null, "costar": "최현욱", "scene": "분수대 키스신을 본인이 직접 명장면으로 꼽음", "kind": "극중"},
+    {"title": "만약에 우리", "year": null, "costar": "구교환", "scene": "백상예술대상 수상소감에서 구교환을 향해 '저의 든든한 울타리'라고 감사 인사한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "단 음식 줄이고 특정 음식으로 관리한다고 밝힘",
+    "많이 걷고 특정 음식을 챙겨 체중을 관리한다고 밝힘",
+    "누워서 하는 운동을 한다고 밝힘",
+    "새벽 3시에 운동한다고 밝힘"
+  ],
+  "care_habits": [
+    "새벽 3시 운동",
+    "많이 걷기",
+    "아침 소금차",
+    "쉴 때 몰아서 독서"
+  ],
+  "hot_materials": [
+    {"material": "파격 시스루 란제리룩 논란에 직접 입을 열어 '도전 좋아해'라고 밝힘", "why_hot": "발언"},
+    {"material": "백상예술대상 여우주연상 수상하며 구교환에게 '든든한 울타리'라 감사 인사", "why_hot": "실명"},
+    {"material": "성시경이 극찬하며 '부모님 영향'이라 언급", "why_hot": "실명"},
+    {"material": "5세 때 독일 길거리에서 캐스팅돼 데뷔", "why_hot": "반전"},
+    {"material": "새벽 3시에 혼자 운동하는 습관", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "백상예술대상 시상식에서 감사 인사하는 장면",
+    "그놈은 흑염룡 분수대 키스신",
+    "새벽 3시 혼자 운동하는 모습"
+  ],
+  "sns_materials": [
+    "앞머리만 내린 이미지 변화 근황 (스타뉴스 SNS 근황 코너 보도)"
+  ],
+  "press_only_materials": [
+    "백상예술대상 시상식 드레스 룩",
+    "공항 패션(속옷 노출처럼 보인 파격 패션 논란)",
+    "나스·멀츠 에스테틱스·돌체앤가바나 등 브랜드 화보 촬영"
+  ]
+}
