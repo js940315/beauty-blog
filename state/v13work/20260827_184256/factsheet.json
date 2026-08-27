@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "현아",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 1992,
+    "age": 34,
+    "age_range": "30대",
+    "career": "'베베'·'빨개요' 등으로 알려진 솔로 가수",
+    "major_work": "베베, 빨개요, 워터밤 무대",
+    "identity_anchor": "'베베'·'빨개요'로 알려진 솔로 가수, 용준형과 결혼한 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "현아", "text": "체중 조절 잘 하고 있어..걱정마세요", "context": "뉴시스"},
+    {"speaker": "현아", "text": "그동안 얼마나 먹은 거니", "context": "뉴시스"},
+    {"speaker": "현아", "text": "몸무게 앞자리 바뀌었다", "context": "헬스조선"},
+    {"speaker": "현아", "text": "앞자리 바꾸기 힘들다", "context": "v.daum.net"},
+    {"speaker": "현아", "text": "아무 기억이 안 나..미안하다", "context": "네이트"},
+    {"speaker": "현아", "text": "프로답지 못해 미안", "context": "sports.donga.com"},
+    {"speaker": "현아", "text": "모두 감사합니다", "context": "서울뉴스통신"},
+    {"speaker": "용준형", "text": "버텨줘서 고마워", "context": "twig24.com"},
+    {"speaker": "현아", "text": "수입? 광고 끊이지 않아..지금 돈 진짜 많이 벌었다", "context": "머니투데이"}
+  ],
+  "events": [
+    {"summary": "용준형과 결혼함", "year": null, "confirmed": true},
+    {"summary": "다이어트 중 공연 도중 실신함", "year": null, "confirmed": true},
+    {"summary": "다이어트 성공으로 몸무게 49kg, 이후 46.6kg까지 감량함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49kg", "meaning": "다이어트 인증 당시 몸무게"},
+    {"value": "46.6kg", "meaning": "이후 공개한 몸무게"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "용준형", "relation": "남편", "mentioned_as": "함께 건강한 근황을 전한 배우자"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "다이어트로 몸무게 앞자리를 바꿨다고 직접 밝힘",
+    "49kg, 이후 46.6kg까지 감량 사실을 직접 공개함"
+  ],
+  "care_habits": [
+    "체중 조절을 꾸준히 하고 있다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "다이어트로 몸무게 앞자리를 바꿨다며 49kg 인증", "why_hot": "발언"},
+    {"material": "다이어트 중 공연 도중 실신해 '아무 기억이 안 난다'며 사과함", "why_hot": "반전"},
+    {"material": "이후 46.6kg까지 감량한 몸무게를 직접 공개함", "why_hot": "발언"},
+    {"material": "용준형과 결혼해 '버텨줘서 고맙다'는 인사를 받음", "why_hot": "실명"},
+    {"material": "수입에 대해 '지금 돈 진짜 많이 벌었다'고 솔직히 밝힘", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "공연 도중 의식을 잃고 쓰러졌던 순간",
+    "다이어트 인증 당시의 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "워터밤 무대 의상"
+  ]
+}
