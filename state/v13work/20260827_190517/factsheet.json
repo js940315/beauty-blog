@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "쯔위",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 1999,
+    "age": 27,
+    "age_range": "20대",
+    "career": "트와이스 멤버로 11년간 활동한 가수",
+    "major_work": "트와이스",
+    "identity_anchor": "트와이스 멤버, 11년 만에 JYP를 떠나는 가수 쯔위"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "쯔위", "text": "다리살 빼..백댄서가 더 날씬하다는 지적에, 돈이나 아껴", "context": "네이트"},
+    {"speaker": "쯔위", "text": "팬들 덕 용기 생겨, 오래오래 함께하자", "context": "네이트(해시태그)"},
+    {"speaker": "쯔위", "text": "업계선 비밀 아냐", "context": "v.daum.net(MD이슈)"},
+    {"speaker": "쯔위", "text": "심리학 석사 학위 취득했어요", "context": "지구인사이드"},
+    {"speaker": "쯔위", "text": "선미 퍼포먼스 매력적..나만의 무대 만들고파", "context": "네이트"},
+    {"speaker": "쯔위", "text": "분장 마음에 들어", "context": "v.daum.net(놀토)"},
+    {"speaker": "지효", "text": "분장 상당히 언짢아", "context": "v.daum.net(놀토)"}
+  ],
+  "events": [
+    {"summary": "11년 만에 JYP를 떠나는 것으로 확인됨", "year": null, "confirmed": true},
+    {"summary": "41억 상당 펜트하우스를 매입해 어머니께 선물함", "year": null, "confirmed": true},
+    {"summary": "심리학 석사 학위를 취득함", "year": null, "confirmed": true},
+    {"summary": "외모를 지적하는 악플에 직접 사이다 대응을 함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "11년", "meaning": "JYP 소속으로 활동한 기간"},
+    {"value": "41억", "meaning": "매입한 펜트하우스 금액"}
+  ],
+  "credentials": [
+    {"item": "심리학 석사 학위 취득", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "지효", "relation": "같은 그룹 멤버, 코미디 촌극에서 함께함", "mentioned_as": "분장에 대해 언짢아한 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "11년 만에 JYP를 떠나는 것으로 확인됨", "why_hot": "낙차"},
+    {"material": "41억 펜트하우스를 매입해 어머니께 선물함", "why_hot": "반전"},
+    {"material": "심리학 석사 학위를 취득했다고 직접 밝힘", "why_hot": "반전"},
+    {"material": "외모 지적 악플에 '돈이나 아껴'라며 직접 사이다 대응함", "why_hot": "발언"},
+    {"material": "이적설 속에서도 팬들에게 '오래오래 함께하자'는 메시지를 전함", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "악플에 직접 댓글로 대응하는 순간",
+    "펜트하우스를 어머니께 선물하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "일본 무대 백스테이지 화보",
+    "고딕 글램룩 무대 의상",
+    "카페에서의 일상 근황"
+  ]
+}
