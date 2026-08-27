@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "선미",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 1992,
+    "age": 34,
+    "age_range": "30대",
+    "career": "원더걸스 출신, 데뷔 18년차를 맞은 솔로 가수",
+    "major_work": "원더걸스, 보름달, 가시나, 워터밤 시리즈",
+    "identity_anchor": "원더걸스 출신, '워터밤' 시리즈로 알려진 솔로 가수"
+  },
+  "namesake_dropped": ["하트시그널2 출연자 모델 안선미", "이규빈과 결혼하는 안선미"],
+  "quotes": [
+    {"speaker": "선미", "text": "살 안 찌는 체질 아냐", "context": "코메디닷컴"},
+    {"speaker": "선미", "text": "속눈썹아 어디에 있니", "context": "Chosunbiz"},
+    {"speaker": "선미", "text": "귀신 친구들이랑", "context": "뉴시스"},
+    {"speaker": "선미", "text": "먕", "context": "Chosunbiz"},
+    {"speaker": "선미", "text": "술잔 들고 원더걸스 술 따라봐라고", "context": "네이트(아근진)"},
+    {"speaker": "선미", "text": "박진영, 잔소리 너무 많아 꼴 보기 싫다", "context": "뉴스엔(아근진)"},
+    {"speaker": "선미", "text": "오래 만났다", "context": "서울Pn"},
+    {"speaker": "선미", "text": "연애 경험 별로 없어..이상형은 선수 시절 서장훈", "context": "v.daum.net(미우새)"},
+    {"speaker": "선미", "text": "첫 연애라서...그 후로 안 그래", "context": "뉴스엔(살롱드립2)"},
+    {"speaker": "선미", "text": "단체 예능, 생각만해도 아찔", "context": "조선일보"},
+    {"speaker": "선미", "text": "화장? 미끄러워서 안 해", "context": "네이트(오날오밤)"},
+    {"speaker": "선미", "text": "무대 오르면 후배 多..다행히 장우혁 선배 계셔", "context": "네이트"},
+    {"speaker": "선미", "text": "두렵고 설렌다", "context": "네이트"},
+    {"speaker": "선미", "text": "나를 사랑할 수도 있어서", "context": "nanamcom.co.kr"}
+  ],
+  "events": [
+    {"summary": "데뷔 18년 만에 처음으로 남자친구를 공개함", "year": null, "confirmed": true},
+    {"summary": "1년 4개월 만에 컴백", "year": null, "confirmed": true},
+    {"summary": "원더걸스 완전체 재결합 예능에는 불참함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "18년차", "meaning": "데뷔 후 경과 연수"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "박진영", "relation": "소속사 프로듀서", "mentioned_as": "잔소리가 많다고 밝힌 인물"},
+    {"name": "서장훈", "relation": "본인이 밝힌 이상형", "mentioned_as": "이상형으로 언급한 인물"},
+    {"name": "장우혁", "relation": "무대에서 의지하는 선배 가수", "mentioned_as": "다행이라 언급한 선배"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "살 안 찌는 체질이 아니라 관리를 한다고 직접 밝힘",
+    "화장이 미끄러워서 안 한다고 밝힘"
+  ],
+  "care_habits": [
+    "무릎에 멍이 들 정도로 무대 연습을 한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "'살 안 찌는 체질 아냐'라며 관리 비결을 직접 밝힘", "why_hot": "발언"},
+    {"material": "무릎 멍에도 '화장은 미끄러워서 안 한다'고 솔직하게 밝힘", "why_hot": "발언"},
+    {"material": "데뷔 18년 만에 처음으로 남자친구를 공개함", "why_hot": "반전"},
+    {"material": "이상형으로 서장훈을 꼽으며 연애 경험이 많지 않다고 밝힘", "why_hot": "발언"},
+    {"material": "무례한 취객에게 '원더걸스 술 따라봐'라며 당당히 대응함", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "무릎에 멍이 든 채로 무대에 오르는 모습",
+    "취객에게 당당히 쏘아붙이는 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "18년 전 호피 무늬 의상 재소환",
+    "워터밤 무대 의상",
+    "쉬인 브랜드 '데이지' 앰버서더 화보"
+  ]
+}
