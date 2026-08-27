@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "나연",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 1995,
+    "age": 31,
+    "age_range": "30대",
+    "career": "트와이스 멤버로 활동 중인 가수",
+    "major_work": "트와이스, ABCD, 모아나2 OST 참여",
+    "identity_anchor": "트와이스 멤버 가수, '모아나2' OST에 참여한 나연"
+  },
+  "namesake_dropped": ["'고딩엄빠4' 출연자 전나연", "'환승연애' 출연자 나연"],
+  "quotes": [
+    {"speaker": "나연", "text": "이것 아니면 못 쓴다", "context": "harpersbazaar.co.kr"},
+    {"speaker": "나연", "text": "이곳은 여름", "context": "한스경제"},
+    {"speaker": "나연", "text": "아픔 사라질 때까지", "context": "네이트(에터뷰)"},
+    {"speaker": "나연", "text": "운동해도 티 안 나..복근 하루만에 사라져", "context": "v.daum.net"},
+    {"speaker": "나연", "text": "우리 노래 중 최애 여름곡? 알콜 프리!", "context": "네이트(동네스타K)"},
+    {"speaker": "뱀뱀", "text": "트와이스 나연=짝사랑..연습생 시절 예뻐해 줘", "context": "네이트(뱀집)"},
+    {"speaker": "추성훈", "text": "여자랑 있으면 신경 쓰여", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "'모아나2' OST 참여 MV에 작곡가들이 감동함", "year": null, "confirmed": true},
+    {"summary": "뱀뱀이 연습생 시절 짝사랑했다고 자신의 방송에서 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "트와이스 나연=짝사랑..연습생 시절 예뻐해 줘", "where": "방송(뱀집)", "scale": ""},
+    {"text": "여자랑 있으면 신경 쓰여", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "뱀뱀", "relation": "연습생 시절 짝사랑했다고 밝힌 인물", "mentioned_as": "짝사랑을 고백한 인물"},
+    {"name": "추성훈", "relation": "방송에서 함께한 인물", "mentioned_as": "신경 쓰인다고 밝힌 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "구강관리템이 '이것 아니면 못 쓴다'고 밝힘",
+    "부기 빼는 필살기를 직접 공개함"
+  ],
+  "care_habits": [
+    "부기 빼는 필살기를 '아픔 사라질 때까지' 한다고 밝힘",
+    "운동해도 복근이 하루 만에 사라진다고 억울해함"
+  ],
+  "hot_materials": [
+    {"material": "뱀뱀이 연습생 시절 짝사랑했다고 자신의 방송에서 고백함", "why_hot": "실명"},
+    {"material": "'모아나2' OST 참여 MV에 작곡가들이 눈물을 보임", "why_hot": "반전"},
+    {"material": "구강관리템이 '이것 아니면 못 쓴다'고 밝힘", "why_hot": "발언"},
+    {"material": "운동해도 복근이 하루 만에 사라진다며 억울해함", "why_hot": "발언"},
+    {"material": "추성훈이 '여자랑 있으면 신경 쓰여'라고 밝힘", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "부기를 빼려 애쓰는 순간",
+    "모아나2 OST MV 비하인드 현장"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "발리 여행 근황",
+    "히피펌 스타일링",
+    "현장포토 속 미소"
+  ]
+}
