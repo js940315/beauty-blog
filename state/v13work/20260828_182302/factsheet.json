@@ -1,0 +1,186 @@
+{
+  "person": {
+    "name": "정은지",
+    "gender": "여",
+    "job": "가수 겸 배우",
+    "birth_year": 1993,
+    "age": null,
+    "age_range": "",
+    "career": "에이핑크 멤버",
+    "major_work": "낮밤녀",
+    "identity_anchor": "에이핑크 멤버, 드라마 낮밤녀 출연 가수 겸 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {
+      "speaker": "정은지",
+      "text": "살을 잘 찌우려고 이 세 가지만 먹었다",
+      "context": "코메디닷컴"
+    },
+    {
+      "speaker": "정은지",
+      "text": "2주 만에 9kg을 감량했다",
+      "context": "헬스조선"
+    },
+    {
+      "speaker": "정은지",
+      "text": "팥빙수는 팥을 빼고 우유랑 얼음만 먹는다",
+      "context": "네이트 컬투쇼"
+    },
+    {
+      "speaker": "정은지",
+      "text": "진척은 1도 없다",
+      "context": "네이트 인터뷰"
+    },
+    {
+      "speaker": "정은지",
+      "text": "권정열과 꼭 작업하고 싶었다, 노래 요리사 같다",
+      "context": "sports.donga.com"
+    },
+    {
+      "speaker": "정은지",
+      "text": "겁 없이 계속 덤빈다",
+      "context": "네이트 더 시즌즈"
+    },
+    {
+      "speaker": "정은지",
+      "text": "막대사탕입니다",
+      "context": "네이트"
+    },
+    {
+      "speaker": "최진혁",
+      "text": "정은지와 실제 열애 가능성은 0퍼센트다",
+      "context": "한국경제"
+    }
+  ],
+  "events": [
+    {
+      "summary": "14년간 몸담았던 소속사를 떠나 새로운 출발을 알림",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "예능 짠한형에서 최진혁과 열애설이 불거졌으나 최진혁이 실제 열애 가능성을 부인함",
+      "year": null,
+      "confirmed": false
+    }
+  ],
+  "numbers": [
+    {
+      "value": "9kg",
+      "meaning": "2주간 감량 체중"
+    },
+    {
+      "value": "16년",
+      "meaning": "아이돌 활동 경력"
+    },
+    {
+      "value": "14년",
+      "meaning": "소속사 활동 기간"
+    },
+    {
+      "value": "3년",
+      "meaning": "이준영과의 선후배 연차 차이"
+    }
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {
+      "text": "무해하고 예뻐서 편했다",
+      "where": "방송(가요광장)",
+      "scale": ""
+    },
+    {
+      "text": "감히 우리 언니를, 결혼하세요",
+      "where": "방송(짠한형)",
+      "scale": ""
+    }
+  ],
+  "related_people": [
+    {
+      "name": "최진혁",
+      "relation": "짠한형 공동출연",
+      "mentioned_as": "열애설 상대(본인 부인)"
+    },
+    {
+      "name": "서인국",
+      "relation": "짠한형 공동출연",
+      "mentioned_as": "커플 콘셉트 상대"
+    },
+    {
+      "name": "이준영",
+      "relation": "가요광장 동료 출연",
+      "mentioned_as": "무해하고 예쁘다고 평가"
+    },
+    {
+      "name": "권정열",
+      "relation": "협업 희망 뮤지션",
+      "mentioned_as": "함께 작업하고 싶다고 언급"
+    },
+    {
+      "name": "이세영",
+      "relation": "차기작 촬영 동료 배우",
+      "mentioned_as": "커피차로 응원"
+    }
+  ],
+  "works": [
+    {
+      "title": "짠한형",
+      "year": null,
+      "costar": "최진혁",
+      "scene": "음주 플러팅 발언 등으로 열애설을 키운 상황극, 본인은 실제 진척이 없다고 밝힘",
+      "kind": "극중"
+    },
+    {
+      "title": "짠한형",
+      "year": null,
+      "costar": "서인국",
+      "scene": "싱크대 키스 등 커플 콘셉트로 꾸며진 장면",
+      "kind": "극중"
+    }
+  ],
+  "beauty_evidence": [
+    "16년째 아이돌 활동 중이라는 말에도 담담한 반응",
+    "9kg 감량에 성공했다고 밝힘",
+    "합성 의심을 받을 만큼 탄탄한 팔 근육 사진이 화제"
+  ],
+  "care_habits": [
+    "팥빙수는 팥을 빼고 우유와 얼음만 먹는다고 밝힘",
+    "한때 살을 찌우기 위해 정해둔 세 가지만 먹었다고 밝힘",
+    "2주 만에 9kg을 감량했다고 밝힘"
+  ],
+  "hot_materials": [
+    {
+      "material": "짠한형에서 최진혁과 열애설이 커졌지만 본인은 진척 없다고 밝힌 것",
+      "why_hot": "반전"
+    },
+    {
+      "material": "합성이냐는 의심을 받을 만큼 탄탄한 팔 근육 사진",
+      "why_hot": "장면"
+    },
+    {
+      "material": "2주 만에 9kg을 감량했다는 다이어트 비법",
+      "why_hot": "낙차"
+    },
+    {
+      "material": "이준영이 무해하고 예쁘다고 평가한 것",
+      "why_hot": "실명"
+    },
+    {
+      "material": "14년 만에 소속사를 떠나 새 출발을 알린 것",
+      "why_hot": "낙차"
+    }
+  ],
+  "scene_materials": [
+    "팔 근육 사진에 정토르라는 별명이 붙은 장면",
+    "짠한형 세트장에서 웨딩드레스를 입고 결혼식을 올린 장면"
+  ],
+  "sns_materials": [
+    "팔 근육 인증 사진(정토르 짤)",
+    "막대사탕 해명 게시물"
+  ],
+  "press_only_materials": [
+    "짠한형 웨딩드레스 촬영 컷",
+    "팬미팅 화보성 사진"
+  ]
+}
