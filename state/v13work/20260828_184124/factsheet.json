@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "김고은",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1991,
+    "age": null,
+    "age_range": "",
+    "career": "영화·드라마 배우",
+    "major_work": "도깨비",
+    "identity_anchor": "도깨비·유미의 세포들·파묘 주연 배우"
+  },
+  "namesake_dropped": ["솔로지옥5 출연자 김고은(고니)"],
+  "quotes": [
+    {"speaker": "김고은", "text": "벗으니까 관리해야 해요", "context": "TV리포트"},
+    {"speaker": "김고은", "text": "식단하면 왜 살지 싶어져서 슬퍼진다, 눈코가 잘 붓는다", "context": "네이트"},
+    {"speaker": "김고은", "text": "얼굴이 붓지 않는 박지현이 원망스럽다", "context": "스포츠경향"},
+    {"speaker": "김고은", "text": "최애 세포는 응큼이", "context": "네이트"},
+    {"speaker": "김고은", "text": "벅차게 감사하다", "context": "starnewskorea.com"},
+    {"speaker": "김고은", "text": "거기선 아프지 마", "context": "뉴스1"},
+    {"speaker": "김고은", "text": "과호흡이 올 뻔했다", "context": "v.daum.net"},
+    {"speaker": "노상현", "text": "김고은과 20대 연기가 동안이 아니라 오히려 어려웠다", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "도깨비 10주년을 맞아 공유와 명장면을 재현함", "year": null, "confirmed": true},
+    {"summary": "시상식에서 대상을 수상함", "year": null, "confirmed": true},
+    {"summary": "반려견 월이를 떠나보냄", "year": null, "confirmed": true},
+    {"summary": "파묘로 천만 관객을 달성한 배우가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48kg", "meaning": "체중"},
+    {"value": "10주년", "meaning": "도깨비 방영 10주년"},
+    {"value": "16%", "meaning": "CJ온스타일 광고 후 20대 고객 주문량 증가율"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "공유", "relation": "도깨비 상대역", "mentioned_as": "10주년 명장면 재현 상대"},
+    {"name": "안은진", "relation": "몸매관리 동료 배우", "mentioned_as": "함께 한강 러닝"},
+    {"name": "박지현", "relation": "동료 배우", "mentioned_as": "붓지 않는 얼굴이 원망스럽다고 언급"},
+    {"name": "노상현", "relation": "유미의 세포들 공동출연", "mentioned_as": "동안이라 연기가 어려웠다고 언급"},
+    {"name": "유해진", "relation": "파묘 공동출연", "mentioned_as": "커피차 선물로 감동"},
+    {"name": "김재원", "relation": "유미의 세포들3 공동출연", "mentioned_as": "밥 잘 사주는 누나로 언급"}
+  ],
+  "works": [
+    {"title": "도깨비", "year": null, "costar": "공유", "scene": "10주년 기념으로 명장면을 재현하며 서로 징그럽다고 놀린 장면", "kind": "실제"},
+    {"title": "유미의 세포들", "year": null, "costar": "김재원", "scene": "밥을 잘 사주는 예쁜 누나에게 리드당한다는 언급", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "48kg를 유지하면서도 식단에 집착하지 않으려 한다고 밝힘",
+    "눈코가 잘 붓는다고 솔직히 인정함",
+    "안은진과 폭염에도 한강을 함께 뛴다고 알려짐"
+  ],
+  "care_habits": [
+    "천천히 먹는 습관을 갖고 있다고 소개됨",
+    "안은진과 폭염에도 한강 러닝을 한다"
+  ],
+  "hot_materials": [
+    {"material": "48kg인데 식단에 집착하면 슬퍼진다고 솔직히 밝힌 것", "why_hot": "발언"},
+    {"material": "공유와 도깨비 명장면을 10년 만에 재현하며 서로 징그럽다고 놀린 것", "why_hot": "장면"},
+    {"material": "얼굴이 붓지 않는 박지현이 원망스럽다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "시상식에서 벅차게 감사하다며 대상을 수상한 것", "why_hot": "낙차"},
+    {"material": "반려견 월이를 떠나보내며 거기선 아프지 말라고 전한 것", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "안은진과 폭염 속에서도 한강을 함께 뛰는 장면",
+    "공유와 도깨비 명장면을 재현하며 서로 놀리는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "샤넬 트위드 재킷 공항패션 컷"
+  ]
+}
