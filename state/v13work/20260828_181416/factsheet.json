@@ -1,0 +1,157 @@
+{
+  "person": {
+    "name": "손나은",
+    "gender": "여",
+    "job": "가수 겸 배우",
+    "birth_year": 1994,
+    "age": null,
+    "age_range": "",
+    "career": "에이핑크 멤버",
+    "major_work": "김부장",
+    "identity_anchor": "에이핑크 멤버, 드라마 김부장 출연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {
+      "speaker": "손나은",
+      "text": "에이핑크 늘 응원한다",
+      "context": "이투데이 인터뷰"
+    },
+    {
+      "speaker": "손나은",
+      "text": "데뷔 후 라면 한 개도 못 먹어봤다",
+      "context": "파이낸셜뉴스"
+    },
+    {
+      "speaker": "손나은",
+      "text": "컵라면 한 개를 다 먹어본 적이 없다",
+      "context": "텐아시아"
+    },
+    {
+      "speaker": "손나은",
+      "text": "남산 뷰 보면서 뛰고 싶다",
+      "context": "v.daum.net"
+    },
+    {
+      "speaker": "손나은",
+      "text": "눈물 날 것 같다",
+      "context": "조선일보 핫피플"
+    },
+    {
+      "speaker": "손나은",
+      "text": "최민호는 열정의 아이콘, 로맨스신에서 설렘을 느꼈다",
+      "context": "뉴스1 N인터뷰"
+    },
+    {
+      "speaker": "손나은",
+      "text": "윤경호 미인계에 시선 강탈당했다, 왜 인기 많은지 알겠더라",
+      "context": "TV리포트"
+    }
+  ],
+  "events": [
+    {
+      "summary": "드라마 김부장으로 안방 복귀",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "5년 만에 고정 예능 출연",
+      "year": null,
+      "confirmed": true
+    }
+  ],
+  "numbers": [
+    {
+      "value": "46kg",
+      "meaning": "체중"
+    }
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {
+      "text": "역시 레깅스 여신",
+      "where": "댓글",
+      "scale": ""
+    }
+  ],
+  "related_people": [
+    {
+      "name": "윤경호",
+      "relation": "김부장 공동출연",
+      "mentioned_as": "미인계 장면 상대"
+    },
+    {
+      "name": "최민호",
+      "relation": "김부장 공동출연",
+      "mentioned_as": "로맨스신 상대역"
+    },
+    {
+      "name": "손새은",
+      "relation": "동생",
+      "mentioned_as": "결혼설 부인 보도 대상"
+    }
+  ],
+  "works": [
+    {
+      "title": "김부장",
+      "year": null,
+      "costar": "윤경호",
+      "scene": "윤경호의 미인계에 시선을 빼앗겼다고 밝힌 장면",
+      "kind": "극중"
+    },
+    {
+      "title": "김부장",
+      "year": null,
+      "costar": "최민호",
+      "scene": "최민호와의 로맨스신에서 설렘을 느꼈다고 밝힌 장면",
+      "kind": "실제"
+    }
+  ],
+  "beauty_evidence": [
+    "46kg 유지",
+    "컵라면 한 개를 다 먹어본 적 없다고 밝힘",
+    "군살 없는 개미허리",
+    "태닝으로 구릿빛 건강미를 완성했다고 소개됨"
+  ],
+  "care_habits": [
+    "라면·컵라면을 통째로 먹지 않는다고 밝힘",
+    "레깅스 차림으로 운동 인증샷을 남긴다",
+    "태닝으로 바디라인을 관리한다",
+    "남산 뷰를 보며 달리고 싶다고 밝힘"
+  ],
+  "hot_materials": [
+    {
+      "material": "데뷔 후 라면 한 개를 다 먹어본 적 없다는 고백",
+      "why_hot": "발언"
+    },
+    {
+      "material": "46kg 유지 비결이 의외로 '이 운동'이었다는 반전",
+      "why_hot": "낙차"
+    },
+    {
+      "material": "운동 인증샷에 '레깅스 여신' 반응이 쏟아진 것",
+      "why_hot": "반전"
+    },
+    {
+      "material": "윤경호 미인계에 시선을 빼앗겼다는 고백",
+      "why_hot": "발언"
+    },
+    {
+      "material": "최민호와 로맨스신에서 설렘을 느꼈다는 고백",
+      "why_hot": "실명"
+    }
+  ],
+  "scene_materials": [
+    "헬스장에서 라면 한 입만 먹는 모습을 공개한 장면",
+    "태닝으로 완성한 구릿빛 바디라인을 드러낸 장면"
+  ],
+  "sns_materials": [
+    "레깅스 운동 인증샷"
+  ],
+  "press_only_materials": [
+    "제이제이지고트 26FW 캠페인 화보",
+    "패션서울 26FW 가을 룩 화보",
+    "카고 팬츠 화보 컷",
+    "특수임무국 컨셉 화보"
+  ]
+}
