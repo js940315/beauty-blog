@@ -1,0 +1,164 @@
+{
+  "person": {
+    "name": "아이린",
+    "gender": "여",
+    "job": "모델",
+    "birth_year": 1987,
+    "age": null,
+    "age_range": "30대",
+    "career": "대구 얼짱 출신 모델",
+    "major_work": "동상이몽2",
+    "identity_anchor": "대구 얼짱 출신 모델, 180cm 사업가와 5월 결혼",
+    "height": "178cm"
+  },
+  "namesake_dropped": [
+    "레드벨벳 아이린(가수)",
+    "아이린한의원(한의원 상호, 인물 아님)",
+    "정규 1집 관련 아이린(식별 불가)",
+    "포토월 등장 아이돌 아이린(식별 불가)"
+  ],
+  "quotes": [
+    {
+      "speaker": "아이린",
+      "text": "인생 서두를 필요 없다",
+      "context": "starnewskorea.com"
+    },
+    {
+      "speaker": "아이린",
+      "text": "내 최고의 선택이다",
+      "context": "뉴시스"
+    },
+    {
+      "speaker": "아이린",
+      "text": "세상에서 제일 행복한 여자다",
+      "context": "네이트"
+    },
+    {
+      "speaker": "아이린",
+      "text": "남편을 아끼고 싶어서 비밀연애를 했다",
+      "context": "뉴스1"
+    },
+    {
+      "speaker": "아이린",
+      "text": "미국 시민권자라 투표권은 없다",
+      "context": "starnewskorea.com"
+    },
+    {
+      "speaker": "아이린",
+      "text": "딸에게 늦게 따라잡히고 싶다",
+      "context": "여성신문"
+    },
+    {
+      "speaker": "아이린",
+      "text": "남편은 180cm 멍뭉상이다",
+      "context": "모바일한경 동상이몽2"
+    },
+    {
+      "speaker": "아이린",
+      "text": "예비신랑이 키 180cm 리트리버 같다",
+      "context": "Asia Artist Awards 동상이몽2"
+    }
+  ],
+  "events": [
+    {
+      "summary": "2년 비밀연애 끝에 5월 결혼했다",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "결혼 10일째 함께 살기 시작했다고 동상이몽2에서 밝힘",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "결혼 1주년을 자축했다",
+      "year": null,
+      "confirmed": true
+    },
+    {
+      "summary": "여성마라톤 홍보대사로 활동 중",
+      "year": null,
+      "confirmed": true
+    }
+  ],
+  "numbers": [
+    {
+      "value": "180cm",
+      "meaning": "남편 키"
+    },
+    {
+      "value": "2년",
+      "meaning": "결혼 전 비밀연애 기간"
+    },
+    {
+      "value": "10일",
+      "meaning": "동상이몽2 방영 시점 신혼집 동거 기간"
+    },
+    {
+      "value": "2025년 5월 23일",
+      "meaning": "결혼식 날짜"
+    }
+  ],
+  "credentials": [
+    {
+      "item": "여성마라톤 홍보대사",
+      "whose": "본인"
+    }
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {
+      "name": "이찬원",
+      "relation": "대구(칠곡) 고향 후배 트로트 가수",
+      "mentioned_as": "대구 얼짱 출신임을 직접 인증"
+    }
+  ],
+  "works": [
+    {
+      "title": "동상이몽2",
+      "year": null,
+      "costar": "",
+      "scene": "결혼 10일차 신혼 생활과 남편과의 일상을 공개한 장면",
+      "kind": "실제"
+    }
+  ],
+  "beauty_evidence": [
+    "결혼을 앞두고 식단 관리를 공개했다고 알려짐"
+  ],
+  "care_habits": [
+    "결혼을 앞두고 식단 관리를 공개했다고 알려짐",
+    "여성마라톤 홍보대사로 꾸준히 달리기를 한다"
+  ],
+  "hot_materials": [
+    {
+      "material": "2년 비밀연애 끝에 5월 결혼, 10일째 신혼집에서 산다고 밝힌 것",
+      "why_hot": "낙차"
+    },
+    {
+      "material": "180cm 훈남 사업가 남편을 리트리버 같다고 표현한 것",
+      "why_hot": "발언"
+    },
+    {
+      "material": "세상에서 제일 행복한 여자라고 밝힌 결혼 소감",
+      "why_hot": "발언"
+    },
+    {
+      "material": "미국 시민권자라 투표권이 없다고 솔직히 밝힌 것",
+      "why_hot": "반전"
+    },
+    {
+      "material": "대구 얼짱 출신이라는 사실을 트로트 가수 이찬원이 인증한 것",
+      "why_hot": "실명"
+    }
+  ],
+  "scene_materials": [
+    "동상이몽2 세트에서 결혼 10일차 신혼 생활을 공개한 장면",
+    "웨딩드레스를 입고 결혼 사진을 공개한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "웨딩 화보 사진",
+    "동상이몽2 방송 캡처"
+  ],
+  "notes": "소스에 섞인 '레드벨벳 아이린'(가수, 양봉 영상 취향 발언), '아이린한의원'(한의원 상호), 그룹명 없이 아이돌들과 나열된 포토월 기사는 전부 동명이인/무관 사례로 제외함. 주 인물은 대구 얼짱 출신 모델로, 180cm 사업가와 5월 결혼한 쪽만 남김."
+}
