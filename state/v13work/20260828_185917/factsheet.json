@@ -1,0 +1,67 @@
+{
+  "person": {
+    "name": "임지연",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1990,
+    "age": null,
+    "age_range": "",
+    "career": "영화·드라마 배우",
+    "major_work": "더 글로리",
+    "identity_anchor": "더 글로리·멋진 신세계 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "임지연", "text": "라면 다섯 봉지를 먹고도 48kg을 유지한다", "context": "헬스조선"},
+    {"speaker": "임지연", "text": "급찐급빠, 입에 들어가는 건 다 좋아한다", "context": "마이데일리"},
+    {"speaker": "임지연", "text": "웃기고 싶었다, 멋진 신세계가 이렇게 사랑받을 줄은 몰랐다", "context": "네이트"},
+    {"speaker": "임지연", "text": "허남준은 기적 같은 파트너다", "context": "bplusnews.com"},
+    {"speaker": "임지연", "text": "한예종 시절 패션 테러리스트였다", "context": "조선일보"},
+    {"speaker": "박정민", "text": "고구마냐", "context": "조선일보"},
+    {"speaker": "임지연", "text": "박정민도 정작 본인은 옷을 못 입으면서 지적했다", "context": "뉴스엔"},
+    {"speaker": "이재욱", "text": "누나 잘 먹을게", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "더 글로리에서 박연진 역으로 악역 계보를 잇는다는 극찬을 받음", "year": null, "confirmed": true},
+    {"summary": "멋진 신세계 종영 후 웃으며 시원한 이별을 했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "바이오힐보의 모델로 발탁됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48kg", "meaning": "체중"},
+    {"value": "5봉지", "meaning": "한 끼 라면 섭취량"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "허남준", "relation": "멋진 신세계 상대역", "mentioned_as": "기적 같은 파트너로 언급"},
+    {"name": "박정민", "relation": "한예종 동기", "mentioned_as": "패션 테러리스트라 놀림"},
+    {"name": "차주영", "relation": "더 글로리 공동출연", "mentioned_as": "활동 중단 이후에도 우정 유지"},
+    {"name": "이재욱", "relation": "촬영장 서포트 관련 언급", "mentioned_as": "서포트에 감동했다는 인사"}
+  ],
+  "works": [
+    {"title": "더 글로리", "year": null, "costar": "차주영", "scene": "박연진 역으로 극찬받으며 차주영과 우정을 이어간 것", "kind": "실제"},
+    {"title": "멋진 신세계", "year": null, "costar": "허남준", "scene": "사랑했다는 표현이 나올 만큼 애틋했던 극중 관계, 종영 후 시원하게 이별했다고 밝힘", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "라면 다섯 봉지를 먹고도 48kg을 유지한다는 평가를 받음",
+    "급찐급빠 체질이라 무엇이든 잘 먹는다고 밝힘"
+  ],
+  "care_habits": [
+    "아침마다 정해진 음식을 챙겨 먹는다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "라면 다섯 봉지를 먹고도 48kg을 유지한다는 것", "why_hot": "낙차"},
+    {"material": "한예종 시절 패션 테러리스트였다고 스스로 고백한 것", "why_hot": "반전"},
+    {"material": "박정민에게 고구마냐는 놀림을 받았다고 밝힌 것", "why_hot": "발언"},
+    {"material": "허남준을 기적 같은 파트너라고 표현한 것", "why_hot": "발언"},
+    {"material": "더 글로리 박연진 역으로 악역 계보를 이었다는 극찬을 받은 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "한예종 시절 버건디 풀착장으로 박정민에게 놀림받는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "신서리 중세 여전사 변신 화보",
+    "바이오힐보 광고 컷"
+  ]
+}
