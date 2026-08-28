@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "천우희",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1990,
+    "age": null,
+    "age_range": "",
+    "career": "영화·드라마 배우",
+    "major_work": "마이 유스",
+    "identity_anchor": "마이 유스·히어로는·더 에이트 쇼 출연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "천우희", "text": "머리가 많이 자랐다", "context": "네이트"},
+    {"speaker": "천우희", "text": "못생겼다고 오디션에서 탈락한 적이 있다", "context": "뉴스엔"},
+    {"speaker": "천우희", "text": "연기와 일상 두 가지 모두 잘 해내고 싶다", "context": "시사저널"},
+    {"speaker": "천우희", "text": "관능미를 보여줄 기회라 부담이 없지는 않았다", "context": "sports.donga.com"},
+    {"speaker": "천우희", "text": "결혼 생각이 없었는데 나이가 들면서 마음이 변했다", "context": "v.daum.net"},
+    {"speaker": "엄정화", "text": "나의 사랑", "context": "매일경제"},
+    {"speaker": "송중기", "text": "처음부터 끝까지 너였다", "context": "starnewskorea.com"},
+    {"speaker": "천우희", "text": "송중기와 멜로 연기를 하며 멜로가 체질이라고 느꼈다", "context": "iMBC 연예"}
+  ],
+  "events": [
+    {"summary": "13년 팬의 결혼식에서 먼저 축사를 자청함", "year": null, "confirmed": true},
+    {"summary": "화재 현장 영웅들에게 4천만원을 기부함", "year": null, "confirmed": true},
+    {"summary": "서울 유니버설 관광 홍보대사로 임명됨", "year": null, "confirmed": true},
+    {"summary": "더 에이트 쇼에서 관능적인 이미지 변신을 시도함", "year": null, "confirmed": true},
+    {"summary": "부모님이 30년간 운영한 한정식집을 오빠가 물려받아 가업을 잇고 있다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4천만원", "meaning": "화재 영웅 기부금"},
+    {"value": "13년", "meaning": "팬과의 인연 기간"},
+    {"value": "18살", "meaning": "엄정화와의 나이 차이"},
+    {"value": "30년", "meaning": "부모님의 한정식집 운영 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "엄정화", "relation": "18살 차이 절친", "mentioned_as": "나의 사랑이라 언급"},
+    {"name": "송중기", "relation": "마이 유스 상대역", "mentioned_as": "처음부터 끝까지 너였다고 언급"},
+    {"name": "박재범", "relation": "시상식 축하 언급", "mentioned_as": "청룡 무대 리액션에 감사 표현"},
+    {"name": "장기용", "relation": "히어로는 공동출연", "mentioned_as": "작전 상대"}
+  ],
+  "works": [
+    {"title": "마이 유스", "year": null, "costar": "송중기", "scene": "멜로 연기를 하며 멜로가 체질이라 느꼈다고 밝힌 장면", "kind": "실제"},
+    {"title": "더 에이트 쇼", "year": null, "costar": "", "scene": "관능미를 보여주는 파격적인 이미지 변신을 시도한 장면", "kind": "극중"},
+    {"title": "히어로는", "year": null, "costar": "장기용", "scene": "순진한 얼굴로 작전을 개시해 상대의 집에 입성하는 장면", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "민낯도 청순하다는 평가를 받음",
+    "관능미 변신에도 부담을 솔직히 밝힘"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "못생겼다고 오디션에서 탈락했던 과거를 담담히 밝힌 것", "why_hot": "반전"},
+    {"material": "13년 팬의 결혼식에서 먼저 축사를 자청한 것", "why_hot": "발언"},
+    {"material": "화재 영웅들에게 4천만원을 기부한 것", "why_hot": "낙차"},
+    {"material": "더 에이트 쇼에서 관능미 변신에 도전하며 부담을 솔직히 밝힌 것", "why_hot": "반전"},
+    {"material": "엄정화와 18살 나이 차를 뛰어넘은 우정을 이어가는 것", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "13년 팬의 결혼식에서 직접 축사를 전하는 장면",
+    "더 에이트 쇼에서 파격적인 이미지 변신을 보여주는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "패션 화보 컷",
+    "엄정화와의 친자매 같은 데이트룩 투샷"
+  ],
+  "notes": "한공주(밀양 성폭행 실제 사건 소재)와 故이선균 추모, 촬영장 민폐 논란 관련 기사는 소재 성격상(민감·비극·논란) 뷰티 블로그 톤에 맞지 않아 전부 제외함."
+}
