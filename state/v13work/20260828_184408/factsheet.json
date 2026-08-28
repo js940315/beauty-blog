@@ -1,0 +1,67 @@
+{
+  "person": {
+    "name": "김다미",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1995,
+    "age": null,
+    "age_range": "",
+    "career": "영화·드라마 배우",
+    "major_work": "마녀",
+    "identity_anchor": "마녀·이태원 클라쓰 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김다미", "text": "실제 존재하는 인물을 그리려 했다", "context": "v.daum.net"},
+    {"speaker": "김다미", "text": "2년 공백 후 이태원 클라쓰, 내 운을 다 끌어다 쓴 것 같다", "context": "starnewskorea.com"},
+    {"speaker": "김다미", "text": "끼가 없다는 소리를 들었는데 마녀 주인공이 될 줄 몰랐다", "context": "starnewskorea.com"},
+    {"speaker": "마녀 감독", "text": "너에게 도박을 걸었다", "context": "sports.donga.com"},
+    {"speaker": "김다미", "text": "예능 출연이 재미없을까 걱정했는데 손석구에 묻어갔다", "context": "starnewskorea.com"},
+    {"speaker": "손석구", "text": "사람들이 김다미 어떠냐고 물어보는데 되게 구수하다", "context": "매일경제"},
+    {"speaker": "김다미", "text": "메이크업할 때부터 집에 가고 싶었다", "context": "조선일보"},
+    {"speaker": "손석구", "text": "나도 늘 집에 가고 싶다", "context": "조선일보"},
+    {"speaker": "김다미", "text": "학창시절 12시간을 자도 몸을 세우기 힘들었다", "context": "starnewskorea.com"},
+    {"speaker": "김다미", "text": "손석구와의 로맨스 케미를 시도해봤지만 어색했다", "context": "EPN엔피나우"},
+    {"speaker": "김다미", "text": "20kg 아역을 안고 업으며 엄마가 된 내 모습이 나도 어색했다", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "2년의 공백 끝에 이태원 클라쓰로 복귀함", "year": null, "confirmed": true},
+    {"summary": "1500대1의 경쟁률을 뚫고 영화 마녀의 주인공으로 캐스팅됨", "year": null, "confirmed": true},
+    {"summary": "손석구와 예능 틈만나면에 처음으로 예능 출연함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "1500:1", "meaning": "마녀 오디션 경쟁률"},
+    {"value": "2년", "meaning": "공백 기간"},
+    {"value": "20kg", "meaning": "대홍수 아역 몸무게"},
+    {"value": "12시간", "meaning": "학창시절 수면 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "손석구", "relation": "나인퍼즐·틈만나면 공동출연", "mentioned_as": "예능 동반 출연·로맨스 케미 시도"},
+    {"name": "신예은", "relation": "백번의 추억 공동출연", "mentioned_as": "명장면 화제"},
+    {"name": "허남준", "relation": "백번의 추억 공동출연", "mentioned_as": "이상형으로 둘 다 과분하다고 언급"},
+    {"name": "최우식", "relation": "마녀 공동출연", "mentioned_as": "마지막 반전 장면 상대"}
+  ],
+  "works": [
+    {"title": "마녀", "year": null, "costar": "최우식", "scene": "1500대1 경쟁률을 뚫고 캐스팅된 오디션 일화, 감독이 도박을 걸었다고 밝힌 장면", "kind": "실제"},
+    {"title": "틈만나면", "year": null, "costar": "손석구", "scene": "메이크업할 때부터 집에 가고 싶었다고 밝혀 손석구와 공감대를 형성한 장면", "kind": "실제"},
+    {"title": "대홍수", "year": null, "costar": "", "scene": "20kg 아역을 안고 업으며 엄마 역할을 소화한 장면", "kind": "극중"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "1500대1 경쟁률을 뚫고 마녀 주인공이 됐다는 캐스팅 비화", "why_hot": "낙차"},
+    {"material": "2년 공백 후 이태원 클라쓰로 운을 다 끌어다 썼다고 밝힌 것", "why_hot": "발언"},
+    {"material": "메이크업 중에도 집에 가고 싶었다는 솔직한 고백에 손석구도 공감한 것", "why_hot": "발언"},
+    {"material": "손석구와 로맨스 케미를 시도했지만 어색했다고 밝힌 것", "why_hot": "반전"},
+    {"material": "20kg 아역을 업으며 엄마가 된 자신의 모습이 어색했다고 밝힌 것", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "메이크업 의자에서 집에 가고 싶다고 말한 장면",
+    "20kg 아역을 업고 물살을 헤치는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [],
+  "notes": "촬영장 부조리 폭로 관련 기사는 논란·갈등 소재라 이 글의 톤과 맞지 않아 제외함."
+}
