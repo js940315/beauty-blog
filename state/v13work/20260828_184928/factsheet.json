@@ -1,0 +1,59 @@
+{
+  "person": {
+    "name": "수애",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": 1979,
+    "age": null,
+    "age_range": "",
+    "career": "영화·드라마 배우",
+    "major_work": "가족",
+    "identity_anchor": "영화 가족·그해 여름 주연 배우, 4년 공백 끝에 활동 재개"
+  },
+  "namesake_dropped": ["천수애진(콜라겐·화장품 브랜드명, 인물 아님 — 광고모델은 배우 김희정)"],
+  "quotes": [],
+  "events": [
+    {"summary": "4년간 활동 소식이 없다가 SNS를 다시 열고 근황 사진을 공개함", "year": null, "confirmed": true},
+    {"summary": "새 프로필 사진을 공개해 팬들 사이에서 복귀설이 돌았음", "year": null, "confirmed": false},
+    {"summary": "패션 브랜드 LBL의 전속모델로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "넥서스이엔엠과 전속계약을 맺어 송지효와 한 소속사 식구가 됨", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4년", "meaning": "공백 기간"},
+    {"value": "47세", "meaning": "현재 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이병헌", "relation": "그해 여름 상대역", "mentioned_as": "멜로 눈빛으로 화제였던 케미"},
+    {"name": "송지효", "relation": "넥서스이엔엠 소속사 동료", "mentioned_as": "같은 소속사 식구"},
+    {"name": "엄태웅", "relation": "영화 가족 공동출연", "mentioned_as": "아버지와 딸 이야기의 공동 출연자"}
+  ],
+  "works": [
+    {"title": "그해 여름", "year": null, "costar": "이병헌", "scene": "멜로 눈빛으로 화제였던 두 사람의 케미", "kind": "실제"},
+    {"title": "가족", "year": null, "costar": "엄태웅", "scene": "아버지와 딸의 이야기를 그린 작품에서 함께 호흡을 맞춘 인연", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "4년 공백에도 동안 미모라는 평가를 받음",
+    "47세라는 나이가 믿기지 않는다는 반응을 얻음",
+    "중년수애라는 별명으로 동안 비법이 방송에서 다뤄짐"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "4년간 소식이 없다가 SNS를 다시 열어 팬들을 술렁이게 한 것", "why_hot": "낙차"},
+    {"material": "47세인데 동안 미모라는 평가를 받은 것", "why_hot": "반전"},
+    {"material": "새 프로필 공개로 복귀설이 돈 것", "why_hot": "낙차"},
+    {"material": "패션 브랜드 전속모델로 발탁된 것", "why_hot": "장면"},
+    {"material": "중년수애라는 별명의 동안 비법이 방송에서 다뤄진 것", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "4년 만에 새 프로필 사진을 공개한 장면"
+  ],
+  "sns_materials": [
+    "4년 만에 재개한 개인 SNS 근황 사진"
+  ],
+  "press_only_materials": [
+    "LBL 브랜드 화보 컷"
+  ],
+  "notes": "'천수애진'(콜라겐·화장품 브랜드) 관련 기사는 광고모델이 배우 김희정으로 명시돼 있어 배우 수애와 무관한 브랜드명 동일 사례로 제외함. 리치니스가 얇아(headline-only) 본인 직접 발언은 없음 — quotes 비움. 넥서스이엔엠/메이크스타 두 소속사 계약설이 상충해 더 구체적인 넥서스이엔엠·송지효 쪽만 채택함."
+}
