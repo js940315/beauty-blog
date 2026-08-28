@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "티파니",
+    "gender": "여",
+    "job": "가수",
+    "birth_year": 1989,
+    "age": null,
+    "age_range": "",
+    "career": "소녀시대 멤버",
+    "major_work": "소녀시대",
+    "identity_anchor": "소녀시대 멤버, 배우 변요한과 결혼한 가수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "티파니", "text": "부부싸움을 두려워하면 안 된다, 잘 싸워야 한다", "context": "SPOTV NEWS"},
+    {"speaker": "티파니", "text": "밤마다 떡볶이를 먹는다", "context": "매일경제"},
+    {"speaker": "티파니", "text": "불륜녀는 와이낫, 예능은 노", "context": "한국경제"},
+    {"speaker": "티파니", "text": "무심한데 섬세하다, 1년 교제 후 결혼했다", "context": "starnewskorea.com"},
+    {"speaker": "티파니", "text": "이 사람이란 확신이 들었다", "context": "starnewskorea.com"},
+    {"speaker": "티파니", "text": "매일 함께하고 싶어서 혼인신고를 먼저 했다", "context": "한국연예스포츠신문"},
+    {"speaker": "티파니", "text": "일이 우선이었는데 변요한을 만나 결혼을 결심했다", "context": "매일경제"},
+    {"speaker": "변요한", "text": "아내를 얼마나 사랑하냐는 말로 표현 못한다", "context": "starnewskorea.com"}
+  ],
+  "events": [
+    {"summary": "배우 변요한과 1년 교제 후 결혼, 혼인신고를 먼저 했다", "year": null, "confirmed": true},
+    {"summary": "소녀시대 데뷔 20주년 컴백을 내년 여름으로 예고함", "year": null, "confirmed": true},
+    {"summary": "반려견 복자와 함께 새 가족을 꾸렸다고 방송에서 소개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "1년", "meaning": "변요한과의 교제 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "네가 갈 줄 몰랐어", "where": "방송(스타이슈)", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "변요한", "relation": "남편(배우)", "mentioned_as": "부부 근황·외조 화제의 중심"},
+    {"name": "효연", "relation": "소녀시대 동료, 방송상 처제로 언급", "mentioned_as": "레벨업 출연 예정"},
+    {"name": "수영", "relation": "소녀시대 동료", "mentioned_as": "결혼 소식에 놀란 반응"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "깐달걀 피부라는 평가를 받음",
+    "부부싸움도 두려워하지 않고 잘 싸워야 한다는 소신을 밝힘"
+  ],
+  "care_habits": [
+    "밤마다 떡볶이를 먹는다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "1년 교제 후 혼인신고부터 먼저 했다는 고백", "why_hot": "발언"},
+    {"material": "변요한이 아내 사랑을 말로 표현 못한다고 공개 고백한 것", "why_hot": "발언"},
+    {"material": "결혼 소식에 수영이 놀란 반응을 보인 것", "why_hot": "실명"},
+    {"material": "태티서 존재감이 없어졌다는 본인의 자조 섞인 농담", "why_hot": "반전"},
+    {"material": "소녀시대 20주년 컴백을 내년 여름으로 예고한 것", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "반려견 복자와 함께 방송에 등장해 새 가족을 소개한 장면",
+    "밤마다 떡볶이를 함께 먹는 신혼 일상 장면"
+  ],
+  "sns_materials": [
+    "남편이 보낸 커피차에 SNS로 하트 화답"
+  ],
+  "press_only_materials": [],
+  "notes": "소스 중 '티파니앤코'(주얼리 브랜드) 앰버서더 관련 기사(고윤정·나탈리 포트만·배두나 언급)는 가수 티파니와 무관한 브랜드명 동일 사례로 판단해 전부 제외함."
+}
