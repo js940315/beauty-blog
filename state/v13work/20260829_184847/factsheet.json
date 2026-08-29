@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "한채영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 45,
+    "age_range": "40대",
+    "career": "배우, '원조 바비인형'으로 불리는 몸매의 대명사",
+    "major_work": "스캔들",
+    "identity_anchor": "배우 한채영, 드라마 '스캔들'에서 첫 악역 '예쁜 계모'로 출연 중인 배우"
+  },
+  "namesake_dropped": [
+    "나는 솔로 28기 영숙(한채영과 닮은꼴로 불린 다른 인물)"
+  ],
+  "quotes": [
+    {"speaker": "한채영", "text": "여전히 행복해", "context": "예능 '돌싱포맨', 남편 돌싱설 부인"},
+    {"speaker": "한채영", "text": "좋은 하루", "context": "건강 이상설 관련 근황 공개"},
+    {"speaker": "한채영", "text": "즐거운 하루", "context": "근황 공개"},
+    {"speaker": "한채영", "text": "예쁜 계모 매력있죠", "context": "'스캔들' 관련 인터뷰"},
+    {"speaker": "한채영", "text": "소리 많이 지르니 스트레스 풀려", "context": "'스캔들' 관련 인터뷰"},
+    {"speaker": "한채영", "text": "욕 들을 준비 완료", "context": "'스캔들' 관련 인터뷰"},
+    {"speaker": "한채영", "text": "영하 10도 얼음물 수영에 몸이 굳고 저체온증까지 왔다", "context": "예능 프로그램 도전기 인터뷰"}
+  ],
+  "events": [
+    {"summary": "남편 돌싱설이 돌았으나 본인이 직접 부인하며 여전히 행복하다고 밝혔다", "year": null, "confirmed": false},
+    {"summary": "건강 이상설이 돌았으나 밝은 근황을 공개해 오해를 풀었다", "year": null, "confirmed": true},
+    {"summary": "결혼 18년 차이며 12살 아들을 키우고 있다", "year": null, "confirmed": true},
+    {"summary": "예능에서 영하 10도 얼음물 수영에 도전해 저체온증까지 겪었다", "year": null, "confirmed": true},
+    {"summary": "매니저와 돈독한 사이로 훈훈한 미담이 알려졌다", "year": null, "confirmed": true},
+    {"summary": "드라마 '스캔들'에서 첫 악역이자 계모 역에 도전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "45세", "meaning": "본인 나이"},
+    {"value": "168cm", "meaning": "본인 키"},
+    {"value": "112cm", "meaning": "본인이 방송에서 공개한 다리 길이"},
+    {"value": "18년 차", "meaning": "결혼 기간"},
+    {"value": "12세", "meaning": "아들 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김준호", "relation": "'돌싱포맨' 동료 출연자, 다리 길이 비교 개그의 상대", "mentioned_as": "김준호"}
+  ],
+  "works": [
+    {"title": "스캔들", "year": null, "costar": "한보름",
+     "scene": "예쁜 계모 역으로 첫 악역에 도전했고, 극중 상대역이 자신을 몰아세우는 장면을 연기했다", "kind": "극중"},
+    {"title": "돌싱포맨", "year": null, "costar": "김준호",
+     "scene": "168cm 키에 다리 길이만 112cm라는 몸매를 공개해 화제가 됐다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "왜 안 늙냐는 반응이 나올 만큼 뽀얀 피부와 각선미가 화제였다",
+    "168cm 키에 다리 길이만 112cm인 '원조 바비인형' 몸매로 불린다",
+    "필터를 의심받을 정도로 여전한 미모라는 반응이 있었다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "남편 돌싱설을 직접 부인하며 여전히 행복하다고 밝힌 것", "why_hot": "발언"},
+    {"material": "건강 이상설을 본인이 직접 해명한 것", "why_hot": "반전"},
+    {"material": "168cm에 다리 길이만 112cm인 원조 바비인형 몸매", "why_hot": "장면"},
+    {"material": "영하 10도 얼음물 수영으로 저체온증까지 겪은 도전기", "why_hot": "발언"},
+    {"material": "18년 차 결혼생활에도 여전한 미모와 몸매", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "얼음물 수영에 도전하는 장면",
+    "다리 길이를 공개하며 웃음을 주는 방송 장면",
+    "건강 이상설을 해명하는 근황 공개 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "핑크 룩 착장 포착",
+    "카키 미니스커트에 롱부츠 착장 포착"
+  ]
+}
