@@ -1,0 +1,76 @@
+{
+  "person": {
+    "name": "한가인",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 42,
+    "age_range": "40대",
+    "career": "배우, 드라마 '자유부인'으로 7년 만에 복귀",
+    "major_work": "자유부인",
+    "identity_anchor": "배우 연정훈의 아내, 배우 한가인(드라마 '자유부인' 출연)"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한가인", "text": "부어야 예뻐, 피부과도 안 가", "context": "'자유부인' 관련 인터뷰"},
+    {"speaker": "한가인", "text": "아침엔 물세안+올리브오일 생식, 기본만 지켜요", "context": "피부 관리 인터뷰"},
+    {"speaker": "한가인", "text": "필러·보톡스 맞아 본 적 없다", "context": "인터뷰"},
+    {"speaker": "한가인", "text": "레이저가 보약", "context": "동안 비결 관련 인터뷰"},
+    {"speaker": "한가인", "text": "피부 시술 無, 꿀피부 위해 이것 자주 먹는다", "context": "인터뷰"},
+    {"speaker": "한가인", "text": "임신 때 화장실서 빵 먹은 적 있어", "context": "'자유부인' 복귀 인터뷰"},
+    {"speaker": "한가인", "text": "의사는 싫다", "context": "딸 교육 관련 인터뷰"},
+    {"speaker": "한가인", "text": "둘째 낳고 빠져, 얼굴도 같이 처져", "context": "'자유부인' 관련 인터뷰"},
+    {"speaker": "연정훈", "text": "친구 따라 연기학원 갔다가 캐스팅", "context": "예능 '전현무계획4'"},
+    {"speaker": "연정훈", "text": "父 여의도 연기학원 운영, 데뷔 반대 많았다", "context": "예능 '전현무계획4'"}
+  ],
+  "events": [
+    {"summary": "7년 만에 드라마 '자유부인'으로 연기에 복귀했다", "year": null, "confirmed": true},
+    {"summary": "딸이 상위 1% 영재라고 밝히며 의사는 원하지 않는다는 교육관을 공개했다", "year": null, "confirmed": true},
+    {"summary": "정수리 볼륨과 탈모 고민으로 두피 에센스를 챙긴다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "남편 연정훈이 미국 유학파 출신이며 친구를 따라간 연기학원에서 캐스팅됐다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "시어머니와 함께 건강 관리를 위해 고압산소 케어를 받는다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "42세", "meaning": "본인 나이"},
+    {"value": "7년", "meaning": "연기 활동 공백 기간"}
+  ],
+  "credentials": [
+    {"item": "미국 유학파 출신", "whose": "남편(연정훈)"},
+    {"item": "상위 1% 영재", "whose": "딸"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "연정훈", "relation": "남편", "mentioned_as": "연정훈"}
+  ],
+  "works": [
+    {"title": "자유부인", "year": null, "costar": "",
+     "scene": "7년 만의 복귀작으로, 이 작품 관련 인터뷰에서 여러 솔직한 이야기를 밝혔다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "42세라는 나이에도 동안 피부라는 평을 받는다",
+    "부어야 예쁘다는 자기 기준을 스스로 밝혔다"
+  ],
+  "care_habits": [
+    "아침에는 물세안과 올리브오일 생식으로 기본만 지킨다고 밝혔다",
+    "필러와 보톡스는 맞아본 적 없다고 밝혔다",
+    "레이저 시술은 본인 표현으로 '보약'이라고 밝혔다",
+    "정수리 볼륨을 위해 두피 에센스를 챙긴다고 밝혔다",
+    "혈당을 낮추고 피부에도 좋다는 성분을 챙겨 다닌다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "필러·보톡스 없이 레이저만으로 42세 동안 피부를 유지한다는 발언", "why_hot": "발언"},
+    {"material": "아침 물세안+올리브오일 생식이라는 의외로 간단한 루틴", "why_hot": "반전"},
+    {"material": "둘째 출산 후 탈모까지 고백한 솔직함", "why_hot": "발언"},
+    {"material": "딸이 상위 1% 영재인데 의사는 싫다며 밝힌 교육관", "why_hot": "반전"},
+    {"material": "연정훈이 밝힌 미국 유학파+캐스팅 비화", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "물세안 후 올리브오일을 바르는 아침 루틴 장면",
+    "시상식 스타일링을 스스로 최악이라 부르는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "시상식 스타일링 포착",
+    "SNL 코미디 무대 의상"
+  ]
+}
