@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "크리스탈",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "f(x) 출신, 현재 배우 활동",
+    "major_work": "상속자들",
+    "identity_anchor": "f(x) 출신 배우 정수정(크리스탈), 제시카의 동생"
+  },
+  "namesake_dropped": [
+    "애즈원 크리스탈(고 이민 동료 가수)",
+    "크리스탈팰리스(축구 구단)",
+    "게임 속 아이템 '크리스탈'",
+    "뮤지컬 겨울왕국 속 크리스탈 조각"
+  ],
+  "quotes": [
+    {"speaker": "크리스탈", "text": "내 레전드룩? 칸 핑크드레스", "context": "하퍼스바자 인터뷰"},
+    {"speaker": "크리스탈", "text": "모든 스포츠는 옷이 예뻐야 해", "context": "하퍼스바자 인터뷰, 본인 운동철학"},
+    {"speaker": "크리스탈", "text": "부잣집 딸 '보나' 역 위해 언니 명품백 빌려 촬영", "context": "드라마 관련 인터뷰"},
+    {"speaker": "크리스탈", "text": "'상속자들' 때 언니에게 빌린 명품백, 바닥에 던지는 신", "context": "하퍼스바자 인터뷰"},
+    {"speaker": "크리스탈", "text": "14년 전 TV 사용", "context": "예능 '런닝맨'에서 유재석과의 대화"},
+    {"speaker": "크리스탈", "text": "심한 욕과 질타 주변서 많이 받아", "context": "예능 '건물주'에서 열애 관련 언급"}
+  ],
+  "events": [
+    {"summary": "드라마 '상속자들'에서 언니 제시카의 명품 가방을 빌려 촬영했고, 그 가방을 극중에서 바닥에 던지는 장면을 찍어 제시카가 크게 화를 냈다고 본인이 공개했다", "year": null, "confirmed": true},
+    {"summary": "김준한과 공개 연애 중이며, 나이 차이로 주변에서 질타를 받았다고 본인이 밝혔다", "year": null, "confirmed": true},
+    {"summary": "런닝맨 출연 중 14년 된 TV를 쓴다고 밝혀 유재석이 소탈함에 놀랐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "42세", "meaning": "연인 김준한의 나이"},
+    {"value": "14년", "meaning": "본인이 쓰고 있다고 밝힌 TV 사용 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "제시카", "relation": "친언니, 명품백 사건의 당사자", "mentioned_as": "제시카"},
+    {"name": "김준한", "relation": "연인(42세)", "mentioned_as": "김준한"},
+    {"name": "유재석", "relation": "런닝맨에서 소탈함에 놀란 동료 출연자", "mentioned_as": "유재석"},
+    {"name": "송중기", "relation": "랄프로렌 행사 동반 참석", "mentioned_as": "송중기"},
+    {"name": "이진욱", "relation": "공항패션 동반 포착", "mentioned_as": "이진욱"}
+  ],
+  "works": [
+    {"title": "상속자들", "year": null, "costar": "",
+     "scene": "부잣집 딸 '보나' 역을 위해 언니 제시카의 명품 가방을 빌려 촬영했고, 그 가방을 바닥에 던지는 장면을 연기했다", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "핫팬츠 차림 가을 하이킹에서 탄탄한 다리 라인이 화제됐다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "언니 제시카가 크게 화낼 정도였던 드라마 명품백 촬영 비하인드", "why_hot": "발언"},
+    {"material": "42세 연인 김준한과의 공개 연애, 질타를 받았다는 발언", "why_hot": "발언"},
+    {"material": "14년 된 TV를 쓴다는 소탈함에 유재석이 놀란 것", "why_hot": "반전"},
+    {"material": "핫팬츠 하이킹 화보로 화제 된 탄탄한 다리 라인", "why_hot": "장면"},
+    {"material": "제시카 동생이라는 꼬리표와 별개로 쌓아온 필모그래피", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "명품백을 바닥에 내동댕이치는 드라마 촬영 장면",
+    "가을 하이킹 등산 장면",
+    "런던 거리에서 포착된 패션 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "칸 영화제 핑크 드레스 룩",
+    "하퍼스바자 화보",
+    "랄프로렌 화보 및 행사 참석",
+    "런던 거리 패션 포착",
+    "이진욱과 공항패션 포착"
+  ]
+}
