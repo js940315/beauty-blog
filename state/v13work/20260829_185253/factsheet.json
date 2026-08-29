@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "이미연",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 54,
+    "age_range": "50대",
+    "career": "배우, 10년 만에 공백을 깨고 복귀한 미모의 아이콘",
+    "major_work": "여고괴담1",
+    "identity_anchor": "영화 '여고괴담1' 주연 배우 이미연"
+  },
+  "namesake_dropped": [
+    "주베트남대사 이미연(외교관, 배우와 무관한 동명이인)"
+  ],
+  "quotes": [
+    {"speaker": "이미연", "text": "나만의 행복 찾기 중", "context": "레이디경향 인터뷰"},
+    {"speaker": "이미연", "text": "변함없이 배우 그 자체", "context": "10년 만의 공백 관련 화보 인터뷰"}
+  ],
+  "events": [
+    {"summary": "10년 만에 공백을 깨고 화보로 복귀해 근황을 전했다", "year": null, "confirmed": true},
+    {"summary": "후배 배우 송혜교에게 커피차를 보내 응원했고, 송혜교가 감사 인사를 전했다", "year": null, "confirmed": true},
+    {"summary": "후배 배우 진세연이 '제2의 이미연'이라는 별명으로 불릴 만큼 미모의 상징으로 꼽힌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "54세", "meaning": "본인 나이"},
+    {"value": "10년", "meaning": "공백 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "송혜교", "relation": "후배 배우, 커피차를 받고 감사 인사를 전한 사이", "mentioned_as": "송혜교"},
+    {"name": "진세연", "relation": "후배 배우, '제2의 이미연'이라는 별명으로 불림", "mentioned_as": "진세연"}
+  ],
+  "works": [
+    {"title": "여고괴담1", "year": null, "costar": "",
+     "scene": "시리즈의 시작을 알린 주연으로 출연해 대표작을 남겼다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "10년 공백에도 전설의 미모, 압도적인 아우라라는 평을 받았다",
+    "변함없는 눈빛으로 여신 포스라는 반응이 나왔다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "10년 만에 공백을 깨고 화보로 복귀해 전설의 미모를 증명한 것", "why_hot": "반전"},
+    {"material": "54세에도 여신 포스라는 반응이 나온 것", "why_hot": "낙차"},
+    {"material": "후배 송혜교에게 커피차를 보내며 훈훈한 관계를 보여준 것", "why_hot": "실명"},
+    {"material": "후배 진세연이 '제2의 이미연'이라는 별명으로 불릴 만큼 미모의 기준이 된 것", "why_hot": "실명"},
+    {"material": "나만의 행복 찾기 중이라는 담백한 근황 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "10년 만에 공개된 화보 촬영장 장면",
+    "커피차를 보내는 훈훈한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "주얼리 화보",
+    "Vogue Korea 화보"
+  ]
+}
