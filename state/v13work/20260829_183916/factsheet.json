@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "최지우",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 50,
+    "age_range": "50대",
+    "career": "데뷔 30년 차 배우",
+    "major_work": "겨울연가",
+    "identity_anchor": "드라마 '겨울연가' 주연 배우 최지우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "최지우", "text": "오후 8시부터는 안 먹는다, 속을 비워야 잘 잔다", "context": "라디오 '컬투쇼'"},
+    {"speaker": "최지우", "text": "일 주어지면 꾀 안 부려, '겨울연가' 보면 뿌듯", "context": "TV리포트 인터뷰"},
+    {"speaker": "최지우", "text": "유재석, 잊을 만하면 보고 잊을 만하면 방송해", "context": "예능 '틈만나면'"},
+    {"speaker": "최지우", "text": "이거 안 될 것 같아", "context": "예능 '틈만나면' 재촬영 요청 상황"},
+    {"speaker": "최지우", "text": "이유식 내가 다 해서 먹여", "context": "육아 예능 '슈퍼맨이 돌아왔다'"}
+  ],
+  "events": [
+    {"summary": "대표작 '겨울연가'로 데뷔 30년 차를 맞은 롱런 배우다", "year": null, "confirmed": true},
+    {"summary": "46세에 딸을 출산해 '노산의 아이콘'으로 불린다", "year": null, "confirmed": true},
+    {"summary": "남편은 9살 연하로 알려졌다", "year": null, "confirmed": true},
+    {"summary": "예능 '틈만나면' 녹화 중 재촬영을 요청해 유재석이 당황했다", "year": null, "confirmed": true},
+    {"summary": "백지연과 매년 생일파티를 함께하는 절친 사이로 알려졌다", "year": null, "confirmed": true},
+    {"summary": "신애라, 오연수, 유호정과 대구 여행을 다녀왔다", "year": null, "confirmed": true},
+    {"summary": "육아 예능 '슈퍼맨이 돌아왔다' MC로 활동하며 딸이 그림 속 자신을 공주로 그렸다는 일화를 공개했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "50세", "meaning": "본인 나이"},
+    {"value": "174cm", "meaning": "본인 키"},
+    {"value": "30년", "meaning": "데뷔 이후 활동 기간"},
+    {"value": "46세", "meaning": "딸을 출산한 나이"},
+    {"value": "9살", "meaning": "남편과의 나이 차"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "유재석", "relation": "예능 '틈만나면' 동료 출연자", "mentioned_as": "유재석"},
+    {"name": "신애라", "relation": "친구, 딸 미모에 감탄한 사이", "mentioned_as": "신애라"},
+    {"name": "백지연", "relation": "절친, 생일파티를 함께하는 사이", "mentioned_as": "백지연"},
+    {"name": "배용준", "relation": "'겨울연가' 상대역", "mentioned_as": "배용준"}
+  ],
+  "works": [
+    {"title": "겨울연가", "year": null, "costar": "배용준",
+     "scene": "30년 롱런의 발판이 된 대표작으로, 이 작품 흥행 관련 질문에 쿨하게 답한 적이 있다", "kind": "실제"},
+    {"title": "틈만나면", "year": null, "costar": "유재석",
+     "scene": "녹화 중 재촬영을 요청해 유재석이 당황하는 해프닝이 있었다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "50세인데 30대 같다는 반응이 꾸준히 나온다",
+    "교복을 완벽히 소화해 동안이라는 인증이 이어졌다",
+    "장미꽃을 든 모습에 여전한 미모라는 반응이 나왔다"
+  ],
+  "care_habits": [
+    "아침에 눈 뜨자마자 특정 한 가지를 챙겨 먹는다고 밝혔다, 피부 건강에 좋다고 했다",
+    "오후 8시 이후로는 야식을 먹지 않는다고 밝혔다",
+    "일이 주어지면 꾀부리지 않고 성실히 임한다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "오후 8시 이후로는 아무것도 안 먹는다는 자기관리 원칙", "why_hot": "발언"},
+    {"material": "46세 출산 후 9살 연하 남편과 꾸린 가정", "why_hot": "반전"},
+    {"material": "유재석도 당황한 재촬영 요청 해프닝", "why_hot": "실명"},
+    {"material": "30년째 롱런 중인 '겨울연가' 신화", "why_hot": "낙차"},
+    {"material": "50세인데 30대 같다는 반응이 꾸준한 동안 미모", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "재촬영을 요청해 유재석이 당황하는 촬영장 장면",
+    "장미꽃을 든 채 포착된 장면",
+    "교복 차림을 완벽히 소화한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "가방 속 아이템 공개 화보",
+    "블랙 부츠 착장으로 계단을 오르는 장면"
+  ]
+}
