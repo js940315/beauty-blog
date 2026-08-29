@@ -1,0 +1,83 @@
+{
+  "person": {
+    "name": "김소현",
+    "gender": "여성",
+    "job": "뮤지컬 배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "아역배우 출신, 데뷔 16년 차 뮤지컬 배우",
+    "major_work": "명성황후",
+    "identity_anchor": "뮤지컬 배우 김소현, '온가족 서울대'로 알려진 손준호의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김소현", "text": "父가 TV선 잘라, 10년간 못 봤다", "context": "예능 '라디오스타'"},
+    {"speaker": "김소현", "text": "8살 연하, 다 좋은데 나이 싫어", "context": "인터뷰 '옥탑방의 문제아들'"},
+    {"speaker": "김소현", "text": "쌍꺼풀 수술 실패했다고 해서 아버지와 동반 출연해 의혹을 풀었다", "context": "예능 '옥탑방의 문제아들'"},
+    {"speaker": "김소현", "text": "부부 동반 출연, 사생활 없지만 장점 더 많죠", "context": "edaily 인터뷰"},
+    {"speaker": "김소현", "text": "정말 안 들렸을까", "context": "부부 동반 예능"},
+    {"speaker": "김소현", "text": "연기 짬바 있는데, 나를 갉아먹었던 과거 너무 지쳤다", "context": "예능 '인싸동 술찌'"},
+    {"speaker": "김소현", "text": "큰 힘이 됐다", "context": "일본 팬미팅 관련 인터뷰"},
+    {"speaker": "김소현", "text": "절세 위해 아들에게 주식을 증여했다, 아들은 아직 모른다", "context": "인터뷰"},
+    {"speaker": "채종협", "text": "김소현 첫인상은 연예인, 지금은 공주라 불러요", "context": "방송 인터뷰"}
+  ],
+  "events": [
+    {"summary": "아버지가 TV선을 잘라 10년간 TV를 못 봤다는 가정교육 일화를 공개했다", "year": null, "confirmed": true},
+    {"summary": "본인을 포함한 가족 5명 모두 서울대 출신이라고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "절세를 위해 아들에게 주식을 증여했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "아버지와 방송에 동반 출연해 쌍꺼풀 수술 실패 의혹을 직접 해명했다", "year": null, "confirmed": true},
+    {"summary": "남편 손준호와 8살 나이 차로 인한 세대 차이 고충을 고백했다", "year": null, "confirmed": true},
+    {"summary": "데뷔 16년 차에 접어들며 과거 힘들었던 시기를 언급했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "8살", "meaning": "본인과 남편 손준호의 나이 차"},
+    {"value": "10년", "meaning": "아버지가 TV선을 잘라 TV를 못 본 기간"},
+    {"value": "5명", "meaning": "서울대 출신인 가족 구성원 수"},
+    {"value": "16년 차", "meaning": "본인의 데뷔 경력"}
+  ],
+  "credentials": [
+    {"item": "멀츠 에스테틱스 '벨로테로 리바이브 스킨부스터' 광고모델", "whose": "본인"},
+    {"item": "아버지가 의사", "whose": "아버지"},
+    {"item": "본인 포함 가족 5명 모두 서울대 출신", "whose": "본인,가족"}
+  ],
+  "public_reactions": [
+    {"text": "김소현 첫인상은 연예인, 지금은 공주라 불러요", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "손준호", "relation": "남편, 8살 연하 뮤지컬 배우", "mentioned_as": "손준호"},
+    {"name": "박보검", "relation": "작품 상대역", "mentioned_as": "박보검"},
+    {"name": "채종협", "relation": "동료 배우, 공주라 부른다는 반응", "mentioned_as": "채종협"},
+    {"name": "김준수", "relation": "소속사 대표", "mentioned_as": "김준수"}
+  ],
+  "works": [
+    {"title": "명성황후", "year": null, "costar": "손준호",
+     "scene": "부부가 함께 세 번째로 호흡을 맞춘 무대로, 단점보다 장점이 많다고 밝혔다", "kind": "실제"},
+    {"title": "", "year": null, "costar": "박보검",
+     "scene": "박보검 상대역으로 출연해 스타일이 달라진 모습에 예쁘다는 반응이 나왔다", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "피부 미용 브랜드의 광고모델로 발탁됐다",
+    "박보검 상대역으로 스타일이 확 달라진 모습에 예쁘다는 반응이 나왔다"
+  ],
+  "care_habits": [
+    "아침에는 밥 대신 혈당을 덜 올리는 음식을 먹는다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "아버지가 TV선을 잘라 10년간 못 봤다는 서울대 집안 교육법", "why_hot": "발언"},
+    {"material": "본인 포함 가족 5명 모두 서울대라는 사실", "why_hot": "낙차"},
+    {"material": "아버지와 동반 출연해 쌍꺼풀 수술 실패 의혹을 직접 풀었던 것", "why_hot": "반전"},
+    {"material": "8살 연하 남편과의 나이 차가 다 좋은데 싫다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "절세 위해 아들 모르게 주식을 증여했다는 사실", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "아버지와 방송에 나란히 앉아 의혹을 해명하는 장면",
+    "부부가 무대에서 세 번째로 함께 호흡을 맞추는 장면",
+    "박보검과 함께한 촬영장 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "보그 홍콩 로에베 화보",
+    "멀츠 에스테틱스 스킨부스터 광고 캠페인 화보"
+  ]
+}
