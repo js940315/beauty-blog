@@ -1,0 +1,92 @@
+{
+  "person": {
+    "name": "김하늘",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 47,
+    "age_range": "40대",
+    "career": "배우, '로망스'·'동감' 등 출연",
+    "major_work": "화인가 스캔들",
+    "identity_anchor": "배우 김하늘, 드라마 '로망스'·'동감'·'화인가 스캔들' 등에 출연한 배우"
+  },
+  "namesake_dropped": [
+    "부검 결과 보도된 피해자 '김하늘 양'(살해 사건 관련, 배우와 무관한 인물)"
+  ],
+  "quotes": [
+    {"speaker": "김하늘", "text": "정지훈, 열정·자기관리 대단…자극 됐다", "context": "'화인가 스캔들' 관련 인터뷰"},
+    {"speaker": "김하늘", "text": "예능 좋아해도 첫 출연", "context": "'런닝맨' 출연 소감"},
+    {"speaker": "김하늘", "text": "회사가 거절", "context": "'런닝맨' 인터뷰, 예능 출연 비하인드"},
+    {"speaker": "김하늘", "text": "간절했던 순간 떠올라 좋은 자극됐다", "context": "'더 딴따라' 첫 고정 예능 소감"},
+    {"speaker": "김하늘", "text": "예능 도전 망설였지만, 도움 주고파", "context": "'더 딴따라' 인터뷰"},
+    {"speaker": "김하늘", "text": "고맙고 감동", "context": "'동감' 26년 만의 재회 인터뷰"},
+    {"speaker": "김하늘", "text": "연하남편, 정지훈 질투 NO, 내가 애교부려", "context": "결혼 9년 차 인터뷰"},
+    {"speaker": "김하늘", "text": "남편? 내 멜로 연기 질투 안 해, 7세 딸은 내 직업 자랑스러워 한다", "context": "인터뷰"},
+    {"speaker": "김하늘", "text": "남편, 키스신 질투 안 해, 귀엽고 멋있어", "context": "인터뷰"},
+    {"speaker": "김하늘", "text": "남편 사업 어려워 다작 NO, 작품 수 줄어 더 소중", "context": "예능 '짠한형' 인터뷰"},
+    {"speaker": "김하늘", "text": "30대 활동 시절 키스는 차 안에서, 인물 보는 편", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "'런닝맨' 첫 출연에서 개다리춤을 추며 예능 욕심을 드러냈다", "year": null, "confirmed": true},
+    {"summary": "소속사가 예능 출연을 거절했었다는 비하인드를 공개했다", "year": null, "confirmed": true},
+    {"summary": "'더 딴따라' 첫 고정 예능 마스터로 나섰고 박진영이 환호했다", "year": null, "confirmed": true},
+    {"summary": "김재원과 24년 만에 재회했다", "year": null, "confirmed": true},
+    {"summary": "신동엽과 '짠한형'에서 20년 만에 예능으로 재회했다", "year": null, "confirmed": true},
+    {"summary": "결혼 9년 차이며, 연하남편과 다정하고 질투 없는 관계라고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "7세 딸이 본인 직업을 자랑스러워한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "남편 사업이 어려워지면서 작품 수를 줄였다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "47세", "meaning": "본인 나이"},
+    {"value": "9년 차", "meaning": "결혼 기간"},
+    {"value": "24년", "meaning": "김재원과의 재회까지 걸린 기간"},
+    {"value": "26년", "meaning": "'동감' 관련 재회까지 걸린 기간"},
+    {"value": "7세", "meaning": "딸의 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "거절할 줄 알았다", "where": "방송('더 딴따라', 박진영 반응)", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "정지훈", "relation": "'화인가 스캔들' 극중 상대역", "mentioned_as": "정지훈"},
+    {"name": "김재원", "relation": "'로망스' 상대역, 24년 만의 재회", "mentioned_as": "김재원"},
+    {"name": "신동엽", "relation": "예능 '짠한형' 진행자, 20년 만의 재회", "mentioned_as": "신동엽"},
+    {"name": "지석진", "relation": "'런닝맨' 동료 출연자", "mentioned_as": "지석진"},
+    {"name": "박진영", "relation": "'더 딴따라'에서 환호한 동료", "mentioned_as": "박진영"}
+  ],
+  "works": [
+    {"title": "화인가 스캔들", "year": null, "costar": "정지훈",
+     "scene": "재벌가 며느리 역할로 남편의 불륜을 두 번 겪는 파란만장한 전개를 연기했다", "kind": "극중"},
+    {"title": "로망스", "year": null, "costar": "김재원",
+     "scene": "학생과 선생으로 만났던 두 사람이 24년 만에 다시 만나 옛 시절을 추억했다", "kind": "실제"},
+    {"title": "동감", "year": null, "costar": "",
+     "scene": "26년 전 작품을 다시 접하며 고맙고 감동적이었다고 밝혔다", "kind": "실제"},
+    {"title": "런닝맨", "year": null, "costar": "지석진",
+     "scene": "첫 예능 출연에서 개다리춤을 추며 예능 욕심을 드러냈다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "47세인데 초동안 미모라는 반응이 이어졌다",
+    "민소매 차림으로 가녀린 자태가 화제됐다",
+    "쌩얼에도 동안이라 대만 팬들이 놀랐다는 반응이 있었다"
+  ],
+  "care_habits": [
+    "공원에서 포착된 습관이 노화를 늦춘다는 반응이 있었다"
+  ],
+  "hot_materials": [
+    {"material": "런닝맨 첫 출연에서 개다리춤을 춘 파격 반전", "why_hot": "반전"},
+    {"material": "소속사가 예능 출연을 거절했었다는 비하인드", "why_hot": "발언"},
+    {"material": "결혼 9년 차, 연하남편이 질투 없이 다정하다는 발언", "why_hot": "발언"},
+    {"material": "남편 사업이 어려워져 작품 수를 줄였다는 속사정", "why_hot": "발언"},
+    {"material": "47세인데 쌩얼에도 대만 팬들이 놀란 동안 미모", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "런닝맨에서 개다리춤을 추는 장면",
+    "24년 만에 김재원과 재회하는 장면",
+    "쌩얼로 대만 팬들 앞에 선 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "청바지 캐주얼룩 포착",
+    "민소매 착장 포착"
+  ]
+}
