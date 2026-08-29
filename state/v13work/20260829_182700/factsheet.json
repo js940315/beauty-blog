@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "이민정",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우, 뷰티 브랜드 앰버서더",
+    "major_work": "",
+    "identity_anchor": "배우 이병헌의 아내, 배우 이민정"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이민정", "text": "두 자녀 연기하겠다면? 말리진 않을 것", "context": "예능 '황제파워'"},
+    {"speaker": "이민정", "text": "과거 얼굴 짧은 게 콤플렉스였다", "context": "결혼 사진 공개 관련 인터뷰"},
+    {"speaker": "이민정", "text": "꾸준히 사용해온 브랜드와 함께해 기뻐", "context": "AHC 앰버서더 발탁 인터뷰"},
+    {"speaker": "이민정", "text": "이병헌 쿠션, 딸이 아빠라며 뽀뽀해", "context": "예능 'RE:뷰'"},
+    {"speaker": "이민정", "text": "6개월~1년이 골든타임", "context": "셀럽 웰빙 인터뷰"},
+    {"speaker": "이민정", "text": "피부과 시술은 1년에 한 번, 예민한 피부엔 독", "context": "인터뷰"},
+    {"speaker": "이민정", "text": "생애 첫 붙임머리, 준후만 알아봐", "context": "Asia Artist Awards 관련 인터뷰"},
+    {"speaker": "이민정", "text": "향수 200개 모아, 중학생 때부터 발랑 까졌다는 얘기 들어", "context": "인터뷰"},
+    {"speaker": "이민정", "text": "子 키 큰 비결, 어릴 때부터 우유 많이 마셔", "context": "예능 '황제성'"},
+    {"speaker": "이민정", "text": "난 MZ 아니라 MJ", "context": "동안 외모 관련 인터뷰"}
+  ],
+  "events": [
+    {"summary": "남편 이병헌과 결혼 13주년 데이트를 했고 친구 오윤아가 축하했다", "year": null, "confirmed": true},
+    {"summary": "12세 아들과 골프 라운딩을 했다", "year": null, "confirmed": true},
+    {"summary": "재혼한 친구 오윤아, 이정현과 축하 파티를 가졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "46kg", "meaning": "본인이 밝힌 현재 몸무게"},
+    {"value": "200개", "meaning": "중학생 때부터 모아온 향수 개수"},
+    {"value": "13주년", "meaning": "이병헌과의 결혼 기념일"},
+    {"value": "6개월~1년", "meaning": "본인이 밝힌 산후 관리 골든타임"}
+  ],
+  "credentials": [
+    {"item": "AHC 브랜드 앰버서더", "whose": "본인"},
+    {"item": "아모레퍼시픽 '려' 브랜드 모델", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이병헌", "relation": "남편", "mentioned_as": "이병헌"},
+    {"name": "오윤아", "relation": "친구, 결혼기념일·재혼을 축하한 사이", "mentioned_as": "오윤아"},
+    {"name": "이정현", "relation": "친구", "mentioned_as": "이정현"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "도자기 피부라는 평을 받는다",
+    "애둘맘인데 46kg를 유지한다는 반응이 있었다",
+    "동안 외모로 MZ가 아니라 MJ라는 말을 스스로 했다",
+    "특정 제품을 썼다가 트러블이 났던 경험을 공개하기도 했다"
+  ],
+  "care_habits": [
+    "피부과 시술은 1년에 한 번뿐이라고 밝혔다",
+    "예민한 피부에는 시술이 독이 될 수 있다는 지론을 밝혔다",
+    "산후 6개월에서 1년을 골든타임으로 본다고 밝혔다",
+    "체중 관리를 위해 걷기를 챙긴다고 밝혔다",
+    "중학생 때부터 향수를 모아 지금은 200개에 이른다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "도자기 피부 비결이 시술이 아니라 1년에 한 번뿐인 관리라는 발언", "why_hot": "발언"},
+    {"material": "산후 6개월~1년이 골든타임이라는 본인 노하우", "why_hot": "발언"},
+    {"material": "중학생 때부터 모은 향수가 200개라는 취미", "why_hot": "반전"},
+    {"material": "난 MZ 아니라 MJ라는 동안 자신감 발언", "why_hot": "발언"},
+    {"material": "이병헌과 결혼 13주년, 오윤아가 축하한 자리", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "결혼 13주년 데이트 자리",
+    "아들과 골프 라운딩하는 장면",
+    "본가에서 어머니와 데이트하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "AHC 홈쇼핑 방송 및 앰버서더 화보",
+    "아모레퍼시픽 '려' 브랜드 캠페인 화보"
+  ]
+}
