@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "이요원",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": 46,
+    "age_range": "40대 중반",
+    "career": "다수 방송·드라마에 출연해온 배우",
+    "major_work": "",
+    "identity_anchor": "방송에 다수 출연해온 배우, 세 아이의 어머니"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이요원", "text": "세안 후 일회용 페이스타월만 쓴다", "context": "방송 인터뷰"},
+    {"speaker": "이요원", "text": "수건 쓰지 않습니다", "context": "방송 인터뷰"},
+    {"speaker": "이요원", "text": "고비 올 때마다 아이 낳아", "context": "방송 인터뷰"},
+    {"speaker": "이요원", "text": "1년에 1번 피부과 관리", "context": "방송 인터뷰"},
+    {"speaker": "임원희", "text": "나도 1년에 2번", "context": "방송 인터뷰"},
+    {"speaker": "이요원", "text": "최악의 남편, 돈 없는데 잘생기고 철들어 책만 보는 남자", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "뉴욕대 지원에 떨어진 딸에게 팩폭 발언을 했다", "year": null, "confirmed": true},
+    {"summary": "방송에서 화장기 없는 얼굴을 처음 공개했다", "year": null, "confirmed": true},
+    {"summary": "예능에서 동료 배우와 피부 관리 빈도를 비교했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "46세", "meaning": "이요원의 나이"},
+    {"value": "23세", "meaning": "딸의 나이"},
+    {"value": "21년", "meaning": "결혼 연차"},
+    {"value": "47kg", "meaning": "체중"},
+    {"value": "3명", "meaning": "자녀 수"}
+  ],
+  "credentials": [
+    {"item": "사업가", "whose": "남편"}
+  ],
+  "public_reactions": [
+    {"text": "잡티 하나 없다는 감탄이 나왔다", "where": "방송반응", "scale": ""},
+    {"text": "민낯이 더 예쁘다는 반응이 나왔다", "where": "방송반응", "scale": ""},
+    {"text": "20대 딸과 자매인 줄 알았다는 반응이 나왔다", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "임원희", "relation": "방송 동료", "mentioned_as": "피부과 관리 빈도를 비교하며 함께 등장"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "세안 후 일회용 페이스타월만 쓰고 수건을 쓰지 않는다",
+    "방송에서 화장기 없는 얼굴을 처음 공개했는데 잡티가 없다는 반응이 나왔다",
+    "20대 딸과 자매처럼 보인다는 반응이 반복적으로 나온다",
+    "부모님과 동생도 동안이라는 평가를 받는다는 발언을 했다"
+  ],
+  "care_habits": [
+    "세안 후 수건 대신 일회용 페이스타월을 쓴다",
+    "야식을 먹지 않는다",
+    "술을 거의 마시지 않는다",
+    "1년에 한 번 피부과 관리를 받는다",
+    "47kg 체중을 유지한다"
+  ],
+  "hot_materials": [
+    {"material": "20대 딸을 둔 46세인데 자매로 오해받는다는 반응", "why_hot": "낙차"},
+    {"material": "세안 후 일회용 페이스타월만 쓰고 수건은 아예 안 쓴다는 발언", "why_hot": "반전"},
+    {"material": "부모님과 동생까지 동안이라는 '냉동미모' 집안이라는 발언", "why_hot": "낙차"},
+    {"material": "방송에서 화장기 없는 얼굴을 처음으로 공개한 장면", "why_hot": "장면"},
+    {"material": "결혼 생활 고비마다 아이를 낳았다는 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "카메라 앞에서 화장기 없는 얼굴을 처음으로 공개한 순간",
+    "20대 딸과 나란히 서니 자매로 오해받는 장면",
+    "동료 배우와 피부과 방문 횟수를 서로 비교하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "방송 중 근접 얼굴 컷(얼빡샷)에 대한 반응 기사"
+  ]
+}
