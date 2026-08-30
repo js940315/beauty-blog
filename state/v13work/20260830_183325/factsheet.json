@@ -1,0 +1,67 @@
+{
+  "person": {
+    "name": "송윤아",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "배우",
+    "major_work": "아랑",
+    "identity_anchor": "영화 '아랑' 등 다수 작품 출연, 배우 설경구의 아내인 배우 송윤아"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "설경구", "text": "썩어가고 있다", "context": "뉴스엔"},
+    {"speaker": "이태란", "text": "생얼이 더 예쁘다", "context": "pickcon.co.kr"},
+    {"speaker": "김희선", "text": "얼굴 나 줘", "context": "머니투데이"}
+  ],
+  "events": [
+    {"summary": "결혼 15년차에 남편 설경구에게 깜짝 프러포즈를 받음", "year": null, "confirmed": true},
+    {"summary": "이영애·전인화와 함께 '동안 트리오'로 불림", "year": null, "confirmed": true},
+    {"summary": "김혜수·송혜교·김희선 등 동료 배우들과 절친 모임을 이어감", "year": null, "confirmed": true},
+    {"summary": "결혼과 출산으로 인한 경력 단절을 솔직하게 고백함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "50대", "meaning": "송윤아의 나이대"},
+    {"value": "15년차", "meaning": "결혼 생활 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "생얼이 더 예쁘다", "where": "방송", "scale": ""},
+    {"text": "얼굴 나 줘", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "설경구", "relation": "남편", "mentioned_as": "프러포즈 및 본인 피부 자조 개그"},
+    {"name": "이태란", "relation": "동료 배우", "mentioned_as": "민낯 인사에 반응"},
+    {"name": "김희선", "relation": "동료 배우", "mentioned_as": "셀카에 반응"},
+    {"name": "이영애", "relation": "동료 배우", "mentioned_as": "동안 트리오로 함께 언급"},
+    {"name": "전인화", "relation": "동료 배우", "mentioned_as": "동안 트리오로 함께 언급"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "초근접 셀카에서도 50대 무결점 피부라는 평가를 받음",
+    "50대라는 게 믿기지 않는 투명한 피부로 화제가 됨"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "초근접 셀카에도 50대 무결점 피부라는 평가", "why_hot": "장면"},
+    {"material": "이영애·전인화와 함께 '동안 트리오'로 불림", "why_hot": "실명"},
+    {"material": "남편 설경구가 자기 피부를 '썩어가고 있다'고 자조한 개그", "why_hot": "발언"},
+    {"material": "결혼 15년차에 받은 깜짝 프러포즈", "why_hot": "반전"},
+    {"material": "민낯 인사에 이태란이 '생얼이 더 예쁘다'고 반응", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "초근접 셀카를 찍어 올리는 순간",
+    "민낯으로 굿나잇 인사를 남기는 장면"
+  ],
+  "sns_materials": [
+    "민낯 굿나잇 인사 셀카",
+    "초근접 셀카"
+  ],
+  "press_only_materials": [
+    "동안 트리오로 함께 찍힌 사진",
+    "여배우 모임 사진"
+  ],
+  "notes": "richness 보통(32건 수집). 부친 관련 애도·건강 소식은 유족 관련 소재라 배제했고, '군살 없는 비결'은 구체 내용이 헤드라인에 드러나지 않아 추측하지 않고 뺐다."
+}
