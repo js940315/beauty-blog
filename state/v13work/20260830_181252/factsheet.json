@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "수지",
+    "gender": "여성",
+    "job": "가수 겸 배우",
+    "birth_year": null,
+    "age": 30,
+    "age_range": "30대",
+    "career": "가수 겸 배우",
+    "major_work": "이두나!, 하렘의 남자들",
+    "identity_anchor": "가수 겸 배우, 드라마 '이두나!'·'하렘의 남자들' 주연 수지"
+  },
+  "namesake_dropped": [
+    "신수지(전용기·생일파티 근황, 다른 인물)",
+    "이수지(개그우먼, 돈 관련 발언, 다른 인물)",
+    "'미나 시누이' 수지(이혼 사연, 다른 인물)",
+    "42세 김준한·크리스탈 기사 속 스친 언급(다른 맥락)"
+  ],
+  "quotes": [
+    {"speaker": "수지", "text": "세안 후에는 수건으로 닦지 않는다", "context": "조선일보"},
+    {"speaker": "수지", "text": "물기 안 닦고 스킨 그대로 바른다", "context": "v.daum.net"},
+    {"speaker": "수지", "text": "조금 먹고 운동 많이 한다", "context": "조선일보"},
+    {"speaker": "수지", "text": "매 순간 온전히 느끼고 사는 두나가 부러웠다", "context": "시사저널"},
+    {"speaker": "수지", "text": "고마워 인간", "context": "starnewskorea.com"}
+  ],
+  "events": [
+    {"summary": "드라마 '이두나!' 촬영, 양세종과 호흡", "year": null, "confirmed": true},
+    {"summary": "드라마 '하렘의 남자들' 촬영 중, 김선호의 응원을 받음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "30세", "meaning": "수지의 공개된 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "얼굴은 왜 많이 긁어?", "where": "방송", "scale": ""},
+    {"text": "새벽 3신데 먹으려고?", "where": "방송", "scale": ""},
+    {"text": "최근 수지와 많이 친해져…우리 집에서 같이 시간 보내기도", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "혜리", "relation": "동료 가수 겸 배우", "mentioned_as": "세안 습관에 폭소 반응"},
+    {"name": "김우빈", "relation": "동료 배우", "mentioned_as": "야식 먹는 걸 놀린 발언"},
+    {"name": "양세종", "relation": "이두나! 상대역", "mentioned_as": "열애설 질문에 답한 상대"},
+    {"name": "송혜교", "relation": "동료 배우", "mentioned_as": "최근 친해졌다고 언급"},
+    {"name": "김선호", "relation": "하렘의 남자들 동료 배우", "mentioned_as": "촬영 중 응원을 보냄"}
+  ],
+  "works": [
+    {"title": "이두나!", "year": null, "costar": "양세종", "scene": "캐릭터 두나에 대해 매 순간 온전히 느끼며 사는 점이 부러웠다고 밝힌 장면", "kind": "실제"},
+    {"title": "하렘의 남자들", "year": null, "costar": "김선호", "scene": "촬영 중 김선호의 응원에 고마운 인간이라고 답한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "무결점 피부로 여러 매체에서 언급됨",
+    "30세에도 피부 관리 비법이 화제가 됨"
+  ],
+  "care_habits": [
+    "세안 후 수건으로 닦지 않고 스킨을 바로 바른다",
+    "조금 먹고 운동을 많이 한다",
+    "발레(취미 발레)로 몸의 라인을 관리한다는 언급이 있다"
+  ],
+  "hot_materials": [
+    {"material": "세안 후 수건 안 쓰고 스킨 바로 바르는 피부 루틴", "why_hot": "장면"},
+    {"material": "조금 먹고 운동 많이 한다는 몸매 관리 비법", "why_hot": "발언"},
+    {"material": "발레로 몸매 라인을 관리한다는 것", "why_hot": "반전"},
+    {"material": "김우빈이 새벽 야식 먹는 걸 놀린 일화", "why_hot": "실명"},
+    {"material": "송혜교와 각별해진 친분, 서로 집에서 시간 보낸다는 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "세안 직후 수건 없이 스킨을 바로 바르는 화장대 앞 장면",
+    "새벽 3시에 야식을 먹으려다 김우빈에게 놀림당하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "8월에 미리 꺼내 입은 가을 트렌치 코트 데일리룩",
+    "돌핀팬츠를 소화한 흑백 화보 컷"
+  ]
+}
