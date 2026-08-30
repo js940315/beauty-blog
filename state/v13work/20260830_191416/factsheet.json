@@ -1,0 +1,67 @@
+{
+  "person": {
+    "name": "한지민",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "배우 한지민, 글루타넥스 뷰티 브랜드 앰버서더"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한지민", "text": "평소에는 물로만 세안하고 중요한 날 전날에는 찜질방에 간다", "context": "xportsnews.com"},
+    {"speaker": "한지민", "text": "매년 축하해주셔서 고맙습니다", "context": "스포츠조선"},
+    {"speaker": "최정훈", "text": "누나, 얼마나 좋은지 모른다", "context": "러브레터"},
+    {"speaker": "정은혜", "text": "찐자매 같다", "context": "동상이몽2"}
+  ],
+  "events": [
+    {"summary": "글루타넥스 뷰티 브랜드 앰버서더로 활동함", "year": null, "confirmed": true},
+    {"summary": "아이유와 함께 선행으로 대통령·국무총리 표창을 받음", "year": null, "confirmed": true},
+    {"summary": "3년째 배우 정은혜와 자매 같은 우정을 이어감", "year": null, "confirmed": true},
+    {"summary": "선배 배우 김혜자에게 커피차 선물을 받고 감격함", "year": null, "confirmed": true},
+    {"summary": "밴드 잔나비 보컬 최정훈과 결혼해 부부 예능에 출연함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "3년째", "meaning": "정은혜와 우정을 이어온 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "찐자매 같다", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "정은혜", "relation": "배우, 자매 같은 친구", "mentioned_as": "3년째 챙기는 우정"},
+    {"name": "최정훈", "relation": "남편, 밴드 잔나비 보컬", "mentioned_as": "러브레터로 애정 표현"},
+    {"name": "김혜자", "relation": "선배 배우", "mentioned_as": "커피차 선물"},
+    {"name": "김혜수", "relation": "선배 배우", "mentioned_as": "생일파티 함께"},
+    {"name": "아이유", "relation": "동료 배우 겸 가수", "mentioned_as": "함께 대통령 표창을 받음"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "백옥 피부로 불리며 스킨케어 루틴이 화제가 됨",
+    "글루타넥스 뷰티 브랜드 앰버서더로 발탁됨"
+  ],
+  "care_habits": [
+    "평소에는 물로만 세안한다",
+    "중요한 날 전날에는 찜질방에 간다"
+  ],
+  "hot_materials": [
+    {"material": "백옥피부 루틴 공개, 평소엔 물세안 중요한 날 전엔 찜질방", "why_hot": "발언"},
+    {"material": "아이유와 함께 선행으로 대통령 표창을 받음", "why_hot": "실명"},
+    {"material": "3년째 정은혜와 자매 같은 우정을 이어감", "why_hot": "반전"},
+    {"material": "김혜자에게 커피차 선물 받고 감격한 훈훈한 장면", "why_hot": "실명"},
+    {"material": "남편 최정훈의 러브레터, 누나 얼마나 좋은지 모른다", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "찜질방에서 피부를 다스리는 순간",
+    "커피차 앞에서 감격하는 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "청룡영화제 순백 드레스 자태",
+    "한복 어깨라인 패션"
+  ],
+  "notes": "richness 보통(32건 수집). 열애설 직후 협박 기소 사건, 동료와의 티키타카성 '폭로'·'훈수' 발언, 시청률 부진 기사는 리스크 가드레일 및 제3자 갈등 엮기 금지에 따라 배제했다. 드라마 속 상대역과의 로맨스(극중)도 실제 관계와 혼동될 소지가 있어 배제하고, 확인된 선행·우정·뷰티 루틴 위주로 구성한다."
+}
