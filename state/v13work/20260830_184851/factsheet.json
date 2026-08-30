@@ -1,0 +1,57 @@
+{
+  "person": {
+    "name": "김정은",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 47,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "파리의 연인",
+    "identity_anchor": "드라마 '파리의 연인' 주연 배우 김정은"
+  },
+  "namesake_dropped": [
+    "북한 최고지도자 김정은 및 관련 인물(딸 주애 등) — 전혀 다른 인물",
+    "북한 미용·성형 관련 기사 속 인물들 — 배우 김정은과 무관"
+  ],
+  "quotes": [
+    {"speaker": "김정은", "text": "이동건, 마음 흔들릴 만큼 멋있었다", "context": "미우새"},
+    {"speaker": "김정은", "text": "이 안에 너 있다, 실제로 굉장히 설렜다", "context": "미우새"}
+  ],
+  "events": [
+    {"summary": "레깅스를 입고 선명한 복근이 담긴 인증샷을 공개함", "year": null, "confirmed": true},
+    {"summary": "드라마 '파리의 연인' 종영 20년 만에 이동건과 예능에서 재회함", "year": null, "confirmed": true},
+    {"summary": "남편과 부부싸움 후 일본여행으로 화해한 근황을 전함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "47세", "meaning": "레깅스 인증샷 당시 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "CG 아니죠?", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이동건", "relation": "'파리의 연인' 상대역", "mentioned_as": "20년 만에 재회, 설렜다는 고백 상대"}
+  ],
+  "works": [
+    {"title": "파리의 연인", "year": null, "costar": "이동건", "scene": "20년 만에 예능에서 재회해 그때 설렜다고 고백한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "47세에 레깅스 인증샷으로 선명한 복근을 공개해 화제가 됨"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "47세에 레깅스 인증샷 복근 공개, 'CG 아니죠?' 반응", "why_hot": "장면"},
+    {"material": "'파리의 연인' 20년만 이동건과 재회, 그때 설렜다 고백", "why_hot": "발언"},
+    {"material": "남편과 부부싸움 후 일본여행으로 화해", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "레깅스 차림으로 복근을 인증하는 순간",
+    "20년 만에 방송에서 옛 상대역과 마주 앉은 장면"
+  ],
+  "sns_materials": [
+    "레깅스 복근 인증샷"
+  ],
+  "press_only_materials": [],
+  "notes": "richness 보통(수집 285건 중 70건은 북한 최고지도자 김정은 관련으로 크롤러가 자동 배제, 남은 소스에서도 그 인물 관련 기사 다수를 추가로 배제함). 배우 김정은 본인 소재만으로 구성한다."
+}
