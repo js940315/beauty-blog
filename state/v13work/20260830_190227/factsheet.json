@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "이요원",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 45,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "배우 이요원, 결혼 21년차 세 아이 엄마"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이요원", "text": "세수하고 수건을 쓰지 않는다", "context": "살림남"},
+    {"speaker": "이요원", "text": "야식은 여전히 안 먹는다", "context": "살림남"},
+    {"speaker": "이요원", "text": "1년에 1번 피부과 관리를 받는다", "context": "돌싱포맨"},
+    {"speaker": "이요원", "text": "고비가 올 때마다 아이를 낳았다", "context": "살림남"},
+    {"speaker": "임원희", "text": "나도 1년에 2번", "context": "돌싱포맨"}
+  ],
+  "events": [
+    {"summary": "결혼 21년차, 세 아이의 엄마이며 첫째와 막내가 띠동갑임", "year": null, "confirmed": true},
+    {"summary": "남편이 이상형과 정반대였고, 비공개 결혼식을 치러 화제가 됨", "year": null, "confirmed": true},
+    {"summary": "부모님과 동생도 동안이라고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "45세", "meaning": "이요원의 나이"},
+    {"value": "28년째", "meaning": "얼굴이 그대로라고 언급된 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "나도 1년에 2번", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "임원희", "relation": "동료 방송인", "mentioned_as": "피부과 관리 발언에 반응"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "28년째 똑같은 얼굴이라는 평가를 받음",
+    "방송에서 민낯을 공개해 '잡티 하나 없다'는 반응을 받음",
+    "20대 딸을 둔 나이라는 게 믿기지 않는 동안으로 화제가 됨"
+  ],
+  "care_habits": [
+    "세수 후 수건을 쓰지 않는다",
+    "야식을 먹지 않는다",
+    "술을 마시지 않는다",
+    "1년에 한 번 피부과 관리를 받는다"
+  ],
+  "hot_materials": [
+    {"material": "28년째 같은 얼굴, 세수 후 수건 안 쓴다는 비결 공개", "why_hot": "발언"},
+    {"material": "민낯 방송 최초 공개, '잡티 하나 없다'는 반응", "why_hot": "장면"},
+    {"material": "결혼 생활 고비마다 아이를 낳았다는 유쾌한 고백", "why_hot": "발언"},
+    {"material": "임원희가 피부과 관리 빈도에 놀란 반응", "why_hot": "실명"},
+    {"material": "부모님과 동생도 다 동안이라는 가족 동안 유전", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "세수 후 수건 없이 물기를 말리는 순간",
+    "방송에서 화장 전후 얼굴을 처음 공개하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [],
+  "notes": "richness 보통(32건 수집). 결혼 연차가 기사마다 21년/23년으로 다르게 표기돼 대표값(21년차)만 썼다. 술 관련 언급은 본인이 직접 밝힌 절제 습관(안 마신다)일 뿐 질병·중독 소재가 아니라 안전하게 포함했다."
+}
