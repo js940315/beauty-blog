@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "박솔미",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 48,
+    "age_range": "40대",
+    "career": "배우 겸 김치 사업가",
+    "major_work": "",
+    "identity_anchor": "배우 한재석의 아내, 배우 겸 김치 사업가로 활동 중인 박솔미"
+  },
+  "namesake_dropped": [
+    "'자동차 재벌가 며느리 배우'로 소개된 김치 사업 기사(실명 없이 보도돼 동일인 확인 불가, 배제)"
+  ],
+  "quotes": [
+    {"speaker": "박솔미", "text": "날라리인 줄 알았는데 밤 되면 불나방처럼 춤추러 갔다", "context": "편스토랑"},
+    {"speaker": "박솔미", "text": "명품백은 내 돈 주고 안 산다, 소유진이 선물했다", "context": "앳스타일"},
+    {"speaker": "박솔미", "text": "내 딸 맞네", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "김치 사업가로 전향해 성공적인 근황을 전함", "year": null, "confirmed": true},
+    {"summary": "송혜교가 연 21년지기 절친 모임에 박효주·최희서와 함께함", "year": null, "confirmed": true},
+    {"summary": "딸이 자신보다 철들었다고 자랑함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48세", "meaning": "박솔미의 나이"},
+    {"value": "170cm", "meaning": "박솔미의 키"},
+    {"value": "50kg", "meaning": "박솔미의 몸무게"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "한재석", "relation": "남편", "mentioned_as": "아내의 미모에 놀랄 것이라는 언급"},
+    {"name": "송혜교", "relation": "21년지기 절친", "mentioned_as": "절친 모임을 열어줌"},
+    {"name": "소유진", "relation": "친구", "mentioned_as": "명품백을 선물함"},
+    {"name": "문정희", "relation": "20년지기 친구", "mentioned_as": "박솔미가 옛 모습을 증언함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "48세라는 나이가 믿기지 않는 수영복 자태로 화제가 됨",
+    "나이 가늠이 안 될 만큼 좋은 분위기로 화제가 됨"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "48세인데 170cm 50kg, 수영복 자태로 화제", "why_hot": "낙차"},
+    {"material": "송혜교가 21년지기 절친 모임을 열어줌", "why_hot": "실명"},
+    {"material": "소유진이 명품백을 선물해줬다는 일화", "why_hot": "실명"},
+    {"material": "김치 사업가로 전향해 성공적인 근황", "why_hot": "반전"},
+    {"material": "문정희의 옛 모습을 '날라리인 줄' 증언한 일화", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "수영복을 입고 물가에 선 순간",
+    "친구가 선물한 명품백을 받아드는 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "오렌지 수트를 입은 여름 일상 화보",
+    "산책하는 캐주얼 룩 사진"
+  ],
+  "notes": "richness 보통(32건 수집, 벤치마크에는 등장 0편). 실명 없이 '재벌가 며느리 배우'로만 소개된 김치 사업 기사는 동일인 확인이 안 돼 배제했다. sns_materials 없이 press 화보만 있어 패션은 곁가지로만 다루고 뷰티·가족·우정 축으로 구성한다."
+}
