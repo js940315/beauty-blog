@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-31",
+  "celeb": "김지원",
+  "richness": "thin",
+  "sources": 380,
+  "title": {
+    "title": "1년째 중식 끊었다는 여배우, 그러다 뷰티 앰버서더까지 됐다",
+    "score": 86,
+    "reasons": [
+      "앞20자 숫자 +16",
+      "앞20자 인물 특정 +14",
+      "훅 2개(수치+강조) +14",
+      "강조·과장 구문 +30",
+      "단정형 종결 +8",
+      "숫자 1개 +4"
+    ]
+  },
+  "cta": "",
+  "content_lines": 72,
+  "polished": false,
+  "route": "agent",
+  "final_problems": [],
+  "images": []
+}
