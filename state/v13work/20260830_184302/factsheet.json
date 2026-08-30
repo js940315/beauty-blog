@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "아이유",
+    "gender": "여성",
+    "job": "가수 겸 배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "가수 겸 배우",
+    "major_work": "폭싹 속았수다",
+    "identity_anchor": "가수 겸 배우, 넷플릭스 드라마 '폭싹 속았수다' 주연 아이유"
+  },
+  "namesake_dropped": [
+    "'제2의 아이유'로 불린 다른 가수(건강 이상 기사, 동일 인물 아님)"
+  ],
+  "quotes": [
+    {"speaker": "아이유", "text": "몸매 비결은 연두부 치즈전, 라면은 못 참을 때만 먹는다", "context": "뉴시스"},
+    {"speaker": "아이유", "text": "폭싹 속았수다 덕에 자기애가 커졌다, 한 번 크게 놀았다고 자부한다", "context": "디지틀조선일보"},
+    {"speaker": "아이유", "text": "애순이, 금명이, 새봄이... 인생은 아름다워", "context": "KBS연예"},
+    {"speaker": "수현", "text": "예쁜 옷만 입고 다니세요", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "남동생이 '아이유보다 돈 많이 벌게 해달라'는 소원을 빌자 웃으며 반응함", "year": null, "confirmed": true},
+    {"summary": "넷플릭스 드라마 '폭싹 속았수다'로 큰 사랑을 받음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "44kg", "meaning": "아이유가 유지한다고 언급된 체중"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "예쁜 옷만 입고 다니세요", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "수현", "relation": "악뮤 멤버, 친분 있는 동료", "mentioned_as": "패션에 대해 예쁜 옷 입으라고 지적"},
+    {"name": "변우석", "relation": "'폭싹 속았수다' 상대역", "mentioned_as": "미담과 케미로 화제"}
+  ],
+  "works": [
+    {"title": "폭싹 속았수다", "year": null, "costar": "변우석", "scene": "상대역에 대해 뭐든 최선을 다하는 사람이라고 미담을 전한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "44kg을 유지한다는 식단이 화제가 됨"
+  ],
+  "care_habits": [
+    "몸매 관리를 위해 연두부 치즈전을 즐겨 먹고 라면은 참을 때까지 참는다"
+  ],
+  "hot_materials": [
+    {"material": "오빠 티셔츠를 즐겨 입어 수현에게 '예쁜 옷만 입어라' 지적받음", "why_hot": "발언"},
+    {"material": "연두부 치즈전과 라면 절제로 44kg을 유지한다는 식습관 공개", "why_hot": "발언"},
+    {"material": "'폭싹 속았수다' 이후 자기애가 커졌다고 밝힌 인터뷰", "why_hot": "발언"},
+    {"material": "남동생의 엉뚱한 소원에 웃으며 반응한 훈훈한 일화", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "오빠 티셔츠를 걸치고 편하게 나선 일상 모습",
+    "라면 앞에서 참고 또 참는 저녁 식탁"
+  ],
+  "sns_materials": [
+    "오빠 티셔츠를 입은 캐주얼한 일상 룩"
+  ],
+  "press_only_materials": [
+    "원피스 한 벌로 247% 판매 폭증을 만든 방송 착장",
+    "분홍 단발 염색 후 근황 사진"
+  ],
+  "notes": "richness 보통(32건 수집). '대군부인' 역사고증 논란·전 연인 언급·결별건강설·악플 소송 등은 리스크 가드레일에 따라 배제했다. '제2의 아이유'로 불린 다른 가수의 건강 기사는 동일 인물이 아니라 배제했다. 패션 축은 오빠 티셔츠를 즐겨 입는 캐주얼 스타일(sns_materials)로 잡고, 원피스 화제는 곁가지 한 줄만 다룬다."
+}
