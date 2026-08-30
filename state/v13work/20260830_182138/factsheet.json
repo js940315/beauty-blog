@@ -1,0 +1,55 @@
+{
+  "person": {
+    "name": "고민시",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "배우 고민시, 미용 시술 브랜드 '슈링크' 앰버서더"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "고민시", "text": "커피, 김, 계란 2알로 43kg을 유지하며 배역을 준비했다", "context": "v.daum.net"},
+    {"speaker": "고민시", "text": "미용고 졸업 후 오디션에서 1000번 떨어졌다", "context": "데일리안"},
+    {"speaker": "고민시", "text": "짱 축하드립니다", "context": "v.daum.net"}
+  ],
+  "events": [
+    {"summary": "미용 시술 브랜드 '슈링크' 앰버서더로 발탁됨", "year": null, "confirmed": true},
+    {"summary": "미용고 졸업 후 오디션 1000번 탈락을 거쳐 배우로 데뷔함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "43kg", "meaning": "배역 준비 당시 체중"},
+    {"value": "1000번", "meaning": "데뷔 전 오디션 탈락 횟수"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "미용 시술 브랜드 '슈링크'의 공식 앰버서더로 발탁됨",
+    "청순한 원피스 자태로 미모가 화제가 됨"
+  ],
+  "care_habits": [
+    "배역을 위해 커피, 김, 계란 2알로 43kg을 유지한 적이 있다",
+    "미용고 졸업 후 오디션 1000번 탈락을 딛고 데뷔했다"
+  ],
+  "hot_materials": [
+    {"material": "43kg 유지하며 커피·김·계란 2알만 먹었다는 배역 준비기", "why_hot": "발언"},
+    {"material": "오디션 1000번 탈락 뒤 데뷔한 이력", "why_hot": "낙차"},
+    {"material": "미용 시술 브랜드 '슈링크' 앰버서더 발탁", "why_hot": "반전"},
+    {"material": "백상 수상 불발에도 쿨하게 축하 인사를 남긴 태도", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "오디션장에서 천 번 가까이 떨어지고도 다시 도전하는 장면",
+    "커피 한 잔과 김, 계란 2알로 하루 식사를 해결하는 촬영장 식탁"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "청순한 원피스 자태의 화보 컷",
+    "여친룩으로 불린 자연스러운 데일리 화보"
+  ],
+  "notes": "richness thin~보통(구글뉴스 헤드라인 32건 수집). 그중 다수(14건 이상)가 '학폭 의혹' 논란 보도였으나, 미확정 의혹을 소재로 삼지 않는다는 원칙에 따라 전부 배제했다. 본문은 배역 준비 식단, 오디션 이력, 시술 브랜드 앰버서더 등 확인 가능한 뷰티 소재로만 구성한다."
+}
