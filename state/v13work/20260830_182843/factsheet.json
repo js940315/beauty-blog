@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "황정음",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "거침없이 하이킥, 7인의 부활",
+    "identity_anchor": "시트콤 '거침없이 하이킥'·예능 '7인의 부활' 출연 배우 황정음"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "황정음", "text": "새로운 모습에 도전해 긴장됐지만 즐거웠다", "context": "bntnews.co.kr"},
+    {"speaker": "황정음", "text": "출산하고 거울만 보면 울었다", "context": "위키트리"}
+  ],
+  "events": [
+    {"summary": "시트콤 '거침없이 하이킥' 속 별명 '띠드버거'가 17년 만에 다시 회자됨", "year": null, "confirmed": true},
+    {"summary": "예능 '7인의 부활' 종영", "year": null, "confirmed": true},
+    {"summary": "8살 아들이 수학을 잘한다는 근황을 공개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "17년", "meaning": "'하이킥' 방영 후 별명이 다시 회자되기까지 걸린 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [
+    {"title": "거침없이 하이킥", "year": null, "costar": "", "scene": "별명 '띠드버거'로 불리던 장면이 17년 뒤 다시 화제가 됨", "kind": "극중"},
+    {"title": "7인의 부활", "year": null, "costar": "", "scene": "종영 소감으로 새로운 도전이 즐거웠다고 밝힘", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "40대에도 하이킥 시절 별명 '띠드버거'를 다시 꺼내며 동안 미모가 화제가 됨",
+    "휴가 중 그을린 피부에도 편안하고 행복한 인상이라는 반응을 받음"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "17년 전 하이킥 시절 별명 '띠드버거'를 다시 꺼내 화제가 됨", "why_hot": "낙차"},
+    {"material": "출산 후 거울만 보면 울었다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "'7인의 부활' 종영 소감으로 새로운 도전이 즐거웠다고 밝힘", "why_hot": "발언"},
+    {"material": "휴가 중 그을린 피부에도 행복해 보인다는 반응을 받음", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "휴가지에서 까맣게 그을린 얼굴로 활짝 웃는 모습",
+    "거울 앞에서 눈물을 훔치던 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "하이킥 시절 룩을 재연한 사진",
+    "휴가지 근황 사진"
+  ],
+  "notes": "richness 보통(32건 수집). 이혼·횡령 혐의·노브라 논란·불화설·열애설·상간녀 오해 등 논란·법적 이슈 관련 소스는 리스크 가드레일에 따라 전부 배제했다. 나이도 소스마다 41세/42세로 엇갈려 age_range로만 표기했다. 안전하게 확인되는 동안 미모·별명 재소환·솔직한 육아 고백·종영 소감만으로 구성한다."
+}
