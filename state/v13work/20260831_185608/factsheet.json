@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "문채원",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 39,
+    "age_range": "30대 후반",
+    "career": "",
+    "major_work": "하트맨",
+    "identity_anchor": "비연예인과 결혼한 배우 문채원, 결혼식 날 남긴 의미심장한 SNS 문구로 화제인 인물",
+    "notes": "이준기와의 결별설은 본인이 '사귄 적도 없다'고 부인한 소재라 본문에 쓰지 않는다. 예비신랑은 비연예인이라 신상을 다루지 않는다. 권상우의 아내(다른 여자 연예인)는 실명 없이 '아내'로만 다룬다."
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "문채원", "text": "나도 나이 들어서", "context": "뉴스엔"},
+    {"speaker": "문채원", "text": "클렌징이 0순위", "context": "네이트"},
+    {"speaker": "문채원", "text": "화장 지우기는 피부 관리의 0스텝", "context": "insight.co.kr"},
+    {"speaker": "문채원", "text": "패인 볼 조명으로 채워", "context": "텐아시아"},
+    {"speaker": "문채원", "text": "자제력 잃어", "context": "네이트"},
+    {"speaker": "문채원", "text": "원하는 걸 얻지 못하는 게 행운", "context": "맥스무비"},
+    {"speaker": "문채원", "text": "가정 이룰 생각 떨려", "context": "뉴스1"},
+    {"speaker": "문채원", "text": "키스신 별로 안 진하다", "context": "v.daum.net"},
+    {"speaker": "문채원", "text": "권상우, 처음 좋아한 남자배우였다", "context": "조선일보"}
+  ],
+  "events": [
+    {"summary": "비연예인과 한옥에서 비공개 결혼식을 올렸다", "year": null, "confirmed": true},
+    {"summary": "결혼 4일 만에 SNS에 의미심장한 문구를 공유했다", "year": null, "confirmed": true},
+    {"summary": "39세가 되며 이너뷰티에 관심을 갖게 됐다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "웨딩 준비 중 168cm 45kg까지 체중을 감량했다", "year": null, "confirmed": true},
+    {"summary": "예능에서 권상우가 본인을 첫사랑 배우로 언급한 순간이 화제가 됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "39세", "meaning": "현재 나이"},
+    {"value": "168cm", "meaning": "신장"},
+    {"value": "45kg", "meaning": "웨딩 준비 중 감량한 체중"},
+    {"value": "4일", "meaning": "결혼 후 SNS 문구를 공유하기까지 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "권상우", "relation": "공동 출연 배우", "mentioned_as": "권상우"}
+  ],
+  "works": [
+    {"title": "하트맨", "year": null, "costar": "권상우", "scene": "본인이 직접 키스신이 별로 진하지 않았다고 평가한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "피부가 좋은 이유가 있다는 반응을 얻는다",
+    "웨딩드레스를 입고 완벽한 비주얼을 보여줬다는 평가를 받는다"
+  ],
+  "care_habits": [
+    "클렌징(화장 지우기)을 피부 관리의 0순위로 꼽는다",
+    "39세가 되며 이너�뷰티에 관심을 갖기 시작했다"
+  ],
+  "hot_materials": [
+    {"material": "결혼 4일 만에 공유한 '원하는 걸 얻지 못하는 게 행운'이라는 SNS 문구", "why_hot": "발언"},
+    {"material": "비연예인과 한옥에서 올린 비공개 결혼식", "why_hot": "장면"},
+    {"material": "웨딩 준비 중 '패인 볼은 조명으로 채웠다'는 솔직한 고백", "why_hot": "반전"},
+    {"material": "권상우가 예능에서 첫사랑 배우로 지목한 것", "why_hot": "실명"},
+    {"material": "클렌징이 피부 관리 0순위라는 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "한옥 마당에서 열린 조용한 결혼식",
+    "웨딩 준비로 홀쭉해진 볼을 조명으로 채우던 순간"
+  ],
+  "sns_materials": [
+    "결혼 4일 만에 공유한 '원하는 것을 얻지 못하는 것이 때로 행운'이라는 문구 게시물",
+    "한옥에서 열린 비공개 결혼식 관련 게시물"
+  ],
+  "press_only_materials": [
+    "웨딩드레스를 입은 결혼식 사진"
+  ]
+}
