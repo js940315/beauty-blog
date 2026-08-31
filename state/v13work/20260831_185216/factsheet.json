@@ -1,0 +1,76 @@
+{
+  "person": {
+    "name": "강소라",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "출산 후 20kg 감량과 솔직한 자기관리 발언으로 화제인 배우 강소라",
+    "notes": "소스에 정확한 나이가 나오지 않아 나이는 다루지 않는다. '카리나 커버'라는 비교 표현([32])은 다른 여자 연예인 실명이라 본문에 쓰지 않는다. 남편은 한의사(의사)로 알려져 있다."
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "강소라", "text": "나이 먹을수록 뚜껑싸움", "context": "starnewskorea.com"},
+    {"speaker": "강소라", "text": "관리는 돈과 시간, 노력", "context": "mk.co.kr"},
+    {"speaker": "강소라", "text": "돈 안 아까워", "context": "헬스조선"},
+    {"speaker": "강소라", "text": "집에서 화가 많나 봐", "context": "sports.donga.com"},
+    {"speaker": "강소라", "text": "현실에서 못하니까…그것밖에 없어", "context": "마이데일리"},
+    {"speaker": "강소라", "text": "집에 과자 안 둔다", "context": "뉴시스"},
+    {"speaker": "강소라", "text": "밥 대신 채소만 먹어요", "context": "뉴시스"},
+    {"speaker": "강소라", "text": "48kg때 현기증 나", "context": "코메디닷컴"},
+    {"speaker": "강소라", "text": "급진급빠 안돼", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "출산 후 20kg을 감량했다", "year": null, "confirmed": true},
+    {"summary": "결혼 후 취미가 바뀌었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "중국 드라마 '황제의 딸'을 보며 독학으로 중국어 실력을 키웠다", "year": null, "confirmed": true},
+    {"summary": "168cm에 최저 몸무게 48kg까지 감량했다가 현기증을 겪어 무리한 다이어트를 하지 말라고 직접 경고했다", "year": null, "confirmed": true},
+    {"summary": "피부과 시술을 꾸준히 받고 있다고 솔직하게 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "20kg", "meaning": "출산 후 감량한 체중"},
+    {"value": "168cm", "meaning": "신장"},
+    {"value": "48kg", "meaning": "한때 기록한 최저 체중"},
+    {"value": "4년", "meaning": "특정 음식을 끊은 기간"}
+  ],
+  "credentials": [
+    {"item": "한의사", "whose": "남편"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "", "relation": "남편", "mentioned_as": "한의사 남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "두 아이를 낳은 엄마라고 믿기지 않는 몸매라는 평가를 받는다",
+    "한 달 만에 꿀피부가 됐다는 반응을 얻었다"
+  ],
+  "care_habits": [
+    "두피 관리법을 소개하며 탈모를 늦출 수 있다고 밝혔다",
+    "나이 들수록 피부·두피·마사지 루틴에 더 신경 쓴다",
+    "특정 검사를 받고 식단을 바꿔 한 달 만에 피부가 좋아졌다",
+    "집에 과자를 두지 않는다",
+    "밥 대신 채소 위주로 먹는다",
+    "특정 음식을 4년째 먹지 않는다",
+    "피부과 시술을 꾸준히 받는다고 솔직하게 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "출산 후 20kg을 감량한 것", "why_hot": "낙차"},
+    {"material": "'48kg때 현기증 나'며 무리한 다이어트에 직접 경고한 것", "why_hot": "반전"},
+    {"material": "시술에 대해 '돈 안 아까워'라며 솔직하게 밝힌 것", "why_hot": "발언"},
+    {"material": "중국 드라마로 독학해 중국어 실력을 키운 것", "why_hot": "반전"},
+    {"material": "결혼 후 취미가 바뀐 사연", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "집 냉장고에 과자 대신 채소를 채워두는 순간",
+    "중국 드라마를 보며 중국어를 따라 하는 순간"
+  ],
+  "sns_materials": [
+    "부산 여행 중 편안한 크롭 스타일을 담은 게시물",
+    "요트 위에서 여유를 즐기는 모습을 담은 게시물"
+  ],
+  "press_only_materials": []
+}
