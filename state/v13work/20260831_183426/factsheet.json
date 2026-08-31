@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "하지원",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "시크릿 가든",
+    "identity_anchor": "'시크릿 가든' 길라임으로 유명한 배우 하지원, 15년째 레몬주스로 동안을 지킨다는 인물",
+    "notes": "기사마다 46~49세로 나이가 다르게 적혀 있어(발행 시점 차이로 추정) 정확한 나이는 명시하지 않고 40대로만 다룬다. 니콜·후지이 미나·히토미는 다른 여자 연예인이라 본문에 실명으로 쓰지 않는다."
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "하지원", "text": "피부관리·운동도 포기했죠", "context": "starnewskorea.com"},
+    {"speaker": "하지원", "text": "낯설어서 좋아", "context": "tenasia.co.kr"},
+    {"speaker": "하지원", "text": "타고난 피부 아냐", "context": "스포츠경향"},
+    {"speaker": "하지원", "text": "이러니 결혼 못 하지", "context": "v.daum.net"},
+    {"speaker": "하지원", "text": "10년째 올리브오일 밥에 뿌려", "context": "동아일보"},
+    {"speaker": "하지원", "text": "몸에 좋은 건 10년 넘게 해", "context": "네이트"},
+    {"speaker": "하지원", "text": "난 레몬에 미친 사람", "context": "뉴시스"},
+    {"speaker": "하지원", "text": "15년째 레몬주스 챙겨 먹어", "context": "v.daum.net"},
+    {"speaker": "하지원", "text": "열심히 운동? NO, 그냥 잘해", "context": "조선일보"},
+    {"speaker": "하지원", "text": "외출 시 필수, 없으면 집에 돌아가", "context": "xportsnews.com"}
+  ],
+  "events": [
+    {"summary": "데뷔 30주년 기념작 '비광'에서 탈색 머리와 진한 메이크업, 거친 욕설까지 낯선 변신을 시도했다", "year": null, "confirmed": true},
+    {"summary": "레이저 시술을 직접 자비로 받았다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "본인 이름의 화장품 브랜드를 만들어 뷰티 CEO로 활동하고 있다", "year": null, "confirmed": true},
+    {"summary": "'시크릿 가든' 속 길라임 숏컷 헤어스타일을 본인이 직접 제안했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "'시크릿 가든' 거품 키스신 촬영 당시 밤샘 촬영으로 준비가 덜 돼 모자를 쓰고 찍었다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15년", "meaning": "매일 레몬주스를 챙겨 마신 기간"},
+    {"value": "10년", "meaning": "밥에 올리브오일을 뿌려 먹은 기간"}
+  ],
+  "credentials": [
+    {"item": "본인 화장품 브랜드 대표", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "동안 비결로 여러 매체에서 반복해 다뤄질 만큼 화제가 됐다",
+    "복근과 탄탄한 피부톤이 눈에 띈다는 반응을 얻는다"
+  ],
+  "care_habits": [
+    "15년째 매일 레몬주스를 챙겨 마신다",
+    "10년째 밥에 올리브오일을 뿌려 먹는다",
+    "몸에 좋다고 느낀 습관은 10년 넘게 꾸준히 이어간다",
+    "특정 외출 필수 아이템 없이는 집에 돌아갈 만큼 챙긴다"
+  ],
+  "hot_materials": [
+    {"material": "15년째 매일 레몬주스를 마신다는 동안 비결", "why_hot": "낙차"},
+    {"material": "타고난 피부가 아니라고 직접 밝힌 솔직한 고백", "why_hot": "반전"},
+    {"material": "레이저 시술을 자비로 받았다고 고백한 것", "why_hot": "반전"},
+    {"material": "일중독이라 '이러니 결혼 못 하지'라고 농담한 것", "why_hot": "발언"},
+    {"material": "데뷔 30주년 기념작에서 탈색·거친 욕설까지 시도한 파격 변신", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "밤샘 촬영으로 준비가 덜 돼 모자를 쓰고 키스신을 찍던 순간",
+    "매일 아침 레몬주스를 챙겨 마시는 루틴"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "탈색 머리와 진한 메이크업으로 파격 변신한 작품 스틸"
+  ]
+}
