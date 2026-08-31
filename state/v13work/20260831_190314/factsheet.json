@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "배두나",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "베를린국제영화제 등 해외무대에서도 주목받는 톱배우 배두나, 자기관리와 사생활 철학으로 알려진 인물",
+    "notes": "고현정 관련 소스([20])는 다른 여자 연예인 실명이라 이름 없이 '한 선배 배우'로만 다룬다. 김국희·류승범 관련 소스([3][4][12][18])는 주 인물과 직접 관련이 약해 쓰지 않는다."
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "배두나", "text": "체중, 적정선에 맞춰놓기 위해", "context": "헬스조선"},
+    {"speaker": "배두나", "text": "마음껏 몸을 썼다", "context": "싱글리스트"},
+    {"speaker": "배두나", "text": "김윤석은 마법 같은 배우, 상대역까지 연기 잘하게 해", "context": "뉴스엔"},
+    {"speaker": "배두나", "text": "최대한 연기 수명 늘리려면", "context": "네이트"},
+    {"speaker": "배두나", "text": "힘들어서 일탈하고 싶었다", "context": "스포츠경향"},
+    {"speaker": "배두나", "text": "21살 때 노출 촬영 두려웠다…이젠 뭘 시켜도 가능", "context": "텐아시아"}
+  ],
+  "events": [
+    {"summary": "배우가 아닌 다른 자격으로 베를린국제영화제에 참석해 화제를 모았다", "year": null, "confirmed": true},
+    {"summary": "티파니 가을 화보를 촬영했다", "year": null, "confirmed": true},
+    {"summary": "금빛 미니드레스를 입고 해외 시상식에서 전세계의 시선을 모았다", "year": null, "confirmed": true},
+    {"summary": "21세에 첫 노출신을 촬영했고 지금은 어떤 역할도 소화할 수 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "번아웃을 겪으며 일탈하고 싶었다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "사생활 노출을 조심하는 이유로 연기 수명을 언급했다", "year": null, "confirmed": true},
+    {"summary": "방송인 신동엽이 그녀를 두고 연애가 걸린 적이 없다며 의미심장한 미소를 지었다", "year": null, "confirmed": true},
+    {"summary": "한 선배 배우가 화장기 없는 맨얼굴로 있는 모습을 보고 충격을 받았다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "20년", "meaning": "아침마다 특정 음식을 끊은 기간"},
+    {"value": "21세", "meaning": "첫 노출신을 촬영한 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "배두나 연애 안 걸려", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김윤석", "relation": "공동 출연 배우", "mentioned_as": "김윤석"},
+    {"name": "신동엽", "relation": "방송인", "mentioned_as": "신동엽"}
+  ],
+  "works": [
+    {"title": "바이러스", "year": null, "costar": "김윤석", "scene": "본인이 직접 '마법 같은 배우'라고 극찬한 상대역과의 호흡", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "화려한 미니스커트와 구두로 20대 못지않은 패션을 소화한다는 평가를 받는다",
+    "금빛 드레스로 해외에서도 시선을 모았다"
+  ],
+  "care_habits": [
+    "체중을 적정선에 맞추기 위해 거의 매일 운동한다",
+    "아침마다 특정 음식을 20년째 끊고 있다"
+  ],
+  "hot_materials": [
+    {"material": "아침마다 특정 음식을 20년째 끊고 있다는 것", "why_hot": "낙차"},
+    {"material": "21세엔 두려웠던 노출 연기, 지금은 뭐든 가능하다는 성장담", "why_hot": "반전"},
+    {"material": "번아웃으로 일탈하고 싶었다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "신동엽이 '연애 안 걸린다'며 지은 의미심장한 미소", "why_hot": "실명"},
+    {"material": "김윤석을 '마법 같은 배우'라고 극찬한 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "거의 매일 운동으로 체중을 관리하는 순간",
+    "금빛 드레스를 입고 해외 시상식 레드카펫에 선 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "금빛 미니드레스를 입고 해외 시상식에 참석한 사진",
+    "티파니 가을 화보 사진"
+  ]
+}
