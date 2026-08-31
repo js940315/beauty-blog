@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "한지혜",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 42,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "출산 후 15kg 감량과 검사 남편, 워킹맘 근황으로 잘 알려진 배우 한지혜"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한지혜", "text": "40살 맞나요?", "context": "마이데일리"},
+    {"speaker": "한지혜", "text": "배에 힘주면 살짝 보이는 복근", "context": "마이데일리"},
+    {"speaker": "한지혜", "text": "체지방 태운다", "context": "헬스조선"},
+    {"speaker": "한지혜", "text": "개운한데 눈빛이 아련", "context": "Chosunbiz"},
+    {"speaker": "한지혜", "text": "15kg 감량하고 여리여리해", "context": "조선일보"},
+    {"speaker": "한지혜", "text": "보이스피싱 전화 받아, 속게 되더라", "context": "앳스타일"}
+  ],
+  "events": [
+    {"summary": "무명 시절 '쟤는 뭔데 주연이냐고'라는 소리를 들으며 힘들어했던 고충을 직접 고백했다", "year": null, "confirmed": true},
+    {"summary": "출산 후 15kg을 감량해 최저 몸무게를 기록했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "42번째 생일에 검사인 남편이 준비한 깜짝 이벤트에 감동했다", "year": null, "confirmed": true},
+    {"summary": "검사 남편이 있는데도 명의 도용 보이스피싱 범죄에 노출될 뻔했다", "year": null, "confirmed": true},
+    {"summary": "부모님께 자동차 3대와 집을 선물했다", "year": null, "confirmed": true},
+    {"summary": "기아 타이거즈 시구자로 나섰다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15kg", "meaning": "출산 후 감량한 체중"},
+    {"value": "42세", "meaning": "현재 나이"}
+  ],
+  "credentials": [
+    {"item": "검사", "whose": "남편"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "", "relation": "남편", "mentioned_as": "검사 남편"},
+    {"name": "", "relation": "딸", "mentioned_as": "딸"},
+    {"name": "", "relation": "부모님", "mentioned_as": "부모님"},
+    {"name": "", "relation": "남동생", "mentioned_as": "남동생"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "여전히 20대 같은 슬림한 라인을 유지한다는 평가를 받는다",
+    "40대인데도 동안이라는 반응을 얻는다"
+  ],
+  "care_habits": [
+    "출산 후 15kg을 감량하고 그 몸매를 유지하고 있다",
+    "복부에 힘을 주면 복근이 살짝 보일 만큼 관리한다",
+    "체지방을 태우는 운동을 꾸준히 한다"
+  ],
+  "hot_materials": [
+    {"material": "출산 후 15kg 감량, 최저 몸무게 기록", "why_hot": "낙차"},
+    {"material": "'쟤는 뭔데 주연이냐고' 소리를 들으며 힘들어했던 무명 시절 고백", "why_hot": "반전"},
+    {"material": "검사 남편이 있어도 보이스피싱을 당할 뻔한 사연", "why_hot": "반전"},
+    {"material": "42번째 생일에 남편이 준비한 이벤트", "why_hot": "장면"},
+    {"material": "부모님께 차 3대와 집을 선물한 행보", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "힘을 주면 복근이 살짝 드러나는 순간",
+    "생일에 깜짝 이벤트를 받고 감동한 순간"
+  ],
+  "sns_materials": [
+    "몇 년째 소장 중인 편안한 일상 룩을 소개한 개인 스타일 코너",
+    "딸과 점점 닮아가는 근황을 전한 가족사진 코너"
+  ],
+  "press_only_materials": [
+    "롱 코트로 시크한 매력을 보여준 공개 화보·행사 사진",
+    "기아 타이거즈 시구 현장 사진"
+  ]
+}
