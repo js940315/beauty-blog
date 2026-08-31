@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "오연서",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대 후반",
+    "career": "걸그룹 출신",
+    "major_work": "",
+    "identity_anchor": "걸그룹 실패 후 배우로 성공한 오연서, 최근 SNS 셀카·데일리룩으로 화제인 인물",
+    "notes": "기사마다 36~39세로 나이가 다르게 적혀 있어(발행 시점 차이로 추정) 정확한 나이는 명시하지 않고 30대 후반으로만 다룬다."
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "오연서", "text": "너무 개운해", "context": "v.daum.net"},
+    {"speaker": "오연서", "text": "아름다워지고 있어", "context": "뉴스엔"},
+    {"speaker": "오연서", "text": "이 사진, 공개하기 싫었다", "context": "스포츠조선"},
+    {"speaker": "오연서", "text": "얼굴 작아지고 예뻐져", "context": "뉴스엔"},
+    {"speaker": "오연서", "text": "알려주기 싫었다", "context": "v.daum.net"},
+    {"speaker": "오연서", "text": "피부과 열심히 다녀", "context": "xportsnews.com"},
+    {"speaker": "오연서", "text": "내 데뷔보다 늦게 태어나", "context": "네이트"},
+    {"speaker": "오연서", "text": "너무 어려서 안돼", "context": "뉴스엔"},
+    {"speaker": "오연서", "text": "자신감 붙었어..동안비결이 뭐지?", "context": "mksports.co.kr"},
+    {"speaker": "오연서", "text": "시집 못 가는 것", "context": "v.daum.net"}
+  ],
+  "events": [
+    {"summary": "걸그룹으로 데뷔했지만 크게 실패한 뒤 배우로 전향해 성공을 거뒀다", "year": null, "confirmed": true},
+    {"summary": "23년 만에 배우 생활 관리 비법을 처음 공개했다", "year": null, "confirmed": true},
+    {"summary": "2004년생 연하남에게 대시를 받고 나이 차이에 놀라 정중히 거절했다", "year": null, "confirmed": true},
+    {"summary": "TV 뷰티 프로그램에서 리프팅 시술과 안면비대칭 교정 침을 공개적으로 소개했다", "year": null, "confirmed": true},
+    {"summary": "미혼인 것에 대해 부모님도 결혼을 포기했다며 웃으며 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "1kg", "meaning": "효소 찜질 15분 만에 감량한 무게"},
+    {"value": "48kg", "meaning": "유지 중인 체중"},
+    {"value": "23년", "meaning": "배우 활동 기간(관리 비법을 처음 공개하기까지)"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "39세인데도 동안 미모라는 반응을 얻는다",
+    "얼굴 대칭이 완벽하다는 평가를 받는다"
+  ],
+  "care_habits": [
+    "효소 찜질로 짧은 시간 체중을 관리한다",
+    "48kg을 유지하는 나름의 습관이 있다고 밝혔다",
+    "피부과를 꾸준히 다니며 동안을 관리한다"
+  ],
+  "hot_materials": [
+    {"material": "걸그룹 실패 후 배우로 성공한 반전 스토리", "why_hot": "낙차"},
+    {"material": "2004년생 연하남에게 대시받고 놀란 사연", "why_hot": "반전"},
+    {"material": "15분 만에 1kg을 감량하는 효소 찜질 루틴", "why_hot": "장면"},
+    {"material": "'이 사진 공개하기 싫었다'는 솔직한 고백", "why_hot": "발언"},
+    {"material": "부모님도 결혼을 포기했다는 셀프 디스", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "영하 74도 냉동 찜질에서 오들오들 떨던 순간",
+    "거울 앞에서 셀카를 찍는 순간"
+  ],
+  "sns_materials": [
+    "거울 셀카로 몽환적인 눈빛을 담은 게시물",
+    "초근접 민낯 셀카 게시물",
+    "화이트 셔츠와 데님, 쇼퍼백을 매치한 데일리룩 게시물",
+    "맨투맨을 활용한 러블리한 데일리룩 게시물"
+  ],
+  "press_only_materials": [
+    "드레스 피팅 현장 사진",
+    "리프팅 시술 소개 방송 캡처"
+  ]
+}
