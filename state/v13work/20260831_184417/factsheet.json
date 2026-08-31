@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "정려원",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 45,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "내 이름은 김삼순",
+    "identity_anchor": "'내 이름은 김삼순'과 '졸업'으로 알려진 배우 정려원, 최근 데일리룩과 어른스러운 발언으로 화제인 인물",
+    "notes": "기사마다 44~45세로 조금씩 다르게 적혀 있다. 안판석 감독 별세 추모 관련 소스는 무거운 소재라 본문에 쓰지 않는다."
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "정려원", "text": "슬립 스커트, 어렵지 않아요", "context": "fashionseoul.com"},
+    {"speaker": "정려원", "text": "실수하면 어때? 날 응원하는 법 배워", "context": "뉴스1"},
+    {"speaker": "정려원", "text": "'졸업'으로 불안 벗어나, 인생작", "context": "edaily.co.kr"},
+    {"speaker": "정려원", "text": "너무 야해서 놀랐다", "context": "앳스타일"},
+    {"speaker": "정려원", "text": "너 검사 다시 해봐", "context": "조선일보"},
+    {"speaker": "정려원", "text": "좋아, 근데 외로워", "context": "starnewskorea.com"}
+  ],
+  "events": [
+    {"summary": "19년 만에 과거 드라마 '내 이름은 김삼순' 속 패션이 재조명되며 재평가받았다", "year": null, "confirmed": true},
+    {"summary": "절친인 배구선수 김연경이 응원하는 신인감독 표승주의 작품을 보며 눈물을 흘렸다", "year": null, "confirmed": true},
+    {"summary": "드라마 '졸업'을 통해 20대 시절의 불안을 극복했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "상대역 위하준의 MBTI를 듣고 '너 검사 다시 해봐'라며 한숨 섞인 농담을 했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "19년", "meaning": "과거 드라마 패션이 재조명되기까지 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "상대역 정려원 볼 때마다 설레, 예뻐서", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "위하준", "relation": "공동 출연 배우", "mentioned_as": "위하준"},
+    {"name": "김연경", "relation": "친구(배구선수)", "mentioned_as": "김연경"},
+    {"name": "전현무", "relation": "방송인", "mentioned_as": "전현무"}
+  ],
+  "works": [
+    {"title": "졸업", "year": null, "costar": "위하준", "scene": "베드신이 방송된 뒤 본인도 너무 야해서 놀랐다고 밝힌 장면", "kind": "실제"},
+    {"title": "내 이름은 김삼순", "year": null, "costar": "", "scene": "19년 만에 패션이 재조명된 대표작", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "45세인데 안 믿긴다는 반응을 얻는다",
+    "봄 데일리룩이 사랑스럽다는 평가를 받는다"
+  ],
+  "care_habits": [
+    "아보카도 샌드위치를 즐겨 먹는다",
+    "노화 방지를 위해 녹색 재료가 들어간 샌드위치를 챙긴다",
+    "사과에 무언가를 뿌려 먹으며 염증 관리를 한다는 이야기가 전해진다"
+  ],
+  "hot_materials": [
+    {"material": "위하준이 '상대역 정려원 볼 때마다 설레, 예뻐서'라고 밝힌 것", "why_hot": "실명"},
+    {"material": "19년 만에 재평가받은 '삼순이' 시절 패션", "why_hot": "낙차"},
+    {"material": "'졸업'으로 20대 시절의 불안을 극복했다는 고백", "why_hot": "발언"},
+    {"material": "전현무가 감탄한 결혼·연애 어록 '좋아, 근데 외로워'", "why_hot": "발언"},
+    {"material": "본인 베드신을 보고 너무 야해서 놀랐다는 솔직한 반응", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "서울 골목길에서 봄 햇살을 즐기며 걷는 순간",
+    "야외 카페에서 여유롭게 미소 짓는 순간"
+  ],
+  "sns_materials": [
+    "서울 골목길 사복 패션을 담은 게시물",
+    "야외 카페에서 여유로운 미소를 담은 게시물",
+    "부활절 인사를 전한 게시물",
+    "사랑스러운 봄 데일리 무드를 담은 게시물"
+  ],
+  "press_only_materials": []
+}
