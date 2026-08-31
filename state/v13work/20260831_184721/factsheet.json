@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "장나라",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1981,
+    "age": null,
+    "age_range": "40대 초반",
+    "career": "가수 겸 배우",
+    "major_work": "굿파트너",
+    "identity_anchor": "동안 비주얼과 누적 200억원대 기부로 알려진 배우 겸 가수 장나라",
+    "notes": "기사마다 42~44세로 조금씩 다르게 적혀 있다. 다른 연예인의 갑질 논란·부부 비교 기사([24][32])는 주 인물과 직접 관련이 없어 쓰지 않는다. 오랜 기간 한 브랜드의 광고 모델로 활동해온 장수 모델이기도 하다."
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장나라", "text": "피부 엄청 얇고 잔주름 많아", "context": "조선일보"},
+    {"speaker": "장나라", "text": "동안 비결=이목구비…피부 얇은 편이라 잘 늙어", "context": "모바일한경"},
+    {"speaker": "장나라", "text": "유치한 이목구비 덕분…물 많이 마셔", "context": "뉴시스"},
+    {"speaker": "장나라", "text": "집안 대대로 동글동글", "context": "Asia Artist Awards"},
+    {"speaker": "장나라", "text": "꾸준히 하며 희열 느껴", "context": "뉴스엔"},
+    {"speaker": "장나라", "text": "함께한 시간이 쌓일수록", "context": "v.daum.net"},
+    {"speaker": "장나라", "text": "좋아한다고 먼저 대시했다", "context": "mk.co.kr"},
+    {"speaker": "장나라", "text": "잘생긴 당나귀", "context": "조선일보"},
+    {"speaker": "장나라", "text": "결혼 왜 하지 하며 과몰입했다", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "촬영감독인 남편과 결혼했으며 남편은 6살 연하다", "year": null, "confirmed": true},
+    {"summary": "결혼 전 본인이 남편에게 먼저 좋아한다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "아버지와 함께 가족사진을 공개하며 부모님 결혼 50주년을 기념했다", "year": null, "confirmed": true},
+    {"summary": "지금까지 누적 기부액이 200억원을 넘는다", "year": null, "confirmed": true},
+    {"summary": "기부 공로로 대통령 표창을 받았다", "year": null, "confirmed": true},
+    {"summary": "드라마 '굿파트너'에서 결혼을 소재로 한 대사에 과몰입했다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "200억원", "meaning": "누적 기부액"},
+    {"value": "6살", "meaning": "남편과의 나이 차"},
+    {"value": "50주년", "meaning": "부모님 결혼기념일"}
+  ],
+  "credentials": [
+    {"item": "대통령 표창(기부 공로)", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "왜 나만 늙나", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "", "relation": "남편", "mentioned_as": "촬영감독 남편"},
+    {"name": "", "relation": "아버지", "mentioned_as": "아버지"}
+  ],
+  "works": [
+    {"title": "굿파트너", "year": null, "costar": "", "scene": "결혼을 소재로 한 대사에 과몰입했다고 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "44세인데도 20대로 보인다는 반응을 얻는다",
+    "동그스름한 얼굴형과 이목구비 덕분에 동안이라는 평가를 받는다"
+  ],
+  "care_habits": [
+    "특정 음료를 마시며 피부와 피로를 관리한다는 이야기가 있다",
+    "노화 방지 영양제를 매일 챙겨 먹으며 전용 약 주머니까지 공개했다",
+    "운동 후 커피 한 잔을 즐긴다",
+    "물을 많이 마신다"
+  ],
+  "hot_materials": [
+    {"material": "'피부 얇고 잔주름 많다'는 솔직한 자기 고백", "why_hot": "반전"},
+    {"material": "누적 기부 200억원, 대통령 표창까지 받은 행보", "why_hot": "낙차"},
+    {"material": "6살 연하 남편에게 본인이 먼저 대시했다는 사연", "why_hot": "반전"},
+    {"material": "노화 방지 영양제 전용 약 주머니를 공개한 것", "why_hot": "장면"},
+    {"material": "부모님 결혼 50주년을 기념한 가족사진", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "전용 약 주머니에서 영양제를 꺼내는 순간",
+    "운동을 마치고 커피 한 잔을 마시는 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "블랙수트로 체형을 강조한 시상식 사진"
+  ]
+}
