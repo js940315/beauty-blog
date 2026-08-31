@@ -1,0 +1,82 @@
+{
+  "person": {
+    "name": "서현진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "또 오해영",
+    "identity_anchor": "'또 오해영' 주연을 맡아 15년 무명 생활을 딛고 성공한 배우 서현진",
+    "notes": "남편은 서울대병원 의사로 알려져 있다."
+  },
+  "namesake_dropped": ["아나운서 서현진", "미스코리아 출신 아나운서 서현진"],
+  "quotes": [
+    {"speaker": "서현진", "text": "히스테리 그만 좀", "context": "뉴시스"},
+    {"speaker": "서현진", "text": "발밑이 흔들리는 줄", "context": "v.daum.net"},
+    {"speaker": "서현진", "text": "그렇게 세게 때린 줄 몰랐다", "context": "뉴시스"},
+    {"speaker": "서현진", "text": "한석규 조언 기억하려고", "context": "뉴시스"},
+    {"speaker": "서현진", "text": "성공하고도 불안하고 하나도 즐겁지 않았다", "context": "tenasia.co.kr"},
+    {"speaker": "서현진", "text": "그만둬라, 말에 상처 받았다", "context": "뉴시스"},
+    {"speaker": "서현진", "text": "우리집 가난해", "context": "스포츠동아"},
+    {"speaker": "서현진", "text": "오빠 1000억은 되지?", "context": "조선일보"},
+    {"speaker": "서현진", "text": "절대 안 받아", "context": "v.daum.net"}
+  ],
+  "events": [
+    {"summary": "걸그룹 '밀크' 해체 후 15년간 이렇다 할 직업 없이 지내며 샌드위치 가게에서 아르바이트도 했다", "year": null, "confirmed": true},
+    {"summary": "'또 오해영'으로 성공을 거뒀지만 그 후에도 불안하고 즐겁지 않았다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "무명 시절 힘들 때 어머니의 한마디에 발밑이 흔들리는 기분으로 오열했다", "year": null, "confirmed": true},
+    {"summary": "촬영 중 실수로 동료 배우 이준혁을 세게 때려 공개적으로 사과했다", "year": null, "confirmed": true},
+    {"summary": "26억 원 규모의 전세사기 피해를 입고 강제 경매를 신청했다", "year": null, "confirmed": true},
+    {"summary": "카페에서 아이를 심하게 혼내는 학부모에게 그만하라고 일침을 놓았다", "year": null, "confirmed": true},
+    {"summary": "24년 전 미인대회 시절 사진을 공개하며 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "동료 배우 공유가 건넨 선물을 절대 안 받겠다며 거절했다", "year": null, "confirmed": true},
+    {"summary": "서울대병원 의사인 남편과 결혼해 지극정성으로 챙긴다는 이야기가 전해졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15년", "meaning": "정식 성공작을 만나기 전까지의 무명 기간"},
+    {"value": "26억", "meaning": "전세사기 피해액"},
+    {"value": "3마리", "meaning": "동료 배우와 낚시에서 잡은 참돔 수"}
+  ],
+  "credentials": [
+    {"item": "서울대병원 의사", "whose": "남편"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "공유", "relation": "공동 출연 배우", "mentioned_as": "공유"},
+    {"name": "이준혁", "relation": "공동 출연 배우", "mentioned_as": "이준혁"},
+    {"name": "장률", "relation": "공동 출연 배우", "mentioned_as": "장률"},
+    {"name": "유재석", "relation": "예능 동료", "mentioned_as": "유재석"},
+    {"name": "한석규", "relation": "선배 배우", "mentioned_as": "한석규"},
+    {"name": "", "relation": "남편", "mentioned_as": "서울대병원 의사 남편"}
+  ],
+  "works": [
+    {"title": "또 오해영", "year": null, "costar": "공유", "scene": "성공했지만 불안하고 즐겁지 않았다고 돌아본 작품", "kind": "실제"},
+    {"title": "트렁크", "year": null, "costar": "공유", "scene": "인생 첫 낚시에서 참돔 3마리를 잡으며 함께 웃었던 일화", "kind": "실제"},
+    {"title": "", "year": null, "costar": "이준혁", "scene": "촬영 중 실수로 세게 때려 공개 사과했던 장면", "kind": "실제"},
+    {"title": "", "year": null, "costar": "장률", "scene": "본인이 직접 '매콤한 마라맛'이라 표현한 키스신", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "24년 전 미인대회 시절 사진과 비교되며 화제가 됐다"
+  ],
+  "care_habits": [
+    "대본에 10원짜리 동전을 붙이고 다니며 선배의 조언을 되새긴다"
+  ],
+  "hot_materials": [
+    {"material": "'또 오해영' 전까지 15년간 무직으로 지내며 성공 후에도 불안했다는 고백", "why_hot": "반전"},
+    {"material": "걸그룹 '밀크' 해체 후 샌드위치 가게에서 아르바이트를 했다", "why_hot": "낙차"},
+    {"material": "24년 전 미인대회 시절 사진을 공개하며 스스로 웃어넘겼다", "why_hot": "반전"},
+    {"material": "대본에 10원짜리 동전을 붙이고 다니는 이유", "why_hot": "장면"},
+    {"material": "공유가 건넨 선물을 '절대 안 받아'라며 거절했다", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "샌드위치 가게에서 아르바이트를 하던 순간",
+    "대본에 10원짜리 동전을 붙이는 습관",
+    "낚시에서 참돔을 낚아 올리는 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "브랜드 뮤즈로 참여한 봄 화보 촬영 사진"
+  ]
+}
