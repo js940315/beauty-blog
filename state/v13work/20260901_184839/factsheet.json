@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "오연수",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 55,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "데뷔 37년차 배우",
+    "identity_anchor": "데뷔 37년 차 배우, 남편 손지창과 부부로 방송에 함께 출연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "오연수", "text": "보여지는 직업이다 보니 성형을 고민하게 된다", "context": "v.daum.net"},
+    {"speaker": "오연수", "text": "자연스럽게 늙고 싶어", "context": "v.daum.net"},
+    {"speaker": "오연수", "text": "아프면 나만 손해", "context": "네이트"},
+    {"speaker": "오연수", "text": "이젠 다이어트 안 해, 나이 드니 얼굴살이 빠지더라", "context": "동아일보"},
+    {"speaker": "오연수", "text": "두 아들에게는 결혼을 권장하지 않는다, 다시 태어나면 남자로 태어나고 싶다", "context": "모바일한경"}
+  ],
+  "events": [
+    {"summary": "데뷔 37년 만에 성형 고민을 솔직하게 고백했다 (수술은 하지 않고 자연스럽게 나이 들고 싶다고 밝힘)", "year": null, "confirmed": true},
+    {"summary": "남편 손지창이 첫사랑이며 결혼 생활을 이어오고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "아들이 미국 대학 졸업 후 버추얼 아이돌 프로듀서가 됐다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "55세", "meaning": "나이"},
+    {"value": "37년", "meaning": "데뷔 이후 활동 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "손지창", "relation": "남편, 배우", "mentioned_as": "첫사랑이자 방송에 함께 출연하는 남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "55세인데도 동안이라는 평가를 받으며 관리 비결에 관심이 쏠렸다"
+  ],
+  "care_habits": [
+    "햇빛이 강하거나 화장을 안 했을 때는 꼭 선글라스를 쓴다고 밝혔다",
+    "아침마다 과일주스를 간단히 챙겨 마신다고 밝혔다",
+    "과식한 뒤에는 간단한 음식으로 조절한다고 밝혔다",
+    "나이가 들며 얼굴살이 자연스럽게 빠져 이제는 다이어트를 하지 않는다고 밝혔다",
+    "건강한 아침 식단을 꾸준히 챙긴다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "데뷔 37년 만에 성형 고민을 고백한 것", "why_hot": "발언"},
+    {"material": "자연스럽게 늙고 싶다는 소신 발언", "why_hot": "발언"},
+    {"material": "이제는 다이어트를 하지 않는다는 반전 발언", "why_hot": "반전"},
+    {"material": "아프면 나만 손해라는 건강 마인드", "why_hot": "발언"},
+    {"material": "다음 생엔 남자로 태어나고 싶다는 유머러스한 소신", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "화장을 안 했을 때 선글라스부터 챙겨 쓰는 모습",
+    "아침마다 과일주스를 챙겨 마시는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "여행지 근황 사진"
+  ]
+}
