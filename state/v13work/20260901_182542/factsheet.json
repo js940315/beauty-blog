@@ -1,0 +1,76 @@
+{
+  "person": {
+    "name": "라미란",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 49,
+    "age_range": "",
+    "career": "배우 겸 코미디언",
+    "major_work": "영화 시민덕희, 하이파이브 등 출연",
+    "identity_anchor": "국민배우로 불리는 배우 겸 코미디언, 영화 시민덕희·하이파이브 등 출연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "라미란", "text": "위고비 NO, 식단과 필라테스로 13kg 뺐다", "context": "동아일보"},
+    {"speaker": "라미란", "text": "다 아는 방법으로 뺐다", "context": "조선일보"},
+    {"speaker": "라미란", "text": "보톡스 안 맞아봐", "context": "nanamcom.co.kr"},
+    {"speaker": "라미란", "text": "안 하던 짓 하려니까 힘들어", "context": "모바일한경"},
+    {"speaker": "라미란", "text": "웨딩사진 찍는데 재혼사진 같네", "context": "v.daum.net"},
+    {"speaker": "라미란", "text": "남편 직업 막노동, 아들은 국가대표", "context": "살구뉴스"},
+    {"speaker": "라미란", "text": "살 일부러 찌운 것 아냐, 다이어트 실패…노력할 것", "context": "톱스타뉴스"}
+  ],
+  "events": [
+    {"summary": "식단 조절과 필라테스로 13kg을 감량했다 (일부 보도는 14kg으로 전함)", "year": null, "confirmed": true},
+    {"summary": "체중 감량제(위고비)는 쓰지 않았다고 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "16살 차이 나는 배우 류혜영과 함께 아침 조깅을 했다", "year": null, "confirmed": true},
+    {"summary": "절친 김숙이 4.5리터 통 가득 미역국을 끓여준 일화를 전했다", "year": null, "confirmed": true},
+    {"summary": "웨딩 화보 촬영을 하며 윤경호와 함께 방송에서 케미를 보였다", "year": null, "confirmed": true},
+    {"summary": "'진짜 사나이' 여군 1기 동료 맹승지 등과 10년째 단톡방을 유지하고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "남편의 직업이 막노동이고 아들이 국가대표라고 직접 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "13kg", "meaning": "감량한 체중"},
+    {"value": "49세", "meaning": "나이"},
+    {"value": "16살", "meaning": "류혜영과의 나이 차이"},
+    {"value": "10년", "meaning": "여군 1기 동료들과 단톡방을 유지한 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "예뻐서 한참 봤다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "성동일", "relation": "동료 배우", "mentioned_as": "체중 감량 후 놀란 반응을 보인 동료"},
+    {"name": "류혜영", "relation": "16세 연하 배우", "mentioned_as": "함께 아침 조깅을 한 동료"},
+    {"name": "김숙", "relation": "절친 방송인", "mentioned_as": "생일에 미역국을 끓여준 절친"},
+    {"name": "윤경호", "relation": "동료 배우", "mentioned_as": "웨딩 화보 촬영에서 케미를 보인 동료"},
+    {"name": "맹승지", "relation": "여군 1기 동료", "mentioned_as": "10년째 단톡방을 유지하는 동료"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "13kg 감량 후 '예뻐졌다'는 반응이 폭풍처럼 쏟아졌다",
+    "성동일이 살이 너무 빠져 아픈 줄 알았다고 놀랄 정도였다"
+  ],
+  "care_habits": [
+    "체중 감량제 없이 식단 조절과 필라테스만으로 감량했다고 밝혔다",
+    "구체적인 다이어트 비결을 묻자 '다 아는 방법'이라며 웃어넘겼다",
+    "보톡스는 맞아본 적이 없다고 직접 밝혔다",
+    "16살 어린 동료와 함께 아침 조깅을 시작했다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "위고비 대신 식단과 필라테스로 13kg을 뺐다는 발언", "why_hot": "발언"},
+    {"material": "성동일이 아픈 줄 알았다고 놀란 반응", "why_hot": "낙차"},
+    {"material": "비결을 물어도 '다 아는 방법'이라고만 답한 것", "why_hot": "반전"},
+    {"material": "16살 어린 류혜영과 아침 조깅을 시작한 것", "why_hot": "장면"},
+    {"material": "보톡스를 맞아본 적 없다는 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "16살 어린 동료와 이른 아침 함께 조깅하는 모습",
+    "비결을 묻는 질문에 웃으며 얼버무리는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "웨딩 화보 촬영 사진",
+    "크롭톱을 입고 나온 방송 인터뷰 장면"
+  ]
+}
