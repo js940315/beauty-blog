@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "제니",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "그룹 블랙핑크 멤버, 솔로 가수로도 활동",
+    "major_work": "블랙핑크, 솔로 앨범 활동",
+    "identity_anchor": "그룹 블랙핑크 멤버, 솔로 가수로도 활동하는 제니"
+  },
+  "namesake_dropped": [
+    "'60대 제니'라는 별명으로 불리는 배우 박준금 (동명이 아니라 별명이 겹친 완전히 다른 인물, 관련 발언·피부과 시술 내용 전부 제외)"
+  ],
+  "quotes": [
+    {"speaker": "제니", "text": "사우나 즐긴 후 몸에 이것 발라요", "context": "코스모닝"},
+    {"speaker": "제니", "text": "피부 도톰해서, 보송보송 탱글탱글하게 만들어", "context": "뉴스엔"},
+    {"speaker": "제니", "text": "피부 도톰해 따로 관리해야", "context": "insight.co.kr"},
+    {"speaker": "제니", "text": "요즘 스트레스 받는 일 많아", "context": "news.nate.com"},
+    {"speaker": "제니", "text": "당분간 예능 NO", "context": "news.nate.com"}
+  ],
+  "events": [
+    {"summary": "다리에 파스를 가득 붙인 채로 쇼핑을 다녀왔다", "year": null, "confirmed": true},
+    {"summary": "김태호 PD의 새 예능 출연 제안을 고사했다", "year": null, "confirmed": true},
+    {"summary": "거버너스 볼 무대에 서고 뉴욕에 고맙다는 소감을 남겼다", "year": null, "confirmed": true},
+    {"summary": "아디다스와 신발을 협업하며 디자인 일부에 직접 의견을 냈다", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "제니는 슈퍼 나이스 걸", "where": "기사반응", "scale": ""},
+    {"text": "군살 하나 없네", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "잘록한 허리와 탄탄한 복근 라인으로 화제가 됐다",
+    "사우나를 즐긴 뒤 몸에 무언가를 바른다고 직접 밝혔다"
+  ],
+  "care_habits": [
+    "엉덩이 전용 비누로 따로 관리한다고 밝혔다 (피부가 도톰해서 보송하고 탱글하게 만들어준다고 설명)",
+    "매일 저녁 찬물에 몸을 담그는 콜드 플런지를 한다고 밝혔다 (피로 해소 효과를 언급)",
+    "사우나를 즐긴 뒤 몸에 바르는 것이 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "엉덩이 전용 비누로 따로 관리한다는 발언", "why_hot": "발언"},
+    {"material": "매일 저녁 콜드 플런지를 한다는 습관", "why_hot": "발언"},
+    {"material": "잘록한 허리·복근으로 군살 하나 없다는 반응", "why_hot": "낙차"},
+    {"material": "다리에 파스 가득 붙이고 쇼핑했다는 장면", "why_hot": "장면"},
+    {"material": "김태호 PD 예능 제안을 고사했다는 소식", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "다리에 파스를 가득 붙인 채 쇼핑을 다니는 모습",
+    "매일 저녁 찬물에 몸을 담그는 루틴"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "거버너스 볼 등 해외 시상식·행사 무대 의상",
+    "아디다스 협업 신발 화보"
+  ]
+}
