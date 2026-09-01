@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "전미도",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "뮤지컬·연극 무대 출신 배우",
+    "major_work": "영화 왕과 사는 남자(천만 관객), 드라마 슬기로운 의사생활 등 출연, 뮤지컬 무대에서도 활동",
+    "identity_anchor": "뮤지컬·연극 무대에서 활동해온 배우, 영화 '왕과 사는 남자'로 천만 배우에 올랐으며 드라마 '슬기로운 의사생활' 등에 출연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "전미도", "text": "남편 많이 착한 사람이지만 지성 선배 앞에서는 명함도 못 내밀어", "context": "news.nate.com"},
+    {"speaker": "전미도", "text": "지성은 종교 그 자체", "context": "news.nate.com"},
+    {"speaker": "전미도", "text": "수수해서 더 예뻐", "context": "네이트"},
+    {"speaker": "전미도", "text": "무대는 내 정체성", "context": "연합뉴스"},
+    {"speaker": "전미도", "text": "임신 계획 중이었는데 슬의생 덕에 새 기회를 얻었다", "context": "조선일보"}
+  ],
+  "events": [
+    {"summary": "영화 '왕과 사는 남자'가 천만 관객을 넘기며 천만 배우 반열에 올랐다", "year": null, "confirmed": true},
+    {"summary": "밴드부 보컬로 처음 용기를 낸 뒤 배우의 길을 시작했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "스스로 극도의 내향인(극I)이라고 고백했다", "year": null, "confirmed": true},
+    {"summary": "연극 '갈매기'에 15년 만에 니나 역으로 다시 출연했다", "year": null, "confirmed": true},
+    {"summary": "임신을 계획하던 시기에 '슬기로운 의사생활' 출연 기회를 얻었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "인스타그램 아이디가 @mido_ring인 사연이 화제가 됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15년", "meaning": "연극 갈매기에 다시 출연하기까지 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "밥 잘 사주는 예쁜 누나", "where": "방송", "scale": ""},
+    {"text": "자식 같아 울컥", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "지성", "relation": "배우, 애처가로 유명", "mentioned_as": "본인 남편과 비교 대상으로 직접 언급"},
+    {"name": "옥주현", "relation": "뮤지컬 배우", "mentioned_as": "뮤지컬 여배우 부문에서 대결 구도로 언급됨"},
+    {"name": "유해진", "relation": "동료 배우", "mentioned_as": "자식 같다며 극찬한 동료"},
+    {"name": "정순원", "relation": "동료 배우", "mentioned_as": "밥 잘 사주는 예쁜 누나라고 표현한 동료"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "꾸미지 않은 수수한 모습이 오히려 더 예뻐 보인다는 반응이 나왔다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "남편을 지성과 비교하며 '명함도 못 내밀어'라고 한 발언", "why_hot": "발언"},
+    {"material": "천만 배우에 올랐다는 소식", "why_hot": "낙차"},
+    {"material": "스스로 극I라고 고백한 것", "why_hot": "반전"},
+    {"material": "15년 만에 같은 연극 무대로 돌아온 것", "why_hot": "낙차"},
+    {"material": "유해진이 자식 같다며 극찬한 반응", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "15년 만에 같은 연극 무대에 다시 서는 모습",
+    "밴드부 보컬로 처음 무대에 섰던 순간"
+  ],
+  "sns_materials": [
+    "인스타그램 아이디 @mido_ring의 사연"
+  ],
+  "press_only_materials": [
+    "드라마·뮤지컬 스틸컷"
+  ]
+}
