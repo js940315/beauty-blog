@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "김옥빈",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 38,
+    "age_range": "",
+    "career": "영화·드라마 배우",
+    "major_work": "영화 박쥐, 드라마 보이스 등 출연",
+    "identity_anchor": "영화·드라마에서 활동해온 배우, 배우 채서진의 친언니이며 최근 결혼함"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김옥빈", "text": "1일 2~3팩, 건조함부터 잡아야", "context": "앳스타일"},
+    {"speaker": "김옥빈", "text": "이것만 발라서 굽는다", "context": "머니투데이"},
+    {"speaker": "김옥빈", "text": "배우는 보상이 더딘 직업", "context": "v.daum.net"},
+    {"speaker": "김옥빈", "text": "신랑은 자상한 사람", "context": "segye.com"},
+    {"speaker": "김옥빈", "text": "코 두 번 부상 당해, 차기작 찾는 중", "context": "v.daum.net"}
+  ],
+  "events": [
+    {"summary": "동생 배우 채서진과 함께 발리로 여행을 다녀왔다", "year": null, "confirmed": true},
+    {"summary": "신라호텔에서 비공개 결혼식을 올렸다 (평균 비용 2억원 수준의 장소, 김연아·전지현도 결혼식을 올린 곳으로 알려짐)", "year": null, "confirmed": true},
+    {"summary": "신혼집이 캠핑장이라 3주간 지냈다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "결혼 준비에 1년 3개월이 걸렸다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "동생 채서진도 결혼했으며 자매가 나이 들수록 더 닮아간다는 이야기가 나왔다", "year": null, "confirmed": true},
+    {"summary": "코를 두 차례 다쳐 회복 후 차기작을 찾고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "장동건, 이준기와 한자리에 모인 적이 있다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "38세", "meaning": "나이"},
+    {"value": "2억원", "meaning": "결혼식 장소의 평균 비용 수준"},
+    {"value": "1년 3개월", "meaning": "결혼 준비 기간"},
+    {"value": "3주", "meaning": "캠핑장이던 신혼집에서 지낸 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "돈을 그렇게 많이 받고?", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "채서진", "relation": "동생, 배우", "mentioned_as": "함께 여행하고 나이 들수록 더 닮아가는 자매"},
+    {"name": "김남주", "relation": "동료 배우", "mentioned_as": "배우라는 직업에 대한 대화를 나눈 상대"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "매일 고기를 먹으면서도 몸매를 유지한다는 이야기가 화제였다",
+    "38세인데도 군살 없이 늘씬한 몸매로 화제가 됐다"
+  ],
+  "care_habits": [
+    "야외 활동 후에는 하루 2~3번 팩을 붙여 건조함부터 잡는다고 밝혔다",
+    "햇볕 아래서는 자외선 차단 제품만 바르고 그대로 그을린다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "매일 고기를 먹는데도 유지되는 몸매", "why_hot": "낙차"},
+    {"material": "결혼식 준비에 1년 3개월이 걸렸다는 이야기", "why_hot": "발언"},
+    {"material": "신혼집이 캠핑장이라 3주를 지냈다는 이야기", "why_hot": "반전"},
+    {"material": "김남주와 나눈 '배우는 보상이 더딘 직업' 대화", "why_hot": "실명"},
+    {"material": "코를 두 차례 다쳤다는 근황", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "야외 활동 후 하루 세 번 팩을 붙이는 모습",
+    "캠핑장 신혼집에서 3주를 지내는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "발리 여행 수영복 사진",
+    "신라호텔 결혼식·웨딩드레스 사진"
+  ]
+}
