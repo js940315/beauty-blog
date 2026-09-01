@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "채시라",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 57,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "드라마 여명의 눈동자, 질투 등 다수 히트작 출연",
+    "identity_anchor": "'여명의 눈동자'·'질투' 등 다수 히트작에 출연한 배우, 최근 무용수로도 데뷔함"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "채시라", "text": "중국군 3000명 앞에서, 영하 30도에 키스신을 촬영했다", "context": "news1.kr"},
+    {"speaker": "채시라", "text": "그 장면은 기억이 나지 않을 정도였다", "context": "v.daum.net"},
+    {"speaker": "채시라", "text": "그동안 애 많이 쓰신 아버지", "context": "텐아시아"},
+    {"speaker": "채시라", "text": "그곳에서도 존경받으시길", "context": "news.nate.com"}
+  ],
+  "events": [
+    {"summary": "57세에 무용수로 데뷔했다", "year": null, "confirmed": true},
+    {"summary": "드라마 '여명의 눈동자' 촬영 당시 영하 30도 날씨에 중국군 3000명 앞에서 철조망 키스신을 찍었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "함께 활동했던 배우 고 이순재를 추모하며 '아버지'라고 표현했다", "year": null, "confirmed": true},
+    {"summary": "오랜 동료 배우 김혜수와 반갑게 재회했다 (롯데·해태 CF 퀸 시절부터 인연)", "year": null, "confirmed": true},
+    {"summary": "드라마 '질투'로 58%의 시청률을 기록했다고 전해졌다", "year": null, "confirmed": true},
+    {"summary": "딸이 한국무용을 전공했다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "57세", "meaning": "나이"},
+    {"value": "3000명", "meaning": "여명의 눈동자 키스신 촬영 당시 지켜본 중국군 인원"},
+    {"value": "58%", "meaning": "드라마 질투의 시청률"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "민낯 맞아?", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김혜수", "relation": "동료 배우", "mentioned_as": "롯데·해태 CF 퀸 시절부터 인연을 이어온 동료"},
+    {"name": "이순재", "relation": "동료 배우(고인)", "mentioned_as": "드라마에서 부모 역할로 만나 아버지처럼 여겼던 선배"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "57세인데도 민낯이 맞는지 물을 만큼 동안 미모로 화제가 됐다",
+    "우아하고 품격 있는 자기 관리로 자주 언급된다"
+  ],
+  "care_habits": [
+    "57세의 나이에도 새롭게 무용수로 데뷔할 만큼 몸 관리를 꾸준히 해왔다"
+  ],
+  "hot_materials": [
+    {"material": "57세에 무용수로 데뷔했다는 소식", "why_hot": "반전"},
+    {"material": "영하 30도, 중국군 3000명 앞에서 촬영한 키스신 비화", "why_hot": "장면"},
+    {"material": "민낯 맞냐는 반응이 나올 정도의 동안 미모", "why_hot": "낙차"},
+    {"material": "김혜수와 수십 년 만에 재회한 우정", "why_hot": "실명"},
+    {"material": "고 이순재를 아버지라 부르며 추모한 일화", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "영하 30도 추위 속 중국군 3000명 앞에서 키스신을 찍는 촬영장",
+    "무용수로 새롭게 데뷔해 무대에 서는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "발레복 차림의 무용 무대 사진",
+    "핫팬츠·민트 치마 등 화보 사진"
+  ]
+}
