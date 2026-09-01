@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "전인화",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 60,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "예능 같이 삽시다 등 출연",
+    "identity_anchor": "배우, 배우 유동근과 부부로 예능 '같이 삽시다'에 함께 출연 중"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "전인화", "text": "3끼 굶겼다", "context": "OSEN"},
+    {"speaker": "전인화", "text": "결혼하고 30년 동안 시어머니와 살았다", "context": "뉴스1"},
+    {"speaker": "전인화", "text": "연예계 은퇴도 고민", "context": "스포츠조선"},
+    {"speaker": "전인화", "text": "이렇게 물 맞을 줄은, 내 생애 첫 열기", "context": "뉴스1"},
+    {"speaker": "전인화", "text": "母, 시집 가고 길거리 헤매", "context": "네이트"}
+  ],
+  "events": [
+    {"summary": "촬영 중 사용한 제품 때문에 원형 탈모가 왔었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "남편 유동근의 반찬 투정을 세 끼를 굶기는 방법으로 고쳤다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "결혼 후 30년 동안 시어머니와 함께 살았다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "물 축제 공연 '흠뻑쇼'에 생애 처음 참여해 만끽했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "결혼 당시 집안의 반대로 어머니가 힘들어했다는 옛이야기를 전했다", "year": null, "confirmed": true},
+    {"summary": "딸은 화장품 회사 CEO, 아들은 밴드 오디션 출신 가수로 활동한다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "60세", "meaning": "나이"},
+    {"value": "30년", "meaning": "결혼 생활 및 시어머니와 함께 산 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "시간 거꾸로 가나", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "유동근", "relation": "남편, 배우", "mentioned_as": "반찬 투정을 고친 상대이자 함께 방송하는 남편"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "60세인데도 무결점 피부라는 반응이 나올 만큼 동안 미모로 화제가 됐다",
+    "민낯 클로즈업 셀카에도 '시간 거꾸로 가나'라는 반응이 나왔다",
+    "30년 전과 몸매가 그대로라는 평가를 받았다"
+  ],
+  "care_habits": [
+    "꾸준한 운동으로 30년 전 몸매를 유지하고 있다고 알려졌다",
+    "촬영 중 제품 부작용으로 원형 탈모를 겪은 뒤로는 관리에 더 신경 쓰게 됐다"
+  ],
+  "hot_materials": [
+    {"material": "60세인데 무결점 피부라는 반응", "why_hot": "낙차"},
+    {"material": "남편의 반찬 투정을 세 끼 굶겨 고쳤다는 발언", "why_hot": "발언"},
+    {"material": "결혼 30년 동안 시어머니와 함께 살았다는 이야기", "why_hot": "낙차"},
+    {"material": "촬영 중 제품 부작용으로 원형 탈모를 겪었다는 고백", "why_hot": "반전"},
+    {"material": "생애 처음 '흠뻑쇼'를 만끽했다는 근황", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "생애 처음 물 축제 공연에서 흠뻑 젖으며 즐기는 모습",
+    "남편의 반찬 투정을 조련하듯 고치는 부부의 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "해변 여행 사진",
+    "민낯 클로즈업 셀카"
+  ]
+}
