@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "장영남",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "영화 소방관·거미집, 드라마 동궁 등 다수 작품 출연",
+    "identity_anchor": "영화 '소방관'·'거미집', 드라마 '동궁' 등 다수 작품에서 활발히 활동해온 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장영남", "text": "좋아해서 죄송하다고", "context": "조선일보"},
+    {"speaker": "장영남", "text": "동네 무당도 아들이라 했는데 딸 태어나 구박 많이 받아", "context": "조선일보"},
+    {"speaker": "장영남", "text": "겨울에 부산 바다 입수", "context": "뉴스엔"},
+    {"speaker": "장영남", "text": "이런 게 아름다움", "context": "v.daum.net"},
+    {"speaker": "장영남", "text": "겁 많아 귀신 무서워", "context": "MBC"}
+  ],
+  "events": [
+    {"summary": "7세 연하 남편에게 쫑파티에서 '좋아해서 죄송하다'는 편지로 고백받아 연애를 시작했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "42세에 임신 5개월인 것을 숨긴 채 영화 촬영을 강행하며 겨울 부산 바다에 입수했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "동네 무당이 아들이라 점쳤지만 딸이 태어나 한동안 구박을 받았다는 일화를 전했다", "year": null, "confirmed": true},
+    {"summary": "투병 중인 90세 배우 신구의 연기 열정을 보고 매번 울컥한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "죽음을 연기하는 장면에 몰입하기 위해 수면제까지 복용했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "서울예대 재학 시절 '10년사 최고 미인', '대학로 이영애'로 불렸다고 전해졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "7세", "meaning": "남편과의 나이 차이"},
+    {"value": "42세", "meaning": "임신 사실을 숨기고 촬영을 강행했을 당시 나이"},
+    {"value": "20년", "meaning": "극중 엄마 역할을 맡아온 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "장영남은 딕션 천재", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "신구", "relation": "선배 배우", "mentioned_as": "투병 중에도 연기 열정을 보여 울컥하게 만든 선배"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "서울예대 재학 시절 '10년사 최고 미인', '대학로 이영애'로 불릴 만큼 미모로 유명했다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "7세 연하 남편에게 편지로 고백받은 연애 시작 비화", "why_hot": "발언"},
+    {"material": "임신 5개월을 숨기고 겨울 바다에 입수하며 촬영을 강행한 것", "why_hot": "장면"},
+    {"material": "서울예대 10년사 최고 미인, 대학로 이영애로 불렸던 과거", "why_hot": "반전"},
+    {"material": "동네 무당의 예측과 달리 딸이 태어나 구박받았다는 일화", "why_hot": "반전"},
+    {"material": "죽음을 연기하려 수면제까지 복용하며 몰입했다는 이야기", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "임신 사실을 숨긴 채 겨울 부산 바다에 입수하는 촬영 현장",
+    "신구 선배의 연기를 보며 울컥하는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "방송·인터뷰 캡처 사진"
+  ]
+}
