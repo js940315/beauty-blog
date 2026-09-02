@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "정호연",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1994,
+    "age": null,
+    "age_range": "",
+    "career": "모델 출신 배우, 루이비통 앰버서더",
+    "major_work": "오징어게임, 호프",
+    "identity_anchor": "모델 출신으로 오징어게임에 출연한 배우, 나홍진 감독 영화 '호프' 주연, 루이비통 앰버서더"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "정호연", "text": "황정민 절대 지각 안해..조인성 무사히 돌아오면 감사", "context": "OSEN 인터뷰(호프)"},
+    {"speaker": "정호연", "text": "인간을 사랑할 수밖에 없어요", "context": "보그 코리아 인터뷰"},
+    {"speaker": "정호연", "text": "'욕설 연기의 대가' 황정민 전작 참고", "context": "맥스무비 현장 인터뷰"},
+    {"speaker": "정호연", "text": "게임 한 번만 더", "context": "예능 틈만나면"},
+    {"speaker": "정호연", "text": "알폰소 쿠아론과 나홍진 감독, 집요함 결 달라", "context": "씨네타운 셀럽캡처"},
+    {"speaker": "정호연", "text": "성애의 코어는 선의", "context": "헤럴드경제 인터뷰(호프)"},
+    {"speaker": "정호연", "text": "나홍진 러브콜, 하늘 날아가는 기분이었다", "context": "JTBC 인터뷰"},
+    {"speaker": "정호연", "text": "연기 너무 재밌어…'호프' 치열하게 준비", "context": "네이트 화보 인터뷰"},
+    {"speaker": "나홍진", "text": "정호연은 '멍청美', 순수한 정의로움", "context": "v.daum.net 감독 인터뷰"},
+    {"speaker": "이동휘", "text": "이제 결혼엔 내가 더 적극", "context": "네이트 인터뷰"}
+  ],
+  "events": [
+    {"summary": "배우 이동휘와 9년 공개 열애 끝에 결별했다. 소속사는 '좋은 동료 사이로 남기로 했다'는 공식입장을 냈다", "year": null, "confirmed": true},
+    {"summary": "영화 '호프'로 나홍진 감독과 작업하며 황정민, 조인성과 호흡을 맞췄다", "year": null, "confirmed": true},
+    {"summary": "예능 '틈만나면'에 출연해 유재석과 게임을 했다", "year": null, "confirmed": true},
+    {"summary": "친구인 김진경, 김승규 부부의 결혼식에서 축사를 맡았다", "year": null, "confirmed": true},
+    {"summary": "내한한 데이비드 베컴과 우연히 마주쳐 인사를 나눴다", "year": null, "confirmed": true},
+    {"summary": "후배 그룹 뉴진스가 보내준 커피차를 받고 함박웃음을 지었다", "year": null, "confirmed": true},
+    {"summary": "월드컵 공식 행사에서 축구화 스니커즈를 신어 화제가 됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "9년", "meaning": "이동휘와의 공개 열애 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "정호연은 '멍청美', 순수한 정의로움", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "황정민", "relation": "영화 호프 공동 출연", "mentioned_as": "선배 배우"},
+    {"name": "조인성", "relation": "영화 호프 공동 출연", "mentioned_as": "동료 배우"},
+    {"name": "나홍진", "relation": "영화 호프 감독", "mentioned_as": "감독"},
+    {"name": "유재석", "relation": "예능 틈만나면 동료 출연자", "mentioned_as": "MC"},
+    {"name": "이동휘", "relation": "9년 열애 후 결별한 전 연인", "mentioned_as": "배우"},
+    {"name": "김진경", "relation": "결혼식 축사를 맡아준 친구", "mentioned_as": "친구"},
+    {"name": "김승규", "relation": "김진경의 배우자", "mentioned_as": "김진경 남편"}
+  ],
+  "works": [
+    {"title": "호프", "year": null, "costar": "황정민", "scene": "황정민이 촬영 내내 지각 한 번 없었다며 감사를 전한 장면", "kind": "실제"},
+    {"title": "호프", "year": null, "costar": "조인성", "scene": "조인성이 무사히 촬영에 복귀하길 바란다고 말한 장면", "kind": "실제"},
+    {"title": "틈만나면", "year": null, "costar": "유재석", "scene": "게임 한 번만 더 하자며 승부욕을 드러낸 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "배우 이동휘와 9년 공개 열애 끝에 결별했다", "why_hot": "낙차"},
+    {"material": "나홍진 감독이 '멍청美, 순수한 정의로움'이라고 평했다", "why_hot": "발언"},
+    {"material": "예능에서 유재석도 당황시킬 만큼 승부욕 있는 예능감을 보였다", "why_hot": "장면"},
+    {"material": "황정민이 지각 한 번 없었다며 직접 고마움을 표했다", "why_hot": "발언"},
+    {"material": "내한한 베컴과 우연히 마주쳐 인사를 나눴다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "황정민이 촬영 내내 지각 한 번 없다고 고마워한 장면",
+    "유재석과 게임 한 판 더를 외친 장면",
+    "베컴과 우연히 마주쳐 인사를 나눈 장면",
+    "뉴진스가 보내준 커피차에 함박웃음을 지은 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "루이비통 화보 공개",
+    "실내에서 드레스 차림으로 찍힌 근황",
+    "월드컵 공식 행사에서의 스니커즈 착장",
+    "영국 잡지 표지모델 발탁"
+  ]
+}
