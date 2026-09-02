@@ -1,0 +1,100 @@
+{
+  "person": {
+    "name": "엄정화",
+    "gender": "여성",
+    "job": "가수 겸 배우",
+    "birth_year": 1969,
+    "age": null,
+    "age_range": "50대 후반",
+    "career": "가수 겸 배우",
+    "major_work": "엄정화TV",
+    "identity_anchor": "가수 겸 배우 엄정화, 유튜브 '엄정화TV' 운영자, '섹시퀸'·'동안 아이콘'으로 불리는 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "엄정화", "text": "1일 1식으로 52kg", "context": "그들의 건강美학"},
+    {"speaker": "엄정화", "text": "악플 잘 안 봐", "context": "RE:뷰"},
+    {"speaker": "엄정화", "text": "1년에 2번 울써마지 받아", "context": "마데핫리뷰"},
+    {"speaker": "엄정화", "text": "20대부터 갔다, 현재 울써마지 맞아", "context": "엄정화TV"},
+    {"speaker": "엄정화", "text": "집에서도 이것 꼭 발라", "context": "코메디닷컴 인터뷰"},
+    {"speaker": "엄정화", "text": "건조한 편", "context": "코메디닷컴 인터뷰"},
+    {"speaker": "엄정화", "text": "피부과 자주 다녀, 식단 효과 있더라", "context": "엄정화TV"},
+    {"speaker": "엄정화", "text": "타고난 것", "context": "Umaizing"},
+    {"speaker": "엄정화", "text": "저탄저당 식단 중, 배고프면? 먹방 봐", "context": "순간포착"},
+    {"speaker": "엄정화", "text": "3년 동안 탄수화물·설탕 안 먹어", "context": "오케이 마담2"},
+    {"speaker": "엄정화", "text": "집에서 선크림 필수", "context": "엄정화TV"},
+    {"speaker": "엄정화", "text": "너무 멋져", "context": "SNS 리그램"},
+    {"speaker": "최수영", "text": "후배들 쉽게 거절 못해", "context": "냉장고를 부탁해"}
+  ],
+  "events": [
+    {"summary": "1일 1식으로 56kg에서 52kg까지 감량했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "20대부터 피부과를 다녔고 현재도 1년에 2번 울써마지 시술을 받는다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "기미·잡티 관리를 위해 집에서도 선크림을 꼭 바른다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "사과에 특정 재료를 넣은 차를 노화 관리용으로 마신다고 밝혔다(구체 재료 비공개)", "year": null, "confirmed": true},
+    {"summary": "엉밑살까지 탄력 관리를 한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "후배 가수 강민경이 그녀의 피부결에 감탄했다. 본인은 '타고난 것'이라며 자신감을 보였다", "year": null, "confirmed": true},
+    {"summary": "3년 동안 탄수화물과 설탕을 먹지 않는 저탄저당 식단을 이어가고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "배가 고프면 먹방 영상을 보며 참는다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "냉장고를 부탁해에 출연해 최수영과 케미를 보이며 폭소를 자아냈다", "year": null, "confirmed": true},
+    {"summary": "신체나이 테스트에서 30대로 나왔다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "아침마다 특정 음료를 마신다고 밝혔다. 하지원, 장원영도 즐긴다고 알려졌다", "year": null, "confirmed": true},
+    {"summary": "50억대 건물을 소유한 건물주로 알려졌다. 추석에도 운동을 이어갔다", "year": null, "confirmed": true},
+    {"summary": "SNS에서 15살 어린 요리사 손종원의 게시물을 리그램하며 '너무 멋져'라고 댓글을 남겼다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "56kg→52kg", "meaning": "1일 1식으로 감량한 체중"},
+    {"value": "1년에 2번", "meaning": "울써마지 시술 빈도"},
+    {"value": "3년", "meaning": "저탄저당 식단 유지 기간"},
+    {"value": "신체나이 30대", "meaning": "신체나이 테스트 결과"},
+    {"value": "50억대", "meaning": "소유한 건물 자산 규모"},
+    {"value": "15살", "meaning": "리그램한 요리사와의 나이 차"}
+  ],
+  "credentials": [
+    {"item": "50억대 건물주", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "후배들 쉽게 거절 못해", "where": "방송", "scale": ""},
+    {"text": "이 언니 진짜 안 늙네", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "강민경", "relation": "피부결에 감탄한 후배 가수", "mentioned_as": "가수"},
+    {"name": "최수영", "relation": "냉장고를 부탁해 동료 출연자", "mentioned_as": "배우"},
+    {"name": "손종원", "relation": "SNS 게시물을 리그램한 요리사", "mentioned_as": "셰프"},
+    {"name": "하지원", "relation": "같은 음료를 즐긴다고 알려진 배우", "mentioned_as": "배우"},
+    {"name": "장원영", "relation": "같은 음료를 즐긴다고 알려진 가수", "mentioned_as": "가수"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "강민경이 감탄할 정도의 피부결로 화제가 됐다",
+    "신체나이 테스트에서 30대가 나올 만큼 동안이라는 평가를 받았다",
+    "'이 언니 진짜 안 늙네'라는 반응이 나왔다"
+  ],
+  "care_habits": [
+    "1일 1식으로 56kg에서 52kg까지 감량했다",
+    "20대부터 피부과를 다녔고 1년에 2번 울써마지 시술을 받는다",
+    "기미·잡티 관리를 위해 집에서도 선크림을 꼭 바른다",
+    "사과에 특정 재료를 넣은 차를 마신다(구체 재료 비공개)",
+    "엉밑살까지 탄력 관리를 한다",
+    "3년째 탄수화물과 설탕을 먹지 않는 저탄저당 식단을 유지한다",
+    "배가 고프면 먹방 영상을 보며 참는다",
+    "아침마다 특정 음료를 마신다(하지원, 장원영도 즐긴다고 알려짐)"
+  ],
+  "hot_materials": [
+    {"material": "1일 1식으로 56kg에서 52kg까지 감량했다", "why_hot": "반전"},
+    {"material": "1년에 2번 울써마지 시술을 받는다고 직접 밝혔다", "why_hot": "발언"},
+    {"material": "강민경도 감탄한 피부결에 '타고난 것'이라며 자신감을 보였다", "why_hot": "발언"},
+    {"material": "3년 동안 탄수화물과 설탕을 전혀 먹지 않았다", "why_hot": "낙차"},
+    {"material": "50억대 건물주인데 추석에도 운동에 몰두했다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "냉부해에서 최수영과 폭소를 자아낸 장면",
+    "배고프면 먹방을 보며 참는 장면",
+    "신체나이 테스트에서 30대가 나온 장면"
+  ],
+  "sns_materials": [
+    "손종원 게시물 리그램"
+  ],
+  "press_only_materials": [
+    "비키니 화보"
+  ]
+}
