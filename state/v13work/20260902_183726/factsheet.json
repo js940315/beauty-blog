@@ -1,0 +1,76 @@
+{
+  "person": {
+    "name": "박주미",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1974,
+    "age": null,
+    "age_range": "50대 초반",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "배우 박주미, 재력가 남편과 25년째 결혼생활 중인 인물"
+  },
+  "namesake_dropped": [
+    "1300억 매출 자산가 남편을 둔 배우 이주미(다른 인물)",
+    "삼양식품 김정수 회장(무관한 인물)",
+    "축구선수 남편을 둔 애 셋맘 여배우(다른 인물)",
+    "'강호동 여자친구'였다는 원조 여배우(주체 확인 불가)",
+    "요가 10년째라는 익명의 유명 여배우(주체 확인 불가)",
+    "'오디세이' 보다 잠들었다는 익명의 톱여배우(주체 확인 불가)"
+  ],
+  "quotes": [
+    {"speaker": "박주미", "text": "동생이지만 존경", "context": "연주회 인터뷰"},
+    {"speaker": "박주미", "text": "막걸리보다 스타일에 취한다", "context": "골프장 인터뷰"},
+    {"speaker": "박주미", "text": "1번은 용서", "context": "뉴욕룩 인터뷰"}
+  ],
+  "events": [
+    {"summary": "정용진 신세계그룹 회장의 아내 한지희의 연주회에 참석해 손을 꼭 잡고 '동생이지만 존경한다'고 말했다", "year": null, "confirmed": true},
+    {"summary": "25년 전 결혼사진을 공개하며 남편과의 인연을 돌아봤다", "year": null, "confirmed": true},
+    {"summary": "남편은 연매출 1300억원 규모 회사를 운영하는 사업가로 알려졌다", "year": null, "confirmed": true},
+    {"summary": "골프장에서 남편과 함께 시간을 보내며 '막걸리보다 스타일에 취한다'고 말했다", "year": null, "confirmed": true},
+    {"summary": "아들을 공개했다. 배우 못지않은 비주얼로 화제를 모았다", "year": null, "confirmed": true},
+    {"summary": "눈가케어 브랜드 신제품에 애정을 드러냈다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "52세", "meaning": "동안 미모로 화제 됐을 당시 보도된 나이"},
+    {"value": "25년", "meaning": "결혼 생활 기간"},
+    {"value": "1300억원", "meaning": "남편 회사의 연매출"}
+  ],
+  "credentials": [
+    {"item": "연매출 1300억원 규모 기업 운영", "whose": "남편"}
+  ],
+  "public_reactions": [
+    {"text": "이 미모가 52세?", "where": "기사반응", "scale": ""},
+    {"text": "53세 맞아?", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "한지희", "relation": "존경한다고 밝힌 정용진 회장의 아내", "mentioned_as": "연주자"},
+    {"name": "정용진", "relation": "한지희의 남편, 신세계그룹 회장", "mentioned_as": "회장"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "52세가 맞냐는 반응이 나올 만큼 동안 미모를 유지하고 있다",
+    "공항조차 런웨이로 만든다는 평가를 받을 만큼 스타일이 화제다"
+  ],
+  "care_habits": [
+    "눈가케어 브랜드 신제품에 애정을 드러냈다"
+  ],
+  "hot_materials": [
+    {"material": "정용진 회장 아내 한지희에게 '동생이지만 존경한다'고 말했다", "why_hot": "발언"},
+    {"material": "남편이 연매출 1300억원 기업을 운영하는 재력가로 알려졌다", "why_hot": "반전"},
+    {"material": "'1번은 용서'라는 소신 발언을 했다", "why_hot": "발언"},
+    {"material": "52세인데 동안 미모로 화제를 모았다", "why_hot": "반전"},
+    {"material": "아들을 공개해 배우 못지않은 비주얼로 화제를 모았다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "한지희의 연주회에서 손을 꼭 잡고 눈물을 보인 장면",
+    "골프장에서 남편과 함께 시간을 보낸 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "화보 시리즈(가을·겨울 감성 컷)",
+    "공항패션",
+    "골프장 룩",
+    "뉴욕룩"
+  ]
+}
