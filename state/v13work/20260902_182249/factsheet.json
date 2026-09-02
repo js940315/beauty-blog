@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "심혜진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1970,
+    "age": null,
+    "age_range": "50대",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "배우 심혜진, 남편은 사업가 윤상, 아들 앤톤은 아이돌로 데뷔, 조카 심재원의 이모로 알려진 인물"
+  },
+  "namesake_dropped": ["개그맨 심현섭(고모·조카 관계로 언급되나 출처 1건뿐이라 확인 보류)"],
+  "quotes": [
+    {"speaker": "심혜진", "text": "42살에 결혼했다. 남편과 7년 연애하다 애가 생겼다", "context": "조선의 사랑꾼 결정적장면"},
+    {"speaker": "심혜진", "text": "너무 힘들어서 서울 근교로 이사했다", "context": "핫피플 인터뷰"},
+    {"speaker": "심혜진", "text": "남편 윤상과 '우리 며느리 엄청 많다'고 이야기했다", "context": "JTBC 방송"},
+    {"speaker": "심재원", "text": "19살에 어머니가 떠나고 이모가 끝까지 서포트해줬다", "context": "조선의 사랑꾼"},
+    {"speaker": "심재원", "text": "혼자 있던 시간을 다 채워주셨다", "context": "조선의 사랑꾼"},
+    {"speaker": "양상국", "text": "내일 결혼시킬 수 있어", "context": "조선의 사랑꾼"}
+  ],
+  "events": [
+    {"summary": "3000평 규모의 가평 대저택을 정리하고 서울 근교로 이사했다", "year": null, "confirmed": true},
+    {"summary": "42세에 결혼했다. 남편과 7년 연애 끝에 결혼 전 아이가 생겼다", "year": null, "confirmed": true},
+    {"summary": "아들 앤톤이 아이돌로 데뷔했다. 내향적인 성격 때문에 처음에는 데뷔를 반대했었다", "year": null, "confirmed": true},
+    {"summary": "친언니가 세상을 떠난 뒤 조카 심재원을 자식처럼 품고 키웠다", "year": null, "confirmed": true},
+    {"summary": "조카 심재원이 예능 '조선의 사랑꾼'에 출연해 외모와 조건으로 화제를 모았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "3000평", "meaning": "정리한 가평 대저택의 규모"},
+    {"value": "7년", "meaning": "남편과의 연애 기간"},
+    {"value": "42세", "meaning": "결혼한 나이"}
+  ],
+  "credentials": [
+    {"item": "사업가로 알려진 재력가", "whose": "남편"},
+    {"item": "연 소득 2억원 이상, 혼혈(부 미국인), 포병 만기전역", "whose": "조카"}
+  ],
+  "public_reactions": [
+    {"text": "내일 결혼시킬 수 있어", "where": "방송", "scale": ""},
+    {"text": "번호 좀", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "윤상", "relation": "남편, 사업가로 알려짐", "mentioned_as": "재력가 남편"},
+    {"name": "앤톤", "relation": "아들, 아이돌로 데뷔", "mentioned_as": "내향적인 아들"},
+    {"name": "심재원", "relation": "친언니의 아들인 조카", "mentioned_as": "예능 출연으로 화제 모은 조카"},
+    {"name": "양상국", "relation": "조카가 출연한 예능의 결혼정보업체 관계자", "mentioned_as": "방송 관계자"},
+    {"name": "홍석천", "relation": "조카 출연 예능의 동료 출연자", "mentioned_as": "방송인"}
+  ],
+  "works": [],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "친언니를 먼저 보내고 조카를 자식처럼 품어 키웠다", "why_hot": "낙차"},
+    {"material": "3000평 대저택을 포기하고 '너무 힘들다'며 서울 근교로 이사했다", "why_hot": "반전"},
+    {"material": "42세에 결혼해 7년 연애 끝에 결혼 전 아이가 생겼다", "why_hot": "반전"},
+    {"material": "아들 앤톤의 아이돌 데뷔를 내향적 성격 탓에 처음엔 반대했다", "why_hot": "반전"},
+    {"material": "조카가 예능에서 '내일 결혼시킬 수 있다'는 평가를 받을 만큼 화제를 모았다", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "친언니가 떠난 뒤 조카를 자식처럼 품에 안은 장면",
+    "3000평 대저택을 정리하고 짐을 챙겨 서울 근교로 향한 장면",
+    "결혼정보업체 관계자가 조카를 보자마자 '내일 결혼 가능'이라 평가한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
