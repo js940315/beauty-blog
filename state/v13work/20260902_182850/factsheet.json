@@ -1,0 +1,81 @@
+{
+  "person": {
+    "name": "김성령",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1967,
+    "age": null,
+    "age_range": "50대 후반",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "배우 김성령, 피부과 시술과 꾸준한 운동을 공개적으로 밝힌 인물"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김성령", "text": "앞자리 6 찍었다", "context": "라스"},
+    {"speaker": "김성령", "text": "돈 벌면 나한테 쓴다", "context": "매일경제 인터뷰"},
+    {"speaker": "김성령", "text": "벌어서 나한테 투자, 써마지 900샷 때린다", "context": "전현무계획2"},
+    {"speaker": "김성령", "text": "키만 타고났고 나머지는 노력", "context": "라스"},
+    {"speaker": "김성령", "text": "17년 동안 한 번도 운동 쉰 적 없어", "context": "인터뷰"},
+    {"speaker": "김성령", "text": "동안 비결? 있었으면 떼부자", "context": "인터뷰"},
+    {"speaker": "김성령", "text": "반려 괄사 사랑, 계속 마사지해", "context": "토크백"},
+    {"speaker": "김성령", "text": "내가 보여주겠다는데 왜", "context": "인터뷰"},
+    {"speaker": "전현무", "text": "얼굴이 벌집", "context": "전현무계획2"}
+  ],
+  "events": [
+    {"summary": "방송에서 인생 최대 몸무게를 밝혔다. '앞자리 6을 찍었다'고 말했고 현재는 59kg이라고 했다", "year": null, "confirmed": true},
+    {"summary": "화장품 브랜드 아이오페의 화보에서 슈퍼바이탈 크림을 동안 비결로 소개받았다", "year": null, "confirmed": true},
+    {"summary": "57세에 할머니가 됐다는 가족 소식을 공개했다", "year": null, "confirmed": true},
+    {"summary": "25세 아들이 스키강사로 인기가 많다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "드라마 '정숙한 세일즈'의 슬립 패션 장면이 화면 모자이크 처리된 것에 대해 직접 소신을 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "168cm·54kg", "meaning": "한 인터뷰에서 밝힌 신체 수치"},
+    {"value": "59kg", "meaning": "인생 최대 몸무게였다가 돌아온 현재 몸무게"},
+    {"value": "17년", "meaning": "운동을 쉬지 않고 지속한 기간"},
+    {"value": "주 5회", "meaning": "운동 빈도"},
+    {"value": "5년째", "meaning": "요가·필라테스 병행 기간"},
+    {"value": "900샷", "meaning": "피부과에서 받는다고 밝힌 시술 표현"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "얼굴이 벌집", "where": "방송", "scale": ""},
+    {"text": "퇴근길도 기다렸다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "전현무", "relation": "방송 동료 MC", "mentioned_as": "리액션을 보인 방송인"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "'50대 맞아?'라는 반응이 나올 만큼 동안 외모로 화제가 됐다",
+    "환갑을 앞두고도 역대급 드레스 자태로 화제를 모았다"
+  ],
+  "care_habits": [
+    "피부과에서 정기적으로 900샷(써마지) 시술을 받는다고 밝혔다",
+    "아이오페 슈퍼바이탈 크림을 쓴다고 밝혔다",
+    "주 5회 운동을 하며 유산소·무산소를 나눠서 한다",
+    "5년째 요가와 필라테스를 병행한다",
+    "마사지와 명상도 함께 한다고 밝혔다",
+    "반려 괄사로 계속 얼굴을 마사지한다고 밝혔다",
+    "아침에 특정 음식을 챙겨 먹는다고 알려졌다(구체 품목은 비공개)",
+    "17년간 운동을 한 번도 쉰 적이 없다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "피부과에서 900샷 시술을 받는다고 직접 밝혔다", "why_hot": "발언"},
+    {"material": "돈을 벌면 전부 나에게 투자한다고 말했다", "why_hot": "발언"},
+    {"material": "17년간 운동을 한 번도 쉰 적이 없다고 밝혔다", "why_hot": "반전"},
+    {"material": "환갑을 앞두고도 역대급 드레스 자태로 화제를 모았다", "why_hot": "장면"},
+    {"material": "57세에 할머니가 됐다는 가족 소식을 전했다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "전현무가 얼굴이 벌집이라고 놀란 장면",
+    "반려 괄사로 얼굴을 계속 마사지하는 모습",
+    "환갑을 앞두고 드레스를 완벽히 소화한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "라스 방송 드레스 자태",
+    "아이오페 화보",
+    "IS하이컷 MZ패션 화보"
+  ]
+}
