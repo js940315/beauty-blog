@@ -1,0 +1,88 @@
+{
+  "person": {
+    "name": "이정현",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1980,
+    "age": null,
+    "age_range": "40대 중반",
+    "career": "배우, 감독",
+    "major_work": "숨바꼭질2",
+    "identity_anchor": "배우 이정현, 감독으로도 데뷔한 인물, 남편은 의사"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이정현", "text": "19살 때부터 했다", "context": "헬스조선 인터뷰"},
+    {"speaker": "이정현", "text": "이것부터 발라야 한다", "context": "톱스타뉴스 인터뷰"},
+    {"speaker": "이정현", "text": "19세 때부터 해와", "context": "편스토랑"},
+    {"speaker": "이정현", "text": "외출 안 해도 선크림 목까지 발라", "context": "편스토랑"},
+    {"speaker": "이정현", "text": "이거만 한 게 없다", "context": "편스토랑"},
+    {"speaker": "이정현", "text": "옷 안 맞아 라면 끊어", "context": "불후의 명곡"},
+    {"speaker": "이정현", "text": "너무 맛있어서", "context": "SPOTV NEWS 인터뷰"},
+    {"speaker": "이정현", "text": "우리나라 살기 좋아", "context": "인터뷰(딸 육아)"},
+    {"speaker": "이정현", "text": "힐링받고 왔네요", "context": "조선비즈 인터뷰"},
+    {"speaker": "이정현", "text": "아빠 없어도 말 잘 들어", "context": "인터뷰(해외출장)"}
+  ],
+  "events": [
+    {"summary": "19세부터 27년째 찻잔(그릇)으로 얼굴을 문지르는 마사지를 해왔다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "남편의 얼굴에도 같은 방식으로 찻잔 마사지를 해줬다고 공개했다", "year": null, "confirmed": true},
+    {"summary": "외출하지 않는 날에도 선크림을 목까지 꼼꼼히 바른다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "194억대 건물을 소유한 건물주로 알려졌다", "year": null, "confirmed": true},
+    {"summary": "배우 활동과 함께 감독으로도 데뷔했다", "year": null, "confirmed": true},
+    {"summary": "유도, 지게차, 스킨스쿠버 등 자격증을 22개 보유하고 있다고 알려졌다", "year": null, "confirmed": true},
+    {"summary": "두 딸을 키우는 엄마다. 옷이 맞지 않아 라면을 끊었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "뉴욕에서 미슐랭 3스타 한식당을 방문해 감탄했다", "year": null, "confirmed": true},
+    {"summary": "추석특집 불후의 명곡 출연을 앞두고 직접 바느질까지 하며 열정을 보였다", "year": null, "confirmed": true},
+    {"summary": "박물관에서 두 딸과 시간을 보내며 만족감을 드러냈다", "year": null, "confirmed": true},
+    {"summary": "박찬욱 감독의 형제들과 만나 환하게 웃었다", "year": null, "confirmed": true},
+    {"summary": "첫째 딸과 함께 해외 출장을 다녀왔다", "year": null, "confirmed": true},
+    {"summary": "스킨케어 브랜드의 전속모델로 발탁됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "46세", "meaning": "무결점 피부로 화제 됐을 당시 나이"},
+    {"value": "19세", "meaning": "찻잔 마사지를 시작한 나이"},
+    {"value": "27년", "meaning": "찻잔 마사지를 지속한 기간"},
+    {"value": "194억대", "meaning": "소유한 건물 자산 규모"},
+    {"value": "22개", "meaning": "보유한 자격증 수"}
+  ],
+  "credentials": [
+    {"item": "194억대 건물주", "whose": "본인"},
+    {"item": "자격증 22개(유도, 지게차, 스킨스쿠버 등)", "whose": "본인"},
+    {"item": "감독 데뷔", "whose": "본인"},
+    {"item": "의사", "whose": "남편"}
+  ],
+  "public_reactions": [
+    {"text": "46세 피부 맞아?", "where": "기사반응", "scale": ""},
+    {"text": "나이 어디로 먹나?", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "박찬욱", "relation": "함께 웃으며 힐링받았다고 밝힌 영화감독", "mentioned_as": "감독"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "'46세 피부 맞아?'라는 반응이 나올 만큼 무결점 동안 피부로 화제가 됐다",
+    "'나이 어디로 먹나?'라는 반응과 함께 투명 피부, 인형 비주얼로 감탄을 자아냈다"
+  ],
+  "care_habits": [
+    "19세부터 27년째 찻잔으로 얼굴을 문지르는 마사지를 해왔다",
+    "외출하지 않는 날에도 선크림을 목까지 꼼꼼히 바른다",
+    "옷이 맞지 않으면 라면을 끊는 식으로 몸매를 관리한다"
+  ],
+  "hot_materials": [
+    {"material": "19세부터 27년째 찻잔으로 얼굴을 문지르는 마사지를 해왔다", "why_hot": "장면"},
+    {"material": "194억대 건물주인데 자격증만 22개를 보유했다", "why_hot": "반전"},
+    {"material": "남편 얼굴에도 같은 찻잔 마사지를 해줬다", "why_hot": "장면"},
+    {"material": "옷이 안 맞아 라면을 끊었다는 두 딸의 엄마다", "why_hot": "낙차"},
+    {"material": "배우와 감독을 동시에 해냈다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "찻잔으로 얼굴을 벅벅 문지르는 장면",
+    "남편 얼굴에도 찻잔 마사지를 해준 장면",
+    "뉴욕 미슐랭 한식당에서 감탄한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "핑크 원피스 화보",
+    "청순 셀카"
+  ]
+}
