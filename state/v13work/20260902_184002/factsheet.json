@@ -1,0 +1,82 @@
+{
+  "person": {
+    "name": "신애라",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1971,
+    "age": null,
+    "age_range": "50대",
+    "career": "배우",
+    "major_work": "애라원",
+    "identity_anchor": "배우 신애라, 배우 겸 작가 차인표의 아내, 힐링 프로그램 '애라원' 진행자"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신애라", "text": "화장 NO, 이것 심하게 발라", "context": "코메디닷컴 인터뷰"},
+    {"speaker": "신애라", "text": "운동으론 안 돼", "context": "A급장영란"},
+    {"speaker": "신애라", "text": "저녁은 4~5시, 배고픔은 마인드 컨트롤", "context": "애라원 전일야화"},
+    {"speaker": "신애라", "text": "여행살 2kg 얻어", "context": "인터뷰"},
+    {"speaker": "신애라", "text": "다른 계정 없으니 속지 마세요", "context": "SNS 영상"},
+    {"speaker": "신애라", "text": "지인도 울면서 전화, 절대 믿지 마라", "context": "SNS 영상"},
+    {"speaker": "신애라", "text": "20점 아내, 차인표는 변함없이 사랑 표현해", "context": "A급장영란"},
+    {"speaker": "신애라", "text": "세월 쏜살같아", "context": "결혼 31주년 인터뷰"},
+    {"speaker": "신애라", "text": "공부 그만해도 되겠네", "context": "인터뷰(딸 요리)"},
+    {"speaker": "신애라", "text": "꿈 포기하면 안되나봐요", "context": "차인표 수상 축하 인터뷰"}
+  ],
+  "events": [
+    {"summary": "화장을 하지 않고 대신 특정 제품을 심하게 바르는 것이 동안 민낯 비결이라고 밝혔다(구체 품목 비공개)", "year": null, "confirmed": true},
+    {"summary": "'애라원'이라는 힐링 프로그램을 진행하며 50kg대 몸매 유지 비결을 공개했다", "year": null, "confirmed": true},
+    {"summary": "저녁 식사 시간을 4~5시로 정해두고 배고픔은 마인드컨트롤로 견딘다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "밥을 먹기 전 특정 순서를 지켜 혈당을 천천히 올린다고 밝혔다(구체 품목 비공개)", "year": null, "confirmed": true},
+    {"summary": "엉덩이에 힘을 주는 특정 운동을 한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "사망설과 SNS 사칭 계정이 잇따르자 직접 영상을 올려 '다른 계정이 없다'고 주의를 당부했다", "year": null, "confirmed": true},
+    {"summary": "남편 차인표와 결혼 31주년을 맞았다. 여전한 금슬을 자랑했다", "year": null, "confirmed": true},
+    {"summary": "아들의 결혼식을 일주일 앞두고 소감을 전했다", "year": null, "confirmed": true},
+    {"summary": "미국에서 유학 중인 딸의 요리 실력에 감탄했다", "year": null, "confirmed": true},
+    {"summary": "남편과 여행을 다녀오며 2kg이 늘었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "남편 차인표가 신진상을 수상하자 축하 소감을 전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "55세", "meaning": "동안 민낯으로 화제 됐을 당시 나이"},
+    {"value": "결혼 31주년", "meaning": "차인표와의 결혼 기념 연차"},
+    {"value": "50kg대", "meaning": "유지하는 몸무게"},
+    {"value": "2kg", "meaning": "여행 중 늘었다는 몸무게"}
+  ],
+  "credentials": [
+    {"item": "신진상 수상(문학상 관련)", "whose": "남편"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "차인표", "relation": "남편, 배우 겸 작가", "mentioned_as": "배우 겸 작가"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "55세에 20대 못지않은 민낯으로 화제를 모았다",
+    "50kg대 몸매를 유지해 동안이라는 평가를 받았다"
+  ],
+  "care_habits": [
+    "화장 대신 특정 제품을 심하게 바르는 것이 동안 민낯 비결이라고 밝혔다",
+    "저녁 식사를 4~5시에 마치고 배고픔은 마인드컨트롤로 견딘다",
+    "밥 먹기 전 특정 순서를 지켜 혈당을 천천히 올린다고 밝혔다",
+    "엉덩이에 힘을 주는 특정 운동을 한다고 밝혔다",
+    "운동만으로는 안 된다며 몸매 관리의 다른 비결이 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "화장을 안 하고 대신 무언가를 심하게 발라 20대 민낯이라는 평가를 받았다", "why_hot": "반전"},
+    {"material": "사망설과 사칭 계정에 직접 영상으로 대응하며 '속지 마세요'라고 밝혔다", "why_hot": "발언"},
+    {"material": "결혼 31주년에도 여전한 금슬을 자랑했다", "why_hot": "낙차"},
+    {"material": "'운동으론 안 된다'며 몸매 비결이 따로 있다고 밝혔다", "why_hot": "발언"},
+    {"material": "남편이 신진상을 수상하며 '꿈을 포기하면 안 되나봐요'라고 소감을 전했다", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "직접 영상을 올려 사칭 계정에 주의를 당부한 장면",
+    "결혼 31주년을 자축한 장면",
+    "아들 결혼식을 일주일 앞두고 소감을 전한 장면"
+  ],
+  "sns_materials": [
+    "사칭 계정 주의 당부 영상"
+  ],
+  "press_only_materials": [
+    "영포티 패션 화보"
+  ]
+}
