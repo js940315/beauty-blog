@@ -1,0 +1,93 @@
+{
+  "person": {
+    "name": "조여정",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1981,
+    "age": null,
+    "age_range": "40대 중반",
+    "career": "배우",
+    "major_work": "좀비딸, 살인자 리포트",
+    "identity_anchor": "배우 조여정, '좀비딸'·'살인자 리포트' 출연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "조여정", "text": "손 떨면서 먹어", "context": "텐아시아 인터뷰(냉부해)"},
+    {"speaker": "조여정", "text": "이 운동 했으니까 마구 먹는다", "context": "인터뷰"},
+    {"speaker": "조여정", "text": "여배우가 이 정도 노력은 해야", "context": "인터뷰"},
+    {"speaker": "조여정", "text": "인간은 먹는 게 전부", "context": "냉장고를 부탁해"},
+    {"speaker": "조여정", "text": "어쩔수 없이 식욕을 참는 것", "context": "헤럴드경제 인터뷰"},
+    {"speaker": "조여정", "text": "깊은 감명", "context": "냉부해"},
+    {"speaker": "조여정", "text": "1살 잘 먹을 준비", "context": "인터뷰"},
+    {"speaker": "조여정", "text": "도망치지 않길 잘 했다", "context": "국민일보 인터뷰"},
+    {"speaker": "조여정", "text": "연기 민낯 드러날까 두려워, 좀비딸 흥행 감사", "context": "스포츠동아 인터뷰"},
+    {"speaker": "현봉식", "text": "누나는 '행님' 좋아하심", "context": "매일경제"},
+    {"speaker": "정성일", "text": "너라서 고마워", "context": "mhn 인터뷰"}
+  ],
+  "events": [
+    {"summary": "짜장면과 라면을 1년에 두 번만 먹는다고 밝혔다. 손을 떨면서 먹을 정도로 소중히 여긴다고 했다", "year": null, "confirmed": true},
+    {"summary": "매일 세 가지 운동을 한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "여배우로서 손발까지 잡티 없이 관리하는 노력을 기울인다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "친언니가 있으며 '나보다 예쁘다'고 자랑했다", "year": null, "confirmed": true},
+    {"summary": "'냉장고를 부탁해'에 출연해 반전 냉장고를 공개하며 '인간은 먹는 게 전부'라고 말했다", "year": null, "confirmed": true},
+    {"summary": "같은 방송에서 매니저를 챙기는 모습으로 훈훈함을 자아냈다", "year": null, "confirmed": true},
+    {"summary": "즐겨 먹는 특정 기름이 나잇살 없는 비결로 언급됐다(구체 품목 비공개)", "year": null, "confirmed": true},
+    {"summary": "배우 이정은과 강남역에서 우연히 마주쳤다", "year": null, "confirmed": true},
+    {"summary": "영화 '좀비딸'이 최단 기간 200만 관객을 돌파하자 감사 인사를 전했다", "year": null, "confirmed": true},
+    {"summary": "동료 배우 현봉식과 다정한 사진을 찍었다", "year": null, "confirmed": true},
+    {"summary": "배우 전도연과 함께 신발이 보이지 않는 독특한 패션을 선보였다", "year": null, "confirmed": true},
+    {"summary": "스릴러 장르에 도전하며 '도망치지 않길 잘 했다'고 소감을 밝혔다", "year": null, "confirmed": true},
+    {"summary": "'살인자 리포트'의 정성일 감독이 '너라서 고맙다'며 차기작을 함께하겠다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "연기에 대한 두려움을 솔직히 밝히면서도 '좀비딸' 흥행에 감사를 전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "45세", "meaning": "동안 미모로 화제 됐을 당시 나이"},
+    {"value": "1년에 2번", "meaning": "짜장면·라면을 허용하는 횟수"},
+    {"value": "매일 3가지", "meaning": "매일 하는 운동 종류 수"},
+    {"value": "200만", "meaning": "'좀비딸' 최단 기간 관객 돌파 수"}
+  ],
+  "credentials": [
+    {"item": "영화 '좀비딸' 최단 기간 200만 관객 돌파", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "너라서 고마워", "where": "인터뷰", "scale": ""},
+    {"text": "누나는 '행님' 좋아하심", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이정은", "relation": "강남역에서 우연히 마주친 배우", "mentioned_as": "배우"},
+    {"name": "전도연", "relation": "함께 패션을 선보인 배우", "mentioned_as": "배우"},
+    {"name": "현봉식", "relation": "다정한 사진을 찍은 동료 배우", "mentioned_as": "배우"},
+    {"name": "정성일", "relation": "'살인자 리포트' 감독", "mentioned_as": "감독"}
+  ],
+  "works": [
+    {"title": "살인자 리포트", "year": null, "costar": "", "scene": "정성일 감독이 '너라서 고맙다'며 차기작을 약속한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "'44세 맞아?'라는 반응이 나올 만큼 물광 민낯으로 화제가 됐다",
+    "'30년 방부제 미모'라는 평가를 받았다"
+  ],
+  "care_habits": [
+    "짜장면과 라면을 1년에 두 번만 먹는다",
+    "매일 세 가지 운동을 한다",
+    "손발까지 잡티 없이 관리하는 노력을 기울인다",
+    "즐겨 먹는 특정 기름이 있다(구체 품목 비공개)"
+  ],
+  "hot_materials": [
+    {"material": "짜장면과 라면을 1년에 두 번만 먹는다. 손을 떨면서 먹을 정도라고 밝혔다", "why_hot": "반전"},
+    {"material": "'인간은 먹는 게 전부'라고 말하며 반전 냉장고를 공개했다", "why_hot": "발언"},
+    {"material": "정성일 감독이 '너라서 고맙다'며 차기작을 약속했다", "why_hot": "발언"},
+    {"material": "'좀비딸'이 최단 기간 200만 관객을 돌파했다", "why_hot": "반전"},
+    {"material": "이정은과 강남역에서 우연히 마주쳤다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "손을 떨면서 라면을 먹는 장면",
+    "매니저를 챙기며 훈훈함을 자아낸 장면",
+    "강남역에서 이정은과 우연히 마주친 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "크림 톤 트레이닝 셋업",
+    "생일 비키니 사진",
+    "전도연과의 슈트 패션"
+  ]
+}
