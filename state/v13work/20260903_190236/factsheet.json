@@ -1,0 +1,57 @@
+{
+  "person": {
+    "name": "진경",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "열녀박씨 계약결혼뎐",
+    "identity_anchor": "'열녀박씨 계약결혼뎐' 출연 배우 진경, '미우새'·'도라이버' 출연"
+  },
+  "namesake_dropped": [
+    "방송인 홍진경(이혼·딸 라엘·'소라와 진경' 진행자)",
+    "모델 김진경(탈모 관리·배우자 김승규)"
+  ],
+  "quotes": [
+    {"speaker": "진경", "text": "이상형은 서장훈, 연애 안 하시냐", "context": "'미우새' 관련"},
+    {"speaker": "진경", "text": "과거와 현대를 오가며 다양한 연기를 해 재밌었다", "context": "'열녀박씨 계약결혼뎐' 관련"}
+  ],
+  "events": [
+    {"summary": "예능 '미우새'에서 이상형을 서장훈이라고 밝히며 화끈한 고백을 했다", "year": null, "confirmed": true},
+    {"summary": "'도라이버'에서 주우재로부터 걱정 말라는 응원을 받았다", "year": null, "confirmed": true},
+    {"summary": "'열녀박씨 계약결혼뎐'에서 과거와 현대를 오가는 다양한 연기를 선보였다", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "서장훈", "relation": "예능에서 언급한 이상형", "mentioned_as": "'미우새'에서 이상형으로 꼽힌 인물"},
+    {"name": "주우재", "relation": "'도라이버' 동료", "mentioned_as": "걱정 말라며 다독인 인물"},
+    {"name": "이세영", "relation": "'열녀박씨 계약결혼뎐' 동료 배우", "mentioned_as": "극중 진경이 도발한 상대"},
+    {"name": "유선호", "relation": "'열녀박씨 계약결혼뎐' 동료 배우", "mentioned_as": "극중 '건들지 마'라고 경고한 인물"},
+    {"name": "천호진", "relation": "'열녀박씨 계약결혼뎐' 동료 배우", "mentioned_as": "극중 배후로 지목된 인물"}
+  ],
+  "works": [
+    {"title": "열녀박씨 계약결혼뎐", "year": null, "costar": "이세영, 천호진", "scene": "모든 배후는 천호진이라며 진실을 폭로한 장면", "kind": "극중"},
+    {"title": "열녀박씨 계약결혼뎐", "year": null, "costar": "유선호", "scene": "이세영을 도발하자 유선호가 '건들지 마'라고 경고한 장면", "kind": "극중"},
+    {"title": "도라이버", "year": null, "costar": "주우재", "scene": "수명게임 승부수 상황에서 주우재가 '걱정 마세요'라고 다독인 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "미우새에서 이상형으로 서장훈을 꼽은 화끈한 고백", "why_hot": "발언"},
+    {"material": "열녀박씨 계약결혼뎐에서 배후를 폭로한 장면", "why_hot": "장면"},
+    {"material": "도라이버에서 주우재가 걱정말라고 다독인 장면", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "모든 배후는 천호진이라며 진실을 폭로한 장면",
+    "유선호가 건들지 말라고 경고한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "꽃다발 들고 동료와 함께한 사진"
+  ],
+  "notes": "검색이 이름으로만 돼 홍진경(방송인, 이혼·딸 라엘)과 김진경(모델, 탈모 관리·배우자 김승규)이 대량으로 섞여 있었다. 배우 진경(열녀박씨 계약결혼뎐·미우새·도라이버) 관련 항목 6건만 남기고 나머지는 전부 배제함. 소스가 매우 얇아(6건) 뷰티·패션 소재가 거의 없고 예능·드라마 관계 소재 위주로만 구성됨."
+}
