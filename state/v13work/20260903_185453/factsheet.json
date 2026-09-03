@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "예지원",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": "52세",
+    "age_range": "",
+    "career": "배우",
+    "major_work": "홍도, 이토록 위대한 몸",
+    "identity_anchor": "배우 예지원, 데뷔 35년 차, 90세 어머니와의 동안 유전으로 화제"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "예지원", "text": "동안 비결? 솔직히 피부과 간다", "context": "'유정 그리고 주정' 관련"},
+    {"speaker": "예지원", "text": "여자는 피부 나이가 얼굴 나이, 피부는 거짓말 안 해", "context": "근황 관련"},
+    {"speaker": "예지원", "text": "동안 비결은 유전", "context": "어머니 관련"},
+    {"speaker": "예지원", "text": "올리브 오일로 지방과 염증을 억제한다", "context": "어머니 관리 비결 관련, '이토록 위대한 몸'"},
+    {"speaker": "예지원", "text": "무리한 감량은 노화를 촉진한다", "context": "웰에이징 관련 조언"},
+    {"speaker": "예지원", "text": "멈춤의 시간도 나를 단단하게 만든 과정", "context": "'라디오스타' 출연 소감"},
+    {"speaker": "예지원", "text": "너무 설레고 떨린다", "context": "데뷔 35년 만의 소식 관련"},
+    {"speaker": "예지원", "text": "잊지 못할 소중한 추억", "context": "연극 '홍도' 10년 만 재회 관련"},
+    {"speaker": "예지원", "text": "낙산균 루틴을 챙긴 뒤 장부터 컨디션, 피부까지 변화를 느꼈다", "context": "근황 관련"}
+  ],
+  "events": [
+    {"summary": "데뷔 35년 차를 맞아 무결점 미모 화보를 공개했다", "year": null, "confirmed": true},
+    {"summary": "연극 '홍도'로 10년 만에 다시 무대에 섰다", "year": null, "confirmed": true},
+    {"summary": "90세 어머니와 함께 동안 유전 화제를 모았다", "year": null, "confirmed": true},
+    {"summary": "'이토록 위대한 몸'에 출연해 건강·피부 관리 정보를 전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "35년", "meaning": "데뷔 이후 활동 기간"},
+    {"value": "90세", "meaning": "어머니 나이"},
+    {"value": "52세", "meaning": "본인 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [
+    {"title": "홍도", "year": null, "costar": "", "scene": "10년 만에 다시 선 마지막 무대에서 소중한 추억이라고 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "피부과 시술을 솔직하게 밝히며 동안을 유지한다",
+    "콜라겐과 낙산균 루틴으로 피부 컨디션을 관리한다",
+    "어머니와 함께 동안 유전자를 보여주는 화보를 공개했다"
+  ],
+  "care_habits": [
+    "낙산균 루틴을 챙긴다",
+    "무리한 감량 대신 저속 노화를 강조한다",
+    "어머니는 올리브 오일로 염증을 관리한다"
+  ],
+  "hot_materials": [
+    {"material": "90세 어머니와 나란히 선 동안 화보", "why_hot": "반전"},
+    {"material": "동안 비결이 피부과라고 솔직히 밝힌 것", "why_hot": "발언"},
+    {"material": "데뷔 35년 만에 전한 기쁜 소식", "why_hot": "낙차"},
+    {"material": "10년 만에 연극 '홍도' 무대에 다시 선 것", "why_hot": "장면"},
+    {"material": "무리한 감량이 노화를 촉진한다는 조언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "90세 어머니와 나란히 교복 화보를 찍은 장면",
+    "연극 '홍도' 마지막 무대에 선 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "동안 화보",
+    "교복 컨셉 모녀 화보",
+    "반려견과 함께한 사진",
+    "무결점 미모 화보"
+  ]
+}
