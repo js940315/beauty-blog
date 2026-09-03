@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "노윤서",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "청설, 동궁, 우리들의 블루스, 일타 스캔들",
+    "identity_anchor": "'청설'·'동궁' 주연 배우 노윤서, 이화여자대학교 미술대학 출신"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "노윤서", "text": "아직 바람이 추오", "context": "야외 근황 관련"},
+    {"speaker": "노윤서", "text": "아직 결정된 것 없어요", "context": "'무빙2' 출연설 관련"},
+    {"speaker": "노윤서", "text": "청순한 홍경과 첫 키스신, 바들바들 떨었다", "context": "'청설' 관련 인터뷰"},
+    {"speaker": "노윤서", "text": "자기객관화 잘 되는 편이다, 아쉬움은 끝도 없다", "context": "'동궁' 연기력 논란 관련 인터뷰"},
+    {"speaker": "노윤서", "text": "아이돌 캐스팅을 거절했다", "context": "데뷔 관련 인터뷰"},
+    {"speaker": "노윤서", "text": "초고속 주연이라는 말에 스타라고 생각하지 않는다", "context": "'청설' 관련 인터뷰"},
+    {"speaker": "노윤서", "text": "혼잣말 연습을 한다, 일만 할 순 없으니까", "context": "'언니네 산지직송3' 관련 인터뷰"},
+    {"speaker": "노윤서", "text": "너무너무 행복한 생일이었다", "context": "생일 소감"}
+  ],
+  "events": [
+    {"summary": "브랜드 연작의 모델로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "이화여자대학교 미술대학 출신으로, 아이돌 캐스팅 제안을 거절하고 배우의 길을 택했다", "year": null, "confirmed": true},
+    {"summary": "예능 '언니네 산지직송3'에 새 막내로 합류하며 첫 고정 예능에 도전했다", "year": null, "confirmed": true},
+    {"summary": "'슈퍼맨이 돌아왔다'에 출연 중인 정안이 이상형으로 꼽으며 통화를 나눴다", "year": null, "confirmed": true},
+    {"summary": "임산부 역할 연기로 호평을 받았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [
+    {"item": "연작 브랜드 모델", "whose": "본인"},
+    {"item": "이화여자대학교 미술대학 출신", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "효녀다", "where": "방송", "scale": ""},
+    {"text": "이대 여신은 다르네", "where": "기사반응", "scale": ""},
+    {"text": "이런 임산부는 처음이다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "홍경", "relation": "'청설' 상대역", "mentioned_as": "첫 키스신을 함께 찍은 배우"},
+    {"name": "남주혁", "relation": "'동궁' 상대역", "mentioned_as": "답장이 없으면 쩔쩔맨다고 언급한 배우"},
+    {"name": "조승우", "relation": "'동궁' 관련 동료 배우", "mentioned_as": "촬영장 태도에서 많은 것을 느끼게 한 인물"},
+    {"name": "염정아", "relation": "'언니네 산지직송' 동료", "mentioned_as": "효녀라고 칭찬한 인물"},
+    {"name": "정안", "relation": "이상형으로 꼽힌 인연", "mentioned_as": "통화를 나눈 아역 방송인"}
+  ],
+  "works": [
+    {"title": "청설", "year": null, "costar": "홍경", "scene": "첫 키스신을 찍을 때 바들바들 떨었다고 직접 밝힌 장면", "kind": "실제"},
+    {"title": "동궁", "year": null, "costar": "남주혁", "scene": "작품 속 커플 화보를 함께 찍고, 조승우의 촬영장 태도에서 많은 것을 느꼈다고 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": ["예능 출연을 앞두고 혼잣말로 말하는 연습을 한다"],
+  "hot_materials": [
+    {"material": "아이돌 캐스팅을 거절하고 배우를 택한 이력", "why_hot": "반전"},
+    {"material": "청설에서 홍경과 첫 키스신을 찍고 떨었다는 고백", "why_hot": "발언"},
+    {"material": "연기력 논란에 직접 답한 소신 발언", "why_hot": "발언"},
+    {"material": "정안이 이상형으로 꼽고 통화까지 했다는 일화", "why_hot": "실명"},
+    {"material": "임산부 연기로 호평받은 소식", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "청설 첫 키스신을 찍으며 바들바들 떨었던 장면",
+    "동궁 촬영장에서 조승우의 태도를 보고 느낀 순간",
+    "정안과 전화 통화를 나눈 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "연작 브랜드 화보",
+    "잡지 화보(알래스카·Love 컨셉 등)",
+    "공항 및 야외 근황 사진",
+    "사복 패션 포착 사진"
+  ]
+}
