@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "오윤아",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": "46세",
+    "age_range": "",
+    "career": "배우",
+    "major_work": "솔로라서, 더 시크릿",
+    "identity_anchor": "배우 오윤아, 11년의 싱글맘 생활 끝에 재혼"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "오윤아", "text": "절대 안 질리는 오이김밥", "context": "식단 관련"},
+    {"speaker": "오윤아", "text": "살 안 찌는 떡볶이", "context": "레시피 공개 관련"},
+    {"speaker": "오윤아", "text": "몸매 관리 비결은 1일 1식", "context": "근황 관련"},
+    {"speaker": "오윤아", "text": "16살에게 대시 받았다", "context": "동안 관리 관련"},
+    {"speaker": "오윤아", "text": "보톡스 맞았더니 치와와 같은 느낌, 늙는 게 티 나도 다시는 안 맞겠다", "context": "'Oh!윤아' 관련"},
+    {"speaker": "오윤아", "text": "인상은 안 좋은데 더 독해 보였다", "context": "리프팅 시술 관련, '솔로라서'"},
+    {"speaker": "오윤아", "text": "새로운 도전이자 설레는 시작", "context": "재혼 발표 관련"},
+    {"speaker": "오윤아", "text": "온 가족이 너무 행복해한다", "context": "재혼 관련"},
+    {"speaker": "오윤아", "text": "예쁘게 살아가겠다", "context": "재혼 축하 인사"},
+    {"speaker": "오윤아", "text": "충분히 자격 있다", "context": "새출발 응원 편지 관련"}
+  ],
+  "events": [
+    {"summary": "이너뷰티 브랜드 효조 리추얼과 체형 관리·장 건강 라인업을 함께 선보였다", "year": null, "confirmed": true},
+    {"summary": "11년의 싱글맘 생활 끝에 재혼을 발표했다", "year": null, "confirmed": true},
+    {"summary": "재혼 소식에 송윤아, 손담비 등 동료들의 축하가 이어졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "170cm", "meaning": "키"},
+    {"value": "52kg", "meaning": "체중"},
+    {"value": "11년", "meaning": "싱글맘으로 지낸 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "행복한 날들 가득할 것", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "송윤아", "relation": "동료 배우", "mentioned_as": "재혼을 축하한 인물"},
+    {"name": "손담비", "relation": "동료 가수", "mentioned_as": "재혼을 축하한 인물"}
+  ],
+  "works": [
+    {"title": "솔로라서", "year": null, "costar": "", "scene": "보톡스 시술 후 치와와 같은 느낌이 들어 다시는 맞지 않겠다고 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "보톡스 시술 경험을 공개하며 늙는 게 티 나도 다시는 맞지 않겠다고 밝혔다",
+    "리프팅 시술 후 인상은 안 좋아졌지만 더 독해 보였다고 밝혔다",
+    "16살에게 대시를 받을 정도로 동안이라는 평이 따른다",
+    "이너뷰티 브랜드와 체형 관리 라인업을 함께 선보였다"
+  ],
+  "care_habits": [
+    "1일 1식으로 몸매를 관리한다",
+    "살 안 찌는 떡볶이 레시피를 직접 공개했다",
+    "오이김밥을 즐겨 먹는다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "보톡스 맞고 치와와 같아졌다며 다시는 안 맞겠다고 밝힌 소신 발언", "why_hot": "발언"},
+    {"material": "16살에게 대시받았다는 동안 화제", "why_hot": "반전"},
+    {"material": "170cm 52kg에 1일 1식이라는 몸매 관리 비결", "why_hot": "낙차"},
+    {"material": "11년 싱글맘 끝에 재혼한 소식", "why_hot": "반전"},
+    {"material": "리프팅 시술 후 인상이 독해 보였다는 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "보톡스를 맞고 거울을 보며 치와와 같다고 느낀 장면",
+    "재혼 발표 후 동료들의 축하를 받은 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "재혼 관련 웨딩 스냅",
+    "이너뷰티 브랜드 화보",
+    "튜브톱 패션 촬영 사진"
+  ]
+}
