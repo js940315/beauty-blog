@@ -1,0 +1,76 @@
+{
+  "person": {
+    "name": "정유미",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "잠, 우씨왕후, 원더랜드",
+    "identity_anchor": "영화 '잠'·'우씨왕후' 주연 배우 정유미, 가수 강타와 6년째 공개 연애 중"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "정유미", "text": "5일 정도는 스킨 로션 안 발라도 돼", "context": "'꽃보다청춘' 관련"},
+    {"speaker": "정유미", "text": "화장은 했잖아", "context": "'꽃보다청춘' 관련, 최우식과의 대화"},
+    {"speaker": "정유미", "text": "평생 행복하길, 두 손 모아 기도", "context": "지인 결혼식 관련"},
+    {"speaker": "정유미", "text": "결혼은 아직 잘 모르겠어요", "context": "공개연애 관련 인터뷰"},
+    {"speaker": "정유미", "text": "오늘 따라 더 보고 싶다", "context": "셀카와 함께 남긴 소감"},
+    {"speaker": "정유미", "text": "전종서, 강단 있고 씩씩해, 대리만족 느껴", "context": "'우씨왕후' 관련 인터뷰"},
+    {"speaker": "정유미", "text": "광기까지는 아니고, 사투 정도의 연기", "context": "영화 '잠' 관련 인터뷰"},
+    {"speaker": "정유미", "text": "아쉬움이 커졌어요", "context": "영화 '잠' 관련 인터뷰"},
+    {"speaker": "정유미", "text": "믿고 맘껏 놀았죠", "context": "영화 '잠' 관련 인터뷰"}
+  ],
+  "events": [
+    {"summary": "가수 강타와 6년째 공개 연애를 이어오고 있다", "year": null, "confirmed": true},
+    {"summary": "지인의 결혼식에 참석해 축하 인사를 전했다", "year": null, "confirmed": true},
+    {"summary": "영화 '잠'으로 인터뷰에서 연기에 대한 소회를 밝혔다", "year": null, "confirmed": true},
+    {"summary": "'우씨왕후'에서 전종서와 함께 출연했다", "year": null, "confirmed": true},
+    {"summary": "여우주연상 관련 악플에 쿨하게 대처했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "6년", "meaning": "강타와의 공개 연애 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "문희준 소율 가족이 너무 부러웠다", "where": "방송", "scale": ""},
+    {"text": "얼굴 너무 작아", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "강타", "relation": "남자친구, 6년째 공개 연애 중", "mentioned_as": "문희준 부부를 부러워하며 결혼을 언급한 인물"},
+    {"name": "최우식", "relation": "'꽃보다청춘' 동료", "mentioned_as": "쌩얼 등교룩에 팩폭을 날린 인물"},
+    {"name": "전종서", "relation": "'우씨왕후' 동료 배우", "mentioned_as": "강단 있고 씩씩하다는 평을 받은 배우"},
+    {"name": "박서준", "relation": "'꽃보다청춘' 동료", "mentioned_as": "함께 실물 칭찬을 받은 동료 배우"}
+  ],
+  "works": [
+    {"title": "꽃보다청춘", "year": null, "costar": "최우식", "scene": "쌩얼 등교룩에 최우식이 '화장은 해야지'라며 팩폭하자 '화장은 했잖아'라고 받아친 장면", "kind": "실제"},
+    {"title": "잠", "year": null, "costar": "", "scene": "광기까지는 아니지만 사투에 가까운 연기를 했다고 밝힌 장면", "kind": "실제"},
+    {"title": "우씨왕후", "year": null, "costar": "전종서", "scene": "전종서가 강단 있고 씩씩해 대리만족을 느꼈다고 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "5일 정도는 스킨로션을 안 발라도 된다며 피부관리를 크게 신경 쓰지 않는다고 밝혔다"
+  ],
+  "care_habits": [
+    "건강식을 챙겨 먹는 모습이 공개됐다"
+  ],
+  "hot_materials": [
+    {"material": "강타가 문희준 부부를 부러워하며 결혼을 언급한 것", "why_hot": "발언"},
+    {"material": "여배우인데 피부관리를 포기했다는 고백", "why_hot": "반전"},
+    {"material": "최우식의 팩폭에 화장은 했다고 받아친 것", "why_hot": "발언"},
+    {"material": "악플에 쿨하게 대처한 일화", "why_hot": "반전"},
+    {"material": "영화 잠에서 사투에 가까운 연기로 호평받은 것", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "쌩얼 등교룩에 최우식이 팩폭을 날린 장면",
+    "지인 결혼식에서 두 손 모아 기도한 장면",
+    "셀카와 함께 보고 싶다는 소감을 남긴 장면"
+  ],
+  "sns_materials": [
+    "애정 넘치는 셀카와 함께 보고 싶다는 소감을 남겼다"
+  ],
+  "press_only_materials": [
+    "제주 감성 카페룩 포착 사진",
+    "공개 연애 커플 스냅"
+  ]
+}
