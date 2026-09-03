@@ -1,0 +1,71 @@
+{
+  "person": {
+    "name": "김선아",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "내 이름은 김삼순, 몽정기, 잠복근무, 가면의 여왕",
+    "identity_anchor": "'내 이름은 김삼순'·'몽정기' 주연 배우 김선아, '가면의 여왕' 출연"
+  },
+  "namesake_dropped": [
+    "고 설리와의 추억·반려묘 관련 언급을 남긴 인물(다른 김선아로 추정)",
+    "피부질환 다학제 진료를 강조한 김선아 교수(의학자)",
+    "부천시립합창단 김선아 상임지휘자(음악가)"
+  ],
+  "quotes": [
+    {"speaker": "김선아", "text": "탄수화물 중독 증세", "context": "근황 관련"},
+    {"speaker": "김선아", "text": "행복했다", "context": "이민정·백지영·이소연과 골프 관련"},
+    {"speaker": "김선아", "text": "삼식아 너 똥차래", "context": "'내 이름은 김삼순' 귀환 관련, 극중 대사 회상"},
+    {"speaker": "김선아", "text": "추억이 몽글몽글", "context": "'몽정기' 20년 만 회동 관련"},
+    {"speaker": "김선아", "text": "녀석들 고마워", "context": "'몽정기' 20년 만 회동 관련"}
+  ],
+  "events": [
+    {"summary": "'내 이름은 김삼순' 방영 20년을 맞아 다시 화제가 모였다", "year": null, "confirmed": true},
+    {"summary": "영화 '몽정기' 출연진과 20년 만에 다시 모였다", "year": null, "confirmed": true},
+    {"summary": "이민정, 백지영, 이소연과 함께 골프를 치며 시간을 보냈다", "year": null, "confirmed": true},
+    {"summary": "영화 '잠복근무'에 공유, 남상미, 하정우와 함께 출연했다", "year": null, "confirmed": true},
+    {"summary": "드라마 '가면의 여왕'에서 김재인과 함께 호흡을 맞춘다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "20년", "meaning": "'내 이름은 김삼순'·'몽정기' 이후 지난 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "현빈", "relation": "'내 이름은 김삼순' 상대역", "mentioned_as": "극중 대사가 다시 회자되며 함께 소환된 배우"},
+    {"name": "이민정", "relation": "골프 동행", "mentioned_as": "함께 골프를 친 배우"},
+    {"name": "백지영", "relation": "골프 동행", "mentioned_as": "함께 골프를 친 가수"},
+    {"name": "이소연", "relation": "골프 동행", "mentioned_as": "함께 골프를 친 배우"},
+    {"name": "공유", "relation": "'잠복근무' 공동 주연", "mentioned_as": "함께 출연한 배우"},
+    {"name": "하정우", "relation": "'잠복근무' 공동 주연", "mentioned_as": "함께 출연한 배우"},
+    {"name": "김재인", "relation": "'가면의 여왕' 상대역", "mentioned_as": "새 드라마에서 호흡을 맞추는 배우"}
+  ],
+  "works": [
+    {"title": "내 이름은 김삼순", "year": null, "costar": "현빈", "scene": "'삼식아 너 똥차래'라는 극중 대사가 다시 회자된 장면", "kind": "극중"},
+    {"title": "몽정기", "year": null, "costar": "", "scene": "출연진과 20년 만에 다시 모여 추억을 나눈 장면", "kind": "실제"},
+    {"title": "가면의 여왕", "year": null, "costar": "김재인", "scene": "새 드라마에서 호흡을 맞추게 됐다는 소식이 전해진 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "탄수화물 중독이라고 밝혔는데도 얼굴이 작아 보인다는 반응이 따라붙었다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "탄수화물 중독이라면서도 얼굴이 작아 보인다는 반응", "why_hot": "반전"},
+    {"material": "김삼순 귀환 붐에 현빈과의 극중 대사가 재소환된 것", "why_hot": "실명"},
+    {"material": "몽정기 출연진과 20년 만에 재회한 것", "why_hot": "낙차"},
+    {"material": "공유·하정우와 함께한 잠복근무가 재조명된 것", "why_hot": "실명"},
+    {"material": "가면의 여왕에서 김재인과 새로 호흡을 맞춘다는 소식", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "몽정기 출연진과 20년 만에 모여 추억을 나눈 장면",
+    "김삼순 명대사가 다시 회자된 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "골프 라운딩 사진",
+    "몽정기 재회 모임 사진"
+  ]
+}
