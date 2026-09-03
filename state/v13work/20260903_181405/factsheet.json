@@ -1,0 +1,89 @@
+{
+  "person": {
+    "name": "고윤정",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "이 사랑 통역 되나요?, 무빙",
+    "identity_anchor": "'이 사랑 통역 되나요?'·'무빙' 주연 배우, 샤넬·티파니앤코 앰버서더 고윤정"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "고윤정", "text": "형님", "context": "박명수에게 쓴 손편지에서"},
+    {"speaker": "고윤정", "text": "하루 아침에 톱스타된 차무희, 공감됐죠", "context": "'이 사랑 통역 되나요?' 인터뷰"},
+    {"speaker": "고윤정", "text": "무희처럼 저도 팔로워 1000만 됐어요", "context": "'이 사랑 통역 되나요?' 인터뷰"},
+    {"speaker": "고윤정", "text": "사랑해 주세요, 내가 당신을 사랑하듯이", "context": "'이 사랑 통역 되나요?' 관련 인터뷰"},
+    {"speaker": "고윤정", "text": "양동근과 액션신, 너무 세게 때린 것 같아 죄송해", "context": "'무빙' 관련 인터뷰"},
+    {"speaker": "고윤정", "text": "천 개의 문이 열린 사람", "context": "'모자무싸' 극중 대사"},
+    {"speaker": "고윤정", "text": "정준원과 연애 전 실제 내 옷 입었다", "context": "언슬전 스페셜"},
+    {"speaker": "고윤정", "text": "즐거움을 오래 느끼고 싶은 배우", "context": "유퀴즈"},
+    {"speaker": "고윤정", "text": "기대되는 배우 되고 싶어", "context": "유퀴즈"},
+    {"speaker": "고윤정", "text": "'기생충'이 첫 오디션이었다, 조여정 선배님과 닮아서 딸 역할 후보였다", "context": "유퀴즈"},
+    {"speaker": "고윤정", "text": "'AI 같다'는 프로필, 예쁘게 찍어주셔서", "context": "유퀴즈"},
+    {"speaker": "고윤정", "text": "편집 없어서 실수할까봐 긴장했다", "context": "백상예술대상 관련, 유퀴즈"}
+  ],
+  "events": [
+    {"summary": "'이 사랑 통역 되나요?' 주연으로 팔로워 1000만을 달성했다", "year": null, "confirmed": true},
+    {"summary": "'무빙'에 출연해 양동근과 액션신을 촬영했다", "year": null, "confirmed": true},
+    {"summary": "티파니앤코 글로벌 앰버서더로 선정됐다", "year": null, "confirmed": true},
+    {"summary": "샤넬 앰버서더로 활동하며 파리 패션위크에 참석했다", "year": null, "confirmed": true},
+    {"summary": "배우 정준원과의 열애를 본인이 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "영화 '기생충' 오디션에서 조여정의 딸 역할 후보로 거론됐던 사실을 공개했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "1000만", "meaning": "본인이 밝힌 인스타그램 팔로워 수"}
+  ],
+  "credentials": [
+    {"item": "티파니앤코 글로벌 앰버서더", "whose": "본인"},
+    {"item": "샤넬 앰버서더", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "네가 감히 고윤정 상대역? 논란 예상했다", "where": "기사반응", "scale": ""},
+    {"text": "고윤정과 서로 온도와 결 잘 맞았다", "where": "기사반응", "scale": ""},
+    {"text": "무희 씨 보고 싶음", "where": "기사반응", "scale": ""},
+    {"text": "기가 막히게 맞아", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "정준원", "relation": "배우, 본인이 공개한 열애 상대", "mentioned_as": "손석구를 제치고 배우 브랜드평판 1위에 올랐다고 언급됨"},
+    {"name": "김선호", "relation": "'이 사랑 통역 되나요?' 상대역", "mentioned_as": "무희 씨가 보고 싶다며 과몰입했다고 밝힘"},
+    {"name": "양동근", "relation": "'무빙' 상대역", "mentioned_as": "함께 액션신을 촬영한 배우"},
+    {"name": "구교환", "relation": "동료 배우", "mentioned_as": "사주 궁합이 기가 막히게 잘 맞는다고 칭찬함"},
+    {"name": "박명수", "relation": "예능 동료", "mentioned_as": "형님이라 쓴 손편지를 받은 인물"},
+    {"name": "조여정", "relation": "선배 배우", "mentioned_as": "닮아서 '기생충' 딸 역할 후보로 거론된 계기가 된 인물"}
+  ],
+  "works": [
+    {"title": "이 사랑 통역 되나요?", "year": null, "costar": "김선호", "scene": "차무희가 팔로워 1000만을 달성하는 서사에 본인도 공감했다고 밝힌 장면", "kind": "실제"},
+    {"title": "무빙", "year": null, "costar": "양동근", "scene": "액션신에서 너무 세게 때린 것 같다며 죄송하다고 사과한 장면", "kind": "실제"},
+    {"title": "모자무싸", "year": null, "costar": "", "scene": "'천 개의 문이 열린 사람'이라는 대사로 시청자들의 위로를 받은 장면", "kind": "극중"},
+    {"title": "기생충", "year": null, "costar": "조여정", "scene": "조여정과 닮아서 딸 역할 후보로 거론됐던 오디션 이야기를 직접 밝힌 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "샤넬 루쥬 코코 립 캠페인 얼굴로 발탁됐다",
+    "파리 패션위크에서 '샤넬의 정석'이라는 평을 받았다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "샤넬쇼 퇴근길에 담요를 두르고 나온 해프닝", "why_hot": "장면"},
+    {"material": "정준원과 연애 전 실제 본인 옷을 입었다는 고백", "why_hot": "발언"},
+    {"material": "정준원이 손석구를 제치고 배우 브랜드평판 1위에 올랐다는 소식", "why_hot": "실명"},
+    {"material": "티파니앤코 글로벌 앰버서더로 선정된 소식", "why_hot": "반전"},
+    {"material": "무빙 촬영 중 양동근에게 세게 액션을 날린 뒤 사과한 장면", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "샤넬쇼가 끝난 뒤 담요를 두르고 퇴근길에 등장한 장면",
+    "무빙 촬영장에서 양동근에게 액션을 날린 뒤 곧바로 사과한 장면",
+    "박명수에게 형님이라 적은 손편지를 공개한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "샤넬 패션쇼 참석 및 퇴근길 포착 사진",
+    "파리 패션위크 스트리트 화보",
+    "티파니앤코 앰버서더 행사 컷",
+    "마리끌레르 디지털 커버 화보",
+    "샤넬 루쥬 코코 캠페인 이미지",
+    "디디에 두보 화이트데이 컬렉션 컷"
+  ]
+}
