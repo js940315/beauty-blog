@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "유호정",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우, 비투엔 대표",
+    "major_work": "사랑을 처방해드립니다",
+    "identity_anchor": "11년 만에 KBS 주말드라마로 복귀, '사랑을 처방해드립니다' 출연 배우 유호정 (비투엔 대표 겸직)"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "유호정", "text": "몇년간 칩거, 엄마로서 열심히 살았다", "context": "라디오쇼"},
+    {"speaker": "유호정", "text": "세상이 궁금해져서", "context": "복귀 관련 인터뷰"},
+    {"speaker": "유호정", "text": "대사만 잘 외우면 된다", "context": "복귀 관련 인터뷰"},
+    {"speaker": "유호정", "text": "평소에도 여보야라 불러", "context": "'사랑을 처방해드립니다' 관련 인터뷰"},
+    {"speaker": "유호정", "text": "자선사업가야? 사고 좀 그만쳐", "context": "'사랑을 처방해드립니다' 극중 대사"},
+    {"speaker": "유호정", "text": "첫째 임신 태몽에 윤유선이 나왔다", "context": "'동상이몽2'"},
+    {"speaker": "유호정", "text": "이재룡의 서프라이즈는 일찍 귀가하는 것", "context": "'동상이몽2'"},
+    {"speaker": "유호정", "text": "AI와 디지털의 기대와 현실 괴리를 좁힐 전략을 구상하고 있다", "context": "비투엔 대표 관련 인터뷰"},
+    {"speaker": "유호정", "text": "11년 만에 TV 드라마에 출연한다", "context": "복귀 관련 인터뷰"}
+  ],
+  "events": [
+    {"summary": "11년 만에 KBS 새 주말드라마로 안방에 복귀했다", "year": null, "confirmed": true},
+    {"summary": "약 7년간 미국에서 아이들을 뒷바라지하며 지냈다", "year": null, "confirmed": true},
+    {"summary": "결혼 30년 차에 배우로 복귀했다", "year": null, "confirmed": true},
+    {"summary": "드라마 '사랑을 처방해드립니다'에서 김승수와 세 번째로 부부 역할을 맡았다", "year": null, "confirmed": true},
+    {"summary": "비투엔이라는 회사의 대표를 맡고 있다", "year": null, "confirmed": true},
+    {"summary": "절친 윤유선과 32년째 친구 사이를 이어오고 있다", "year": null, "confirmed": true},
+    {"summary": "최지우, 신애라, 오연수와 함께 대구로 여행을 다녀왔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "11년", "meaning": "드라마 공백 기간"},
+    {"value": "30년", "meaning": "결혼 연차"},
+    {"value": "32년", "meaning": "윤유선과의 친구 기간"}
+  ],
+  "credentials": [
+    {"item": "비투엔 대표", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "우아한 여배우들", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이재룡", "relation": "남편", "mentioned_as": "'동상이몽2'에서 서프라이즈 얘기가 나온 인물"},
+    {"name": "윤유선", "relation": "32년 지기 친구", "mentioned_as": "첫째 임신 태몽에 등장했다고 밝힌 인물"},
+    {"name": "김승수", "relation": "'사랑을 처방해드립니다' 상대역", "mentioned_as": "세 번째로 부부 역할을 함께한 배우"},
+    {"name": "최지우", "relation": "동료 배우", "mentioned_as": "대구 여행을 함께한 배우"},
+    {"name": "신애라", "relation": "동료 배우", "mentioned_as": "대구 여행을 함께한 배우"},
+    {"name": "오연수", "relation": "동료 배우", "mentioned_as": "대구 여행을 함께한 배우"}
+  ],
+  "works": [
+    {"title": "사랑을 처방해드립니다", "year": null, "costar": "김승수", "scene": "돈을 자꾸 빌리는 극중 남편에게 '자선사업가냐'며 쏘아붙인 장면", "kind": "극중"},
+    {"title": "동상이몽2", "year": null, "costar": "이재룡", "scene": "서프라이즈가 뭐냐는 질문에 일찍 귀가하는 것이라 답한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "11년 만에 드라마로 복귀한 소식", "why_hot": "낙차"},
+    {"material": "비투엔 대표로도 활동 중이라는 사실", "why_hot": "반전"},
+    {"material": "김승수와 세 번째로 부부 호흡을 맞춘 사실", "why_hot": "실명"},
+    {"material": "극중 남편에게 '자선사업가냐'며 쏘아붙인 장면", "why_hot": "발언"},
+    {"material": "32년 지기 윤유선과의 우정", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "드라마 극중 남편에게 '자선사업가냐'며 쏘아붙인 장면",
+    "일찍 귀가하는 것이 서프라이즈라고 답한 장면",
+    "첫째 임신 태몽에 윤유선이 나왔다는 이야기"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "라디오쇼 출연 사진",
+    "동상이몽2 방송 캡처",
+    "사랑을 처방해드립니다 드라마 스틸컷",
+    "대구 여행 동행 사진"
+  ]
+}
