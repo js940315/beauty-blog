@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "소이현",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": "42세",
+    "age_range": "",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "배우 소이현, 인교진과 부부(딸 하은·소은), 리프팅 시술 솔직 고백으로 알려짐"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "소이현", "text": "200만원대 리프팅 시술을 받았다, 여배우들이 촬영 전 받는다", "context": "'인소커플' 관련"},
+    {"speaker": "소이현", "text": "애주가인데 외모 유지가 가능하다", "context": "관리 비결 관련"},
+    {"speaker": "소이현", "text": "42살 되면서 마음이 달라져 안 하던 피부과 시술도 받았다", "context": "'인소커플' 관련"},
+    {"speaker": "소이현", "text": "안 가던 피부과 가서 고주파 리프팅을 받았다", "context": "'소이현 인교진' 관련"},
+    {"speaker": "소이현", "text": "티 안 나게 예뻐지는 시술을 받았다", "context": "성형시술 고백"},
+    {"speaker": "소이현", "text": "여름에 피부가 늘어지면 얼굴이 커 보인다", "context": "피부관리 관련"},
+    {"speaker": "소이현", "text": "팩을 8가지나 쓰고, 냉장고에 2~30장씩 넣어둔다", "context": "'인소커플' 관련"},
+    {"speaker": "소이현", "text": "이 주스를 먹고 리즈 시절 몸매를 되찾았다, 살이 빠지고 피부가 촉촉해졌다", "context": "근황 관련"},
+    {"speaker": "소이현", "text": "가르마가 신경 쓰인다", "context": "'소이현 인교진' 관련"},
+    {"speaker": "소이현", "text": "자연스러운 리프팅이라 너무 완벽하다", "context": "동안 비결 관련"}
+  ],
+  "events": [
+    {"summary": "인교진과 결혼해 두 딸(하은, 소은)을 키우고 있다", "year": null, "confirmed": true},
+    {"summary": "인교진과의 인연이 22년 전 사진으로 공개됐다", "year": null, "confirmed": true},
+    {"summary": "프리미엄 여성 패션 브랜드의 뮤즈로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "'뷰티유레카'에 출연해 비타민C 세럼을 소개했다", "year": null, "confirmed": true},
+    {"summary": "12년 만에 잠실 야구장 마운드에 올라 시구했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "200만원", "meaning": "리프팅 시술 비용"},
+    {"value": "170cm", "meaning": "키"},
+    {"value": "8가지", "meaning": "사용하는 팩 종류 수"}
+  ],
+  "credentials": [
+    {"item": "프리미엄 여성 패션 브랜드 뮤즈", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "인교진", "relation": "남편", "mentioned_as": "함께 관리 비결과 근황을 전한 인물"}
+  ],
+  "works": [
+    {"title": "인소커플", "year": null, "costar": "인교진", "scene": "팩 8가지를 냉장고에 쟁여두고 매일 관리한다고 공개한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "200만원대 리프팅 시술을 촬영 전 받는다고 밝혔다",
+    "42살이 되면서 안 하던 피부과 시술을 받기 시작했다",
+    "고주파 리프팅과 자연스러운 시술로 동안을 유지한다고 밝혔다",
+    "비타민C 세럼 등 뷰티 제품을 소개했다"
+  ],
+  "care_habits": [
+    "팩을 8가지나 쓰며 냉장고에 2~30장씩 쟁여둔다",
+    "이 주스를 먹고 살이 빠지고 피부가 촉촉해졌다고 밝혔다",
+    "애주가이지만 나름의 방식으로 외모를 관리한다"
+  ],
+  "hot_materials": [
+    {"material": "200만원대 리프팅 시술을 촬영 전 받는다는 고백", "why_hot": "발언"},
+    {"material": "애주가인데 외모 유지가 가능하다는 모순", "why_hot": "반전"},
+    {"material": "팩을 8가지나 쓰고 냉장고에 쟁여둔다는 습관", "why_hot": "장면"},
+    {"material": "42살 되며 마음이 달라져 피부과 시술을 시작했다는 고백", "why_hot": "발언"},
+    {"material": "주스 먹고 리즈시절 몸매를 되찾았다는 근황", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "냉장고에 팩을 2~30장씩 쟁여둔 장면",
+    "22년 전 사진과 지금이 똑같다는 반응이 나온 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "수영복 사진",
+    "꽃길 야외 근황 사진",
+    "22년 전 커플 사진",
+    "시구 사진"
+  ]
+}
