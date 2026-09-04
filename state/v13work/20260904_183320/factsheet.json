@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "김혜윤",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "선재 업고 튀어",
+    "identity_anchor": "선재 업고 튀어·SKY 캐슬 등에 출연했고 스타트렌드 여배우 1위에 오른 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김혜윤", "text": "현장에서 사적인 이야기 많이 해", "context": "인터뷰"},
+    {"speaker": "김혜윤", "text": "일단 친해지기", "context": "화보 인터뷰"},
+    {"speaker": "김혜윤", "text": "아직도 안 봤다고?", "context": "인터뷰"},
+    {"speaker": "김혜윤", "text": "변우석 이재욱 케미요정 비결은 대화 많이 하려고 노력", "context": "화보 인터뷰"},
+    {"speaker": "김혜윤", "text": "선재와 신혼생활 부담…내심 좋아할지도", "context": "화보 인터뷰"}
+  ],
+  "events": [
+    {"summary": "선재 업고 튀어로 변우석과 큰 인기를 얻었다", "year": null, "confirmed": true},
+    {"summary": "스타트렌드 여배우 부문 1위에 여러 차례 올랐다", "year": null, "confirmed": true},
+    {"summary": "청룡랭킹 여자배우 부문에서 박은빈과 접전 끝에 1위에 올랐다", "year": null, "confirmed": true},
+    {"summary": "살인자ㅇ난감이 300만 관객을 돌파했다", "year": null, "confirmed": true},
+    {"summary": "SKY 캐슬 종영 당시 23.8%의 시청률을 기록했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "13만 표", "meaning": "청룡랭킹 1위를 지킨 팬덤 투표 수"},
+    {"value": "162관왕", "meaning": "일간 스타트렌드 관련 기록"},
+    {"value": "23.8%", "meaning": "SKY 캐슬 종영 시청률"},
+    {"value": "300만", "meaning": "살인자ㅇ난감 관객 수"}
+  ],
+  "credentials": [
+    {"item": "스타트렌드 여배우 부문 1위", "whose": "본인"},
+    {"item": "청룡랭킹 여자배우 부문 1위", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "이거 비싼 건데", "where": "방송(유퀴즈)", "scale": ""},
+    {"text": "매순간 설레… 침대 장면은 특히 더", "where": "인터뷰", "scale": ""},
+    {"text": "우리 여배우님", "where": "방송(산지직송)", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "변우석", "relation": "선재 업고 튀어 공동 주연", "mentioned_as": "상대역"},
+    {"name": "이재욱", "relation": "작품 공동 출연", "mentioned_as": "동료 배우"},
+    {"name": "염정아", "relation": "SKY 캐슬 공동 출연 선배", "mentioned_as": "선배"},
+    {"name": "유재석", "relation": "예능 진행자", "mentioned_as": "유퀴즈 진행자"},
+    {"name": "덱스", "relation": "예능 동료 출연자", "mentioned_as": "산지직송 동료"}
+  ],
+  "works": [
+    {"title": "선재 업고 튀어", "year": null, "costar": "변우석", "scene": "설레는 순간들, 특히 침대 장면이 화제가 된 장면", "kind": "극중"},
+    {"title": "SKY 캐슬", "year": null, "costar": "염정아", "scene": "종영 신화로 다시 회자된 명장면", "kind": "극중"},
+    {"title": "살인자ㅇ난감", "year": null, "costar": "", "scene": "300만 관객을 돌파한 흥행", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "변우석이 매순간 설렌다며 침대 장면을 언급한 것", "why_hot": "발언"},
+    {"material": "유재석이 잠바를 보고 비싼 거라며 놀란 것", "why_hot": "발언"},
+    {"material": "청룡랭킹에서 박은빈과 접전 끝에 1위를 차지한 것", "why_hot": "낙차"},
+    {"material": "13만 표 팬덤 투표로 타이틀을 지킨 것", "why_hot": "반전"},
+    {"material": "덱스가 우리 여배우님이라 부르며 챙긴 것", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "유퀴즈에서 유재석이 잠바를 보고 놀란 장면",
+    "산지직송에서 덱스가 이불을 덮어준 장면",
+    "SKY 캐슬 종영 당시 명장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "로우퀘스트 브랜드 모델 화보",
+    "코닥어패럴 26SS 캠페인 화보",
+    "런던 배경 가을 시즌 스타일링 화보"
+  ]
+}
