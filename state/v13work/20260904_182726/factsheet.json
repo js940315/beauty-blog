@@ -1,0 +1,82 @@
+{
+  "person": {
+    "name": "전여빈",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "검은 수녀들",
+    "identity_anchor": "검은 수녀들·너의 시간 속으로·착한 여자 부세미 등에 출연한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "전여빈", "text": "구마의식 공간 생각보다 아름답게 느껴졌다", "context": "인터뷰"},
+    {"speaker": "전여빈", "text": "평냉같은 극", "context": "인터뷰"},
+    {"speaker": "전여빈", "text": "첫 타이틀롤, 마음가짐은 항상 똑같아요", "context": "인터뷰"},
+    {"speaker": "전여빈", "text": "빌런 장윤주, 서 있기만 해도 압도적 에너지", "context": "인터뷰"},
+    {"speaker": "전여빈", "text": "나의 송혜교", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "검은 수녀들에서 송혜교·강민경과 호흡을 맞췄다", "year": null, "confirmed": true},
+    {"summary": "너의 시간 속으로에서 안효섭과 키스신을 촬영했다", "year": null, "confirmed": true},
+    {"summary": "우리영화에서 남궁민과 함께 출연했다", "year": null, "confirmed": true},
+    {"summary": "착한 여자 부세미로 첫 타이틀롤을 맡았다", "year": null, "confirmed": true},
+    {"summary": "여우조연상을 수상한 이력이 있다", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [
+    {"item": "여우조연상 수상", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "눈부셔라", "where": "SNS 댓글", "scale": ""},
+    {"text": "천사같은 사람 전여빈, 이런 사람이 존재하는구나", "where": "인터뷰", "scale": ""},
+    {"text": "전여빈 배려심 덕에 편하게 호흡 맞춰", "where": "인터뷰", "scale": ""},
+    {"text": "전여빈은 극찬했는데… 요즘 후배들 눈치 보며 산다", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "송혜교", "relation": "검은 수녀들 공동 출연 선배", "mentioned_as": "상대역 추천인"},
+    {"name": "강민경", "relation": "검은 수녀들 공동 출연", "mentioned_as": "동료 배우"},
+    {"name": "안효섭", "relation": "너의 시간 속으로 상대역", "mentioned_as": "상대역"},
+    {"name": "남궁민", "relation": "우리영화 공동 주연", "mentioned_as": "상대역"},
+    {"name": "임지연", "relation": "동료 배우", "mentioned_as": "SNS에 반응을 남긴 동료"},
+    {"name": "진영", "relation": "착한 여자 부세미 동료 출연자", "mentioned_as": "동료 출연자"},
+    {"name": "문성근", "relation": "착한 여자 부세미 극중 상대역", "mentioned_as": "극중 프러포즈 상대"},
+    {"name": "장윤주", "relation": "착한 여자 부세미 극중 상대", "mentioned_as": "극중 빌런"}
+  ],
+  "works": [
+    {"title": "착한 여자 부세미", "year": null, "costar": "문성근", "scene": "재벌 회장 역의 문성근에게 위장결혼 프러포즈를 받는 장면", "kind": "극중"},
+    {"title": "착한 여자 부세미", "year": null, "costar": "장윤주", "scene": "장례식장에서 빌런 장윤주의 허를 찌르는 반격 장면", "kind": "극중"},
+    {"title": "너의 시간 속으로", "year": null, "costar": "안효섭", "scene": "관광객들의 환호 속에서 키스신을 촬영한 장면", "kind": "극중"},
+    {"title": "검은 수녀들", "year": null, "costar": "송혜교", "scene": "구마의식 공간에서 촬영한 장면", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "피부에서 빛이 난다는 평가를 받았다",
+    "무결점 청초함과 카리스마를 동시에 갖춘 미모라는 평가를 받았다",
+    "물이 오른 미모라는 평가를 받았다",
+    "얼굴 부기 관리까지 신경 쓴다는 평가를 받았다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "무심하게 올린 셀카에 임지연이 눈부셔라 반응한 것", "why_hot": "발언"},
+    {"material": "송혜교가 직접 상대역으로 추천해 나의 송혜교라 부른 것", "why_hot": "실명"},
+    {"material": "안효섭과 관광객들 환호 속 키스신을 촬영한 것", "why_hot": "장면"},
+    {"material": "피부에서 빛이 난다는 평가를 받은 것", "why_hot": "발언"},
+    {"material": "재벌 회장 역 문성근에게 극중 프러포즈를 받은 장면", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "관광객들 환호 속에서 안효섭과 촬영한 키스신",
+    "구마의식 공간에서 촬영한 검은 수녀들의 한 장면",
+    "장례식장에서 장윤주에게 반격하는 장면"
+  ],
+  "sns_materials": [
+    "무심하게 툭 올린 셀카에 임지연이 눈부셔라라는 댓글을 남겼다"
+  ],
+  "press_only_materials": [
+    "언니와 나 흑백 화보",
+    "주얼리 화보 컷",
+    "쿠에른 롱부츠로 완성한 공항패션",
+    "바이린샵과 함께한 봄 화보"
+  ]
+}
