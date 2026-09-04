@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "박소담",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "경주기행",
+    "identity_anchor": "경주기행에 출연했고 한국 배우 최초로 영국 매거진 하우스 오브 솔로의 커버를 장식한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박소담", "text": "제 삶이 잘 다져져 있어야 또 다음 일이 있다고 생각해요", "context": "GQ 코리아 인터뷰"},
+    {"speaker": "박소담", "text": "취향 적극 반영", "context": "인터뷰"},
+    {"speaker": "박소담", "text": "소주 2병", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "여동생 결혼식에서 직접 만든 부케를 선물했다", "year": null, "confirmed": true},
+    {"summary": "한예종 동기 이유영의 결혼식에 참석했다", "year": null, "confirmed": true},
+    {"summary": "한국 배우 최초로 영국 매거진 하우스 오브 솔로의 커버를 장식했다", "year": null, "confirmed": true},
+    {"summary": "주량을 소주 2병이라 답했다가 그 답변으로 광고 모델에 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "경주기행에서 공효진과 찐 자매 같은 케미를 보여줬다", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [
+    {"item": "한국 배우 최초 하우스 오브 솔로 커버 장식", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "언니 숏컷 너무 예뻐", "where": "인터뷰", "scale": ""},
+    {"text": "카멜레온 같은 매력", "where": "팬 반응", "scale": ""},
+    {"text": "진짜 자매 같다", "where": "방송 소개", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "변우석", "relation": "오랜 친분의 동료 배우", "mentioned_as": "천사 같은 친구"},
+    {"name": "이유영", "relation": "한예종 동기 배우", "mentioned_as": "결혼식에 참석한 동기"},
+    {"name": "공효진", "relation": "경주기행 공동 출연", "mentioned_as": "찐 자매 같은 동료"}
+  ],
+  "works": [
+    {"title": "경주기행", "year": null, "costar": "공효진", "scene": "진짜 자매 같다는 평가를 받은 케미", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "올블랙 패션으로 돌아와 카멜레온 같은 매력이라는 반응을 받았다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "변우석과 여전한 친분을 과시한 다정한 투샷", "why_hot": "장면"},
+    {"material": "한국 배우 최초로 영국 매거진 커버를 장식한 것", "why_hot": "반전"},
+    {"material": "여동생 결혼식에서 직접 만든 부케를 선물한 것", "why_hot": "장면"},
+    {"material": "주량 소주 2병 답변으로 광고 모델이 된 것", "why_hot": "반전"},
+    {"material": "공효진과 찐 자매 같은 케미를 보여준 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "변우석과 다정한 투샷을 남긴 장면",
+    "이유영 결혼식에 참석해 숏컷을 칭찬한 장면",
+    "여동생 결혼식에서 부케를 직접 건넨 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "하우스 오브 솔로 커버 화보",
+    "올블랙 패션 사진"
+  ],
+  "notes": "소스 다수가 갑상선(갑상샘) 유두암 투병·수술·회복 관련 기사였으나, 질병 소재 금지 방침에 따라 전부 배제했다. 그 결과 팩트시트가 다소 얇다(수치 항목 없음). 투병과 무관한 우정·결혼식·화보·인터뷰 소재만 남겼다."
+}
