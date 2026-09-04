@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "신예은",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "닥터 섬보이",
+    "identity_anchor": "닥터 섬보이·주말연속극 등에 출연했고 성균관대를 10년 만에 졸업한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신예은", "text": "암모나이트의 졸업, 10년 걸렸어요", "context": "졸업 인터뷰"},
+    {"speaker": "신예은", "text": "실수로 탄생, 대본 잘못 읽었다", "context": "인터뷰"},
+    {"speaker": "신예은", "text": "김풍과 요리 스타일 비슷, 과정 안 좋아도 결과 좋다", "context": "냉부해"},
+    {"speaker": "신예은", "text": "뛰기 싫어서 바쁘다고 핑계 댔다", "context": "자매치킨"},
+    {"speaker": "신예은", "text": "더 글로리 박연진 같은 악역 또 하고 싶어", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "16학번으로 성균관대에 입학해 10년 만에 졸업했다", "year": null, "confirmed": true},
+    {"summary": "기아대책 고액후원 필란트로피클럽 400호가 됐다", "year": null, "confirmed": true},
+    {"summary": "JYP에서 예능 출연을 자제시켰다는 사실을 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "에이틴 감독과 8년 만에 재회해 서바이벌 프로그램에 출연했다", "year": null, "confirmed": true},
+    {"summary": "닥터 섬보이 키스신 촬영 중 실수로 이재욱의 입술을 깨물었다", "year": null, "confirmed": true},
+    {"summary": "마라톤 동호회를 탈퇴하며 션에게 양심 고백을 했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10년", "meaning": "대학 졸업까지 걸린 기간"},
+    {"value": "400호", "meaning": "기아대책 고액후원 필란트로피클럽 가입 순번"},
+    {"value": "8년", "meaning": "에이틴 감독과 재회까지 걸린 기간"}
+  ],
+  "credentials": [
+    {"item": "기아대책 필란트로피클럽 400호 고액후원자", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "빨개진 거 처음 봐", "where": "방송(냉부해)", "scale": ""},
+    {"text": "너 다음주에도 나와라", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이재욱", "relation": "닥터 섬보이 상대역", "mentioned_as": "키스신 상대"},
+    {"name": "김다미", "relation": "주말연속극 공동 출연", "mentioned_as": "동료 배우"},
+    {"name": "로운", "relation": "인터뷰에서 언급한 동료", "mentioned_as": "동료 배우"},
+    {"name": "유재석", "relation": "예능 진행자", "mentioned_as": "출연 제안한 진행자"},
+    {"name": "권성준", "relation": "냉부해 동료 출연자", "mentioned_as": "당황한 반응을 보인 동료"},
+    {"name": "김풍", "relation": "냉부해 동료 출연자", "mentioned_as": "요리 스타일이 비슷한 동료"},
+    {"name": "김동현", "relation": "놀토 동료 출연자", "mentioned_as": "집사로 불린 동료"},
+    {"name": "션", "relation": "자매치킨 동료 출연자", "mentioned_as": "양심 고백을 들은 동료"}
+  ],
+  "works": [
+    {"title": "닥터 섬보이", "year": null, "costar": "이재욱", "scene": "키스신 촬영 중 대본을 잘못 읽어 실수로 입술을 깨문 장면", "kind": "실제"},
+    {"title": "주말연속극", "year": null, "costar": "김다미", "scene": "인생 첫 주연을 맡았지만 상처도 함께 겪은 작품", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "퍼스널컬러 개념이 붕괴됐다는 평가를 받을 만큼 모든 계절이 잘 어울린다는 평가를 받았다",
+    "실물이 예뻐 권성준이 빨개진 얼굴을 처음 보였다는 반응이 나왔다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "16학번으로 10년 만에 대학을 졸업하며 암모나이트라 자칭한 것", "why_hot": "발언"},
+    {"material": "닥터 섬보이 키스신에서 실수로 이재욱의 입술을 깨문 것", "why_hot": "장면"},
+    {"material": "권성준이 실물에 빨개진 얼굴을 처음 보였다는 반응", "why_hot": "발언"},
+    {"material": "JYP가 예능 출연을 자제시켰다는 사실을 직접 밝힌 것", "why_hot": "반전"},
+    {"material": "마라톤 동호회 탈퇴를 두고 션에게 양심 고백을 한 것", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "닥터 섬보이 키스신에서 대본을 잘못 읽어 벌어진 해프닝",
+    "냉부해에서 권성준이 얼굴을 붉힌 순간",
+    "자매치킨에서 션에게 양심 고백을 하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "잇미샤 2026 가을 화보",
+    "세터 우먼라인 모델 화보",
+    "대학내일 표지모델 화보"
+  ]
+}
