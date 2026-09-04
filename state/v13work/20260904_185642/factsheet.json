@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "오나라",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 52,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "52세에도 동안 미모로 화제인 배우, 김도훈과 25년째 공개 연애 중"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "오나라", "text": "계면활성제 안 써요, 수건 한 장이면 끝", "context": "인터뷰"},
+    {"speaker": "오나라", "text": "안 굶고 이렇게 먹어", "context": "인터뷰"},
+    {"speaker": "오나라", "text": "피부과 열심히 다닌다", "context": "인터뷰"},
+    {"speaker": "오나라", "text": "필요성을 못 느껴요", "context": "결혼 질문 답변"},
+    {"speaker": "오나라", "text": "마음 모르겠다, 끝까지 모를 듯", "context": "인터뷰"}
+  ],
+  "events": [
+    {"summary": "52세에도 20년 전과 같은 동안 미모를 유지하고 있다는 평가를 받는다", "year": null, "confirmed": true},
+    {"summary": "김도훈과 25년째 공개 연애 중이다", "year": null, "confirmed": true},
+    {"summary": "결혼 필요성을 못 느낀다는 소신을 여러 차례 밝혔다", "year": null, "confirmed": true},
+    {"summary": "연애 초반 9개월간 일본에서 어렵게 지낸 시절이 있었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "미우새에서 서장훈과 동갑임을 알고 친구 하자고 했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "52세", "meaning": "본인 나이"},
+    {"value": "25년", "meaning": "김도훈과의 연애 기간"},
+    {"value": "9개월", "meaning": "연애 초반 일본에서 지낸 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김도훈", "relation": "25년째 공개 연애 중인 배우", "mentioned_as": "연인"},
+    {"name": "소유진", "relation": "동료 배우", "mentioned_as": "관리 비결을 함께 공개한 동료"},
+    {"name": "서장훈", "relation": "미우새 동료 출연자", "mentioned_as": "동갑임을 확인한 동료"},
+    {"name": "전소민", "relation": "동료 배우", "mentioned_as": "응원 투샷을 남긴 동료"},
+    {"name": "이유진", "relation": "과거 아역 공동 출연자", "mentioned_as": "훌쩍 자란 근황이 화제된 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "20년 전 사진과 비교해도 동안이라는 평가를 받았다"
+  ],
+  "care_habits": [
+    "계면활성제 없이 수건만으로 세안을 마무리한다고 밝혔다",
+    "굶지 않고 관리한다고 밝혔다",
+    "피부과에 꾸준히 다닌다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "52세인데 20년 전 사진과 똑같다는 평가를 받은 것", "why_hot": "낙차"},
+    {"material": "계면활성제 없이 수건 한 장으로 세안을 끝낸다는 발언", "why_hot": "발언"},
+    {"material": "김도훈과 25년째 열애 중이면서도 결혼 필요성을 못 느낀다는 소신", "why_hot": "발언"},
+    {"material": "연애 초반 9개월간 일본에서 어렵게 지낸 시절을 밝힌 것", "why_hot": "발언"},
+    {"material": "서장훈과 동갑임을 알고 친구 하자고 한 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "소유진과 나란히 관리 비결 셀카를 남긴 장면",
+    "미우새에서 20년 전 사진을 공개한 장면",
+    "전소민과 응원 투샷을 남긴 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "네이비 블루 꽃무늬 원피스룩",
+    "화이트 수트 스타일링",
+    "파스텔 톤 드레스 3종 착장"
+  ],
+  "notes": "달라진 눈매에 대한 누리꾼 반응 기사는 성형 의혹으로 읽힐 수 있어 제외했다. 다이어트약 복용 관련 기사도 건강 관련 민감 소재로 판단해 제외했다. '착한사나이' 관련 기사는 극중 배역(외도·가정폭력) 내용이라 이 블로그 성격과 맞지 않아 제외했다."
+}
