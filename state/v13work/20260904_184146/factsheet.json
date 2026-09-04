@@ -1,0 +1,83 @@
+{
+  "person": {
+    "name": "박규영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "사마귀",
+    "identity_anchor": "사마귀·사랑스럽개·가오정 등에 출연했고 15kg을 감량한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박규영", "text": "아침에 커피 마시고 이 운동 해", "context": "인터뷰"},
+    {"speaker": "박규영", "text": "차은우? 우주에서 제일 잘생겨", "context": "인터뷰"},
+    {"speaker": "박규영", "text": "차은우랑 많이 친해, 거의 남매 관계", "context": "인터뷰"},
+    {"speaker": "박규영", "text": "연대 졸업 후 JYP 캐스팅, 대학 잡지 모델 경험 덕분", "context": "인터뷰"},
+    {"speaker": "박규영", "text": "살면서 웃을 일 많이 없어", "context": "예능 첫 소감"}
+  ],
+  "events": [
+    {"summary": "15kg을 감량했다", "year": null, "confirmed": true},
+    {"summary": "데뷔 9년 만에 예능에 첫 출연했다", "year": null, "confirmed": true},
+    {"summary": "연세대를 졸업한 뒤 JYP에 캐스팅됐다", "year": null, "confirmed": true},
+    {"summary": "발레를 7년간 배웠다", "year": null, "confirmed": true},
+    {"summary": "사마귀로 영화 첫 주연을 맡았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15kg", "meaning": "감량한 체중"},
+    {"value": "9년", "meaning": "데뷔부터 예능 첫 출연까지 걸린 기간"},
+    {"value": "7년", "meaning": "발레를 배운 기간이자 김정현과 재회까지 걸린 기간"},
+    {"value": "8살", "meaning": "김재원과의 나이 차"}
+  ],
+  "credentials": [
+    {"item": "외고·연세대 졸업", "whose": "본인"},
+    {"item": "발레 7년 경력", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "허락해주시면 감사하겠습니다", "where": "촬영 비하인드", "scale": ""},
+    {"text": "아주 현명해", "where": "방송", "scale": ""},
+    {"text": "7년만이지?", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "차은우", "relation": "사랑스럽개 상대역", "mentioned_as": "키스신 상대"},
+    {"name": "김정현", "relation": "가오정 공동 출연", "mentioned_as": "7년 만에 재회한 동료"},
+    {"name": "김재원", "relation": "가오정 공동 출연", "mentioned_as": "8살 연하 동료"},
+    {"name": "임시완", "relation": "사마귀 상대역", "mentioned_as": "극중 짝사랑 상대"},
+    {"name": "이민정", "relation": "가오정 동료 출연자", "mentioned_as": "반응을 남긴 동료"}
+  ],
+  "works": [
+    {"title": "사랑스럽개", "year": null, "costar": "차은우", "scene": "키스신 전 허락해달라는 스윗한 멘트를 건넨 장면", "kind": "실제"},
+    {"title": "사마귀", "year": null, "costar": "임시완", "scene": "짝사랑 감정으로 닫힌 결말을 연기한 장면", "kind": "극중"},
+    {"title": "가오정", "year": null, "costar": "김정현", "scene": "7년 만에 재회해 운명적이라는 평가를 받은 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "15kg을 감량하고 슬랜더한 몸매를 공개했다는 평가를 받았다"
+  ],
+  "care_habits": [
+    "아침에 커피를 마신 뒤 운동을 한다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "15kg 감량 후 마른 몸매를 유지하는 비결을 공개한 것", "why_hot": "발언"},
+    {"material": "차은우가 키스신 전 허락을 구하는 멘트를 건넨 것", "why_hot": "발언"},
+    {"material": "김정현과 7년 만에 재회해 운명적이라는 평가를 받은 것", "why_hot": "반전"},
+    {"material": "데뷔 9년 만에 예능에 첫 출연한 것", "why_hot": "낙차"},
+    {"material": "외고·연세대 출신 엄친딸이라는 것", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "사랑스럽개 키스신 전 차은우가 허락을 구한 장면",
+    "가오정에서 김정현과 7년 만에 재회한 장면",
+    "예능 첫 출연에서 엉뚱한 질문에 당황한 장면"
+  ],
+  "sns_materials": [
+    "호텔 객실에서 여유로운 근황을 전했다",
+    "패션 화보 사진과 함께 짧은 문구를 남겼다",
+    "보그 코리아 커버 사진을 공유했다"
+  ],
+  "press_only_materials": [
+    "COS 글로벌 앰배서더 화보",
+    "스노우피크어패럴 여름 컬렉션 화보",
+    "공항패션 사진"
+  ]
+}
