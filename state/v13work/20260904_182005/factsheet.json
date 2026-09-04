@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "조보아",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "탄금",
+    "identity_anchor": "탄금 등에 출연했고 최근 비연예인과 결혼해 득남한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "조보아", "text": "아빠는 치과의사, 딸 둘인 집이라 사랑 많이 받고 자랐다", "context": "인터뷰"},
+    {"speaker": "조보아", "text": "좋은 소식, 미리 알려줘 땡큐", "context": "근황 인터뷰"},
+    {"speaker": "조보아", "text": "출산 시기는 비공개", "context": "공식 입장"},
+    {"speaker": "조보아", "text": "복귀 후 배우로서 보답할 것", "context": "공식 입장"},
+    {"speaker": "채시라", "text": "좋은 소식 땡큐", "context": "동료 배우 축하 인터뷰"}
+  ],
+  "events": [
+    {"summary": "비연예인 남성과 10월 신부가 됐다", "year": null, "confirmed": true},
+    {"summary": "결혼 1년 만에 임신 소식을 전했다", "year": null, "confirmed": true},
+    {"summary": "결혼 2년 만에 아들을 얻었다", "year": null, "confirmed": true},
+    {"summary": "친동생 조유경이 연애 예능에 출연해 몰표를 받았다", "year": null, "confirmed": true},
+    {"summary": "이동욱과 5년 만에 재회해 예전 커플 애칭이 다시 언급됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "2년", "meaning": "결혼부터 득남까지 걸린 기간"},
+    {"value": "1년", "meaning": "결혼부터 임신 소식까지 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "조유경", "relation": "친동생, LG 직원", "mentioned_as": "연애 예능 몰표 화제의 주인공"},
+    {"name": "채시라", "relation": "동료 배우", "mentioned_as": "결혼·득남 소식을 축하한 선배"},
+    {"name": "이동욱", "relation": "예전 드라마 상대역", "mentioned_as": "5년 만에 재회한 인물"}
+  ],
+  "works": [
+    {"title": "탄금", "year": null, "costar": "", "scene": "봄빛 감성으로 눈맞춤하는 장면이 화제였다", "kind": "극중"},
+    {"title": "탄금", "year": null, "costar": "", "scene": "여름 한가운데 아련한 눈빛으로 시선을 압도했다는 평가를 받았다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "봄빛 감성 눈맞춤과 아련한 눈빛으로 미모가 화제였다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "비연예인과 결혼해 10월 신부가 된 소식", "why_hot": "낙차"},
+    {"material": "결혼 1년 만에 임신, 2년 만에 득남 소식", "why_hot": "반전"},
+    {"material": "친동생 조유경이 연애 예능에서 몰표 받은 것", "why_hot": "실명"},
+    {"material": "아빠가 치과의사인 두 딸 집에서 사랑받고 자랐다는 발언", "why_hot": "발언"},
+    {"material": "탄금에서 보인 아련한 눈빛과 미모", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "탄금 촬영장에서 보인 봄빛 감성 눈맞춤 장면",
+    "여름 한가운데 아련한 눈빛으로 시선을 압도한 장면",
+    "동생 조유경의 연애 예능 등장에 놀란 반응"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "탄금 관련 화보·스틸컷 이미지",
+    "결혼·득남 소식을 전하는 공식 보도 사진"
+  ]
+}
