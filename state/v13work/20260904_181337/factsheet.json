@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "남지현",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 30,
+    "age_range": "",
+    "career": "배우",
+    "major_work": "은애하는 도적님아",
+    "identity_anchor": "은애하는 도적님아·굿파트너·런닝맨에 출연한 배우"
+  },
+  "namesake_dropped": [
+    "포미닛 출신 걸그룹 활동 후 바레 강사·사업가로 전향한 남지현",
+    "운동복·브라톱 화보로 화제 된 글래머 몸매의 남지현"
+  ],
+  "quotes": [
+    {"speaker": "남지현", "text": "굿파트너2 출연 불발…장나라 선배가 있으니 걱정 없죠", "context": "MD인터뷰"},
+    {"speaker": "남지현", "text": "예능 나온 강훈 보며 평소랑 똑같네 싶어", "context": "런닝맨"},
+    {"speaker": "남지현", "text": "결혼 생각? NO..아직 내 일 같지 않아", "context": "조선일보 인터뷰"},
+    {"speaker": "남지현", "text": "결혼은 먼 일…고민할 게 없죠", "context": "노컷뉴스 인터뷰"},
+    {"speaker": "남지현", "text": "2025년 마지막 밤, 드라마 빛내준 배우·시청자들과 함께해 영광", "context": "KBS 연기대상 소감"}
+  ],
+  "events": [
+    {"summary": "은애하는 도적님아에서 문상민과 엇갈리는 전개로 화제를 모았다", "year": null, "confirmed": true},
+    {"summary": "굿파트너2 출연이 불발됐다는 소식이 전해졌다", "year": null, "confirmed": true},
+    {"summary": "KBS 연기대상에서 MC로 데뷔했다", "year": 2025, "confirmed": true},
+    {"summary": "런닝맨에서 강훈이 호감을 표하고 지예은이 질투하는 상황이 방송됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "30세", "meaning": "본인 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "문상민", "relation": "은애하는 도적님아 공동 주연", "mentioned_as": "상대역"},
+    {"name": "장나라", "relation": "굿파트너 공동 출연 선배 배우", "mentioned_as": "선배"},
+    {"name": "강훈", "relation": "런닝맨에서 호감을 표한 게스트", "mentioned_as": "예능 공동 출연자"},
+    {"name": "지예은", "relation": "런닝맨 동반 출연자", "mentioned_as": "질투 반응을 보인 동료"},
+    {"name": "유재석", "relation": "런닝맨 진행자", "mentioned_as": "MC 자리를 위협받은 인물"}
+  ],
+  "works": [
+    {"title": "은애하는 도적님아", "year": null, "costar": "문상민", "scene": "꽃신, 꽃비 고백에 다시 심쿵하게 만든 장면", "kind": "극중"},
+    {"title": "은애하는 도적님아", "year": null, "costar": "문상민", "scene": "난 못 가요 라고 말하며 결국 엇갈린 장면", "kind": "극중"},
+    {"title": "굿파트너", "year": null, "costar": "장나라", "scene": "남지현 부의 내연녀에게 복수하는 전개 속 한재이 임신 엔딩으로 충격을 준 장면", "kind": "극중"},
+    {"title": "런닝맨", "year": null, "costar": "유재석", "scene": "김순옥 드라마 특징을 분석해 유재석의 MC 자리를 위협했다는 평가를 받은 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "문상민과 은애하는 도적님아에서 남긴 엇갈림 명대사", "why_hot": "장면"},
+    {"material": "런닝맨에서 강훈이 호감을 고백하고 지예은이 질투한 상황", "why_hot": "반전"},
+    {"material": "김순옥 드라마 분석으로 유재석 MC 자리를 위협했다는 평가", "why_hot": "반전"},
+    {"material": "결혼 생각 없다는 담담한 인터뷰 발언", "why_hot": "발언"},
+    {"material": "KBS 연기대상에서 신인급으로 MC 데뷔한 사실", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "촬영장에서 문상민과 나눈 꽃신 꽃비 대사",
+    "런닝맨 게임 중 강훈이 호감을 고백한 장면",
+    "KBS 연기대상 무대에서 새해 자정 MC로 선 장면"
+  ],
+  "sns_materials": [
+    "생일과 추석을 맞아 인스타그램에 깜찍한 변신 사진을 공개했다"
+  ],
+  "press_only_materials": [
+    "가을 극장 나들이에서 화사한 화이트 패션을 선보인 사진"
+  ]
+}
