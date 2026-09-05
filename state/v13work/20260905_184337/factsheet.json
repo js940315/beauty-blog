@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "이효리",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 1979,
+    "age": 45,
+    "age_range": "",
+    "career": "27년 차 가수 겸 방송인, 제주 요가원 운영",
+    "major_work": "솔로 가수 활동, 예능 유퀴즈온더블럭 출연",
+    "identity_anchor": "27년 차 가수 겸 방송인 이효리, 제주에서 요가원을 운영하는 이상순의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이효리", "text": "몸무게 53kg, 살 빠지는 게 고민", "context": "라이프스타일 인터뷰"},
+    {"speaker": "이효리", "text": "나만 늙었다고 생각", "context": "성형·시술 관련 솔직한 고민 인터뷰"},
+    {"speaker": "이효리", "text": "배 쭈글쭈글해 크롭톱 못 입어", "context": "주름 관련 고백 인터뷰"},
+    {"speaker": "이효리", "text": "40대 되니 이마 넓어져…리쥬란+보톡스, 난 효과 별로", "context": "시술 관련 인터뷰"},
+    {"speaker": "이효리", "text": "CF는 의리 아닌 돈… 촬영 전 피부 시술 받아", "context": "광고 관련 인터뷰"},
+    {"speaker": "이효리", "text": "시술 부작용으로 눈이 안 감겨", "context": "시술 부작용 관련 솔직 고백"},
+    {"speaker": "이효리", "text": "자연스러움과의 갈등이 있다", "context": "미용시술 공개 인터뷰"},
+    {"speaker": "이효리", "text": "눈가 주름 많고 얼굴 처졌지만 다 가질 순 없어, 외모 관리중", "context": "인터뷰"},
+    {"speaker": "이효리", "text": "27년간 늘 조마조마했다", "context": "예능 유퀴즈온더블럭"},
+    {"speaker": "이효리", "text": "내 몸이 내 몸 같지 않아", "context": "부친상 이후 근황 인터뷰"}
+  ],
+  "events": [
+    {"summary": "부친상을 겪은 뒤 요가원에서 수련하며 마음을 다스렸다", "year": null, "confirmed": true},
+    {"summary": "제주에서 직접 요가원을 열고 운영하고 있다", "year": null, "confirmed": true},
+    {"summary": "요가원 내 신체 접촉을 금지하는 규칙을 공지했다", "year": null, "confirmed": true},
+    {"summary": "유재석의 캠프에서 만난 인연을 8개월 뒤에도 챙기며 위로를 건넸다", "year": null, "confirmed": true},
+    {"summary": "10년 만에 취재진 앞에 서며 근황을 전했다", "year": null, "confirmed": true},
+    {"summary": "뉴트리원 광고 모델로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "가볍게 걸어라라는 메시지의 타투를 새겼다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "53kg", "meaning": "본인이 밝힌 현재 체중"},
+    {"value": "27년", "meaning": "가수 활동 연차"},
+    {"value": "45", "meaning": "본인 나이"},
+    {"value": "20년", "meaning": "낸시랭과의 인연 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "당대 최고 아티스트", "where": "기사반응", "scale": ""},
+    {"text": "비타민부터 패션까지 영향받았다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이상순", "relation": "남편", "mentioned_as": "어깨를 감싸는 다정한 스킨십을 보임"},
+    {"name": "낸시랭", "relation": "20년지기 지인", "mentioned_as": "건강관리와 패션까지 영향받았다고 밝힘"},
+    {"name": "유재석", "relation": "예능 캠프 인연", "mentioned_as": "캠프에서 만난 참가자를 계속 챙김"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "무다이어트로 53kg를 유지한다고 밝힘",
+    "리쥬란과 보톡스 시술을 받았지만 본인은 효과가 별로라고 밝힘",
+    "CF 촬영 전 피부 시술을 받는다고 밝힘",
+    "시술 부작용으로 눈이 안 감기는 경험을 솔직히 공개함"
+  ],
+  "care_habits": ["요가로 몸과 마음을 다스린다"],
+  "hot_materials": [
+    {"material": "보톡스·리쥬란 효과가 별로라는 솔직한 시술 고백", "why_hot": "발언"},
+    {"material": "시술 부작용으로 눈이 안 감긴다는 고백", "why_hot": "반전"},
+    {"material": "27년간 조마조마했다는 커리어 고백", "why_hot": "발언"},
+    {"material": "10년 만에 취재진 앞에 선 근황", "why_hot": "낙차"},
+    {"material": "무다이어트 53kg 유지 비결", "why_hot": "반전"}
+  ],
+  "scene_materials": ["요가원에서 수련하는 장면", "10년 만에 취재진 앞에 선 장면"],
+  "sns_materials": ["드라이브 중 올린 영상 'I Love Me'"],
+  "press_only_materials": ["찰떡 메이크업과 부츠 코디 근황 화보"]
+}
