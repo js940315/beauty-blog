@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "서인영",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 1984,
+    "age": 41,
+    "age_range": "",
+    "career": "그룹 쿨 출신 솔로 가수, 예능 개과천선 출연",
+    "major_work": "솔로 가수 활동, 예능 개과천선",
+    "identity_anchor": "그룹 쿨 출신 솔로 가수 서인영, 예능 개과천선 출연자"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "서인영", "text": "워터밤 위해 지방 흡입, 인생 걸었다", "context": "예능 개과천선"},
+    {"speaker": "서인영", "text": "코 수술 5번에 비하면 이건 아무것도 아니다", "context": "예능 개과천선, 지방흡입 관련"},
+    {"speaker": "서인영", "text": "연예인 안 했으면 살 안 뺐다", "context": "지방흡입 관련 인터뷰"},
+    {"speaker": "서인영", "text": "피부과 돈 아까워, 이것이 훨씬 이득", "context": "예능 개과천선, 피부 관리 비결"},
+    {"speaker": "서인영", "text": "입금됐으면 해야 해", "context": "예능 개과천선, 손톱을 짧게 자르며"},
+    {"speaker": "서인영", "text": "마취 안 해, 난 독한 편", "context": "리프팅 시술 관련"},
+    {"speaker": "서인영", "text": "생수에 이것 타 마시며 혈당 관리", "context": "체중 감량 관련 인터뷰"},
+    {"speaker": "서인영", "text": "돼지였을 때 난리, 구운란·야채가루로 뺐다", "context": "15kg 감량 비결 인터뷰"},
+    {"speaker": "이지현", "text": "이거 나한테 큰 돈이야", "context": "서인영에게 4시간 일당 5만원을 주며 한 말"}
+  ],
+  "events": [
+    {"summary": "워터밤 무대를 위해 전신마취 후 지방흡입 수술을 받았다", "year": null, "confirmed": true},
+    {"summary": "15kg을 감량하고 46kg까지 체중을 뺐다", "year": null, "confirmed": true},
+    {"summary": "리프팅 시술을 마취 없이 받았다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "과거 카드 대출 문제로 아버지에게 통장을 뺏겼다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "생활비 마련을 위해 명품백을 팔았다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "워터밤 무대 선공개 영상이 하루 만에 조회수 300만을 돌파했다", "year": null, "confirmed": true},
+    {"summary": "5년 만에 대형 무대에 다시 서게 됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "15kg", "meaning": "감량한 체중"},
+    {"value": "46kg", "meaning": "감량 후 체중"},
+    {"value": "300만", "meaning": "워터밤 선공개 영상 조회수"},
+    {"value": "5년", "meaning": "대형 무대 복귀까지 걸린 기간"},
+    {"value": "41", "meaning": "본인 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이지현", "relation": "예능 동료", "mentioned_as": "일당을 주며 큰돈이라고 말함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "피부과 대신 홈케어로 피부를 관리한다고 밝힘",
+    "리프팅 시술을 마취 없이 받았다고 밝힘",
+    "생수에 무언가를 타 마시며 체중을 관리한다고 밝힘"
+  ],
+  "care_habits": ["홈케어로 피부를 관리한다", "구운란과 야채가루로 식단을 관리했다"],
+  "hot_materials": [
+    {"material": "워터밤 무대를 위해 지방흡입 수술까지 감행한 사연", "why_hot": "반전"},
+    {"material": "피부과 대신 가성비 홈케어를 택한 발언", "why_hot": "발언"},
+    {"material": "리프팅 시술을 마취 없이 받았다는 고백", "why_hot": "반전"},
+    {"material": "과거 카드 대출로 아버지에게 통장을 뺏긴 사연", "why_hot": "낙차"},
+    {"material": "워터밤 선공개 영상 조회수 300만 돌파", "why_hot": "장면"}
+  ],
+  "scene_materials": ["워터밤 무대 준비 현장"],
+  "sns_materials": [],
+  "press_only_materials": ["워터밤 무대 화보"]
+}
