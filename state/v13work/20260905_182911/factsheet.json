@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "정소민",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1987,
+    "age": null,
+    "age_range": "",
+    "career": "드라마 우주메리미, 엄마친구아들 등 출연 배우",
+    "major_work": "드라마 우주메리미(SBS 15년 만의 복귀작)",
+    "identity_anchor": "드라마 우주메리미·엄마친구아들 출연 배우 정소민"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "정소민", "text": "내게 귀요미라고… 심장이 남아나질 않아", "context": "예능 걸스옹탑, 조카 애교 언급"},
+    {"speaker": "정소민", "text": "정해인과 열애? 사실 아니다", "context": "열애설 관련 인터뷰 해명"},
+    {"speaker": "정소민", "text": "동생이 먼저 결혼…베프 같은 부부 부러워", "context": "인터뷰"},
+    {"speaker": "최우식", "text": "정소민을 알게 된 것이 가장 뜻깊었다, 케미 100점", "context": "우주메리미 관련 인터뷰"},
+    {"speaker": "최우식", "text": "정소민, 배울 점 많은 배우", "context": "우주메리미 관련 인터뷰"}
+  ],
+  "events": [
+    {"summary": "15년 만에 SBS 복귀작 우주메리미로 주연을 맡았다", "year": null, "confirmed": true},
+    {"summary": "상대역 최우식과 갈대밭 키스신이 최애 장면으로 꼽혔다", "year": null, "confirmed": true},
+    {"summary": "여행지에서도 다이어트 식단을 챙겨 먹으며 44kg를 유지한다고 알려졌다", "year": null, "confirmed": true},
+    {"summary": "정해인과의 열애설이 불거지자 사실이 아니라고 직접 해명했다", "year": null, "confirmed": true},
+    {"summary": "이음해시태그와 전속계약을 체결했다", "year": null, "confirmed": true},
+    {"summary": "이준이 공개연애를 언급하며 정소민의 이름이 함께 거론되자 정작 본인은 어리둥절해했다", "year": null, "confirmed": false}
+  ],
+  "numbers": [
+    {"value": "44kg", "meaning": "본인이 유지한다고 알려진 체중"},
+    {"value": "15년", "meaning": "SBS 드라마 복귀까지 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "정소민을 알게 된 것이 가장 뜻깊었다, 케미 100점", "where": "기사반응", "scale": ""},
+    {"text": "정소민, 배울 점 많은 배우", "where": "기사반응", "scale": ""},
+    {"text": "상상 이상으로 아름다웠다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "최우식", "relation": "드라마 우주메리미 상대역", "mentioned_as": "갈대밭 키스신 상대, 케미 극찬"},
+    {"name": "정해인", "relation": "열애설 상대로 거론", "mentioned_as": "열애설이 불거졌으나 본인이 부인함"},
+    {"name": "이준", "relation": "공개연애 언급 관련 인물", "mentioned_as": "공개연애 발언에 이름이 거론됨"}
+  ],
+  "works": [
+    {"title": "우주메리미", "year": null, "costar": "최우식", "scene": "교통사고로 만난 최우식에게 남편이 돼달라고 청혼하는 장면", "kind": "극중"},
+    {"title": "우주메리미", "year": null, "costar": "최우식", "scene": "갈대밭에서의 키스신이 최애 장면으로 꼽힘", "kind": "실제"},
+    {"title": "엄마친구아들", "year": null, "costar": "", "scene": "짙은 여운을 남긴 배석류 캐릭터 연기", "kind": "실제"}
+  ],
+  "beauty_evidence": ["여행 가서도 다이어트 식단을 챙겨 먹는다고 밝힘"],
+  "care_habits": ["여행지에서도 다이어트 식단을 챙긴다"],
+  "hot_materials": [
+    {"material": "15년 만의 SBS 복귀작에서 청혼 대사를 친 장면", "why_hot": "장면"},
+    {"material": "최우식이 직접 남긴 케미 100점 극찬", "why_hot": "발언"},
+    {"material": "44kg 유지 비결이 여행지 식단이라는 사실", "why_hot": "반전"},
+    {"material": "정해인과의 열애설을 직접 부인한 해명", "why_hot": "실명"},
+    {"material": "조카 앞에서 심쿵했다는 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": ["갈대밭에서의 키스신 장면", "극중 청혼 대사 장면"],
+  "sns_materials": [],
+  "press_only_materials": ["연보라 플로럴 드레스 화보", "런던 거리 화보", "파리 출국길 공항패션", "블랙&화이트 공항룩", "라이프스타일 브랜드 화보"]
+}
