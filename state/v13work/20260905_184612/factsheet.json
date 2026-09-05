@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "성유리",
+    "gender": "여성",
+    "job": "가수 겸 배우",
+    "birth_year": 1981,
+    "age": 45,
+    "age_range": "",
+    "career": "핑클 멤버 출신 가수 겸 배우, 방송인",
+    "major_work": "핑클 멤버, 예능 끝까지 간다 MC",
+    "identity_anchor": "핑클 멤버 출신 가수 겸 배우 성유리, 쌍둥이 딸을 둔 워킹맘"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "성유리", "text": "유산소 가야지", "context": "자기 관리 관련 발언"},
+    {"speaker": "성유리", "text": "힙쟁이 울아빠", "context": "78세 아버지 패션 자랑 SNS"},
+    {"speaker": "성유리", "text": "왜 이렇게 어려졌어", "context": "가죽 재킷 패션 관련 반응"},
+    {"speaker": "성유리", "text": "늘 변함없이 따뜻하고 유쾌해", "context": "근황 인터뷰"},
+    {"speaker": "성유리", "text": "난 내 길 간다", "context": "홈쇼핑 방송 복귀 소감"},
+    {"speaker": "이진", "text": "개미만하게", "context": "성유리가 이진 사진 실력에 남긴 애정 어린 불평"}
+  ],
+  "events": [
+    {"summary": "30kg 감량에 성공했다", "year": null, "confirmed": true},
+    {"summary": "150kg 무게를 번쩍 들어올리는 근력을 보여줬다", "year": null, "confirmed": true},
+    {"summary": "쌍둥이 딸을 두고 곧 셋째를 출산할 예정이라고 알렸다", "year": null, "confirmed": true},
+    {"summary": "한동안 방송 활동을 쉰 뒤 2년 7개월 만에 복귀했다", "year": null, "confirmed": true},
+    {"summary": "핑클 동료 이진, 선배 이효리 등 동료들의 응원 속에 방송에 복귀했다", "year": null, "confirmed": true},
+    {"summary": "78세 아버지의 패션을 SNS에 자랑했다", "year": null, "confirmed": true},
+    {"summary": "동료 배우들과 브런치 모임을 가지며 우정을 다졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "30kg", "meaning": "본인이 감량한 체중"},
+    {"value": "150kg", "meaning": "번쩍 들어올린 무게"},
+    {"value": "45", "meaning": "본인 나이"},
+    {"value": "78", "meaning": "아버지 연세"},
+    {"value": "2년 7개월", "meaning": "방송 공백 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "잘한다", "where": "방송", "scale": ""},
+    {"text": "개미만하게", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이효리", "relation": "선배 가수", "mentioned_as": "방송 복귀를 응원함"},
+    {"name": "이진", "relation": "핑클 동료", "mentioned_as": "우정을 이어가는 사이"},
+    {"name": "한지혜", "relation": "동료 배우", "mentioned_as": "브런치 모임을 함께함"}
+  ],
+  "works": [],
+  "beauty_evidence": ["식단 관리로 도자기 피부를 유지한다고 알려짐", "30kg 감량에 성공함", "150kg를 들어올릴 만큼 근력을 관리함"],
+  "care_habits": ["유산소 운동을 챙긴다", "레깅스 차림으로 몸매를 관리한다"],
+  "hot_materials": [
+    {"material": "45세인데 도자기 피부를 유지하는 식단 관리", "why_hot": "반전"},
+    {"material": "150kg를 번쩍 들어올리는 근력", "why_hot": "장면"},
+    {"material": "2년 7개월 만의 방송 복귀에 이효리가 보낸 응원", "why_hot": "발언"},
+    {"material": "78세 아버지의 패션을 자랑한 훈훈한 일화", "why_hot": "발언"},
+    {"material": "30kg 감량 성공", "why_hot": "반전"}
+  ],
+  "scene_materials": ["150kg를 들어올리는 장면", "방송 복귀 현장"],
+  "sns_materials": ["78세 아버지 패션을 자랑한 SNS 게시물", "쌍둥이 딸과 수영장 데이트 사진"],
+  "press_only_materials": ["가죽 재킷 화보", "슬릿 드레스 화보"]
+}
