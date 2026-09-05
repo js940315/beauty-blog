@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "이주영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "영화 녹야, 호프 등 출연 배우",
+    "major_work": "영화 호프(200만 관객), 영화 녹야, 드라마 나의 첫 번째 졸업식",
+    "identity_anchor": "영화 녹야·호프, 드라마 나의 첫 번째 졸업식 출연 배우"
+  },
+  "namesake_dropped": ["솔로지옥5 출연자 이주영(대림 손녀·김재진 열애설)", "시사저널 정치 인터뷰 속 동명이인 이주영"],
+  "quotes": [
+    {"speaker": "이주영", "text": "선하고 정의로운 역할 많이…악역 도전 원해", "context": "RE:뷰 인터뷰"},
+    {"speaker": "이주영", "text": "한달째 천장서 물 줄줄, 나가지도 못해", "context": "집 누수 피해 호소"},
+    {"speaker": "이주영", "text": "곧 수영도 가능할 듯", "context": "집 누수 피해 호소"},
+    {"speaker": "이주영", "text": "너무 즐거웠다", "context": "야구선수 이정후와 만난 뒤 소감"}
+  ],
+  "events": [
+    {"summary": "집 천장 누수 피해로 소송을 예고했다", "year": null, "confirmed": true},
+    {"summary": "야구선수 이정후를 만나 51번 유니폼을 입고 응원했다", "year": null, "confirmed": true},
+    {"summary": "영화 호프가 관객 200만 명을 넘기며 흥행했다", "year": null, "confirmed": true},
+    {"summary": "영화 녹야 관련해 판빙빙에게 손편지로 캐스팅 제안을 받았다", "year": null, "confirmed": true},
+    {"summary": "배우 박은빈과 함께 아이유 콘서트를 관람했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "200만", "meaning": "영화 호프 누적 관객수"},
+    {"value": "51", "meaning": "이정후 응원 당시 착용한 유니폼 번호"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "치명적", "where": "기사반응", "scale": ""},
+    {"text": "너 갈수록 더 예뻐진다", "where": "기사반응", "scale": ""},
+    {"text": "연애편지 쓰듯 이주영에 손편지 썼다", "where": "기사반응", "scale": ""},
+    {"text": "각선미 레전드", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "고현정", "relation": "화보 동료·선배 배우", "mentioned_as": "화보를 보고 감탄 코멘트를 남김"},
+    {"name": "판빙빙", "relation": "영화 녹야 관련 인연", "mentioned_as": "손편지로 캐스팅을 제안함"},
+    {"name": "박은빈", "relation": "배우 동료", "mentioned_as": "아이유 콘서트 동행"},
+    {"name": "이정후", "relation": "야구선수·인연", "mentioned_as": "경기장에서 만나 유니폼 입고 응원"},
+    {"name": "엄태구", "relation": "같은 소속사 동료", "mentioned_as": "팀호프 전속계약 동료"},
+    {"name": "변요한", "relation": "같은 소속사 동료", "mentioned_as": "팀호프 전속계약 동료"}
+  ],
+  "works": [
+    {"title": "녹야", "year": null, "costar": "판빙빙", "scene": "판빙빙이 손편지로 캐스팅을 제안한 일화", "kind": "실제"},
+    {"title": "호프", "year": null, "costar": "", "scene": "관객 200만 명을 넘긴 흥행작", "kind": "실제"},
+    {"title": "나의 첫 번째 졸업식", "year": null, "costar": "", "scene": "촬영을 이어가는 근황", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "판빙빙이 손편지로 캐스팅 제안한 일화", "why_hot": "반전"},
+    {"material": "고현정이 화보를 보고 남긴 감탄 코멘트", "why_hot": "발언"},
+    {"material": "집 천장 누수로 소송을 예고한 사연", "why_hot": "낙차"},
+    {"material": "야구선수 이정후와의 응원 인연", "why_hot": "실명"},
+    {"material": "선한 이미지와 달리 악역 도전을 원한다는 발언", "why_hot": "반전"}
+  ],
+  "scene_materials": ["침대 위 셀카로 근황을 전한 장면", "야구장에서 유니폼을 입고 응원한 장면", "박은빈과 나란히 콘서트를 관람한 장면"],
+  "sns_materials": ["비 온 날 자연스러운 근황 사진(스한그램 코너)", "침대 위에서 남긴 셀카 근황"],
+  "press_only_materials": ["언더웨어 콘셉트 화보(고현정 감탄 코멘트 포함)", "야생미 컨셉 화보", "서울패션로드 행사 포토", "옥상 레몬요정 컨셉 촬영", "매니시룩 데님 팬츠 화보"]
+}

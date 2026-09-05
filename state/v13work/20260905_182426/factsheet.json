@@ -1,0 +1,56 @@
+{
+  "person": {
+    "name": "류현경",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1984,
+    "age": null,
+    "age_range": "",
+    "career": "영화 아무도 없는 숲속에서 등 다수 작품 출연 배우",
+    "major_work": "영화 아무도 없는 숲속에서",
+    "identity_anchor": "영화 아무도 없는 숲속에서 주연, 예능 백반기행 출연 배우 류현경"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "류현경", "text": "내 불행을 네 권리라고 생각하지 마", "context": "영화 아무도 없는 숲속에서 극중 대사"},
+    {"speaker": "류현경", "text": "엄마가 하지 말래요", "context": "예능 백반기행 인터뷰"},
+    {"speaker": "류현경", "text": "혼삿길 다 막혔다", "context": "곽튜브 결혼식 관련 발언"},
+    {"speaker": "류현경", "text": "곽 장가가는 날 만세!!", "context": "곽튜브 결혼식 참석 소감"},
+    {"speaker": "류현경", "text": "독립적인 남자를 원한다", "context": "결혼관 관련 해명"}
+  ],
+  "events": [
+    {"summary": "배우 박성훈과 6~7년간 공개 열애 후 결별했다", "year": null, "confirmed": true},
+    {"summary": "결별 이후 모친이 결혼을 반대한다는 보도가 나오자 직접 해명했다", "year": null, "confirmed": true},
+    {"summary": "데뷔 후에도 생활고로 아르바이트를 했다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "유튜버 곽튜브의 결혼식에 참석해 축하했다", "year": null, "confirmed": true},
+    {"summary": "영화 아무도 없는 숲속에서 처절한 열연을 펼쳤다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "6~7년", "meaning": "박성훈과의 공개 열애 기간(매체마다 6년·7년으로 표기)"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "박성훈", "relation": "전 연인", "mentioned_as": "6~7년 공개 열애 후 결별"},
+    {"name": "곽튜브", "relation": "유튜버·지인", "mentioned_as": "결혼식에 참석해 축하함"}
+  ],
+  "works": [
+    {"title": "아무도 없는 숲속에서", "year": null, "costar": "", "scene": "내 불행을 네 권리라고 생각하지 말라는 대사로 처절한 열연", "kind": "극중"},
+    {"title": "백반기행", "year": null, "costar": "", "scene": "결혼관에 대한 속내를 밝힌 출연", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "혼삿길 다 막혔다는 농담 발언", "why_hot": "발언"},
+    {"material": "모친 결혼 반대설에 직접 해명한 사연", "why_hot": "반전"},
+    {"material": "데뷔 후에도 생활고로 알바했다는 고백", "why_hot": "낙차"},
+    {"material": "6~7년 공개 열애 후 결별", "why_hot": "낙차"},
+    {"material": "곽튜브 결혼식에서 만세를 외친 장면", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "곽튜브 결혼식장에서 만세를 외친 장면",
+    "영화 속 처절한 대사 장면"
+  ],
+  "sns_materials": ["후드티 입고 근황을 전한 일상 사진"],
+  "press_only_materials": ["매거진 인터뷰 화보", "영화 GV 현장 사진", "백반기행 방송 캡처"]
+}
