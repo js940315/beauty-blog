@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "강한나",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1990,
+    "age": 36,
+    "age_range": "",
+    "career": "드라마 남편들·캐셔로, 영화 파일럿 등 출연 배우, 런닝맨 등 예능 출연",
+    "major_work": "드라마 남편들, 영화 파일럿",
+    "identity_anchor": "드라마 남편들·캐셔로, 영화 파일럿 출연 배우 강한나"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "강한나", "text": "전남편 진선규, 현남편 공명에게 애정 듬뿍 받았다", "context": "드라마 남편들 제작보고회"},
+    {"speaker": "강한나", "text": "공명과는 꽁냥 케미, 진선규와는 애증 케미", "context": "드라마 남편들 관련 인터뷰"},
+    {"speaker": "강한나", "text": "런닝맨 고정 멤버 요청? 재미있게 편집해주신 것", "context": "라디오쇼 출연"},
+    {"speaker": "박명수", "text": "강한나, 10년 젊어졌다, 아이돌 느낌", "context": "라디오쇼"},
+    {"speaker": "강한나", "text": "여태 먹어본 중 제일 맛있네", "context": "임윤아에게 준 디저트 관련 반응"}
+  ],
+  "events": [
+    {"summary": "4년 만에 런닝맨에 복귀해 최다 출연 기록을 세웠다", "year": null, "confirmed": true},
+    {"summary": "드라마 남편들에서 진선규를 전남편, 공명을 현남편으로 만나는 배역을 맡았다", "year": null, "confirmed": true},
+    {"summary": "영화 파일럿에 출연했다", "year": null, "confirmed": true},
+    {"summary": "예능 백패커2에서 고경표를 지원사격했다", "year": null, "confirmed": true},
+    {"summary": "박명수로부터 10년 젊어졌다는 극찬을 받았다", "year": null, "confirmed": true},
+    {"summary": "임윤아에게 준 디저트가 극찬을 받았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4년", "meaning": "런닝맨 복귀까지 걸린 공백 기간"},
+    {"value": "36", "meaning": "본인 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "강한나, 10년 젊어졌다, 아이돌 느낌", "where": "방송", "scale": ""},
+    {"text": "여태 먹어본 중 제일 맛있네", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "진선규", "relation": "드라마 남편들 극중 전남편 역", "mentioned_as": "애증 케미로 언급됨"},
+    {"name": "공명", "relation": "드라마 남편들 극중 현남편 역", "mentioned_as": "꽁냥 케미로 언급됨"},
+    {"name": "박명수", "relation": "라디오쇼 진행자", "mentioned_as": "10년 젊어졌다고 극찬함"},
+    {"name": "임윤아", "relation": "동료 연예인", "mentioned_as": "디저트를 극찬함"}
+  ],
+  "works": [
+    {"title": "남편들", "year": null, "costar": "진선규, 공명", "scene": "극중 전남편 진선규, 현남편 공명과 얽히는 설정", "kind": "극중"},
+    {"title": "파일럿", "year": null, "costar": "", "scene": "영화 출연", "kind": "실제"},
+    {"title": "캐셔로", "year": null, "costar": "", "scene": "빌런 캐릭터로 강렬한 얼굴을 보여줌", "kind": "극중"}
+  ],
+  "beauty_evidence": ["박명수로부터 10년 젊어졌다, 아이돌 느낌이라는 극찬을 받았다"],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "박명수가 10년 젊어졌다고 극찬한 일화", "why_hot": "발언"},
+    {"material": "드라마 남편들 속 전남편·현남편 케미", "why_hot": "반전"},
+    {"material": "4년 만에 런닝맨 복귀해 최다 출연 기록", "why_hot": "낙차"},
+    {"material": "임윤아가 극찬한 디저트 선물", "why_hot": "발언"},
+    {"material": "빌런 캐릭터로 강렬한 얼굴을 보여준 반전", "why_hot": "반전"}
+  ],
+  "scene_materials": ["런닝맨 복귀 현장", "남편들 제작보고회 현장"],
+  "sns_materials": [],
+  "press_only_materials": ["플리츠 스커트 청순 프레피룩 화보", "남편들 제작보고회 포토"]
+}
