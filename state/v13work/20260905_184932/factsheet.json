@@ -1,0 +1,59 @@
+{
+  "person": {
+    "name": "옥주현",
+    "gender": "여성",
+    "job": "가수 겸 뮤지컬 배우",
+    "birth_year": 1979,
+    "age": 46,
+    "age_range": "",
+    "career": "핑클 멤버 출신 가수 겸 뮤지컬 배우",
+    "major_work": "핑클 멤버, 다수 뮤지컬 주연",
+    "identity_anchor": "핑클 멤버 출신 가수 겸 뮤지컬 배우 옥주현"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "옥주현", "text": "이 다이어트, 고속노화 유발한다", "context": "다이어트 관련 경고성 인터뷰"},
+    {"speaker": "옥주현", "text": "다이어트 잘못했다가 급속도로 늙었다", "context": "다이어트 관련 인터뷰"},
+    {"speaker": "옥주현", "text": "허리 사이즈 두 번 줄였다", "context": "몸매 관리 인터뷰"},
+    {"speaker": "옥주현", "text": "주름 생길까 봐 이것 절대 안 써", "context": "피부 관리 인터뷰"},
+    {"speaker": "옥주현", "text": "잔머리 없어져, 돈 있어도 안 되더라", "context": "모발 이식 부작용 관련 솔직 고백"},
+    {"speaker": "옥주현", "text": "핑클 시절 수백만 원 용돈, 부모님이 관리했다", "context": "과거 회상 인터뷰"},
+    {"speaker": "옥주현", "text": "추웠어도 황홀지경", "context": "박효신을 들어올린 뒤 소감"}
+  ],
+  "events": [
+    {"summary": "탈모로 모발 이식을 받았으나 부작용을 겪었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "173cm 신장에 허리 사이즈를 두 번 줄인 몸매 관리 비결을 공개했다", "year": null, "confirmed": true},
+    {"summary": "노래방에서도 목소리 관리를 위해 무언가를 챙긴다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "공연 중 박효신을 번쩍 들어올렸다", "year": null, "confirmed": true},
+    {"summary": "배우 박형식과 6촌 관계라는 사실이 알려졌다", "year": null, "confirmed": true},
+    {"summary": "핑클 동료 이진이 첫 공연을 찾아와 우정을 보여줬다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "173cm", "meaning": "본인 신장"},
+    {"value": "46", "meaning": "본인 나이"},
+    {"value": "2번", "meaning": "허리 사이즈를 줄인 횟수"},
+    {"value": "6촌", "meaning": "박형식과의 친척 관계"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "울 옥이 축하해", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "박효신", "relation": "공연 동료", "mentioned_as": "번쩍 들어올린 상대"},
+    {"name": "박형식", "relation": "6촌 관계", "mentioned_as": "박효신 콘서트에서 만난 인연"},
+    {"name": "이진", "relation": "핑클 동료", "mentioned_as": "공연을 찾아와 축하함"}
+  ],
+  "works": [],
+  "beauty_evidence": ["허리 사이즈를 두 번 줄인 몸매 관리", "주름 생길까 봐 특정 제품은 절대 안 쓴다고 밝힘", "목소리 관리를 위해 무언가를 챙긴다고 밝힘"],
+  "care_habits": ["노래방에서도 목소리 관리 용품을 챙긴다", "무리한 다이어트를 경계한다"],
+  "hot_materials": [
+    {"material": "다이어트 잘못하면 급속 노화된다는 경고성 고백", "why_hot": "발언"},
+    {"material": "탈모·모발 이식 부작용을 솔직히 밝힘", "why_hot": "반전"},
+    {"material": "173cm에 허리 사이즈를 두 번 줄인 관리", "why_hot": "낙차"},
+    {"material": "박효신을 번쩍 들어올린 장면", "why_hot": "장면"},
+    {"material": "박형식과 6촌이라는 의외의 인연", "why_hot": "실명"}
+  ],
+  "scene_materials": ["박효신을 들어올리는 공연 장면"],
+  "sns_materials": [],
+  "press_only_materials": ["공연 무대 사진"]
+}
