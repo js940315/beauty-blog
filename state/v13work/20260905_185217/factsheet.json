@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "손담비",
+    "gender": "여성",
+    "job": "가수 겸 배우",
+    "birth_year": 1982,
+    "age": 42,
+    "age_range": "",
+    "career": "가수 겸 배우, 딸을 둔 워킹맘",
+    "major_work": "솔로 가수 활동",
+    "identity_anchor": "가수 겸 배우 손담비, 이규혁의 아내이자 딸을 둔 엄마"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "손담비", "text": "진심 민낯 맞음", "context": "리프팅 시술 후 근황 인터뷰"},
+    {"speaker": "손담비", "text": "관리에 가까워", "context": "리프팅 시술 관련 인터뷰"},
+    {"speaker": "손담비", "text": "잡초처럼 나와", "context": "기미·잡티 고민 인터뷰"},
+    {"speaker": "손담비", "text": "왜 이렇게 늙었냐고 할까 봐", "context": "출산 후 관리 관련 인터뷰"},
+    {"speaker": "손담비", "text": "무리한 다이어트 NO", "context": "출산 후 체중 감량 인터뷰"},
+    {"speaker": "손담비", "text": "이규혁, 술 먹으면 무릎 꿇고 들어와", "context": "남편 관련 에피소드"},
+    {"speaker": "손담비", "text": "관리 비결은 홈케어", "context": "피부 관리 인터뷰"}
+  ],
+  "events": [
+    {"summary": "리프팅 시술을 받은 뒤 근황을 공개하며 민낯 자신감을 보였다", "year": null, "confirmed": true},
+    {"summary": "임신 중 편평사마귀 380개가 생겨 출산 후 제거 시술을 받았다", "year": null, "confirmed": true},
+    {"summary": "출산 후 10개월 만에 46kg까지 감량해 결혼 전보다 마른 상태가 됐다", "year": null, "confirmed": true},
+    {"summary": "출산 90일 만에 13kg을 감량했다", "year": null, "confirmed": true},
+    {"summary": "다리를 쭉 찢는 유연성을 과시했다", "year": null, "confirmed": true},
+    {"summary": "남편 이규혁이 술을 마신 날 무릎을 꿇고 들어온다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "75세 어머니의 매끈한 피부 관리 비결이 화제가 됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "380개", "meaning": "제거한 편평사마귀 개수"},
+    {"value": "46kg", "meaning": "출산 10개월 후 체중"},
+    {"value": "13kg", "meaning": "출산 90일 만에 감량한 무게"},
+    {"value": "42", "meaning": "본인 나이"},
+    {"value": "75", "meaning": "어머니 연세"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이규혁", "relation": "남편", "mentioned_as": "무릎 꿇고 귀가하는 애교로 언급됨"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "리프팅 시술 후 민낯 자신감을 보임",
+    "홈케어로 피부를 관리한다고 밝힘",
+    "무리한 다이어트 없이 13kg을 감량함"
+  ],
+  "care_habits": ["홈케어로 피부를 관리한다", "유연성 운동을 챙긴다"],
+  "hot_materials": [
+    {"material": "리프팅 시술 후 민낯 자신감을 공개한 근황", "why_hot": "반전"},
+    {"material": "임신 중 생긴 편평사마귀 380개를 제거한 사연", "why_hot": "낙차"},
+    {"material": "출산 후 46kg까지 감량한 체중 변화", "why_hot": "낙차"},
+    {"material": "남편 이규혁의 무릎 꿇는 귀가 애교", "why_hot": "발언"},
+    {"material": "딸이 늙었다고 할까 봐 관리에 매진한 사연", "why_hot": "반전"}
+  ],
+  "scene_materials": ["다리를 쭉 찢는 유연성 자랑 장면"],
+  "sns_materials": [],
+  "press_only_materials": ["출산 4개월 차 생얼 화보"]
+}
