@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "백진희",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": 1990,
+    "age": 35,
+    "age_range": "",
+    "career": "드라마 하이킥! 짧은 다리의 역습 등 출연, 19년 차 배우",
+    "major_work": "드라마 하이킥! 짧은 다리의 역습",
+    "identity_anchor": "드라마 하이킥! 짧은 다리의 역습 출연 19년 차 배우 백진희"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "백진희", "text": "10년 된 화장품 그냥 쓴다", "context": "라이프스타일 인터뷰"},
+    {"speaker": "백진희", "text": "아침마다 이 음료로 부기 빼", "context": "라이프스타일 인터뷰"},
+    {"speaker": "백진희", "text": "밀당 못 해, 멍청했다", "context": "윤현민과 결별 관련 자책"},
+    {"speaker": "백진희", "text": "끝난 연애는 뒤돌아보지 않아", "context": "연애관 관련 발언"},
+    {"speaker": "백진희", "text": "소주 8병 나눠 마시고 귀금속 분실, 택시비 눈탱이 맞았다, 술 끊었다", "context": "예능 발언"},
+    {"speaker": "백진희", "text": "'하이킥'으로 번 돈, 이중계약 위약금으로 다 날려, 인생공부했다", "context": "이중계약 피해 고백"},
+    {"speaker": "백진희", "text": "요즘 잠도 못 잔다", "context": "주식 손실 관련 발언"},
+    {"speaker": "백진희", "text": "악역 하고파", "context": "윤현민과 결별 후 첫 공식석상 인터뷰"},
+    {"speaker": "최다니엘", "text": "백진희와 키스신 조회수 6800만, 엉덩이 실루엣으로 화제", "context": "방송 인터뷰"},
+    {"speaker": "김구라", "text": "골 깊어", "context": "라디오스타 방송 중"}
+  ],
+  "events": [
+    {"summary": "최다니엘과의 침대 키스신이 조회수 6800만 회를 기록하며 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "이중계약 사기 피해로 하이킥 출연료를 위약금으로 날렸다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "배우 윤현민과 공개 열애 후 결별했다", "year": null, "confirmed": true},
+    {"summary": "주식 손실로 잠을 못 잔다고 토로했다", "year": null, "confirmed": true},
+    {"summary": "결별 후 첫 공식석상에서 악역에 도전하고 싶다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "요가로 다져진 몸매가 화제가 됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "6800만", "meaning": "최다니엘과의 키스신 조회수"},
+    {"value": "10년", "meaning": "본인이 그대로 쓴다고 밝힌 화장품 사용 기간"},
+    {"value": "19년", "meaning": "데뷔 후 활동 연차"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "백진희와 키스신 조회수 6800만, 엉덩이 실루엣으로 화제", "where": "방송", "scale": "6800만"},
+    {"text": "골 깊어", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "최다니엘", "relation": "드라마 상대역", "mentioned_as": "키스신 상대"},
+    {"name": "김구라", "relation": "방송 진행자", "mentioned_as": "키스신 장면에 반응함"},
+    {"name": "윤현민", "relation": "전 연인", "mentioned_as": "공개 열애 후 결별"}
+  ],
+  "works": [
+    {"title": "하이킥! 짧은 다리의 역습", "year": null, "costar": "최다니엘", "scene": "침대 키스신이 조회수 6800만 회를 기록", "kind": "극중"}
+  ],
+  "beauty_evidence": ["10년 된 화장품을 그냥 쓴다고 밝힘", "아침마다 특정 음료로 부기를 뺀다고 밝힘"],
+  "care_habits": ["아침마다 음료로 부기를 뺀다", "요가로 몸매를 관리한다", "술을 끊었다"],
+  "hot_materials": [
+    {"material": "최다니엘과의 키스신 조회수 6800만 기록", "why_hot": "장면"},
+    {"material": "10년 된 화장품을 그냥 쓴다는 소탈한 고백", "why_hot": "반전"},
+    {"material": "이중계약 사기로 출연료를 다 날린 사연", "why_hot": "낙차"},
+    {"material": "윤현민과 결별 후 밀당 못 했다고 자책한 발언", "why_hot": "발언"},
+    {"material": "주식 손실로 잠 못 잔다는 하소연", "why_hot": "반전"}
+  ],
+  "scene_materials": ["침대 키스신 장면", "결별 후 첫 공식석상"],
+  "sns_materials": ["윤현민과 결별 후 함박웃음 지은 SNS 재개 사진"],
+  "press_only_materials": ["글래머러스한 드레스 화보", "가을 니트 화보", "퇴근길 포착 사진"]
+}
