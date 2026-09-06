@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "유선",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "49",
+    "age_range": "40대",
+    "career": "데뷔 후 쭉 동안 미모로 불려온 배우, 원조 패셔니스타",
+    "major_work": "",
+    "identity_anchor": "데뷔 후 쭉 동안 미모라 불려온 원조 패셔니스타 배우"
+  },
+  "namesake_dropped": ["32년 지기 유호정 친구 윤유선(판사 남편)", "고딩엄빠4 출연자 서유선"],
+  "quotes": [
+    {"speaker": "유선", "text": "갱년기 건강관리에 신경 쓴다", "context": "동안 비결을 묻는 질문에"},
+    {"speaker": "유선", "text": "연기를 포기하고 싶은 적이 많았는데 남편 덕분에 버텼다", "context": "무명 시절의 어려움을 회상하며"},
+    {"speaker": "유선", "text": "좋은 배우가 될 거라 응원해준 게 큰 힘이 됐다", "context": "슬럼프 시절 남편의 응원을 전하며"},
+    {"speaker": "유선", "text": "남편과 대기업 로비에서 만났을 뿐이다", "context": "남편 재벌 2세설에 대해 직접 해명하며"},
+    {"speaker": "유선", "text": "연애 10년, 결혼 14년째인데 아직도 매일 뽀뽀와 허그를 한다", "context": "부부 금슬을 전하며"}
+  ],
+  "events": [
+    {"summary": "중학생 딸과 웨딩드레스 화보를 찍어 붕어빵 미모로 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "무명 시절 연기를 포기하고 싶을 만큼 힘들었다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "남편의 재벌 2세설이 돌자 대기업 로비에서 만났을 뿐이라고 직접 해명했다", "year": null, "confirmed": true},
+    {"summary": "서울패션위크에 참석해 원조 패셔니스타라는 평가를 받았다", "year": null, "confirmed": true},
+    {"summary": "절친 김숙에게 패션 취향을 놀림받은 일화가 방송에서 공개됐다", "year": null, "confirmed": true},
+    {"summary": "50세에 14년 만에 웨딩드레스를 다시 입고 설렌다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49세", "meaning": "나이"},
+    {"value": "14년", "meaning": "남편과의 결혼 기간"},
+    {"value": "10년", "meaning": "남편과의 연애 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "너무 예뻐", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김숙", "relation": "절친한 동료 배우·방송인", "mentioned_as": "패션 취향을 놀린 절친"}
+  ],
+  "works": [],
+  "beauty_evidence": ["데뷔 후 쭉 동안 미모라는 평가를 받아왔다", "중학생 딸과 나란히 서도 자매처럼 보인다는 반응이 있었다"],
+  "care_habits": ["갱년기에 맞춰 건강관리에 신경 쓴다고 밝혔다"],
+  "hot_materials": [
+    {"material": "중학생 딸과 붕어빵 미모 웨딩화보", "why_hot": "장면"},
+    {"material": "남편 재벌 2세설을 직접 해명한 사연", "why_hot": "반전"},
+    {"material": "무명시절 포기하고 싶었는데 남편 덕에 버텼다는 고백", "why_hot": "발언"},
+    {"material": "결혼 14년째 매일 뽀뽀·허그한다는 발언", "why_hot": "발언"},
+    {"material": "김숙에게 패션 취향 놀림받은 일화", "why_hot": "실명"}
+  ],
+  "scene_materials": ["중학생 딸과 나란히 웨딩드레스를 입고 선 순간", "갱년기 건강관리를 이야기하던 순간"],
+  "sns_materials": [],
+  "press_only_materials": ["서울패션위크 청청패션 화보", "리마인드 웨딩화보"]
+}
