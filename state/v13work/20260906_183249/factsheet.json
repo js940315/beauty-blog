@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "서지혜",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "연애 예능 출신 꼬리표를 떼고 완전한 배우로 자리잡은 배우",
+    "major_work": "조립식 가족",
+    "identity_anchor": "연애 예능 출신에서 배우로 인생 2막을 연 배우"
+  },
+  "namesake_dropped": ["미래탐구 강사 서지혜"],
+  "quotes": [
+    {"speaker": "박성웅", "text": "47세에 20대 서지혜와 멜로를 찍는데, 끝날 때까지 미안하다고 했다", "context": "나이차 있는 멜로 작품 현장에서"},
+    {"speaker": "서지혜", "text": "설레는 새 시작", "context": "소지섭, 옥택연과 같은 소속사로 이적하며"}
+  ],
+  "events": [
+    {"summary": "연애 예능 출신 꼬리표를 떼고 완전한 배우로 인생 2막을 열었다는 평가를 받았다", "year": null, "confirmed": true},
+    {"summary": "소지섭, 옥택연과 같은 소속사로 새 출발을 알렸다", "year": null, "confirmed": true},
+    {"summary": "드라마 조립식 가족 종영 후 제주에서 휴식하는 근황이 전해졌다", "year": null, "confirmed": true},
+    {"summary": "드라마 김부장에 소지섭의 아내로 특별 출연해 눈물바다를 이룬 죽음 장면을 연기했다", "year": null, "confirmed": true},
+    {"summary": "드라마 허수아비에 출연하며 라이징 스타 행보를 이어갔다", "year": null, "confirmed": true},
+    {"summary": "이정재, 임지연과 함께 드라마 얄미운 사랑에 출연했다", "year": null, "confirmed": true},
+    {"summary": "드라마 엄마친구아들에서 정해인과 백허그, 딥키스 장면을 연기했다", "year": null, "confirmed": true},
+    {"summary": "생일을 맞아 축하 인사를 전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4단", "meaning": "본인이 밝힌 합기도 공인 단수"}
+  ],
+  "credentials": [
+    {"item": "합기도 공인 4단", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "박성웅", "relation": "나이차 있는 멜로 작품 상대역", "mentioned_as": "미안하다고 말한 멜로 상대역"},
+    {"name": "소지섭", "relation": "같은 소속사 동료이자 드라마 김부장 상대역", "mentioned_as": "김부장에서 남편 역"},
+    {"name": "옥택연", "relation": "같은 소속사로 이적한 동료 배우", "mentioned_as": "한솥밥 동료"},
+    {"name": "이정재", "relation": "드라마 얄미운 사랑 공동 출연", "mentioned_as": "얄미운 사랑 공동 출연진"},
+    {"name": "임지연", "relation": "드라마 얄미운 사랑 공동 출연", "mentioned_as": "얄미운 사랑 공동 출연진"},
+    {"name": "정해인", "relation": "드라마 엄마친구아들 상대역", "mentioned_as": "백허그·딥키스 장면 상대역"},
+    {"name": "정소민", "relation": "드라마 엄마친구아들 공동 출연", "mentioned_as": "삼각관계 상대 배우"}
+  ],
+  "works": [
+    {"title": "조립식 가족", "year": null, "costar": "", "scene": "종영 후 제주에서 휴식하는 근황이 전해진 작품", "kind": "실제"},
+    {"title": "김부장", "year": null, "costar": "소지섭", "scene": "소지섭의 아내로 특별 출연해 눈물바다를 이룬 죽음 장면", "kind": "극중"},
+    {"title": "허수아비", "year": null, "costar": "", "scene": "라이징 스타 행보로 주목받은 출연작", "kind": "실제"},
+    {"title": "얄미운 사랑", "year": null, "costar": "이정재", "scene": "이정재, 임지연과 함께 호흡을 맞춘 작품", "kind": "실제"},
+    {"title": "엄마친구아들", "year": null, "costar": "정해인", "scene": "정소민 앞에서 정해인과 백허그, 딥키스까지 한 장면", "kind": "극중"}
+  ],
+  "beauty_evidence": ["물오른 미모와 완벽한 이목구비라는 평가를 받았다"],
+  "care_habits": ["합기도 공인 4단으로 알려졌다"],
+  "hot_materials": [
+    {"material": "합기도 공인 4단이라는 반전 이력", "why_hot": "반전"},
+    {"material": "박성웅이 미안하다고 할 정도의 나이차 멜로", "why_hot": "발언"},
+    {"material": "엄마친구아들 백허그·딥키스 장면", "why_hot": "장면"},
+    {"material": "연애 예능 출신에서 배우로 인생 2막", "why_hot": "낙차"},
+    {"material": "소지섭·옥택연과 같은 소속사로 새 출발", "why_hot": "실명"}
+  ],
+  "scene_materials": ["멜로 촬영장에서 나이차를 미안해하던 순간", "드라마 속 눈물바다를 이룬 죽음 장면"],
+  "sns_materials": [],
+  "press_only_materials": ["화이트 드레스 화보", "수영복 스타일링 화보", "각종 스타패션 촬영컷"]
+}
