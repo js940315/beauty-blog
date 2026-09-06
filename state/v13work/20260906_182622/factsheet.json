@@ -1,0 +1,52 @@
+{
+  "person": {
+    "name": "이주영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "영화 그린나이트 주연을 맡은 배우, 팀호프 소속",
+    "major_work": "그린나이트",
+    "identity_anchor": "영화 그린나이트 주연, 팀호프 소속 배우"
+  },
+  "namesake_dropped": ["솔로지옥5 출연자 이주영", "대림 손녀 이주영", "개혁신당 정치인 이주영"],
+  "quotes": [
+    {"speaker": "이주영", "text": "선하고 정의로운 역할을 많이 했는데, 이제는 악역에도 도전해보고 싶다", "context": "연기 인터뷰에서"},
+    {"speaker": "이주영", "text": "판빙빙과 메신저로 여전히 연락하는 사이다", "context": "예능 프로그램에 출연해"}
+  ],
+  "events": [
+    {"summary": "영화 그린나이트가 부산국제영화제에서 상영됐다", "year": null, "confirmed": true},
+    {"summary": "함께 출연한 판빙빙이 연애편지 쓰듯 손편지를 써줬다는 일화가 전해졌다", "year": null, "confirmed": true},
+    {"summary": "배우 박은빈과 함께 아이유 콘서트를 관람했다", "year": null, "confirmed": true},
+    {"summary": "엄태구, 변요한과 같은 소속사 팀호프의 식구로 소개됐다", "year": null, "confirmed": true},
+    {"summary": "예능 프로그램 호텔도깨비에 출연해 제주 한옥 스테이를 경험했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "너 갈수록 더 예뻐진다", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "판빙빙", "relation": "영화 그린나이트 공동 출연", "mentioned_as": "그린나이트 상대역"},
+    {"name": "박은빈", "relation": "함께 콘서트를 관람한 동료 배우", "mentioned_as": "아이유 콘서트 동행"},
+    {"name": "고현정", "relation": "동료 배우", "mentioned_as": "미모에 감탄한 동료"},
+    {"name": "엄태구", "relation": "같은 소속사 동료 배우", "mentioned_as": "팀호프 소속 동료"},
+    {"name": "변요한", "relation": "같은 소속사 동료 배우", "mentioned_as": "팀호프 소속 동료"}
+  ],
+  "works": [
+    {"title": "그린나이트", "year": null, "costar": "판빙빙", "scene": "판빙빙이 연애편지 쓰듯 손편지를 써준 일화, 여성이 여성을 구하는 이야기의 영화", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "판빙빙이 손편지를 써준 일화", "why_hot": "실명"},
+    {"material": "고현정이 갈수록 예뻐진다고 감탄한 반응", "why_hot": "발언"},
+    {"material": "박은빈과 함께한 아이유 콘서트 관람", "why_hot": "실명"},
+    {"material": "악역에도 도전하고 싶다는 발언", "why_hot": "발언"},
+    {"material": "팀호프에서 엄태구·변요한과 한 식구", "why_hot": "실명"}
+  ],
+  "scene_materials": ["부산국제영화제 상영관에서 손편지를 받아 든 순간", "콘서트장에서 박은빈과 나란히 앉은 순간"],
+  "sns_materials": [],
+  "press_only_materials": ["데님 팬츠 매니시룩 화보", "호텔도깨비 제주 한옥 스테이 촬영"]
+}
