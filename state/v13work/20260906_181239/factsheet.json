@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "안은진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "드라마 연인 등에 출연한 배우",
+    "major_work": "연인",
+    "identity_anchor": "드라마 연인의 길채 역 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "안은진", "text": "환상 심어주고 싶어", "context": "물오른 미모 비결을 묻는 인터뷰에서"},
+    {"speaker": "안은진", "text": "도망가고 싶어", "context": "연인 촬영 중 겪은 안면마비 부담감을 유퀴즈에서 고백하며"},
+    {"speaker": "안은진", "text": "연인으로 길채와 함께 단단해졌죠", "context": "연인 종영 인터뷰에서"},
+    {"speaker": "안은진", "text": "길채가 이렇게 사랑받을 줄 몰랐어요", "context": "연인 종영 인터뷰에서"},
+    {"speaker": "안은진", "text": "길채의 성장은 힘들었지만 값진 경험이었고, 남궁민은 유니콘 같은 배우였다", "context": "연인 종영 인터뷰에서"},
+    {"speaker": "안은진", "text": "뉴진스 덕질이 인생의 활력이다", "context": "아는형님 출연 중"},
+    {"speaker": "안은진", "text": "우리 세대의 가벼운 얘기를 만들고 싶다", "context": "체형 변화 관련 인터뷰에서"},
+    {"speaker": "안은진", "text": "AI 안 썼다", "context": "17년 지기 친구 결혼식 축사를 준비하며"}
+  ],
+  "events": [
+    {"summary": "청룡영화상 시상식에서 슬림해진 몸매로 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "드라마 연인 촬영 중 안면마비를 겪었다고 유퀴즈에서 고백했다", "year": null, "confirmed": true},
+    {"summary": "한예종 동문이자 17년 지기인 배우 김고은과 절친으로 지낸다", "year": null, "confirmed": true},
+    {"summary": "17년 지기 친구의 결혼식에서 축사를 했다", "year": null, "confirmed": true},
+    {"summary": "폴라초이스 브랜드 앰버서더로 발탁돼 첫 화보를 공개했다", "year": null, "confirmed": true},
+    {"summary": "배우 남궁민과 함께 예능 아는형님에 출연해 연인 대본을 보고 울었다는 이야기를 나눴다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48kg", "meaning": "보도된 체중"}
+  ],
+  "credentials": [
+    {"item": "한국예술종합학교 졸업", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "남궁민", "relation": "연인 공동 주연", "mentioned_as": "연인 상대역"},
+    {"name": "장기용", "relation": "로맨틱 코미디 작품 상대역", "mentioned_as": "로코 작품 상대역"},
+    {"name": "서강준", "relation": "장기 열애 상대", "mentioned_as": "장기 연애 중인 배우"},
+    {"name": "김고은", "relation": "한예종 동기이자 절친", "mentioned_as": "17년 지기 친구"}
+  ],
+  "works": [
+    {"title": "연인", "year": null, "costar": "남궁민", "scene": "촬영 중 안면마비를 겪을 정도로 몰입한 장면", "kind": "실제"},
+    {"title": "아는형님", "year": null, "costar": "남궁민", "scene": "연인 대본을 보고 울었다는 이야기를 함께 나눈 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": ["청룡영화상 시상식에서 슬림해진 몸매로 화제", "물오른 미모라는 평가를 받았다"],
+  "care_habits": ["평소 요가를 한다는 이야기가 전해졌다"],
+  "hot_materials": [
+    {"material": "청룡영화상 시상식 슬림해진 몸매", "why_hot": "낙차"},
+    {"material": "연인 촬영 중 안면마비 고백", "why_hot": "발언"},
+    {"material": "김고은과 17년 지기 우정", "why_hot": "실명"},
+    {"material": "남궁민을 유니콘 같은 배우라 칭한 발언", "why_hot": "발언"},
+    {"material": "서강준과 장기 열애", "why_hot": "실명"}
+  ],
+  "scene_materials": ["촬영장에서 안면마비를 느끼면서도 촬영을 이어간 순간", "친구 결혼식 축사대에 선 순간"],
+  "sns_materials": [],
+  "press_only_materials": ["청룡영화상 시상식 드레스 화보", "폴라초이스 앰버서더 화보"]
+}
