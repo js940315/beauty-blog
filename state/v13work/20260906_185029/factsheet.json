@@ -1,0 +1,55 @@
+{
+  "person": {
+    "name": "소유진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "43",
+    "age_range": "40대",
+    "career": "애 셋을 키우는 동안 배우",
+    "major_work": "",
+    "identity_anchor": "백종원과 결혼한 애 셋 엄마 동안 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "소유진", "text": "빵을 먹고도 이 운동은 꼭 한다", "context": "살 안 찌는 비결을 밝히며"},
+    {"speaker": "소유진", "text": "15세 연상인 남편 건강에 위협을 느껴 집에 약방도 차렸다", "context": "남편 건강을 챙기는 이야기를 하며"},
+    {"speaker": "소유진", "text": "돌아가도 백종원과 결혼하겠다, 출장 가면 카레 한솥 해놓는다", "context": "결혼 생활 만족도를 밝히며"},
+    {"speaker": "소유진", "text": "남편 백종원 가격을 모른다", "context": "고급 취미에 대해 오은영에게 검증받으며"},
+    {"speaker": "소유진", "text": "3대 덕을 못 쌓았나", "context": "주말부부 제안에 대한 소감을 밝히며"}
+  ],
+  "events": [
+    {"summary": "동료 배우 오나라와 함께 셀카를 올리며 공통된 동안 관리 비결이 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "건강한 관리 식단을 공개했다", "year": null, "confirmed": true},
+    {"summary": "170cm 47kg을 유지하는 각선미로 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "46세에 임신한 동갑내기 친구 김민경을 축하했다", "year": null, "confirmed": true},
+    {"summary": "슬림해진 오은영의 근황을 보고 놀랐다는 반응을 보였다", "year": null, "confirmed": true},
+    {"summary": "제주에서 남편과 생일을 꽃으로 가득 채워 보냈다", "year": null, "confirmed": true},
+    {"summary": "다른 가정인 배그부부에게 음식과 용돈을 보내며 챙겼다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "170cm", "meaning": "키"},
+    {"value": "47kg", "meaning": "체중"},
+    {"value": "15세", "meaning": "남편과의 나이 차이"},
+    {"value": "43세", "meaning": "나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "오은영", "relation": "방송에서 취미를 검증해준 관계", "mentioned_as": "고급 취미를 인증해준 인물"},
+    {"name": "김민경", "relation": "동갑내기 친구", "mentioned_as": "46세에 임신한 친구"}
+  ],
+  "works": [],
+  "beauty_evidence": ["동안 배우로 불리며 관리 비결이 화제가 됐다", "170cm 47kg의 각선미로 화제가 됐다", "애 셋 엄마라는 게 믿기지 않는다는 반응을 받았다"],
+  "care_habits": ["빵을 먹은 날에도 꼭 운동을 한다", "아침을 건강하게 챙겨 먹는다", "건강한 식단을 꾸준히 관리한다"],
+  "hot_materials": [
+    {"material": "애 셋 엄마인데 170cm 47kg 각선미", "why_hot": "낙차"},
+    {"material": "15세 연상 남편 건강 걱정에 집에 약방 차림", "why_hot": "발언"},
+    {"material": "남편 가격을 모른다는 소박한 발언", "why_hot": "발언"},
+    {"material": "빵 먹고도 운동은 꼭 한다는 관리 습관", "why_hot": "발언"},
+    {"material": "다른 가정에 음식·용돈 보낸 미담", "why_hot": "반전"}
+  ],
+  "scene_materials": ["집에 약방을 차려둔 순간", "출장 가는 남편을 위해 카레를 한솥 끓여두는 순간"],
+  "sns_materials": [],
+  "press_only_materials": ["백리스 드레스 화보", "제주 생일 화보"]
+}
