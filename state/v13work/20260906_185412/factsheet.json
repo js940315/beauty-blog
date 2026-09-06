@@ -1,0 +1,58 @@
+{
+  "person": {
+    "name": "한혜진",
+    "gender": "여성",
+    "job": "모델",
+    "birth_year": null,
+    "age": "42",
+    "age_range": "40대",
+    "career": "강남 3대 얼짱 출신으로 불린 모델",
+    "major_work": "",
+    "identity_anchor": "강남 3대 얼짱 출신으로 불린 모델, 기성용의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한혜진", "text": "아침 저녁으로 얼굴에 이걸 붙인다", "context": "피부 관리 비결을 밝히며"},
+    {"speaker": "한혜진", "text": "운동할 때도 얼굴에 이것을 붙여야 에너지가 생긴다", "context": "운동 중 피부 관리법을 소개하며"},
+    {"speaker": "한혜진", "text": "목도 피부다, 늦게 늙기 위해 목주름을 예방한다", "context": "목주름 관리 팁을 공개하며"},
+    {"speaker": "한혜진", "text": "민증 사진이 흑백이 아니라 20년이 넘은 것뿐이다", "context": "주민등록증 사진 관련 오해에 정색하며"},
+    {"speaker": "한혜진", "text": "예쁘다는 댓글이 쏟아졌다", "context": "60kg을 돌파했다고 밝힌 뒤 반응을 전하며"}
+  ],
+  "events": [
+    {"summary": "강남 3대 얼짱 시절 헌팅을 많이 당했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "7일 만에 11자 복근을 만들었다고 공개했다", "year": null, "confirmed": true},
+    {"summary": "재료 세 가지로 만든 한혜진표 건강 주스를 즐긴다고 소개했다", "year": null, "confirmed": true},
+    {"summary": "친언니 한무영이 막걸리를 끊고 다이어트에 성공해 여배우급 미모라는 평가를 받았다", "year": null, "confirmed": true},
+    {"summary": "8살 연하인 남편 기성용과 결혼 13주년을 맞아 애정을 표현했다", "year": null, "confirmed": true},
+    {"summary": "형부 김강우가 방송에서 기성용과의 결혼을 반대했었다고 고백했다", "year": null, "confirmed": true},
+    {"summary": "딸 시온이가 폭풍성장했다는 근황이 전해졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "42세", "meaning": "나이"},
+    {"value": "60kg", "meaning": "본인이 밝힌 체중"},
+    {"value": "13주년", "meaning": "기성용과의 결혼 기념일"},
+    {"value": "8살", "meaning": "남편과의 나이 차이"},
+    {"value": "7일", "meaning": "복근을 만드는 데 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "예쁘다는 댓글이 쏟아졌다", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김강우", "relation": "형부", "mentioned_as": "결혼을 반대했던 형부"},
+    {"name": "한무영", "relation": "친언니", "mentioned_as": "다이어트에 성공한 친언니"}
+  ],
+  "works": [],
+  "beauty_evidence": ["40대에도 꿀피부라는 평가를 받는다", "10살은 어려 보인다는 반응이 나왔다"],
+  "care_habits": ["아침저녁으로 얼굴에 패치를 붙인다", "운동 중에도 얼굴 패치를 붙인다", "목주름 예방을 위해 목도 따로 관리한다", "아침저녁으로 스트레칭을 실천한다", "재료 세 가지로 만든 건강 주스를 즐긴다"],
+  "hot_materials": [
+    {"material": "60kg 돌파했는데 예쁘다는 댓글이 쏟아진 반응", "why_hot": "반전"},
+    {"material": "운동할 때도 얼굴 패치를 붙인다는 습관", "why_hot": "발언"},
+    {"material": "형부 김강우가 결혼을 반대했었다는 고백", "why_hot": "실명"},
+    {"material": "7일 만에 11자 복근을 만든 사연", "why_hot": "낙차"},
+    {"material": "민증 사진 오해에 정색한 일화", "why_hot": "발언"}
+  ],
+  "scene_materials": ["운동 중에도 얼굴에 패치를 붙이고 있는 순간", "민증 사진을 보여주며 정색하던 순간"],
+  "sns_materials": [],
+  "press_only_materials": ["홍천 별장 전원생활 화보"]
+}
