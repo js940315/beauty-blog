@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "김혜수",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "충무로 여신으로 불리는 41년차 배우",
+    "major_work": "",
+    "identity_anchor": "41년차 충무로 여신으로 불리는 배우"
+  },
+  "namesake_dropped": ["리센느 소속사 이사 김혜수", "버클리 음대 출신 작곡가 김혜수"],
+  "quotes": [
+    {"speaker": "김혜수", "text": "1년에 라면 단 한 번", "context": "각선미 관리 비결을 묻는 질문에"},
+    {"speaker": "김혜수", "text": "몸매·식단 관리도 배우의 자격 중 하나, 말라야 각이 산다", "context": "예능 프로그램에서 배우로서의 몸 관리 철학을 밝히며"},
+    {"speaker": "김혜수", "text": "가방에 소금과 올리브오일을 챙겨 다닌다", "context": "평소 식단 관리 방식을 밝히며"},
+    {"speaker": "김혜수", "text": "저는 모순덩어리예요, 이상과 실체가 충돌하죠", "context": "보그 화보 인터뷰에서 스스로를 돌아보며"},
+    {"speaker": "김혜수", "text": "귀감요? 난 여전히 헤매는 백조죠", "context": "유튜버로 나선 근황을 전하며"},
+    {"speaker": "김혜수", "text": "예능 출연은 조인성과 해봤지만 노(NO)", "context": "라디오쇼에서 예능 출연 제안에 대한 생각을 밝히며"},
+    {"speaker": "김혜수", "text": "김무열이 결혼기념일을 챙긴다고 왕복 12시간을 운전했다, 엄마도 아닌데 잘 되니 눈물이 난다", "context": "배우 김무열과의 인연을 전하며"}
+  ],
+  "events": [
+    {"summary": "후배 배우 하지영에게 강의 수강료를 대신 내줬다", "year": null, "confirmed": true},
+    {"summary": "후배 15명의 강의료 전액을 내준 사실이 알려졌다", "year": null, "confirmed": true},
+    {"summary": "강의를 하러 간 대학에서 학생들에게 식사를 대접하고 갔다", "year": null, "confirmed": true},
+    {"summary": "보그 코리아 화보의 표지를 맡았다", "year": null, "confirmed": true},
+    {"summary": "41년차를 맞아 유튜브 채널을 시작했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "41년차", "meaning": "배우 데뷔 후 활동 기간"},
+    {"value": "15명", "meaning": "강의료를 대신 내준 후배 인원"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "행복해, 언니 미소", "where": "방송", "scale": ""},
+    {"text": "56세? 지금 너무 예쁜 게 문제입니다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "문정희", "relation": "동료 배우", "mentioned_as": "미모에 감탄한 동료"},
+    {"name": "김무열", "relation": "가까운 인연의 배우", "mentioned_as": "결혼기념일을 챙기며 인연을 이어온 배우"},
+    {"name": "하지영", "relation": "후배 배우", "mentioned_as": "강의 수강료를 지원받은 후배"},
+    {"name": "박중훈", "relation": "동료 배우", "mentioned_as": "학창시절 인기를 회상한 동료"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "50대라는 게 안 믿기는 청초한 미모라는 평가를 받았다",
+    "모공이 안 보이는 투명 피부로 화제가 됐다",
+    "황금골반, 콜라병 몸매라는 표현이 따라붙었다"
+  ],
+  "care_habits": [
+    "라면을 1년에 한 번 정도만 먹는다고 밝혔다",
+    "가방에 소금과 올리브오일을 챙겨 다니며 식단을 관리한다",
+    "산책과 수중 러닝을 꾸준히 한다고 알려졌다"
+  ],
+  "hot_materials": [
+    {"material": "라면을 1년에 한 번만 먹는다는 식단 절제", "why_hot": "발언"},
+    {"material": "50대라는 게 믿기지 않는 몸매·피부", "why_hot": "낙차"},
+    {"material": "후배 15명 강의료를 대신 내준 미담", "why_hot": "반전"},
+    {"material": "김무열이 왕복 12시간 운전해 챙긴 인연", "why_hot": "실명"},
+    {"material": "저는 모순덩어리라는 자기고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "강의실에서 학생들에게 식사를 대접하고 조용히 자리를 뜬 순간",
+    "화보 촬영장에서 콜라병 몸매로 스태프를 놀라게 한 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": ["보그 코리아 화보", "블루 드레스 화보"]
+}
