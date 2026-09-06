@@ -1,0 +1,52 @@
+{
+  "person": {
+    "name": "왕지원",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "재벌家 출신으로 알려진 배우",
+    "major_work": "",
+    "identity_anchor": "재벌家 출신으로 소개된 배우, 발레리노 박종석의 아내"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "왕지원", "text": "3살 연하 박종석과 막창에 소주 먹다가 키스했다", "context": "아는형님에 출연해 연애 초기 일화를 공개하며"},
+    {"speaker": "왕지원", "text": "7평 오피스텔에 살면서 바늘처럼 날카로워졌다", "context": "신혼 초 생활을 공개하며"}
+  ],
+  "events": [
+    {"summary": "재벌家 출신 배우로 소개되며 아버지와 외할아버지까지 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "3살 연하인 발레리노 박종석과 결혼했다", "year": null, "confirmed": true},
+    {"summary": "신혼 초 7평 오피스텔에서 생활한 사실을 방송에서 공개했다", "year": null, "confirmed": true},
+    {"summary": "이후 필라테스 방까지 갖춘 초호화 신혼집으로 이사했다", "year": null, "confirmed": true},
+    {"summary": "남편 박종석이 발레로 인해 휘었던 발가락 수술을 받았다", "year": null, "confirmed": true},
+    {"summary": "여성조선 6월호 커버스토리에 실렸다", "year": null, "confirmed": true},
+    {"summary": "호기로운컴퍼니와 전속계약을 맺었다", "year": null, "confirmed": true},
+    {"summary": "세부로 부부 여행을 다녀왔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "7평", "meaning": "신혼 초 거주했던 오피스텔 크기"},
+    {"value": "3살", "meaning": "남편과의 나이 차이"}
+  ],
+  "credentials": [
+    {"item": "재벌家 출신으로 소개됨", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "박종석", "relation": "남편, 발레리노", "mentioned_as": "3살 연하 발레리노 남편"}
+  ],
+  "works": [],
+  "beauty_evidence": ["발레로 다져진 슬림한 몸매라는 평가를 받았다"],
+  "care_habits": ["발레를 기반으로 몸매를 관리한다고 알려졌다"],
+  "hot_materials": [
+    {"material": "상위 0.001% 재벌가인데 7평 오피스텔 신혼살림", "why_hot": "낙차"},
+    {"material": "막창에 소주 먹다 키스했다는 연애담", "why_hot": "발언"},
+    {"material": "3살 연하 발레리노 남편", "why_hot": "실명"},
+    {"material": "7평에서 필라테스 방 있는 집으로 이사", "why_hot": "낙차"},
+    {"material": "남편의 발가락 수술 사연", "why_hot": "반전"}
+  ],
+  "scene_materials": ["7평 오피스텔에서 바늘처럼 날카로워졌다던 신혼 초 순간", "막창집에서 소주를 마시다 키스한 순간"],
+  "sns_materials": [],
+  "press_only_materials": ["세부 여행 비키니 화보", "여성조선 커버스토리 화보"]
+}
