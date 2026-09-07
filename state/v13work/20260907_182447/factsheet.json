@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "장윤정",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": 1980,
+    "age": null,
+    "age_range": "40대",
+    "career": "트로트 가수, '장공장장윤정' 유튜브 채널 운영, 개인 기획사 설립",
+    "major_work": "트로트 가수 활동",
+    "identity_anchor": "도경완의 아내이자 '장공장장윤정' 채널을 운영하는 트로트 가수, 두 자녀를 키움"
+  },
+  "namesake_dropped": [
+    "55세로 보도되며 갱년기·아침 사과·낫또 루틴을 밝힌 동명이인(연령대가 맞지 않아 별도 인물로 판단, 제외)",
+    "미스코리아 출신 배우로 표기된 동명이인 기사(제외)"
+  ],
+  "quotes": [
+    {"speaker": "장윤정", "text": "벨트 해도 바지가 남아", "context": "네이트, 안 굶고 다이어트했다는 발언"},
+    {"speaker": "장윤정", "text": "간식 안 먹어, 그저 술만", "context": "네이트, 48kg 유지비결 발언"},
+    {"speaker": "장윤정", "text": "목욕탕에서 사진 찍힌 적 있어, 집에 사우나 설치", "context": "마이데일리, 개인 사우나 설치 이유"},
+    {"speaker": "장윤정", "text": "칫솔질은 기본, 가글·치실까지 다 한다", "context": "피앤피뉴스, 구강 케어 루틴"},
+    {"speaker": "장윤정", "text": "평생 살 안 찔 줄 알았다, 나이 들수록 살과 전쟁", "context": "v.daum.net, 체중 관리 고충 토로"}
+  ],
+  "events": [
+    {"summary": "대중탕에서 사진이 찍힌 뒤 겁이 나 집에 개인 사우나를 들였음", "year": null, "confirmed": true},
+    {"summary": "아들딸을 국제학교에 보내며 매일 새벽 6시 30분에 일어나 직접 도시락을 싼다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "본인 기획사를 차려 후배를 키우고 싶다고 밝히며 도경완은 영입하지 않겠다고 함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "48kg", "meaning": "장윤정이 밝힌 체중"},
+    {"value": "6시 30분", "meaning": "매일 기상해 도시락을 싸는 시각"},
+    {"value": "120억", "meaning": "거주 중인 펜트하우스 관련 보도 금액"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "도경완", "relation": "남편", "mentioned_as": "전 아나운서 출신 방송인"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "48kg을 유지하면서도 간식 대신 술만 마신다고 밝힘",
+    "안 굶고도 벨트를 해야 할 만큼 바지가 헐렁해졌다고 밝힘"
+  ],
+  "care_habits": [
+    "칫솔질은 기본이고 가글과 치실까지 매일 챙긴다고 밝힘",
+    "대중탕 노출이 부담스러워 집에 개인 사우나를 들임"
+  ],
+  "hot_materials": [
+    {"material": "48kg 유지 비결이 간식 대신 술이라는 솔직한 발언", "why_hot": "발언"},
+    {"material": "대중탕에서 사진 찍힌 뒤 개인 사우나를 들인 사연", "why_hot": "반전"},
+    {"material": "새벽 6시 30분 도시락 싸는 국제학교 자녀 육아 일상", "why_hot": "장면"},
+    {"material": "본인 기획사를 차리며 도경완은 영입하지 않았다는 발언", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "새벽 6시 30분 일어나 도시락을 싸는 아침 풍경",
+    "대중탕에서 사진이 찍혀 놀랐던 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "개인 사우나를 들인 120억대 펜트하우스 관련 기사"
+  ]
+}
