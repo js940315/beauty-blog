@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "김채원",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 24,
+    "age_range": "20대",
+    "career": "르세라핌 멤버",
+    "major_work": "르세라핌",
+    "identity_anchor": "그룹 르세라핌 멤버, 최근 활동을 재개한 아이돌 가수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김채원", "text": "피부 트러블이 훨씬 덜하다", "context": "헬스조선, 세안 후 습관을 바꾼 뒤의 변화"},
+    {"speaker": "김채원", "text": "직캠 속 내 모습이 마음에 든다", "context": "앳스타일, 자기 만족 발언"},
+    {"speaker": "김채원", "text": "많이 먹은 날은 버피 100개 이상 한다", "context": "xportsnews, 맨몸 운동 습관"},
+    {"speaker": "김채원", "text": "거울 속 내 얼굴을 보며 감탄한다, 학창시절에도 인기 많았다", "context": "아근진, 자기애 발언"},
+    {"speaker": "김채원", "text": "돈 욕심은 생각해 본 적 없다, 집은 더 열심히 해야 한다", "context": "v.daum.net, 소박한 가치관 발언"},
+    {"speaker": "김채원", "text": "결혼 꼭 하고 싶다, 이상형은 최수종", "context": "용타로, 결혼관 발언"},
+    {"speaker": "김채원", "text": "걸그룹 수입 꽤 벌었다, 이제 살맛 난다", "context": "런닝맨, 수입 관련 발언"}
+  ],
+  "events": [
+    {"summary": "세안 후 습관을 바꾼 뒤 피부 트러블이 훨씬 덜해졌다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "촬영 전 필수로 챙기는 루틴이 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "많이 먹은 날은 버피 100개 이상 하는 맨몸 운동을 즐긴다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "활동을 일시 중단했다가 다시 무대에 복귀함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "24세", "meaning": "김채원 나이"},
+    {"value": "100개", "meaning": "많이 먹은 날 하는 버피 개수"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "최수종", "relation": "이상형", "mentioned_as": "결혼하고 싶은 이상형으로 꼽은 배우"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "세안 후 습관을 바꾼 뒤 피부 트러블이 훨씬 덜해졌다고 밝힘",
+    "촬영 전 필수 루틴에 집착한다고 밝힘",
+    "많이 먹은 날은 버피 100개 이상으로 관리한다고 밝힘"
+  ],
+  "care_habits": [
+    "세안 후 습관을 바꿔 피부 트러블을 줄였다고 밝힘",
+    "맨몸 운동을 즐기며 몸 관리를 한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "세안 습관을 바꿔 피부 트러블이 줄었다는 발언", "why_hot": "발언"},
+    {"material": "많이 먹은 날 버피 100개로 관리한다는 발언", "why_hot": "반전"},
+    {"material": "이상형으로 최수종을 꼽으며 결혼하고 싶다는 발언", "why_hot": "발언"},
+    {"material": "거울 보며 스스로에게 감탄한다는 자기애 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "많이 먹은 날 버피를 100개씩 하는 운동 장면",
+    "촬영 전 루틴을 챙기는 대기실 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "Summer Sonic 2026 무대 근황 기사",
+    "블랙 스타일링 근황 기사"
+  ]
+}
