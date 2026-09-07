@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "백지영",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 49,
+    "age_range": "40대",
+    "career": "R&B 가수, 정석원과 결혼해 딸을 키움",
+    "major_work": "R&B 가수 활동",
+    "identity_anchor": "작곡가 정석원과 결혼한 R&B 가수, 최근 슬로우에이징을 택함"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "백지영", "text": "슬로우에이징이 목표", "context": "v.daum.net, 미백 라인으로 피부 관리 중이라는 발언"},
+    {"speaker": "백지영", "text": "시술·리프팅 NO, 천천히 나이 들고 싶다", "context": "텐아시아, 현재 관리 철학"},
+    {"speaker": "백지영", "text": "나이 어쩔 수 없어, 저속노화 중", "context": "v.daum.net, 현재 관리 철학"},
+    {"speaker": "백지영", "text": "수술대 다시 눕고 싶어", "context": "biz.heraldcorp.com, 과거 시술 부작용 고백"},
+    {"speaker": "백지영", "text": "자꾸 눈물이 나", "context": "세상에 이런일이, 갱년기 고백"},
+    {"speaker": "백지영", "text": "20년간 49kg", "context": "코메디닷컴, 체중 유지 발언"},
+    {"speaker": "백지영", "text": "아이스크림·음료수 안 먹어", "context": "뉴스엔, 20년 몸매 유지 비결"},
+    {"speaker": "백지영", "text": "이거 마시면 머리 난대서", "context": "v.daum.net, 탈모 고민에 서리태 콩물을 마신다는 발언"},
+    {"speaker": "백지영", "text": "이 맛에 산다", "context": "마이데일리, 결혼기념일 이벤트 소감"}
+  ],
+  "events": [
+    {"summary": "과거 시술 부작용을 겪었다고 고백했으나 최근에는 시술·리프팅 없이 슬로우에이징을 택함", "year": null, "confirmed": true},
+    {"summary": "갱년기로 자꾸 눈물이 난다고 방송에서 고백함", "year": null, "confirmed": true},
+    {"summary": "20년간 49kg을 유지해왔으며 목표는 53kg이라고 밝힘(다이어트 중이라는 의미로 해석됨)", "year": null, "confirmed": true},
+    {"summary": "탈모 고민에 서리태 콩물을 마신다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "정석원과 결혼기념일에 이벤트를 받고 행복해함", "year": null, "confirmed": true},
+    {"summary": "비와는 동료에서 학부모 사이로 인연이 이어지고 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "신지의 결혼식 축가 도중 눈물을 참지 못해 잠시 중단함", "year": null, "confirmed": true},
+    {"summary": "9살 딸이 국제학교에 다니며 해외 보딩스쿨도 고민 중이라고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49kg", "meaning": "20년간 유지한 체중"},
+    {"value": "56kg", "meaning": "168cm 기준 현재 체중으로 언급된 수치"},
+    {"value": "53kg", "meaning": "다이어트 목표 체중"},
+    {"value": "168cm", "meaning": "백지영 키"},
+    {"value": "20년", "meaning": "체중을 유지해온 기간"},
+    {"value": "9살", "meaning": "딸 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "정석원", "relation": "남편", "mentioned_as": "작곡가, 결혼기념일 이벤트를 챙긴 남편"},
+    {"name": "비", "relation": "동료 가수", "mentioned_as": "동료에서 학부모로 인연이 이어진 사이"},
+    {"name": "신지", "relation": "친구", "mentioned_as": "결혼식에서 축가를 부르다 눈물을 보인 계기가 된 친구"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "과거 시술 부작용을 겪었다고 고백함",
+    "최근에는 시술·리프팅 없이 슬로우에이징(저속노화)을 택했다고 밝힘",
+    "미백 라인으로 피부 관리를 이어가고 있다고 밝힘",
+    "20년간 49kg을 유지해왔다고 밝힘"
+  ],
+  "care_habits": [
+    "아이스크림과 음료수를 먹지 않는다고 밝힘",
+    "탈모 고민에 서리태 콩물을 마신다고 밝힘",
+    "효소 찜질을 체험하며 관리한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "과거 시술 부작용을 겪었지만 지금은 시술 없이 슬로우에이징을 택한 반전", "why_hot": "반전"},
+    {"material": "갱년기로 자꾸 눈물이 난다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "20년간 49kg을 유지해온 비결이 아이스크림을 안 먹는 것이라는 발언", "why_hot": "발언"},
+    {"material": "신지 결혼식 축가 중 눈물을 보인 장면", "why_hot": "장면"},
+    {"material": "탈모 고민에 콩물을 마신다는 소탈한 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "결혼식 축가를 부르다 눈물이 터진 순간",
+    "방송에서 갱년기 눈물을 고백하던 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "얼루어 4월호 화보 인터뷰 기사"
+  ]
+}
