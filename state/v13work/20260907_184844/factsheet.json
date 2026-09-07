@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "권유리",
+    "gender": "여성",
+    "job": "가수 겸 배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "소녀시대 멤버, SM과 19년 동행 후 계약 종료, 연극·드라마 등 배우 활동",
+    "major_work": "소녀시대",
+    "identity_anchor": "소녀시대 멤버, SM과 19년 만에 계약을 마무리했지만 그룹 활동은 계속하는 가수 겸 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "권유리", "text": "사랑했었다", "context": "SM 결별 소식에 남긴 소감"},
+    {"speaker": "권유리", "text": "소녀시대 활동 계속", "context": "뉴시스, SM과 19년 동행 마무리 소감"},
+    {"speaker": "권유리", "text": "야식 잘 들어가", "context": "연극 '침범' 인터뷰, 5kg 증량 관련 발언"},
+    {"speaker": "권유리", "text": "오히려 자유로워", "context": "연극 '침범' 인터뷰, 미혼 임신 캐릭터 연기 소감"},
+    {"speaker": "권유리", "text": "탈선 하지 않아", "context": "3천만원대 바이크 구매 관련 발언"},
+    {"speaker": "권유리", "text": "나보다 옷 못 입네", "context": "기안84 패션에 대한 장난스러운 발언"}
+  ],
+  "events": [
+    {"summary": "SM과 19년 동행을 마무리했지만 소녀시대 활동은 계속한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "연극 '침범'에서 미혼 임신 캐릭터를 위해 5kg을 증량했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "드라마 '가석방 심사관 이한신'에서 형사 역으로 배우 활동을 이어감", "year": null, "confirmed": true},
+    {"summary": "10년 전 레드 비키니 사진이 재소환되며 최수영에게 몸매 칭찬을 받음", "year": null, "confirmed": true},
+    {"summary": "230억대 건물주로 알려졌으며 3천만원대 바이크를 구매함", "year": null, "confirmed": true},
+    {"summary": "서울 팬미팅 수익금을 아시아 아동·청소년 지원에 기부함", "year": null, "confirmed": true},
+    {"summary": "지인을 사칭한 이가 벌금형을 확정받도록 소속사가 강경 대응함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "19년", "meaning": "SM과 함께한 기간"},
+    {"value": "5kg", "meaning": "연극 배역을 위해 증량한 체중"},
+    {"value": "230억", "meaning": "건물주로 알려진 부동산 관련 금액"},
+    {"value": "3천만원", "meaning": "구매한 바이크 가격대"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "몸매가 진짜 미쳤어요", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "최수영", "relation": "소녀시대 동료", "mentioned_as": "비키니 사진에 몸매를 극찬한 동료"},
+    {"name": "이효리", "relation": "동경하는 선배", "mentioned_as": "요가원까지 따라갈 만큼 따르는 선배"},
+    {"name": "강소라", "relation": "동료 배우", "mentioned_as": "대형 꽃다발로 응원을 보낸 동료"},
+    {"name": "수영", "relation": "소녀시대 동료", "mentioned_as": "사촌 결혼식에 동행한 동료"}
+  ],
+  "works": [
+    {"title": "침범", "year": null, "costar": "", "scene": "미혼 임신 캐릭터를 위해 5kg 증량하고 몸싸움 연기까지 소화한 무대", "kind": "극중"},
+    {"title": "가석방 심사관 이한신", "year": null, "costar": "", "scene": "예능퀸에서 형사로 변신해 배우로 복귀한 작품", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "10년 전 비키니 사진이 재소환되며 무결점 몸매라는 평가를 받음",
+    "연극 배역을 위해 5kg을 증량하고도 자유로움을 느꼈다고 밝힘"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "SM과 19년 동행을 마무리하며 눈물을 보인 순간", "why_hot": "낙차"},
+    {"material": "배역을 위해 5kg을 증량하고 야식도 마음껏 먹었다는 발언", "why_hot": "반전"},
+    {"material": "10년 전 비키니 사진에 최수영이 남긴 몸매 극찬", "why_hot": "발언"},
+    {"material": "230억 건물주인데 3천만원대 바이크를 산 소비", "why_hot": "낙차"},
+    {"material": "팬미팅 수익금을 기부한 선행", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "SM과의 계약 종료 소식에 눈물을 보인 순간",
+    "연극 무대에서 몸싸움 연기를 소화하던 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "시사회장 패션이 돋보였다는 기사",
+    "여배우들의 수영복 패션 모음 기사"
+  ]
+}
