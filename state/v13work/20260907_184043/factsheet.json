@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "산다라박",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 42,
+    "age_range": "40대",
+    "career": "2NE1 출신 가수, 필리핀 배경, 재외동포청 홍보대사",
+    "major_work": "2NE1",
+    "identity_anchor": "2NE1 출신 가수, 필리핀에서 오래 생활한 배경의 소식좌·동안 비결로 알려진 여가수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "산다라박", "text": "평생 소식좌로 살았다", "context": "스포츠서울, 37kg 유지 비결"},
+    {"speaker": "산다라박", "text": "비빔밥 먹고 싶었어", "context": "스포츠조선, 38kg에도 철저했던 식단관리 중 소감"},
+    {"speaker": "산다라박", "text": "동안 잃고 나이 들어 보여서 포기", "context": "비밀보장, 복근 운동에 심취했다가 그만둔 이유"},
+    {"speaker": "산다라박", "text": "동안 비법, 똥손이라 피부과 자주 가려고 노력", "context": "4시엔, 동안 비결"},
+    {"speaker": "산다라박", "text": "술, 담배 안 해", "context": "패션엔 등, 동안 비결"},
+    {"speaker": "산다라박", "text": "스캔들 안 난 비결, 문자만 주고받는 비대면 연애했다", "context": "insight.co.kr, 연애 방식 공개"},
+    {"speaker": "산다라박", "text": "찾아와도 안 만나", "context": "비보티비, 열애설 없던 비결"},
+    {"speaker": "산다라박", "text": "리아킴과 친구여서 영광", "context": "컬투쇼, 스우파2 출연 계기"}
+  ],
+  "events": [
+    {"summary": "한때 복근 운동과 식단으로 37kg까지 뺐다가 동안을 잃어 보여 포기함", "year": null, "confirmed": true},
+    {"summary": "8kg 증량 비화를 공개하며 김숙에게 '가끔 보면 좋다'는 말을 남김", "year": null, "confirmed": true},
+    {"summary": "3kg 찐 몸으로도 완벽한 비키니 몸매를 보여줬다는 평가를 받음", "year": null, "confirmed": true},
+    {"summary": "리아킴과 친구인 인연으로 스우파2에 출연함", "year": null, "confirmed": true},
+    {"summary": "악플러에게 형사 고소로 강경 대응하겠다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "재외동포청 홍보대사로 발탁되어 필리핀 생활 경험을 언급함", "year": null, "confirmed": true},
+    {"summary": "데뷔 당시 윤유선이 '우리 딸이다'라며 자랑스러워했다는 인연이 있음", "year": null, "confirmed": true},
+    {"summary": "밀라노에서 키즈옷을 보며 '입히려면 애를 낳아야 할 듯'이라고 농담함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "37kg", "meaning": "산다라박이 밝힌 체중"},
+    {"value": "8kg", "meaning": "증량한 체중"},
+    {"value": "42세", "meaning": "산다라박 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "윤유선", "relation": "데뷔 당시 인연", "mentioned_as": "'우리 딸이다' 자랑스러워한 선배 배우"},
+    {"name": "리아킴", "relation": "친구", "mentioned_as": "스우파2 출연 계기가 된 친구"},
+    {"name": "김숙", "relation": "동료 방송인", "mentioned_as": "증량 소식에 덕담을 건넨 동료"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "37kg을 평생 소식좌로 살며 유지했다고 밝힘",
+    "복근 운동에 심취했다가 동안을 잃어 보여 스스로 그만뒀다고 밝힘",
+    "동안 비결로 술과 담배를 하지 않는다고 밝힘",
+    "피부과를 자주 찾으며 관리한다고 직접 밝힘",
+    "8kg 증량 후에도 완벽한 비키니 몸매라는 평가를 받음"
+  ],
+  "care_habits": [
+    "술과 담배를 하지 않는다고 밝힘",
+    "메이크업에 서툴러 피부과 관리를 더 챙긴다고 밝힘",
+    "평생 소식 위주 식습관을 유지한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "37kg까지 뺐다가 동안을 잃어 스스로 포기한 사연", "why_hot": "반전"},
+    {"material": "8kg 증량 후 완벽한 비키니 몸매라는 평가", "why_hot": "반전"},
+    {"material": "스캔들 없던 비결이 비대면 연애였다는 발언", "why_hot": "발언"},
+    {"material": "리아킴과 친구여서 스우파2에 출연한 사연", "why_hot": "실명"},
+    {"material": "악플러에게 형사 고소로 강경 대응한 사연", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "복근 운동에 심취했다가 거울 속 달라진 얼굴을 보고 그만두던 순간",
+    "밀라노 매장에서 키즈옷을 보며 농담을 건네던 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "42세에도 알록달록한 패션을 소화한다는 기사"
+  ]
+}
