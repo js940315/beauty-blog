@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "박미경",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "R&B 가수, '골든걸스' 멤버, 복면가왕·불후의 명곡·라디오스타 등 다수 출연",
+    "major_work": "골든걸스",
+    "identity_anchor": "미국인 남편과 결혼한 '골든걸스' 멤버, 압도적 성량으로 알려진 R&B 가수"
+  },
+  "namesake_dropped": [
+    "밀양시의회 박미경 의원(정치인, 별도 인물)",
+    "경기교육시민포럼 대표 박미경(시민단체 활동가, 별도 인물)"
+  ],
+  "quotes": [
+    {"speaker": "박미경", "text": "미국인 남편, 내 겨드랑이털에 반해, 제모 안 하고 살았다", "context": "돌싱포맨, 국제결혼 러브스토리"},
+    {"speaker": "박미경", "text": "박진영, '골든걸스' JYP 연습생 취급해", "context": "라디오스타, 불만 토로"},
+    {"speaker": "박미경", "text": "날 딸로 입양시켜줘, 재산엔 관심 없어", "context": "골든걸스, 박진영에게 농담 섞인 부탁"},
+    {"speaker": "박미경", "text": "하루하루가 지옥", "context": "골든걸스 준비 과정 고충 토로"},
+    {"speaker": "박미경", "text": "MZ들 내가 가수인줄 몰라", "context": "라디오스타, 로봇짤로 화제 되며 한 발언"}
+  ],
+  "events": [
+    {"summary": "복면가왕에 출연해 압도적인 성량으로 녹화장을 흔들었다는 평가를 받음", "year": null, "confirmed": true},
+    {"summary": "불후의 명곡에서 신효범과 팀을 이뤄 레전드 가수들을 제치고 우승함", "year": null, "confirmed": true},
+    {"summary": "골든걸스 활동으로 인순이 등과 기부 공연 무대를 마무리함", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "박진영", "relation": "골든걸스 프로듀서", "mentioned_as": "연습생 취급한다고 농담 섞인 불만을 들은 대상"},
+    {"name": "신효범", "relation": "불후의 명곡 팀 동료", "mentioned_as": "함께 우승한 파트너"},
+    {"name": "인순이", "relation": "골든걸스 동료", "mentioned_as": "함께 기부 공연을 마무리한 동료"}
+  ],
+  "works": [
+    {"title": "불후의 명곡", "year": null, "costar": "신효범", "scene": "레전드 가수들을 제치고 우승한 무대", "kind": "실제"},
+    {"title": "골든걸스", "year": null, "costar": "인순이", "scene": "기부 공연으로 무대를 마무리한 순간", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "제모하지 않은 자연스러운 겨드랑이털을 오히려 매력으로 밝힘",
+    "압도적인 성량으로 방송마다 화제가 됨"
+  ],
+  "care_habits": [
+    "제모 등 인위적인 관리 없이 자연스러운 모습을 유지한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "제모 안 한 겨드랑이털에 미국인 남편이 반했다는 발언", "why_hot": "발언"},
+    {"material": "박진영에게 입양해달라 농담한 순간", "why_hot": "장면"},
+    {"material": "불후의 명곡에서 레전드들을 제치고 우승", "why_hot": "반전"},
+    {"material": "골든걸스 준비 과정이 하루하루 지옥이었다는 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "복면가왕 무대에서 압도적 성량으로 녹화장이 술렁이던 순간",
+    "돌싱포맨에서 국제결혼 러브스토리를 털어놓던 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
