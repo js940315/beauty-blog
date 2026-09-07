@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "홍진영",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 40,
+    "age_range": "40대",
+    "career": "트로트 가수, 방송에서 솔직한 입담으로 알려짐",
+    "major_work": "트로트 가수 활동",
+    "identity_anchor": "40세 미혼 트로트 가수, 돌싱포맨 등 예능에서 솔직한 해명과 입담으로 알려짐"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "홍진영", "text": "레이저 좀 쐈습니다", "context": "방송, 피부 시술 고백"},
+    {"speaker": "홍진영", "text": "1일1식으로 관리", "context": "세계일보, 수산시장 근황 중 다이어트 언급"},
+    {"speaker": "홍진영", "text": "맥주 한 잔에 빨개져", "context": "v.daum.net, 알쓰 인증 해명"},
+    {"speaker": "홍진영", "text": "싸가지 없어 너무 싫었다", "context": "뉴시스, 재벌 3세 고백을 거절한 이유"},
+    {"speaker": "홍진영", "text": "3개월이다, 곧 낳는다는 댓글에 상처", "context": "네이트, 임신설 관련 상처 고백"},
+    {"speaker": "홍진영", "text": "벗으면 장난 아니다, 속상하다", "context": "네이트, 뱃살 논란 해명"}
+  ],
+  "events": [
+    {"summary": "반년 만에 레이저 시술을 받고 관리했다고 직접 밝힘", "year": null, "confirmed": true},
+    {"summary": "재벌 3세에게 고백을 받았으나 태도가 별로여서 거절했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "직캠으로 번진 임신설에 직접 해명하며 속상함을 토로함", "year": null, "confirmed": true},
+    {"summary": "방송에서 맥주 한 잔에도 빨개지는 알쓰라고 인증함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "반년", "meaning": "레이저 시술 후 관리한 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [
+    {"title": "돌싱포맨", "year": null, "costar": "", "scene": "임신설·뱃살 논란에 직접 해명하며 속상함을 토로한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "본인이 직접 레이저 시술을 받았다고 공개함",
+    "반년 만에 뽀송해진 얼굴로 몰라보게 달라졌다는 평가를 받음"
+  ],
+  "care_habits": [
+    "1일1식으로 관리한다고 밝힘",
+    "레이저 시술 후 꾸준히 피부 관리를 이어감"
+  ],
+  "hot_materials": [
+    {"material": "본인이 직접 밝힌 레이저 시술 고백", "why_hot": "발언"},
+    {"material": "재벌 3세 고백을 태도 때문에 거절한 사연", "why_hot": "반전"},
+    {"material": "임신설에 속상함을 토로하며 직접 해명한 순간", "why_hot": "발언"},
+    {"material": "맥주 한 잔에도 빨개지는 알쓰 인증", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "반년 만에 달라진 얼굴로 방송에 등장한 순간",
+    "돌싱포맨에서 직접 해명하며 속상함을 드러낸 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "수산시장에서 포착된 캐주얼 룩 기사",
+    "글래머 몸매가 부각된 거리 패션 기사"
+  ]
+}
