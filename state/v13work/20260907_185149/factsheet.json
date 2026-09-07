@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "김완선",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": 56,
+    "age_range": "50대",
+    "career": "데뷔 40주년을 맞은 가수, 최근 화가로 데뷔해 뉴욕에서 개인전을 개최함",
+    "major_work": "가수 활동, 뉴욕 개인전 '컬러즈 오브 마이 소울'",
+    "identity_anchor": "데뷔 40주년을 맞은 가수이자 뉴욕에서 첫 개인전을 연 화가"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김완선", "text": "돈 벌면 다 쏟아 부어", "context": "짠한형, 동안 피부 비결 발언"},
+    {"speaker": "김완선", "text": "가수 안 했으면 노화 빨랐을 듯", "context": "김완선 TV, 동안 비결 발언"},
+    {"speaker": "김완선", "text": "이 메뉴만 한 달 동안 먹어", "context": "스포츠조선, 46kg 유지 비결 발언"},
+    {"speaker": "김완선", "text": "나를 고치는 작업이었다", "context": "세계일보, 뉴욕 개인전 소감"}
+  ],
+  "events": [
+    {"summary": "데뷔 40주년을 맞이함", "year": null, "confirmed": true},
+    {"summary": "화가로 변신해 뉴욕에서 첫 개인전 '컬러즈 오브 마이 소울'을 개최함", "year": null, "confirmed": true},
+    {"summary": "데뷔 시절 45kg에서 지금도 46kg을 유지하고 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "젊은 아이돌들과 함께 무대에 서고도 뒤지지 않는 미모라는 평가를 받음", "year": null, "confirmed": true},
+    {"summary": "김광규가 라디오스타에 출연한 이유로 그녀를 꼽으며 애정을 표현함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "46kg", "meaning": "데뷔 시절부터 지금까지 유지한 체중"},
+    {"value": "56세", "meaning": "김완선 나이"},
+    {"value": "40주년", "meaning": "가수 데뷔 40주년"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김광규", "relation": "동료 방송인", "mentioned_as": "그녀 때문에 라디오스타 출연을 결정했다고 밝힌 동료"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "56세에도 군살 없이 늘씬한 수영복 몸매를 유지함",
+    "동안 피부 비결로 아낌없는 투자를 꼽음",
+    "데뷔 시절부터 46kg 체중을 유지해옴",
+    "젊은 아이돌 사이에서도 빛나는 미모라는 평가를 받음"
+  ],
+  "care_habits": [
+    "저속노화를 위해 매일 챙기는 루틴이 있다고 밝힘",
+    "6시 이후 금식 루틴을 지켜왔다고 밝힘",
+    "동안 관리에 아낌없이 투자한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "가수에서 화가로 변신해 뉴욕 개인전을 연 반전 행보", "why_hot": "반전"},
+    {"material": "동안 비결이 아낌없는 투자라는 솔직한 발언", "why_hot": "발언"},
+    {"material": "데뷔 시절부터 46kg을 지켜온 자기관리", "why_hot": "낙차"},
+    {"material": "김광규가 그녀 때문에 출연을 결정했다는 고백", "why_hot": "발언"},
+    {"material": "젊은 아이돌들 사이에서도 빛난 미모", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "뉴욕 미술관에서 자신의 그림을 전시하던 순간",
+    "젊은 아이돌들과 나란히 무대에 선 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "핑크 비니로 도회적인 분위기를 냈다는 기사",
+    "수영장에서 포착된 화보 같은 근황 기사"
+  ]
+}
