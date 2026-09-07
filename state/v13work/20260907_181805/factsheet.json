@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "김나영",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "세바퀴, 동상이몽, 옷장전쟁, 노필터티비 등 다수 예능 출연",
+    "major_work": "세바퀴",
+    "identity_anchor": "마이큐와 재혼한 두 아들 엄마, 세바퀴·동상이몽 등 예능 방송인"
+  },
+  "namesake_dropped": ["탁구선수 김나영(세계선수권 국가대표)", "'내 남은 연애' 출연 배우 김나영(뇌종양 확진)"],
+  "quotes": [
+    {"speaker": "김나영", "text": "가장 잘한 시술", "context": "노필터티비, 시술 만족 발언"},
+    {"speaker": "김나영", "text": "요즘 예뻐졌다고..최근 가장 잘한 소비", "context": "노필터티비, 시술 만족 발언"},
+    {"speaker": "김나영", "text": "내 인생 바꿔준 가방", "context": "노필터티비, 15년 전 명품 가방 구매 회고"},
+    {"speaker": "김나영", "text": "7년 전 나 안아주고 싶다, 밤마다 눈물 흘려", "context": "과거 힘들었던 시절 회고"},
+    {"speaker": "김나영", "text": "변우석 PT샵 다녀", "context": "몸매 관리 비결 언급"}
+  ],
+  "events": [
+    {"summary": "마이큐와 재혼해 새 가족을 꾸림", "year": null, "confirmed": true},
+    {"summary": "15년 전 전 재산을 팔아 명품 가방을 산 뒤 인생이 바뀌었다고 회고함", "year": null, "confirmed": true},
+    {"summary": "7년 전 힘들었던 시절 밤마다 눈물을 흘렸다고 고백함", "year": null, "confirmed": true},
+    {"summary": "결혼 전 두 아들과 함께 권태기가 왔었다고 고백함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "170cm", "meaning": "김나영 키"},
+    {"value": "50kg", "meaning": "김나영 몸무게"},
+    {"value": "15년", "meaning": "명품 가방을 산 뒤 흐른 시간"},
+    {"value": "7년", "meaning": "힘들었던 시절부터 흐른 시간"},
+    {"value": "두 아들", "meaning": "자녀 수"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "마이큐", "relation": "남편", "mentioned_as": "재혼 상대"},
+    {"name": "변우석", "relation": "PT샵 동료", "mentioned_as": "같은 PT샵에 다니는 배우"},
+    {"name": "홍진경", "relation": "동료 방송인", "mentioned_as": "근황에 질투 섞인 반응을 보인 친구"}
+  ],
+  "works": [
+    {"title": "세바퀴", "year": null, "costar": "", "scene": "녹화만 끝나면 주저앉아 울었다고 고백", "kind": "실제"},
+    {"title": "동상이몽", "year": null, "costar": "마이큐", "scene": "결혼 전 두 아들 없으면 어색한 권태기가 왔었다고 고백", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "시술 하나를 두고 본인이 직접 '가장 잘한 소비'라고 밝힘",
+    "군살 없는 수영복 몸매로 화제가 됨",
+    "새 모이 수준의 소식 식단을 밝힘",
+    "옆 엉덩이 라인이 없어 PT를 결제했다고 밝힘"
+  ],
+  "care_habits": [
+    "변우석과 같은 PT샵에서 몸매 관리를 한다고 밝힘",
+    "소식 위주 식단을 유지한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "본인이 직접 밝힌 시술 만족 발언", "why_hot": "발언"},
+    {"material": "170cm 50kg 몸무게 공개 후 PT 결제 사연", "why_hot": "낙차"},
+    {"material": "15년 전 전 재산 팔아 산 가방 인생 스토리", "why_hot": "반전"},
+    {"material": "변우석과 같은 PT샵에 다닌다는 사실", "why_hot": "실명"},
+    {"material": "7년 전 매일 밤 울었다는 고백", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "PT샵에서 옆 엉덩이 라인을 만드는 훈련 장면",
+    "15년 전 매장에서 전 재산을 걸고 가방을 사던 순간",
+    "7년 전 밤마다 혼자 눈물 흘리던 시절"
+  ],
+  "sns_materials": [
+    "마이큐와의 백허그 사진 - '필름으로 남긴 우리들의 여름' 캡션"
+  ],
+  "press_only_materials": [
+    "미니멀 서머 스타일링 소개 기사",
+    "7부 팬츠 스타일링 소개 기사",
+    "수영복 몸매 공개 기사"
+  ]
+}
