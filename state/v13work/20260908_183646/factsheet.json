@@ -1,0 +1,52 @@
+{
+  "person": {
+    "name": "김지우",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "셰프 레이먼킴과 결혼해 딸을 둔 배우 김지우"
+  },
+  "namesake_dropped": ["'불꽃야구' 관련 기사 속 김지우 (야구 관련, 동일인 여부 불확실해 제외)"],
+  "quotes": [
+    {"speaker": "김지우", "text": "존경하고 사랑해", "context": "결혼 13주년을 맞아 남편에게 남긴 말"},
+    {"speaker": "김지우", "text": "남편·딸 덕분에 행복해", "context": "결혼 12주년 소감"},
+    {"speaker": "김지우", "text": "앞으로 더 잘 부탁해", "context": "결혼 12주년 소감"},
+    {"speaker": "김지우", "text": "눈에 넣어도 아프지 않을", "context": "딸에 대한 애정 표현"},
+    {"speaker": "김지우", "text": "살아온 흔적", "context": "팔자 주름에 대한 SNS 발언"},
+    {"speaker": "김지우", "text": "배달치킨 먹고 싶어", "context": "셰프인 남편에 대한 고충을 고백하며 남긴 말"},
+    {"speaker": "김지우", "text": "내겐 1등 셰프이자 1등 남편", "context": "남편에 대한 애정 표현"}
+  ],
+  "events": [
+    {"summary": "셰프 레이먼킴과 결혼해 13주년을 맞음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "13주년", "meaning": "레이먼킴과의 결혼기념일"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "레이먼킴", "relation": "남편", "mentioned_as": "셰프로, 결혼 13주년을 함께 맞은 배우자"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "팔자 주름에 대해 '살아온 흔적'이라며 담담하게 SNS에 밝힘"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "팔자 주름을 '살아온 흔적'이라 담담히 받아들인 태도", "why_hot": "발언"},
+    {"material": "셰프 남편에게 '배달치킨 먹고 싶다'고 고백한 소소한 고충", "why_hot": "발언"},
+    {"material": "결혼 13주년에 남긴 애정 표현", "why_hot": "발언"},
+    {"material": "딸에 대한 애정 표현", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "결혼기념일마다 SNS에 남편에 대한 애정을 표현했다"
+  ],
+  "sns_materials": [
+    "팔자 주름 관련 SNS 게시물을 직접 올렸다"
+  ],
+  "press_only_materials": []
+}

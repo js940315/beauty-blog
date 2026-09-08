@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "장윤주",
+    "gender": "여성",
+    "job": "모델",
+    "birth_year": null,
+    "age": "45",
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "173cm, 45세에도 자기관리로 화제인 톱모델 장윤주"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장윤주", "text": "하루 종일 바른 자세 의식", "context": "자기관리 습관에 대한 발언"},
+    {"speaker": "장윤주", "text": "속옷 광고 촬영 위해 운동 더 해", "context": "속옷 광고를 앞두고 한 발언"},
+    {"speaker": "장윤주", "text": "말랐어도 몸에 '이것' 있어", "context": "셀룰라이트 관리에 대한 발언"},
+    {"speaker": "장윤주", "text": "셀룰라이트 있어..꾸준히 관리", "context": "마른 몸에도 셀룰라이트가 있다는 고백"},
+    {"speaker": "장윤주", "text": "속옷에 집착할 수밖에 없었던 이유", "context": "모델 시절 속옷을 아껴 입었던 비화"},
+    {"speaker": "장윤주", "text": "20분만 해도 살 빠져", "context": "7년간 이어온 운동에 대한 발언"},
+    {"speaker": "장윤주", "text": "2주 만에 -3kg, 18시간 공복", "context": "체중 관리 비법에 대한 발언"},
+    {"speaker": "장윤주", "text": "1일 1팩? NO", "context": "취침 전 관리 루틴에 대한 발언"},
+    {"speaker": "장윤주", "text": "팩은 1주일에 두 번", "context": "피부 관리 루틴에 대한 발언"},
+    {"speaker": "장윤주", "text": "뛰고 홈트하고", "context": "런던에서 근황을 전하며 남긴 말"}
+  ],
+  "events": [
+    {"summary": "20년째 모닝 루틴을 실천하고 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "7년간 같은 운동을 이어오고 있다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "173cm", "meaning": "신장"},
+    {"value": "54kg", "meaning": "체중"},
+    {"value": "45세", "meaning": "나이"},
+    {"value": "20년", "meaning": "모닝 루틴을 실천해온 기간"},
+    {"value": "7년", "meaning": "같은 운동을 이어온 기간"},
+    {"value": "11자", "meaning": "복근 형태를 표현한 수치"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "방송에서 주현영이 자기관리에 감탄함", "where": "방송", "scale": ""},
+    {"text": "촬영 스태프들이 '너무 예쁘다'고 감탄함", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "주현영", "relation": "방송 동료", "mentioned_as": "자기관리에 감탄한 반응을 보임"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "173cm 54kg의 마른 몸에도 셀룰라이트가 있다고 밝히며 꾸준히 관리한다고 말함",
+    "20년째 모닝 루틴을, 7년째 같은 운동을 이어오고 있다고 밝힘",
+    "취침 전 관리에서 팩은 매일이 아니라 1주일에 두 번만 한다고 밝힘"
+  ],
+  "care_habits": [
+    "하루 종일 바른 자세를 의식한다고 밝힘",
+    "저녁에는 피부 관리를 위해 특정 방법을 챙긴다고 밝힘 (구체 제품명은 확인 안 됨)",
+    "18시간 공복을 지키는 방식으로 체중을 관리한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "마른 몸에도 셀룰라이트가 있다고 솔직히 밝힌 태도", "why_hot": "반전"},
+    {"material": "모델 시절 속옷을 아껴 입었던 비화", "why_hot": "낙차"},
+    {"material": "주현영이 감탄한 자기관리", "why_hot": "실명"},
+    {"material": "20년째 이어온 모닝 루틴", "why_hot": "낙차"},
+    {"material": "18시간 공복으로 2주 만에 3kg 감량한 비법", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "속옷 광고 촬영을 위해 운동을 더 했다고 밝혔다",
+    "런던에서 뛰고 홈트하는 근황을 전했다",
+    "11자 복근이 드러난 눈바디를 공개했다"
+  ],
+  "sns_materials": [
+    "런던 근황과 운동하는 모습을 직접 공개했다"
+  ],
+  "press_only_materials": [
+    "속옷 화보 촬영 현장 사진"
+  ]
+}
