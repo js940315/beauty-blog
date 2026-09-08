@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "홍현희",
+    "gender": "여성",
+    "job": "개그우먼",
+    "birth_year": null,
+    "age": "44",
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "16kg 감량 다이어트로 화제인 개그우먼 홍현희"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "홍현희", "text": "예뻐지려면 고생이 따른다", "context": "헤어샵을 바꾸고 달라진 비주얼에 대한 발언"},
+    {"speaker": "홍현희", "text": "다이어트 후 변화 주고파", "context": "10kg 감량 후 스타일 변화를 준 이유에 대한 발언"},
+    {"speaker": "홍현희", "text": "위고비 NO", "context": "체중 감량 방법에 대해 약물 사용을 부인한 발언"},
+    {"speaker": "홍현희", "text": "20년 만에 4자 본다", "context": "49kg 감량 성공 소감"},
+    {"speaker": "홍현희", "text": "먹고 싶은 거 다 먹으며 살 빼", "context": "다이어트 방식에 대한 발언"},
+    {"speaker": "홍현희", "text": "입 터질 때 먹는 비상 간식 있다", "context": "식욕 조절 노하우에 대한 발언"},
+    {"speaker": "홍현희", "text": "'솔로지옥' 나가도 되겠네", "context": "노출 있는 옷차림에 자신감을 보이며 남긴 농담"},
+    {"speaker": "제이쓴", "text": "팬티가 왜 이렇게 작아", "context": "아내의 달라진 몸매를 보고 놀라며 한 말"},
+    {"speaker": "홍현희", "text": "손톱 너무 불편해", "context": "갸루 스타일로 변신한 뒤 남긴 소감"}
+  ],
+  "events": [
+    {"summary": "16kg을 감량했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "헤어·메이크업 샵을 바꾸고 스타일에 변화를 줬다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "16kg", "meaning": "감량한 체중"},
+    {"value": "59kg", "meaning": "감량 전 체중"},
+    {"value": "49kg", "meaning": "감량 후 체중"},
+    {"value": "20년", "meaning": "오랜만에 다시 이 몸무게대에 진입했다는 기간"},
+    {"value": "44세", "meaning": "나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "남편 제이쓴이 달라진 몸매를 보고 '팬티가 왜 이렇게 작아'라며 놀람", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "제이쓴", "relation": "남편", "mentioned_as": "달라진 아내의 몸매에 놀란 반응을 보임"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "59kg에서 49kg으로 16kg을 감량하며 20년 만에 그 몸무게대에 진입했다고 밝힘",
+    "헤어·메이크업 샵을 바꾸며 비주얼에 변화를 줬다고 밝힘",
+    "갸루 스타일로 변신한 모습을 공개함"
+  ],
+  "care_habits": [
+    "혈당을 관리하며 체중을 조절한다고 밝힘",
+    "식욕이 터질 때를 대비한 비상 간식을 챙긴다고 밝힘",
+    "위고비 같은 약물 없이 감량했다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "59kg에서 49kg, 20년 만에 이 몸무게대 진입", "why_hot": "낙차"},
+    {"material": "남편이 놀란 달라진 몸매", "why_hot": "실명"},
+    {"material": "위고비 없이 뺐다는 솔직한 해명", "why_hot": "발언"},
+    {"material": "먹고 싶은 거 다 먹으며 뺐다는 다이어트법", "why_hot": "발언"},
+    {"material": "갸루 스타일 변신 후 손톱이 불편하다는 소감", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "비키니를 입은 달라진 몸매를 공개했다",
+    "갸루 스타일로 변신한 모습을 공개했다"
+  ],
+  "sns_materials": [
+    "다이어트 후 달라진 비주얼과 몸매 사진을 직접 올렸다"
+  ],
+  "press_only_materials": []
+}
