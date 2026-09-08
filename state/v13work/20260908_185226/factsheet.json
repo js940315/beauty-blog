@@ -1,0 +1,52 @@
+{
+  "person": {
+    "name": "박소현",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": "54",
+    "age_range": "50대 중반",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "라디오 프로그램을 25년 넘게 진행해온 방송인 박소현"
+  },
+  "namesake_dropped": ["KBS 아나운서 박소현 (게임 해설가 고수진과 결혼한 동명이인, 별개 인물)"],
+  "quotes": [
+    {"speaker": "박소현", "text": "26년이나 했는데", "context": "장수 프로그램 종영을 앞두고 울컥하며 남긴 말"},
+    {"speaker": "박소현", "text": "결혼해 팔자 고치고 싶었다", "context": "연애 프로그램 출연 이유에 대한 발언"},
+    {"speaker": "박소현", "text": "절친 송은이 때문에 소개팅 자리 다 끊겨", "context": "친구 때문에 소개팅이 끊겼다는 농담 섞인 고백"},
+    {"speaker": "박소현", "text": "남편 없어 동안", "context": "미혼인 자신의 동안 외모에 대한 발언"},
+    {"speaker": "박소현", "text": "러브게임, 내 삶이죠", "context": "25주년을 맞은 라디오 프로그램에 대한 소감"}
+  ],
+  "events": [
+    {"summary": "26년간 진행한 프로그램이 종영을 앞두고 소감을 밝힘", "year": null, "confirmed": true},
+    {"summary": "라디오 프로그램 '러브게임'을 25주년째 진행 중", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "46kg", "meaning": "30년간 유지해온 체중"},
+    {"value": "30년", "meaning": "체중을 유지해온 기간"},
+    {"value": "26년", "meaning": "한 프로그램을 진행해온 기간"},
+    {"value": "25주년", "meaning": "라디오 프로그램 진행 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "송은이", "relation": "친한 동료 방송인", "mentioned_as": "절친이라 소개팅 자리가 다 끊겼다고 언급됨"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "30년간 46kg을 유지해왔다고 밝히며 의외의 방법을 썼다고 언급함",
+    "미혼임에도 동안이라는 평가를 받는다고 밝힘"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "30년간 46kg을 유지한 의외의 방법", "why_hot": "반전"},
+    {"material": "26년 진행 프로그램 종영 앞두고 울컥한 소감", "why_hot": "발언"},
+    {"material": "절친 송은이 때문에 소개팅이 끊겼다는 고백", "why_hot": "발언"},
+    {"material": "남편 없어도 동안이라는 평가", "why_hot": "반전"},
+    {"material": "라디오 프로그램 25주년을 맞은 소감", "why_hot": "발언"}
+  ],
+  "scene_materials": [],
+  "sns_materials": [],
+  "press_only_materials": []
+}
