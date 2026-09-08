@@ -1,0 +1,60 @@
+{
+  "person": {
+    "name": "이지혜",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": "45",
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "인중 축소술·실리프팅 시술 사실을 본인이 직접 공개한 45세 방송인 이지혜"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이지혜", "text": "완전 맘에 듦", "context": "14000원 선글라스에 대한 발언"},
+    {"speaker": "이지혜", "text": "콧대 있어야 도도하다고", "context": "아버지 권유로 고등학교 때 코 성형을 한 이유에 대한 발언"},
+    {"speaker": "이지혜", "text": "지금 리즈라고 감히 말씀드린다", "context": "인중 축소술 직후 얼굴을 공개하며 남긴 발언"},
+    {"speaker": "이지혜", "text": "아파도 꾹 참아야", "context": "예뻐질 수 있다면 아파도 참는다는 취지의 발언"},
+    {"speaker": "이지혜", "text": "정신 건강, 마음 건강", "context": "시술 후 관리에 대한 발언"},
+    {"speaker": "이지혜", "text": "피로 싹 가시고 젊어져", "context": "생일에 관리를 받은 뒤 남긴 발언"},
+    {"speaker": "이지혜", "text": "이 또한 지나가리라", "context": "방학이 끝난 뒤 근황을 전하며 남긴 발언"}
+  ],
+  "events": [
+    {"summary": "아버지의 권유로 고등학교 때 처음 코 성형을 했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "인중 축소술과 실리프팅 시술을 받았다고 공개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "1200만원", "meaning": "딸 학비로 연간 지출한다고 밝힌 금액"},
+    {"value": "14000원", "meaning": "본인이 착용한다고 밝힌 선글라스 가격"},
+    {"value": "45세", "meaning": "보도 시점 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "실리프팅 후 '5~8살 어려졌다'는 댓글이 쏟아짐", "where": "댓글", "scale": "폭주"}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "인중 축소술과 실리프팅을 직접 받았다고 공개하며 '지금이 리즈'라고 말함",
+    "실리프팅 후 '5~8살 어려졌다'는 반응을 받음"
+  ],
+  "care_habits": [
+    "생일에 관리를 받은 뒤 피로가 가시고 젊어졌다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "딸 학비 1200만원 쓰면서 14000원 선글라스를 쓴다는 반전", "why_hot": "낙차"},
+    {"material": "인중 축소술 직후 '지금이 리즈'라고 말한 자신감", "why_hot": "발언"},
+    {"material": "아버지 권유로 고등학생 때 첫 성형을 했다는 고백", "why_hot": "발언"},
+    {"material": "실리프팅 후 '5~8살 어려졌다'는 댓글 폭주", "why_hot": "반전"},
+    {"material": "45세에 밝힌 어려지는 비결", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "인중 축소술 직후 얼굴을 공개했다",
+    "생일에 관리를 받는 모습을 공개했다"
+  ],
+  "sns_materials": [
+    "14000원 선글라스를 착용한 모습을 직접 공개했다"
+  ],
+  "press_only_materials": []
+}
