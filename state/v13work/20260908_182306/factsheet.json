@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "김태리",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "드라마 '정년이' 주연, 데뷔 11년 만에 첫 고정 예능 '방과후 태리쌤'에 도전한 배우 김태리"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김태리", "text": "10년 만에 깐느", "context": "칸 영화제 요트 위 비하인드 소회"},
+    {"speaker": "김태리", "text": "빛 한 줌이면 충분해요", "context": "잔잔한 오후 셀카와 함께 남긴 말"},
+    {"speaker": "김태리", "text": "행운은 기세다", "context": "네잎클로버를 물고 찍은 사진과 함께 남긴 말"},
+    {"speaker": "김태리", "text": "마음고생 제일 심해", "context": "첫 고정 예능 '방과후 태리쌤' 촬영 소감"},
+    {"speaker": "김태리", "text": "손발 벌벌 떨렸다", "context": "데뷔 11년 만의 첫 고정 예능 소감"},
+    {"speaker": "김태리", "text": "마지막 예능이 될 것", "context": "첫 예능 도전 솔직 고백"}
+  ],
+  "events": [
+    {"summary": "칸 영화제에 참석해 10년 만의 소회를 밝힘", "year": null, "confirmed": true},
+    {"summary": "데뷔 11년 만에 첫 고정 예능 '방과후 태리쌤'에 도전함", "year": null, "confirmed": true},
+    {"summary": "웹툰 원작 '언니, 이번 생엔 내가 왕비야' 출연을 긍정 검토 중이라는 공식 입장을 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "예능 동료 강남이 함께 촬영하며 눈물을 보임", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "신예은", "relation": "동료 배우", "mentioned_as": "드라마 '정년이'로 맺어진 유대감을 언급"},
+    {"name": "강남", "relation": "예능 동료", "mentioned_as": "'방과후 태리쌤'을 함께 촬영하며 눈물을 보임"},
+    {"name": "홍경", "relation": "동료 배우", "mentioned_as": "'이 별에 필요한' 프로젝트를 함께함"},
+    {"name": "송중기", "relation": "동료 배우", "mentioned_as": "진선규를 응원하러 함께 참석"}
+  ],
+  "works": [
+    {"title": "정년이", "year": null, "costar": "신예은", "scene": "함께 고생하며 애틋한 유대감을 쌓았다고 밝힌 장면", "kind": "실제"},
+    {"title": "방과후 태리쌤", "year": null, "costar": "강남", "scene": "데뷔 11년 만의 첫 고정 예능에서 손발이 떨렸다고 고백한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "잔잔한 셀카를 공개해 '청초한 미모', '맑은 눈빛'이라는 평가를 받음",
+    "네잎클로버를 물고 찍은 사진으로 청량한 이미지를 보임"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "데뷔 11년 만에 처음 도전한 예능에서 손발이 떨렸다는 고백", "why_hot": "발언"},
+    {"material": "칸 영화제에서 10년 만의 소회를 밝힌 순간", "why_hot": "발언"},
+    {"material": "정년이로 맺어진 신예은과의 유대감", "why_hot": "실명"},
+    {"material": "마지막 예능이 될 것이라 말한 솔직한 고백", "why_hot": "발언"},
+    {"material": "청초한 미모, 맑은 눈빛이라는 평가", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "네잎클로버를 입에 물고 풀밭에서 찍은 사진을 공개했다",
+    "잔잔한 오후 셀카를 올렸다"
+  ],
+  "sns_materials": [
+    "잔잔한 오후 셀카와 네잎클로버 사진을 직접 올렸다"
+  ],
+  "press_only_materials": [
+    "칸 영화제 요트 위 비하인드 사진"
+  ]
+}
