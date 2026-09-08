@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "공효진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "영화 '윗집 사람들', 드라마 '경주기행'에 출연하고 케빈오와 결혼한 배우 공효진"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "공효진", "text": "둘 다 어렸다", "context": "영화 '윗집 사람들'에서 13년 만에 하정우 감독과 재회한 소감"},
+    {"speaker": "공효진", "text": "시간이 가는 게 너무 아까운 요즘", "context": "결혼 1주년 소감"},
+    {"speaker": "공효진", "text": "입어만 봤어요", "context": "중고거래로 직접 옷을 구매한 것에 대한 발언"},
+    {"speaker": "장다아", "text": "롤모델은 공효진과 조승우, 연기에 자극 많이 받아", "context": "인터뷰"},
+    {"speaker": "이민호", "text": "뭐지 이 청순함은?", "context": "공효진의 민낯 셀카를 보고 남긴 반응"}
+  ],
+  "events": [
+    {"summary": "배우 케빈오와 결혼해 1주년을 맞음", "year": null, "confirmed": true},
+    {"summary": "남편 케빈오가 결혼 직후 입대했다가 전역함", "year": null, "confirmed": true},
+    {"summary": "영화 '윗집 사람들'에서 13년 만에 하정우 감독과 재회함 (부산국제영화제 2025)", "year": 2025, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "155억", "meaning": "보유 건물 가치로 알려진 재산 규모"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "이민호가 민낯 셀카를 보고 '뭐지 이 청순함은?' 이라고 반응함", "where": "기사반응", "scale": ""},
+    {"text": "장다아가 '롤모델은 공효진과 조승우'라고 언급함", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "케빈오", "relation": "남편", "mentioned_as": "결혼 1주년을 함께한 배우자, 결혼 직후 입대해 전역"},
+    {"name": "하정우", "relation": "영화 감독", "mentioned_as": "영화 '윗집 사람들'에서 13년 만에 감독으로 재회"},
+    {"name": "이민호", "relation": "동료 배우", "mentioned_as": "민낯 셀카에 '청순함' 반응을 남김"},
+    {"name": "장다아", "relation": "후배 배우", "mentioned_as": "롤모델로 공효진을 꼽음"},
+    {"name": "이정은", "relation": "동료 배우", "mentioned_as": "드라마 '경주기행'에서 함께 연기"}
+  ],
+  "works": [
+    {"title": "윗집 사람들", "year": 2025, "costar": "하정우", "scene": "13년 만에 감독으로 다시 만나 '둘 다 어렸다'고 소감을 밝힌 장면", "kind": "실제"},
+    {"title": "경주기행", "year": null, "costar": "이정은", "scene": "이정은의 연기에 대해 '얼굴과 머리로 스토리를 보여준다'고 평한 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "민낯 셀카를 공개했고, 이를 본 배우 이민호가 '청순함' 반응을 보임"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "민낯 셀카에 이민호가 남긴 반응", "why_hot": "실명"},
+    {"material": "13년 만에 하정우 감독과 재회한 사연", "why_hot": "반전"},
+    {"material": "155억 건물 재산 규모", "why_hot": "낙차"},
+    {"material": "직접 중고거래로 옷을 구매한다는 소박함", "why_hot": "반전"},
+    {"material": "장다아가 롤모델로 꼽은 사연", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "민낯 셀카를 SNS에 올렸다",
+    "결혼 1주년에 남편과 꼭 끌어안은 사진을 남겼다"
+  ],
+  "sns_materials": [
+    "여름 준비라며 직접 공개한 운동화 사진"
+  ],
+  "press_only_materials": [
+    "어깨 타투가 드러난 드레스와 주얼리를 착용한 행사 사진"
+  ]
+}
