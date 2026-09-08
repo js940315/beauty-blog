@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "이경실",
+    "gender": "여성",
+    "job": "개그우먼",
+    "birth_year": null,
+    "age": "60",
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "환갑을 맞아 동료들의 축하를 받은 개그우먼 이경실"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이경실", "text": "피부 훨씬 환해져..돈 들인 만큼 좋아", "context": "줄기세포 시술 효과에 대한 발언"},
+    {"speaker": "이경실", "text": "가슴으로 울어", "context": "깜짝 환갑 파티에 감동한 소감"},
+    {"speaker": "이경실", "text": "내년 박미선 차례", "context": "환갑 파티에서 남긴 유쾌한 농담"},
+    {"speaker": "손보승", "text": "사랑해 엄마", "context": "군복을 입고 무대에 깜짝 등장해 남긴 말"}
+  ],
+  "events": [
+    {"summary": "줄기세포 시술을 받고 효과에 대만족했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "환갑을 맞아 동료 개그맨들이 총출동한 깜짝 파티를 받음", "year": null, "confirmed": true},
+    {"summary": "아들 손보승이 군복을 입고 무대에 깜짝 등장함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "60세", "meaning": "환갑을 맞은 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "조혜련, 정선희 등 동료 개그맨들이 환갑 파티에 총출동함", "where": "파티", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "조혜련", "relation": "동료 개그우먼", "mentioned_as": "환갑 파티에 참석함"},
+    {"name": "손보승", "relation": "아들", "mentioned_as": "군복을 입고 무대에 깜짝 등장해 사랑을 표현함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "줄기세포 시술 후 피부가 훨씬 환해졌다고 밝힘"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "줄기세포 시술 후 피부가 환해졌다는 대만족 반응", "why_hot": "발언"},
+    {"material": "환갑 파티에서 '가슴으로 울었다'는 감동 소감", "why_hot": "발언"},
+    {"material": "아들이 군복 입고 무대에 깜짝 등장한 순간", "why_hot": "장면"},
+    {"material": "조혜련 등 동료들이 총출동한 환갑 파티", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "환갑 파티에서 동료들과 함께한 모습을 공개했다",
+    "아들이 군복을 입고 무대에 깜짝 등장했다"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
