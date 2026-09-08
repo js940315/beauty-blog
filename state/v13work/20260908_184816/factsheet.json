@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "변정수",
+    "gender": "여성",
+    "job": "모델",
+    "birth_year": null,
+    "age": "51",
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "모델 출신, 두 딸을 둔 51세 방송인 변정수"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "변정수", "text": "엄마 가방 2개 뺏겼다", "context": "두 딸과의 데이트에서 남긴 말"},
+    {"speaker": "변정수", "text": "제일 행복해", "context": "밀라노에서 두 딸과 함께한 근황"},
+    {"speaker": "변정수", "text": "울 예쁜이 간만에 만났네", "context": "딸 유채원과의 만남에서 남긴 말"},
+    {"speaker": "변정수", "text": "헌팅을 얼마나 당하는지", "context": "둘째 딸과 뉴욕에 갔을 때 남긴 말"},
+    {"speaker": "변정수", "text": "내 딸 아닌 것 같아", "context": "모델 유전자를 물려받은 딸에 대한 발언"},
+    {"speaker": "변정수", "text": "하이닉스 수익률 200%", "context": "주식 투자 성과에 대한 발언"},
+    {"speaker": "이봉원", "text": "7세 많은데 나보고 아빠라고", "context": "동안인 아내 때문에 겪은 일화를 밝힌 발언"},
+    {"speaker": "변정수", "text": "연휴에 찐 뱃살 날릴 것", "context": "명절 이후 체중 관리 다짐 발언"},
+    {"speaker": "변정수", "text": "아침마다 20분씩", "context": "50대에도 유지하는 몸매 비결에 대한 발언"}
+  ],
+  "events": [
+    {"summary": "딸 유채원을 파리 패션위크에 데려갔다가 모델로 데뷔시킴", "year": null, "confirmed": true},
+    {"summary": "주식 투자로 하이닉스에서 200% 수익률을 기록했다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "51세", "meaning": "나이"},
+    {"value": "200%", "meaning": "하이닉스 주식 투자 수익률"},
+    {"value": "20분", "meaning": "아침마다 챙긴다는 운동 시간"},
+    {"value": "7세", "meaning": "남편과의 나이 차이"},
+    {"value": "2개", "meaning": "딸들에게 뺏겼다는 가방 개수"}
+  ],
+  "credentials": [
+    {"item": "딸 유채원 파리 패션위크로 모델 데뷔", "whose": "딸"},
+    {"item": "둘째 딸도 모델 유전자로 화제", "whose": "딸"}
+  ],
+  "public_reactions": [
+    {"text": "남편이 '7세 많은데 나보고 아빠라고 한다'며 동안 아내 때문에 겪은 일화를 밝힘", "where": "방송", "scale": ""},
+    {"text": "30년 전 사진이 공개되자 온라인에서 '귀한 사진'이라는 반응이 나옴", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이봉원", "relation": "남편", "mentioned_as": "7세 연상으로, 동안인 아내 때문에 아빠로 오해받은 적 있다고 밝힘"},
+    {"name": "유채원", "relation": "딸", "mentioned_as": "파리 패션위크로 모델 데뷔함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "51세에도 동안이라는 평가를 받아 남편이 아빠로 오해받은 적 있다고 밝힘",
+    "30년 전 사진이 공개되며 온라인에서 화제가 됨"
+  ],
+  "care_habits": [
+    "아침마다 20분씩 운동한다고 밝힘",
+    "명절 연휴 뒤에는 특정 음식을 절제하며 체중을 관리한다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "남편이 7세 연상인데 아빠로 오해받았다는 동안 비결", "why_hot": "반전"},
+    {"material": "두 딸에게 가방을 뺏겼다는 럭셔리 모녀 데이트", "why_hot": "장면"},
+    {"material": "하이닉스 주식 200% 수익률", "why_hot": "낙차"},
+    {"material": "30년 전 사진이 온라인에서 화제가 된 사연", "why_hot": "반전"},
+    {"material": "아침 20분 운동으로 유지하는 50대 몸매", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "밀라노에서 두 딸과 함께한 모습을 공개했다",
+    "뉴욕에서 둘째 딸과 데이트하는 모습을 공개했다"
+  ],
+  "sns_materials": [
+    "두 딸과의 럭셔리 데이트 사진을 직접 올렸다"
+  ],
+  "press_only_materials": []
+}
