@@ -1,0 +1,63 @@
+{
+  "person": {
+    "name": "김원희",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": "54",
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "남편과 34년째 함께하는 방송인 김원희"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김원희", "text": "열심히 했는데, 한 달 2kg 밖에 안 빠졌다", "context": "다이어트 관련 발언"},
+    {"speaker": "김원희", "text": "역부족...따라한 내가 죄인", "context": "블랙핑크 제니 스타일을 따라해본 뒤 남긴 자평"},
+    {"speaker": "장영란", "text": "너무 예쁘오", "context": "김원희의 제니 스타일 변신을 보고 남긴 반응"},
+    {"speaker": "김원희", "text": "싸우면서 잘사는 비결", "context": "남편과 34년째 함께하는 비결에 대한 발언"},
+    {"speaker": "김원희", "text": "홍록기 스타일로 30분 공들여", "context": "과거 겨털 분장 비화를 공개하며 남긴 말"},
+    {"speaker": "김원희", "text": "수십 년 만에 쉬었는데", "context": "은퇴설에 대한 해명 발언"}
+  ],
+  "events": [
+    {"summary": "남편과 연애 15년, 결혼 19년으로 34년째 함께하고 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "블랙핑크 제니의 멧 갈라 스타일을 따라해봤다고 밝힘", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "54세", "meaning": "나이"},
+    {"value": "34년", "meaning": "남편과 함께한 기간(연애 15년+결혼 19년)"},
+    {"value": "2kg", "meaning": "한 달간 감량한 체중"},
+    {"value": "6kg", "meaning": "두 달 감량 도전한 목표 체중"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "장영란이 제니 스타일로 변신한 모습을 보고 '너무 예쁘오'라고 반응함", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "장영란", "relation": "동료 방송인", "mentioned_as": "제니 스타일 변신에 감탄함"},
+    {"name": "유재석", "relation": "동료 방송인", "mentioned_as": "닮은꼴 스타일 도전을 인정함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "'옛날 얼굴 그대로'라는 말을 들으며 관리 비결로 특정 방법을 꼽음 (구체 제품명은 확인 안 됨)",
+    "탈모 관리법을 공개해 실시간 화제가 됨",
+    "블랙핑크 제니 스타일을 따라했다가 '역부족'이라며 겸손하게 자평함"
+  ],
+  "care_habits": [
+    "한 달간 다이어트를 했지만 2kg만 빠졌다고 솔직하게 밝힘",
+    "두 달 동안 6kg 감량에 도전했다고 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "제니 스타일 따라했다가 '내가 죄인'이라 자평한 겸손함", "why_hot": "발언"},
+    {"material": "장영란이 감탄한 54세 미모", "why_hot": "실명"},
+    {"material": "남편과 34년째 함께하는 비결", "why_hot": "낙차"},
+    {"material": "전설의 겨털 분장 비화", "why_hot": "반전"},
+    {"material": "탈모 관리법 공개로 실시간 화제", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "블랙핑크 제니의 멧 갈라 스타일을 따라한 모습을 공개했다",
+    "탈모 관리 비법을 방송에서 직접 공개했다"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}

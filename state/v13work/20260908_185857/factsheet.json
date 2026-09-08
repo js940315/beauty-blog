@@ -1,0 +1,36 @@
+{
+  "person": {
+    "name": "이유리",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "홈쇼핑 완판 화장품 브랜드로 사옥을 세운 배우 이유리"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이유리", "text": "홈쇼핑 덕에 화장품 회사 건물을 세웠다", "context": "예능 방송 발언"}
+  ],
+  "events": [],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "홈쇼핑을 통해 화장품 브랜드를 키워 사옥(건물)을 마련했다고 직접 밝힘"
+  ],
+  "care_habits": [
+    "체중 조절과 근력 강화를 동시에 잡을 수 있는 운동에 빠져 있다고 알려짐 (구체 종목명은 기사에 명시되지 않음)"
+  ],
+  "hot_materials": [
+    {"material": "홈쇼핑 화장품 브랜드로 사옥까지 마련한 반전", "why_hot": "반전"},
+    {"material": "체중조절+근력강화 동시에 잡는 운동 루틴", "why_hot": "장면"}
+  ],
+  "scene_materials": [],
+  "sns_materials": [],
+  "press_only_materials": []
+}
