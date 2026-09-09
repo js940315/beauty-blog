@@ -1,0 +1,66 @@
+{
+  "person": {
+    "name": "송은이",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "백수 생활을 하다 지금은 직원 50명을 둔 콘텐츠 회사 대표가 됐다",
+    "major_work": "",
+    "identity_anchor": "코미디언 겸 콘텐츠 회사 대표 송은이, 유재석과 30년 지기"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "송은이", "text": "눈이 커지고 리프팅까지 된다", "context": "괄사 마사지 효과를 소개하며"},
+    {"speaker": "송은이", "text": "2년 지나니 무섭게 쪘다", "context": "체지방 13%를 만든 뒤 요요를 겪은 경험을 밝히며"},
+    {"speaker": "송은이", "text": "누군가에게 해가 되는 웃음은 만들지 말자", "context": "코미디 철학을 밝히며"},
+    {"speaker": "송은이", "text": "1995년엔 내가 유재석보다 더 유명했다", "context": "무명 시절을 회상하며"},
+    {"speaker": "송은이", "text": "100억 있어야 했는데 다 써서 지금은 돈이 없다", "context": "재산설에 대한 질문에"},
+    {"speaker": "송은이", "text": "류승룡에게 설렌 적이 있다", "context": "30년 만에 속마음을 고백하며"}
+  ],
+  "events": [
+    {"summary": "백수 생활을 하다 지금은 직원 50명을 둔 콘텐츠 회사 대표가 됐다", "year": null, "confirmed": true},
+    {"summary": "고물상 자리에 사옥을 올렸고 그 가치가 157억 원이라고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "체지방 13%를 만든 뒤 2년 만에 요요를 겪었다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "과거 배우 정우성과 연애했던 사실을 직접 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "157억", "meaning": "사옥 가치"},
+    {"value": "50명", "meaning": "현재 직원 수"},
+    {"value": "13%", "meaning": "한때 만들었던 체지방률"},
+    {"value": "30년", "meaning": "유재석과의 우정 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "유재석", "relation": "동료 방송인", "mentioned_as": "30년 우정을 이어오고 있으며 무명 시절 그녀가 더 유명했다는 사실을 인정했다"},
+    {"name": "정우성", "relation": "과거 연애 상대", "mentioned_as": "본인의 마지막 연애 상대였다고 직접 밝혔다"},
+    {"name": "류승룡", "relation": "동료 배우", "mentioned_as": "한때 설렌 적이 있다고 고백한 상대"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "괄사 마사지로 3분 만에 눈이 커지고 리프팅 효과를 봤다고 밝혔다",
+    "체지방 13%까지 관리했던 경험이 있다"
+  ],
+  "care_habits": [
+    "괄사 마사지를 활용한다",
+    "체지방 관리를 시도한 적이 있다"
+  ],
+  "hot_materials": [
+    {"material": "백수에서 157억 사옥의 CEO가 된 반전 스토리", "why_hot": "반전"},
+    {"material": "1995년엔 유재석보다 더 유명했다는 폭로", "why_hot": "반전"},
+    {"material": "괄사 마사지로 3분 만에 눈이 커진다는 뷰티 팁", "why_hot": "발언"},
+    {"material": "체지방 13% 뒤 2년 만에 요요가 왔다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "정우성이 마지막 연애 상대였다는 고백", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "3분 만에 괄사 마사지를 하는 장면",
+    "고물상 자리에 세운 사옥"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "화보 촬영 사진",
+    "시상식 및 시사회 사진"
+  ]
+}
