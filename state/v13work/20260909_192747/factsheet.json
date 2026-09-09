@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "전지현",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "44세",
+    "age_range": "",
+    "career": "영화 '엽기적인 그녀' 개봉 25년 만에 명대사를 다시 외쳤다",
+    "major_work": "엽기적인 그녀",
+    "identity_anchor": "영화 '엽기적인 그녀' 주연 배우로 25주년을 맞은 전지현"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "전지현", "text": "오전 6시 기상, 러닝·복싱한다", "context": "자기관리 비법을 공개하며"},
+    {"speaker": "전지현", "text": "공복 운동, 2시에 첫 끼", "context": "유튜브에 처음 출연해 관리 비결을 밝히며"},
+    {"speaker": "전지현", "text": "실수할까봐 안 해요, 잘하는 것만 하자는 주의라서", "context": "SNS를 하지 않는 이유를 묻는 질문에"},
+    {"speaker": "홍진경", "text": "진짜 안 먹더라", "context": "전지현의 식습관에 대해 증언하며"}
+  ],
+  "events": [
+    {"summary": "영화 '엽기적인 그녀' 개봉 25년 만에 그 유명한 대사를 다시 외쳤다", "year": null, "confirmed": true},
+    {"summary": "결혼 12주년을 맞았다", "year": null, "confirmed": true},
+    {"summary": "프랑스 명품 패션쇼에 참석해 세월이 흘러도 늙지 않는 아우라라는 평가를 받았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "44세", "meaning": "현재 나이"},
+    {"value": "25년", "meaning": "'엽기적인 그녀' 개봉 이후 경과 기간"},
+    {"value": "12주년", "meaning": "결혼 기념 연차"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "홍진경", "relation": "동료 방송인", "mentioned_as": "전지현이 정말 안 먹더라고 증언했다"},
+    {"name": "구교환", "relation": "동료 배우", "mentioned_as": "레드카펫 밖에서도 어깨동무하며 친밀한 모습을 보였다"},
+    {"name": "장영란", "relation": "동료 방송인", "mentioned_as": "전지현 옆자리를 차지했다며 감격했다"}
+  ],
+  "works": [
+    {"title": "엽기적인 그녀", "year": null, "costar": "", "scene": "25년 만에 유명한 대사를 다시 외친 순간", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "오전 6시에 기상해 러닝과 복싱으로 자기관리를 한다고 밝혔다",
+    "공복 운동 후 오후 2시에 첫 끼를 먹는다고 밝혔다",
+    "동료 방송인 홍진경이 정말 안 먹더라고 증언했다",
+    "프랑스 명품 패션쇼에서 세월이 흘러도 늙지 않는 아우라라는 평가를 받았다"
+  ],
+  "care_habits": [
+    "오전 6시 기상 후 러닝과 복싱을 한다",
+    "공복 상태로 운동하고 오후 2시에 첫 끼를 먹는다"
+  ],
+  "hot_materials": [
+    {"material": "25년 만에 '엽기적인 그녀' 명대사를 다시 외친 순간", "why_hot": "낙차"},
+    {"material": "오전 6시 기상, 공복 운동 후 오후 2시 첫 끼라는 관리 루틴", "why_hot": "발언"},
+    {"material": "홍진경이 증언한 적게 먹는 식습관", "why_hot": "발언"},
+    {"material": "SNS를 하지 않는 이유에 대한 솔직한 발언", "why_hot": "발언"},
+    {"material": "프랑스 명품 패션쇼에서 받은 동안 평가", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "25년 만에 유명한 대사를 다시 외친 순간",
+    "공복 상태로 아침 운동을 하는 루틴",
+    "레드카펫 밖에서 구교환과 어깨동무하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "프랑스 명품 패션쇼 참석 사진",
+    "'엽기적인 그녀' 25주년 관련 사진",
+    "레드카펫에서 동료들과 함께 찍힌 사진"
+  ]
+}
