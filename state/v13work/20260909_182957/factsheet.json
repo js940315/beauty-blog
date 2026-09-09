@@ -1,0 +1,79 @@
+{
+  "person": {
+    "name": "전지현",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": 44,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "엽기적인 그녀",
+    "identity_anchor": "엽기적인 그녀 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "전지현", "text": "오전 6시 기상, 러닝·복싱한다", "context": "자기관리 비법을 공개하며 한 말"},
+    {"speaker": "전지현", "text": "공복 운동, 2시에 첫 끼", "context": "예능 첫 출연에서 관리 비결로 밝힌 말"},
+    {"speaker": "전지현", "text": "꾸준한 운동과 건강한 식습관", "context": "동안 비결을 묻는 질문에 답한 말"},
+    {"speaker": "전지현", "text": "실수할까봐 안 한다, 잘하는 것만 하자", "context": "SNS를 안 하는 이유를 밝힌 인터뷰"},
+    {"speaker": "전지현", "text": "견우야", "context": "엽기적인 그녀 25주년 행사에서 25년 만에 외친 영화 속 대사"},
+    {"speaker": "홍진경", "text": "진짜 안 먹더라", "context": "전지현의 식사량에 대해 증언한 말"},
+    {"speaker": "장영란", "text": "버티니 이런 날도 오네", "context": "전지현 옆자리에 앉아 감격하며 한 말"}
+  ],
+  "events": [
+    {"summary": "오전 6시에 일어나 러닝과 복싱으로 하루를 시작한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "공복에 운동하고 오후 2시에 첫 끼를 먹는다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "44세에 동안 비결을 묻는 질문에 꾸준한 운동과 건강한 식습관이라고 답했다", "year": null, "confirmed": true},
+    {"summary": "SNS를 하지 않는 이유로 실수할까봐 잘하는 것만 하자고 답했다", "year": null, "confirmed": true},
+    {"summary": "엽기적인 그녀 25주년 행사에서 25년 만에 견우야를 다시 외쳐 구교환, 지창욱이 감동했다", "year": null, "confirmed": true},
+    {"summary": "홍진경이 전지현이 실제로 잘 안 먹는다고 증언했다", "year": null, "confirmed": true},
+    {"summary": "장영란이 전지현 옆자리에 앉아 감격했다는 반응을 보였다", "year": null, "confirmed": true},
+    {"summary": "결혼 12주년을 맞아 뷰티 시크릿을 공개했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "44세", "meaning": "현재 나이"},
+    {"value": "6시", "meaning": "기상 시각"},
+    {"value": "2시", "meaning": "첫 끼를 먹는 시각"},
+    {"value": "25년", "meaning": "엽기적인 그녀 개봉 후 경과 연수"},
+    {"value": "12주년", "meaning": "결혼 기념 연수"}
+  ],
+  "credentials": [
+    {"item": "엽기적인 그녀로 25년째 대표작을 이어가고 있다", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "버티니 이런 날도 오네", "where": "방송", "scale": ""},
+    {"text": "진짜 안 먹더라", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "구교환", "relation": "행사 동석자", "mentioned_as": "함께 감동한 인물"},
+    {"name": "지창욱", "relation": "행사 동석자", "mentioned_as": "함께 감동한 인물"},
+    {"name": "홍진경", "relation": "방송인", "mentioned_as": "식사량을 증언한 인물"},
+    {"name": "장영란", "relation": "방송인", "mentioned_as": "옆자리에서 감격한 인물"},
+    {"name": "채서은", "relation": "후배 배우", "mentioned_as": "선배님에서 언니로 부르게 된 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "44세인데도 동안이라는 평가를 받는다",
+    "세월이 흘러도 늙지 않는 아우라라는 평이 나왔다"
+  ],
+  "care_habits": [
+    "오전 6시 기상 후 러닝과 복싱을 한다",
+    "공복 상태로 운동하고 오후 2시에 첫 끼를 먹는다"
+  ],
+  "hot_materials": [
+    {"material": "오전 6시 기상, 러닝·복싱한다는 발언", "why_hot": "발언"},
+    {"material": "공복 운동, 2시에 첫 끼라는 발언", "why_hot": "발언"},
+    {"material": "엽기적인 그녀 25주년에 견우야를 다시 외친 장면", "why_hot": "장면"},
+    {"material": "장영란이 옆자리에서 감격한 반응", "why_hot": "발언"},
+    {"material": "홍진경이 실제로 잘 안 먹더라고 증언한 대목", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "엽기적인 그녀 25주년 행사에서 견우야를 외치는 장면",
+    "공복 상태로 새벽 운동을 하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "프랑스 명품 패션쇼 참석 사진",
+    "레드카펫 사진"
+  ]
+}
