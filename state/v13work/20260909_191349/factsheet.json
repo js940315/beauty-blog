@@ -1,0 +1,62 @@
+{
+  "person": {
+    "name": "손예진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "드라마 '스캔들'로 24년 만에 사극에 복귀했다",
+    "major_work": "스캔들",
+    "identity_anchor": "배우 현빈의 아내이자 드라마 '스캔들'로 24년 만에 사극에 복귀한 배우 손예진"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "손예진", "text": "운동·식단, 내 몸 수고했다", "context": "백상예술대상 참석을 앞두고 미모 비결을 묻자"},
+    {"speaker": "손예진", "text": "이제 욕망 표현할 수 있는 나이", "context": "드라마 '스캔들' 컴백을 앞두고"},
+    {"speaker": "손예진", "text": "몰래 가져와", "context": "예능에서 남편 현빈이 준 선물이 들어있는 냉장고를 공개하며"},
+    {"speaker": "손예진", "text": "'사랑의 불시착' 3회쯤? 선한 사람이라 좋아", "context": "예능에서 남편 현빈에게 반한 시점을 묻는 질문에"},
+    {"speaker": "정해인", "text": "손예진은 건드리지 마", "context": "예능에서 정소민에게 장난스럽게 한 말"}
+  ],
+  "events": [
+    {"summary": "드라마 '스캔들'로 24년 만에 사극에 복귀했다", "year": null, "confirmed": true},
+    {"summary": "예능에서 남편 현빈과 함께 쓰는 냉장고를 처음으로 공개했다", "year": null, "confirmed": true},
+    {"summary": "휴가지에서 남편 현빈과 아들과 함께 있는 모습이 포착됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "24년", "meaning": "이전 사극 출연 이후 컴백작 '스캔들'까지 경과 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "현빈", "relation": "남편", "mentioned_as": "함께 냉장고를 공개하고 휴가를 다녀왔다"},
+    {"name": "이민정", "relation": "지인", "mentioned_as": "미모를 인정했다는 이야기가 전해졌다"},
+    {"name": "정해인", "relation": "동료 배우", "mentioned_as": "예능에서 그녀 이름을 언급하며 장난스럽게 웃음을 자아냈다"},
+    {"name": "정소민", "relation": "동료 배우", "mentioned_as": "정해인이 농담을 건넨 상대"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "10살 더 어려 보인다는 평가를 받은 적이 있다",
+    "백상예술대상을 앞두고 운동과 식단으로 몸을 관리했다고 직접 밝혔다"
+  ],
+  "care_habits": [
+    "시상식을 앞두고 운동과 식단을 관리한다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "운동·식단으로 다진 몸을 스스로 치하한 발언", "why_hot": "발언"},
+    {"material": "24년 만의 사극 컴백작 '스캔들'", "why_hot": "반전"},
+    {"material": "이제 욕망 표현할 수 있는 나이라는 자신감 발언", "why_hot": "발언"},
+    {"material": "정해인이 예능에서 그녀 이름을 지켜준 장면", "why_hot": "장면"},
+    {"material": "남편 현빈과 냉장고를 공개하며 밝힌 비하인드", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "예능에서 남편이 준 선물을 몰래 가져왔다며 냉장고를 공개한 장면",
+    "휴가지에서 남편 품에 안겨 있는 모습이 포착된 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "웨딩드레스를 디자이너 베라왕이 제작했다는 보도",
+    "휴가지에서 수영복 차림이 포착됐다는 보도",
+    "'스캔들' 홍보 현장 사진"
+  ]
+}
