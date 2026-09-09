@@ -1,0 +1,83 @@
+{
+  "person": {
+    "name": "한소희",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "배우",
+    "major_work": "인턴",
+    "identity_anchor": "부부의 세계·인턴 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "최민식", "text": "그 한소희가?", "context": "인턴 촬영 전 첫 인사에서 한 말"},
+    {"speaker": "한소희", "text": "그 최민식이?", "context": "최민식의 인사에 답하며 한 말"},
+    {"speaker": "최민식", "text": "다신 없을 호사", "context": "한소희와의 첫 호흡을 극찬한 인터뷰"},
+    {"speaker": "최영준", "text": "한소희는 열심이 몸에 밴 사람", "context": "경성크리처 촬영을 함께한 인터뷰"},
+    {"speaker": "박서준", "text": "정돈되지 않은 거친 느낌, MZ 신선함 있다", "context": "함께한 예능에서 한소희를 평가한 말"},
+    {"speaker": "김희애", "text": "천상급과 대결했다", "context": "부부의 세계에서 한소희의 미모를 언급한 말"},
+    {"speaker": "한소희", "text": "급하게 살 빼다 죽을 뻔", "context": "극단적 다이어트 유행에 소신을 밝힌 인터뷰"},
+    {"speaker": "한소희", "text": "연인이 내 삶 절반 넘으면 망가져", "context": "연애관을 밝힌 인터뷰"},
+    {"speaker": "한소희", "text": "팬들은 내 보석", "context": "도쿄 팬미팅에서 한 말"},
+    {"speaker": "전종서", "text": "한소희, 덜컥 찾아온 친구, 인스타 DM으로 친해졌다", "context": "인터뷰에서 한소희와의 친분을 밝힌 말"}
+  ],
+  "events": [
+    {"summary": "급하게 다이어트를 하다 위험한 순간을 겪었다며 극단적 다이어트에 소신을 밝혔다", "year": null, "confirmed": true},
+    {"summary": "다이어트 후유증을 딛고 몸매 관리를 이어가고 있다", "year": null, "confirmed": true},
+    {"summary": "탈색 단발로 이미지를 바꾼 뒤 악플이 쏟아졌지만 개의치 않았다", "year": null, "confirmed": true},
+    {"summary": "영화 인턴에서 최민식과 첫 호흡을 맞췄다", "year": null, "confirmed": true},
+    {"summary": "최민식이 다신 없을 호사라며 그녀와의 작업을 극찬했다", "year": null, "confirmed": true},
+    {"summary": "경성크리처를 함께한 최영준이 열심이 몸에 밴 사람이라고 평가했다", "year": null, "confirmed": true},
+    {"summary": "박서준이 정돈되지 않은 거친 느낌에 MZ 신선함이 있다고 평가했다", "year": null, "confirmed": true},
+    {"summary": "김희애가 부부의 세계에서 천상급과 대결했다고 언급했다", "year": null, "confirmed": true},
+    {"summary": "전종서와 인스타그램 DM으로 친해졌다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "연인이 삶의 절반을 넘으면 관계가 망가진다는 연애관을 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [
+    {"item": "영화 인턴의 주연을 맡았다", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "다신 없을 호사", "where": "기사반응", "scale": ""},
+    {"text": "천상급과 대결했다", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "최민식", "relation": "영화 인턴 공동 주연", "mentioned_as": "배우"},
+    {"name": "최영준", "relation": "경성크리처 공동 출연자", "mentioned_as": "배우"},
+    {"name": "박서준", "relation": "예능 공동 출연자", "mentioned_as": "배우"},
+    {"name": "김희애", "relation": "부부의 세계 언급자", "mentioned_as": "배우"},
+    {"name": "전종서", "relation": "동료 배우", "mentioned_as": "인스타그램으로 친해진 친구"}
+  ],
+  "works": [
+    {"title": "인턴", "year": null, "costar": "최민식", "scene": "최민식이 다신 없을 호사라며 첫 호흡을 극찬한 작품", "kind": "실제"},
+    {"title": "부부의 세계", "year": null, "costar": "", "scene": "김희애가 천상급과 대결했다고 언급한 작품", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "다이어트 후유증을 딛고 몸매 관리를 이어가고 있다",
+    "탈색 단발 변신에도 스타일을 밀고 나갔다"
+  ],
+  "care_habits": [
+    "극단적인 다이어트 대신 건강한 관리를 강조한다"
+  ],
+  "hot_materials": [
+    {"material": "최민식이 다신 없을 호사라며 극찬한 발언", "why_hot": "발언"},
+    {"material": "급하게 살 빼다 죽을 뻔했다는 고백", "why_hot": "반전"},
+    {"material": "탈색 단발 변신에 악플에도 개의치 않은 태도", "why_hot": "장면"},
+    {"material": "김희애가 천상급과 대결했다고 언급한 발언", "why_hot": "실명"},
+    {"material": "연인이 삶의 절반 넘으면 망가진다는 연애관", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "최민식과 처음 인사를 나누던 촬영장 장면",
+    "탈색 단발로 변신한 화보 촬영장"
+  ],
+  "sns_materials": [
+    "전종서와의 인스타그램 DM 친분"
+  ],
+  "press_only_materials": [
+    "칸영화제 레드카펫 사진",
+    "CEO룩 화보",
+    "탈색 단발 변신 화보"
+  ]
+}
