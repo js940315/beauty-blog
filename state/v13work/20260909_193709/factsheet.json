@@ -1,0 +1,53 @@
+{
+  "person": {
+    "name": "이유리",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "",
+    "career": "홈쇼핑 사업 성공으로 화장품 회사 건물을 세웠다고 밝혔다",
+    "major_work": "펜트하우스",
+    "identity_anchor": "드라마 '펜트하우스' 연민정 역의 배우 이유리, 목사 남편과 결혼 17년 차"
+  },
+  "namesake_dropped": ["'고딩엄빠5' 출연자 이유리 (남편 가정폭력·이혼 관련 보도, 동명이인)"],
+  "quotes": [
+    {"speaker": "이유리", "text": "홈쇼핑 덕에 화장품 회사 건물을 세웠다", "context": "한 방송에서 완판 비결을 밝히며"},
+    {"speaker": "이유리", "text": "불같이 사랑한 건 아니지만 지금이 훨씬 좋다", "context": "결혼 17년 차 근황을 전하며"},
+    {"speaker": "이유리", "text": "내가 먼저 고백하고 프러포즈도 내가 했다", "context": "12살 연상 남편과의 연애 비화를 밝히며"}
+  ],
+  "events": [
+    {"summary": "결혼 17년 차를 맞았으며 12살 연상의 목사 남편에게 본인이 먼저 프러포즈했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "홈쇼핑 사업 성공으로 화장품 회사 건물을 세웠다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "17년", "meaning": "결혼 기간"},
+    {"value": "12살", "meaning": "남편과의 나이 차"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [
+    {"title": "펜트하우스", "year": null, "costar": "", "scene": "연민정 역으로 잘 알려졌다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "홈쇼핑 완판 비결로 화장품 회사를 세울 만큼 뷰티 사업에서도 성공했다",
+    "새로운 운동에 빠져 체중 조절과 근력 강화 효과를 보고 있다고 밝혔다"
+  ],
+  "care_habits": [
+    "최근 새로운 운동에 빠져 꾸준히 하고 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "홈쇼핑 덕에 화장품 회사 건물을 세웠다는 깜짝 고백", "why_hot": "반전"},
+    {"material": "12살 연상 목사 남편에게 본인이 먼저 프러포즈했다는 사연", "why_hot": "반전"},
+    {"material": "결혼 17년 차인데도 불같은 사랑은 아니지만 지금이 더 좋다는 발언", "why_hot": "발언"},
+    {"material": "새로운 운동에 빠진 자기관리 근황", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "12살 연상 남편에게 먼저 고백하고 프러포즈한 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "결혼 17년 차 근황을 다룬 방송 캡처 보도"
+  ]
+}
