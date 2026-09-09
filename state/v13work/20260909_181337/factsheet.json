@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "손예진",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "사랑의 불시착",
+    "identity_anchor": "사랑의 불시착 주연, 현빈의 배우자"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "손예진", "text": "운동도 식단도 다 했다, 내 몸 수고했다", "context": "백상예술대상을 앞두고 한 말"},
+    {"speaker": "손예진", "text": "사랑의 불시착 3회쯤부터 좋았다, 선한 사람이라 좋아", "context": "현빈에게 마음이 기울기 시작한 시점을 밝힌 말"},
+    {"speaker": "손예진", "text": "몰래 가져와", "context": "냉장고를 부탁해에서 현빈이 준 선물을 몰래 숨겨왔다고 밝힌 말"},
+    {"speaker": "정해인", "text": "손예진은 건드리지 마", "context": "예능 엄친아에서 정소민에게 한 말"},
+    {"speaker": "이민정", "text": "어쩔수가없다", "context": "손예진의 미모에 대해 인정한 말"}
+  ],
+  "events": [
+    {"summary": "백상예술대상을 앞두고 운동과 식단을 병행했다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "4년 만에 드라마 스캔들로 복귀했다", "year": null, "confirmed": true},
+    {"summary": "냉장고를 부탁해에 나와 남편 현빈과 함께 쓰는 냉장고를 처음 공개했다", "year": null, "confirmed": true},
+    {"summary": "정해인이 정소민에게 손예진은 건드리지 말라고 말해 웃음을 자아냈다", "year": null, "confirmed": true},
+    {"summary": "이민정에게 미모를 인정받았다는 보도가 나왔다", "year": null, "confirmed": true},
+    {"summary": "남편 현빈이 데뷔 21년 만에 처음으로 술방 예능에 도전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "4년", "meaning": "드라마 복귀까지 걸린 시간"},
+    {"value": "21년", "meaning": "남편 현빈의 데뷔 후 경과 연수"}
+  ],
+  "credentials": [
+    {"item": "백상예술대상을 앞두고 있었다", "whose": "본인"},
+    {"item": "데뷔 21년 만에 첫 술방 예능에 도전했다", "whose": "남편"}
+  ],
+  "public_reactions": [
+    {"text": "손예진은 건드리지 마", "where": "방송", "scale": ""},
+    {"text": "어쩔수가없다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "현빈", "relation": "남편", "mentioned_as": "배우"},
+    {"name": "정해인", "relation": "동료 배우", "mentioned_as": "예능 공동 출연자"},
+    {"name": "정소민", "relation": "동료 배우", "mentioned_as": "예능 공동 출연자"},
+    {"name": "이민정", "relation": "동료 배우", "mentioned_as": "미모를 인정한 인물"},
+    {"name": "지창욱", "relation": "영화 스캔들 공동 출연자", "mentioned_as": "공동 주연"},
+    {"name": "나나", "relation": "영화 스캔들 공동 출연자", "mentioned_as": "공동 주연"}
+  ],
+  "works": [
+    {"title": "사랑의 불시착", "year": null, "costar": "현빈", "scene": "촬영 중 3회쯔음부터 현빈에게 마음이 기울기 시작했다고 밝힌 순간", "kind": "실제"},
+    {"title": "스캔들", "year": null, "costar": "지창욱, 나나", "scene": "4년 만의 복귀작으로 수위 있는 연기를 예고한 작품", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "백상예술대상을 앞두고 운동과 식단을 병행했다고 직접 밝혔다",
+    "10년은 더 어려 보인다는 평가를 받는다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "정해인이 정소민에게 '손예진은 건드리지 마'라고 말한 장면", "why_hot": "발언"},
+    {"material": "이민정에게 미모를 인정받았다는 보도", "why_hot": "실명"},
+    {"material": "사랑의 불시착 촬영 중 현빈에게 마음이 기울었다는 발언", "why_hot": "발언"},
+    {"material": "냉장고를 부탁해에서 남편이 준 선물을 몰래 숨겨왔다고 밝힌 장면", "why_hot": "장면"},
+    {"material": "백상 앞두고 운동·식단을 다 했다는 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "냉장고 속에 현빈이 준 선물을 몰래 숨겨놓은 장면",
+    "촬영장에서 현빈에게 마음이 기울기 시작한 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "웨딩드레스·시상식 관련 스타일링 보도",
+    "휴가 중 포착된 가족 사진"
+  ]
+}
