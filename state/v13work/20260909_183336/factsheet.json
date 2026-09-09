@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "김태희",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": 46,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "동안 미모로 유명한 톱배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김태희", "text": "외모는 서른 때가 가장 마음에 들어, 주름은 예쁘게 봐주세요", "context": "유퀴즈에 출연해 한 말"},
+    {"speaker": "비", "text": "저희 집으로 오세요", "context": "김태희가 2년 만에 인스타그램을 재개하자 남편 비가 남긴 댓글"},
+    {"speaker": "박진영", "text": "두 딸과 비, 김태희의 딸을 합쳐 걸그룹을 만들겠다", "context": "방송에서 한 말"}
+  ],
+  "events": [
+    {"summary": "어머니 김서라가 하와이에서 미용 전문학교를 운영한다는 사실이 알려졌다", "year": null, "confirmed": true},
+    {"summary": "어머니가 미인대회 진 출신으로 10살은 어리게 보인다는 평가를 받는다", "year": null, "confirmed": true},
+    {"summary": "유퀴즈에서 외모는 서른 때가 가장 마음에 든다며 주름은 예쁘게 봐달라고 말했다", "year": null, "confirmed": true},
+    {"summary": "2년 만에 인스타그램을 재개했고 남편 비가 저희 집으로 오세요라는 댓글을 남겼다", "year": null, "confirmed": true},
+    {"summary": "박진영이 두 딸과 비, 김태희의 딸을 합쳐 걸그룹을 만들겠다고 말했다", "year": null, "confirmed": true},
+    {"summary": "대학 시절 연세대 김태희로 불렸던 영상이 방송에서 소개됐다", "year": null, "confirmed": true},
+    {"summary": "전참시에 출연해 스태프들의 식사를 늘 챙긴다는 미담이 전해졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "46세", "meaning": "현재 나이"},
+    {"value": "2년", "meaning": "인스타그램을 쉰 기간"},
+    {"value": "10살", "meaning": "어머니가 실제보다 어리게 보인다는 격차"}
+  ],
+  "credentials": [
+    {"item": "하와이에서 미용 전문학교를 운영한다", "whose": "어머니"},
+    {"item": "미인대회 진 출신이다", "whose": "어머니"}
+  ],
+  "public_reactions": [
+    {"text": "저희 집으로 오세요", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "비", "relation": "남편", "mentioned_as": "배우"},
+    {"name": "김서라", "relation": "어머니", "mentioned_as": "미용 전문학교 운영자"},
+    {"name": "박진영", "relation": "방송 동료", "mentioned_as": "걸그룹 결성을 언급한 인물"},
+    {"name": "이완", "relation": "남동생", "mentioned_as": "배우"},
+    {"name": "전현무", "relation": "방송 동료", "mentioned_as": "대학 시절을 언급한 인물"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "46세인데도 동안이라는 평가를 받는다",
+    "어머니 역시 미인대회 진 출신으로 동안 미모를 유지하고 있다",
+    "대학 시절 연세대 김태희로 불렸다"
+  ],
+  "care_habits": [
+    "아침 식단을 챙긴다고 알려졌다"
+  ],
+  "hot_materials": [
+    {"material": "어머니가 하와이에서 미용 전문학교를 운영한다는 사실", "why_hot": "반전"},
+    {"material": "외모는 서른 때가 가장 마음에 든다는 발언", "why_hot": "발언"},
+    {"material": "남편 비가 인스타에 저희 집으로 오세요라는 댓글을 남긴 장면", "why_hot": "발언"},
+    {"material": "박진영이 두 집 딸들을 합쳐 걸그룹을 만들겠다고 한 발언", "why_hot": "발언"},
+    {"material": "연세대 김태희로 불렸던 대학 시절 영상", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "인스타그램에 2년 만에 복귀한 게시물과 남편의 댓글",
+    "유퀴즈 방송 화면 속 주름 발언 장면"
+  ],
+  "sns_materials": [
+    "인스타그램 재개 게시물(남편 비의 댓글 포함)",
+    "골프장 라운딩 근황"
+  ],
+  "press_only_materials": [
+    "초미니 청청 패션 파파라치 사진",
+    "뉴욕 방문 사진"
+  ]
+}
