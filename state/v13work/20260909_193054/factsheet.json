@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "김태희",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "45세",
+    "age_range": "",
+    "career": "2년 만에 SNS 활동을 재개했다",
+    "major_work": "",
+    "identity_anchor": "배우 비(정지훈)의 아내이자 배우 김태희, 최근 2년 만에 SNS를 재개했다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김태희", "text": "외모는 서른 때가 가장 마음에 들어, 주름은 예쁘게 봐주세요", "context": "한 방송에서 외모에 대한 생각을 묻자"},
+    {"speaker": "김태희", "text": "영상 편집은 잘 몰라요", "context": "SNS 게시글에서"},
+    {"speaker": "김태희", "text": "난 먹는데 진심이야", "context": "평생 다이어트 중인 남편과 식사 습관이 다르냐는 질문에"}
+  ],
+  "events": [
+    {"summary": "2년 만에 SNS 활동을 재개했다", "year": null, "confirmed": true},
+    {"summary": "예능 프로그램에 출연해 스태프들 음식을 늘 챙긴다는 미담이 알려졌다", "year": null, "confirmed": true},
+    {"summary": "뉴욕을 방문해 여전히 아름답다는 반응을 받았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "45세", "meaning": "현재 나이"},
+    {"value": "2년", "meaning": "SNS 활동 중단 기간"}
+  ],
+  "credentials": [
+    {"item": "하와이에서 미용 전문학교를 운영한다", "whose": "어머니"},
+    {"item": "과거 미인대회에서 진으로 선발됐다", "whose": "어머니"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "비", "relation": "남편", "mentioned_as": "SNS 재개 게시물에 '저희 집으로 오세요'라는 댓글을 남겼다"},
+    {"name": "신혜선", "relation": "동료 배우", "mentioned_as": "'남배우 같다'는 말을 건넸다"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "'이 얼굴이 46세?'라는 반응이 나올 만큼 동안이라는 평가를 받는다",
+    "외모는 서른 때가 가장 마음에 든다고 직접 밝혔다",
+    "초미니 청청 패션을 소화해 나이가 무색하다는 반응을 받았다",
+    "어머니 역시 동안 미모로 알려져 있다"
+  ],
+  "care_habits": [
+    "아침 식사를 챙겨 먹는다고 알려졌다"
+  ],
+  "hot_materials": [
+    {"material": "외모는 서른 때가 가장 마음에 든다는 솔직한 발언", "why_hot": "발언"},
+    {"material": "2년 만에 SNS를 재개하자 남편이 남긴 애정 댓글", "why_hot": "반전"},
+    {"material": "평생 다이어트 중인 남편과 달리 먹는 데 진심이라는 발언", "why_hot": "발언"},
+    {"material": "어머니도 동안 미모로 미용학교를 운영한다는 사실", "why_hot": "낙차"},
+    {"material": "초미니 청청 패션에 나이를 잊게 했다는 반응", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "2년 만의 SNS 게시물에 남편이 댓글을 남긴 장면",
+    "뉴욕 거리에서 포착된 모습"
+  ],
+  "sns_materials": [
+    "2년 만에 인스타그램 활동을 재개하며 근황을 올렸다",
+    "영상 편집이 서툴다는 게시글을 올렸다"
+  ],
+  "press_only_materials": [
+    "뉴욕 방문 당시 포착된 사진 보도",
+    "골프장에서 포착된 근황 사진",
+    "초미니 청청 패션 파파라치 사진",
+    "1400억대 건물 관련 부동산 보도"
+  ]
+}
