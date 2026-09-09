@@ -1,0 +1,61 @@
+{
+  "person": {
+    "name": "한고은",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": "50세",
+    "age_range": "",
+    "career": "20대 때 몸무게를 지금까지 그대로 유지하고 있다",
+    "major_work": "",
+    "identity_anchor": "배우 한고은, 20대 때 몸무게 52kg을 지금까지 유지하고 있다"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "한고은", "text": "삼겹살은 안 먹고 24시간은 액체만 먹어요", "context": "몸무게 유지 비결을 묻는 질문에"},
+    {"speaker": "한고은", "text": "결혼하고 나서 새치가 없어졌어요", "context": "동안 비결로 남편을 언급하며"},
+    {"speaker": "한고은", "text": "나이 들면서 자가 발열이 안 돼요, 촬영할 때 뼈가 시려요", "context": "모닝 루틴을 공개하며"},
+    {"speaker": "한고은", "text": "살찌면 큰일 나요", "context": "20대 때와 비교해 체중 차이가 거의 없다고 밝히며"}
+  ],
+  "events": [
+    {"summary": "20대 때 체중을 지금까지 그대로 유지하고 있다", "year": null, "confirmed": true},
+    {"summary": "일주일에 한 번 24시간 동안 액체만 먹는 방식을 이어오고 있다", "year": null, "confirmed": true},
+    {"summary": "결혼 후 새치가 없어졌다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "50세", "meaning": "현재 나이"},
+    {"value": "52kg", "meaning": "20대부터 유지 중인 몸무게"},
+    {"value": "24시간", "meaning": "주 1회 액체만 먹는 절식 시간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "신영수", "relation": "남편", "mentioned_as": "결혼 후 새치가 없어진 이유로 언급됐다"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "20대 때 몸무게 52kg을 지금까지 유지하고 있다",
+    "삼겹살을 먹지 않고 주 1회 24시간 액체만 먹는 절식을 실천한다고 밝혔다",
+    "결혼 후 새치가 없어졌다고 말했다"
+  ],
+  "care_habits": [
+    "삼겹살을 먹지 않는다",
+    "일주일에 한 번 24시간 동안 액체만 먹는다",
+    "조금씩 자주 먹는 식습관을 유지한다"
+  ],
+  "hot_materials": [
+    {"material": "20대 때 몸무게 52kg을 지금도 유지한다는 사실", "why_hot": "낙차"},
+    {"material": "주 1회 24시간 액체만 먹는 절식 습관", "why_hot": "발언"},
+    {"material": "결혼 후 새치가 없어졌다는 발언", "why_hot": "발언"},
+    {"material": "촬영할 때 자가 발열이 안 돼 뼈가 시리다는 솔직한 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "일주일에 하루 액체만 먹는 절식일의 모습",
+    "촬영장에서 추위를 유독 많이 타는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "청담동 럭셔리 빌라 공개 보도",
+    "방송에서 뷰티 루틴을 소개한 장면"
+  ]
+}
