@@ -1,0 +1,79 @@
+{
+  "person": {
+    "name": "김희애",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "배우",
+    "major_work": "부부의 세계",
+    "identity_anchor": "부부의 세계·돌풍 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김희애", "text": "42년 연기 인생, 운 좋았죠", "context": "인터뷰에서 한 말"},
+    {"speaker": "김희애", "text": "자기관리 이유, 밤에 나가봤자 사건사고만 날텐데 굳이", "context": "자기관리 이유를 묻는 인터뷰에서 한 말"},
+    {"speaker": "김희애", "text": "요즘 나의 목표는 상대 배우에게 좋은 파트너가 되는 것", "context": "인터뷰에서 한 말"},
+    {"speaker": "김희애", "text": "싼 거야", "context": "유재석이 패션을 극찬하자 쿨하게 답한 말"},
+    {"speaker": "박해준", "text": "김희애랑 연기하는데!", "context": "부부의 세계 캐스팅을 회상하며 라디오쇼에서 한 말"}
+  ],
+  "events": [
+    {"summary": "제주에서 18년째 생활하며 서울에서의 우울했던 마음이 치유됐다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "제주 여행에서 탄탄한 팔뚝과 종아리 라인이 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "쇼트커트 헤어스타일이 잘 어울린다는 평을 받았다", "year": null, "confirmed": true},
+    {"summary": "박해준이 부부의 세계 캐스팅 제안을 처음엔 거절했다가 욕을 먹었다고 라디오쇼에서 밝혔다", "year": null, "confirmed": true},
+    {"summary": "돌풍에서 설경구와 함께 정치를 소재로 한 작품에 출연했다", "year": null, "confirmed": true},
+    {"summary": "김선호와 함께하는 예능 봉주르빵집에 출연할 예정을 예고했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "18년차", "meaning": "제주 생활 기간"},
+    {"value": "42년", "meaning": "연기 인생 경력"}
+  ],
+  "credentials": [
+    {"item": "연기 인생 42년차다", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "김희애랑 연기하는데!", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "유재석", "relation": "예능 진행자", "mentioned_as": "패션을 극찬한 인물"},
+    {"name": "박해준", "relation": "부부의 세계 공동 출연자", "mentioned_as": "캐스팅을 회상한 인물"},
+    {"name": "설경구", "relation": "돌풍 공동 주연", "mentioned_as": "공동 주연"},
+    {"name": "김선호", "relation": "예능 공동 출연자", "mentioned_as": "봉주르빵집 공동 출연자"}
+  ],
+  "works": [
+    {"title": "부부의 세계", "year": null, "costar": "박해준", "scene": "박해준이 캐스팅 제안을 처음엔 거절했다가 욕을 먹었다고 밝힌 비하인드", "kind": "실제"},
+    {"title": "돌풍", "year": null, "costar": "설경구", "scene": "정치의 외피를 쓴 욕망을 그린 작품에 함께 출연했다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "58세라는 나이가 믿기지 않는다는 반응이 나왔다",
+    "제주 여행에서 탄탄한 팔뚝과 종아리 라인이 화제였다",
+    "쇼트커트도 잘 어울린다는 평을 받았다"
+  ],
+  "care_habits": [
+    "자기관리 이유로 밤에 나가지 않는다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "자기관리 이유, 밤에 나가봤자 사건사고만 날텐데 굳이라는 발언", "why_hot": "발언"},
+    {"material": "박해준이 캐스팅 제안을 거절했다가 욕먹었다는 비하인드", "why_hot": "반전"},
+    {"material": "제주 여행에서 탄탄한 팔뚝·종아리 라인이 화제", "why_hot": "장면"},
+    {"material": "유재석 패션 극찬에 싼 거야로 받아친 반응", "why_hot": "발언"},
+    {"material": "58세인데 쇼트커트도 잘 어울린다는 반응", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "제주 여행지에서 드러난 탄탄한 팔뚝과 종아리",
+    "쇼트커트 헤어로 등장한 근황 사진"
+  ],
+  "sns_materials": [
+    "제주 여행 근황 사진(탄탄한 팔뚝·종아리 라인)",
+    "쇼트커트 헤어 근황 사진",
+    "분위기 좋은 카페 근황 사진",
+    "Loewe Amazona 180 백 스타일링 사진",
+    "그라프 부티크 방문 근황 사진"
+  ],
+  "press_only_materials": [
+    "쁘렝땅 캠페인 화보",
+    "조끼 스타일링 패션지 기사"
+  ]
+}
