@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "이하늬",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": 42,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "애마",
+    "identity_anchor": "애마·밤피꽃 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이하늬", "text": "나의 영원한 슈퍼스타", "context": "공효진과의 자매 케미를 언급하며 한 말"},
+    {"speaker": "이하늬", "text": "나를 갈아넣었다", "context": "출산 6개월 만에 액션 연기를 마친 뒤 밝힌 말"},
+    {"speaker": "이하늬", "text": "오빠만 100번 정도 찾아", "context": "남편에게 의존적인 모습을 밝힌 인터뷰"},
+    {"speaker": "이하늬", "text": "남편은 은인 같은 사람", "context": "결혼이 가능했던 이유를 밝힌 인터뷰"},
+    {"speaker": "이하늬", "text": "베드신 이해해 준 남편 고마워", "context": "작품 속 연기에 대해 밝힌 인터뷰"},
+    {"speaker": "이하늬", "text": "37시간 출산 진통, 같이 밤새웠다", "context": "출산 당시를 회상하며 밝힌 말"},
+    {"speaker": "이하늬", "text": "나보다 소중한 존재, 잘 커줘서 고마워", "context": "SBS 연기대상 수상소감"}
+  ],
+  "events": [
+    {"summary": "42세에 자연임신에 성공했다", "year": null, "confirmed": true},
+    {"summary": "둘째를 임신했다", "year": null, "confirmed": true},
+    {"summary": "출산 6개월 만에 와이어를 타고 액션 연기를 했다", "year": null, "confirmed": true},
+    {"summary": "출산 3개월 만에 화면에 복귀했다", "year": null, "confirmed": true},
+    {"summary": "37시간 진통을 겪었고 남편과 함께 밤을 새웠다", "year": null, "confirmed": true},
+    {"summary": "SBS 연기대상에서 최우수상을 수상하며 남편과 딸에게 상을 바쳤다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "42세", "meaning": "자연임신에 성공한 나이"},
+    {"value": "6개월", "meaning": "출산 후 액션 연기를 시작한 시점"},
+    {"value": "37시간", "meaning": "출산 진통 시간"}
+  ],
+  "credentials": [
+    {"item": "SBS 연기대상 최우수상을 수상했다", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "나를 갈아넣었다", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "공효진", "relation": "동료 배우", "mentioned_as": "자매 같은 케미를 나눈 인물"},
+    {"name": "피터", "relation": "남편", "mentioned_as": "배우자"}
+  ],
+  "works": [
+    {"title": "애마", "year": null, "costar": "", "scene": "베드신을 이해해준 남편에게 고마움을 전한 작품", "kind": "실제"},
+    {"title": "밤피꽃", "year": null, "costar": "", "scene": "출산 6개월 만에 와이어 액션을 소화한 작품", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "출산 3개월 만에 화면 복귀가 가능할 정도로 관리가 빨랐다",
+    "42세에도 자연임신에 성공할 만큼 건강을 유지했다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "출산 6개월 만에 액션 연기, 나를 갈아넣었다는 발언", "why_hot": "발언"},
+    {"material": "42세 자연임신 성공", "why_hot": "낙차"},
+    {"material": "37시간 진통을 함께 버틴 남편 이야기", "why_hot": "발언"},
+    {"material": "SBS 연기대상에서 딸과 남편에게 상을 바친 장면", "why_hot": "장면"},
+    {"material": "공효진과의 자매 같은 케미", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "와이어를 타고 액션 연기를 하는 촬영장 장면",
+    "SBS 연기대상 시상식 무대에서 소감을 밝히는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "보그 코리아 3월호 커버",
+    "가을 간절기 패션 제안 매거진 기사",
+    "SBS 연기대상 레드카펫 사진"
+  ]
+}
