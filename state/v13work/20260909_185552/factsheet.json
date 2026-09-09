@@ -1,0 +1,81 @@
+{
+  "person": {
+    "name": "문가영",
+    "gender": "여",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "배우",
+    "major_work": "그놈은 흑염룡",
+    "identity_anchor": "그놈은 흑염룡·만약에 우리 주연 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "문가영", "text": "쉴 때 책 몰아서 보는 편, 아침 루틴은 소금차", "context": "일상 루틴을 밝힌 인터뷰"},
+    {"speaker": "문가영", "text": "글 쓸 때 자유로워, 가장 솔직한 모습", "context": "산문집 출간 인터뷰"},
+    {"speaker": "문가영", "text": "저의 든든한 울타리", "context": "백상예술대상 수상소감에서 구교환을 언급하며 한 말"},
+    {"speaker": "문가영", "text": "도전 좋아해", "context": "시스루 룩 논란에 답한 인터뷰"},
+    {"speaker": "문가영", "text": "얌전하다고? 변칙 주고파", "context": "이미지 변신 이유를 밝힌 인터뷰"},
+    {"speaker": "성시경", "text": "투명하고 고급스러워", "context": "예능에서 문가영을 극찬한 말"}
+  ],
+  "events": [
+    {"summary": "백상예술대상에서 여우주연상을 수상했다", "year": null, "confirmed": true},
+    {"summary": "SK-II 캠페인 원 앤 온리의 모델로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "돌체앤가바나 뷰티 글로벌 앰버서더로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "나스 리퀴드 블러쉬 신규 모델로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "독일에서 5살 때 길거리 캐스팅으로 모델 활동을 시작했다", "year": null, "confirmed": true},
+    {"summary": "성시경이 투명하고 고급스럽다며 극찬했다", "year": null, "confirmed": true},
+    {"summary": "산문집을 출간했다", "year": null, "confirmed": true},
+    {"summary": "앞머리를 바꾼 근황이 화제가 됐다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "5살", "meaning": "독일에서 길거리 캐스팅된 나이"},
+    {"value": "17살", "meaning": "성시경과의 나이 차"}
+  ],
+  "credentials": [
+    {"item": "백상예술대상 여우주연상을 수상했다", "whose": "본인"},
+    {"item": "SK-II, 돌체앤가바나 뷰티, 나스 등 여러 브랜드의 모델로 발탁됐다", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "투명하고 고급스러워", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "구교환", "relation": "영화 공동 출연자", "mentioned_as": "수상소감에서 감사를 전한 인물"},
+    {"name": "성시경", "relation": "선배 가수", "mentioned_as": "극찬한 인물"},
+    {"name": "최현욱", "relation": "드라마 공동 출연자", "mentioned_as": "공동 주연"},
+    {"name": "김유정", "relation": "동료 배우", "mentioned_as": "친구"}
+  ],
+  "works": [
+    {"title": "만약에 우리", "year": null, "costar": "구교환", "scene": "백상예술대상 수상소감에서 든든한 울타리라고 감사를 전한 작품", "kind": "실제"},
+    {"title": "그놈은 흑염룡", "year": null, "costar": "최현욱", "scene": "분수대 키스신으로 화제였던 작품", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "SK-II, 돌체앤가바나 뷰티, 나스 등 여러 브랜드가 잇따라 모델로 발탁했다",
+    "민낯도 화보가 된다는 평가를 받는다"
+  ],
+  "care_habits": [
+    "아침에 소금차를 마신다",
+    "쉴 때는 책을 몰아서 본다"
+  ],
+  "hot_materials": [
+    {"material": "성시경이 투명하고 고급스럽다고 극찬한 발언", "why_hot": "발언"},
+    {"material": "여러 명품·뷰티 브랜드가 잇따라 모델로 발탁한 사실", "why_hot": "낙차"},
+    {"material": "독일에서 5살 때 길거리 캐스팅된 사연", "why_hot": "반전"},
+    {"material": "백상 수상소감에서 구교환을 든든한 울타리라 부른 장면", "why_hot": "발언"},
+    {"material": "시스루 논란에 도전 좋아한다고 답한 발언", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "백상예술대상 시상식 무대에서 수상소감을 밝히는 장면",
+    "독일 거리에서 5살 아이가 캐스팅되는 장면"
+  ],
+  "sns_materials": [
+    "앞머리 스타일을 바꾼 근황 사진",
+    "홈웨어 차림에 타투 슬리브를 매치한 근황 사진"
+  ],
+  "press_only_materials": [
+    "SK-II·돌체앤가바나 뷰티·나스 브랜드 캠페인 화보",
+    "시스루 룩 화보",
+    "백상예술대상 레드카펫 사진"
+  ]
+}
