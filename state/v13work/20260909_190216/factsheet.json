@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "김나영",
+    "gender": "여",
+    "job": "방송인",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "방송인",
+    "major_work": "",
+    "identity_anchor": "재혼 후 근황으로 화제인 방송인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김나영", "text": "요즘 예뻐졌다고, 최근 가장 잘한 소비", "context": "예능에서 최근 받은 관리에 대해 밝힌 말"},
+    {"speaker": "김나영", "text": "내 소울메이트", "context": "남편 마이큐를 두고 한 말"},
+    {"speaker": "김나영", "text": "내 짝꿍", "context": "남편 마이큐를 두고 한 말"},
+    {"speaker": "김나영", "text": "7년 전 나 안아주고 싶다, 밤마다 눈물 흘려", "context": "7년 전 싱글맘 시절 사진을 보고 한 말"},
+    {"speaker": "김나영", "text": "너무 꾀죄죄 하더라", "context": "7년 전 사진을 보고 한 말"},
+    {"speaker": "김나영", "text": "내 인생 바꿔준 가방", "context": "15년 전 전 재산을 팔아 산 가방에 대해 밝힌 말"},
+    {"speaker": "홍진경", "text": "쳇", "context": "김나영의 연애 소식에 질투하듯 반응한 말"}
+  ],
+  "events": [
+    {"summary": "예능에 출연해 최근 받은 관리가 요즘 가장 잘한 소비라고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "군살 없는 수영복 자태로 완벽한 몸매 비결이 화제였다", "year": null, "confirmed": true},
+    {"summary": "변우석의 PT샵에 다니며 몸매를 관리한다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "마이큐와 재혼해 신혼 분위기를 만끽하고 있다", "year": null, "confirmed": true},
+    {"summary": "7년 전 싱글맘 시절 사진을 보고 그때의 자신을 안아주고 싶다고 말했다", "year": null, "confirmed": true},
+    {"summary": "15년 전 전 재산을 팔아 인생을 바꿔준 가방을 샀다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "결혼 한 달 반 만에 겹경사 소식을 전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "7년 전", "meaning": "싱글맘으로 힘들었던 시절"},
+    {"value": "15년 전", "meaning": "인생을 바꿔준 가방을 산 시점"},
+    {"value": "한 달 반", "meaning": "결혼 후 겹경사가 전해진 시점"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "쳇", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "마이큐", "relation": "남편", "mentioned_as": "방송인"},
+    {"name": "홍진경", "relation": "방송 동료", "mentioned_as": "질투하듯 반응한 인물"},
+    {"name": "변우석", "relation": "PT샵 연결 인물", "mentioned_as": "배우"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "군살 없는 수영복 자태로 완벽한 몸매라는 평을 받았다",
+    "최근 받은 관리로 예뻐졌다는 말을 들었다"
+  ],
+  "care_habits": [
+    "변우석의 PT샵에 다니며 운동한다"
+  ],
+  "hot_materials": [
+    {"material": "15년 전 전 재산을 팔아 인생을 바꿔준 가방을 샀다는 고백", "why_hot": "반전"},
+    {"material": "7년 전 싱글맘 시절 사진을 보고 눈물 흘렸다는 고백", "why_hot": "발언"},
+    {"material": "재혼 후 신혼 분위기를 만끽하는 근황", "why_hot": "낙차"},
+    {"material": "홍진경이 질투하듯 반응한 장면", "why_hot": "발언"},
+    {"material": "군살 없는 수영복 자태로 화제가 된 몸매", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "7년 전 싱글맘 시절 사진을 들여다보는 장면",
+    "15년 전 전 재산을 팔아 가방을 사던 순간"
+  ],
+  "sns_materials": [
+    "남편과의 백허그 근황 사진",
+    "가족사진 공개 게시물"
+  ],
+  "press_only_materials": [
+    "미니멀 서머 스타일링 패션 매거진 기사",
+    "7부 팬츠 스타일링 기사",
+    "부부의 날 커플룩 사진"
+  ]
+}
