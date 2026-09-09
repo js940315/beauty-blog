@@ -1,0 +1,64 @@
+{
+  "person": {
+    "name": "안선영",
+    "gender": "여",
+    "job": "방송인",
+    "birth_year": null,
+    "age": 49,
+    "age_range": "40대",
+    "career": "방송인",
+    "major_work": "",
+    "identity_anchor": "자기관리 소신 발언으로 알려진 방송인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "안선영", "text": "너무 무서워요", "context": "댓글을 보고 쌍꺼풀 수정 시술을 받은 뒤 밝힌 말"},
+    {"speaker": "안선영", "text": "조금 헐벗어 봤어요", "context": "군살 없는 몸매를 두고 자기관리를 언급하며 한 말"},
+    {"speaker": "안선영", "text": "명품백 말고 피부와 머리숱에 투자하라", "context": "40대 여성에게 관리 조언을 하며 한 말"},
+    {"speaker": "안선영", "text": "10년째 보톡스, 꾸준히 시술 받아", "context": "동안 유지 비결을 밝힌 말"},
+    {"speaker": "안선영", "text": "피부과 시술과 한몸, 비용은 국산차 한 대", "context": "피부과 시술 비용을 밝힌 말"},
+    {"speaker": "안선영", "text": "사고 쳤다, 아들에겐 비밀", "context": "시술 사실을 아들에게는 숨겼다고 밝힌 말"},
+    {"speaker": "안선영", "text": "자연스러워지는 중", "context": "시술 후 변화한 얼굴에 대해 밝힌 말"},
+    {"speaker": "안선영", "text": "한 번도 담배 피운 적 없어", "context": "48세 피부 자신감을 밝히며 한 말"}
+  ],
+  "events": [
+    {"summary": "49세에도 군살 없는 슬림한 몸매를 유지하고 있다는 평가를 받았다", "year": null, "confirmed": true},
+    {"summary": "댓글을 보고 쌍꺼풀 수정 시술을 받았다고 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "10년째 보톡스 시술을 꾸준히 받고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "피부과 시술 비용이 국산차 한 대 값이라고 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "명품 가방 대신 피부와 머리숱 관리에 투자하라고 조언했다", "year": null, "confirmed": true},
+    {"summary": "한 번도 담배를 피운 적이 없다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "쌍꺼풀 시술 이후 아들에게는 비밀로 했다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49세", "meaning": "현재 나이"},
+    {"value": "168cm", "meaning": "키"},
+    {"value": "50kg", "meaning": "체중"},
+    {"value": "10년째", "meaning": "보톡스 시술을 받아온 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "49세에도 군살 없는 슬림한 몸매를 유지한다",
+    "본인이 시술 사실을 숨기지 않고 공개적으로 밝힌다"
+  ],
+  "care_habits": [
+    "명품 대신 피부·머리숱 관리에 투자한다",
+    "담배를 피우지 않는다"
+  ],
+  "hot_materials": [
+    {"material": "명품백 말고 피부·머리숱에 투자하라는 조언", "why_hot": "발언"},
+    {"material": "10년째 보톡스를 꾸준히 받는다는 고백", "why_hot": "발언"},
+    {"material": "피부과 시술 비용이 국산차 한 대 값이라는 고백", "why_hot": "발언"},
+    {"material": "쌍꺼풀 시술을 아들에게 비밀로 했다는 고백", "why_hot": "반전"},
+    {"material": "댓글을 보고 시술을 받았다는 고백", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "댓글을 확인하고 병원으로 향하는 장면",
+    "국산차 한 대 값이라는 시술 비용을 밝히는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
