@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "안선영",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": 49,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "피부·머리숱 관리 소신 발언으로 알려진 방송인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "안선영", "text": "명품백 필요 없어요. 마흔 살 넘으면 피부, 머리숱에 투자하세요.", "context": "조선일보/헬스조선/뉴스엔"},
+    {"speaker": "안선영", "text": "한 번도 담배 피운 적 없어요.", "context": "앳스타일"},
+    {"speaker": "안선영", "text": "밀가루, 설탕 끊은 지 5년 됐어요.", "context": "조선일보"},
+    {"speaker": "안선영", "text": "피부과 시술과 한 몸이죠. 비용은 국산차 한 대 값이에요.", "context": "뉴시스"},
+    {"speaker": "안선영", "text": "10년째 보톡스를 꾸준히 맞고 있어요.", "context": "Nate News('이게바로')"},
+    {"speaker": "안선영", "text": "댓글 보고 쌍꺼풀 AS 받았어요. 너무 무서웠거든요.", "context": "매일경제"},
+    {"speaker": "안선영", "text": "풀메이크업 하고 세안을 안 했더니 다 뒤집어졌어요.", "context": "스포츠조선('바로 안선영')"},
+    {"speaker": "안선영", "text": "수시로 이것을 먹어요.", "context": "코메디닷컴(혈당 관리)"}
+  ],
+  "events": [
+    {"summary": "168cm에 50kg을 유지하고 있다", "year": null, "confirmed": true},
+    {"summary": "갱년기에도 늘씬한 몸매를 유지한다는 평가를 받는다", "year": null, "confirmed": true},
+    {"summary": "11kg 감량에 성공했다", "year": null, "confirmed": true},
+    {"summary": "누적 매출 1조원을 기록한 사업체를 운영한다", "year": null, "confirmed": true},
+    {"summary": "30억원대 건물주로 알려졌다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49세", "meaning": "나이(다수 소스 표기)"},
+    {"value": "48세", "meaning": "나이(일부 소스 표기, 혼재)"},
+    {"value": "168cm", "meaning": "키"},
+    {"value": "50kg", "meaning": "몸무게"},
+    {"value": "11kg", "meaning": "감량한 체중"},
+    {"value": "5년", "meaning": "밀가루·설탕을 끊은 기간"},
+    {"value": "10년", "meaning": "보톡스 시술을 이어온 기간"},
+    {"value": "1조원", "meaning": "누적 매출"},
+    {"value": "30억원", "meaning": "건물 자산 규모"}
+  ],
+  "credentials": [
+    {"item": "누적 매출 1조원 사업체 운영", "whose": "본인"},
+    {"item": "30억원대 건물주", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "48세에도 담배를 피운 적 없다는 자신감을 밝혔다",
+    "50대에도 복근과 민낯 자신감을 유지한다는 평가를 받는다",
+    "갱년기에도 늘씬한 몸매를 유지하고 있다"
+  ],
+  "care_habits": [
+    "밀가루와 설탕을 끊었다",
+    "담배를 피우지 않는다",
+    "피부과 시술을 꾸준히 받는다",
+    "보톡스를 10년째 이어오고 있다"
+  ],
+  "hot_materials": [
+    {"material": "명품백 대신 피부와 머리숱에 투자하라는 소신 발언", "why_hot": "발언"},
+    {"material": "10년째 보톡스를 꾸준히 맞고 있다는 본인 고백", "why_hot": "발언"},
+    {"material": "댓글을 보고 쌍꺼풀 AS까지 받았다는 솔직한 이야기", "why_hot": "반전"},
+    {"material": "풀메이크업 후 세안을 안 해 피부가 뒤집어졌던 경험담", "why_hot": "장면"},
+    {"material": "밀가루·설탕을 끊은 지 5년, 168cm에 50kg을 유지한다는 사실", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "풀메이크업 후 세안을 하지 않아 피부가 뒤집어졌던 장면",
+    "댓글을 보고 병원을 찾아 쌍꺼풀을 손봤던 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
