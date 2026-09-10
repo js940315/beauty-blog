@@ -1,0 +1,87 @@
+{
+  "person": {
+    "name": "김희선",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 49,
+    "age_range": "40대",
+    "career": "데뷔 33년차",
+    "major_work": "우리 집, 다음생은 없으니까, 밥이나 한잔해",
+    "identity_anchor": "데뷔 33년차 배우, 다음생은 없으니까·밥이나 한잔해 등에 출연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김희선", "text": "그렇게 사는 것도 힘들어요.", "context": "twig24.com/매일경제(영포티 조롱 관련 소신 발언)"},
+    {"speaker": "김희선", "text": "애쓰고 있습니다.", "context": "텐아시아"},
+    {"speaker": "김희선", "text": "늘 정 주는 오빠 덕분에 행복해요.", "context": "v.daum.net(정준하 서프라이즈)"},
+    {"speaker": "김희선", "text": "책임지고 물러나겠습니다.", "context": "v.daum.net(한끼합쇼 하차)"},
+    {"speaker": "김희선", "text": "혼나는 줄 알았잖아요.", "context": "매일경제(생일 파티 일화)"},
+    {"speaker": "김희선", "text": "GD가 고등학생, 세븐이 20대 시절에 저도 연예인 비밀카페 회원이었어요.", "context": "매일경제"},
+    {"speaker": "김희선", "text": "출산 후 남편이 저를 투명인간 취급했어요. 이민호와 키스신을 하니까 그제야 질투하더라고요.", "context": "v.daum.net/iMBC연예(살롱드립)"},
+    {"speaker": "김희선", "text": "일하고 싶어요.", "context": "sports.donga.com(경력 단절 호소)"}
+  ],
+  "events": [
+    {"summary": "데뷔 33주년을 맞았다", "year": null, "confirmed": true},
+    {"summary": "출산 후 6년간 활동 공백을 가졌다", "year": null, "confirmed": true},
+    {"summary": "아역 배우에게 명품 옷을 선물하고 연기까지 지도해 '찐 엄마'라는 별명을 얻었다", "year": null, "confirmed": true},
+    {"summary": "생일 파티에서 무릎을 꿇었던 사연이 알려져 웃음을 자아냈다", "year": null, "confirmed": true},
+    {"summary": "'한끼합쇼'에서 책임지고 하차하겠다는 결심을 밝혔다", "year": null, "confirmed": true},
+    {"summary": "'영포티' 조롱에 소신 발언으로 맞섰다", "year": null, "confirmed": true},
+    {"summary": "딸이 첼로 유학 중이며 영재라는 평가를 받았다고 알려졌다", "year": null, "confirmed": true},
+    {"summary": "경력 단절의 어려움을 눈물로 호소했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "49세", "meaning": "나이(다수 소스 표기)"},
+    {"value": "48세", "meaning": "나이(일부 소스 표기, 혼재)"},
+    {"value": "46세", "meaning": "나이(일부 소스 표기, 혼재)"},
+    {"value": "33년", "meaning": "데뷔 후 경과 연수"},
+    {"value": "6년", "meaning": "출산 후 활동 공백 기간"},
+    {"value": "330만원", "meaning": "생일 파티에서 입은 원피스 가격"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "살면서 본 사람 중 가장 예뻐요", "where": "방송(송승헌, 밥이나 한잔해)", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "송승헌", "relation": "'밥이나 한잔해' 동료", "mentioned_as": "실물 미모를 극찬함"},
+    {"name": "정준하", "relation": "예능 동료", "mentioned_as": "서프라이즈 이벤트를 준비함"},
+    {"name": "이혜영", "relation": "'우리, 집' 극중 고부 관계", "mentioned_as": "시한폭탄 같은 고부 갈등 연기로 호흡을 맞춤"},
+    {"name": "윤박", "relation": "'다음생은 없으니까' 극중 남편 역", "mentioned_as": "자연스럽게 믿고 따랐다는 소감을 남김"},
+    {"name": "한혜진", "relation": "'다음생은 없으니까' 동반 출연", "mentioned_as": "허둥대는 성격을 이끌어줌"},
+    {"name": "진서연", "relation": "'다음생은 없으니까' 동반 출연", "mentioned_as": "허둥대는 성격을 이끌어줌"},
+    {"name": "이민호", "relation": "과거 드라마 공동 출연", "mentioned_as": "키스신으로 남편이 뒤늦게 질투했다는 일화의 상대역"}
+  ],
+  "works": [
+    {"title": "우리, 집", "year": null, "costar": "이혜영", "scene": "고부간 갈등을 실감나게 그려낸 장면으로 화제를 모았다", "kind": "극중"},
+    {"title": "다음생은 없으니까", "year": null, "costar": "윤박", "scene": "윤박이 극중 남편 역을 맡아 자연스럽게 믿고 따랐다는 소감을 남겼고, 본인은 경력 단절의 어려움을 눈물로 호소했다", "kind": "실제"},
+    {"title": "과거 출연작", "year": null, "costar": "이민호", "scene": "함께한 작품 속 키스신이 화제였는데, 그 장면 때문에 남편이 뒤늦게 질투했다는 실제 일화를 본인이 공개했다", "kind": "실제"},
+    {"title": "밥이나 한잔해", "year": null, "costar": "송승헌", "scene": "송승헌이 살면서 본 사람 중 가장 예쁘다고 극찬한 순간이 있었다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "'46세 맞아?'라는 반응이 나올 만큼 쇄골과 체형이 화제였다",
+    "20대 뺨치는 수수한 미모라는 평가를 받았다"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "출산 후 남편이 투명인간 취급하다가 이민호와의 키스신에 그제야 질투했다는 본인 고백", "why_hot": "발언"},
+    {"material": "'영포티' 조롱에 정면으로 소신 발언한 것", "why_hot": "반전"},
+    {"material": "330만원짜리 원피스를 입고도 '아버지 남방 같다'고 자평한 장면", "why_hot": "장면"},
+    {"material": "아역 배우에게 명품 옷을 선물하고 연기까지 지도해 '찐 엄마'로 불린 것", "why_hot": "반전"},
+    {"material": "송승헌이 살면서 본 사람 중 가장 예쁘다고 극찬한 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "주차장 바닥에 철퍼덕 앉아 쪽잠을 자는 모습",
+    "생일 파티에서 무릎을 꿇었던 장면",
+    "아역 배우 곁에서 연기를 지도하던 촬영장 모습"
+  ],
+  "sns_materials": [
+    "주차장 바닥에서 쪽잠 자는 모습을 직접 공개했다",
+    "손에 든 아이템이 화제가 되며 금세 완판됐다고 알려졌다"
+  ],
+  "press_only_materials": [
+    "생일 파티에서 입은 330만원 원피스 사진",
+    "20대 뺨치는 수수한 미모라는 반응을 부른 근황 사진",
+    "쇄골과 체지방까지 드러난 몸매 사진"
+  ]
+}
