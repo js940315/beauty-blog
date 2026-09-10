@@ -1,0 +1,87 @@
+{
+  "person": {
+    "name": "임수정",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "데뷔 후 5년 공백을 가졌다가 복귀",
+    "major_work": "미안하다 사랑한다, 미사, 건물주, 싱글 인 서울",
+    "identity_anchor": "미안하다 사랑한다·미사 주연, 5년 공백 후 소속사 없이 활동 중인 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "임수정", "text": "동안 비결이요? 피부과 열심히 다녀요. 유전도 있고요.", "context": "Nate News 인터뷰"},
+    {"speaker": "임수정", "text": "매니저 없이 출연료 정산도 직접 해요.", "context": "뉴스엔/SPOTV NEWS(유퀴즈)"},
+    {"speaker": "임수정", "text": "택시 타고 촬영장 왔어요.", "context": "nanamcom.co.kr"},
+    {"speaker": "임수정", "text": "이동욱, 처음 만났을 때 후광이 비쳤어요. 인간계 얼굴이 아니더라고요.", "context": "지디넷코리아"},
+    {"speaker": "임수정", "text": "소속사 없이 1년째 활동하고 있어요. 보통의 삶과 배우로서의 욕망 사이에 거리감이 있어요.", "context": "노컷뉴스"},
+    {"speaker": "임수정", "text": "5년 공백을 가졌어요. 눈치 안 보고 편히 쉬고 싶어서였어요.", "context": "조선일보(유퀴즈)"},
+    {"speaker": "임수정", "text": "미안하다 사랑한다가 역주행하는 게 너무 좋아요. 소지섭 명대사요? 뭐 이런 대사가 있나 싶었죠.", "context": "v.daum.net"},
+    {"speaker": "임수정", "text": "미사 인기가 다시 많아져서 행복했는데, 당시엔 숨고 싶었어요. 새드엔딩엔 만족해요.", "context": "v.daum.net"},
+    {"speaker": "임수정", "text": "더 서늘한 악역을 맡고 싶어요.", "context": "Nate News RE:인터뷰"},
+    {"speaker": "임수정", "text": "유재석 씨를 보면서 예능을 많이 배워요.", "context": "톱스타뉴스/매일경제"}
+  ],
+  "events": [
+    {"summary": "5년간의 공백기를 가졌다", "year": null, "confirmed": true},
+    {"summary": "소속사 없이 1년째 매니저 없이 활동 중이다", "year": null, "confirmed": true},
+    {"summary": "22년 만에 첫 예능(유퀴즈)에 출연했다", "year": null, "confirmed": true},
+    {"summary": "칸 영화제에 다녀왔다", "year": null, "confirmed": true},
+    {"summary": "'미안하다 사랑한다'가 역주행 인기를 얻었다", "year": null, "confirmed": true},
+    {"summary": "'미사'가 재인기를 얻었다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "46세", "meaning": "나이(일부 소스 표기)"},
+    {"value": "44세", "meaning": "나이(일부 소스 표기, 46세와 혼재)"},
+    {"value": "5년", "meaning": "활동 공백 기간"},
+    {"value": "22년", "meaning": "데뷔 후 첫 예능 출연까지 걸린 기간"},
+    {"value": "1년", "meaning": "소속사 없이 활동한 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "임수정이 천박한 사모님 연기를? 내가 틀렸더라", "where": "인터뷰(원작자 윤태호)", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "이동욱", "relation": "'싱글 인 서울' 상대역", "mentioned_as": "처음 만났을 때 후광이 비쳤다고 언급"},
+    {"name": "소지섭", "relation": "'미안하다 사랑한다' 상대역", "mentioned_as": "명대사를 본인이 직접 회상"},
+    {"name": "하정우", "relation": "'건물주' 극중 남편 역", "mentioned_as": "극중 불륜·이혼 준비 전개로 얽힘"},
+    {"name": "유재석", "relation": "예능 동료", "mentioned_as": "예능을 보고 많이 배운다고 언급"},
+    {"name": "윤태호", "relation": "원작자", "mentioned_as": "연기를 극찬함"},
+    {"name": "김연경", "relation": "패션 화보 동반 출연", "mentioned_as": "함께 수트 패션 화제"},
+    {"name": "설인아", "relation": "패션 화보 동반 출연", "mentioned_as": "함께 수트 패션 화제"}
+  ],
+  "works": [
+    {"title": "미안하다 사랑한다", "year": null, "costar": "소지섭", "scene": "\"밥 먹을래, 나랑 같이 죽을래?\"라는 대사가 있던 장면을 본인이 직접 회상했다", "kind": "극중"},
+    {"title": "미사", "year": null, "costar": "", "scene": "역주행으로 다시 인기를 얻었지만 당시엔 오히려 숨고 싶었다고 회상했다", "kind": "실제"},
+    {"title": "건물주", "year": null, "costar": "하정우", "scene": "극중 남편 하정우와 불륜·이혼 준비 등 반전 전개로 얽히는 장면이 있었다", "kind": "극중"},
+    {"title": "싱글 인 서울", "year": null, "costar": "이동욱", "scene": "이동욱과 호흡을 맞췄고 배우로서 이룰 걸 다 이뤘다는 소감을 남겼다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "동안 비결로 피부과 관리와 유전을 본인이 직접 언급했다",
+    "쉬는 날 바닷가에서도 동안 피부가 눈에 띈다는 평가가 있다"
+  ],
+  "care_habits": [
+    "피부과에 열심히 다닌다",
+    "고기를 먹지 않는다",
+    "대중교통과 택시로 직접 이동한다"
+  ],
+  "hot_materials": [
+    {"material": "매니저·소속사 없이 1년째 셀프로 활동하며 출연료까지 직접 정산한다", "why_hot": "반전"},
+    {"material": "이동욱을 처음 만났을 때 '인간계 얼굴이 아니다'라고 표현한 본인 발언", "why_hot": "발언"},
+    {"material": "5년간 공백을 가진 이유를 눈치 안 보고 쉬고 싶어서였다고 직접 밝혔다", "why_hot": "낙차"},
+    {"material": "동안 비결로 피부과와 유전을 언급했다", "why_hot": "발언"},
+    {"material": "22년 만에 처음 예능에 출연해 입담을 뽐냈다", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "택시를 타고 직접 촬영장에 도착하는 장면",
+    "쉬는 날 바닷가에서 청량한 모습을 보인 장면",
+    "유퀴즈에서 매니저 없이 전화를 직접 받는다고 털어놓는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "언니 잘생겼어요라는 반응을 부른 임수정·김연경·설인아의 수트 패션 사진",
+    "쉬는 날 바닷가에서 포착된 동안 피부 사진",
+    "'파인' 속 재력가 회장 남편 캐릭터의 화려한 메이크업·주얼리 스타일링 사진"
+  ]
+}
