@@ -1,0 +1,83 @@
+{
+  "person": {
+    "name": "이영애",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": 55,
+    "age_range": "50대",
+    "career": "대장금 주연 배우",
+    "major_work": "대장금",
+    "identity_anchor": "대장금 주연 배우, 36년째 이어온 스킨케어 루틴을 처음 공개한 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이영애", "text": "매끄러운 피부를 위해서죠.", "context": "매일경제(36년 스킨케어 루틴 공개)"},
+    {"speaker": "이영애", "text": "안 꾸미면 위아래로 훑어보며 지적해요.", "context": "스포츠경향/조선비즈/Nate News"},
+    {"speaker": "이영애", "text": "시술받고 세안에 신경 써요.", "context": "텐아시아('불후')"},
+    {"speaker": "이영애", "text": "마스크팩과 미스트를 듬뿍 써요.", "context": "v.daum.net('보그')"},
+    {"speaker": "이영애", "text": "역노화 박사를 만났어요.", "context": "Nate News"},
+    {"speaker": "이영애", "text": "감사합니다, 건강하세요.", "context": "supple.kr(대장금 스승님께)"},
+    {"speaker": "이영애", "text": "반가워서 눈물나고 뭉클해요.", "context": "뉴스1/뉴시스/sports.donga.com(대장금 촬영지 방문)"},
+    {"speaker": "이영애", "text": "엄마·아빠 계셔서 더 따뜻한 집이에요.", "context": "v.daum.net"},
+    {"speaker": "이영애", "text": "일상어가 된 '라면 먹을래?', 그때 감수성 지금도 여전해요.", "context": "v.daum.net('질문들')"},
+    {"speaker": "이영애", "text": "라면 좋아하고 자주 먹어요.", "context": "뉴스엔(컬투쇼)"}
+  ],
+  "events": [
+    {"summary": "36년간 이어온 스킨케어 루틴을 처음 공개했다", "year": null, "confirmed": true},
+    {"summary": "아이돌 준비생인 중학교 2학년 딸에게 꾸밈에 대한 지적을 받는다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "'제로 플라스틱'을 선언하며 환경 캠페인을 예고했다", "year": null, "confirmed": true},
+    {"summary": "연로한 아버지의 손을 꼭 잡은 모습이 포착됐다", "year": null, "confirmed": true},
+    {"summary": "22~23년 만에 '대장금' 촬영지와 스승 역 배우를 다시 찾았다", "year": null, "confirmed": true},
+    {"summary": "미국 뉴욕 센트럴파크에서 조깅하는 일상이 포착됐다", "year": null, "confirmed": true},
+    {"summary": "딸 김시아가 한양대에 26학번으로 조기입학했다", "year": null, "confirmed": true},
+    {"summary": "스킨케어 브랜드 '올리디아' TV 광고에 참여했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "55세", "meaning": "나이(다수 소스 표기)"},
+    {"value": "54세", "meaning": "나이(일부 소스 표기, 혼재)"},
+    {"value": "53세", "meaning": "나이(일부 소스 표기, 혼재)"},
+    {"value": "36년", "meaning": "스킨케어 루틴을 지켜온 기간"},
+    {"value": "23년", "meaning": "대장금 방영 후 경과 연수"}
+  ],
+  "credentials": [
+    {"item": "한양대 26학번 조기입학", "whose": "딸(김시아)"}
+  ],
+  "public_reactions": [
+    {"text": "언니만 필터 느낌", "where": "동행(뉴욕 조깅 중)", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김시아", "relation": "딸(배우)", "mentioned_as": "한양대 조기입학, 꾸밈에 대해 엄격하게 지적한다고 언급"}
+  ],
+  "works": [
+    {"title": "대장금", "year": null, "costar": "", "scene": "22~23년 만에 촬영지와 스승 역 배우를 다시 찾아 눈물을 보였다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "36년째 이어온 스킨케어 루틴을 본인이 직접 공개했다",
+    "백옥 피부 비결로 시술과 세안 관리를 언급했다",
+    "마스크팩과 미스트로 주름을 관리한다고 밝혔다",
+    "55세 나이가 믿기지 않는다는 반응이 조깅 사진에서도 이어졌다"
+  ],
+  "care_habits": [
+    "세안에 신경 쓴다",
+    "마스크팩과 미스트를 듬뿍 사용한다",
+    "유일하게 받는다는 피부과 시술이 있다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "36년간 지켜온 스킨케어 루틴을 처음으로 공개했다", "why_hot": "발언"},
+    {"material": "아이돌 준비생 딸에게 꾸밈 지적을 받는다는 고충을 토로했다", "why_hot": "반전"},
+    {"material": "55세인데 뉴욕 조깅 사진마저 화보 같다는 반응이 이어졌다", "why_hot": "낙차"},
+    {"material": "동안 비결을 묻자 '역노화 박사를 만났다'는 농담 같은 답을 남겼다", "why_hot": "발언"},
+    {"material": "23년 만에 대장금 촬영지를 찾아 눈물을 보인 장면", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "센트럴파크에서 조깅하는 뉴욕 일상 장면",
+    "연로한 아버지의 손을 꼭 잡은 장면",
+    "대장금 촬영지에서 스승 역 배우와 재회해 눈물짓는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "가을 스타일링으로 올블랙부터 데님까지 소화한 패션 화보",
+    "독특한 색 매치로 화제가 된 스타킹 스타일링 사진"
+  ]
+}
