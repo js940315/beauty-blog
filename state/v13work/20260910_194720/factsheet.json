@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "장도연",
+    "gender": "여성",
+    "job": "희극인",
+    "birth_year": null,
+    "age": 40,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "구기동프렌즈·살롱드립2 등에 출연한 희극인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장도연", "text": "이 습관 덕분에 얻어걸렸어요.", "context": "Nate News(마른 비결)"},
+    {"speaker": "장도연", "text": "안 찌는 건 아버지 유전자를 받은 거예요.", "context": "insight.co.kr"},
+    {"speaker": "장도연", "text": "전남친 인스타 스토리를 맨날 염탐해요. 기록 남는 줄 몰랐어요.", "context": "insight.co.kr/v.daum.net"},
+    {"speaker": "장도연", "text": "20대 때 클럽에서 헌팅 거절당했어요. 그 경멸의 눈빛에 상처받았죠.", "context": "조선일보"},
+    {"speaker": "장도연", "text": "설렌 적 정말 많아요.", "context": "머니투데이(손석구와의 만남 회상)"},
+    {"speaker": "장도연", "text": "좋아해요?", "context": "충청신문(방송 중 반응)"}
+  ],
+  "events": [
+    {"summary": "40세, '불혹' 생일을 맞았다", "year": null, "confirmed": true},
+    {"summary": "지하철에서 알아보는 사람들이 많을 정도로 인기를 확인했다", "year": null, "confirmed": true},
+    {"summary": "영화배우로도 활동 영역을 넓혔다", "year": null, "confirmed": true},
+    {"summary": "'구기동프렌즈'에서 최다니엘과 블루스를 췄다", "year": null, "confirmed": true},
+    {"summary": "'살롱드립2'에서 손석구의 플러팅을 받아 화제를 모았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "40세", "meaning": "나이(불혹 생일)"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "안 사귈 거면 꼬시지마", "where": "방송(유세윤, 살롱드립2)", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "손석구", "relation": "'살롱드립2' 방송 상대", "mentioned_as": "'넌 내 여자니까'라며 직진 플러팅"},
+    {"name": "최다니엘", "relation": "'구기동프렌즈' 방송 상대", "mentioned_as": "블루스를 추며 최고의 날이라는 반응"},
+    {"name": "유세윤", "relation": "동료 방송인", "mentioned_as": "손석구에게 경고성 조언을 건넴"}
+  ],
+  "works": [
+    {"title": "살롱드립2", "year": null, "costar": "손석구", "scene": "손석구가 '넌 내 여자니까'라며 직진 플러팅을 하는 장면으로 스튜디오가 들썩였다", "kind": "실제"},
+    {"title": "구기동프렌즈", "year": null, "costar": "최다니엘", "scene": "최다니엘과 함께 블루스를 추며 '최고의 날'이라는 반응을 얻었다", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "먹고 싶은 걸 다 먹는데도 안 찌는 체질이라는 평가를 받는다"
+  ],
+  "care_habits": [
+    "특별한 관리 없이도 마른 체형을 유지한다고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "손석구가 방송에서 '넌 내 여자니까'라며 직진 플러팅을 해온 것", "why_hot": "발언"},
+    {"material": "전남친 인스타 스토리를 매일 염탐했다는 솔직한 고백", "why_hot": "반전"},
+    {"material": "먹고 싶은 거 다 먹는데도 안 찌는 체질이라는 것", "why_hot": "낙차"},
+    {"material": "최다니엘과 블루스를 추며 최고의 날이라는 반응을 얻은 장면", "why_hot": "장면"},
+    {"material": "20대 시절 클럽에서 헌팅을 거절당했던 과거 이야기", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "지하철에서 시민들이 알아보는 장면",
+    "최다니엘과 함께 블루스를 추는 장면",
+    "손석구가 플러팅을 건네는 방송 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
