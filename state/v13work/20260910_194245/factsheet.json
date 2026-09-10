@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "신봉선",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": 45,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "11kg 감량 후 다이어트 광고 6회 재계약으로 알려진 방송인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "신봉선", "text": "50살 넘으면 당길 거예요.", "context": "케이트렌디뉴스(안면거상 계획)"},
+    {"speaker": "신봉선", "text": "좋은 인간 사이일 뿐이에요.", "context": "텐아시아('탐비', 열애설 부인)"},
+    {"speaker": "신봉선", "text": "아침 수영과 발레, 건강한 변화가 만든 광고 효과예요.", "context": "EPN엔피나우"},
+    {"speaker": "신봉선", "text": "다이어트 3년째, 체지방률 18%예요.", "context": "tvreport.co.kr"},
+    {"speaker": "신봉선", "text": "1년에 한 번은 꼭 관리를 받아요.", "context": "헬스조선"},
+    {"speaker": "신봉선", "text": "피부과 시술을 받았어요.", "context": "조선일보('슈돌')"},
+    {"speaker": "신봉선", "text": "요요가 와도 위약금이 없어요. 그만큼 자신 있었거든요.", "context": "스포츠조선/starnewskorea.com"},
+    {"speaker": "신봉선", "text": "술 먹은 다음 날 해장은 안 해요.", "context": "v.daum.net"},
+    {"speaker": "신봉선", "text": "3주 내내 당근라페만 먹었어요.", "context": "Chosunbiz"},
+    {"speaker": "신봉선", "text": "목이 늘어난 것 같기도 해요.", "context": "Nate News(감량 효과 농담)"}
+  ],
+  "events": [
+    {"summary": "11kg 감량에 성공해 3년째 유지하고 있다", "year": null, "confirmed": true},
+    {"summary": "다이어트 광고 모델로 6번 재계약했다", "year": null, "confirmed": true},
+    {"summary": "체지방률 18%까지 감량했다", "year": null, "confirmed": true},
+    {"summary": "코 재수술을 받았고, 50대 이후 안면거상까지 계획하고 있다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "감량 과정에서 좌절을 겪기도 했다고 털어놓았다", "year": null, "confirmed": true},
+    {"summary": "아침 수영과 발레를 병행하며 건강하게 변화했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "11kg", "meaning": "감량한 체중"},
+    {"value": "18%", "meaning": "체지방률"},
+    {"value": "6회", "meaning": "다이어트 광고 재계약 횟수"},
+    {"value": "3년", "meaning": "감량 후 유지 기간"},
+    {"value": "3주", "meaning": "당근라페 식단을 이어간 기간"}
+  ],
+  "credentials": [
+    {"item": "다이어트 광고 6회 재계약", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "매출이 가장 높다고 언급했다", "where": "방송(동료 코미디언)", "scale": ""}
+  ],
+  "related_people": [],
+  "works": [],
+  "beauty_evidence": [
+    "11kg 감량 후 얼굴까지 달라졌다는 반응이 이어졌다",
+    "체지방률 18%로 물오른 미모라는 평가를 받았다",
+    "늘씬한 각선미로 화제를 모았다"
+  ],
+  "care_habits": [
+    "아침 수영과 발레를 병행한다",
+    "술 마신 다음 날 해장을 하지 않는다",
+    "당근라페 같은 가벼운 식단을 챙긴다",
+    "피부과 시술을 받는다",
+    "1년에 한 번은 꼭 관리를 받는다"
+  ],
+  "hot_materials": [
+    {"material": "11kg 감량 후 다이어트 광고를 6번이나 재계약했다는 이야기", "why_hot": "낙차"},
+    {"material": "50대 이후 안면거상까지 계획하고 있다는 본인 발언", "why_hot": "발언"},
+    {"material": "요요가 와도 위약금이 없을 만큼 자신 있었다는 이야기", "why_hot": "발언"},
+    {"material": "감량 과정에서 좌절을 겪기도 했다는 솔직한 고백", "why_hot": "반전"},
+    {"material": "아침 수영과 발레로 건강하게 변화했다는 것", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "아침 일찍 수영장에서 운동하는 장면",
+    "발레 수업을 받는 모습",
+    "3주 내내 당근라페를 먹는 식단 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
