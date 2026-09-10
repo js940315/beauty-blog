@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "안영미",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "라디오 DJ이자 두 아이의 엄마로 알려진 방송인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "안영미", "text": "더디지만 천천히 뺐어요.", "context": "v.daum.net(체중 감량)"},
+    {"speaker": "안영미", "text": "공장 같아요. 굳이 해야 하나 싶었어요.", "context": "헤럴드경제/뉴시스(결혼식 관련)"},
+    {"speaker": "안영미", "text": "첫째 눈치에 두 집 살림 기분이에요.", "context": "헤럴드경제(라디오 복귀)"},
+    {"speaker": "안영미", "text": "모유 수유를 끊을 수 없는 이유가 있어요.", "context": "톱스타뉴스/Nate News"},
+    {"speaker": "안영미", "text": "3일 뒤면 이 호강도 끝이에요.", "context": "뉴스1(조리원 식단)"},
+    {"speaker": "안영미", "text": "산모와 아이 모두 건강해요.", "context": "다수 매체(출산 공식 입장)"},
+    {"speaker": "안영미", "text": "남편이 귀국해요. 둘째는 한국에서 낳습니다.", "context": "뉴스1/각사(원정출산 의혹 해명)"},
+    {"speaker": "안영미", "text": "혼인신고만 했어요. 남편은 미국으로 갔고, 저 홀로 신혼이었죠.", "context": "스포츠동아"},
+    {"speaker": "안영미", "text": "네 밝은 모습, 축복이었어요.", "context": "노컷뉴스(대도서관 추모)"}
+  ],
+  "events": [
+    {"summary": "임신 당시 70kg까지 체중이 늘었다가 감량했다", "year": null, "confirmed": true},
+    {"summary": "결혼식을 올리지 않고 혼인신고만 했다", "year": null, "confirmed": true},
+    {"summary": "둘째 출산 두 달 만에 라디오 DJ로 복귀했다", "year": null, "confirmed": true},
+    {"summary": "산후조리원에서 랍스터 식단을 받았다", "year": null, "confirmed": true},
+    {"summary": "원정 출산 의혹에 대해 둘째는 한국에서 낳는다고 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "혼인신고 후 남편이 미국에 있어 홀로 신혼을 보냈다", "year": null, "confirmed": true},
+    {"summary": "이문세가 만삭인 배에 손을 얹고 덕담을 건넸다", "year": null, "confirmed": true},
+    {"summary": "대도서관을 추모하는 자리에 함께했다", "year": null, "confirmed": true},
+    {"summary": "개그콘서트에 재출연해 화제를 모았다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "70kg", "meaning": "임신 당시 최고 체중"},
+    {"value": "2개월", "meaning": "둘째 출산 후 라디오 복귀까지 걸린 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "이문세", "relation": "동료 방송인", "mentioned_as": "만삭 배에 손을 얹고 덕담을 건넴"},
+    {"name": "하리수", "relation": "동료 방송인", "mentioned_as": "함께 대도서관을 추모함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "임신 당시 70kg에서 천천히 감량하며 관리했다"
+  ],
+  "care_habits": [
+    "더디더라도 천천히 감량하는 방식을 택했다",
+    "모유 수유를 이어가고 있다"
+  ],
+  "hot_materials": [
+    {"material": "결혼식 없이 혼인신고만 했다는 소신 발언", "why_hot": "발언"},
+    {"material": "임신 당시 70kg에서 천천히 감량했다는 이야기", "why_hot": "낙차"},
+    {"material": "혼인신고 후 남편은 미국에, 본인은 한국에 홀로 지낸 신혼", "why_hot": "반전"},
+    {"material": "둘째 출산 두 달 만에 라디오 DJ로 복귀한 것", "why_hot": "반전"},
+    {"material": "산후조리원에서 랍스터 식단을 받았다는 이야기", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "산후조리원에서 랍스터 식단을 받는 장면",
+    "이문세가 만삭 배에 손을 얹고 덕담을 건네는 장면",
+    "라디오 부스에 복귀해 첫째 눈치를 본다는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
