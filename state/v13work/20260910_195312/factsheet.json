@@ -1,0 +1,83 @@
+{
+  "person": {
+    "name": "홍윤화",
+    "gender": "여성",
+    "job": "방송인",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "",
+    "major_work": "",
+    "identity_anchor": "100kg에서 40kg 감량에 도전한 방송인, 남편 김민기와 함께 활동"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "홍윤화", "text": "그게 요요의 시작이었어요.", "context": "twig24.com"},
+    {"speaker": "홍윤화", "text": "타이트해졌어요.", "context": "v.daum.net(금팔찌·동상이몽2)"},
+    {"speaker": "홍윤화", "text": "금팔찌가 꽉 끼네요.", "context": "supple.kr"},
+    {"speaker": "홍윤화", "text": "40kg 감량 후 건강에 이상이 와서 다시 늘렸어요.", "context": "v.daum.net"},
+    {"speaker": "홍윤화", "text": "27kg 감량했어요. 비결은...", "context": "뉴시스"},
+    {"speaker": "홍윤화", "text": "이거 내돈내산이에요.", "context": "뉴스엔(20kg 감량 비결)"},
+    {"speaker": "홍윤화", "text": "이번이 마지막 다이어트예요.", "context": "v.daum.net('동상이몽')"},
+    {"speaker": "홍윤화", "text": "살쪄 죽겠다 싶었어요.", "context": "서울En(감량 전 심경)"},
+    {"speaker": "홍윤화", "text": "약물은 절대 안 썼어요.", "context": "sports.donga.com"},
+    {"speaker": "홍윤화", "text": "이거 먹고 일주일 만에 4kg 빠졌어요. 운동은 안 했어요.", "context": "코메디닷컴"},
+    {"speaker": "홍윤화", "text": "남편도 3kg 뺐어요. 이렇게 요리해 먹었어요.", "context": "코메디닷컴"}
+  ],
+  "events": [
+    {"summary": "100kg에서 시작해 40kg 감량을 목표로 다이어트를 시작했다", "year": null, "confirmed": true},
+    {"summary": "20kg, 26kg, 27kg 등 단계적으로 감량에 성공했다", "year": null, "confirmed": true},
+    {"summary": "40kg 감량 후 건강 이상으로 다시 체중을 늘렸다", "year": null, "confirmed": true},
+    {"summary": "반려견이 무지개다리를 건너 슬픔을 전했다", "year": null, "confirmed": true},
+    {"summary": "남편 김민기와 오뎅바를 운영하며 사업으로도 성공을 거뒀다", "year": null, "confirmed": true},
+    {"summary": "결혼 7주년 레트로 웨딩사진을 공개했다", "year": null, "confirmed": true},
+    {"summary": "약물 없이 다이어트했다고 밝혔다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "100kg", "meaning": "다이어트 시작 전 체중"},
+    {"value": "40kg", "meaning": "감량 목표치"},
+    {"value": "27kg", "meaning": "실제 감량 성공치(한 시점 기준)"},
+    {"value": "26kg", "meaning": "실제 감량 성공치(다른 시점 기준)"},
+    {"value": "20kg", "meaning": "실제 감량 성공치(또 다른 시점 기준)"},
+    {"value": "13kg", "meaning": "한 달간 감량치"},
+    {"value": "7kg", "meaning": "7일간 감량치"},
+    {"value": "4kg", "meaning": "일주일간 감량치"},
+    {"value": "955만원", "meaning": "금팔찌 가격"},
+    {"value": "7년", "meaning": "결혼 기념 연차"}
+  ],
+  "credentials": [
+    {"item": "오뎅바 사업 성공(개업 3일 만에 매진)", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "이것은 아름다움", "where": "방송(남편 김민기)", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김민기", "relation": "남편", "mentioned_as": "함께 사업을 운영하고 다이어트를 응원함"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "27kg 감량 후 반쪽이 됐다는 평가를 받았다",
+    "20kg 감량 후 비포 애프터가 화제였다"
+  ],
+  "care_habits": [
+    "약물 없이 식단으로 감량했다",
+    "특정 음식을 즐겨 먹으며 체중을 관리했다",
+    "건강 이상 신호가 오면 체중을 다시 늘리는 유연한 관리를 한다"
+  ],
+  "hot_materials": [
+    {"material": "40kg 감량 목표로 시작해 27kg까지 감량했다는 이야기", "why_hot": "낙차"},
+    {"material": "금팔찌가 꽉 낄 정도로 요요가 왔다고 솔직하게 고백한 것", "why_hot": "장면"},
+    {"material": "건강 이상으로 다시 체중을 늘렸다는 현명한 선택", "why_hot": "반전"},
+    {"material": "약물은 절대 쓰지 않았다는 본인 발언", "why_hot": "발언"},
+    {"material": "남편과 함께 오뎅바 사업도 대박 낸 것", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "금팔찌가 꽉 껴서 요요를 실감한 장면",
+    "단추가 겨우 잠길 정도로 감량된 모습",
+    "남편과 함께 맥주 들고 사업 성공을 자축하는 장면"
+  ],
+  "sns_materials": [
+    "결혼 7주년 레트로 웨딩사진을 공개했다"
+  ],
+  "press_only_materials": []
+}
