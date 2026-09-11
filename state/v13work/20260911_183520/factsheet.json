@@ -1,0 +1,80 @@
+{
+  "person": {
+    "name": "청하",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대 초반",
+    "career": "가수",
+    "major_work": "",
+    "identity_anchor": "아이오아이 출신 솔로 가수, 데뷔 10년차 베테랑"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "청하", "text": "외할아버지, 독립운동 하시고 6·25전쟁도 참전", "context": "외할아버지 이력을 직접 공개함"},
+    {"speaker": "청하", "text": "퇴물, 비키라는 악플 마음 아팠다", "context": "악플로 힘들었던 마음을 고백함"},
+    {"speaker": "청하", "text": "사람 많은 곳 자주 못 간다", "context": "트라우마를 고백함"},
+    {"speaker": "청하", "text": "집도 차도 없다", "context": "수입을 가족과 동료를 위해 썼다고 밝힘"},
+    {"speaker": "청하", "text": "30대 되면 집·차·남친 있을 줄 알았는데…잠시 울어도 되나?", "context": "솔직한 심경을 고백함"},
+    {"speaker": "청하", "text": "인상 써서 오해받아", "context": "시신경 문제를 설명함"},
+    {"speaker": "청하", "text": "아직도 앨범·응원봉 들고 팬 온다", "context": "아이오아이 재결합 이유를 설명함"},
+    {"speaker": "청하", "text": "실제 성격·성향, 연예인과 진짜 안 맞아", "context": "직업과 성향이 안 맞는다는 말을 들었다고 고백함"},
+    {"speaker": "청하", "text": "어릴 적 꿈 형사였다", "context": "어릴 적 장래희망을 밝힘"},
+    {"speaker": "청하", "text": "천년의 이상형보다 강남 자가", "context": "이상형보다 현실적인 바람을 유머러스하게 밝힘"}
+  ],
+  "events": [
+    {"summary": "외할아버지가 독립운동가이자 6·25 참전용사라고 직접 공개하고, 본인은 한국사 1급 자격이 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "퇴물이라는 악플에 마음이 아팠다고 고백하자 동료 가수 가비가 대신 화를 냄", "year": null, "confirmed": true},
+    {"summary": "사람 많은 곳에 자주 가지 못하는 트라우마가 있다고 고백함", "year": null, "confirmed": true},
+    {"summary": "데뷔 10년차인데 집도 차도 없이, 번 돈을 가족과 동료를 위해 썼다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "시신경 문제로 인상을 써서 오해를 받는다고 직접 설명함", "year": null, "confirmed": true},
+    {"summary": "집안 빚을 갚은 뒤 팀원 전원에게 다이아반지와 명품백을 선물했다고 알려짐", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10년차", "meaning": "데뷔 연차"},
+    {"value": "30세", "meaning": "보도 시점 나이(28~30세로 기사마다 표기가 다름)"},
+    {"value": "1급", "meaning": "본인이 밝힌 한국사 자격 등급"}
+  ],
+  "credentials": [
+    {"item": "외할아버지가 독립운동가이자 6·25 참전용사", "whose": "외할아버지"},
+    {"item": "한국사 1급 자격 보유", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "안 비키지. 내가 왜?", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "가비", "relation": "동료 가수", "mentioned_as": "가수"},
+    {"name": "신동엽", "relation": "예능 진행자", "mentioned_as": "방송인"},
+    {"name": "대성", "relation": "예능 궁합 상대(농담성)", "mentioned_as": "가수"},
+    {"name": "박재범", "relation": "같은 예능 출연자", "mentioned_as": "가수"},
+    {"name": "박하선", "relation": "연애 조언을 건넨 선배", "mentioned_as": "배우"}
+  ],
+  "works": [
+    {"title": "미운 우리 새끼", "year": null, "costar": "", "scene": "30대가 되면 집·차·남친이 있을 줄 알았는데 하나도 없다며 속마음을 고백하는 장면", "kind": "실제"},
+    {"title": "놀라운 토요일", "year": null, "costar": "신동엽", "scene": "90도로 인사한 뒤 무언가를 빼앗기는 벌칙성 상황을 겪은 장면", "kind": "실제"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "데뷔 10년차인데 집도 차도 없이, 번 돈을 가족과 동료를 위해 썼다고 직접 밝힘", "why_hot": "반전"},
+    {"material": "외할아버지가 독립운동가이자 6·25 참전용사라고 공개하며 한국사 1급 자격까지 있다고 밝힘", "why_hot": "발언"},
+    {"material": "퇴물, 비키라는 악플에 마음이 아팠다고 고백하자 동료 가비가 대신 화를 냄", "why_hot": "발언"},
+    {"material": "30대가 되면 집·차·남친이 있을 줄 알았는데 하나도 없다며 솔직하게 털어놓음", "why_hot": "낙차"},
+    {"material": "사람 많은 곳에 자주 못 가는 트라우마가 있다고 고백함", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "미운 우리 새끼에서 눈물을 참으며 속마음을 고백하는 장면",
+    "놀라운 토요일에서 벌칙성 상황을 겪는 장면",
+    "반려견 밤비, 아란과 함께하는 일상",
+    "팀원 전원에게 다이아반지와 명품백을 선물하는 모습"
+  ],
+  "sns_materials": [
+    "반려견 밤비·아란과의 일상을 직접 공개",
+    "강아지 간식 주는 법을 소개하는 콘텐츠"
+  ],
+  "press_only_materials": [
+    "언더웨어 브랜드 베리시 캠페인 화보",
+    "긱시크 스타일링 화보"
+  ]
+}
