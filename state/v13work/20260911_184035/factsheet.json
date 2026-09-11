@@ -1,0 +1,55 @@
+{
+  "person": {
+    "name": "김지민",
+    "gender": "여성",
+    "job": "개그우먼",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대 초반",
+    "career": "개그우먼",
+    "major_work": "",
+    "identity_anchor": "개그맨 김준호와 결혼해 시험관 시술 끝에 임신한 개그우먼"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김지민", "text": "벌써 바지 다 안 맞아", "context": "임신 소식을 전하며 밝힌 근황"},
+    {"speaker": "김지민", "text": "화장실에서 너무 울어", "context": "시험관 성공 후 심정을 밝힘"},
+    {"speaker": "김지민", "text": "엄청 뒤집어져", "context": "임신 초기 피부 트러블을 설명함"},
+    {"speaker": "김지민", "text": "김준호 탓에 잠 못 자", "context": "남편 때문에 잠을 설친다고 유쾌하게 폭로함"},
+    {"speaker": "김지민", "text": "언제 원래대로", "context": "낙상 사고로 다친 피부를 걱정하며 한 말"}
+  ],
+  "events": [
+    {"summary": "시험관 시술 끝에 임신에 성공해 혼자 화장실에서 오열했다고 고백함", "year": null, "confirmed": true},
+    {"summary": "임신 초기 피부 트러블이 심해져 울긋불긋해졌다고 직접 밝힘", "year": null, "confirmed": true},
+    {"summary": "임신 준비 중 낙상 사고로 피부가 함몰되고 얼굴에 상처를 입은 적이 있음", "year": null, "confirmed": true},
+    {"summary": "남편 김준호가 장모님에게 치아·피부 관리를 선물하는 효도를 하여 언니로 오해받을 만큼 동안이라는 반응이 나옴", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "거의 성형 수준", "where": "기사반응", "scale": ""},
+    {"text": "엄마 아닌 언니인 줄", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "김준호", "relation": "남편", "mentioned_as": "개그맨"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "어머니에게 치아 관리와 피부 관리를 선물해 동안 소리를 듣게 함"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "시험관 시술 끝에 임신에 성공해 혼자 화장실에서 오열했다고 고백함", "why_hot": "발언"},
+    {"material": "임신 초기 피부 트러블이 심해져 울긋불긋해졌다고 직접 밝힘", "why_hot": "발언"},
+    {"material": "낙상 사고로 피부가 함몰되고 얼굴에 상처를 입은 적이 있음", "why_hot": "장면"},
+    {"material": "남편이 장모님께 치아·피부 관리를 선물해 언니로 오해받을 만큼 동안으로 만들어줌", "why_hot": "반전"},
+    {"material": "김준호 탓에 잠을 못 잔다고 유쾌하게 폭로함", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "화장실에서 혼자 오열하는 순간",
+    "낙상 사고 후 얼굴에 상처가 난 모습",
+    "어머니가 치아 관리 후 환하게 웃는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": []
+}
