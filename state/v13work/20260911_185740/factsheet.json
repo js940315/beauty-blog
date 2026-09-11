@@ -1,0 +1,73 @@
+{
+  "person": {
+    "name": "장혜진",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "배우",
+    "major_work": "기생충",
+    "identity_anchor": "영화 기생충 출연진, 대경대 K-바이오뷰티융합대학원장을 맡은 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장혜진", "text": "베이킹 소다 세안", "context": "피부과로도 안 되던 여드름을 해결한 방법을 밝힘"},
+    {"speaker": "장혜진", "text": "다이아는 예쁘기만 하지 실용성 없어…금이 최고", "context": "본인의 가치관을 밝힌 인터뷰"},
+    {"speaker": "남편", "text": "너 쓰라고 돈 버는 거다", "context": "무명 시절 아내를 지지하며 한 말을 장혜진이 전함"},
+    {"speaker": "딸", "text": "이렇게 좋은 아빠를 선물해 줘서 고맙다", "context": "딸이 남편에게 한 말을 장혜진이 전함"},
+    {"speaker": "장혜진", "text": "이쯤에서 쓰러져야지", "context": "심야괴담회에서 귀신에게 연기 코칭을 받았다며 한 농담"},
+    {"speaker": "장혜진", "text": "칸 영화제 드레스, 김숙이 구해줘", "context": "칸 영화제 드레스 협찬을 못 받았던 사연을 밝힘"},
+    {"speaker": "장혜진", "text": "한예종 졸업앨범 보고 봉준호가 연락", "context": "기생충 캐스팅 비화를 밝힘"}
+  ],
+  "events": [
+    {"summary": "대경대 K-바이오뷰티융합대학원장으로 임명되어 항노화·웰니스 인재 양성에 힘쓰겠다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "피부과에서도 못 고친 여드름을 베이킹소다 세안으로 해결했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "봉준호 감독의 살인의 추억 출연 제안을 거절하고 한동안 연기를 중단해 백화점·마트에서 일한 적이 있음", "year": null, "confirmed": true},
+    {"summary": "이후 기생충으로 봉준호 감독과 재회해 배우 인생이 기사회생함", "year": null, "confirmed": true},
+    {"summary": "칸 영화제 참석 당시 드레스 협찬을 못 받아 친구 김숙이 구해준 옷을 입고 참석함", "year": null, "confirmed": true},
+    {"summary": "결혼 23~24년차이며 무명시절 남편이 월급을 지원해줬고, 이후 차를 선물하며 보답함", "year": null, "confirmed": true},
+    {"summary": "22살 딸이 좋은 아빠를 선물해줘서 고맙다고 말한 적이 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "딸도 배우로 활동 중이며 이창동 감독의 영화 '시'에 출연한 적이 있음", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "23~24년", "meaning": "결혼 연차"},
+    {"value": "22세", "meaning": "딸의 나이"}
+  ],
+  "credentials": [
+    {"item": "대경대 K-바이오뷰티융합대학원장", "whose": "본인"},
+    {"item": "영화 기생충 등 천만 관객 영화에 출연한 배우", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김숙", "relation": "친구, 칸 영화제 드레스를 구해준 은인", "mentioned_as": "방송인"},
+    {"name": "봉준호", "relation": "살인의 추억 캐스팅 제안, 기생충 감독", "mentioned_as": "영화감독"}
+  ],
+  "works": [
+    {"title": "기생충", "year": null, "costar": "", "scene": "봉준호 감독과 재회해 배우 인생이 기사회생한 작품", "kind": "실제"},
+    {"title": "살인의 추억", "year": null, "costar": "", "scene": "봉준호 감독의 첫 캐스팅 제안을 거절한 작품", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "피부과에서도 못 고친 여드름을 베이킹소다 세안으로 해결했다고 밝힘",
+    "대경대 K-바이오뷰티융합대학원장으로 임명되어 항노화·웰니스 분야 인재 양성에 나섬"
+  ],
+  "care_habits": [
+    "베이킹소다로 세안하는 습관을 밝힘"
+  ],
+  "hot_materials": [
+    {"material": "봉준호 감독의 살인의 추억 제안을 거절하고 백화점에서 일하다가 기생충으로 재회해 배우 인생이 기사회생함", "why_hot": "반전"},
+    {"material": "피부과에서도 못 고친 여드름을 베이킹소다 세안으로 해결했다고 직접 밝힘", "why_hot": "발언"},
+    {"material": "칸 영화제 드레스 협찬을 못 받아 친구 김숙이 구해준 옷을 입고 참석함", "why_hot": "실명"},
+    {"material": "무명시절 남편이 월급을 지원해줬고, 이후 차를 선물하며 보답함", "why_hot": "반전"},
+    {"material": "대경대 K-바이오뷰티융합대학원장으로 임명됨", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "백화점·마트에서 일하던 무명 시절의 모습",
+    "베이킹소다로 세안하는 모습",
+    "칸 영화제 레드카펫에 오른 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "칸 영화제 레드카펫 드레스 화보"
+  ]
+}
