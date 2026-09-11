@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "김유정",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대 중반",
+    "career": "배우",
+    "major_work": "구르미 그린 달빛",
+    "identity_anchor": "구르미 그린 달빛·마이 데몬·친애하는 X 등에 출연한 아역배우 출신 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "김유정", "text": "나도 여전히 혼란스러워", "context": "아역배우 시절 심리상담사를 붙인 이유를 밝힌 인터뷰"},
+    {"speaker": "김유정", "text": "자유롭게 연기", "context": "마이 데몬에서 로코퀸에 도전하는 각오를 밝힌 인터뷰"}
+  ],
+  "events": [
+    {"summary": "아역배우 시절 심리적 혼란을 겪어 심리상담사를 붙인 적이 있다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "청룡시리즈 랭킹 3월 여자배우부문에서 김소현의 추격을 뿌리치고 1위에 오름", "year": null, "confirmed": true},
+    {"summary": "친언니 김연정의 출산을 앞두고 이모가 될 준비를 하고 있음", "year": null, "confirmed": true},
+    {"summary": "구르미 그린 달빛 방영 10주년을 맞아 박보검·곽동연과 특집 예능에 함께 출연함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "12억", "meaning": "보도된 오피스텔 가격"},
+    {"value": "25~26세", "meaning": "보도 시점별로 다르게 표기된 나이"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "인형이네", "where": "기사반응", "scale": ""},
+    {"text": "이렇게 잘 어울린다고?", "where": "댓글", "scale": ""},
+    {"text": "우리 유정이 고생 많아", "where": "댓글", "scale": ""},
+    {"text": "이제 김유정이 3명?", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "박보검", "relation": "구르미 그린 달빛 상대역", "mentioned_as": "배우"},
+    {"name": "곽동연", "relation": "구르미 그린 달빛 동료 배우", "mentioned_as": "배우"},
+    {"name": "송강", "relation": "마이 데몬 상대역", "mentioned_as": "배우"},
+    {"name": "김연정", "relation": "친언니", "mentioned_as": "일반인"},
+    {"name": "김소현", "relation": "청룡랭킹 경쟁 배우", "mentioned_as": "배우"}
+  ],
+  "works": [
+    {"title": "구르미 그린 달빛", "year": null, "costar": "박보검", "scene": "방영 10주년을 맞아 곽동연과 함께 특집 예능에서 재회한 장면", "kind": "실제"},
+    {"title": "마이 데몬", "year": null, "costar": "송강", "scene": "\"한번 믿어보지\"라며 위로하는 장면", "kind": "극중"},
+    {"title": "친애하는 X", "year": null, "costar": "", "scene": "뺨에 반창고를 붙인 채 미소 뒤에 광기를 감춘 장면", "kind": "극중"}
+  ],
+  "beauty_evidence": [],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "12억 오피스텔에 살면서 외제차 대신 국산 제네시스 GV80을 택함", "why_hot": "낙차"},
+    {"material": "아역배우 시절 심리적 혼란으로 심리상담사를 붙인 적이 있다고 직접 밝힘", "why_hot": "발언"},
+    {"material": "청룡시리즈 랭킹에서 김소현의 추격을 뿌리치고 여자배우부문 1위에 오름", "why_hot": "실명"},
+    {"material": "구르미 그린 달빛 10주년에 박보검·곽동연과 특집 예능으로 재회함", "why_hot": "실명"},
+    {"material": "피칠갑 연기를 소화하며 팬들의 걱정 섞인 응원을 받음", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "뺨에 반창고를 붙인 채 광기를 감춘 표정",
+    "피칠갑을 한 채 연기에 몰입한 촬영 현장",
+    "10년 만에 박보검·곽동연과 다시 모인 예능 촬영장",
+    "언니의 출산을 앞두고 미소 짓는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "시상식·화보성 웨딩드레스 컷",
+    "찰스앤키스·클라네 브랜드 앰버서더 캠페인 화보",
+    "공항패션 포착 사진",
+    "시스루·금발 스타일링 화보"
+  ]
+}
