@@ -1,0 +1,68 @@
+{
+  "person": {
+    "name": "박은혜",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "마리와 별난아빠들",
+    "identity_anchor": "배우, 이혼 후 아들들과 재회하며 새 활동을 준비하는 방송인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박은혜", "text": "2년 동안 고생", "context": "한국어교원자격증 취득 소감"},
+    {"speaker": "박은혜", "text": "귀신 아님", "context": "전철 창가 셀카 근황을 전하며 한 말"},
+    {"speaker": "박은혜", "text": "120부 함께해 준 시청자 여러분", "context": "드라마 마리와 별난아빠들 종영 소감"},
+    {"speaker": "박은혜", "text": "故안성기, 한번도 뵙지 못해 더 먹먹…한 시대에 살았음에 감사", "context": "고 안성기 추모"},
+    {"speaker": "박은혜", "text": "신세 많이 졌습니다", "context": "고 이순재 추모"},
+    {"speaker": "박은혜", "text": "씩씩하게 버텨줘 자랑스러워", "context": "유학간 두 아들과 재회한 소감"},
+    {"speaker": "박은혜", "text": "머리가 빨리 안 자라네", "context": "일상 셀카를 공개하며 한 말"}
+  ],
+  "events": [
+    {"summary": "이혼 후 유학 보낸 쌍둥이 아들과 한국에서 재회해 씩씩하게 버텨줘 자랑스럽다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "아이들을 만난 뒤 다이어트와 피부관리를 하며 컴백을 준비함", "year": null, "confirmed": true},
+    {"summary": "2년의 노력 끝에 한국어교원자격증을 취득함", "year": null, "confirmed": true},
+    {"summary": "드라마 마리와 별난아빠들 촬영 중 극중 설정으로 웨딩드레스를 입은 홍보 사진이 공개돼 화제가 됐으나, 실제 결혼이 아닌 드라마 속 장면이었음", "year": null, "confirmed": true},
+    {"summary": "드라마 마리와 별난아빠들이 120부로 종영하며 시청자들에게 감사 인사를 전함", "year": null, "confirmed": true},
+    {"summary": "故 안성기, 故 이순재를 추모하며 신세를 많이 졌다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "구의동에 빈티지 소품 쇼룸을 오픈함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "2년", "meaning": "한국어교원자격증 취득까지 걸린 기간"},
+    {"value": "120부", "meaning": "드라마 마리와 별난아빠들 총 회차"}
+  ],
+  "credentials": [
+    {"item": "한국어교원자격증 취득", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "황동주", "relation": "드라마 마리와 별난아빠들 공동 출연 배우", "mentioned_as": "배우"}
+  ],
+  "works": [
+    {"title": "마리와 별난아빠들", "year": null, "costar": "황동주", "scene": "극중 설정으로 웨딩드레스를 입은 홍보 사진이 화제가 됨(실제 결혼 아님)", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "아이들을 만난 뒤 다이어트와 피부관리를 하며 컴백을 준비함"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "전남편과 유학 간 쌍둥이 아들과 재회해 씩씩하게 버텨줘 자랑스럽다고 밝힘", "why_hot": "발언"},
+    {"material": "아이들을 만난 뒤 다이어트와 피부관리를 하며 컴백을 준비함", "why_hot": "발언"},
+    {"material": "2년의 노력 끝에 한국어교원자격증을 취득함", "why_hot": "반전"},
+    {"material": "故 안성기, 故 이순재를 추모하며 신세를 많이 졌다고 밝힘", "why_hot": "발언"},
+    {"material": "드라마 속 웨딩드레스 홍보 사진이 화제를 모았으나 실제로는 극중 설정이었음", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "유학간 아들들과 한국에서 재회하는 모습",
+    "구의동 쇼룸에서 빈티지 소품을 정리하는 모습"
+  ],
+  "sns_materials": [
+    "전철 창가 셀카와 일상 근황을 직접 공개",
+    "캠핑장에서 불멍하는 모습을 공개",
+    "생일 케이크 인증 사진을 공개",
+    "머리가 안 자란다는 솔직한 셀카를 공개"
+  ],
+  "press_only_materials": []
+}
