@@ -1,0 +1,71 @@
+{
+  "person": {
+    "name": "명세빈",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50세",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "이혼 후 생활고를 딛고 재기한 50대 배우"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "명세빈", "text": "이혼 후 카드값 없어 가방 팔았다", "context": "생활고를 고백한 인터뷰"},
+    {"speaker": "명세빈", "text": "가방 팔고 결혼식장 꽃장식 알바까지", "context": "생활고 당시 상황을 밝힘"},
+    {"speaker": "명세빈", "text": "이혼 후 공백으로 생활고, 배우 인생 끝났다고 생각", "context": "유퀴즈 출연 당시 고백"},
+    {"speaker": "명세빈", "text": "멋지게 나이들고파", "context": "숏컷으로 변신하며 밝힌 소감"},
+    {"speaker": "명세빈", "text": "인생의 새로운 시즌을 위해 도전", "context": "숏컷 변신 이유를 밝힘"},
+    {"speaker": "명세빈", "text": "세월은 나만 맞았나", "context": "50세 프로필 사진을 공개하며 한 말"},
+    {"speaker": "명세빈", "text": "고생했다 김 부장, 잘했다 박하진", "context": "드라마 속 대사를 언급하며 뭉클한 소감을 전함"},
+    {"speaker": "명세빈", "text": "저도 울컥했어요", "context": "같은 드라마 대사에 대한 소감"},
+    {"speaker": "명세빈", "text": "50대 김부장 내 얘기 같아", "context": "서울 자가에 홀로 사는 근황을 밝히며 한 말"},
+    {"speaker": "명세빈", "text": "결혼하고 싶어", "context": "이혼 16년 만에 새 출발 의지를 밝힘"},
+    {"speaker": "명세빈", "text": "17세 연하남이 연락처 요구, 나이 얘기에도 포기 안 해", "context": "헌팅 에피소드를 공개함"},
+    {"speaker": "명세빈", "text": "메이크업 안 할수록 예뻤는데", "context": "50세 세월을 이야기하며 한 말"},
+    {"speaker": "명세빈", "text": "결혼 3초 설렘도 느껴봤다", "context": "솔로 생활 중 느낀 감정을 밝힘"}
+  ],
+  "events": [
+    {"summary": "이혼 후 카드값이 없어 명품 가방을 팔고 결혼식장 꽃장식 아르바이트까지 했다고 고백함", "year": null, "confirmed": true},
+    {"summary": "생활고로 한때 배우 인생이 끝났다고 생각했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "50세를 맞아 긴 머리를 숏컷으로 자르며 인생의 새로운 시즌에 도전한다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "드라마 속 대사(고생했다 김 부장, 잘했다 박하진)를 언급하며 본인도 울컥했다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "서울의 자가에 홀로 살고 있으며 극중 50대 캐릭터가 본인 이야기 같다고 밝힘", "year": null, "confirmed": true},
+    {"summary": "이혼 16년 만에 새 출발 의지를 밝히며 결혼하고 싶다고 말함", "year": null, "confirmed": true},
+    {"summary": "17세 연하남이 연락처를 요구했던 에피소드를 공개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "16년", "meaning": "이혼 후 새 출발 의지를 밝히기까지 걸린 기간"},
+    {"value": "17세", "meaning": "헌팅남과의 나이 차이"},
+    {"value": "50세", "meaning": "현재 나이"}
+  ],
+  "credentials": [
+    {"item": "서울 자가 보유", "whose": "본인"}
+  ],
+  "public_reactions": [],
+  "related_people": [],
+  "works": [
+    {"title": "김부장", "year": null, "costar": "", "scene": "박하진 역으로 고생했다는 대사에 본인도 울컥한 장면", "kind": "극중"}
+  ],
+  "beauty_evidence": [
+    "50세를 맞아 긴 머리를 숏컷으로 자르며 인생의 새로운 시즌에 도전한다고 밝힘"
+  ],
+  "care_habits": [],
+  "hot_materials": [
+    {"material": "이혼 후 카드값이 없어 명품 가방을 팔고 결혼식장 꽃장식 알바까지 했다고 고백함", "why_hot": "발언"},
+    {"material": "생활고로 한때 배우 인생이 끝났다고 생각했다고 밝힘", "why_hot": "발언"},
+    {"material": "50세를 맞아 긴 머리를 숏컷으로 자르며 인생의 새로운 시즌에 도전한다고 밝힘", "why_hot": "반전"},
+    {"material": "이혼 16년 만에 새 출발 의지를 밝히며 결혼하고 싶다고 말함", "why_hot": "발언"},
+    {"material": "17세 연하남이 연락처를 요구했던 에피소드를 공개함", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "명품 가방을 팔러 가는 모습",
+    "결혼식장에서 꽃장식 아르바이트를 하는 모습",
+    "긴 머리를 숏컷으로 자르는 순간"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "50세 프로필 사진 화보"
+  ]
+}
