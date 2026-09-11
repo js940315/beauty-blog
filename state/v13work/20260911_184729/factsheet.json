@@ -1,0 +1,79 @@
+{
+  "person": {
+    "name": "이은지",
+    "gender": "여성",
+    "job": "개그우먼",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "개그우먼 겸 방송인",
+    "major_work": "",
+    "identity_anchor": "개그우먼 겸 방송인, 러닝으로 10kg 감량에 성공한 예능인"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이은지", "text": "굶는 다이어트요? 전 안 했어요", "context": "10kg 감량 비결을 밝힌 인터뷰"},
+    {"speaker": "이은지", "text": "현재 56kg…뛸 생각에 자연스레 식욕 억제", "context": "러닝으로 감량한 과정을 설명함"},
+    {"speaker": "이은지", "text": "쓰러지고 나서 기억 없어", "context": "실신 당시를 회상하며 한 말"},
+    {"speaker": "이은지", "text": "놀랐죠", "context": "실신 후 의식을 회복하고 스태프에게 사과하며 한 말"},
+    {"speaker": "이은지", "text": "작가가 시켜서", "context": "방송에서 빚 1000만원이 있다고 한 것이 설정이었다고 밝힌 고백"},
+    {"speaker": "이은지", "text": "완주가 목표", "context": "러닝크루 합류 소감"},
+    {"speaker": "이은지", "text": "웃겨야 한단 부담 있었던 듯", "context": "지락실 시즌1을 다시 보기 어려운 이유를 밝힌 소감"},
+    {"speaker": "이은지", "text": "추리에 관심? 전혀 없었다", "context": "미스터리 수사단 출연 소감"}
+  ],
+  "events": [
+    {"summary": "러닝으로 10kg을 감량해(65kg→55~56kg) 물오른 미모라는 반응을 얻음", "year": null, "confirmed": true},
+    {"summary": "굶지 않고 러닝으로만 감량했다고 직접 밝힘", "year": null, "confirmed": true},
+    {"summary": "다이어트·러닝 중 난생처음 실신해 응급실에 실려갔다가 회복 후 스태프에게 사과함", "year": null, "confirmed": true},
+    {"summary": "방송에서 '빚 1000만원 있다'고 한 것은 작가의 지시에 따른 설정성 발언이었다고 고백함", "year": null, "confirmed": true},
+    {"summary": "러닝크루 '러닝84'에 새로 합류해 완주를 목표로 삼음", "year": null, "confirmed": true},
+    {"summary": "기존 소속사를 떠나 유병재·유규선이 설립한 매니지먼트에 합류했고, 유규선 대표가 '국민 첫사랑'이라는 수식어로 소개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "10kg", "meaning": "감량폭"},
+    {"value": "65kg→55kg", "meaning": "비포애프터 체중"},
+    {"value": "1000만 원", "meaning": "방송용 설정으로 밝힌 가상의 빚 금액"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "러블리", "where": "기사반응", "scale": ""},
+    {"text": "귀여우세요", "where": "방송", "scale": ""},
+    {"text": "고맙다 돌팅아", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "유병재", "relation": "새 소속사 대표", "mentioned_as": "방송인"},
+    {"name": "유규선", "relation": "새 소속사 대표, '국민 첫사랑'이라 소개함", "mentioned_as": "방송인"},
+    {"name": "옥택연", "relation": "방송에서 반응을 보인 동료", "mentioned_as": "가수 겸 배우"},
+    {"name": "조권", "relation": "방송에서 반응을 보인 동료", "mentioned_as": "가수"},
+    {"name": "소지섭", "relation": "방송에서 드립을 건넨 동료", "mentioned_as": "배우"}
+  ],
+  "works": [
+    {"title": "최후의 인류", "year": null, "costar": "", "scene": "예능인 행보 중 만난 게 행운이라고 밝힌 프로그램", "kind": "실제"}
+  ],
+  "beauty_evidence": [
+    "러닝으로 10kg을 감량해 물오른 미모라는 반응을 얻음",
+    "굶지 않고 러닝만으로 감량했다고 직접 밝힘",
+    "현재 56kg을 유지하며 뛸 생각에 자연스레 식욕이 억제된다고 설명함"
+  ],
+  "care_habits": [
+    "아침에 '이것'을 하는 습관 덕분에 요요 없이 유지한다고 밝힘",
+    "러닝크루 '러닝84'에 합류해 꾸준히 달리기를 이어감"
+  ],
+  "hot_materials": [
+    {"material": "65kg에서 55~56kg으로, 10kg을 러닝만으로 감량해 물오른 미모라는 반응을 얻음", "why_hot": "반전"},
+    {"material": "굶지 않고 러닝으로만 감량했다고 직접 밝힘", "why_hot": "발언"},
+    {"material": "다이어트·러닝 중 난생처음 실신해 응급실에 실려간 뒤 스태프에게 사과함", "why_hot": "장면"},
+    {"material": "방송에서 '빚 1000만원' 발언이 작가 지시에 따른 설정이었다고 고백함", "why_hot": "발언"},
+    {"material": "새 소속사로 이적하며 대표 유규선에게 '국민 첫사랑'이라는 별명으로 소개됨", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "실신 후 의식을 회복하며 스태프에게 사과하는 모습",
+    "매일 아침 루틴을 지키는 모습",
+    "완주를 목표로 러닝크루와 함께 달리는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "럭셔리 요트 위 스타일 화보",
+    "단정한 체크→상큼 셀카 화보"
+  ]
+}
