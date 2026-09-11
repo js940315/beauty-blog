@@ -1,0 +1,90 @@
+{
+  "person": {
+    "name": "고소영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "50대",
+    "career": "배우",
+    "major_work": "",
+    "identity_anchor": "배우 장동건의 아내로 알려진 전직 톱스타 배우, 유튜브 채널 '고소영채널'을 직접 운영"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "고소영", "text": "일부러 아냐", "context": "목소리 관련 악플에 억울함 호소"},
+    {"speaker": "고소영", "text": "원래 말투, 어려 보이려는 것 아냐", "context": "앵앵거린다는 악플 해명"},
+    {"speaker": "고소영", "text": "나이 50인데 어린 척 앵앵 거린다고? 원래 말투", "context": "악플 해명"},
+    {"speaker": "고소영", "text": "집에만 있어도 선크림 발라", "context": "동안 피부 비결 인터뷰"},
+    {"speaker": "고소영", "text": "치매예방에 좋다", "context": "돋보기 쓰고 폰게임하는 모닝루틴 설명"},
+    {"speaker": "고소영", "text": "이게 저속노화 비법", "context": "때 밀고 붓기 뺀 뒤 소감"},
+    {"speaker": "고소영", "text": "얼굴→목 600샷 레이저 맞는다", "context": "리프팅 시술 공개"},
+    {"speaker": "고소영", "text": "때 밀면 진짜 예뻐", "context": "때밀이 비포애프터 공개"},
+    {"speaker": "고소영", "text": "얼굴·목까지 600샷 맞아", "context": "리프팅 시술 재차 공개"},
+    {"speaker": "고소영", "text": "저녁 약속 완전히 없앴다", "context": "5개월 체중 감량 비결"},
+    {"speaker": "고소영", "text": "4kg 빠져 10년전 원피스 맞아", "context": "감량 후 소감"},
+    {"speaker": "고소영", "text": "장동건과 '이것' 따로 써", "context": "동안 피부 비결 관련 스킨케어 언급"},
+    {"speaker": "고소영", "text": "월 소비 60%는 SNS 공동구매", "context": "소비 습관 공개"},
+    {"speaker": "고소영", "text": "방구석 앉아 자꾸 사", "context": "인스타 공구 소비 습관"},
+    {"speaker": "고소영", "text": "눈 나빠 마트 설명서도 안 보여", "context": "인스타 쇼핑을 선호하는 이유"},
+    {"speaker": "고소영", "text": "직접 DM 보내, 답장 안 오기도", "context": "인스타 공구 구매 과정"},
+    {"speaker": "고소영", "text": "팔랑귀라서, 끊고 싶은데 좋은 거 많아", "context": "인스타 쇼핑 중독 자평"},
+    {"speaker": "고소영", "text": "오글오글", "context": "장동건과 투샷 공개 후 소감"}
+  ],
+  "events": [
+    {"summary": "목소리 관련 악플에 본인이 직접 해명함", "year": null, "confirmed": true},
+    {"summary": "리프팅 레이저 시술(얼굴~목 600샷)을 직접 공개함", "year": null, "confirmed": true},
+    {"summary": "5개월간 저녁 약속을 없애 체중을 감량함", "year": null, "confirmed": true},
+    {"summary": "때밀이 후 비포애프터를 공개함", "year": null, "confirmed": true},
+    {"summary": "장동건과 투샷 셀카를 공개함", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "600샷", "meaning": "얼굴~목 리프팅 레이저 시술 샷수"},
+    {"value": "4kg", "meaning": "체중 감량폭"},
+    {"value": "49kg", "meaning": "보도된 체중"},
+    {"value": "0.5kg", "meaning": "본인이 밝힌 체중 관리 강박 기준치"},
+    {"value": "60%", "meaning": "월 소비 중 인스타 공동구매가 차지하는 비중"},
+    {"value": "5만 원", "meaning": "즐겨 드는 가방 가격"},
+    {"value": "1000만 원", "meaning": "비교 대상으로 언급된 시계 가격"},
+    {"value": "50~55세", "meaning": "보도 시점별로 다르게 표기된 나이(기사마다 상이)"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "의외네", "where": "기사반응", "scale": "반응 폭발"}
+  ],
+  "related_people": [
+    {"name": "장동건", "relation": "남편", "mentioned_as": "배우"}
+  ],
+  "works": [],
+  "beauty_evidence": [
+    "얼굴부터 목까지 리프팅 레이저 600샷 시술을 직접 공개함",
+    "집에만 있어도 선크림을 꼭 바른다고 밝힘",
+    "눈썹 영양제를 챙겨 바른다고 밝힘",
+    "때밀이 후 피부 톤이 확 달라진 비포애프터를 공개함"
+  ],
+  "care_habits": [
+    "삶은 달걀에 '이것'을 뿌려 먹어 식욕을 눌러준다고 밝힘",
+    "5개월간 저녁 약속을 완전히 없애 체중을 감량함",
+    "밥 없이 돌돌 만 다이어트 김밥을 즐겨 먹음",
+    "아침에 돋보기를 쓰고 폰게임을 하는 루틴을 치매예방이라고 설명함"
+  ],
+  "hot_materials": [
+    {"material": "50대인데 얼굴부터 목까지 리프팅 레이저 600샷을 맞는다고 직접 공개함", "why_hot": "반전"},
+    {"material": "자산가로 알려졌는데 5만 원 가방을 1000만 원 시계보다 소중히 여긴다고 밝힘", "why_hot": "낙차"},
+    {"material": "목소리 관련 악플에 '일부러 아냐'라며 직접 해명함", "why_hot": "발언"},
+    {"material": "월 소비의 60%를 인스타 공동구매에 쓴다고 직접 밝힘", "why_hot": "발언"},
+    {"material": "장동건과 투샷 셀카를 공개하며 동갑내기 부부 케미를 보여줌", "why_hot": "장면"}
+  ],
+  "scene_materials": [
+    "돋보기를 쓰고 폰게임을 하는 아침 루틴",
+    "때를 밀고 나온 뒤 확 달라진 피부 비포애프터",
+    "5만 원 가방을 안고 행복해하는 모습",
+    "방구석에 앉아 인스타 공구 창을 들여다보는 모습"
+  ],
+  "sns_materials": [
+    "장동건과 함께 찍은 투샷 셀카 공개",
+    "무보정 각도 셀카 공개",
+    "고소영채널(유튜브)에서 밝힌 모닝루틴과 소비 습관"
+  ],
+  "press_only_materials": []
+}
