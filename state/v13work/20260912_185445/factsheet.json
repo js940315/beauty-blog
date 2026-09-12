@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "장원영",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "20대",
+    "career": "아이브 멤버",
+    "major_work": "아이브",
+    "identity_anchor": "아이브 멤버, '럭키비키' 긍정 신조어를 만든 가수 장원영"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "장원영", "text": "언니는 바보가 아닌 천재야", "context": "바보설을 해명하며 한 말"},
+    {"speaker": "장원영", "text": "호화스럽게 남편과 잘 살고 싶다", "context": "7년 만에 이상형을 공개하며 한 말"},
+    {"speaker": "장원영", "text": "현모양처를 꿈꾼다, 자기관리하는 남자에게 끌린다", "context": "이상형을 밝히며 한 말"},
+    {"speaker": "장원영", "text": "편의점 너무 좋아", "context": "일본 여행 중 간식 쇼핑을 하며 남긴 말"},
+    {"speaker": "장원영", "text": "각 나라마다 팬들 성격이 조금씩 달라서 귀엽고 신기했다", "context": "해외 팬미팅 소감"},
+    {"speaker": "장원영", "text": "적잖이 당황하시더라", "context": "예능에서 박정민 앞에서 있었던 에피소드를 설명하며"},
+    {"speaker": "안성재", "text": "생존 드립니다", "context": "장원영이 만든 파스타를 맛본 뒤 한 말"}
+  ],
+  "events": [
+    {"summary": "콘서트 후 1시간씩 피부 관리를 한다고 알려졌다(구체 방법은 비공개)", "year": null, "confirmed": true},
+    {"summary": "본인이 만든 긍정 신조어 '럭키비키'가 큰 화제를 모았다", "year": null, "confirmed": true},
+    {"summary": "한남동의 고급 빌라를 137억원에 매입했으며 소속사는 가족과 거주 목적이라 밝혔다", "year": null, "confirmed": true},
+    {"summary": "세브란스병원에 어린이 치료를 위해 2억원을 기부했다", "year": null, "confirmed": true},
+    {"summary": "유튜브 예능 '피식쇼', '살롱드립2' 등에 잇따라 출연했다", "year": null, "confirmed": true},
+    {"summary": "MLB 뉴욕 메츠 경기에서 시구를 했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "137억원", "meaning": "매입한 빌라 가격"},
+    {"value": "2억원", "meaning": "세브란스병원 기부금"}
+  ],
+  "credentials": [
+    {"item": "긍정 신조어 '럭키비키'를 만들어 유행시킴", "whose": "본인"},
+    {"item": "세브란스병원 2억원 기부", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "쏘 뷰티풀", "where": "기사반응", "scale": "해외 배우들이 매료됐다는 반응"},
+    {"text": "저 몸에 다 들어가나", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "카리나", "relation": "스킨케어 습관이 함께 언급된 동료 아이돌", "mentioned_as": "카리나"},
+    {"name": "추성훈", "relation": "화보를 촬영한 작가", "mentioned_as": "추성훈"},
+    {"name": "박정민", "relation": "예능에서 당황시킨 에피소드의 상대", "mentioned_as": "박정민"},
+    {"name": "안성재", "relation": "요리를 극찬한 셰프", "mentioned_as": "안성재"}
+  ],
+  "works": [],
+  "beauty_evidence": ["투명 피부", "다리 길이로 감탄을 자아냄", "해외 스타들도 매료된 미모"],
+  "care_habits": [
+    "콘서트 후 1시간씩 피부 관리 루틴을 한다(구체 방법 비공개)",
+    "하루 한 번 팩을 붙이는 습관이 있다고 알려졌다"
+  ],
+  "hot_materials": [
+    {"material": "본인이 만든 긍정 신조어 '럭키비키'가 크게 유행한 것", "why_hot": "반전"},
+    {"material": "콘서트 후 1시간씩 피부 관리를 한다는 것", "why_hot": "낙차"},
+    {"material": "세브란스병원에 2억원을 기부한 것", "why_hot": "발언"},
+    {"material": "해외 배우들도 매료됐다는 반응이 나온 것", "why_hot": "낙차"},
+    {"material": "137억원짜리 빌라를 가족 거주 목적으로 매입한 것", "why_hot": "낙차"}
+  ],
+  "scene_materials": [
+    "일본 편의점에서 간식을 고르는 모습",
+    "예능에서 박정민 앞에서 당황하는 모습"
+  ],
+  "sns_materials": [
+    "일본 여행 중 편의점 간식 쇼핑을 남긴 게시물",
+    "'Cute n sweet'라는 문구와 함께 남긴 셀카 근황 게시물"
+  ],
+  "press_only_materials": [
+    "MLB 뉴욕 메츠 시구 현장 사진",
+    "화보 및 광고 컷"
+  ]
+}
