@@ -1,0 +1,78 @@
+{
+  "person": {
+    "name": "이다희",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "남편들, 구기동 프렌즈, 냉장고를 부탁해",
+    "identity_anchor": "'남편들'·'구기동 프렌즈' 출연 배우, 176cm 49kg으로 알려진 배우 이다희"
+  },
+  "namesake_dropped": ["CJ그룹 며느리·아나운서 출신 이다희(야구여신, 재벌가 결혼 관련)"],
+  "quotes": [
+    {"speaker": "이다희", "text": "국물은 몇 입만 먹는다", "context": "라면을 즐기면서도 살이 안 찌는 비결 (뉴시스)"},
+    {"speaker": "이다희", "text": "현미밥에 참치를 싸 먹는다", "context": "'냉장고를 부탁해'에서 밝힌 49kg 유지 비결"},
+    {"speaker": "이다희", "text": "내복 아니고 패션이다", "context": "'구기동 프렌즈'에서 최다니엘의 패션 지적에 발끈하며 한 말"},
+    {"speaker": "이다희", "text": "'솔로지옥' 모든 게임 통틀어 강렬했다", "context": "덱스의 첫인상을 고백하며 (냉장고를 부탁해)"},
+    {"speaker": "이다희", "text": "이별 후 살이 빠졌다", "context": "3년 열애 후 이별을 고백하며 ('구기동 프렌즈')"},
+    {"speaker": "이다희", "text": "결혼 해야 하나 현실적으로 고민된다", "context": "예능 '큰손'에서 한 고민 토로"},
+    {"speaker": "노희영", "text": "주제 파악부터 해라", "context": "이다희의 결혼 고민에 대한 조언 (큰손)"},
+    {"speaker": "이다희", "text": "굉장히 매력적인 캐릭터다, 기대해 달라", "context": "드라마 '남편들'에서 맡은 배역을 소개하며"},
+    {"speaker": "이다희", "text": "모든 배우들이 찐으로 하는 액션이 확실한 차별점이다", "context": "드라마 '남편들' 액션 촬영 소감"}
+  ],
+  "events": [
+    {"summary": "라면 마니아로 알려졌지만 176cm에 49kg을 유지하고 있다", "year": null, "confirmed": true},
+    {"summary": "예능 '구기동 프렌즈'에서 최다니엘과 패션을 두고 티격태격했다", "year": null, "confirmed": true},
+    {"summary": "3년 열애 후 이별했다고 예능에서 직접 밝혔다", "year": null, "confirmed": true},
+    {"summary": "예능 '큰손'에서 결혼 고민을 털어놓았고 노희영이 조언을 건넸다", "year": null, "confirmed": true},
+    {"summary": "드라마 '남편들'에서 마약 조직 브레인 역을 맡아 액션 연기에 도전했다", "year": null, "confirmed": true},
+    {"summary": "배우인 남동생과 다정한 남매 투샷을 공개했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "176cm", "meaning": "알려진 키"},
+    {"value": "49kg", "meaning": "알려진 체중"},
+    {"value": "3년", "meaning": "과거 열애 기간"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "주제 파악부터 해라", "where": "방송", "scale": "큰손 출연 발언"}
+  ],
+  "related_people": [
+    {"name": "최다니엘", "relation": "구기동 프렌즈 동료 출연자, 패션 티격태격 상대", "mentioned_as": "최다니엘"},
+    {"name": "장도연", "relation": "구기동 프렌즈 동료 출연자", "mentioned_as": "장도연"},
+    {"name": "경수진", "relation": "구기동 프렌즈 동료 출연자, 함께 연애사를 밝힌 인물", "mentioned_as": "경수진"},
+    {"name": "노희영", "relation": "큰손 출연, 결혼 고민에 조언한 인물", "mentioned_as": "노희영"},
+    {"name": "덱스", "relation": "첫인상이 강렬했다고 언급한 방송인", "mentioned_as": "덱스"},
+    {"name": "김지석", "relation": "드라마 '남편들' 공동 주연", "mentioned_as": "김지석"}
+  ],
+  "works": [
+    {"title": "남편들", "year": null, "costar": "김지석", "scene": "마약 조직 브레인 역할을 맡아 매력적인 캐릭터를 예고한 것", "kind": "실제"},
+    {"title": "구기동 프렌즈", "year": null, "costar": "최다니엘", "scene": "패션을 두고 서로 지적하며 티격태격한 순간", "kind": "실제"}
+  ],
+  "beauty_evidence": ["뼈말라 몸매", "극세사 각선미", "우아한 아우라"],
+  "care_habits": [
+    "라면을 먹어도 국물은 몇 입만 먹는다",
+    "현미밥에 참치를 싸 먹는 식습관을 갖고 있다",
+    "체지방을 태우는 식습관이라고 밝혔다"
+  ],
+  "hot_materials": [
+    {"material": "라면을 즐기면서도 176cm 49kg을 유지하는 식습관", "why_hot": "낙차"},
+    {"material": "최다니엘의 패션 지적에 발끈하며 응수한 순간", "why_hot": "발언"},
+    {"material": "3년 열애 후 이별하며 살이 빠졌다고 밝힌 것", "why_hot": "반전"},
+    {"material": "결혼 고민에 노희영이 '주제 파악부터'라고 조언한 순간", "why_hot": "발언"},
+    {"material": "드라마 '남편들'에서 마약 조직 브레인 역에 도전한 것", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "최다니엘과 패션을 두고 말다툼하듯 티격태격하는 모습",
+    "예능에서 결혼 고민을 털어놓는 모습"
+  ],
+  "sns_materials": [
+    "배우인 남동생과 다정하게 찍은 남매 투샷을 공개한 게시물"
+  ],
+  "press_only_materials": [
+    "'남편들' 제작보고회 포토타임 사진",
+    "화이트 레이스 원피스 화보 사진"
+  ]
+}
