@@ -1,0 +1,74 @@
+{
+  "person": {
+    "name": "화사",
+    "gender": "여성",
+    "job": "가수",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "마마무 멤버, 솔로 가수",
+    "major_work": "마마무, 솔로 앨범 활동",
+    "identity_anchor": "마마무 멤버이자 솔로 가수 화사"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "화사", "text": "알몸 상태로 밟았다", "context": "가습기 밟고 발바닥 2도 화상 입은 사고 설명 (네이트/한국경제)"},
+    {"speaker": "화사", "text": "데뷔 직전 허락없이 삭발했다가 회사에서 잘릴 뻔했다", "context": "데뷔 전 일화 회고 (네이트)"},
+    {"speaker": "화사", "text": "몸매 비법은 공복 운동과 안무연습, 그걸로 쭉쭉 빠졌다", "context": "몸매 관리법 언급 (OSEN)"},
+    {"speaker": "화사", "text": "눈물 참느라 혼났다", "context": "흠뻑쇼 공연 중 무릎 부상·출혈에도 공연을 이어간 뒤 소감 (스타뉴스)"},
+    {"speaker": "화사", "text": "힘이 되는 건 작고 하찮은 귀여움", "context": "컴백 소감 (네이트)"},
+    {"speaker": "화사", "text": "잘 때마다 감사한 마음", "context": "젠슨 황의 공개 팬심 고백에 대한 반응 (네이트)"},
+    {"speaker": "화사", "text": "AI인 줄 알았다, 잘 때마다 감사하다", "context": "젠슨 황의 팬심 고백에 대한 반응 (스타뉴스)"},
+    {"speaker": "화사", "text": "음악 1위 했을 때보다 더 축하받는 기분이다", "context": "젠슨 황 샤라웃 비하인드 공개 (다음뉴스)"},
+    {"speaker": "박정민", "text": "더할나위없이 행복하다", "context": "화사와의 듀엣 무대 소감 (조선비즈)"}
+  ],
+  "events": [
+    {"summary": "가습기를 맨발로 밟아 발바닥에 2도 화상을 입고도 붕대를 감은 채 콘서트를 진행했다", "year": null, "confirmed": true},
+    {"summary": "흠뻑쇼 공연 중 무릎을 다쳐 출혈이 있었는데도 공연을 끝까지 이어갔다", "year": null, "confirmed": true},
+    {"summary": "데뷔 직전 회사 허락 없이 삭발했다가 퇴출 위기를 겪었다", "year": null, "confirmed": true},
+    {"summary": "엔비디아 CEO 젠슨 황이 방송에서 화사의 음악과 춤을 좋아한다고 공개적으로 팬심을 밝혔다", "year": null, "confirmed": true},
+    {"summary": "과거 열애가 확인됐던 박정민과 예능에서 듀엣 무대를 함께 했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "2도 화상", "meaning": "가습기 사고로 입은 발바닥 화상 정도"},
+    {"value": "5kg", "meaning": "언급된 체중 감량 폭"},
+    {"value": "40kg대", "meaning": "보도에서 언급된 체중대"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "So Cute, 그녀의 음악을 사랑한다", "where": "방송", "scale": "유퀴즈 출연 발언"},
+    {"text": "화사 음악, 춤 좋아해", "where": "방송", "scale": "유퀴즈 출연 발언"},
+    {"text": "나도 노력했는데", "where": "댓글", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "젠슨 황", "relation": "엔비디아 CEO, 공개 팬심을 밝힌 인물", "mentioned_as": "젠슨 황"},
+    {"name": "박정민", "relation": "과거 열애가 확인됐던 배우, 듀엣 파트너", "mentioned_as": "박정민"},
+    {"name": "최홍만", "relation": "예능에서 애교 컷을 함께 찍은 방송인", "mentioned_as": "최홍만"},
+    {"name": "성시경", "relation": "위 사진에 댓글을 남긴 가수", "mentioned_as": "성시경"}
+  ],
+  "works": [],
+  "beauty_evidence": ["탄탄한 몸매", "탄탄한 등근육", "납작한 배", "청순한 이미지"],
+  "care_habits": ["공복 상태로 운동한다", "안무 연습을 체중 관리 수단으로 삼는다"],
+  "hot_materials": [
+    {"material": "엔비디아 CEO 젠슨 황이 방송에서 공개적으로 화사의 음악과 춤을 좋아한다고 밝힌 일", "why_hot": "낙차"},
+    {"material": "가습기를 밟아 발바닥에 2도 화상을 입고도 붕대를 감고 콘서트를 강행한 일", "why_hot": "장면"},
+    {"material": "흠뻑쇼 공연 중 무릎 부상과 출혈에도 눈물을 참고 끝까지 공연한 일", "why_hot": "장면"},
+    {"material": "5kg 감량과 공복 운동으로 만든 탄탄한 몸매", "why_hot": "낙차"},
+    {"material": "데뷔 직전 허락 없이 삭발해 퇴출 위기를 겪은 일화", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "붕대를 감은 발로 무대에 선 모습",
+    "무릎에서 피가 나는데도 눈물을 참고 공연을 이어가는 모습",
+    "세계적 CEO의 팬심 고백에 놀란 반응"
+  ],
+  "sns_materials": [
+    "사막 배경 사진에 '좋아하는 왼쪽'이라 적은 게시물",
+    "노을 배경 비키니 사진에 '좋아하는 노을'이라 적은 게시물",
+    "물속 커피 사진에 '좋아하는 물 속에서 커피'라 적은 게시물"
+  ],
+  "press_only_materials": [
+    "마트에서 포착된 캐주얼 하의 패션",
+    "미국 현지에서 포착된 백리스 드레스·슬립 원피스 차림",
+    "공항에서 포착된 패션"
+  ]
+}
