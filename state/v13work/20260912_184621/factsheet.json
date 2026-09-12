@@ -1,0 +1,65 @@
+{
+  "person": {
+    "name": "박민영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "배우",
+    "major_work": "세이렌, 하이킥 시리즈, 내 남편과 결혼해줘",
+    "identity_anchor": "드라마 '세이렌'·'하이킥' 시리즈 출연 배우 박민영"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박민영", "text": "입술을 다 잡아먹어, 볼까지 빨려 들어갔다", "context": "드라마 '세이렌' 키스신 촬영 비하인드를 예능에서 묘사한 표현"},
+    {"speaker": "위하준", "text": "그 '석션 키스신' 발언이 마음이 고마웠다", "context": "박민영의 표현에 대한 인터뷰 반응"},
+    {"speaker": "위하준", "text": "표현이 웃겼다", "context": "박민영의 키스신 묘사에 대한 반응"},
+    {"speaker": "박민영", "text": "집에 개인 사우나가 있어서 위하준도 부러워한다", "context": "집안 시설을 소개하며 한 말"},
+    {"speaker": "박민영", "text": "힘들 때 위로받는다", "context": "일본 팬미팅에서 눈물을 보이며 한 말"},
+    {"speaker": "박민영", "text": "40대에는 새 대표작을 만들겠다, 목표는 에미상이다", "context": "향후 활동 계획을 밝힌 인터뷰"}
+  ],
+  "events": [
+    {"summary": "드라마 '세이렌'에서 위하준과의 키스신 비하인드를 예능에서 유쾌하게 밝혔다", "year": null, "confirmed": true},
+    {"summary": "단발에서 긴 머리로 헤어스타일을 바꿔 화제가 됐다", "year": null, "confirmed": true},
+    {"summary": "일본 팬미팅에서 눈물을 보이며 소감을 전했다", "year": null, "confirmed": true},
+    {"summary": "40대 목표로 에미상 수상을 언급하며 신작 계획을 밝혔다", "year": null, "confirmed": true},
+    {"summary": "생일에 감성적인 문구가 담긴 게시물을 올렸다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "40대", "meaning": "현재 연령대이자 향후 목표를 밝힌 시점"}
+  ],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "뭘 해도 예쁘네", "where": "기사반응", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "위하준", "relation": "드라마 '세이렌' 상대역 배우", "mentioned_as": "위하준"}
+  ],
+  "works": [
+    {"title": "세이렌", "year": null, "costar": "위하준", "scene": "키스신이 예상보다 강렬해 '입술을 다 잡아먹었다'고 표현한 것", "kind": "실제"}
+  ],
+  "beauty_evidence": ["단발에서 긴 머리로의 변신", "우아한 분위기"],
+  "care_habits": [
+    "집에 개인 사우나를 두고 몸을 관리한다"
+  ],
+  "hot_materials": [
+    {"material": "위하준과의 키스신을 '입술을 다 잡아먹었다'고 표현해 화제가 된 것", "why_hot": "발언"},
+    {"material": "위하준이 그 표현에 대해 직접 소감을 밝힌 것", "why_hot": "실명"},
+    {"material": "단발에서 긴 머리로 헤어스타일을 바꾼 것", "why_hot": "반전"},
+    {"material": "집에 개인 사우나가 있어 위하준도 부러워한다는 것", "why_hot": "발언"},
+    {"material": "40대 목표로 에미상을 언급한 것", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "예능에서 키스신 비하인드를 재연하듯 설명하는 모습",
+    "일본 팬미팅에서 눈물을 보이는 모습"
+  ],
+  "sns_materials": [
+    "생일에 감성적인 영문 문구를 남긴 게시물",
+    "감사 인사를 담아 올린 게시물"
+  ],
+  "press_only_materials": [
+    "공항 패션 사진",
+    "브랜드 화보 사진"
+  ]
+}
