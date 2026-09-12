@@ -1,0 +1,70 @@
+{
+  "person": {
+    "name": "임지연",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대",
+    "career": "배우, 한국예술종합학교 출신",
+    "major_work": "더 글로리, 멋진 신세계, 옥씨부인전",
+    "identity_anchor": "드라마 '더 글로리'·'멋진 신세계' 주연 배우 임지연"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "임지연", "text": "허남준 얼굴을 위해 조명도 포기했다, 남주는 무조건 멋있어야 한다", "context": "'유퀴즈'에서 밝힌 촬영 비하인드"},
+    {"speaker": "허남준", "text": "누나 덕을 많이 봤다", "context": "'유퀴즈'에서 로코 장인이 된 소감"},
+    {"speaker": "허남준", "text": "대사가 많아 힘들어했는데 단 한 번도 안 틀리더라", "context": "임지연의 연기에 대한 극찬"},
+    {"speaker": "허남준", "text": "누나, 제대로 때려줘", "context": "액션 신 촬영을 앞두고 한 부탁"},
+    {"speaker": "임지연", "text": "한예종 시절 패션 테러리스트였다", "context": "'유퀴즈'에서 밝힌 학창 시절 고백"},
+    {"speaker": "박정민", "text": "고구마냐?", "context": "한예종 동기 임지연의 버건디룩을 보고 놀린 말"},
+    {"speaker": "임지연", "text": "박정민도 진짜 못 입었다", "context": "박정민의 패션 지적에 대한 반박"},
+    {"speaker": "장서희", "text": "더 글로리 박연진은 민소희를 잇는 악녀 캐릭터다", "context": "임지연의 연기에 대한 극찬"},
+    {"speaker": "차주영", "text": "고마워", "context": "'더 글로리' 촬영 후에도 이어지는 우정을 전하며"}
+  ],
+  "events": [
+    {"summary": "'유퀴즈'에서 상대 배우 허남준을 위해 조명 양보 등 세심하게 챙겼다고 밝혔다", "year": null, "confirmed": true},
+    {"summary": "한예종 동기 박정민과 서로의 옛 패션 감각을 놀리며 웃음을 자아냈다", "year": null, "confirmed": true},
+    {"summary": "'더 글로리' 박연진 역으로 장서희에게 극찬을 받았다", "year": null, "confirmed": true},
+    {"summary": "'더 글로리' 촬영 후에도 차주영과의 우정을 이어가고 있다", "year": null, "confirmed": true},
+    {"summary": "스킨케어 브랜드 바이오힐보의 모델로 발탁됐다", "year": null, "confirmed": true},
+    {"summary": "아침마다 장 건강에 좋다는 특정 음식을 챙겨 먹는다고 밝혔다(구체 음식명 비공개)", "year": null, "confirmed": true}
+  ],
+  "numbers": [],
+  "credentials": [],
+  "public_reactions": [
+    {"text": "더 글로리 박연진은 민소희를 잇는 악녀 캐릭터다", "where": "방송", "scale": "장서희 발언"},
+    {"text": "단 한 번도 안 틀리더라", "where": "방송", "scale": "허남준 발언"}
+  ],
+  "related_people": [
+    {"name": "허남준", "relation": "드라마 '멋진 신세계' 상대역 배우", "mentioned_as": "허남준"},
+    {"name": "박정민", "relation": "한국예술종합학교 동기 배우", "mentioned_as": "박정민"},
+    {"name": "장서희", "relation": "연기를 극찬한 배우", "mentioned_as": "장서희"},
+    {"name": "차주영", "relation": "'더 글로리' 함께 출연한 배우, 절친", "mentioned_as": "차주영"}
+  ],
+  "works": [
+    {"title": "멋진 신세계", "year": null, "costar": "허남준", "scene": "상대 배우를 위해 조명을 양보할 만큼 세심하게 챙긴 것", "kind": "실제"},
+    {"title": "더 글로리", "year": null, "costar": "차주영", "scene": "촬영이 끝난 뒤에도 우정을 이어가는 것", "kind": "실제"}
+  ],
+  "beauty_evidence": ["군살 없이 늘씬한 몸매", "라면을 즐기면서도 유지하는 날씬한 몸매"],
+  "care_habits": [
+    "아침마다 장 건강에 좋다는 음식을 챙겨 먹는다(구체 음식명 비공개)",
+    "스킨케어 브랜드의 모델로 활동한다"
+  ],
+  "hot_materials": [
+    {"material": "상대 배우를 위해 조명까지 양보했다고 밝힌 것", "why_hot": "발언"},
+    {"material": "한예종 동기 박정민과 서로의 옛 패션 감각을 놀린 것", "why_hot": "실명"},
+    {"material": "'더 글로리' 연기로 장서희에게 극찬을 받은 것", "why_hot": "실명"},
+    {"material": "라면을 즐기면서도 날씬한 몸매를 유지하는 것", "why_hot": "낙차"},
+    {"material": "허남준이 대사 실수 한 번 없었다고 극찬한 것", "why_hot": "발언"}
+  ],
+  "scene_materials": [
+    "촬영장에서 상대 배우에게 조명을 양보하는 모습",
+    "한예종 동기와 서로의 패션을 놀리며 웃는 모습"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "화보 촬영 사진",
+    "시상식 드레스 사진"
+  ]
+}
