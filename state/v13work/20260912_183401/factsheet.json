@@ -1,0 +1,77 @@
+{
+  "person": {
+    "name": "이나영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "배우, 뷰티 브랜드 '린뷰티' 대표이사",
+    "major_work": "아너, 신원미상",
+    "identity_anchor": "원빈과 결혼한 배우, 뷰티 브랜드 '린뷰티' 대표이사이기도 한 배우 이나영"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "이나영", "text": "미래 뷰티 시장은 기능과 글로벌이다", "context": "린뷰티 대표이사로서 한 인터뷰 발언"},
+    {"speaker": "이나영", "text": "너무 많이 먹는다", "context": "냉장고를 공개하며 한 자평 (냉터뷰)"},
+    {"speaker": "이나영", "text": "야식은 번데기다", "context": "냉장고 공개 예능에서 밝힌 야식 취향"},
+    {"speaker": "이나영", "text": "손이 큰 편이다", "context": "냉장고 속 음식량에 대한 자평"},
+    {"speaker": "이나영", "text": "대사만 외우면 되겠지 싶었는데 호되게 당했다", "context": "드라마 '아너' 인터뷰에서 복귀 소감"},
+    {"speaker": "이나영", "text": "'아너' 대본을 보자마자 출연을 결정했다", "context": "3년 공백을 깨고 복귀한 이유"},
+    {"speaker": "이나영", "text": "원빈에게도 절대 결말을 안 알려줬다", "context": "드라마 '아너' 관련 인터뷰"},
+    {"speaker": "이나영", "text": "신비주의라기보다 '이불킥' 기준이 높을 뿐이다", "context": "남편과 아들을 공개적으로 언급한 이유"},
+    {"speaker": "이나영", "text": "처음 보고 닮긴 닮았구나 생각했다", "context": "필릭스와의 닮은꼴설을 인정하며"}
+  ],
+  "events": [
+    {"summary": "뷰티 브랜드 '린뷰티'의 대표이사를 맡고 있다", "year": null, "confirmed": true},
+    {"summary": "3년의 공백을 깨고 드라마 '아너'로 복귀했다", "year": null, "confirmed": true},
+    {"summary": "단편영화 '신원미상'으로 스크린에 복귀했다", "year": null, "confirmed": true},
+    {"summary": "예능 냉장고 공개 코너에서 남편 원빈과 함께 쓰는 냉장고를 공개했다", "year": null, "confirmed": true},
+    {"summary": "스트레이키즈 필릭스와의 닮은꼴설을 본인이 인정했다", "year": null, "confirmed": true},
+    {"summary": "생애 세 번째 예능에 출연했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "3년", "meaning": "연기 활동 공백 기간"},
+    {"value": "11년", "meaning": "원빈과의 결혼 연차"},
+    {"value": "12세", "meaning": "아들의 나이"}
+  ],
+  "credentials": [
+    {"item": "뷰티 브랜드 '린뷰티' 대표이사", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "누나 너무 예뻐요", "where": "방송", "scale": "필릭스가 실물을 보고 한 발언"},
+    {"text": "눈 크고 머리도 엄청 작다", "where": "방송", "scale": "필릭스의 감탄"},
+    {"text": "내가 왜 중간에", "where": "기사반응", "scale": "박인비가 부부 사진에 등장하며 한 말"}
+  ],
+  "related_people": [
+    {"name": "원빈", "relation": "남편, 배우", "mentioned_as": "원빈"},
+    {"name": "필릭스", "relation": "닮은꼴설이 나온 스트레이키즈 멤버", "mentioned_as": "필릭스"},
+    {"name": "박인비", "relation": "부부 사진에 함께 등장한 골프선수", "mentioned_as": "박인비"},
+    {"name": "윤송이", "relation": "'이나영의 실제 모델'로 소개된 카이스트 출신 대표", "mentioned_as": "윤송이"}
+  ],
+  "works": [
+    {"title": "아너", "year": null, "costar": "", "scene": "3년 공백을 깨고 복귀해 결말을 남편에게도 알리지 않았다는 것", "kind": "실제"}
+  ],
+  "beauty_evidence": ["매끈한 피부", "하나도 안 늙었다는 반응", "뼈말라 몸매", "존예 비주얼"],
+  "care_habits": [
+    "외출 가방에 크림을 꼭 챙긴다고 알려졌다(구체 제품명 비공개)",
+    "야식으로 고단백 간식인 번데기를 즐긴다",
+    "보톡스·필러 브랜드 휴젤의 모델로 활동한다"
+  ],
+  "hot_materials": [
+    {"material": "배우이면서 뷰티 브랜드 '린뷰티' 대표이사를 겸하고 있는 것", "why_hot": "반전"},
+    {"material": "스트레이키즈 필릭스가 실물을 보고 '너무 예쁘다'며 감탄한 것", "why_hot": "실명"},
+    {"material": "3년 공백을 깨고 대본을 보자마자 복귀를 결정한 것", "why_hot": "반전"},
+    {"material": "야식으로 고단백 번데기를 즐긴다는 것", "why_hot": "발언"},
+    {"material": "필릭스와의 닮은꼴설을 본인이 직접 인정한 것", "why_hot": "실명"}
+  ],
+  "scene_materials": [
+    "냉장고 속 가득한 음식을 공개하는 장면",
+    "필릭스가 실물을 보고 감탄하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "샤넬 N°5 화보 사진",
+    "예능 냉장고 공개 방송 캡처"
+  ]
+}
