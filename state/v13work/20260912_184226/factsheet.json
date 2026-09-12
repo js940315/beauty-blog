@@ -1,0 +1,75 @@
+{
+  "person": {
+    "name": "박보영",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "30대 중후반",
+    "career": "배우, 데뷔 20주년",
+    "major_work": "늑대소년, 미지의 서울, 골드랜드",
+    "identity_anchor": "영화 '늑대소년'·드라마 '미지의 서울' 주연, 데뷔 20주년을 맞은 배우 박보영"
+  },
+  "namesake_dropped": [],
+  "quotes": [
+    {"speaker": "박보영", "text": "잠을 안 자야 돼", "context": "동안 비결을 묻자 농담 삼아 한 말"},
+    {"speaker": "박보영", "text": "숨 언제 참는지 몰라, 너무 어설퍼", "context": "드라마 '미지의 서울' 속 첫 키스 장면 촬영 소감"},
+    {"speaker": "박보영", "text": "가족 여행 겨우 성공", "context": "여행 중 민낯 사진을 공개하며 한 말"},
+    {"speaker": "박보영", "text": "성장통 끝에 느낀 운명 같은 연기, 배우는 제 운명이에요", "context": "데뷔 20주년 인터뷰 소감"},
+    {"speaker": "박보영", "text": "드라마 명대사에 저도 위로받았어요", "context": "'미지의 서울' 관련 인터뷰"},
+    {"speaker": "박보영", "text": "사랑에 보답하고 싶어서 매일 메시지를 보낸다", "context": "바쁜 일정에도 팬에게 매일 메시지를 보내는 이유"},
+    {"speaker": "박보영", "text": "잊지 못할 부국제였다, '늑대소년' 야외 상영이 생각난다", "context": "부산국제영화제 소감"}
+  ],
+  "events": [
+    {"summary": "배우 데뷔 20주년을 맞았다", "year": null, "confirmed": true},
+    {"summary": "여행 중 민낯 사진을 공개했다", "year": null, "confirmed": true},
+    {"summary": "예능 '틈만나면'에서 곧 마흔이라고 하자 이미 40대인 유연석, 이광수가 발끈했다", "year": null, "confirmed": true},
+    {"summary": "개인 사진전 'Somewhere in between'을 열었다", "year": null, "confirmed": true},
+    {"summary": "삼성물산 패션 브랜드 빈폴의 앰배서더로 선정됐다", "year": null, "confirmed": true},
+    {"summary": "친구 배우 박정민을 이광수, 김희원과 함께 응원했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "20주년", "meaning": "배우 데뷔 후 경과 연차"},
+    {"value": "158cm", "meaning": "알려진 키"}
+  ],
+  "credentials": [
+    {"item": "배우 데뷔 20주년", "whose": "본인"},
+    {"item": "개인 사진전 개최", "whose": "본인"}
+  ],
+  "public_reactions": [
+    {"text": "이 언니 왜 안 늙어", "where": "방송", "scale": ""},
+    {"text": "이 누나는 왜 나이를 안 먹어", "where": "방송", "scale": ""}
+  ],
+  "related_people": [
+    {"name": "박진영", "relation": "드라마 '미지의 서울' 극중 상대역 배우", "mentioned_as": "박진영"},
+    {"name": "유연석", "relation": "예능 '틈만나면' 동료 출연자", "mentioned_as": "유연석"},
+    {"name": "이광수", "relation": "예능 '틈만나면' 동료 출연자", "mentioned_as": "이광수"},
+    {"name": "박정민", "relation": "함께 응원하는 절친 배우", "mentioned_as": "박정민"}
+  ],
+  "works": [
+    {"title": "미지의 서울", "year": null, "costar": "박진영", "scene": "극중 첫 키스 장면을 두고 둘 다 어설펐다고 밝힌 것", "kind": "극중"},
+    {"title": "늑대소년", "year": null, "costar": "", "scene": "부산국제영화제 야외 상영을 추억한 것", "kind": "실제"}
+  ],
+  "beauty_evidence": ["모공 하나 없는 피부", "초동안 미모", "청순 우아 러블리한 이미지", "자신 있게 공개한 민낯"],
+  "care_habits": [
+    "특정 과일을 갈아 마신다(구체 과일명은 기사에도 비공개)",
+    "항산화 식품을 챙겨 먹는다(구체 음식명은 기사에도 비공개)"
+  ],
+  "hot_materials": [
+    {"material": "34세~37세인데도 모공 하나 없는 피부로 화제가 된 것", "why_hot": "낙차"},
+    {"material": "곧 마흔이라는 농담에 이미 40대인 유연석·이광수가 발끈한 순간", "why_hot": "실명"},
+    {"material": "드라마 속 첫 키스 장면이 너무 어설펐다고 밝힌 것", "why_hot": "발언"},
+    {"material": "데뷔 20주년을 맞아 '배우는 내 운명'이라 밝힌 것", "why_hot": "발언"},
+    {"material": "여행 중 자신 있게 민낯을 공개한 것", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "여행지에서 민낯으로 사진을 찍는 모습",
+    "예능에서 나이 드립에 동료들이 발끈하는 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "빈폴 브랜드 화보 사진",
+    "개인 사진전 전시 사진",
+    "패션쇼 참석 사진"
+  ]
+}
