@@ -1,0 +1,72 @@
+{
+  "person": {
+    "name": "김남주",
+    "gender": "여성",
+    "job": "배우",
+    "birth_year": null,
+    "age": null,
+    "age_range": "40대",
+    "career": "배우, 데뷔 31년차",
+    "major_work": "안목의 여왕, 원더풀 월드",
+    "identity_anchor": "김승우와 결혼한 배우, '안목의 여왕'·'원더풀 월드' 출연 배우 김남주"
+  },
+  "namesake_dropped": ["남민전 사건 시인 김남주", "시인 김남주의 아내(30주기 옥중시 회고)"],
+  "quotes": [
+    {"speaker": "김남주", "text": "보톡스 써마지 울쎄라 다 맞지만 피부과 좋아하진 않아", "context": "예능 '안목의 여왕'에서 스킨케어 시술 언급"},
+    {"speaker": "김남주", "text": "이슈가 될 줄 몰랐다", "context": "2만 원짜리 시계가 완판된 뒤 소감"},
+    {"speaker": "김남주", "text": "김승우가 갑이고 내가 을이었다, 그런데 요즘은 역전됐다", "context": "남편과의 관계 변화 언급"},
+    {"speaker": "김남주", "text": "지는 잘 입고 남편은 저렇게 입혀", "context": "예능 '미운 우리 새끼'에서 남편 패션 관련 언급"},
+    {"speaker": "김남주", "text": "집에 내 공간이 없어 부엌에서 대본을 본다", "context": "집안 공간 관련 고백"},
+    {"speaker": "김남주", "text": "드라마가 흥행한 건 남편 덕분이다, 남편이 추천한 작품은 다 흥행했다", "context": "미운 우리 새끼에서 남편 공로 언급"},
+    {"speaker": "김남주", "text": "학벌 콤플렉스가 있다", "context": "자녀 교육열이 소문난 이유를 밝히며"},
+    {"speaker": "김남주", "text": "원더풀 월드에서 차은우랑 애인 역할이 아니다, 나도 양심은 있다", "context": "유퀴즈에서 작품 속 역할 관련 언급"},
+    {"speaker": "김남주", "text": "부끄럽지 않게 살겠다", "context": "어머니 원미경을 찾아간 뒤 한 다짐"},
+    {"speaker": "김남주", "text": "1박 2일 도시락이 창피했다, 남편에게 미안하다", "context": "예능 출연 후일담"}
+  ],
+  "events": [
+    {"summary": "데뷔 31년 만에 첫 단독 예능 '안목의 여왕'을 시작했다", "year": null, "confirmed": true},
+    {"summary": "남편 김승우와 10년 만에 함께 토크쇼에 동반 출연했다", "year": null, "confirmed": true},
+    {"summary": "7kg을 감량했다는 소식이 전해졌다", "year": null, "confirmed": true},
+    {"summary": "2만 원짜리 시계가 완판된 뒤 가격이 올랐다", "year": null, "confirmed": true},
+    {"summary": "이상민의 결혼식에서 부케를 받은 뒤 실제로 결혼했다", "year": null, "confirmed": true},
+    {"summary": "배우인 어머니 원미경을 찾아가 다짐을 전했다", "year": null, "confirmed": true}
+  ],
+  "numbers": [
+    {"value": "7kg", "meaning": "감량한 체중"},
+    {"value": "2만원", "meaning": "완판된 시계의 원래 가격"},
+    {"value": "31년", "meaning": "데뷔 후 첫 단독 예능까지 걸린 기간"},
+    {"value": "10년", "meaning": "남편과 동반 예능 출연까지의 공백"}
+  ],
+  "credentials": [],
+  "public_reactions": [],
+  "related_people": [
+    {"name": "김승우", "relation": "남편, 배우", "mentioned_as": "김승우"},
+    {"name": "원미경", "relation": "어머니, 배우", "mentioned_as": "원미경"},
+    {"name": "이상민", "relation": "결혼식에서 부케를 받았던 인연", "mentioned_as": "이상민"},
+    {"name": "차은우", "relation": "드라마 '원더풀 월드' 관련 언급 대상", "mentioned_as": "차은우"}
+  ],
+  "works": [
+    {"title": "원더풀 월드", "year": null, "costar": "차은우", "scene": "애인 역할이 아니냐는 얘기가 나오자 본인이 직접 아니라고 선을 그은 것", "kind": "실제"}
+  ],
+  "beauty_evidence": ["투명한 눈빛", "청량미 담은 근황", "화사한 근황"],
+  "care_habits": [
+    "보톡스·써마지·울쎄라 시술은 받지만 피부과 자체를 즐기지는 않는다고 밝혔다",
+    "살을 뺄 때 특정 습관 하나를 끊는다고 밝혔다(구체 항목은 기사에도 비공개)"
+  ],
+  "hot_materials": [
+    {"material": "데뷔 31년 만에 첫 단독 예능에 도전한 일", "why_hot": "반전"},
+    {"material": "남편과의 갑을관계가 뒤바뀌었다는 솔직한 고백", "why_hot": "발언"},
+    {"material": "보톡스·써마지·울쎄라는 맞지만 피부과는 안 좋아한다는 솔직 발언", "why_hot": "발언"},
+    {"material": "7kg 감량 소식", "why_hot": "낙차"},
+    {"material": "2만 원짜리 시계가 완판돼 가격이 오른 일화", "why_hot": "반전"}
+  ],
+  "scene_materials": [
+    "집 부엌에서 대본을 보는 모습",
+    "남편과 10년 만에 나란히 예능에 출연한 장면"
+  ],
+  "sns_materials": [],
+  "press_only_materials": [
+    "온천에서 휴식하는 근황 사진",
+    "화사한 봄날 근황 사진"
+  ]
+}
